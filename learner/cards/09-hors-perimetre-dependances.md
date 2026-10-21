@@ -12,7 +12,7 @@ Le **hors périmètre** d'une story liste ce qu'elle ne fait pas alors que quelq
 raisonnablement s'y attendre. Il aligne les attentes avant le sprint : à la revue, personne ne
 découvre un « manque » qui avait été convenu. Chaque ligne est une demande plausible, reportée
 ou confiée à un autre canal : elle reste à traiter.
-<Dépendances : à compléter au tour 9b.>
+<Dépendances : à compléter au sous-concept 9b.>
 
 ## Consensus et choix d'école
 - **Consensus** : clarifier ce qui est dans la story et ce qui n'y est pas avant de s'engager

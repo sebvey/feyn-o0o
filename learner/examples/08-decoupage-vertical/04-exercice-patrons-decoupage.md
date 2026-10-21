@@ -6,7 +6,7 @@ session: 3
 domaine: velos
 ---
 
-# Patrons de découpage (tour 8b)
+# Patrons de découpage (sous-concept 8b)
 
 ## Énoncé
 Patrons présentés : périmètre de données, règle, simple avant complexe, qualité de service

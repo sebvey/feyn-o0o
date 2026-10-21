@@ -9,7 +9,7 @@ domaine: velos
 # Hors périmètre d'une story de maintenance, et le « c'est un bug ! » en revue
 
 ## Énoncé
-Tour 9a. Le hors périmètre dit ce que la story ne fait pas alors qu'on pourrait
+Sous-concept 9a. Le hors périmètre dit ce que la story ne fait pas alors qu'on pourrait
 raisonnablement l'attendre ; il aligne les attentes avant le sprint. Pratique courante de
 rédaction, absente du Scrum Guide.
 

@@ -5,11 +5,11 @@ Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en co
 
 ## Prochaine étape
 
-**Concept 9 en cours. Tour 9a (hors périmètre) validé en session 5 (2026-10-21), fiche 09
+**Concept 9 en cours. Sous-concept 9a (hors périmètre) validé en session 5 (2026-10-21), fiche 09
 commencée.** Situation utilisée : technicien de maintenance, vélos signalés en panne ; la
 responsable maintenance prend pour un bug ce qui était hors périmètre (trace
 `09-hors-perimetre-dependances/01`). Aucune question en attente.
-Prochaine étape : **tour 9b (dépendances entre stories)**, sur le fil rouge vélos, avec une
+Prochaine étape : **sous-concept 9b (dépendances entre stories)**, sur le fil rouge vélos, avec une
 situation neuve (ne pas reprendre la maintenance ni le régulateur). Idée à illustrer : deux
 stories d'une même feature peuvent dépendre l'une de l'autre (voir « Points annoncés »). Après
 9b : point de sauvegarde, puis **mini-récap 6 à 9**.
@@ -82,7 +82,7 @@ génériques :
   la règle « un schéma quand il aide ». `projet.md`, `travaux.md` et exemples des fiches archivés
   dans `learner/archive/real-project/`. Le projet factice est généré dans une autre session à partir de
   `projet-factice/GENERER.md`.
-- 2026-10-21, session 3 : concept 8 validé (exercice vélos, aparté tranche/story/tâches), tour
+- 2026-10-21, session 3 : concept 8 validé (exercice vélos, aparté tranche/story/tâches), sous-concept
   8b (patrons de découpage) validé, fiche 08. À la demande de sve : l'opérateur de vélos en
   libre-service devient le fil rouge du cours, et chaque exemple ou question est tracé dans
   `exemples/` (un dossier par concept, un fichier par exemple) pour améliorer le cours plus tard.
@@ -90,5 +90,5 @@ génériques :
 - 2026-10-21, session 4 : pas de cours. Travail sur le cadre avec sve (dossiers `learner/`,
   `course/`, `maintainer/`, skills `update-memory` et `maintenance`) : voir `maintainer/`
   (backlog et ADR), qui tient désormais les changements du cadre.
-- 2026-10-21, session 5 : concept 9 commencé, tour 9a (hors périmètre) validé sur la
+- 2026-10-21, session 5 : concept 9 commencé, sous-concept 9a (hors périmètre) validé sur la
   maintenance des vélos en panne, fiche 09 commencée. Arrêt au point de sauvegarde avant 9b.
