@@ -1,6 +1,6 @@
 ---
 name: maintenance
-description: Mode mainteneur du parcours PO - diagnostiquer une session, proposer ou appliquer un changement du cadre (CLAUDE.md, skills, course/), tester le cadre après un changement.
+description: Charge ce skill quand le mainteneur annonce une session de maintenance ou d'amélioration du dépôt, ou veut modifier CLAUDE.md, un skill, course/ ou le backlog de maintainer/ (créer, trier, traiter un ticket). Ne pas charger pendant le cours ni pendant le TP.
 disable-model-invocation: true
 ---
 
@@ -17,7 +17,7 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 - **`maintainer/maintenance.md`** : propositions en attente et journal du cadre. Tu l'édites en
   autonomie.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`, dans
-  `todo/` puis `done/` une fois appliqué. Tu l'édites en autonomie.
+  `01-todo/` puis `02-done/` une fois appliqué ; `00-proposed/` reçoit les demandes à trier. Tu l'édites en autonomie.
 - **`learner/`** : tu le lis pour diagnostiquer. Tu n'y écris que pour corriger un chemin après
   un déplacement de fichier.
 

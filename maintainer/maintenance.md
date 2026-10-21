@@ -4,7 +4,7 @@ Tenu par le skill `maintenance`. Le professeur n'y écrit que deux choses : une 
 l'apprenant sur la forme du cours (dans « Propositions en attente ») et la correction d'une
 incohérence de `course/mock-project/coulisses.md` (dans le journal).
 
-Les améliorations décidées sont des tickets dans `maintainer/backlog/` (`todo/`, `done/`).
+Les améliorations décidées sont des tickets dans `maintainer/backlog/` (`00-proposed/`, `01-todo/`, `02-done/`).
 
 ## Propositions en attente
 
@@ -15,6 +15,9 @@ Aucune.
 Changements de `CLAUDE.md`, des skills et de `course/`, et propositions refusées (pour ne pas
 les reproposer). Avant le 2026-10-21, session 4 : voir le journal de `learner/parcours.md`.
 
+- 2026-10-21, session de maintenance : backlog en `00-proposed/`, `01-todo/`, `02-done/` ;
+  T-008 appliqué (`CLAUDE.local.md` du mainteneur, description du skill `maintenance` en
+  « Charge ce skill quand… »). Test par sous-agent OK. T-009 et T-010 créés.
 - 2026-10-21, session de maintenance : T-007 appliqué, la limite de 15 lignes compte les lignes
   du texte écrit, lignes vides exclues (`CLAUDE.md`). Test par sous-agent OK.
 - 2026-10-21, session de maintenance : T-005 appliqué, le premier message d'une session
