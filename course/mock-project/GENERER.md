@@ -153,6 +153,4 @@ Il fait quinze lignes au plus et contient :
 L'apprenant lit ce rapport : n'y recopie pas le contenu des coulisses (règles, désaccords, défauts,
 corrigé). C'est la seule précaution, elle ne s'applique pas à ton travail.
 
-Termine par une ligne pour l'agent du cours, à recopier dans le journal de
-`maintainer/maintenance.md` : date, fichiers, résultat des tests. N'écris pas dans ce fichier toi-même, car la session de
-cours l'édite en parallèle.
+Termine par une ligne pour le mainteneur : date, fichiers, résultat des tests.

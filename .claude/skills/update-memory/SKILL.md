@@ -8,8 +8,10 @@ description: Met à jour la mémoire de l'apprenant (learner/) à un point de sa
 But : que l'agent de la session suivante reprenne exactement où on s'est arrêté.
 
 Tu édites en autonomie tout `learner/` et `course/fil-rouge-velos.md`. Une incohérence découverte
-dans `course/mock-project/coulisses.md` se corrige aussi, avec une ligne au journal de
-`maintainer/maintenance.md`. N'écris rien d'autre : le reste relève du skill `maintenance`.
+dans `course/mock-project/coulisses.md` se corrige aussi, avec un ticket dans
+`maintainer/backlog/00-proposed/` (selon `maintainer/backlog/ticket-template.md`) qui décrit
+l'incohérence et la correction, pour relecture par le mainteneur. N'écris rien d'autre : le
+reste relève du skill `maintenance`.
 
 ## 1. Mettre à jour
 

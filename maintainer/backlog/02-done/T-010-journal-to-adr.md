@@ -18,3 +18,8 @@
   - supprimer `maintainer/maintenance.md` une fois son contenu utile repris.
 - **Fini quand** : plus aucun fichier du cadre ne renvoie à `maintenance.md`, et le skill dit
   quand écrire un ADR.
+- **Fait le** : 2026-10-21, `maintainer/adr/` et son modèle ; règle des trois questions au §5
+  du skill `maintenance` ; demandes de l'apprenant (`CLAUDE.md`) et corrections de `coulisses.md`
+  (`update-memory`) en tickets dans `00-proposed/` ; `GENERER.md` ne renvoie plus au journal ;
+  ADR-001 à 007 ; option écartée de la session 4 reprise en T-011 ; `maintenance.md` supprimé.
+  Test par sous-agent OK.

@@ -12,12 +12,13 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 ## Périmètre
 
 - **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/` (sauf `course/fil-rouge-velos.md` et la
-  correction d'une incohérence de `course/mock-project/coulisses.md`, tenus par `update-memory`). Tu proposes, le mainteneur valide, puis tu appliques, même pour une
-  coquille.
-- **`maintainer/maintenance.md`** : propositions en attente et journal du cadre. Tu l'édites en
-  autonomie.
+  correction d'une incohérence de `course/mock-project/coulisses.md`, tenus par
+  `update-memory`). Tu proposes, le mainteneur valide, puis tu appliques, même pour une coquille.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`, dans
-  `01-todo/` puis `02-done/` une fois appliqué ; `00-proposed/` reçoit les demandes à trier. Tu l'édites en autonomie.
+  `01-todo/` puis `02-done/` une fois appliqué ; `00-proposed/` reçoit les demandes à trier. Tu
+  l'édites en autonomie.
+- **`maintainer/adr/`** : les décisions qui passent la règle ADR (§5), au format
+  d'`adr-template.md`. Tu l'édites en autonomie.
 - **`learner/`** : tu le lis pour diagnostiquer. Tu n'y écris que pour corriger un chemin après
   un déplacement de fichier.
 
@@ -31,7 +32,8 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 
 Sources : la conversation si tu es lancé dans la session de cours elle-même ; sinon les sections
 « Pour améliorer le cours » des traces de `learner/examples/` et le journal de
-`learner/parcours.md` depuis le dernier diagnostic noté au journal du cadre.
+`learner/parcours.md` depuis le dernier diagnostic (ticket qui en est issu, dans
+`maintainer/backlog/`).
 
 Relève, avec un fait précis pour chacun :
 - les écarts aux règles du `CLAUDE.md` (message de plus de 15 lignes, deux concepts dans un
@@ -51,15 +53,14 @@ Une proposition n'est présentée que si elle passe **les quatre critères** :
    dit explicitement.
 
 Proposer de retirer une règle inutile vaut autant qu'en ajouter une. Aucune proposition est un
-résultat normal : ne force rien. Commence aussi par les « Propositions en attente » de
-`maintainer/maintenance.md`.
+résultat normal : ne force rien. Commence aussi par les tickets de `maintainer/backlog/00-proposed/`.
 
 ## 3. Appliquer
 
-- Proposition acceptée : applique-la, retire-la des propositions en attente, ajoute une ligne au
-  journal du cadre.
-- Proposition refusée : retire-la, note-la au journal du cadre pour ne pas la reproposer.
-- Proposition non tranchée : elle va, complète, dans « Propositions en attente ».
+- Proposition acceptée : applique-la, puis passe son ticket dans `02-done/` (crée-le s'il
+  n'existe pas) et applique la règle ADR (§5).
+- Proposition refusée : supprime son ticket ; applique la règle ADR au refus.
+- Proposition non tranchée : son ticket reste dans `00-proposed/`, complet.
 
 ## 4. Tester
 
@@ -69,3 +70,14 @@ puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce 
 tient les 15 lignes, prend ses exemples dans le fil rouge vélos pendant le cours (jamais le
 projet factice), trace chaque exemple dans `learner/examples/`, ne repose pas les questions
 d'accueil et suit `update-memory` en fin de session. Rapporte le résultat au mainteneur.
+
+## 5. Décider d'un ADR
+
+Après chaque décision (ticket appliqué, proposition refusée), réponds à trois questions :
+1. La décision fixe-t-elle une structure ou une règle durable du cadre, au-delà d'une
+   formulation ?
+2. Existe-t-il une autre option crédible qu'un mainteneur futur pourrait vouloir reprendre ?
+3. La raison de la décision est-elle absente du cadre lui-même ?
+
+Trois oui : écris un ADR dans `maintainer/adr/`, selon `maintainer/adr/adr-template.md`, et dis-le
+au mainteneur. Sinon, rien : le ticket de `02-done/` et l'historique git suffisent.

@@ -78,8 +78,9 @@ N'annonce pas à l'apprenant ce que tu écris dans `learner/` : seul le message 
 d'`update-memory` en parle.
 
 Une demande de l'apprenant sur la forme du cours, au-delà de « plus vite », « plus lent »,
-« exemple » ou « exercice », va dans « Propositions en attente » de
-`maintainer/maintenance.md` ; dis-lui que le mainteneur la traitera, puis reprends le fil.
+« exemple » ou « exercice », devient un ticket dans `maintainer/backlog/00-proposed/`, selon
+`maintainer/backlog/ticket-template.md` ; dis-lui que le mainteneur la traitera, puis reprends le
+fil.
 
 ## Le TP (après le cours)
 

@@ -88,7 +88,7 @@ génériques :
   `exemples/` (un dossier par concept, un fichier par exemple) pour améliorer le cours plus tard.
   `CLAUDE.md` et le skill `conclure-session` modifiés en conséquence.
 - 2026-10-21, session 4 : pas de cours. Travail sur le cadre avec sve (dossiers `learner/`,
-  `course/`, `maintainer/`, skills `update-memory` et `maintenance`) : voir le journal de
-  `maintainer/maintenance.md`, qui tient désormais les changements du cadre.
+  `course/`, `maintainer/`, skills `update-memory` et `maintenance`) : voir `maintainer/`
+  (backlog et ADR), qui tient désormais les changements du cadre.
 - 2026-10-21, session 5 : concept 9 commencé, tour 9a (hors périmètre) validé sur la
   maintenance des vélos en panne, fiche 09 commencée. Arrêt au point de sauvegarde avant 9b.
