@@ -5,14 +5,13 @@ Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en co
 
 ## Prochaine étape
 
-**Concept 9 en cours. Sous-concept 9a (hors périmètre) validé en session 5 (2026-10-21), fiche 09
-commencée.** Situation utilisée : technicien de maintenance, vélos signalés en panne ; la
-responsable maintenance prend pour un bug ce qui était hors périmètre (trace
-`09-hors-perimetre-dependances/01`). Aucune question en attente.
-Prochaine étape : **sous-concept 9b (dépendances entre stories)**, sur le fil rouge vélos, avec une
-situation neuve (ne pas reprendre la maintenance ni le régulateur). Idée à illustrer : deux
-stories d'une même feature peuvent dépendre l'une de l'autre (voir « Points annoncés »). Après
-9b : point de sauvegarde, puis **mini-récap 6 à 9**.
+**Session 6 (2026-10-21) : retour sur le N d'INVEST, demandé par sve après un mini-récap 6 à 9a.**
+Trace `06-invest/01` : retour sur N validé (critère sans canal réussi, When et Then à
+resserrer). Aucune question en attente. Point de sauvegarde proposé.
+Ensuite : **sous-concept 9b (dépendances entre stories)**, sur le fil rouge vélos, avec une
+situation neuve (ni maintenance, ni régulateur, ni abonné-SMS). Idée à illustrer : deux stories
+d'une même feature peuvent dépendre l'une de l'autre (voir « Points annoncés »). Après 9b :
+point de sauvegarde, puis mini-récap 6 à 9 (déjà fait en partie en session 6 : être bref).
 
 ## Exemples déjà utilisés dans le cours
 

@@ -25,9 +25,6 @@ utilisable, qui respecte la Definition of Done.
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Croire qu'on « livre un sprint » : on livre des incréments.
 - Compter un pipeline fini mais inconsommable comme une livraison.

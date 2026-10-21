@@ -22,8 +22,13 @@ Distinct du projet factice du TP (supérettes) : jamais de mélange.
   tournée de réparation à partir des vélos signalés, regroupés par station.
 - Aujourd'hui, un vélo signalé en panne reste louable : son blocage à la location a été mis hors
   périmètre de la première story ; la responsable maintenance le réclame.
+- **Abonné sans appli** (retour sur INVEST, session 6) : un tiers des abonnés n'a pas l'appli,
+  seulement un téléphone basique. L'abonné veut savoir avant de partir s'il reste un vélo à sa
+  station. Exemple : Julie.
+- Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
+  celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
 
 ## Pistes pas encore utilisées
 
-Autres utilisateurs possibles : responsable d'exploitation, abonné (application), collectivité
-qui finance le service.
+Autres utilisateurs possibles : responsable d'exploitation, collectivité qui
+finance le service.

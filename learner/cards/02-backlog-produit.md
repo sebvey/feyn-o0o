@@ -22,9 +22,6 @@ réordonne en permanence. Le haut est précis et prêt à être pris ; le bas re
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 Les quatre erreurs de « le backlog, c'est le cahier des charges découpé en tickets, on le remplit
 au début et on le dépile » :

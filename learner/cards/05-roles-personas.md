@@ -23,9 +23,6 @@ résultat**, et il doit y gagner lui-même, sinon il ne s'en servira pas.
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Mettre en « afin de » la valeur d'un autre rôle (« des marges fiables » pour le planificateur).
 - Deviner l'acteur : formule une hypothèse, signale-la, fais-la valider par le PO.

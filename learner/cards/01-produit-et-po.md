@@ -24,9 +24,6 @@ qu'on construit. Le **Product Owner** est responsable de maximiser cette valeur 
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Décrire le produit par sa technique (table, pipeline).
 - Oublier la valeur : « savoir que des OF sont mal renseignés », et alors ?

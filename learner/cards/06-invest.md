@@ -24,9 +24,6 @@ sprint au plus), **T**estable (on tranche sans débat si c'est fait). INVEST jug
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Cocher E et S « OK » sans pouvoir le vérifier. Si plusieurs lettres dépendent d'un même mot
   flou, c'est ce mot qu'il faut creuser.

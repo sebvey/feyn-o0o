@@ -24,9 +24,6 @@ solution plus simple qui sert le même but.
 <À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
 `learner/archive/real-project/fiches-exemples.md`.>
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Acteur technique (« en tant que data engineer ») : ce n'est pas un utilisateur.
 - Solution dans le « je veux » (« le dashboard me fournit une liste ») : laisse l'équipe choisir

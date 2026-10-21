@@ -33,9 +33,6 @@ la nouvelle. Complément : le PO montre la ligne écrite (ça désamorce le « b
 story au backlog et la **priorise** face au reste. Ici elle passera sans doute devant (un vélo
 en panne louable pose un problème de sécurité), mais c'est une décision du PO.
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Ne rien écrire hors périmètre : le métier comble les silences avec ses attentes, et la revue
   tourne au « c'est un bug ».

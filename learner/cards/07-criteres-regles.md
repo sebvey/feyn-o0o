@@ -20,17 +20,35 @@ souvent des exemples qui illustrent une règle.
   Gojko Adzic).
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+Vélos en libre-service : un tiers des abonnés n'a pas l'appli, seulement un téléphone basique.
+> En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma station, afin de ne
+> pas me déplacer pour rien.
 
-## Dans le TP
-<Rempli pendant le TP.>
+**Règles métier** (vraies même sans cette story) :
+- R1 : un vélo disponible est un vélo à quai et louable.
+- R2 : la station d'un abonné est celle qu'il a choisie comme favorite.
+
+**Critères d'acceptation** (propres à la story, une seule variable change de l'un à l'autre) :
+> Given Julie n'a qu'un téléphone basique, sans l'appli, et sa station favorite compte 4 vélos
+> disponibles,
+> When elle demande la disponibilité de sa station avant de partir,
+> Then elle obtient « 4 », à jour de moins de 15 minutes.
+
+> Given Julie n'a qu'un téléphone basique, sans l'appli, et n'a pas choisi de station favorite,
+> When elle demande la disponibilité de sa station avant de partir,
+> Then on lui demande de choisir sa station favorite.
+
+Aucun canal n'est nommé (SMS, serveur vocal) : le critère porte la contrainte (téléphone
+basique), l'équipe choisit la solution (le N d'INVEST).
 
 ## Pièges
 - Un mot flou dans un critère (« chaque jour », « à 8h00 ») : le testeur doit encore poser une
   question. Écrire « au plus tard à 8h00 », dire la fraîcheur des données.
 - Changer plusieurs variables dans un même exemple : on ne sait plus quelle règle on teste.
-  Garder l'OF mal renseigné et ne changer que l'usine.
+  Garder Julie et son téléphone basique, ne changer que la station favorite.
+- Nommer la solution dans le critère (« Then elle reçoit un SMS ») : on fige ce que l'équipe
+  devait pouvoir négocier. Écrire ce qu'on vérifie (un nombre, sa fraîcheur).
+- Un Then vague (« elle peut savoir ») : on ne sait pas quoi vérifier.
 - Décider seul d'une règle qui a un coût (week-ends et fériés) : c'est au PO de trancher.
 
 ## Le test rapide

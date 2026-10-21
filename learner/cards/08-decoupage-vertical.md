@@ -38,9 +38,6 @@ périmètre de données (un quartier, une source), règle (seuil fixe avant seui
 simple avant complexe (heuristique avant modèle), qualité de service différée (15 minutes avant
 temps réel).
 
-## Dans le TP
-<Rempli pendant le TP.>
-
 ## Pièges
 - Confondre tranche et story : une tranche verticale du backlog de sprint est une story, mais le
   principe vaut à tous les niveaux (un epic se découpe en features verticales). Les tâches, dans

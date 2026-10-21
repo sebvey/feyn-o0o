@@ -27,10 +27,7 @@ date: <AAAA-MM-JJ>
 - **Choix d'école** : <ce qui se discute entre praticiens>
 
 ## Sur un exemple
-<Un exemple générique du cours, de préférence ce que l'apprenant a produit en session.>
-
-## Dans le TP
-<Ce que le concept a donné sur le projet factice, rempli pendant le TP.>
+<Un ou deux exemples, de préférence produits par l'apprenant (cours, TP, révision).>
 
 ## Pièges
 <Les erreurs typiques, en priorité celles que l'apprenant a faites, et comment les repérer.>
