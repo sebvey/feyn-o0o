@@ -10,3 +10,9 @@
   (T-010). Le diagnostic d'une session de cours devient une section « Cas particulier ».
 - **Fini quand** : la boucle du backlog est la procédure principale du skill, et le diagnostic
   n'en est plus qu'un cas particulier.
+- **Fait le** : 2026-10-21, skill `maintenance` réécrit : §1 point sur le backlog, §2 créer ou
+  trier, §3 traiter (lire les ADR liés, proposer, appliquer, tester, clore), §4 ADR, §5 tester
+  (scénario adapté au changement, relire `CLAUDE.md` sur disque) ; diagnostic en cas
+  particulier, limité par défaut à la dernière session. Test par sous-agent OK ; ses ambiguïtés
+  corrigées (ticket à affiner, ticket déjà appliqué, tri « plus tard », ADR « complété par »,
+  renvois d'ADR corrigeables). Pas d'ADR (question 2 : pas d'autre option crédible).

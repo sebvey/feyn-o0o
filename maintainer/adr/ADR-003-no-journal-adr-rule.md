@@ -13,7 +13,7 @@ depuis le 2026-10-21. En maintenance, les propositions se font en interactif : l
 ## Décision
 `maintainer/maintenance.md` est supprimé. Ce qui a été fait : les tickets de `02-done/` et git.
 Pourquoi : un ADR dans `maintainer/adr/`, seulement si la décision passe les trois questions du
-skill `maintenance` (§5). Les demandes d'un apprenant et les corrections de `coulisses.md` par
+skill `maintenance` (§4). Les demandes d'un apprenant et les corrections de `coulisses.md` par
 `update-memory` deviennent des tickets dans `00-proposed/`.
 
 ## Options écartées
