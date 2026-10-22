@@ -48,14 +48,15 @@ horizontales.
      d'abord l'origine des mots, puis le schéma. Les couches s'empilent : on les dessine à
      l'horizontale. Une tranche horizontale est une couche entière ; une tranche verticale
      coupe toutes les couches de haut en bas. Parts légendées « tranche 1, 2, 3 », jamais
-     « story ». Dire en une ligne qu'au niveau du sprint une tranche est une story, et que ses
-     tâches sont horizontales, et c'est normal (9a2). En rechange, ou si l'apprenant croit
+     « story ». Dire en une ligne qu'au niveau du sprint une tranche est une story, et que le
+     vertical s'arrête là : ce que deviennent ses tâches, 9a2 le fait trouver (ne pas le dire
+     ici). En rechange, ou si l'apprenant croit
      qu'il suffit de traverser les couches : « Le compteur de relevés ingérés ».
    - **9a2** Où s'arrête le vertical (« Les tâches de Léa ») : « tranche » est une façon de
      découper, pas un niveau. Un epic se découpe en stories verticales ; au niveau du sprint,
      une tranche est une story. La question fait trouver que ses tâches sont horizontales, et
      que c'est normal : elles sont le plan des Developers (renvoi au concept 4, sans le
-     réenseigner).
+     réenseigner). Après une réponse fausse : « Les tâches de la story de Julie ».
 2. **9b patrons de découpage**, en deux messages, une question par message :
    - **9b1** Couche ou tranche (« Prévoir les stations à risque : laquelle est une couche ? ») :
      une story trop grosse se découpe (concept 4) ; chaque morceau passe le même test qu'en 9a.
@@ -85,7 +86,8 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   tranche horizontale est une couche entière ; elle ne sert pas seule. Une tranche verticale
   coupe toutes les couches de haut en bas, comme une part de gâteau (métaphore qu'on trouve chez
   Wake) : un peu de chaque couche, et l'utilisateur s'en sert. Schéma : parts « tranche 1, 2,
-  3 ». Au niveau du sprint, une tranche est une story ; ses tâches restent horizontales (9a2).
+  3 ». Au niveau du sprint, une tranche est une story, et le vertical s'arrête là (la suite en
+  9a2, sans dire ici ce que deviennent les tâches).
 - **Situation** : Malik, régulateur, veut savoir quelles stations vont se vider, pour y
   apporter des vélos avant. L'équipe propose : 1. préparer l'historique des relevés (déjà
   collectés) pour l'entraînement ; 2. entraîner un modèle de prévision ; 3. afficher la carte
@@ -98,13 +100,17 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   voit où aller maintenant. Ensuite, la prévision des stations à risque, qui se découpe à son
   tour (9b). Nuances : la tranche 1 ne répond qu'en partie au besoin (Malik arrive après que
   la station s'est vidée) ; elle sert seule quand même. Ce qu'est une station vide (vélos à
-  quai ou disponibles) n'est pas fixé : c'est une règle à faire fixer, la story attend sur ce point (concept 8a2). La forme (carte,
-  liste) reste aux Developers : la story dit ce que Malik obtient (concept 5). Si l'apprenant
+  quai ou disponibles) n'est pas fixé : c'est une règle à faire fixer, la story attend sur ce
+  point (concept 8a2). La forme (carte, liste) reste aux Developers : la story dit ce que Malik obtient (concept 5). Si l'apprenant
   rappelle que la vue des stations vides de Bruno existe déjà : c'est juste ; la première
   tranche pour Malik est alors l'accès à cet état, et la tranche suivante est la prévision.
 - **Erreurs fréquentes** :
   - redécouper en couches plus fines (« d'abord tout l'historique préparé, puis… ») :
     demander « si on s'arrête après la tranche 1, qu'a Malik ? » ;
+  - garder la prévision dans la tranche 1, sans modèle (« la carte des stations qui vont se
+    vider, avec juste les données brutes ») : confondre tranche fine et prévision au rabais ;
+    dire ce qui est juste (une tranche fine, sans modèle), puis demander « avec seulement les
+    relevés bruts, que verrait Malik demain matin ? » ;
   - écrire « afficher la carte » dans la tranche : la forme est une solution (concept 5) ;
   - fixer soi-même « vide = 0 vélo à quai », ou ajouter les stations presque vides avec un seuil
     de 3 vélos : règles non fixées, renvoi au concept 8a2 sans le réexpliquer ;
@@ -157,8 +163,23 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   - vouloir que le PO écrive ou valide les tâches : elles appartiennent au plan des Developers
     (concept 4) ;
   - réponse juste sans le pourquoi (« non, c'est normal ») : demander « pourquoi ? ».
-- **Ce qui marche** : sur le schéma, zoomer sur la tranche 1 et la couper en lamelles
-  horizontales en pointillé, légendées « tâches ».
+- **Ce qui marche** : dans la correction, pas avant la question (il donnerait la réponse) :
+  sur le schéma, zoomer sur la tranche 1 et la couper en lamelles horizontales en pointillé,
+  légendées « tâches ».
+
+### Les tâches de la story de Julie (9a2, rechange)
+- **Explication** : pour réexpliquer après une réponse fausse à « Les tâches de Léa » : le test
+  « l'utilisateur s'en sert-il si on s'arrête là ? » s'applique à ce qu'on lui livre, la story ;
+  les tâches ne sont jamais livrées seules.
+- **Situation** : la story de Julie (concept 8) : connaître le nombre de vélos disponibles à sa
+  station favorite. Yanis la découpe en trois tâches : « lire les relevés de la station »,
+  « compter les vélos à quai et louables », « transmettre le chiffre à l'équipe appli ».
+- **Question** : faut-il que chacune de ces trois tâches serve seule à Julie ? Pourquoi ?
+- **Réponse attendue** : non. Julie se sert de la story livrée, pas d'une tâche : les tâches
+  sont le plan des Developers pour finir la story (concept 4), souvent une par couche. Seule la
+  story doit servir seule.
+- **Erreurs fréquentes** : « oui, sinon c'est horizontal » : demander « Julie verra-t-elle un
+  jour la tâche « lire les relevés » toute seule ? ».
 
 ### Prévoir les stations à risque : laquelle est une couche ? (9b1)
 - **Explication** : une story trop grosse pour un sprint se découpe (concept 4). Chaque
@@ -252,8 +273,9 @@ des stations), transformation, données prêtes, restitution (ce que voit Malik)
 entière grisée, légendée « tranche horizontale : ne sert pas seule ». Trois parts verticales
 colorées qui traversent toutes les couches, légendées « tranche 1 », « tranche 2 »,
 « tranche 3 », avec la légende « tranche verticale : un peu de chaque couche, sert seule ».
-Pour 9a2, un zoom sur la tranche 1 : coupée en lamelles horizontales en pointillé,
-« tâches », avec la mention « au niveau du sprint, la tranche est une story ».
+Pour 9a2, dans la correction (pas avant la question) : un zoom sur la tranche 1, coupée en
+lamelles horizontales en pointillé, « tâches », avec la mention « au niveau du sprint, la
+tranche est une story ».
 **9b, la part trop grosse.** La part « prévoir les stations à risque » recoupée : deux parts
 plus fines (a centre-ville, c tendance de la dernière heure) et, à côté, une lamelle
 horizontale « b collecte météo : une couche ». Sous chaque part fine, le patron et son

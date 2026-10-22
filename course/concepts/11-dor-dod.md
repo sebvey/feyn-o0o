@@ -191,6 +191,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Erreurs fréquentes** :
   - « oui, l'équipe s'organisera » : demander « que font les Developers mercredi si l'accès
     n'est pas là ? » ;
+  - « oui, et sinon on avancera sur le reste » (le plan B est déjà dans la réponse) : renvoyer à
+    la DoR, « la story de Bruno la remplit-elle aujourd'hui, et qu'en tires-tu pour le
+    planning ? » ;
   - « non » sans la suite : demander « et alors, on fait quoi ? » (au planning, et pour
     l'accès) ;
   - décider seul que la story entre ou non : le PO propose, les Developers choisissent ;

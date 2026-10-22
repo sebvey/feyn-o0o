@@ -202,6 +202,9 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   - inscrire soi-même le canal dans le backlog de l'équipe appli, ou exiger une date : Inès
     ordonne son backlog ; pour y placer le canal, on la convainc ;
   - escalader d'emblée à Agnès sans avoir parlé à Inès : l'escalade vient après (concept 14) ;
+  - « si Inès refuse, je remonte à Agnès » : juste sur le principe (parler d'abord, escalader
+    ensuite) ; nommer les deux voies (Thomas, Agnès) et renvoyer au concept 14 pour qui saisir
+    et quand, sans le trancher ici ;
   - écarter la story parce qu'elle dépend d'une autre équipe : le I se tient autant que possible
     (concept 7).
 - **Ce qui marche** : suivre le chemin de l'information jusqu'à Julie, comme au concept 7, et
