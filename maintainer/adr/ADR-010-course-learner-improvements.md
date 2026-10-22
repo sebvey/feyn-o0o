@@ -27,8 +27,13 @@ exposait à des oublis (T-006).
   permis.
 - Le TP et PDSF sont archivés (`archive/tp/`).
 
-Remplace ADR-002 (trace écrite à la correction) et ADR-006 (contenu de `learner/` et
-`course/`). Complète ADR-007 : la demande de l'apprenant passe par `maintainer/improvements/`.
+Remplace deux décisions antérieures, supprimées : la réponse de l'apprenant écrite dans une
+trace au moment de la correction (T-003), et la répartition de 2026-10-21 qui mettait fiches,
+traces et journal du TP dans `learner/`, projet factice et ancrage PDSF dans `course/`.
+Reprend une décision du 2026-10-21 (session 4 du cours), supprimée : l'apprenant peut demander
+un changement de forme du cours, il ne le décide pas ; seul le mainteneur tranche le cadre.
+Raison, confirmée par le mainteneur : quand l'apprenant tranchait le cadre en fin de session, il
+devait le juger au lieu d'apprendre. Sa demande passe désormais par `maintainer/improvements/`.
 
 ## Options écartées
 - Une fiche pour l'apprenant et des notes pour le prof, en deux fichiers par concept : le cours

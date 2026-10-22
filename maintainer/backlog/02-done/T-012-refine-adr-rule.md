@@ -1,4 +1,4 @@
-# T-012 : Affiner la règle des trois questions qui décide d'un ADR (à affiner)
+# T-012 : Affiner la règle des trois questions qui décide d'un ADR
 
 - **Créé le** : 2026-10-21
 - **Constat** : test par sous-agent de T-009 et application de la règle aux tickets du
@@ -16,3 +16,10 @@
   passent plus. Fichiers : `.claude/skills/maintenance/SKILL.md` §4, `maintainer/adr/`.
 - **Fini quand** : sur les tickets T-001 à T-010, deux agents neufs appliquent la règle et
   obtiennent la même liste d'ADR.
+- **Fait le** : 2026-10-22, règle du §4 de `maintenance` réécrite (deux questions, jugement par
+  décision, ancienne règle comptée comme option écartée, clause « annule, remplace ou
+  contredit ») ; modèle d'ADR : un ADR annulé se supprime. Première révision testée par deux
+  agents neufs : divergence sur T-015, T-016, T-020. Seconde révision : même liste pour les deux
+  agents (T-002, 003, 005, 006, 007, 008, 010, 015, 017, 019, 020). Règle appliquée sans
+  rattrapage ; ADR remplacés par ADR-010 supprimés ; ADR-014 écrit. Hors ticket : ADR-007
+  (T-013).

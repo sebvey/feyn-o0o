@@ -13,3 +13,7 @@
   supprimés.
 - **Note du 2026-10-22 (T-017)** : ADR-006 est remplacé par ADR-010 ; il ne reste à relire que
   ADR-007 (complété par ADR-010).
+- **Fait le** : 2026-10-22, ADR-006 supprimé par T-012 (remplacé par ADR-010). ADR-007 : raison
+  confirmée par le mainteneur ; ADR supprimé, sa décision sur les deux skills étant annulée par
+  ADR-011 (skill `update-memory` supprimé) ; la décision « l'apprenant ne tranche pas le cadre »
+  et sa raison sont reportées dans ADR-010.
