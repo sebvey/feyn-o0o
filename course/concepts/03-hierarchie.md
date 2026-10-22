@@ -1,11 +1,12 @@
 ---
 concept: 3
 titre: Hiérarchie du backlog
-statut: validé
-date: 2026-10-20
 ---
 
 # Hiérarchie du backlog
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Du plus large au plus fin : **thème** (grand domaine) > **epic** (gros besoin, trop gros pour

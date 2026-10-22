@@ -1,61 +1,45 @@
-# Parcours
+# Parcours de sve
 
-Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en cours`, `à revoir`,
-`à faire`, `dans le TP`. La colonne « Fiche » pointe vers `learner/cards/`.
+Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `à revoir`, `à faire`.
 
 ## Prochaine étape
 
 **Concept 10 en cours : 10a (DoD) validé, 10b (Definition of Ready) posé en session 7
-(2026-10-22).** Situation : story du responsable d'exploitation « voir les locations du jour par
-station », prête sauf l'accès à la table des locations (demandé à la DSI). Trace
-`10-dor-dod/03`. Question en attente, mot pour mot : « Question pour toi : la story est-elle
-prête ? Que proposes-tu au planning du sprint ? »
-Avant de reprendre 10b : aparté « le cadre du fil rouge » en un message (entreprise, produit,
-équipe, acteurs, d'après `course/fil-rouge-velos.md`), puis 10b repris depuis le début.
-Après 10b validé : compléter la fiche 10 (partie DoR), point de sauvegarde, puis concept 11
-(priorisation).
-
-## Exemples déjà utilisés dans le cours
-
-Tracés un par un dans `learner/examples/` (un dossier par concept). Fil rouge du cours depuis le
-2026-10-21 : l'opérateur de vélos en libre-service (`course/fil-rouge-velos.md`).
-- Marge de fabrication entre usines, qualité de saisie des OF : ancien projet réel (supprimé).
-- Supérettes de produits frais : réservé au TP, jamais dans le cours.
+(2026-10-22).** Énoncé : `course/concepts/10-dor-dod.md`, banque d'exemples, « Story pas prête :
+accès aux données non obtenu ». Question en attente, mot pour mot : « Question pour toi : la
+story est-elle prête ? Que proposes-tu au planning du sprint ? »
+En reprenant 10b, ouvre par un rappel en deux lignes du cadre du fil rouge (l'apprenant est PO
+de la plateforme de données ; équipe vélos, DSI), qu'il n'a encore jamais vu.
+Après 10b validé : point de sauvegarde, puis concept 11 (priorisation).
 
 ## Concepts
 
-| # | Concept | Statut | Fiche |
-|---|---|---|---|
-| 1 | Le produit : problème, utilisateurs, valeur. Rôle du PO face à l'équipe | validé | `01-produit-et-po.md` |
-| 2 | Le backlog produit : définition, propriétaire, usage | validé | `02-backlog-produit.md` |
-| 3 | Hiérarchie thème / epic / feature / story / tâche | validé | `03-hierarchie.md` |
-| 4 | La user story : en tant que / je veux / afin de | validé | `04-user-story.md` |
-| 5 | Rôles et personas : choisir le bon acteur | validé | `05-roles-personas.md` |
-| 6 | INVEST | validé | `06-invest.md` |
-| 7 | Critères d'acceptation (Given/When/Then) et règles métier | validé | `07-criteres-regles.md` |
-| 8 | Découpage en tranches verticales vs couches techniques | validé | `08-decoupage-vertical.md` |
-| 9 | Hors périmètre et dépendances | validé | `09-hors-perimetre-dependances.md` |
-| 10 | Definition of Ready / Definition of Done | en cours | `10-dor-dod.md` |
-| 11 | Priorisation : valeur/effort, MoSCoW, MVP, story mapping | à faire | |
-| 12 | Cycle de vie d'une story : états, refinement, sélection | à faire | |
-| 13 | Choix d'outil et structure minimale du backlog | dans le TP | |
-| 14 | TP : jeu de rôle sur le projet factice (`course/mock-project/`), de bout en bout | à faire | |
-| 15 | Optionnel, sur décision de sve : PDSF est-il adapté à un projet data ? (`course/ancrage-pdsf.md`) | à décider après le TP | |
-| 16 | Page web des fiches, avec sve, par itérations | à faire | |
+| # | Statut |
+|---|---|
+| 1 | validé |
+| 2 | validé |
+| 3 | validé |
+| 4 | validé |
+| 5 | validé |
+| 6 | validé |
+| 7 | validé |
+| 8 | validé |
+| 9 | validé |
+| 10 | en cours |
+| 11 | à faire |
+| 12 | à faire |
+| 13 | à faire |
 
-Annexes déjà traitées : Scrum en bref et l'incrément (`A1-scrum.md`).
+Annexes vues : A1 (Scrum en bref et l'incrément).
 
 ## Points annoncés pour plus tard
 
-Exemples du projet réel retirés (supprimés) ; les idées restent, à illustrer par des exemples
-génériques :
-- Concept 11 : la page web de consolidation des fiches est un exemple de « pas maintenant ».
 - Concept 11 : annoncé en 9a, la story « bloquer à la location un vélo signalé en panne »
   (sortie du hors périmètre) se priorise face au reste ; bon exemple de priorisation.
 - Concept 12 (refinement) : c'est là que se définit un terme flou (« donnée mal renseignée »),
   pas dans une story « définir X ».
-- TP (concept 13) : sve avait choisi trois niveaux (epic, feature, story). Signe qu'un niveau
-  est de trop : la plupart des features ne contiennent qu'une story.
+- Concept 13 : sve avait choisi trois niveaux (epic, feature, story). Signe qu'un niveau est de
+  trop : la plupart des features ne contiennent qu'une story.
 
 ## Journal
 
@@ -97,3 +81,6 @@ génériques :
   non), fiche 09 complétée et validée, concept 9 validé. Mini-récap 6 à 9.
   Concept 10 : 10a (DoD) validé, fiche 10 créée ; sve a relevé que la DoD vaut pour toute
   story (formulation « au niveau de l'incrément » corrigée). 10b posé.
+- 2026-10-22 : pas de cours. Restructuration du dossier (T-017) : le cours est dans `course/`
+  (plan, un fichier par concept), les fiches et traces de sve n'existent plus, observations
+  dans `learner/observations.md`. TP et PDSF archivés.

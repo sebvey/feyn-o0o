@@ -44,3 +44,7 @@
   Test : « on reprend », « on continue », réponse juste à la question, coupure sans choix, puis
   reprise par un agent neuf ; variante avec « On s'arrête là » (pas de ligne de journal en
   double).
+- **Note du 2026-10-22 (T-017)** : les écritures au fil de l'eau se réduisent à « Prochaine
+  étape » ; plus de fiche ni de trace au point de sauvegarde (ADR-010, qui remplace ADR-002).
+  Reste à réévaluer : la perte du statut, du journal et des observations sur une coupure avant
+  le choix. Le ticket peut être clos si le risque est jugé faible.

@@ -1,7 +1,7 @@
 # ADR-007 : La mémoire de l'apprenant et le cadre sont tenus par deux skills ; l'apprenant ne tranche pas le cadre
 
 - **Date** : 2026-10-21 (session 4 du cours ; raison reconstituée a posteriori)
-- **Statut** : accepté
+- **Statut** : complété par ADR-010
 - **Ticket** : aucun (avant le backlog)
 
 ## Contexte

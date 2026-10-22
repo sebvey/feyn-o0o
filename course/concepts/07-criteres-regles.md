@@ -1,11 +1,12 @@
 ---
 concept: 7
 titre: Critères d'acceptation et règles métier
-statut: validé
-date: 2026-10-21
 ---
 
 # Critères d'acceptation et règles métier
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Un **critère d'acceptation** est une condition vérifiable, propre à une story, qui dit quand elle

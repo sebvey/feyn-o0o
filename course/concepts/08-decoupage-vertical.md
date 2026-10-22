@@ -1,11 +1,12 @@
 ---
 concept: 8
 titre: Découpage en tranches verticales
-statut: validé
-date: 2026-10-21
 ---
 
 # Découpage en tranches verticales
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Le produit est un gâteau en couches (données, traitement, restitution). Une tranche
@@ -47,7 +48,7 @@ temps réel).
 - Croire qu'une story qui ne nomme pas l'écran n'a pas de couche restitution : la tranche livre
   quand même quelque chose de visible, seule sa forme est laissée à l'équipe.
 - Un mot flou dans la première tranche (« presque vide ») : c'est une règle métier à fixer
-  (seuil), voir la fiche 07.
+  (seuil), voir le concept 7.
 
 ## Le test rapide
 « Si on s'arrête après cette tranche, l'utilisateur s'en sert-il demain matin ? »
@@ -55,3 +56,47 @@ temps réel).
 ## Visuel suggéré
 Le gâteau en couches vu de face : une tranche horizontale grisée (une couche, barrée « inutile
 seule ») et une part verticale colorée qui traverse toutes les couches, légendée « utile seule ».
+
+## Banque d'exemples
+
+### Schéma : le gâteau en couches (8a)
+- **Situation** : schéma inline, quatre couches empilées (ingestion, transformation, données
+  prêtes, restitution). Une couche entière = tranche horizontale (« rien d'utilisable seul ») ;
+  des parts verticales = tranches verticales (« un peu de chaque couche, utilisable seule »).
+- **Ce qui marche** : partir de l'origine des mots (pourquoi « horizontal », pourquoi
+  « vertical ») avant le schéma. Légender les parts « tranche 1, 2, 3 », pas « story », et dire
+  à part qu'au niveau du sprint une tranche est une story.
+
+### Redécouper « quelles stations vont se vider ? » (8a)
+- **Situation** : Malik, le régulateur, veut savoir quelles stations vont se vider pour y
+  apporter des vélos. L'équipe propose : 1. ingérer les relevés dans l'entrepôt, 2. entraîner le
+  modèle de prévision, 3. afficher la carte des stations à risque.
+- **Question** : redécoupe en 2 ou 3 tranches verticales. Laquelle livres-tu en premier pour
+  que le régulateur s'en serve dès le lendemain ?
+- **Réponse attendue** : d'abord l'état actuel des stations vides ou presque vides (sans
+  modèle, ingestion faite fine), ensuite la prévision. La tranche livre une restitution, seule
+  sa forme (carte, liste) est laissée à l'équipe. « Presque vide » est une règle métier à fixer
+  (seuil).
+
+### Tranche = story ? Et les tâches ? (aparté, 8a)
+- **Explication** : « tranche » est une façon de découper, pas un niveau. Epic -> features et
+  feature -> stories : verticales ; story -> tâches : horizontales, et c'est normal.
+- **Question** : l'équipe découpe la story « voir les stations sous le seuil » en « ingérer
+  l'état courant », « calculer qui est sous le seuil », « afficher le résultat ». Faute de
+  découpage ?
+- **Réponse attendue** : non, ce sont des tâches, découpage technique normal ; elles vivent
+  dans le Sprint Backlog (propriété des Developers). Le PO valide la story sur ses critères, pas
+  les tâches.
+
+### Patrons de découpage (8b)
+- **Explication** : patrons : périmètre de données, règle, simple avant complexe, qualité de
+  service différée (SPIDR, Richard Lawrence : choix d'école).
+- **Situation** : story trop grosse « prévoir les stations à risque », découpage de l'équipe :
+  a) prévision centre-ville seulement, b) collecte des données météo, c) prévision à 1 h par la
+  tendance de la dernière heure.
+- **Question** : laquelle n'est pas verticale ? (Puis, dans un second message : quel patron
+  pour les deux autres ?)
+- **Réponse attendue** : b) est une couche (une source seule) ; version verticale :
+  « prévision ajustée quand il pleut ». a) périmètre, c) simple avant complexe.
+- **Ce qui marche** : une question par message. Faire préciser une réponse elliptique avant de
+  la corriger.

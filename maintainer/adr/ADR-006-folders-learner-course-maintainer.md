@@ -1,7 +1,7 @@
 # ADR-006 : Le dépôt sépare learner/, course/ et maintainer/
 
 - **Date** : 2026-10-21 (session 4 du cours ; raison reconstituée a posteriori)
-- **Statut** : accepté
+- **Statut** : remplacé par ADR-010
 - **Ticket** : aucun (avant le backlog)
 
 ## Contexte

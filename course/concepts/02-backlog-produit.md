@@ -1,11 +1,12 @@
 ---
 concept: 2
 titre: Le backlog produit
-statut: validé
-date: 2026-10-20
 ---
 
 # Le backlog produit
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Le backlog produit est **la liste ordonnée de tout ce qui pourrait améliorer le produit**, et la

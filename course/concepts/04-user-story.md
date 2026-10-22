@@ -1,11 +1,12 @@
 ---
 concept: 4
 titre: La user story
-statut: validé
-date: 2026-10-20
 ---
 
 # La user story
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Une user story exprime **un besoin précis** d'un utilisateur, pas son parcours entier :

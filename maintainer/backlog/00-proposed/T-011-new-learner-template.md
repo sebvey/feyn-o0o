@@ -7,3 +7,6 @@
 - **À faire** : à trier. Un modèle de `learner/` (au moins `parcours.md` et `apprenant.md`) dans
   `course/templates/`, et la procédure pour démarrer un nouvel apprenant.
 - **Fini quand** : à définir au tri.
+- **Note du 2026-10-22 (T-017)** : `learner/` se réduit à `apprenant.md`, `observations.md`,
+  `parcours.md` et `travaux.md` ; le plan des concepts est dans `course/plan.md`. Le modèle est
+  donc court : ces quatre fichiers vides, avec leurs titres de section.

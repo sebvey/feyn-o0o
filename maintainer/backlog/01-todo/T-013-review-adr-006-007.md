@@ -11,3 +11,5 @@
   ou supprimer l'ADR s'il ne passe pas la règle (voir T-012).
 - **Fini quand** : les deux ADR portent une raison confirmée par le mainteneur, ou sont
   supprimés.
+- **Note du 2026-10-22 (T-017)** : ADR-006 est remplacé par ADR-010 ; il ne reste à relire que
+  ADR-007 (complété par ADR-010).
