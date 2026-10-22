@@ -108,18 +108,18 @@ du fil rouge.
   règle que personne n'a fixée.
 - **Question** : entre la story de blocage et la disponibilité pour l'appli, laquelle places-tu
   devant, et sur quoi t'appuies-tu ?
-- **Réponse attendue** : plusieurs ordres se défendent ; ce qui compte, c'est l'argument. D'abord,
-  « c'est le bon moment » n'est pas un critère : c'est l'ordre d'arrivée. Puis les quatre
-  critères. Valeur : le blocage évite qu'on loue un vélo en panne (sécurité des abonnés) ;
-  l'appli sert les abonnés qui l'ont. Leur lien avec le temps vide des stations n'est pas
+- **Réponse attendue** : plusieurs ordres se défendent ; ce qui compte, c'est l'argument.
+  D'abord, « c'est le bon moment » n'est pas un critère : c'est l'ordre d'arrivée. Puis les
+  quatre critères. Valeur : le blocage évite qu'on loue un vélo en panne (sécurité des
+  abonnés) ; l'appli sert les abonnés qui l'ont. Leur lien avec le temps vide des stations n'est pas
   établi : qui en suppose un pose une hypothèse (concept 17), à argumenter ; l'objectif produit
   ne départage donc pas seul ici, et le PO le dit. Coût : à demander aux Developers. Risque :
   ici, le risque pour les utilisateurs ; il pèse lourd, mais sa gravité se fait qualifier par
   Sophie, voire Agnès, pas par le PO seul. Dépendances : le blocage dépend de la DSI et d'une
   règle à faire fixer (8a2) ; la disponibilité, non (son affichage relève de l'équipe appli).
   Deux réponses justes : l'appli d'abord, parce que rien ne la bloque ; ou le blocage en tête si
-  sa gravité est jugée haute. Ce qu'on fait d'une story qui n'est pas prête vient en 13a2. Dans les deux cas, la place se décide face au reste, pas parce
-  qu'on vient d'en parler.
+  sa gravité est jugée haute. Ce qu'on fait d'une story qui n'est pas prête vient en 13a2. Dans
+  les deux cas, la place se décide face au reste, pas parce qu'on vient d'en parler.
 - **Erreurs fréquentes** :
   - « oui, c'est le bon moment, on la prend » : demander « qu'est-ce qui ne sera pas fait à la
     place, et sur quoi as-tu décidé ? » ;
@@ -176,9 +176,9 @@ du fil rouge.
   - trancher la gravité du risque, la règle de blocage ou la date du bilan : ce sont des faits
     métier, à demander à qui les détient.
 - **Ce qui marche** : un tableau à quatre lignes et quatre colonnes (valeur, coût, risque pour
-  le produit ou pour les utilisateurs, dépendances), plus une colonne « prête ? » ; l'apprenant le remplit avant d'ordonner. Si la
-  réponse est elliptique (« l'appli, puis Sophie »), faire préciser avant de corriger : « dis-moi
-  pour chacune pourquoi elle est à cette place ».
+  le produit ou pour les utilisateurs, dépendances), plus une colonne « prête ? » ; l'apprenant
+  le remplit avant d'ordonner. Si la réponse est elliptique (« l'appli, puis Sophie »), faire
+  préciser avant de corriger : « dis-moi pour chacune pourquoi elle est à cette place ».
 
 ### Le blocage et le bilan au conseil (13b)
 - **Explication** : la valeur d'une demande dépend aussi du moment où elle arrive. Le **coût du
@@ -218,25 +218,26 @@ du fil rouge.
 
 ### Tout est Must pour le bilan (13c)
 - **Explication** : pour une échéance, MoSCoW classe ce qui doit y être : Must (le minimum
-  utilisable que la livraison garantit), Should (important, pas vital), Could (souhaitable, qu'on lâche en
-  premier si l'échéance est menacée), Won't (pas cette fois, pas « jamais »). Choix d'école de
-  DSDM, attribué à Dai Clegg ; DSDM recommande de ne pas dépasser environ 60 % de l'effort en
-  Must : au-delà, l'échéance devient risquée. Chez DSDM, c'est le représentant de l'activité
-  concernée (le Business Visionary) qui dit ce qui est Must : ici, Claire ; le PO l'aide à
-  classer, et tout en Must ne classe rien. MoSCoW classe pour une échéance, il ne remplace pas
-  l'ordre du backlog.
+  utilisable que la livraison garantit), Should (important, pas vital), Could (souhaitable,
+  qu'on lâche en premier si l'échéance est menacée), Won't (pas cette fois, pas « jamais »).
+  Choix d'école de DSDM, attribué à Dai Clegg ; DSDM recommande de ne pas dépasser environ 60 %
+  de l'effort en Must : au-delà, l'échéance devient risquée. Chez DSDM, c'est le représentant de
+  l'activité concernée (le Business Visionary) qui dit ce qui est Must : ici, Claire ; le PO
+  l'aide à classer, et tout en Must ne classe rien. MoSCoW classe pour une échéance, il ne
+  remplace pas l'ordre du backlog.
 - **Situation** : pour le bilan au conseil, Claire te dit : « Tout est Must : les locations par
   quartier, la comparaison à l'an dernier, et une carte des quartiers. »
 - **Question** : que réponds-tu à Claire ?
 - **Réponse attendue** : tout en Must, c'est ne rien classer : si l'échéance est menacée, on ne
   sait plus quoi lâcher. Le PO aide Claire à classer par une question : « si le conseil n'avait
-  que ça, le bilan tiendrait-il ? ». C'est elle qui y répond, elle sait ce que le conseil
-  attend ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose
-  les locations par quartier (elle ne peut pas être Must sans elles), et l'effort se demande aux
+  que ça, le bilan tiendrait-il ? ». C'est elle qui y répond, elle sait ce que le conseil attend
+  ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose les
+  locations par quartier (elle ne peut pas être Must sans elles), et l'effort se demande aux
   Developers, pour garder le Must sous environ 60 %. Classer en Won't veut dire « pas pour ce
-  bilan » : la demande reste au backlog, dans l'ordre, que MoSCoW ne remplace pas. Nuance : les locations par quartier et la comparaison
-  attendent l'accès à la table des locations ; pour la carte, demander ce qu'elle montre avant
-  de dire ce dont elle dépend. Un Must bloqué par l'accès est un obstacle à lever (concept 14).
+  bilan » : la demande reste au backlog, dans l'ordre, que MoSCoW ne remplace pas. Nuance : les
+  locations par quartier et la comparaison attendent l'accès à la table des locations ; pour la
+  carte, demander ce qu'elle montre avant de dire ce dont elle dépend. Un Must bloqué par
+  l'accès est un obstacle à lever (concept 14).
 - **Erreurs fréquentes** :
   - accepter tout en Must parce que Claire finance : demander « que lâches-tu si le temps
     manque ? » ;

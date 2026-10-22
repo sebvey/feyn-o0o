@@ -15,10 +15,11 @@ Une **partie prenante** est concernée par le produit : elle s'en sert, le finan
 travaille à côté, ou lui fournit ses données ; ces fournisseurs, qu'on oublie, peuvent le
 bloquer. Le PO représente leurs besoins dans le backlog et tranche seul entre elles : dire non,
 c'est dire « pas maintenant », en montrant l'ordre et l'objectif produit. Un **obstacle**
-(l'équipe ne le lève pas seule) s'escalade : la personne concernée d'abord, puis le Scrum
-Master, puis le sponsor. Un désaccord sur l'ordre de son propre backlog ne s'escalade pas : le
-PO le tranche. Une dépendance bloquée dans le backlog d'une autre équipe est, elle, un obstacle
-pour la sienne : on convainc d'abord l'autre PO, et l'escalade ne lui retire pas son ordre.
+(l'équipe ne le lève pas seule) se traite d'abord avec la personne concernée, puis s'escalade :
+le Scrum Master, puis le sponsor. Un désaccord sur l'ordre de son propre backlog ne s'escalade
+pas : le PO le tranche. Une dépendance bloquée dans le backlog d'une autre équipe est, elle, un
+obstacle pour la sienne : on convainc d'abord l'autre PO, et l'escalade ne lui retire pas son
+ordre.
 
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le PO peut représenter les besoins de nombreuses parties
@@ -43,9 +44,9 @@ pour la sienne : on convainc d'abord l'autre PO, et l'escalade ne lui retire pas
   - le sponsor comme voie d'escalade pour ce qui dépasse le responsable : pratique de gestion de
     projet (PMI), transposée par le cours au PO et au produit.
 - **Choix du cours** (sans source externe, à présenter comme tel) : les cinq catégories de 14a ;
-  la formule « dire non, c'est dire pas maintenant » ; l'ordre des démarches d'escalade (la
-  personne concernée, le Scrum Master, le sponsor) et le moment de passer à la suivante ; la
-  dépendance bloquée chez une autre équipe traitée comme un obstacle.
+  la formule « dire non, c'est dire pas maintenant » ; l'ordre des démarches (d'abord la
+  personne concernée, puis l'escalade : le Scrum Master, le sponsor) et le moment de passer à la
+  suivante ; la dépendance bloquée chez une autre équipe traitée comme un obstacle.
 
 ## Sous-concepts
 1. **14a qui sont-elles** : élargir la définition de 1b sans la répéter. Cinq catégories :
@@ -58,9 +59,10 @@ pour la sienne : on convainc d'abord l'autre PO, et l'escalade ne lui retire pas
    passe après l'appli »). En rechange, quand le sponsor s'en mêle : « Agnès demande de passer
    Claire en tête ».
 3. **14c escalader un obstacle** : qui saisir et quand ; l'ordre des démarches ; le sponsor
-   n'ordonne pas le backlog (« L'accès aux locations bloque depuis trois sprints »). Cas
-   limite, si l'apprenant veut escalader un désaccord, ou pour « exercice » : « Faire trancher
-   Agnès entre Inès et Claire ? ». En rechange, la suite annoncée en 10b2 : « Inès refuse le
+   n'ordonne pas le backlog (« L'accès aux locations bloque depuis trois sprints »). Cas limite,
+   à proposer quand la première réponse de 14c va d'emblée au sponsor, ou pour « exercice » :
+   « Faire trancher Agnès entre Inès et Claire ? ». Le concept 14 se valide après 14c, et après le
+   cas limite s'il a été proposé. En rechange, la suite annoncée en 10b2 : « Inès refuse le
    canal de Julie ».
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
@@ -78,17 +80,17 @@ Faits du fil rouge utilisés : les acteurs (Bruno, Malik, Hugo, Sophie, Julie, C
 Inès, Pascal, Thomas) et l'équipe vélos (Léa, Yanis, Nora) ; Agnès est sponsor de la plateforme,
 dont elle porte le budget ; Thomas est Scrum Master de l'équipe vélos et de l'équipe appli ; la
 collectivité finance le service, Claire la représente et présente un bilan au conseil, une fois
-par an ; le comité de direction réunit Agnès et Pascal et tranche leurs désaccords, comme ceux entre la
-plateforme et l'appli que leurs PO et Thomas ne règlent pas ; les sources
-de données et leurs propriétaires (DSI pour les relevés et les locations, équipe appli pour les
-signalements et les abonnés, collectivité pour le référentiel des quartiers) ; l'accès à la
-table des locations, demandé, pas encore obtenu, la DSI demandant de justifier chaque colonne ;
-la table contient l'identifiant de l'abonné ; les stories de Bruno (locations du jour) et de
-Claire (locations par quartier, comparaison à l'an dernier) attendent cet accès ; Inès veut la
+par an ; le comité de direction réunit Agnès et Pascal et tranche leurs désaccords, comme ceux
+entre la plateforme et l'appli que leurs PO et Thomas ne règlent pas ; les sources de données et
+leurs propriétaires (DSI pour les relevés et les locations, équipe appli pour les signalements
+et les abonnés, collectivité pour le référentiel des quartiers) ; l'accès à la table des
+locations, demandé, pas encore obtenu, la DSI demandant de justifier chaque colonne ; la table
+contient l'identifiant de l'abonné ; les stories de Bruno (locations du jour) et de Claire
+(locations par quartier, comparaison à l'an dernier) attendent cet accès ; Inès veut la
 disponibilité par station pour l'appli ; le canal de Julie relève de l'équipe appli. N'est pas
-fixée : la date du bilan au conseil. L'ordre du backlog cité
-en 14b, la liste de Nora, les propos de Claire, d'Agnès et d'Inès, et les relances à Pascal sont
-des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
+fixée : la date du bilan au conseil. L'ordre du backlog cité en 14b, la liste de Nora, les
+propos de Claire, d'Agnès et d'Inès, et les relances à Pascal sont des situations d'exercice :
+ils ne deviennent pas des faits du fil rouge.
 
 ### La liste de Nora (14a)
 - **Explication** : le concept 1b a défini la partie prenante : toute personne ou équipe
@@ -102,8 +104,8 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   Nora, analyste, répond : « Bruno, Malik, Hugo, Sophie, Julie, Claire, Agnès et Thomas. »
 - **Question** : corrige la liste de Nora et range chacun dans une catégorie.
 - **Réponse attendue** :
-  - utilisateurs : Bruno, Malik, Hugo, Sophie, Julie (servie par un canal de l'équipe appli) ; Claire et l'équipe
-    appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
+  - utilisateurs : Bruno, Malik, Hugo, Sophie, Julie (servie par un canal de l'équipe appli) ;
+    Claire et l'équipe appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
   - financeur : la collectivité, que représente Claire ;
   - sponsor : Agnès, qui porte le budget de la plateforme ;
   - équipe voisine : l'équipe appli et sa PO, Inès, absente de la liste ;
@@ -138,30 +140,34 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   et de chercher un terrain commun sans couper la poire en deux. Formule du cours : dire non,
   c'est dire « pas maintenant », en montrant où est la demande et pourquoi.
 - **Situation** : situation d'exercice. Inès et Claire veulent chacune leur élément au prochain
-  sprint. Ton backlog place en tête la disponibilité par station pour l'appli, prête ; les stories de Claire viennent après et attendent de toute façon l'accès aux
-  locations. Claire t'appelle : « Le bilan au conseil approche. Pourquoi l'appli passerait-elle
-  avant la collectivité qui finance le service ? »
+  sprint. Ton backlog place en tête la disponibilité par station pour l'appli, prête ; les
+  stories de Claire viennent après et attendent de toute façon l'accès aux locations. Claire
+  t'appelle : « Le bilan au conseil approche. Pourquoi l'appli passerait-elle avant la
+  collectivité qui finance le service ? »
 - **Question** : que réponds-tu à Claire ?
 - **Réponse attendue** : on ne refait pas l'ordre ; on juge la conversation. Une bonne réponse :
   écoute ce qui compte pour Claire et lui demande la date du bilan et ce que le conseil attend
   (des faits qu'elle détient, que le PO ne fixe pas) ; dit « pas maintenant », pas « jamais » :
   ses stories restent au backlog, à une place qu'elle peut voir ; donne le pourquoi (l'objectif
   produit, ce qui est prêt, l'accès qui manque) ; dit ce qui ferait monter ses stories (une
-  échéance proche change le coût du retard, concept 13b) et ce que tu fais en attendant pour
-  l'accès (14c). Nuances : si Claire apporte un fait nouveau, revoir l'ordre n'est pas céder,
-  c'est ordonner ; ce sont les Developers qui choisissent ce qui entre au sprint, avec le PO
-  (concept 15). Une mauvaise réponse promet, cache l'ordre, ou s'abrite derrière « c'est moi qui
-  décide ».
+  échéance proche change le coût du retard, concept 13b). Nuances : dire ce que tu fais pour
+  l'accès qui manque aide Claire, mais c'est la question de 14c, non attendue ici ; si Claire
+  apporte un fait nouveau, revoir l'ordre n'est pas céder, c'est ordonner ; ce sont les
+  Developers qui choisissent ce qui entre au sprint, avec le PO (concept 15). Une mauvaise
+  réponse promet, cache l'ordre, ou s'abrite derrière « c'est moi qui décide ».
 - **Erreurs fréquentes** :
   - promettre à Claire et à Inès le même sprint, ou « un peu de chaque » : la poire coupée en
     deux ne sert ni l'une ni l'autre ; demander « que livres-tu à chacune à la fin ? » ;
   - « c'est moi qui décide, point » : juste sur le fond (1b), mais sans le pourquoi Claire n'a
     rien pour te convaincre ; demander « pourquoi ? », comme elle le ferait ;
-  - « non » sans la suite : demander « et alors, que deviennent ses stories, et que lui
-    dis-tu sur l'accès ? » ;
+  - « non » sans la suite : demander « et alors, que deviennent ses stories ? » ;
   - fixer soi-même l'échéance (« le bilan est dans deux mois ») : la date se demande à Claire ;
-  - renvoyer Claire vers Agnès pour qu'elle tranche : un désaccord sur l'ordre ne s'escalade
-    pas (14c).
+  - renvoyer Claire vers Agnès pour qu'elle tranche : l'ordre est au PO (1b) ; pourquoi ce
+    n'est pas une escalade, on le voit en 14c.
+- **Réexplication** (réponse fausse, « oui aux deux ») : prendre Bruno, qui veut la vue des
+  locations du jour au prochain sprint alors que l'accès manque. Lui dire oui, c'est promettre ce
+  que l'équipe ne peut pas livrer ; « pas maintenant, voici pourquoi et voici sa place » lui
+  laisse de quoi agir. Puis reposer la question sur Claire.
 - **Ce qui marche** : faire écrire la réponse au discours direct ; si elle est elliptique
   (« je lui explique l'ordre »), faire préciser avant de corriger : « que lui dis-tu, mot pour
   mot ? ». Puis la relire avec trois cases : pas maintenant, pourquoi, où est sa demande.
@@ -193,21 +199,21 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
 - **Explication** : un obstacle bloque l'équipe et elle ne le lève pas seule. Le Scrum Master
   fait lever les obstacles et lève les barrières entre l'équipe et les parties prenantes (Scrum
   Guide) ; en gestion de projet, le sponsor sert de voie d'escalade pour ce qui dépasse le
-  responsable (PMI). L'ordre des démarches est la pratique du cours : la personne concernée
-  d'abord, puis le Scrum Master, puis le sponsor. Repère du cours pour passer à la suivante : la
-  démarche a eu lieu et rien n'a changé à la fin du sprint en cours. Le sponsor n'ordonne pas le
-  backlog.
+  responsable (PMI). Trois personnes peuvent servir : la personne concernée, le Scrum
+  Master, le sponsor ; dans quel ordre, et quand passer de l'une à l'autre, c'est la question.
+  Parler à la personne concernée n'est pas escalader ; l'escalade, c'est la suite. Le sponsor
+  n'ordonne pas le backlog.
 - **Situation** : situation d'exercice. Depuis trois sprints, tu relances Pascal par message ;
   l'accès à la table des locations n'est toujours pas donné. Les stories de Bruno (locations du
   jour) et de Claire attendent. La DSI demande de justifier chaque colonne demandée.
-- **Question** : qui saisis-tu, dans quel ordre, et que demandes-tu à chacun ?
+- **Question** : qui saisis-tu, dans quel ordre, et quand passes-tu au suivant ?
 - **Réponse attendue** :
-  1. Pascal, de vive voix : comprendre ce qui bloque. Relancer n'est pas comprendre. Arriver
-     avec les colonnes demandées et la finalité de chacune, sans l'identifiant de l'abonné s'il
-     ne sert pas (concept 12c), et dire ce que le blocage coûte : deux demandes qui attendent
-     (concept 13b, sans chiffrer).
-  2. Si ça bloque encore : Thomas, le Scrum Master, qui fait lever les obstacles ; il peut réunir
-     Pascal et le PO, rendre l'obstacle visible.
+  1. Pascal, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
+     Relancer n'est pas comprendre. Arriver avec les colonnes demandées et la finalité de
+     chacune, sans l'identifiant de l'abonné s'il ne sert pas (concept 12c), et dire ce que le
+     blocage coûte : deux demandes qui attendent (concept 13b, sans chiffrer).
+  2. Si ça bloque encore, l'escalade : Thomas, le Scrum Master, qui fait lever les obstacles ;
+     il peut réunir Pascal et le PO, rendre l'obstacle visible.
   3. Si ça bloque toujours : Agnès, le sponsor, qui peut porter le désaccord au comité de
      direction, où siège Pascal et où se tranchent leurs désaccords.
   Quand (repère du cours, pas une règle Scrum) : passer à la marche suivante quand la démarche
@@ -218,6 +224,9 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   déjà attendre. Nuances : on ne contourne pas
   Pascal, il sait que le sujet monte ; les colonnes autorisées relèvent de la DSI et des règles
   de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès, jamais sur l'ordre.
+  Équipe sans Scrum Master (lecture du cours) : la marche du milieu revient à qui répond du
+  fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes avant d'en
+  avoir besoin.
 - **Erreurs fréquentes** :
   - aller d'emblée voir Agnès par-dessus Pascal : demander « sais-tu pourquoi Pascal bloque ? » ;
   - continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et alors, au
@@ -226,26 +235,30 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
     il fait lever l'obstacle, le PO reste en première ligne sur le besoin ;
   - demander toute la table « pour être tranquille » : c'est souvent la cause du blocage (12c) ;
   - attendre d'Agnès qu'elle réordonne le backlog au passage : elle porte l'obstacle, pas l'ordre.
-- **Ce qui marche** : un escalier à trois marches (schéma), et pour chaque marche deux questions :
+- **Ce qui marche** : dans la correction, pas avant, un escalier à trois marches (schéma), et
+  pour chaque marche deux questions :
   « qu'est-ce que je demande ? » et « qu'est-ce qui me fait passer à la suivante ? » (la
   démarche faite, rien de changé à la fin du sprint). Si la réponse s'arrête aux noms,
-  relancer : « et à Pascal, qu'apportes-tu ? ».
+  relancer : « et à Pascal, qu'apportes-tu ? ». Si la première réponse va d'emblée à Agnès,
+  proposer ensuite le cas limite.
 
 ### Faire trancher Agnès entre Inès et Claire ? (14c, cas limite)
 - **Situation** : situation d'exercice. Inès et Claire te relancent chaque semaine pour le même
   sprint. Yanis : « Remonte ça à Agnès, c'est elle le sponsor, elle tranchera. »
 - **Question** : que réponds-tu à Yanis, et pourquoi ?
-- **Réponse attendue** : ce n'est pas une escalade. Rien ne bloque l'équipe : c'est un
-  désaccord sur l'ordre de ton propre backlog, et le PO le tranche seul ; l'organisation respecte cette décision (Scrum Guide). Le remonter à Agnès,
-  c'est lui rendre l'ordre et ne plus répondre de la valeur. Le PO garde l'ordre, l'explique à
-  Inès et à Claire (14b) et le laisse visible ; Agnès peut être tenue au courant, pas sollicitée
-  pour décider. Nuance : si Claire va voir Agnès d'elle-même, c'est son droit ; le PO montre
-  alors son pourquoi (rechange 14b).
+- **Réponse attendue** : ce n'est pas une escalade. Rien ne bloque l'équipe : c'est un désaccord
+  sur l'ordre de ton propre backlog, et le PO le tranche seul ; l'organisation respecte cette
+  décision (Scrum Guide). Le remonter à Agnès, c'est lui rendre l'ordre et ne plus répondre de
+  la valeur. Le PO garde l'ordre, l'explique à Inès et à Claire (14b) et le laisse visible ;
+  Agnès peut être tenue au courant, pas sollicitée pour décider. Nuance : si Claire va voir
+  Agnès d'elle-même, c'est son droit ; le PO montre alors son pourquoi (rechange 14b).
 - **Erreurs fréquentes** :
-  - « oui, le sponsor porte plus haut ce qui dépasse le PO » : ce qui le dépasse, pas l'ordre
-    de son backlog ; demander « qu'est-ce
-    qui bloque l'équipe, ici ? » ;
+  - « oui, le sponsor porte plus haut les obstacles qui dépassent le PO » : un obstacle, pas
+    l'ordre de son backlog ; demander « qu'est-ce qui bloque l'équipe, ici ? » ;
   - faire voter Inès et Claire : pas de vote (concept 1b).
+- **Réexplication** (réponse fausse, « elle tranchera ») : Sophie et Bruno se disputent la tête
+  du backlog. Appeler Agnès, c'est lui demander d'ordonner à ta place ; rien ne bloque l'équipe,
+  donc le PO tranche et explique. Puis reposer la question sur Yanis.
 - **Ce qui marche** : le test rapide, obstacle ou désaccord, posé à voix haute.
 
 ### Inès refuse le canal de Julie (14c, en rechange)
@@ -302,11 +315,11 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   colonnes autorisées se demandent à qui les détient.
 
 ## Le test rapide
-« Quelque chose bloque-t-il l'équipe, qu'elle ne lève pas seule ? » Si oui, c'est un obstacle,
-y compris une dépendance bloquée dans le backlog d'un autre PO : ai-je parlé à la personne
-concernée, puis au Scrum Master, avant le sponsor ? Si non, c'est un désaccord sur l'ordre de
-mon backlog : je le tranche, et ma réponse dit « pas maintenant », pourquoi, et où est la
-demande.
+« Quelque chose bloque-t-il l'équipe, qu'elle ne lève pas seule ? » Si oui, c'est un obstacle, y
+compris une dépendance bloquée dans le backlog d'un autre PO : ai-je parlé d'abord à la personne
+concernée, puis escaladé au Scrum Master, avant le sponsor ? Si non, c'est un désaccord sur
+l'ordre de mon backlog : je le tranche, et ma réponse dit « pas maintenant », pourquoi, et où
+est la demande.
 
 ## Schéma
 Trois panneaux.
@@ -320,7 +333,8 @@ Trois panneaux.
 2. **Dire non (14b)** : le backlog en colonne, visible ; la story de Claire à sa place, avec une
    bulle à trois cases : « pas maintenant », « pourquoi : objectif produit, ce qui est prêt »,
    « ce qui la ferait monter ».
-3. **Escalader (14c)** : un escalier à trois marches, Pascal, Thomas, Agnès, puis un palier
+3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, Pascal
+   (la personne concernée), puis l'escalade, Thomas, Agnès, puis un palier
    « comité de direction » ; sur chaque marche, « je passe à la suivante si rien n'a changé à la
    fin du sprint ». À côté, une porte barrée : « désaccord sur l'ordre de mon backlog : le PO
    tranche, on ne monte pas ».

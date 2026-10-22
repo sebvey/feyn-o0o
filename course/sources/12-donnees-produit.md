@@ -50,7 +50,7 @@ pas ici.
 | Écrire la requête ou la jointure au lieu de la définition : c'est le comment des Developers (banque 12a1, Pièges) | `course/sources/01-produit-et-po.md` | Quoi au PO, comment aux Developers : déjà vérifié au concept 1. Application à la définition : choix du cours |
 | La comparaison au même mois de l'an dernier (story B) n'a de sens qu'avec la même définition appliquée aux deux années ; d'où une définition écrite une fois, pour l'indicateur, et non dans les critères de A (banque 12a2, Pièges) | `course/fil-rouge-velos.md` ; `course/sources/10-hors-perimetre-dependances.md` | Stories A et B de Claire : fil rouge et concept 10b1, inventées. Le raisonnement est une déduction du cours, sans source externe |
 | Fraîcheur des locations par quartier : à demander à Claire, non fixée (banque 12a2, 12b) | `course/fil-rouge-velos.md` | Aucune fraîcheur fixée pour cet indicateur dans le fil rouge ; le cours ne la fixe pas |
-| La vue des locations du jour de Bruno montre toutes les locations, courtes comprises ; ce n'est pas l'indicateur de Claire (banque 12a2, erreurs) | `course/fil-rouge-velos.md` | Fait fixé du fil rouge, inventé |
+| La vue des locations du jour de Bruno montre toutes les locations, courtes comprises ; ce n'est pas l'indicateur de Claire ; Bruno peut éclairer la règle, il ne la fixe pas (banque 12a2, réponse attendue et erreurs) | `course/fil-rouge-velos.md` | Fait fixé du fil rouge, inventé |
 | La story de Claire ne remplit pas la DoR tant que l'accès n'est pas obtenu, même avec une définition complète (banque 12a2, nuance) | `course/sources/11-dor-dod.md` | DoR de l'équipe vélos (accès obtenu) : déjà tracé au concept 11 (11b) |
 
 ### 12b : qualité des données

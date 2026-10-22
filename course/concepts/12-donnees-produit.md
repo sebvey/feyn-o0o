@@ -89,26 +89,27 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 ### Compléter la définition des vélos disponibles (12a1)
 - **Explication** : un indicateur (valeur calculée par le produit pour ses utilisateurs) se
   lit d'une seule façon quand sa définition écrite dit : ce qu'il compte et sa règle de calcul
-  (ce qu'on inclut, ce qu'on exclut), son grain (ce que représente une valeur de l'indicateur :
-  par station, par quartier), sa période, sa source (le système qui produit les données, avec
-  son propriétaire : les relevés des stations viennent du système des bornes, via la DSI), sa
-  fraîcheur. Cette liste est un choix du cours, aucun
-  texte de référence ne la fixe ; le grain vient de la modélisation dimensionnelle de Kimball.
-  La DoD de l'équipe vélos exige une définition écrite pour chaque indicateur publié (concept
-  11a) : le PO la fait écrire et fixer, les Developers font le calcul.
+  (ce qu'on inclut, ce qu'on exclut), son grain (ce que représente une valeur : par station,
+  par quartier), sa période (l'instant ou la durée sur laquelle on compte), sa source (le
+  système qui produit les données, avec son propriétaire), sa fraîcheur (l'âge maximal des
+  données quand on lit le chiffre). Liste : choix du cours ; le grain vient de Kimball. La DoD
+  exige une définition écrite pour chaque indicateur publié (11a) : le PO la fait écrire et
+  fixer, les Developers font le calcul.
 - **Situation** : les vues de Bruno et la story de Julie affichent les vélos disponibles de
   chaque station. Nora, analyste, écrit : « Vélos disponibles : nombre de vélos de chaque
   station, d'après les relevés. »
 - **Question** : complète cette définition pour que deux analystes qui la lisent calculent le
   même nombre.
-- **Réponse attendue** : ce qui est juste : le grain (par station) et la source (les relevés
-  des stations). À compléter : la règle de calcul, « vélos » seul laisse compter les vélos à
-  quai ; la règle fixée dit : un vélo à quai et louable. La période : au dernier relevé (un
-  état à un instant, pas un cumul sur la journée). La fraîcheur : moins de 15 minutes, la règle
-  fixée. Corrigé : « Vélos disponibles : nombre de vélos à quai et louables, par station, au
-  dernier relevé, d'après les relevés des stations, à jour de moins de 15 minutes. » Nuances,
-  non attendues : les relevés en double relèvent de la qualité (12b) et de la DoD, pas de la
-  définition ; la définition cite les règles fixées, elle ne les invente pas.
+- **Réponse attendue** : ce qui est juste : le grain (par station) et la source (les relevés des
+  stations). À compléter : la règle de calcul, « vélos » seul laisse compter les vélos à quai ;
+  la règle fixée dit : un vélo à quai et louable. La période : au dernier relevé (un état à un
+  instant, pas un cumul sur la journée). La fraîcheur : moins de 15 minutes, la règle fixée. Les
+  deux ne se confondent pas : la période dit à quel moment le nombre est vrai, la fraîcheur de
+  combien ce moment peut dater quand on lit le chiffre. Corrigé : « Vélos disponibles : nombre
+  de vélos à quai et louables, par station, au dernier relevé, d'après les relevés des stations,
+  à jour de moins de 15 minutes. » Nuances, non attendues : les relevés en double relèvent de la
+  qualité (12b) et de la DoD, pas de la définition ; la définition cite les règles fixées, elle
+  ne les invente pas.
 - **Erreurs fréquentes** :
   - écrire comment calculer (requête, jointure) : c'est le comment des Developers ; la
     définition dit ce qu'on compte, sur quoi, quand ;
@@ -118,27 +119,31 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   - écrire « en temps réel » pour la fraîcheur : un mot flou (concept 7a2) ; la règle fixée
     dit moins de 15 minutes ;
   - ajouter seulement « à quai et louables », sans période ni fraîcheur : dire ce qui est
-    corrigé, puis demander « à quel moment ce nombre est-il vrai, et vieux de combien ? ».
+    corrigé, puis demander « à quel moment ce nombre est-il vrai, et vieux de combien ? » ;
+  - perdre en réécrivant une case déjà juste (« par station » disparaît) : dire ce qui est
+    ajouté, puis demander « ce nombre, il est donné pour quoi : une station, tout le réseau ? ».
 - **Ce qui marche** : le test des deux analystes : « Nora et Yanis lisent ta définition chacun
   de leur côté : trouvent-ils le même nombre pour la même station ? ». Puis passer les cinq
   cases une à une.
 
 ### Les locations par quartier de Claire (12a2)
 - **Explication** : une définition vaut pour l'indicateur partout où il est publié (choix du
-  cours) ; un critère d'acceptation est propre à une story (concept 8). Quand une case ne peut
-  pas se remplir parce qu'une règle n'est pas fixée, le PO la fait fixer par celui qui utilise
-  l'indicateur ; il ne la tranche pas (concept 8a2).
+  cours) ; un critère d'acceptation est propre à une story (concept 8). Une case qu'on ne peut
+  pas remplir signale une règle non fixée, ou une source qui manque.
 - **Situation** : Claire, chargée de mission mobilité, veut le nombre de locations par quartier
   sur le mois, pour justifier la subvention au conseil (story A, concept 10b1). Nora écrit :
   « Locations par quartier : nombre de locations, par quartier, sur le mois, d'après la table
   des locations. » Une location rendue à la même station au bout de quelques minutes est
-  souvent un vélo défectueux rendu aussitôt.
+  souvent un vélo défectueux rendu aussitôt. Le quartier de chaque station est dans le
+  référentiel des quartiers, tenu par la collectivité.
 - **Question** : qu'est-ce qui reste ouvert dans cette définition ? (Qui le fixe : relance si
   l'apprenant s'arrête à ce qui manque.)
 - **Réponse attendue** : deux règles ne sont pas fixées. Compter ou non les locations très
   courtes ; rattacher la location au quartier de la station de départ ou d'arrivée. Toutes deux
   changent le chiffre ; c'est Claire qui les fixe, pour ce qu'elle montre au conseil ; le PO lui
-  pose la question, il ne choisit pas. La source est incomplète : le quartier vient du
+  pose la question, il ne choisit pas. Bruno peut l'éclairer (il voit les vélos rendus
+  aussitôt), il ne fixe pas : sa vue des locations du jour montre toutes les locations, et la
+  règle concerne l'indicateur de Claire. La source est incomplète : le quartier vient du
   référentiel des quartiers, tenu par la collectivité, à côté de la table des locations. La
   fraîcheur manque aussi : le PO demande à Claire quand elle a besoin du mois. Nuances, non
   attendues : la table des locations n'est pas encore accessible (concept 11b) : la story ne
@@ -146,8 +151,10 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   dernier (story B) n'a de sens qu'avec la même définition, appliquée aux deux années : c'est
   pourquoi elle s'écrit une fois, pour l'indicateur, et non dans les critères de A.
 - **Erreurs fréquentes** :
-  - trancher (« on enlève les locations courtes, ce sont des pannes ») : ni l'apprenant ni le
-    PO ne fixent la règle ; demander « qui montre ce chiffre au conseil ? » ;
+  - trancher (« on enlève les locations courtes, ce sont des pannes ») : réponse fausse, même
+    si l'argument est bon ; ni l'apprenant ni le PO ne fixent la règle. Réexpliquer avec
+    l'exemple de « Ce qui marche » (la location de trois minutes), puis demander « qui montre ce
+    chiffre au conseil ? » ;
   - voir ce qui manque sans dire qui le fixe : demander « et alors, on fait quoi ? » ;
   - répondre « Bruno » : sa vue des locations du jour montre toutes les locations, courtes
     comprises ; c'est une autre vue ; pour l'indicateur de Claire, c'est Claire ;
@@ -180,16 +187,16 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 - **Ce qui marche** : « deux analystes la calculent demain : trouvent-ils le même temps ? ».
 
 ### Les signalements par téléphone (12b)
-- **Explication** : la qualité des données s'exprime en règles mesurables sur des dimensions
-  (pratique établie de la donnée) ; la liste des dimensions est un choix d'école : six chez
-  DAMA UK (exactitude, complétude, unicité, cohérence, fraîcheur, validité). Les relevés en
-  double relèvent de l'unicité. Une exigence s'écrit dans la DoD si elle vaut pour toute story
-  (le test des doublons, concept 11a), dans un critère si elle est propre à une story, dans la
-  définition de l'indicateur si elle le concerne (la fraîcheur des vélos disponibles, que le
-  critère de Julie cite pour son cas, concept 8b1).
-- **Situation** (hypothèse d'exercice) : supposons que la plateforme publie le nombre de vélos
-  signalés par semaine, que Sophie regarde pour fixer le nombre de techniciens en tournée. Les signalements viennent de l'appli
-  (équipe appli) ; ceux reçus par téléphone n'y sont pas saisis. Yanis, data engineer :
+- **Explication** : la qualité s'exprime en règles mesurables sur des dimensions (pratique
+  établie) ; leur liste est un choix d'école : six chez DAMA UK (exactitude, complétude,
+  unicité, cohérence, fraîcheur, validité) ; un relevé en double relève de l'unicité. Une
+  exigence va dans la DoD si elle vaut pour toute story (11a), dans un critère si elle est
+  propre à une story (8b1), dans la définition si elle concerne l'indicateur. Ce que la
+  plateforme reçoit mal se corrige (un doublon) ; ce qu'elle ne reçoit jamais est une limite de
+  la source.
+- **Situation** (hypothèse d'exercice) : la plateforme publie le nombre de vélos signalés par
+  semaine, que Sophie regarde pour fixer le nombre de techniciens en tournée. Les signalements
+  viennent de l'appli (équipe appli) ; ceux reçus par téléphone n'y sont pas saisis. Yanis :
   « C'est un défaut de qualité : ajoutons une story pour le corriger. »
 - **Question** : que réponds-tu à Yanis ? (Où l'écrire : relance si l'apprenant s'arrête à
   « c'est une limite de la source ».)
@@ -245,8 +252,9 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   de l'abonné, les stations de départ et d'arrivée, les heures. L'accès est demandé à Pascal,
   DSI ; il demande de justifier chaque colonne. On prépare la demande pour les stories de
   Claire (locations par quartier sur le mois, puis comparaison au même mois de l'an dernier).
-- **Question** : quelles colonnes demandes-tu à Pascal pour les stories de Claire ? (La
-  justification de chacune : relance si l'apprenant donne la liste sans raison.)
+- **Question** : que demandes-tu à Pascal pour les stories de Claire, et comment le
+  justifies-tu ? (Relances : si l'apprenant ne parle que des colonnes, « et quelles
+  locations ? » ; s'il donne la liste sans raison, « à quoi sert chacune ? ».)
 - **Réponse attendue** : la finalité d'abord : compter les locations par quartier, sur le mois,
   pour Claire. Les stations de départ et d'arrivée (le quartier vient du référentiel, et la
   règle départ ou arrivée n'est pas fixée) et les heures (la période, et la durée si Claire
@@ -268,8 +276,9 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   - oublier les heures : sans elles, pas de mois ;
   - demander tout l'historique : la finalité borne aussi les lignes ; demander « de quels mois
     Claire a-t-elle besoin ? » ;
-  - voir la question de Pascal comme une mauvaise volonté à contourner : sa question est celle que le PO doit savoir
-    poser d'abord ; si l'accès bloque sprint après sprint, l'escalade se voit au concept 14 ;
+  - voir la question de Pascal comme une mauvaise volonté à contourner : sa question est celle
+    que le PO doit savoir poser d'abord ; si l'accès bloque sprint après sprint, l'escalade se
+    voit au concept 14 ;
   - réponse juste sans la raison (« départ, arrivée, heures ») : demander « pourquoi pas
     l'abonné ? ».
 - **Ce qui marche** : écrire la demande en deux colonnes, « colonne » et « à quoi elle sert pour
@@ -322,12 +331,15 @@ Définition : « deux analystes qui la lisent calculent-ils le même nombre ? »
 « à quoi sert chaque colonne demandée, pour quelle finalité ? ».
 
 ## Schéma
-Une fiche d'identité d'indicateur, « Locations par quartier », à cinq cases : règle de calcul,
-grain, période, source, fraîcheur. Deux cases en rouge, « locations très courtes : à faire
-fixer par Claire » et « quartier de départ ou d'arrivée : à faire fixer par Claire ». La même
-fiche est reliée par deux flèches à deux sorties : le bilan du mois et la comparaison à l'an
-dernier (« une définition, partout où l'indicateur est publié »). Sous la fiche, une étiquette
-« qualité » avec des règles mesurables, chacune marquée de sa dimension (unicité, complétude,
-fraîcheur). À gauche, la table des locations passe par un filtre : les colonnes stations,
-heures passent, « identifiant de l'abonné » s'arrête, avec la légende « une colonne, une
-raison (finalité, minimisation) ».
+Trois schémas, un par sous-concept, chacun montré dans la correction, jamais avant la réponse.
+1. **12a** : une fiche d'identité d'indicateur, « Locations par quartier », à cinq cases : règle
+   de calcul, grain, période, source, fraîcheur. Deux cases en rouge, « locations très courtes :
+   à faire fixer par Claire » et « quartier de départ ou d'arrivée : à faire fixer par
+   Claire ». La fiche est reliée à deux sorties : le bilan du mois et la comparaison à l'an
+   dernier (« une définition, partout où l'indicateur est publié »).
+2. **12b** : deux entrées dans la plateforme. Un relevé en double qui entre, marqué « reçu mal :
+   se corrige (unicité) » ; un signalement par téléphone qui reste dehors, marqué « jamais reçu :
+   limite de la source, s'écrit et se montre ».
+3. **12c** : la table des locations passe par un filtre : les colonnes stations et heures, et
+   les locations des deux mois utiles, passent ; « identifiant de l'abonné » s'arrête. Légende :
+   « une colonne, une raison (finalité, minimisation) ».
