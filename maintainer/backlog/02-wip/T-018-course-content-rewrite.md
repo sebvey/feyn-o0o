@@ -153,13 +153,15 @@
 
   ### 6. Apprenant en cours de parcours
 
-  sve suit le cours en parallèle. Le 2026-10-22 (T-018a), il repart de zéro sur le plan
-  réordonné : `learner/parcours.md` remis à zéro, ses observations gardées.
+  sve suit le cours en parallèle. Le 2026-10-22 (T-011), `learner/` a été vidé : sve repart en
+  nouvel apprenant ; ses observations, anonymisées, sont dans
+  `maintainer/work/T-018/learner-observations.md`.
   - Chaque sous-ticket se fait sur une branche ; le merge ne doit pas casser sa reprise
     (« Prochaine étape » doit pointer vers un contenu existant).
-  - Un sous-ticket qui renumérote ou redécoupe des concepts met à jour `learner/parcours.md` et
-    les étiquettes de `learner/observations.md`, par exception à la règle d'écriture dans
-    `learner/` du skill `maintenance`.
+  - Un sous-ticket qui renumérote ou redécoupe des concepts met à jour, dans
+    `learner/parcours.md`, le tableau des statuts et « Prochaine étape », et les étiquettes de
+    `learner/observations.md`, par exception à la règle d'écriture dans `learner/` du skill
+    `maintenance` ; jamais le journal.
   - sve peut servir de testeur réel de chaque lot, dans l'ordre du cours.
 
   ### 7. Clôture

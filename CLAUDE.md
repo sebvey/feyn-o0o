@@ -15,6 +15,10 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 
 ## Au démarrage d'une session
 
+Si `learner/apprenant.md` est absent ou n'a pas de surnom, c'est un nouvel apprenant : lis et
+suis `.claude/skills/learner-onboarding/SKILL.md`, puis la boucle du cours. Sinon, crée depuis
+`course/templates/learner/` tout autre fichier absent de `learner/`, puis :
+
 1. Lis, dans cet ordre :
    1. `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
       vient ;
@@ -24,8 +28,7 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
       fichier de ce concept dans `course/concepts/`, s'il existe.
 
    Lis `learner/travaux.md` quand l'échange porte sur une production de l'apprenant.
-2. Ne repose pas les questions d'accueil (acquis, préférences) : les réponses sont dans
-   `learner/`.
+2. Ne repose pas les questions d'accueil : les réponses sont dans `learner/apprenant.md`.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept), propose de revenir sur un point, et arrête-toi là, même si l'apprenant a ouvert par
    « on reprend » ou « on continue ». Le prochain concept vient au message suivant.

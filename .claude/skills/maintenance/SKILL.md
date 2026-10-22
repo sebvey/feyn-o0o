@@ -23,7 +23,8 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
   d'`adr-template.md`. Tu l'édites en autonomie.
 - **`archive/`** : tu ne le lis que sur demande du mainteneur.
 - **`learner/`** : tu le lis pour diagnostiquer. Tu n'y écris que pour corriger un chemin après
-  un déplacement ou une suppression de fichier.
+  un déplacement ou une suppression de fichier, ou par exception écrite dans un ticket, et
+  jamais dans le journal de `learner/parcours.md`, réservé aux sessions de cours.
 
 ## Règles d'écriture du cadre
 
