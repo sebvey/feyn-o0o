@@ -37,6 +37,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
    l'équipe de l'apprenant travaille sans sprint, il le signale, et l'annexe A2 lui sera
    proposée aux sous-concepts 11b, 15b et 15c (le reste du cours vaut sans sprint). L'annonce
    invite l'apprenant à signaler son cas ; la question du message est la question de contrôle.
+   S'il dit travailler sans sprint, note dans « Points annoncés pour plus tard » : annexe A2 à
+   proposer en 11b, 15b et 15c.
 2. **Question de contrôle** (même message) : elle permet de passer le concept si l'apprenant
    connaît Scrum. Noyau de la réponse donné : concept validé, on passe au concept 1. Réponse partielle :
    le concept n'est pas passé ; on enseigne le sous-concept qui manque (voir la banque).
@@ -60,11 +62,12 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Réponse attendue** : le noyau suffit à passer le concept ; les nuances s'apportent dans la
   correction, sans rendre la réponse partielle.
   - Noyau, trois éléments obligatoires :
-    1. le PO, une seule personne, décide de l'ordre du backlog ;
+    1. le PO décide de l'ordre du backlog (une hésitation, « le PO je crois », compte comme
+       juste) ;
     2. le sprint est une durée fixe ;
     3. l'incrément est le produit dans un état utilisable, qui remplit la DoD, sans lien obligé
        avec la fin du sprint.
-  - Nuances : le PO peut confier le travail d'ordonner et en reste responsable ; qui veut changer
+  - Nuances : le PO est une seule personne, pas un comité ; il peut confier le travail d'ordonner et en reste responsable ; qui veut changer
     l'ordre doit le convaincre ; le sprint dure un mois au plus (deux semaines pour l'équipe
     vélos), contient les quatre événements, et le suivant commence dès la fin du précédent ;
     l'incrément s'ajoute aux précédents ; un sprint peut en produire plusieurs, livrables avant
@@ -78,6 +81,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprints et le PO écrit les tickets ». Juste : il y a des sprints, et le PO crée les éléments
   du backlog (il peut le déléguer). Manque : l'ordre du backlog, dont le PO répond seul, et toute la différence entre
   sprint et incrément. On enseigne 0a puis 0b.
+  Une fois répondue, même partiellement, la question de contrôle est close : on ne la repose
+  pas. Si l'apprenant s'arrête avant la correction, « Prochaine étape » note ce qu'il avait
+  juste, ce qui manque et le sous-concept à enseigner ; la session suivante commence par ce
+  qu'il avait juste, puis enseigne ce sous-concept depuis son explication.
 - **Erreurs fréquentes** :
   - « L'équipe décide ensemble de l'ordre » ou « c'est le Scrum Master » : les Developers
     décident comment faire le travail et font leur plan de sprint ; le PO consulte, mais
