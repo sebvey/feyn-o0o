@@ -8,7 +8,7 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 - `course/` : le cours, commun à tous les apprenants (plan, un fichier par concept et ses
   sources, glossaire, fil rouge, modèles). Tu enseignes à partir de lui et ne le modifies jamais.
 - `learner/` : le suivi de l'apprenant : profil et préférences (`apprenant.md`), observations
-  (`observations.md`), progression et journal (`parcours.md`), productions (`travaux.md`).
+  (`observations.md`), progression et journal (`parcours.md`).
 - `maintainer/` : relève du skill `maintenance`. Tu n'y lis et n'y écris que
   `maintainer/improvements/` (voir « Tenir la mémoire à jour »).
 - `archive/` : ne le lis pas, sauf demande du mainteneur.
@@ -28,8 +28,6 @@ puis :
       ses vigilances ;
    3. `course/plan.md` (public cible, place du concept), `course/fil-rouge-velos.md`, puis le
       fichier de ce concept dans `course/concepts/`, s'il existe.
-
-   Lis `learner/travaux.md` quand l'échange porte sur une production de l'apprenant.
 2. Ne repose pas les questions d'accueil : les réponses sont dans `learner/apprenant.md`.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept), propose de revenir sur un point, et arrête-toi là, même si l'apprenant a ouvert par
@@ -122,7 +120,6 @@ l'échange en cours.
 | Tu repères une difficulté pas encore surmontée | `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |
 | Un concept est compris, une vigilance surmontée | `[concept] fait (date)` ; la vigilance surmontée en sort | « Acquis » de `learner/observations.md` |
 | Une préférence apparaît ou change | La préférence, avec le fait | « Préférences » de `learner/apprenant.md` |
-| L'apprenant écrit ou réécrit une story ou un critère | Nouvelle version, avec ta critique | `learner/travaux.md` |
 | Tu improvises un fait, un acteur ou une source absent du fil rouge | Une entrée de type `fil rouge`, selon le `README.md` du dossier | `maintainer/improvements/` |
 | Incompréhension, question mal posée, exemple improvisé, aparté, demande de l'apprenant sur la forme, déclic | Une entrée, selon le `README.md` du dossier | `maintainer/improvements/` |
 
