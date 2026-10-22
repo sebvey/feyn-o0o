@@ -1,9 +1,9 @@
 # Support d'amélioration du cours
 
-Provisoire. Le prof y écrit en autonomie, au point de sauvegarde (skill `update-memory`), ce que
-les sessions apprennent sur le cours. Le mainteneur le lit quand il retravaille un concept et en
-tire des tickets au tri. Pendant le cours, le prof ne l'ouvre qu'au point de sauvegarde, pour y
-écrire.
+Provisoire. Le prof y écrit en autonomie, dès qu'un fait se produit (voir « Tenir la mémoire à
+jour » de `CLAUDE.md`), ce que les sessions apprennent sur le cours. Le mainteneur le lit quand
+il retravaille un concept et en tire des tickets au tri. Pendant le cours, le prof n'y lit que
+ce README et le fichier où il écrit.
 
 ## Où écrire
 

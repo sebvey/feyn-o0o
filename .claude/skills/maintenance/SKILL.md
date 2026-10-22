@@ -12,12 +12,12 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 ## Périmètre
 
 - **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/` (sauf les faits de
-  `course/fil-rouge-velos.md`, tenus par `update-memory`). Tu proposes, le mainteneur valide,
+  `course/fil-rouge-velos.md`, tenus par le prof). Tu proposes, le mainteneur valide,
   puis tu appliques, même pour une coquille.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-done/` : appliqué. Tu l'édites en
   autonomie.
-- **`maintainer/improvements/`** : écrit par le prof via `update-memory`. Tu le lis quand tu
+- **`maintainer/improvements/`** : écrit par le prof pendant le cours. Tu le lis quand tu
   retravailles un concept ou au tri du backlog, tu en tires des tickets (§2), et tu retires une
   entrée une fois traitée.
 - **`maintainer/adr/`** : les décisions qui passent la règle ADR (§4), au format
@@ -90,9 +90,10 @@ en lecture seule, sur un scénario qui met le changement à l'épreuve. Demande-
 Pour un changement du cours, le scénario par défaut est « on reprend », puis « on continue »,
 puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce le bon concept,
 tient les 15 lignes, enseigne à partir du fichier du concept, prend ses exemples dans le fil
-rouge vélos, n'écrit au fil de l'eau que « Prochaine étape », ne repose pas les questions
-d'accueil et suit `update-memory` en fin de session (observations dans la bonne section,
-entrée dans `maintainer/improvements/` si un fait s'y prête).
+rouge vélos, ne repose pas les questions d'accueil, et écrit la mémoire dans la même réponse
+que chaque fait, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observations dans la bonne
+section, entrée dans `maintainer/improvements/` si un fait s'y prête, journal et contrôle de
+reprise à l'arrêt).
 
 Rapporte le résultat au mainteneur. Les défauts que le test révèle hors du ticket deviennent des
 tickets (§2).
