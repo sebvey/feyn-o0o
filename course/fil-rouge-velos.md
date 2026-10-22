@@ -88,6 +88,7 @@ métier.
   stations qui se vident.
 - La journée de Bruno : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.
+- Sophie fixe chaque semaine le nombre de techniciens en tournée.
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo
   défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé.
 
