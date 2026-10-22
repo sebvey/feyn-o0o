@@ -50,7 +50,7 @@ métier.
 | Bruno, responsable d'exploitation | Encadre les régulateurs, pilote la flotte au quotidien | Suivre l'état du réseau dans plusieurs vues (stations vides, vélos en panne, locations du jour) | 4, 11, 16 |
 | Hugo, technicien de maintenance | Répare les vélos sur le terrain ; confirme ou infirme sur place une panne signalée | Préparer sa tournée de réparation à partir des vélos signalés | 6, 10, 15 |
 | Sophie, responsable maintenance | Encadre les techniciens | Qu'un vélo signalé en panne ne soit plus louable | 5, 10, 13 |
-| Julie, abonnée | Abonnée sans l'appli, avec un téléphone basique (comme un tiers des abonnés) | Savoir avant de partir s'il reste un vélo à sa station | 7, 8 |
+| Julie, abonnée | Persona des abonnés sans l'appli, avec un téléphone basique (un tiers des abonnés), construit à partir d'abonnés interrogés | Savoir avant de partir s'il reste un vélo à sa station | 6, 7, 8 |
 | Claire, chargée de mission mobilité | Côté collectivité, suit le service qu'elle finance | Justifier la subvention au conseil (locations par quartier) | 10, 12, 13 |
 | Inès, PO de l'équipe appli | Porte l'appli des abonnés | Recevoir de la plateforme les données qu'affiche l'appli | 13, 14 |
 | Pascal, DSI | Gère les systèmes et leurs accès | Donner les accès aux données dans les règles | 11, 12, 14 |
@@ -59,7 +59,7 @@ métier.
 
 | Source | Contenu | Propriétaire | Fraîcheur, défauts connus |
 |---|---|---|---|
-| Relevés des stations | Nombre de vélos à quai par station | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
+| Relevés des stations | Nombre de vélos à quai par station et, pour chacun, s'il est louable | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
 | Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
 | Signalements de pannes | Vélo signalé, par l'abonné dans l'appli | Équipe appli | Les signalements par téléphone ne sont pas saisis dans l'appli |
 | Abonnés | Abonnement, station favorite | Équipe appli | |
@@ -72,9 +72,9 @@ métier.
   décidé).
 - Le centre-ville sert de premier périmètre ; la météo (pluie) ajuste la prévision des
   stations à risque.
-- Rafraîchissement toutes les 5 minutes cité comme option avant le temps réel.
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
   de la story de tournée d'Hugo ; Sophie le réclame (concept 10).
+- Un vélo n'est plus louable quand un technicien l'a retiré du service après constat.
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
   celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
 - La disponibilité par station vient de la plateforme ; la livrer à Julie par un canal (SMS,

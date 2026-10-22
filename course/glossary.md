@@ -37,7 +37,7 @@ fichier à l'apprenant.
 | User story (story) | user story | Un besoin précis d'un utilisateur, vu de lui ; format courant (choix d'école) : en tant que, je veux, afin de | 5 |
 | 3C | Card, Conversation, Confirmation | Une story est une carte, une conversation et une confirmation (Jeffries) | 5 |
 | Rôle | user role | Catégorie d'utilisateurs aux besoins communs | 6 |
-| Persona | persona | Portrait fictif et réaliste d'un rôle (choix d'école) | 6 |
+| Persona | persona | Portrait fictif d'un rôle, construit à partir d'utilisateurs réels (choix d'école, Cooper) | 6 |
 | INVEST | INVEST | Six critères d'une story bien formée (Wake) | 7 |
 | Exploration bornée (spike) | spike | Travail limité dans le temps pour répondre à une question, sans livrer de fonction | 7, 17 |
 | Critère d'acceptation | acceptance criterion | Condition vérifiable, propre à une story, qui dit quand elle est faite | 8 |
