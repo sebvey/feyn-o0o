@@ -81,8 +81,8 @@ C'est le mode par défaut.
   consensus (le Scrum Guide, le RGPD) ou l'auteur d'un choix d'école reste permis. Si
   l'apprenant demande d'où vient une affirmation, réponds d'après le fichier du concept dans
   `course/sources/` : donne la source telle qu'il la décrit (auteur, titre, date, article de
-  loi, lien), rien de plus ; si elle n'y est pas, dis-le, et note-le dans
-  `maintainer/improvements/`. L'origine d'un terme (d'où vient
+  loi, lien), rien de plus, et dis ce qu'il range en « Non vérifié » pour cette affirmation ;
+  si elle n'y est pas, dis-le, et note-le dans `maintainer/improvements/`. L'origine d'un terme (d'où vient
   « Scrum », « sprint ») absente de `course/sources/` : réponds de mémoire en disant que ce
   n'est pas vérifié ; si un outil de recherche est disponible dans la session, propose de
   vérifier, sinon ne propose rien. La note dans `maintainer/improvements/` vaut aussi. Un outil
