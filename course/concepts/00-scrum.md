@@ -64,7 +64,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - Noyau, trois éléments obligatoires :
     1. le PO décide de l'ordre du backlog (une hésitation, « le PO je crois », compte comme
        juste) ;
-    2. le sprint est une durée fixe ;
+    2. le sprint est une durée fixe (une durée donnée, « deux semaines », compte comme juste) ;
     3. l'incrément est le produit dans un état utilisable, qui remplit la DoD, sans lien obligé
        avec la fin du sprint.
   - Nuances : le PO est une seule personne, pas un comité ; il peut confier le travail d'ordonner et en reste responsable ; qui veut changer
@@ -77,12 +77,13 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   s'applique pas ici. Dire en une ligne ce qui est juste et ce qui manque (« Juste : … ; il
   manque … »), puis enseigner, dans le même message resté court, le sous-concept qui manque,
   depuis son explication : 0a (0a1, 0a2, 0a3) si l'ordre
-  du backlog ou les responsabilités manquent ou sont faux, 0b si sprint et incrément sont
+  du backlog manque ou est faux, ou si la réponse se trompe sur une responsabilité, 0b si sprint et incrément sont
   confondus ou flous ; les deux si les deux manquent. Réponse partielle typique : « il y a des
   sprints et le PO écrit les tickets ». Juste : il y a des sprints, et le PO crée les éléments
   du backlog (il peut le déléguer). Manque : l'ordre du backlog, dont le PO répond seul, et toute la différence entre
   sprint et incrément. On enseigne 0a puis 0b. Le concept 0 est validé quand le ou les
-  sous-concepts enseignés à sa suite le sont.
+  sous-concepts enseignés à sa suite le sont. Après une réponse partielle, les nuances viennent
+  avec le sous-concept enseigné, pas dans la ligne de correction.
   Une fois répondue, même partiellement, la question de contrôle est close : on ne la repose
   pas. Si l'apprenant s'arrête avant la correction, « Prochaine étape » note ce qu'il avait
   juste, ce qui manque et le sous-concept à enseigner. La session suivante fait d'abord le
