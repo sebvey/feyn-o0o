@@ -5,103 +5,246 @@ titre: Hors périmètre et dépendances
 
 # Hors périmètre et dépendances
 
-> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
-> selon `course/templates/concept.md` (T-018).
+## Objectif
+Écrire le hors périmètre d'une story et dire ce que devient la demande qui en sort. Traiter une
+dépendance, entre deux stories de l'équipe ou envers une autre équipe : l'écrire, puis ordonner,
+ou s'accorder avec le PO de l'autre équipe.
 
 ## L'essentiel
-Le **hors périmètre** d'une story liste ce qu'elle ne fait pas alors que quelqu'un pourrait
-raisonnablement s'y attendre. Il aligne les attentes avant le sprint : à la revue, personne ne
-découvre un « manque » qui avait été convenu. Chaque ligne est une demande plausible, reportée
-ou confiée à un autre canal : elle reste à traiter.
-Une **dépendance** : une story ne peut pas être livrée, ou n'a pas de sens, avant une autre. On
-les réduit (I d'INVEST) ; celles qui restent, on les rend visibles et on ordonne le backlog.
-Fusionner deux stories pour supprimer une dépendance est rarement la bonne réponse : on garde la
-plus petite story qui a une valeur seule.
+Le **hors périmètre** d'une story liste ce qu'elle ne fait pas alors qu'on pourrait s'y attendre.
+Écrit avant le sprint, il évite qu'un manque convenu passe pour un bug à la revue ; chaque ligne
+reste une demande, qui entre au backlog et que le PO ordonne. Une **dépendance** : une story ne
+peut pas être livrée, ou n'a pas de sens, avant une autre. Entre deux stories de l'équipe, le PO
+ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur l'ordre.
 
 ## Consensus et choix d'école
-- **Consensus** : clarifier ce qui est dans la story et ce qui n'y est pas avant de s'engager
-  (le refinement du Scrum Guide sert à ça, sans imposer de forme).
-- **Consensus** : réduire les dépendances et rendre visibles celles qui restent.
-- **Choix d'école** : une rubrique « Hors périmètre » écrite dans la story. Le Scrum Guide n'en
-  parle pas ; c'est une pratique de rédaction répandue, chaque équipe choisit sa forme.
-- **Choix d'école** : la façon de noter les dépendances (lien « dépend de » dans l'outil,
-  tableau des dépendances de SAFe).
+- **Consensus** (Scrum Guide 2020) : un élément choisi au Sprint Planning a en général été
+  précisé avant ; le contenu du sprint peut encore se clarifier pendant le sprint, avec le PO.
+  La revue de sprint peut adapter le backlog, et le PO l'ordonne (concepts 0, 1, 3). Le Scrum
+  Guide ne parle ni de hors périmètre ni de dépendance entre éléments du backlog.
+- **Pratique établie** (hors Scrum Guide) : réduire les dépendances et rendre visibles celles
+  qui restent. Bill Wake (I d'INVEST), Mike Cohn et Scrum.org, pour plusieurs équipes sur un même
+  produit, concordent. Cohn donne deux façons de lever une dépendance entre deux stories : les
+  fusionner, si la story fusionnée reste petite, ou les découper autrement. Il compte aussi
+  les dépendances parmi ce qui pèse pour ordonner un backlog (concept 13).
+- **Choix d'école** :
+  - une rubrique « Hors périmètre » écrite dans la story : certaines équipes l'ajoutent, sans
+    auteur attitré ; le Scrum Guide n'impose aucune forme aux éléments du backlog ;
+  - la façon de noter une dépendance : un lien entre deux éléments dans l'outil (dans Jira,
+    « blocks / is blocked by » ; détail à l'annexe A1). SAFe, cadre de passage à l'échelle,
+    affiche les dépendances entre les features de plusieurs équipes sur un tableau (l'« ART
+    Planning Board ») : hors de ce cours.
+- **Choix du cours** (sans source externe, à présenter comme tel) : ne mettre hors périmètre que
+  les demandes plausibles ; quand la story dont l'autre dépend a une valeur seule, garder les
+  deux et les ordonner plutôt que les fusionner ; entre deux produits, chacun avec son PO,
+  s'accorder entre PO sur l'ordre dans les deux backlogs (le Scrum Guide ne traite pas ce cas).
 
-## Sur un exemple
-Vélos en libre-service : les abonnés signalent les vélos en panne dans l'appli.
-> En tant que technicien de maintenance, je veux voir les vélos signalés en panne, regroupés par
-> station, afin de préparer ma tournée de réparation.
-> **Hors périmètre** : bloquer le vélo à la location, diagnostiquer la panne, traiter les
-> signalements reçus par téléphone.
+## Sous-concepts
+1. **10a hors périmètre**, en deux messages ; on ne passe à 10b qu'après les deux :
+   - **10a1** l'écrire : ce que la story ne fait pas alors qu'on pourrait l'attendre, écrit quand
+     on précise la story avant le sprint (« Écrire le hors périmètre de la tournée ») ;
+   - **10a2** le montrer à la revue : la demande qui en sort entre au backlog et le PO l'ordonne
+     (comment : concept 13) (« Sophie crie au bug », qui reprend le hors périmètre de 10a1).
+2. **10b dépendances**, en deux messages :
+   - **10b1** entre deux stories de l'équipe : fusionner ou ordonner (« Fusionner les deux
+     stories de Claire ? ») ;
+   - **10b2** envers une autre équipe : l'écrire dans son backlog et demander à l'autre PO de
+     l'écrire dans le sien, s'accorder avec lui sur l'ordre (« Le canal de Julie dépend de
+     l'équipe appli ») ; si l'accord ne se fait pas, escalade : renvoi au concept 14, sans
+     l'enseigner. L'accès à la table des locations, dépendance envers la DSI, est l'exemple du
+     concept 11b.
 
-À la revue, la responsable maintenance : « Un vélo signalé reste louable, c'est un bug ! »
-Réponse de sve : c'était hors périmètre de cette story ; on prend un moment ensemble pour écrire
-la nouvelle. Complément : le PO montre la ligne écrite (ça désamorce le « bug »), puis met la
-story au backlog et la **priorise** face au reste. Ici elle passera sans doute devant (un vélo
-en panne louable pose un problème de sécurité), mais c'est une décision du PO.
-
-Dépendances, la collectivité qui finance le service :
-> A : En tant que chargée de mission mobilité, je veux voir le nombre de locations par quartier
-> sur le mois, afin de justifier la subvention au conseil.
-> B : … je veux comparer ce mois au même mois de l'an dernier, afin de montrer l'évolution.
-
-B dépend de A. Fusionner ? Non (réponse de sve) : A a de la valeur seule, la fusion grossit la
-story et retarde cette valeur. On ordonne : A avant B.
-
-## Pièges
-- Ne rien écrire hors périmètre : le métier comble les silences avec ses attentes, et la revue
-  tourne au « c'est un bug ».
-- Traiter une demande sortie du hors périmètre comme due au prochain sprint : elle entre au
-  backlog et se priorise comme les autres (concept 13).
-- Fusionner deux stories pour « supprimer » une dépendance saine : on perd une livraison.
-- Accepter deux stories dont aucune n'a de valeur seule : c'est un découpage horizontal
-  (concept 9), on redécoupe.
-- Lister des évidences que personne n'attend : le hors périmètre ne sert que pour les demandes
-  plausibles.
-
-## Le test rapide
-« Quelqu'un du métier pourrait-il croire que c'est inclus ? » Si oui et que ce n'est pas le
-cas, ça va dans le hors périmètre.
-« Chacune des deux stories a-t-elle une valeur seule ? » Si oui, ordonner ; sinon, redécouper.
-
-## Visuel suggéré
-Un cercle « la story » avec ce qu'elle fait dedans ; juste au bord, à l'extérieur, les demandes
-plausibles exclues, chacune avec une flèche vers « backlog, à prioriser ».
+Déjà enseigné, à rappeler sans le réenseigner : V et I d'INVEST, les Developers estiment la
+taille (concept 7) ; une story tient dans un sprint (concept 4) ; le PO ordonne seul le backlog
+(concepts 1 et 3) ; la revue de sprint (concept 0) ; la règle non fixée que le PO fait fixer
+(concept 8a2) ; la tranche verticale (concept 9). Pas encore enseignés, nommés avec renvoi :
+données du produit (12), ordonner (13), parties prenantes et escalade (14), préciser une story
+avant le sprint et revue de sprint en détail (15).
 
 ## Banque d'exemples
 
-### Hors périmètre d'une story de maintenance (10a)
-- **Explication** : le hors périmètre dit ce que la story ne fait pas alors qu'on pourrait
-  raisonnablement l'attendre ; il aligne les attentes avant le sprint. Pratique courante de
-  rédaction, absente du Scrum Guide.
-- **Situation** : les abonnés signalent des vélos en panne dans l'appli.
-  > En tant que technicien de maintenance, je veux voir les vélos signalés en panne, regroupés
-  > par station, afin de préparer ma tournée de réparation.
-  > Hors périmètre : bloquer le vélo à la location ; diagnostiquer la panne ; les signalements
-  > reçus par téléphone.
-- **Question** : à la revue de sprint, Sophie, la responsable maintenance, s'agace : « Un vélo
-  signalé reste louable, c'est un bug ! » Que réponds-tu en tant que PO, et que devient sa
-  demande ?
-- **Réponse attendue** : ce n'est pas un défaut, c'était convenu hors périmètre (le PO montre la
-  ligne) ; la demande est légitime, le PO l'ajoute au backlog comme nouvelle story et la
-  priorise (elle peut passer devant le reste, mais c'est une décision, pas un dû).
-- **Erreur fréquente** : supposer que la demande se traite aussitôt. Lien vers le concept 13.
+Faits du fil rouge utilisés : la story de tournée (concept 6) ; Hugo confirme ou infirme sur
+place une panne signalée ; un vélo signalé en panne reste louable, son blocage à la location a
+été mis hors périmètre de la story de tournée et Sophie le réclame ; un vélo n'est plus louable
+quand un technicien l'a retiré du service après constat ; les signalements par téléphone ne sont
+pas saisis dans l'appli ; Claire veut le nombre de locations par quartier sur le mois, puis la
+comparaison au même mois de l'an dernier ; l'accès à la table des locations n'est pas obtenu
+(concept 11b) ; la story de Julie (concept 7) ; la disponibilité par station vient de la
+plateforme, la livrer à Julie par un canal dépend de l'équipe appli, dont Inès est la PO ; Inès
+veut aussi la disponibilité par station pour l'appli ; Thomas est Scrum Master des deux équipes ;
+Agnès est sponsor. Les propos de Sophie à la revue, de Léa et de Yanis, et l'état du backlog de
+l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des faits du fil rouge.
 
-### Dépendance : fusionner deux stories de la collectivité ? (10b)
+### Écrire le hors périmètre de la tournée (10a1)
+- **Explication** : le hors périmètre liste ce que la story ne fait pas alors qu'un utilisateur
+  ou une partie prenante pourrait s'y attendre. On l'écrit quand on précise la story avant le
+  sprint. On n'y met que les demandes plausibles, celles qu'on pourrait croire incluses : une
+  évidence que personne n'attend n'y a pas sa place (choix du cours). La rubrique est un choix
+  d'école : le Scrum Guide n'en parle pas.
+- **Situation** : la story de tournée, avant le sprint, sans hors périmètre. On sait que Sophie
+  veut qu'un vélo signalé en panne ne soit plus louable, que le technicien confirme ou infirme la
+  panne sur place, et que les signalements reçus par téléphone ne sont pas saisis dans l'appli.
+  Léa, data engineer, propose une seule ligne : « Hors périmètre : réparer les vélos. »
+- **Question** : écris le hors périmètre de cette story, en partant de la ligne de Léa.
+- **Réponse attendue** : la ligne de Léa est une évidence : personne ne croit qu'une liste
+  répare un vélo ; on la retire. Trois lignes : bloquer le vélo à la location (Sophie peut le
+  croire inclus) ; diagnostiquer la panne (on peut croire que la liste dit si la panne est
+  réelle, elle ne montre que des signalements, que le technicien confirme ou infirme sur
+  place) ; les signalements reçus par téléphone (Sophie et Hugo
+  peuvent croire la liste complète, elle ne montre que les signalements saisis dans l'appli).
+  Nuances : chaque ligne reste une demande ; le blocage va au backlog. Les signalements absents
+  sont aussi une question de données, reprise au concept 12.
+- **Erreurs fréquentes** :
+  - garder des évidences ou des tâches des Developers (concept 4) : demander « qui pourrait
+    croire que c'est inclus ? » ;
+  - oublier le téléphone, le plus traître, car la liste a l'air complète : demander « la liste
+    montre-t-elle toutes les pannes signalées ? » ;
+  - écrire une ligne vague (« le reste des signalements ») : on ne sait plus ce qui est exclu.
+- **Ce qui marche** : le test rapide, ligne par ligne, à voix haute.
+
+### Sophie crie au bug (10a2)
+- **Explication** : écrit avant le sprint, le hors périmètre aligne les attentes : à la revue,
+  personne ne découvre un manque convenu. Chaque ligne reste une demande à traiter : elle entre
+  au backlog, et le PO l'ordonne.
+- **Situation** :
+  > En tant que technicien de maintenance, je veux voir les vélos signalés en panne, afin de
+  > préparer ma tournée de réparation.
+  > Hors périmètre : bloquer le vélo à la location ; diagnostiquer la panne (la liste montre des
+  > signalements, le technicien confirme ou infirme la panne sur place) ; les signalements reçus
+  > par téléphone (ils ne sont pas saisis dans l'appli).
+
+  La story est livrée. À la revue de sprint, Sophie, responsable maintenance, s'agace : « Un
+  vélo signalé reste louable, c'est un bug ! »
+- **Question** : que réponds-tu à Sophie, en tant que PO, et que devient sa demande ?
+- **Réponse attendue** : la story fait ce qu'elle dit : le blocage était écrit hors périmètre,
+  convenu avant le sprint ; le PO montre la ligne, ce qui désamorce le « bug ». Le ton reste
+  posé : la demande de Sophie est légitime, un vélo signalé en panne qu'on peut louer est un vrai
+  problème. Elle entre au backlog comme une nouvelle story (la revue sert aussi à adapter le
+  backlog), et le PO l'ordonne face au reste. Il ne promet pas le prochain sprint sur le moment
+  et ne la refuse pas : comment l'ordonner, et ce que pèse l'argument de sécurité, vient au
+  concept 13. Nuance : la nouvelle story touche une règle. Aujourd'hui, un vélo n'est plus
+  louable qu'après constat d'un technicien ; bloquer dès le signalement, et débloquer si la panne
+  est infirmée, est une règle à faire fixer (concept 8a2), pas à trancher en revue.
+- **Erreurs fréquentes** :
+  - promettre le blocage pour le prochain sprint (« c'est le bon moment ») : la demande entre au
+    backlog et s'ordonne comme les autres ; demander « face aux autres demandes, qui décide de sa
+    place ? » (concept 13, sans l'enseigner) ;
+  - répondre « c'était hors périmètre » et s'arrêter là : la demande doit aller quelque part ;
+    demander « et alors, on fait quoi de sa demande ? » ;
+  - reconnaître un bug et s'excuser : la story fait ce qui était convenu ; demander « qu'est-ce
+    qui était écrit avant le sprint ? » ;
+  - décider sur place la règle de blocage (« on bloque dès le signalement ») : règle à faire
+    fixer (concept 8a2).
+- **Ce qui marche** : une réponse au ton de PO, en trois temps : reconnaître le problème, montrer
+  la ligne écrite, dire où va la demande et qui la place. Si la réponse est elliptique (« hors
+  périmètre »), faire préciser avant de corriger : « que dis-tu à Sophie, mot pour mot ? ».
+
+### Fusionner les deux stories de Claire ? (10b1)
 - **Explication** : une story dépend d'une autre quand elle ne peut pas être livrée, ou n'a pas
-  de sens, avant elle. Le I d'INVEST demande de les réduire ; certaines sont naturelles : on les
-  rend visibles et on ordonne le backlog. Consensus : réduire et rendre visible. Choix d'école :
-  la façon de les noter (lien « dépend de » dans l'outil, tableau des dépendances de SAFe).
-- **Situation** : Claire, chargée de mission mobilité de la collectivité.
+  de sens, avant elle. On les réduit (I d'INVEST, concept 7). Pour lever une dépendance entre
+  deux stories, Mike Cohn donne deux voies : les fusionner, si la story fusionnée reste petite,
+  ou les découper autrement. Une dépendance qui reste s'écrit, et le PO ordonne : l'élément dont
+  l'autre dépend passe avant.
+- **Situation** : Claire, chargée de mission mobilité à la collectivité.
   - A : « En tant que chargée de mission mobilité, je veux voir le nombre de locations par
     quartier sur le mois, afin de justifier la subvention au conseil. »
-  - B : « … je veux comparer ce mois au même mois de l'an dernier, afin de montrer
-    l'évolution. »
-  B dépend de A ; A a de la valeur seule, B l'enrichit.
-- **Question** : un développeur propose de fusionner A et B en une seule story « pour supprimer
-  la dépendance ». Bonne idée ou pas, et pourquoi ?
-- **Réponse attendue** : plutôt non. La fusion grossit la story (S) et retarde la valeur de A.
-  La dépendance A puis B est saine : on ordonne (A avant B). Une dépendance pose problème quand
-  aucune des deux stories n'a de valeur seule (découpage horizontal, concept 9) : là, on
-  redécoupe. Fusionner se défend si les deux sont minuscules.
-- **Ce qui marche** : demander « et alors, on fait quoi ? » si la réponse s'arrête au « non ».
+  - B : « En tant que chargée de mission mobilité, je veux comparer ce mois au même mois de l'an
+    dernier, afin de montrer l'évolution. »
+
+  B n'a pas de sens sans A. Yanis, data engineer, propose de fusionner A et B en une seule story
+  « pour supprimer la dépendance ».
+- **Question** : que réponds-tu à Yanis ?
+- **Réponse attendue** : plutôt non, ici. A a une valeur seule : Claire peut justifier la
+  subvention avec les chiffres du mois ; B l'enrichit. Fusionner grossit la story et retarde la
+  valeur de A jusqu'à ce que B soit prête. La dépendance est saine : on garde les deux stories,
+  on l'écrit dans B, et le PO ordonne A avant B (comment ordonner : concept 13). Nuances :
+  fusionner se défend si la story fusionnée reste petite, et ce sont les Developers qui estiment
+  la taille (concept 7), Yanis compris. Une dépendance pose problème quand aucune des deux
+  stories n'a de valeur seule : ce sont souvent des tranches horizontales (concept 9) ; on
+  vérifie, et on redécoupe en tranches verticales. A et B
+  attendent aussi l'accès à la table des locations : dépendance envers la DSI, vue au
+  concept 11b.
+- **Erreurs fréquentes** :
+  - s'arrêter au « non » : demander « et alors, on fait quoi de la dépendance ? » ;
+  - accepter la fusion parce qu'une dépendance serait toujours un défaut : le I se tient autant
+    que possible (concept 7) ;
+  - répondre « fusionner, jamais » : Cohn la retient quand le résultat reste petit ;
+  - placer B avant A, ou les laisser sans ordre : B n'a pas de sens sans A.
+- **Ce qui marche** : « si l'équipe s'arrête après A, Claire s'en sert-elle ? », puis « et si
+  elle s'arrête après la story fusionnée, qu'a-t-elle eu en attendant ? ».
+
+### Le canal de Julie dépend de l'équipe appli (10b2)
+- **Explication** : une dépendance envers une autre équipe ne se règle pas dans son seul
+  backlog. Le PO l'écrit dans son backlog, demande à l'autre PO de l'écrire dans le sien, et
+  s'accorde avec lui sur l'ordre dans les deux backlogs, pour que les deux parts arrivent à
+  temps. Chaque PO ordonne seul son backlog : pour changer sa place, on le convainc. Pratique du
+  cours : le Scrum Guide ne traite pas deux produits ayant chacun son PO.
+- **Situation** : la story de Julie (concept 7) : « En tant qu'abonné, je veux savoir avant de
+  partir s'il reste un vélo à ma station, afin de ne pas me déplacer pour rien. » La
+  disponibilité par station vient de la plateforme ; la livrer à Julie par un canal (SMS, serveur
+  vocal, appli) relève de l'équipe appli, dont Inès est la PO. Inès veut aussi la disponibilité
+  par station pour l'appli. Le canal pour les abonnés sans l'appli n'est pas au backlog de
+  l'équipe appli. Léa : « Notre part sera prête à la fin du sprint. Le canal, c'est l'affaire de
+  l'équipe appli. »
+- **Question** : en tant que PO de la plateforme, que fais-tu de cette dépendance ?
+- **Réponse attendue** : Léa a raison sur la frontière : le canal relève de l'équipe appli.
+  Mais la part de la plateforme, livrée seule, ne sert pas Julie tant que le canal n'existe pas.
+  Le PO écrit la dépendance dans la story de Julie et demande qu'elle soit écrite aussi côté
+  appli (un lien entre les deux éléments : annexe A1). Il va voir Inès, lui présente le besoin
+  (un tiers des abonnés n'a qu'un téléphone basique, sans l'appli) et s'accorde avec elle sur
+  l'ordre dans les deux backlogs : c'est Inès qui inscrit et place le canal dans le sien. Nuances :
+  la part de la plateforme n'est pas perdue si elle sort avant, car Inès veut aussi la
+  disponibilité pour l'appli ; si l'accord ne se fait pas, ou si la dépendance bloque, c'est une
+  escalade (Thomas, Scrum Master des deux équipes ; Agnès, sponsor) : concept 14.
+- **Erreurs fréquentes** :
+  - livrer sa part et tenir la story pour faite : demander « Julie obtient-elle l'information ? » ;
+  - demander à Léa de faire le canal : l'appli et ses canaux relèvent de l'équipe appli ;
+  - inscrire soi-même le canal dans le backlog de l'équipe appli, ou exiger une date : Inès
+    ordonne son backlog ; pour y placer le canal, on la convainc ;
+  - escalader d'emblée à Agnès sans avoir parlé à Inès : l'escalade vient après (concept 14) ;
+  - écarter la story parce qu'elle dépend d'une autre équipe : le I se tient autant que possible
+    (concept 7).
+- **Ce qui marche** : suivre le chemin de l'information jusqu'à Julie, comme au concept 7, et
+  demander à chaque étape « qui la fait, et dans quel backlog ? ». Si la réponse s'arrête à
+  « écrire la dépendance », relancer : « et alors, qui va voir qui ? ».
+
+## Pièges
+- **Ne rien écrire hors périmètre** : chacun comble les silences avec ses attentes, et la revue
+  tourne au « c'est un bug ».
+- **Lister des évidences ou des tâches** : le hors périmètre ne sert qu'aux demandes plausibles.
+- **Prendre le hors périmètre pour un refus** : chaque ligne reste une demande, qui va au
+  backlog.
+- **Traiter aussitôt une demande sortie du hors périmètre** (« c'est le bon moment ») : elle
+  entre au backlog et le PO l'ordonne comme les autres (concept 13).
+- **Trancher en revue une règle que la demande soulève** (bloquer dès le signalement) : la faire
+  fixer (concept 8a2).
+- **Fusionner deux stories pour supprimer une dépendance saine** : on retarde la valeur de la
+  première. La fusion se défend si la story fusionnée reste petite.
+- **Accepter deux stories dont aucune n'a de valeur seule** : ce sont souvent des tranches
+  horizontales ; on redécoupe en tranches verticales (concept 9).
+- **Livrer sa part d'une dépendance envers une autre équipe et s'arrêter là** : l'utilisateur
+  n'est pas servi ; s'accorder avec le PO de l'autre équipe.
+- **Ordonner le backlog d'une autre équipe à sa place**, ou escalader avant de lui parler : on
+  convainc son PO ; l'escalade vient ensuite (concept 14).
+- **Croire que le Scrum Guide prescrit une rubrique « Hors périmètre » ou un outil de suivi des
+  dépendances** : il n'en parle pas ; ce sont des choix d'école.
+
+## Le test rapide
+Hors périmètre : « un utilisateur ou une partie prenante pourrait-il croire que c'est inclus ? »
+Si oui et que ce n'est pas le cas, la ligne s'écrit. Dépendance : « la story dont l'autre
+dépend a-t-elle une valeur seule ? » Si oui, garder les deux et ordonner ; si aucune n'en a,
+redécouper (concept 9). Envers une autre équipe :
+« son PO sait-il, et l'ordre est-il convenu entre nous ? »
+
+## Schéma
+Deux panneaux.
+1. **Hors périmètre (10a)** : un cercle « la story de tournée », avec dedans « voir les vélos
+   signalés en panne ». Juste au bord, à l'extérieur, trois étiquettes : « bloquer à la
+   location », « diagnostiquer la panne », « signalements par téléphone ». De chacune part une
+   flèche vers une boîte « backlog, à ordonner par le PO ». Légende : « au bord du cercle :
+   ce qu'on pourrait croire inclus ».
+2. **Dépendances (10b)** : à gauche, un seul backlog, A au-dessus de B, une flèche « B dépend de
+   A » ; légende « même équipe : le PO ordonne ». À droite, deux backlogs côte à côte
+   (plateforme, équipe appli) ; « disponibilité par station » relié par un trait à « canal pour
+   les abonnés sans l'appli » ; entre les deux PO (le PO de la plateforme, Inès), une bulle « on
+   s'accorde sur l'ordre » ; en dessous, en pointillé, « si ça bloque : escalade (concept 14) ».

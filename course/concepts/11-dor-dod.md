@@ -1,91 +1,257 @@
 ---
 concept: 11
-titre: Definition of Ready / Definition of Done
+titre: Definition of Done, Definition of Ready
 ---
 
-# Definition of Ready / Definition of Done
+# Definition of Done, Definition of Ready
 
-> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
-> selon `course/templates/concept.md` (T-018).
+## Objectif
+Distinguer la Definition of Done (DoD), la Definition of Ready (DoR) et un critère
+d'acceptation ; ranger une exigence au bon endroit ; décider si une story est prête à entrer
+dans un sprint, et dire quoi faire quand elle ne l'est pas.
 
 ## L'essentiel
-La **Definition of Done (DoD)** liste les exigences de qualité que toute story remplit pour être
-« terminée ». Elle vaut pour tout l'incrément : écrite une fois, jamais répétée dans chaque
-story. Les critères d'acceptation disent ce que fait une story donnée ; la DoD, comment toutes
-sont faites.
-La **Definition of Ready (DoR)** liste les conditions qu'une story remplit avant d'entrer dans
-un sprint : la DoD dit quand une story est terminée, la DoR quand elle peut commencer. Le Scrum
-Guide n'impose pas de DoR (choix d'école) ; trop stricte, elle devient un mini cahier des
-charges. En data, l'accès aux données y figure souvent.
+La **DoD**, nommée au concept 0 (0a3), est l'engagement de l'incrément : les exigences de
+qualité que tout élément remplit pour en faire partie. Il n'y a **qu'une DoD, pour toute
+story**. Le critère d'acceptation dit ce que fait une story donnée (concept 8) ; la DoD, comment
+toutes sont faites. La **DoR** liste les conditions qu'une story remplit avant d'entrer dans un
+sprint : la DoD dit quand elle est terminée, la DoR quand elle peut commencer. La DoD est dans
+le Scrum Guide, la DoR non.
 
 ## Consensus et choix d'école
-- **Consensus** : la DoD est dans le Scrum Guide (engagement de l'incrément). Une story qui ne
-  la remplit pas ne va pas en revue et retourne au backlog. Une seule DoD, appliquée à chaque
-  item et donc à chaque incrément ; elle évolue (souvent en rétrospective), elle ne change pas
-  d'un incrément à l'autre selon le contenu.
-- **Choix d'école** : le contenu de la DoD, propre à chaque équipe. En data, souvent : tests de
-  qualité des données, documentation des indicateurs, temps de réponse.
+- **Consensus** (Scrum Guide 2020) :
+  - la DoD est l'engagement de l'incrément : la description de son état quand il remplit les
+    exigences de qualité du produit. Un élément qui la remplit entre dans l'incrément ; sinon,
+    il n'est ni livré ni présenté en revue de sprint, et retourne au backlog (concept 0b) ;
+  - une même DoD pour toutes les équipes qui travaillent sur un produit. Si l'organisation a
+    un standard, l'équipe le suit au minimum ; sinon, l'équipe Scrum écrit la sienne. Les
+    Developers la respectent ; la rétrospective l'inspecte ;
+  - le Scrum Guide ne parle ni de story, ni de critère d'acceptation, ni de DoR. Il dit qu'un
+    élément que l'équipe peut finir en un sprint est prêt à être choisi au Sprint Planning, et
+    qu'il le devient en général après avoir été précisé.
+- **Pratique établie** (hors Scrum Guide) : distinguer DoD et critère d'acceptation. Mike Cohn
+  voit la DoD comme des critères ajoutés à chaque story ; les critères d'acceptation sont
+  propres à une story.
+- **Choix d'école** :
+  - le contenu de la DoD, propre au produit (ou à l'organisation) : le Scrum Guide ne le fixe
+    pas. Exemple en data (Scott Ambler, pour une
+    équipe d'entrepôt de données) : détection des erreurs de données, documentation à jour ;
+  - écrire une DoR : pratique née chez des praticiens vers 2008-2009 ; son premier auteur est
+    discuté, ne l'attribuer à personne. Le terme « ready-ready » (prêt pour de bon), face à
+    « done-done », est celui de l'entreprise Systematic ;
+  - le risque d'une DoR trop stricte, selon Mike Cohn : elle devient une barrière à franchir
+    avant chaque sprint, qui ramène au cycle en cascade ; il conseille des repères plutôt que
+    des règles, avec une exception possible : certaines dépendances envers une autre équipe ou
+    un fournisseur.
+- **Choix du cours** (sans source externe, à présenter comme tel) : la formule « une seule
+  DoD, pour toute story » ; l'image du « mini cahier des charges » pour une DoR trop stricte ;
+  le test « vaut-il pour toute story du même type de travail, sans être recopié ? », qui
+  sépare DoD et critère, et la règle métier, qui
+  n'est ni l'une ni l'autre (concept 8).
 
-## Sur un exemple
-Vélos, le responsable d'exploitation suit plusieurs vues (stations vides, vélos en panne,
-locations du jour). Classement de sve, 3/3 :
-- « Chaque vue affiche l'heure de la dernière mise à jour des données » : **DoD** (toutes les
-  vues).
-- « La vue des stations presque vides liste les stations sous le seuil fixé par le métier » :
-  **critère d'acceptation** (propre à cette story).
-- « Les relevés en double sont détectés par un test automatique avant publication » : **DoD**
-  (qualité des données, vaut pour toute story qui publie des relevés).
-
-## Pièges
-- Recopier la même exigence dans les critères de chaque story : elle va dans la DoD.
-- Mettre dans la DoD une règle propre à une seule story : c'est un critère d'acceptation.
-
-## Le test rapide
-« Cette exigence vaut-elle pour toutes les stories ? » Oui : DoD. Non : critère d'acceptation.
-
-## Visuel suggéré
-Plusieurs cartes de story, chacune avec ses propres critères, posées sur un même socle « DoD »
-commun à toutes.
+## Sous-concepts
+1. **11a DoD** : une seule DoD, pour toute story ; elle dit quand un élément entre dans
+   l'incrément (renvoi au concept 0, 0a3, sans le réenseigner). Un critère est propre à une
+   story ; une règle métier est une vérité du domaine (concept 8). Exemple principal : « DoD ou
+   critère : les trois exigences de Bruno ». En rechange, ou si l'apprenant demande ce qui
+   arrive à une story qui ne remplit pas la DoD : « L'exception demandée par Bruno » (la
+   conséquence se renvoie au concept 0b). Aparté possible :
+   « La DoD évolue » (la rétrospective).
+2. **11b DoR** : choix d'école ; ce que dit le Scrum Guide (prêt à être choisi au Sprint
+   Planning) ; décider si une story est prête, et quoi faire sinon. Au planning, le PO propose,
+   les Developers choisissent (concept 0 ; détail au concept 15b). Exemple principal : « La
+   story de Bruno sans accès aux locations ». En rechange, ou pour « exercice » : « Une DoR qui
+   devient barrière ». La dépendance envers la DSI s'appuie sur le concept 10b, sans le
+   réenseigner. 11b suppose des sprints : à l'apprenant qui travaille sans sprint,
+   proposer l'annexe A2 (à écrire).
 
 ## Banque d'exemples
 
-### DoD ou critère d'acceptation ? (11a)
-- **Explication** : la DoD liste les exigences de qualité que toute story remplit pour être
-  « terminée » ; une seule DoD, pour toute story, jamais répétée dans chaque story. Consensus :
-  la DoD est dans le Scrum Guide (engagement de l'incrément) ; une story qui ne la remplit pas ne
-  va pas en revue et retourne au backlog. Choix d'école : son contenu (en data, souvent tests de
-  qualité des données, documentation des indicateurs, temps de réponse).
-- **Situation** : Bruno, le responsable d'exploitation, suit plusieurs vues (stations vides,
-  vélos en panne, locations du jour).
-- **Question** : DoD ou critère d'acceptation de la story ?
+Faits du fil rouge utilisés : les vues de Bruno (stations vides, vélos en panne, locations du
+jour) ; chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD de l'équipe) ;
+relevés en double, défaut connu des relevés des stations ; un vélo disponible est un vélo à
+quai et louable ; un vélo retiré du service par un technicien n'est plus louable ; DoR de
+l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
+identifiées, accès aux données obtenu ; accès à la table des locations demandé à la DSI
+(Pascal), pas encore obtenu, la DSI demandant de justifier chaque colonne ; les locations
+rendues à la même station au bout de quelques minutes : les compter ou non n'est pas fixé ;
+Developers : Léa, Yanis (data engineers), Nora (analyste) ; sprints de deux semaines. Les
+exigences proposées, les répliques des Developers et de Bruno, et les nombres de vélos sont des
+propositions d'exercice : ils ne deviennent pas des faits du fil rouge. Le seuil « presque
+vide », la définition d'une station vide et les heures de pointe ne sont pas fixés : aucun
+exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règle.
+
+### DoD ou critère : les trois exigences de Bruno (11a)
+- **Explication** : la DoD, vue au concept 0 (0a3), dit quand un élément entre dans
+  l'incrément. Il n'y en a qu'une, pour toute story (et pour toutes les équipes d'un même
+  produit) : on l'écrit une fois, on ne la recopie pas dans chaque story. Un critère
+  d'acceptation est propre à une story (concept 8). Le Scrum Guide ne parle pas de critère :
+  cette distinction est une pratique établie (Mike Cohn), pas un texte de consensus. Le
+  contenu de la DoD est propre au produit (ou à l'organisation) : le Scrum Guide ne le fixe pas.
+- **Situation** : Bruno, responsable d'exploitation, suit plusieurs vues (stations vides,
+  vélos en panne, locations du jour). Trois exigences sont notées en vrac :
   1. Chaque vue affiche l'heure de la dernière mise à jour des données.
-  2. La vue des stations presque vides liste les stations sous le seuil fixé par le métier.
+  2. Dans la vue des stations vides, chaque station affichée indique ses vélos disponibles :
+     5 vélos à quai, dont 1 retiré du service, donnent 4.
   3. Les relevés en double sont détectés par un test automatique avant publication.
-- **Réponse attendue** : 1 DoD (commune à toutes les vues), 2 critère (propre à cette story),
-  3 DoD (qualité des données, vaut pour toute story qui publie des relevés). Test : « vaut pour
-  toutes les stories ? ».
-- **Ce qui marche** : dire d'emblée « une seule DoD, pour toute story » plutôt que « vaut pour
-  l'incrément » (formulation imprécise, relevée par un apprenant).
+- **Question** : pour chacune, DoD ou critère d'acceptation d'une story ? Et pourquoi ?
+- **Réponse attendue** : 1 DoD : elle vaut pour toutes les vues, on ne la recopie pas dans
+  chaque story. 2 critère : un cas précis, propre à la story de la vue des stations vides, qui
+  illustre la règle fixée « un vélo disponible est un vélo à quai et louable ». 3 DoD : une
+  exigence de qualité des données, la même pour toute story qui publie des relevés. Test :
+  « vaut-il pour toute story du même type de travail, sans être recopié ? ». Nuances, non
+  attendues : la règle « vélo disponible » vaut aussi pour plusieurs stories, mais c'est une
+  règle métier, une vérité du domaine, pas une exigence de qualité (concept 8) ; le critère 2
+  ne dit pas quelles stations figurent dans la vue : la définition d'une station vide n'est pas
+  fixée, le PO la fait fixer (concept 8a2). Les dimensions de qualité (le double relève de
+  l'unicité) se voient au concept 12b.
+- **Erreurs fréquentes** :
+  - les trois classements justes, sans justification : demander « pourquoi ? » pour chacun ;
+  - classer 1 en critère « de chaque vue » : demander « combien de fois l'écrirais-tu ? » ;
+  - classer 2 en DoD parce que la règle « vélo disponible » vaut partout : séparer la règle
+    (vraie hors de la story, concept 8) du cas que la story vérifie ;
+  - classer 3 en critère parce que seules certaines stories publient des relevés : une
+    exigence de la DoD peut viser une sorte de travail ; elle reste la même pour toutes ;
+  - réponse elliptique (« 1 et 3 partout ») : faire préciser avant de corriger.
+- **Ce qui marche** : dire d'emblée « une seule DoD, pour toute story » plutôt que « la DoD
+  vaut au niveau de l'incrément », formule qui a fait croire à une DoD par incrément. Le test
+  rapide à voix haute, exigence par exigence.
+
+### L'exception demandée par Bruno (11a, en rechange)
+- **Explication** : critères et DoD s'ajoutent : une story terminée passe ses propres critères
+  et toute la DoD. La DoD est commune : on ne la lève pas pour une story. Ce qui arrive à une
+  story qui ne la remplit pas est vu au concept 0 (0b) : on y renvoie.
+- **Situation** : situation d'exercice. La vue des stations vides est livrée et Bruno s'en
+  sert. Une story la fait évoluer : afficher les vélos disponibles de chaque station (le
+  critère 2 de l'exemple précédent). Fin d'un sprint : cette story passe tous ses critères
+  d'acceptation, mais le test automatique des relevés en double n'est pas encore écrit pour ses
+  nouveaux relevés. Bruno, responsable d'exploitation : « J'en ai besoin tout de suite. Faites
+  une exception pour cette évolution, vous ajouterez le test plus tard. »
+- **Question** : que réponds-tu à Bruno ?
+- **Réponse attendue** : pas d'exception : la story n'est pas terminée, elle ne remplit pas la
+  DoD. Passer ses critères ne suffit pas, critères et DoD s'ajoutent. Une DoD qu'on lève story
+  par story n'est plus commune ; la changer se décide pour tous, en rétrospective (aparté « La
+  DoD évolue »). Conséquence, sans la réenseigner : la story retourne au backlog (concept 0b),
+  où le PO lui donne sa place (ordonner : concept 13) ; la vue déjà livrée reste en service,
+  sans l'évolution. Le PO dit à Bruno pourquoi : sans le test, un relevé en double peut fausser
+  le nombre de vélos disponibles qu'il lit.
+- **Erreurs fréquentes** :
+  - « oui, ce n'est qu'un test » : demander « et à la prochaine story pressée ? » ;
+  - « non » sans la suite : demander « et alors, on fait quoi ? » ;
+  - rejouer tout le concept 0b (revue, incrément) : une ligne et le renvoi suffisent.
+- **Ce qui marche** : « Bruno pourrait-il se fier à ces nombres s'il ne sait pas quelles
+  exigences l'évolution a sautées ? »
 
 ### La DoD évolue (aparté, 11a)
-- **Explication** : la DoD évolue dans le temps (souvent en rétrospective), pas selon le
-  contenu. Exemple : en rétro, l'équipe vélos ajoute « chaque indicateur est documenté » après
-  une confusion sur ce qu'est une « location ».
+- **Explication** : la DoD change dans le temps, pour toutes les stories, quand l'équipe
+  l'améliore ; elle ne change pas selon le contenu d'un sprint. La rétrospective l'inspecte
+  (Scrum Guide). Rappel du concept 0, sans le réenseigner.
+- **Situation** : situation d'exercice. En préparant les stories de Claire (locations par
+  quartier), Bruno et Claire découvrent qu'ils n'entendent pas la même chose par « location » :
+  une location rendue à la même station au bout de quelques minutes compte-t-elle ? La règle
+  n'est pas fixée. En rétrospective, l'équipe propose d'ajouter à sa DoD : « chaque indicateur
+  publié a sa définition écrite » (indicateur : valeur calculée par le produit pour ses
+  utilisateurs, comme les locations par quartier ; détail au concept 12a).
+- **Question** : pourquoi dans la DoD plutôt que dans les critères des stories de Claire ?
+- **Réponse attendue** : l'exigence vaut pour tout indicateur publié, pas pour une story ; la
+  rétrospective est le lieu où l'équipe adapte sa DoD, pour toutes les stories à venir.
+  Nuance : la DoD exige une définition écrite, elle ne fixe pas la règle des locations
+  courtes ; elle reste à faire fixer, sans que le PO la tranche (concept 8a2). Ce que contient
+  la définition d'un indicateur : concept 12a.
+- **Erreurs fréquentes** :
+  - trancher la règle (« on ne les compte pas ») : ni l'apprenant ni le PO ne la fixent seuls ;
+  - croire que la DoD fixe la règle : elle exige qu'elle soit écrite.
+- **Ce qui marche** : opposer « ce qu'on exige de tout travail » et « ce que vaut une
+  location », qui relève du métier.
 
-### Story pas prête : accès aux données non obtenu (11b)
-- **Explication** : la DoR liste les conditions qu'une story doit remplir avant d'entrer dans un
-  sprint. La DoD dit quand une story est terminée, la DoR dit quand elle peut commencer.
-  Consensus : le Scrum Guide demande des items assez clairs pour être choisis au planning du
-  sprint (c'est le rôle du refinement), mais il n'impose aucune DoR. Choix d'école : écrire une
-  DoR ; risque : une DoR trop stricte devient une barrière (mini cahier des charges à valider
-  avant chaque sprint). Sur un projet data, l'accès aux données y figure souvent.
+### La story de Bruno sans accès aux locations (11b)
+- **Explication** : la DoR liste les conditions qu'une story remplit avant d'entrer dans un
+  sprint ; l'équipe l'écrit elle-même. C'est un choix d'école : le Scrum Guide n'en parle pas.
+  Il dit seulement qu'un élément que l'équipe peut finir en un sprint est prêt à être choisi au
+  Sprint Planning, et qu'il le devient en général après avoir été précisé. Au planning, le PO
+  propose, les Developers choisissent (concept 0 ; détail au concept 15b).
 - **Situation** : la DoR de l'équipe vélos exige des critères d'acceptation écrits, des règles
-  métier fixées, des dépendances identifiées et un accès aux données obtenu. La story de Bruno,
-  « voir les locations du jour par station », remplit tout sauf un point : l'accès à la table
-  des locations, demandé à la DSI, n'est pas encore donné. Un développeur propose : « Prenons-la
-  quand même, on aura sûrement l'accès mercredi. »
-- **Question** : la story est-elle prête ? Que proposes-tu au planning du sprint ?
-- **Réponse attendue** : non, elle ne remplit pas la DoR. Proposer une story prête à la place,
-  et faire avancer l'accès (relance de la DSI) pour le sprint suivant. La DoR n'est pas un mur :
-  l'équipe peut la prendre en connaissance du risque si l'accès est quasi certain, mais c'est un
-  choix explicite, pas un « sûrement ».
+  métier fixées, des dépendances identifiées et un accès aux données obtenu. La story de Bruno
+  « voir les locations du jour par station » a ses critères écrits ; la dépendance à la DSI est
+  identifiée (dépendance : concept 10b). Mais l'accès à la table des locations, demandé à
+  Pascal, n'est pas encore donné. Léa, data engineer : « Prenons-la quand même, on aura
+  sûrement l'accès mercredi. »
+- **Question** : que proposes-tu au planning du sprint, et pourquoi ?
+- **Réponse attendue** : la story n'est pas prête, elle ne remplit pas la DoR : l'accès n'est
+  pas obtenu, et sans
+  lui les Developers ne peuvent pas la finir dans le sprint. Au planning, le PO propose à la
+  place une story prête ; les Developers choisissent. Et il fait avancer l'accès : relancer
+  Pascal, et voir ce qui bloque (la DSI demande de justifier chaque colonne : quelles colonnes
+  demander, concept 12c) ; si l'accès bloque sprint après sprint, escalader (concept 14).
+  Nuance : Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
+  envers une autre équipe est le cas où il admet qu'une règle stricte peut se justifier. Un
+  « sûrement » ne lève pas la dépendance.
+- **Erreurs fréquentes** :
+  - « oui, l'équipe s'organisera » : demander « que font les Developers mercredi si l'accès
+    n'est pas là ? » ;
+  - « non » sans la suite : demander « et alors, on fait quoi ? » (au planning, et pour
+    l'accès) ;
+  - décider seul que la story entre ou non : le PO propose, les Developers choisissent ;
+  - si l'apprenant relève que la règle des locations très courtes n'est pas fixée : bon
+    réflexe (DoR : règles fixées) ; si la story en dépend, c'est une seconde raison d'attendre,
+    et le PO la fait fixer (concept 8a2), sans la trancher.
+- **Ce qui marche** : comparer la DoD (quand une story est terminée) et la DoR (quand elle
+  peut commencer) : les deux portes du sprint (schéma).
+
+### Une DoR qui devient barrière (11b, en rechange)
+- **Explication** : une DoR trop stricte devient une barrière à franchir avant chaque sprint ;
+  c'est l'avis de Mike Cohn, qui y voit un retour au cycle en cascade (choix d'école). Image du
+  cours : la DoR tourne au mini cahier des charges.
+- **Situation** : situation d'exercice. Après l'affaire de l'accès, Yanis propose d'ajouter à
+  la DoR : « toutes les questions sur la story sont réglées, la maquette de la vue est validée
+  par Bruno, le schéma des tables est écrit ».
+- **Question** : que proposes-tu à l'équipe de garder de la proposition de Yanis, et
+  pourquoi ?
+- **Réponse attendue** : rien des trois ajouts. Exiger toutes les questions réglées et une
+  maquette validée, c'est vouloir la story entièrement spécifiée avant le sprint : la
+  conversation continue pendant le sprint (les 3C, concept 5), et l'équipe peut encore
+  préciser une story au Sprint Planning (Scrum Guide). Le schéma des tables est le comment des
+  Developers (concept 1), pas une condition d'entrée. Ce qu'une DoR peut exiger : ce sans quoi
+  la story ne peut pas avancer, comme une dépendance externe levée (l'accès). Nuance : choix
+  d'école ; une équipe peut tenir une DoR plus stricte si elle s'en sert comme repère. La DoR
+  se décide en équipe (par exemple en rétrospective) : le PO propose, il ne la fixe pas seul.
+- **Erreurs fréquentes** :
+  - « plus la DoR est complète, mieux c'est » : demander « combien de stories passeraient la
+    porte au prochain planning ? » ;
+  - garder la maquette « pour éviter les surprises » : la forme de la vue se discute avec les
+    Developers (concept 5).
+- **Ce qui marche** : demander ce que l'équipe ne pourrait vraiment pas faire sans chaque
+  condition.
+
+## Pièges
+- **Recopier la même exigence dans les critères de chaque story** (l'heure de la dernière mise
+  à jour) : elle va dans la DoD.
+- **Mettre dans la DoD ce qui est propre à une story** : c'est un critère d'acceptation.
+- **Prendre une règle métier pour une exigence de la DoD** parce qu'elle vaut pour plusieurs
+  stories : la règle dit une vérité du domaine (concept 8), la DoD une exigence de qualité sur
+  le travail.
+- **Croire à une DoD par incrément, par sprint ou par équipe d'un même produit** : une seule
+  DoD, pour toute story ; elle change en rétrospective, pour tous.
+- **Lever la DoD pour une story pressée** : la DoD n'est plus commune ; la story n'est pas
+  terminée et retourne au backlog (concept 0b).
+- **Présenter la DoR comme du Scrum** : le Scrum Guide parle d'éléments prêts à être choisis,
+  pas de DoR.
+- **Prendre une story sur un « sûrement »** : une dépendance externe non levée la laisse au
+  backlog ; le PO fait avancer la dépendance.
+- **Une DoR en mini cahier des charges** : les stories attendent d'être entièrement
+  spécifiées, et la conversation s'arrête avant le sprint.
+- **Fixer en douce une règle non fixée pour rendre une story prête** (seuil « presque vide »,
+  locations très courtes) : le PO la fait fixer (concept 8a2).
+
+## Le test rapide
+« Vaut-il pour toute story (du même type de travail), sans être recopié ? » : DoD.
+« Propre à cette story ? » : critère d'acceptation.
+« Faut-il l'avoir avant de commencer ? » : DoR.
+
+## Schéma
+Un sprint dessiné comme une pièce à deux portes. À gauche, la porte d'entrée « DoR (choix
+d'école) », par où passent les cartes de story venues du backlog ; une carte bloquée devant,
+étiquetée « accès aux locations : en attente DSI ». À droite, la porte de sortie « DoD », qui
+mène à l'incrément ; une carte refoulée repart vers le backlog. Sur chaque carte, ses propres
+critères d'acceptation ; la DoD est un seul cadre, le même pour toutes les cartes qui
+sortent. Légende : « DoR : quand une story peut commencer ; DoD : quand elle est terminée ».
