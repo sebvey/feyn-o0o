@@ -1,7 +1,7 @@
 # ADR-003 : Plus de journal du cadre ; les tickets clos disent quoi, les ADR disent pourquoi
 
 - **Date** : 2026-10-21
-- **Statut** : accepté
+- **Statut** : complété par ADR-014
 - **Ticket** : T-010
 
 ## Contexte

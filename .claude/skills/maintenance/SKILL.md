@@ -71,14 +71,19 @@ dépend d'un autre passe après lui ; un ticket qui semble déjà appliqué se v
 
 ## 4. Décider d'un ADR
 
-Après chaque décision (ticket appliqué, proposition refusée), réponds à trois questions :
-1. La décision fixe-t-elle une structure ou une règle durable du cadre, au-delà d'une
-   formulation ?
-2. Existe-t-il une autre option crédible qu'un mainteneur futur pourrait vouloir reprendre ?
-3. La raison de la décision est-elle absente du cadre lui-même ?
+Après chaque ticket appliqué ou proposition refusée, juge chaque décision qu'il porte :
+1. **La décision change-t-elle ce que fait l'agent ou le mainteneur**, et pas seulement la façon
+   de le dire (libellé, vocabulaire, mise en forme) ? L'origine de la décision (demande, test,
+   session) ne compte pas.
+2. **Une option a-t-elle été écartée explicitement** (dans le ticket ou la discussion) qu'un
+   agent proposerait de lui-même, ou la règle paraît-elle arbitraire sans sa raison ? L'ancienne
+   règle que la décision remplace compte comme option écartée. N'imagine pas d'option que
+   personne n'a nommée.
 
-Trois oui : écris un ADR dans `maintainer/adr/`, selon `maintainer/adr/adr-template.md`, et dis-le
-au mainteneur. Sinon, rien : le ticket de `02-done/` et l'historique git suffisent.
+Deux oui pour une décision du ticket : écris un ADR dans `maintainer/adr/`, selon
+`maintainer/adr/adr-template.md`, et dis-le au mainteneur. Une décision qui annule, remplace ou
+contredit ce qu'un ADR décide fait aussi un nouvel ADR ; ajouter un cas ou préciser ne compte
+pas. Sinon, rien : le ticket de `02-done/` et l'historique git suffisent.
 
 ## 5. Tester
 

@@ -14,7 +14,7 @@ fait ajouté au fil d'une session devenait du cours sans relecture.
 S'il ne suffit pas, il improvise ce qu'il lui faut, rattaché au produit et à l'équipe, sans
 contredire le fichier, et le note aussitôt dans `maintainer/improvements/` (type `fil rouge`).
 Le mainteneur décide de l'intégrer. Complète ADR-009 (le prof part des acteurs du fichier avant
-d'en créer).
+d'en créer) et ADR-011 (la ligne « fait du fil rouge fixé » du tableau de la mémoire disparaît).
 
 ## Options écartées
 - Laisser le prof écrire les faits fixés dans le fil rouge (règle précédente) : le cours commun

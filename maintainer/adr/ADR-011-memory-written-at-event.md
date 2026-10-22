@@ -1,7 +1,7 @@
 # ADR-011 : La mémoire s'écrit dans la même réponse que le fait ; plus de skill de sauvegarde
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-012
 - **Ticket** : T-006
 
 ## Contexte
@@ -17,7 +17,7 @@ fait dans la même réponse que le fait qui la déclenche. La fin d'un sous-conc
 plus que proposer les deux choix. L'arrêt annoncé complète le journal, relit « Prochaine étape »
 comme un agent neuf, puis répond en deux lignes. Le skill `update-memory` est supprimé.
 
-Complète ADR-010 et reprend l'option écartée par ADR-002 (écrire plus tôt que le choix de
+Complète ADR-010 et reprend une option écartée par T-003 (écrire plus tôt que le choix de
 l'apprenant).
 
 ## Options écartées
