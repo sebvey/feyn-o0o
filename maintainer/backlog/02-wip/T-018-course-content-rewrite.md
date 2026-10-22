@@ -33,8 +33,9 @@
   - `course/concepts/` : fiches migrées telles quelles et banque d'exemples tirée des traces ;
   - `course/fil-rouge-velos.md` (cadré par T-016) ;
   - `maintainer/improvements/` : incompréhensions, questions mal posées, apartés réutilisables ;
-  - `learner/observations.md` de sve : à lire comme des **erreurs typiques** possibles du
-    public cible, jamais recopiées comme des faits sur l'apprenant (anonymiser) ;
+  - `maintainer/work/T-018/learner-observations.md` : observations, profil de départ et une
+    production d'un premier apprenant, anonymisés (T-011), à lire comme des **erreurs
+    typiques** possibles du public cible ;
   - `maintainer/work/T-018/framing.md` : cadrage de T-018a (références et analyse des manques,
     situations du fil rouge par concept, erreurs relevées dans les fiches actuelles) ; sa
     numérotation est celle du brouillon, la correspondance est en tête du fichier ;

@@ -86,7 +86,7 @@ Tu travailles dans le dépôt `/Users/sve/code/workspaces/perso/pdx/parcours-po`
 - `maintainer/backlog/01-todo/T-018-course-content-rewrite.md` : le chantier parent (objectif, méthode des lots, §6 apprenant en cours).
 - `CLAUDE.md` : comment le prof enseigne (15 lignes par message, un sous-concept par message avec une question qui teste, consensus vs choix d'école, fil rouge). Section « Style » : règles d'écriture que tu suis.
 - `course/plan.md`, `course/fil-rouge-velos.md`, `course/templates/concept.md`, tous les fichiers de `course/concepts/`.
-- `maintainer/improvements/` (tous les fichiers) ; `learner/observations.md` et « Points annoncés pour plus tard » de `learner/parcours.md`, à lire comme des erreurs typiques possibles du public cible (n'écris jamais de fait sur l'apprenant réel, anonymise).
+- `maintainer/improvements/` (tous les fichiers) ; `maintainer/work/T-018/learner-observations.md` (observations anonymisées d'un premier apprenant), à lire comme des erreurs typiques possibles du public cible (n'écris jamais de fait sur l'apprenant réel, anonymise).
 - `maintainer/adr/` : ADR-009, ADR-010, ADR-012, ADR-015 au minimum (ne défais pas une décision sans le dire).
 - Ne lis pas `archive/`.
 
