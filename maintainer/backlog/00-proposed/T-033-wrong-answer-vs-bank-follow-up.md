@@ -8,9 +8,16 @@
   sert-il de quelque chose ? » ; 11b : « oui, l'équipe s'organisera »). Le prof de 9a2 a
   réexpliqué et gardé la question de la banque en repli ; celui de 11b a traité la réponse comme
   partielle pour suivre la banque.
+  Test de T-018f (2026-10-23, concept 13) : face à une réponse elliptique (« le bilan, ça
+  presse »), le prof fait préciser avant de corriger, comme le demandent les fichiers des
+  concepts, et compte cette demande comme une relance de rang 1 ; `CLAUDE.md` ne dit pas ce cas
+  (ancien T-038, fusionné ici). Décision du mainteneur : une demande de précision compte comme
+  une relance, pour que le prof ne relance pas sans fin ; à ajuster d'après les retours
+  d'apprenants.
 - **À faire** : à trier. Pistes : dire dans `CLAUDE.md` que la relance d'une erreur fréquente
   de la banque prime, et que la réexplication vient après elle ; ou dire dans
   `course/templates/concept.md` qu'une erreur fréquente qui est une réponse fausse porte un
   exemple de réexplication, pas une relance.
 - **Fini quand** : un prof neuf, face à une erreur fréquente fausse, sait sans hésiter s'il
-  relance ou réexplique.
+  relance ou réexplique ; face à une réponse elliptique, il fait préciser et compte la demande
+  comme une relance.
