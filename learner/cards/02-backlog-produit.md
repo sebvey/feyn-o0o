@@ -19,8 +19,7 @@ réordonne en permanence. Le haut est précis et prêt à être pris ; le bas re
   périodique, c'est même l'ordre du backlog qui dit à l'équipe quoi prendre ensuite.
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+<À réécrire avec un exemple générique.>
 
 ## Pièges
 Les quatre erreurs de « le backlog, c'est le cahier des charges découpé en tickets, on le remplit

@@ -21,8 +21,7 @@ solution plus simple qui sert le même but.
   d'acceptation). La phrase seule ne suffit jamais.
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+<À réécrire avec un exemple générique.>
 
 ## Pièges
 - Acteur technique (« en tant que data engineer ») : ce n'est pas un utilisateur.

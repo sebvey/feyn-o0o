@@ -22,8 +22,7 @@ utilisable, qui respecte la Definition of Done.
   reprennent son vocabulaire (PO, backlog, DoD).
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+<À réécrire avec un exemple générique.>
 
 ## Pièges
 - Croire qu'on « livre un sprint » : on livre des incréments.
