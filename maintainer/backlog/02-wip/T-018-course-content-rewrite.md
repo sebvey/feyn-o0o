@@ -51,7 +51,7 @@
   | Sous-ticket | Contenu | Dépend de | État |
   |---|---|---|---|
   | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | | fait le 2026-10-22 (ADR-017) |
-  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | en cours |
+  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | fait le 2026-10-22 (ADR-020) |
   | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | à faire |
   | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | à faire |
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | à faire |
@@ -67,8 +67,10 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : traiter T-018b. sve repart de zéro (§6) : il peut tester
-  chaque lot à mesure qu'il est mergé.
+  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. Avant,
+  le ticket élargi de T-011 (démarrage d'un nouvel apprenant, `learner/` vidé, observations de
+  sve copiées anonymisées dans `maintainer/work/T-018/`) : sve repart de zéro et teste chaque
+  lot à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 
