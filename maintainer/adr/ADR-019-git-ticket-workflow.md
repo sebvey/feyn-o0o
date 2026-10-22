@@ -26,6 +26,8 @@ mainteneur, en commit de merge. Un travail hors ticket suit le même circuit sur
 
 ## Conséquences
 La clôture se fait avant la revue : si la revue rouvre le travail, les corrections restent sur
-la branche, ticket déjà dans `03-done/`. La PR est ouverte sous le compte du mainteneur : il ne
+la branche, ticket déjà dans `03-done/` ; un « Fini quand » qui ne se vérifie qu'après le
+merge se vérifie alors, et un échec fait un nouveau ticket. Un parent reste dans `02-wip/`
+sans branche entre deux sous-tickets. La PR est ouverte sous le compte du mainteneur : il ne
 peut pas l'approuver sur GitHub, la revue passe par les commentaires. `02-wip/` garde un
 `.gitkeep`, git ne suivant pas les dossiers vides.
