@@ -13,7 +13,8 @@ jugé que le glossaire ne demandait pas sa validation.
 
 ## Décision
 Skill `maintenance`, « Périmètre » : exception pour `course/glossary.md`. L'agent ajoute un
-terme que le cours emploie, ou précise une définition sans en changer le sens, en autonomie, et
+terme que le cours emploie, précise une définition sans en changer le sens, ou aligne la colonne
+« Concept » d'un terme sur le concept qui l'introduit, en autonomie, et
 le signale dans la PR ; retirer un terme ou en changer le sens se propose. Remplace, pour le
 glossaire, l'arbitrage par le mainteneur prévu par ADR-020 ; le workflow `course-lot` ne
 modifie toujours pas le glossaire (le coordinateur le fait).
