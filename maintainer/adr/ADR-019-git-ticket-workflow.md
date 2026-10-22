@@ -16,13 +16,17 @@ Skill `maintenance`, §3, et `maintainer/backlog/ticket-template.md` : quatre do
 un ticket : `main` à jour depuis le remote ; passage en `02-wip/` commité et poussé directement
 sur `main` (seuls commits directs avec les fichiers des sessions de cours et le backlog trié
 hors ticket) ; branche `ticket/<nom du fichier du ticket>` ; travail, test et clôture (`03-done/`, « Fait le », ADR) sur la branche ; PR vers `main`, relue et mergée par le
-mainteneur, en commit de merge. Un travail hors ticket suit le même circuit sur `maint/<slug>`.
+mainteneur en squash (seule méthode autorisée dans les réglages du dépôt, message = titre et
+description de la PR, branche distante supprimée au merge). Un travail hors ticket suit le même circuit sur `maint/<slug>`.
 
 ## Options écartées
 - Passage en `02-wip/` sur la branche, avec une PR brouillon : `main` ne voit jamais le ticket en
   cours, et le dossier y reste vide.
 - Merge local sans PR (pratique précédente) : pas de support de revue du diff.
-- Squash au merge : perd le détail des commits et rompt avec l'historique en commits de merge.
+- PR mergée en commit de merge : garde sur `main` les commits intermédiaires
+  (corrections de revue, erreurs) ; leur détail reste dans la PR et le ticket clos.
+- Protection de `main` exigeant une PR : bloquerait les commits directs prévus (passage en
+  `02-wip/`, fichiers des sessions de cours).
 
 ## Conséquences
 La clôture se fait avant la revue : si la revue rouvre le travail, les corrections restent sur

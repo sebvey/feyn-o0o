@@ -90,10 +90,13 @@ traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semb
    prochaine étape dans le parent, et le parent passe aussi dans `03-done/` si c'était le
    dernier ; applique la règle ADR (§4).
 6. **Ouvrir la PR** : pousse la branche et ouvre une PR vers `main`, titrée « T-000 : <titre du
-   ticket> », avec ce qui change, le résultat du test et l'ADR créé. Le mainteneur relit la PR
-   et la merge lui-même, en commit de merge. Ses remarques se traitent par de nouveaux commits
-   sur la branche. Après le merge (le mainteneur te le dit ; vérifie-le avec `gh pr view`),
-   mets `main` à jour et supprime la branche locale et distante. Un « Fini quand » qui ne se
+   ticket> », avec ce qui change, le résultat du test et l'ADR créé : le titre et la
+   description deviennent le message du commit squashé. Le mainteneur relit la PR et la merge
+   lui-même (le dépôt n'autorise que le squash, et GitHub supprime la branche distante). Ses
+   remarques se traitent par de nouveaux commits sur la branche ; mets alors la description à
+   jour. Après le merge (le mainteneur te le dit ; vérifie-le avec `gh pr view`), mets `main` à
+   jour et supprime la branche locale (`git branch -D` : après un squash, git ne la voit pas
+   fusionnée). Un « Fini quand » qui ne se
    vérifie qu'après le merge (la reprise de l'apprenant, par exemple) se vérifie alors ; note le
    résultat en commentaire de la PR (`gh pr comment`) et, s'il échoue, crée un ticket (§2).
 
