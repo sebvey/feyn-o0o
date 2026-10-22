@@ -40,7 +40,7 @@
   (skill `maintenance`, T-018 §6), `.sve/` ignoré, observations, profil de départ et critère de
   Julie copiés anonymisés dans `maintainer/work/T-018/learner-observations.md` (renvois depuis
   T-018 §1, T-018d, T-023), `learner/` vidé. Test par sous-agent prof neuf (nouvel apprenant,
-  réponse partielle à la question de contrôle, arrêt) : fichiers créés, accueil en 10 lignes,
+  réponse partielle à la question de contrôle, arrêt) : fichiers créés, accueil en 8 lignes,
   surnom écrit et utilisé, concept 0 enseigné, mémoire et arrêt corrects ; deux ambiguïtés du
   skill corrigées (moment de la ligne de journal, place du fil rouge), quatre hors ticket
   versées dans T-027. ADR-021.
