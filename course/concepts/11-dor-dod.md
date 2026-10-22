@@ -74,7 +74,9 @@ quai et louable ; un vélo retiré du service par un technicien n'est plus louab
 l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
 identifiées, accès aux données obtenu ; accès à la table des locations demandé à la DSI
 (Pascal), pas encore obtenu, la DSI demandant de justifier chaque colonne ; les locations
-rendues à la même station au bout de quelques minutes : les compter ou non n'est pas fixé ;
+rendues à la même station au bout de quelques minutes : les compter ou non n'est pas fixé
+pour les indicateurs ; la vue des locations du jour montre toutes les locations, courtes
+comprises ;
 Developers : Léa, Yanis (data engineers), Nora (analyste) ; sprints de deux semaines. Les
 exigences proposées, les répliques des Developers et de Bruno, et les nombres de vélos sont des
 propositions d'exercice : ils ne deviennent pas des faits du fil rouge. Le seuil « presque
@@ -193,8 +195,8 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
     l'accès) ;
   - décider seul que la story entre ou non : le PO propose, les Developers choisissent ;
   - si l'apprenant relève que la règle des locations très courtes n'est pas fixée : bon
-    réflexe (DoR : règles fixées) ; si la story en dépend, c'est une seconde raison d'attendre,
-    et le PO la fait fixer (concept 8a2), sans la trancher.
+    réflexe (DoR : règles fixées) ; ici la story n'en dépend pas, la vue des locations du jour
+    les montre toutes ; la règle concerne les indicateurs (concept 12a).
 - **Ce qui marche** : comparer la DoD (quand une story est terminée) et la DoR (quand elle
   peut commencer) : les deux portes du sprint (schéma).
 

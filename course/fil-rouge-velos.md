@@ -60,7 +60,7 @@ métier.
 | Source | Contenu | Propriétaire | Fraîcheur, défauts connus |
 |---|---|---|---|
 | Relevés des stations | Nombre de vélos à quai par station et, pour chacun, s'il est louable | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
-| Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
+| Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Historique sur plusieurs années dans le système de location. Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
 | Signalements de pannes | Vélo signalé, par l'abonné dans l'appli | Équipe appli | Les signalements par téléphone ne sont pas saisis dans l'appli |
 | Abonnés | Abonnement, station favorite | Équipe appli | |
 | Référentiel des quartiers | Quartier de chaque station | La collectivité | |
@@ -70,8 +70,8 @@ métier.
 
 - « Station presque vide » : règle métier à fixer par un seuil (3 vélos cité comme exemple, pas
   décidé).
-- Le centre-ville sert de premier périmètre ; la météo (pluie) ajuste la prévision des
-  stations à risque.
+- Le centre-ville sert de premier périmètre ; la météo (pluie) pourrait ajuster la prévision
+  des stations à risque : à vérifier (concept 17).
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
   de la story de tournée d'Hugo ; Sophie le réclame (concept 10).
 - Un vélo n'est plus louable quand un technicien l'a retiré du service après constat.
@@ -90,7 +90,9 @@ métier.
   incidents, bilan du soir.
 - Sophie fixe chaque semaine le nombre de techniciens en tournée.
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo
-  défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé.
+  défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé pour les
+  indicateurs (concept 12a). La vue des locations du jour de Bruno montre toutes les
+  locations, courtes comprises.
 
 ## Situations par concept
 
