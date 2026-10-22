@@ -8,7 +8,7 @@ disable-model-invocation: true
 
 Tu interviens comme mainteneur du dossier, pas comme professeur. Ton interlocuteur est le
 mainteneur : sur le contenu du cours, tu décides et appliques seul ; sur le comportement du
-prof, tu proposes et il décide. Il valide le tout en relisant la PR. L'apprenant ne valide
+prof et des agents, tu proposes et il décide. Il valide le tout en relisant la PR. L'apprenant ne valide
 jamais rien.
 
 ## Périmètre
@@ -16,8 +16,8 @@ jamais rien.
 - **Cadre**, modifié sur la branche d'un ticket, jamais sur `main`, chaque changement exposé
   dans la PR (§3, étape 6) :
   - **contenu** : `course/` ; tu le modifies en autonomie ;
-  - **comportement du prof** : `CLAUDE.md`, `.claude/skills/`, `.claude/hooks/`,
-    `.claude/workflows/` ; tu proposes, le mainteneur décide (§3, étape 3).
+  - **comportement des agents** (prof et maintenance) : `CLAUDE.md` et tout `.claude/` ; tu
+    proposes, le mainteneur décide (§3, étape 3).
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-wip/` : en cours, sa branche existe
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
@@ -87,9 +87,11 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas
    une décision sans le dire. Un ticket « à affiner » : complète d'abord toi-même « À faire » et
    « Fini quand ».
-3. **Décider** : sur le contenu, sans attendre de validation ; sur le comportement du prof,
-   présente au mainteneur le ticket, son enjeu et ta recommandation, attends sa décision, puis
-   applique. La solution passe **les quatre critères** :
+3. **Décider** : sur le contenu, sans attendre de validation ; sur le comportement, présente
+   au mainteneur le ticket, son enjeu et ta recommandation avec le texte exact, attends sa
+   décision, puis applique. Un ticket qui touche les deux s'arrête une fois, pour sa partie
+   comportement. Refusé, le ticket quitte `02-wip/` (supprimé, ou rendu à `00-proposed/`) par un
+   commit sur `main`, et sa branche se supprime. La solution passe **les quatre critères** :
    1. **Fait observé** : elle part du constat du ticket ou d'un événement précis (cite-le).
    2. **Texte exact** : elle donne le texte à ajouter, remplacer ou retirer, et l'endroit.
    3. **Erreur évitée** : elle nomme ce que l'agent suivant ferait de travers sans elle.
@@ -98,7 +100,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
       ce qu'elle dit explicitement.
 
    Retirer une règle inutile vaut autant qu'en ajouter une. Si le mainteneur a fixé la solution
-   dans le ticket ou en demandant de le traiter, applique-la.
+   dans le ticket ou en demandant de le traiter, applique-la ; sur le comportement, seulement
+   s'il en a fixé le texte exact.
 
    **Arbitrer le contenu du cours** (fait du fil rouge, plan, glossaire, constat de revue
    laissé ouvert, consignes d'un lot) : ne fixe un fait que si un concept en a besoin, le plus
