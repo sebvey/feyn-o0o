@@ -1,7 +1,7 @@
 # ADR-020 : Un lot du cours passe par deux revues et un tour de correction, dans le workflow `course-lot`
 
 - **Date** : 2026-10-22
-- **Statut** : complété par ADR-025
+- **Statut** : complété par ADR-025 et ADR-029
 - **Ticket** : T-018b
 
 ## Contexte
