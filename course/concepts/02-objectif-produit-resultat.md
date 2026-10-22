@@ -1,0 +1,277 @@
+---
+concept: 2
+titre: Objectif produit et résultat
+---
+
+# Objectif produit et résultat
+
+## Objectif
+Distinguer un livrable (ce que l'équipe produit) d'un résultat (ce qui change chez
+l'utilisateur) ; formuler un objectif produit qui vise un résultat ; choisir la mesure qui dit si
+on s'approche de ce résultat.
+
+## L'essentiel
+Le PO répond de la valeur du produit, sans méthode imposée pour la mesurer (Scrum Guide). Un
+**livrable** (output : une vue, un indicateur, un pipeline) ne prouve pas la valeur ; le
+**résultat** (outcome : ce qui change chez l'utilisateur grâce au livrable) la montre.
+L'**objectif produit** est la cible à long terme de l'équipe : un état futur du produit, un seul
+à la fois. Une **mesure de résultat** dit si on s'en approche, sinon elle ne sert à rien.
+
+## Consensus et choix d'école
+- **Consensus** (Scrum Guide 2020) : le PO répond de la valeur, sans méthode imposée pour la
+  mesurer. L'objectif produit est un état futur du produit qui sert de cible à l'équipe, son
+  objectif à long terme ; il est l'engagement du backlog produit et figure dans ce backlog ;
+  l'équipe l'atteint ou l'abandonne avant d'en prendre un autre ; le développer et le
+  communiquer est la première des tâches de gestion du backlog produit que le Scrum Guide
+  confie au PO. Chaque incrément
+  est un pas vers lui ; le Sprint Planning y rattache les éléments choisis, la revue de sprint
+  discute du progrès vers lui. Le Scrum Guide n'impose ni format ni horizon. Sa version 2020 a
+  introduit l'objectif produit.
+- **Consensus** (pratiques établies, sans être dans le Scrum Guide) : distinguer livrable et
+  résultat, et mesurer le résultat. Les objectifs d'apprentissage du PO de Scrum Alliance le
+  demandent ; Scrum.org, Teresa Torres et Josh Seiden partagent la distinction.
+- **Choix d'école** :
+  - le résultat comme changement de comportement de l'utilisateur, qui produit la valeur (Josh
+    Seiden) ;
+  - la **vision produit** : le Scrum Guide 2020 ne contient plus le mot (la version 2017
+    l'employait) ; Scrum.org et Scrum Alliance la gardent et en font ce que l'objectif produit
+    concrétise. Un format de vision : le Product Vision Board de Roman Pichler ;
+  - les critères d'un bon objectif produit (aligné sur la vision, clair et concis, orienté
+    résultat, mesurable, transparent) et l'objectif produit vu comme une hypothèse (ce qu'on
+    tient pour vrai sans l'avoir vérifié, concept 17), qu'on peut reformuler sans échec
+    (Scrum.org) ;
+  - choisir une mesure en partant du but, puis du signal qui montre le succès (démarche
+    Goals-Signals-Metrics), et les catégories de mesures HEART (Rodden, Hutchinson et Fu, chez
+    Google) ;
+  - se méfier des mesures de vanité, flatteuses mais inutiles pour décider (Eric Ries) ;
+  - cités sans être enseignés : Evidence-Based Management (Scrum.org, quatre domaines de
+    valeur), une mesure de succès par version (Jeff Patton, concept 16), les mesures d'un
+    produit de données selon Zhamak Dehghani (qualité des données, c'est-à-dire le respect de
+    règles mesurables comme la complétude ou la fraîcheur, concept 12 ; délai pour les
+    consommer ; satisfaction des consommateurs).
+
+## Sous-concepts
+1. **2a livrable et résultat** : le livrable est ce que l'équipe produit ; le résultat, ce qui
+   change chez l'utilisateur grâce à lui. Un livrable terminé rend la valeur possible, il ne la
+   prouve pas. Un indicateur calculé par la plateforme est un livrable, même quand il sert de
+   mesure.
+2. **2b l'objectif produit** : état futur du produit, cible à long terme, un seul à la fois,
+   dans le backlog, porté par le PO (consensus). Il vise un résultat, pas une liste de livrables
+   ni une caractéristique du livrable. La vision, plus lointaine et souvent aspirationnelle, est un choix
+   d'école : le dire.
+3. **2c choisir une mesure de résultat** : partir de l'objectif, chercher le signal qui montre
+   qu'on s'en approche, puis la mesure ; écarter ce qui mesure le livrable, l'usage seul ou un
+   comptage qui bouge pour d'autres raisons ; croiser la mesure avec d'autres sources avant de
+   conclure.
+
+## Banque d'exemples
+
+L'objectif produit et la mesure de résultat de la plateforme sont fixés dans le fil rouge : ils
+servent de corrigé. Les autres formulations de cette banque sont des propositions à juger,
+inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
+
+### « Vue livrée, objectif atteint » (2a)
+- **Explication** : le livrable (output) est ce que l'équipe produit ; le résultat (outcome),
+  ce qui change chez l'utilisateur grâce à lui. Le PO répond de la valeur : un livrable terminé
+  la rend possible, il ne la prouve pas. Consensus des pratiques établies, absent du Scrum
+  Guide.
+- **Situation** : l'équipe vélos livre la vue des stations vides le mercredi de la deuxième
+  semaine du sprint. À la revue de sprint, Bruno, responsable d'exploitation, la trouve claire.
+  Léa conclut : « Vue livrée, objectif atteint. »
+- **Question** : Léa a-t-elle raison ?
+- **Réponse attendue** : non. Le livrable est livré ; le résultat n'est pas encore connu. La
+  vue sert si Bruno s'en sert pour envoyer les régulateurs plus tôt vers les stations qui se
+  vident, et si, du coup, les stations du centre-ville restent moins longtemps vides aux heures
+  de pointe (l'objectif produit). Cela se constate après, sur les relevés des stations des
+  semaines suivantes, comparés à l'historique. Nuance : livrer reste nécessaire ; l'incrément
+  est un pas vers l'objectif produit, pas sa preuve.
+- **Erreurs fréquentes** :
+  - « oui, la vue est terminée et Bruno est content » : terminée dit que c'est bien fait, pas que
+    ça change quelque chose ; la satisfaction de Bruno est utile en complément, elle ne dit pas
+    si les stations restent moins longtemps vides ;
+  - s'arrêter au « non » sans dire quoi observer : relancer par « que faudrait-il observer pour
+    dire que la vue a servi, et quand ? ».
+- **Ce qui marche** : donner les mots anglais (output, outcome), puis demander : « Si on éteignait
+  la vue demain, qu'est-ce qui changerait pour Bruno et pour les stations ? »
+
+### Livrable ou résultat ? (2a)
+- **Explication** : test simple : si l'équipe peut le faire seule, sans que personne ne change sa
+  façon de travailler, c'est un livrable.
+- **Situation** : quatre phrases entendues autour de la plateforme.
+  1. « La plateforme calcule chaque jour le temps pendant lequel chaque station est vide. »
+  2. « Bruno envoie un régulateur dès qu'une station du centre-ville se vide. »
+  3. « Les données des stations sont rafraîchies toutes les 5 minutes. »
+  4. « Les stations du centre-ville restent moins longtemps vides aux heures de pointe. »
+- **Question** : classe chaque phrase en livrable ou résultat.
+- **Réponse attendue** : 1 et 3 sont des livrables ; 2 est un résultat intermédiaire (un
+  changement de comportement de l'utilisateur, qui ne dépend pas de l'équipe seule) ; 4 est
+  l'effet visé par l'objectif produit, auquel ce changement doit conduire. La phrase 1 décrit
+  un indicateur (ce que la plateforme calcule pour ses utilisateurs, concept 12) : c'est un
+  livrable, qui sert aussi de mesure de résultat quand on s'en sert pour juger le produit.
+  Même chiffre, deux rôles.
+- **Erreurs fréquentes** :
+  - classer 1 en résultat « parce qu'il parle des stations vides » : le calculer ne vide ni ne
+    remplit aucune station ;
+  - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur est
+    une qualité du livrable ; la valeur vient de ce que Bruno en fait.
+- **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si la
+  réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
+  relancer : « la phrase 1 peut-elle aussi servir de mesure de résultat ? ».
+
+### Trois objectifs produits à juger (2b)
+- **Explication** : l'objectif produit est un état futur du produit qui sert de cible à
+  l'équipe, son objectif à long terme ; il est dans le backlog et le PO le développe et le
+  communique (Scrum Guide). Le Scrum Guide n'impose aucun format. La vision produit, plus
+  lointaine, n'est plus dans le Scrum Guide 2020 : Scrum.org et Scrum Alliance la gardent, choix
+  d'école ; pour Scrum.org, l'objectif produit en est un pas concret et mesurable.
+- **Situation** : l'apprenant, PO de la plateforme, prépare l'objectif produit avec Agnès,
+  directrice des opérations et sponsor de la plateforme (elle en porte le budget). Trois
+  formulations circulent :
+  - A : « Livrer d'ici l'été la vue des stations vides, l'alerte des stations presque vides et
+    la prévision des stations à risque. »
+  - B : « Passer la plateforme en temps réel. »
+  - C : « Que le vélo devienne le premier mode de déplacement de la métropole. »
+- **Question** : qu'est-ce qui cloche dans chacune, comme objectif produit ?
+- **Réponse attendue** :
+  - A est une liste de livrables datée : on peut tout livrer sans que rien ne change ; ces
+    livrables iront au backlog s'ils servent l'objectif ;
+  - B décrit une caractéristique du livrable (une fraîcheur) ou un moyen : il ne dit pas ce
+    qui change pour qui. Savoir si l'exploitation a besoin du temps réel est un fait à demander
+    à Bruno ; la technique pour y arriver revient aux Developers (concept 1) ;
+  - C ressemble à une vision : aspirationnelle, elle dépend de bien d'autres choses que la
+    plateforme ; aucune mesure ne dirait si le travail de l'équipe la rapproche du but.
+  - Une fois les trois jugées, donner l'objectif retenu (fil rouge) en comparaison : « Que les
+    stations du centre-ville restent le moins longtemps possible vides aux heures de pointe,
+    grâce à des données à jour pour l'exploitation. » Il dit un état futur (des stations moins
+    longtemps vides), un périmètre (centre-ville, heures de pointe), ce que le produit y
+    apporte (des données à jour pour l'exploitation), et une mesure dit si on s'en approche.
+    C'est une direction : sans cible chiffrée (pas encore fixée), on ne peut pas dire qu'il est
+    atteint. Nuance : ces critères (orienté résultat, mesurable, clair) sont ceux de Scrum.org,
+    un choix d'école ; le Scrum Guide n'en fixe aucun.
+- **Erreurs fréquentes** :
+  - approuver A « parce que c'est concret et daté » : concret, oui, mais c'est un plan de
+    livraison ;
+  - approuver C « parce que c'est motivant » : dans l'approche qui garde la vision (Scrum.org,
+    Scrum Alliance), la motivation relève de la vision, et l'objectif produit doit se mesurer ;
+  - rejeter B seulement « parce que c'est cher » : le défaut est qu'il ne dit pas ce qui change
+    pour l'utilisateur ;
+  - à l'inverse, décider seul que l'exploitation « n'a pas besoin du temps réel » : c'est un
+    fait métier, à demander à Bruno.
+- **Ce qui marche** : deux questions par formulation : « peut-on tout faire sans que rien ne
+  change pour un utilisateur ? » et « une mesure dira-t-elle si on s'en approche ? ».
+
+### Deux objectifs à la fois ? (2b)
+- **Explication** : le Scrum Guide demande un seul objectif produit à la fois : l'équipe
+  l'atteint ou l'abandonne avant d'en prendre un autre. L'abandonner ou le reformuler quand on
+  apprend n'est pas un échec (Scrum.org, choix d'école).
+- **Situation** : Agnès propose d'ajouter à l'objectif « et fournir à la collectivité les
+  indicateurs qui justifient la subvention ». Claire, chargée de mission mobilité, attend les
+  locations par quartier pour le bilan annuel au conseil.
+- **Question** : que réponds-tu à Agnès ?
+- **Réponse attendue** : un seul objectif produit à la fois (Scrum Guide) : en accoler un second
+  disperse l'équipe et rend l'ordre du backlog impossible à argumenter, puisque chaque demande
+  peut se réclamer de l'un ou de l'autre. Les demandes de Claire restent des demandes : le PO
+  décide de leur place dans le backlog (concept 13) et en parle avec elle (concept 14). Si le
+  bilan au conseil devient la cible prioritaire, on change d'objectif produit, on ne les
+  additionne pas.
+- **Erreurs fréquentes** :
+  - accepter l'ajout parce qu'Agnès porte le budget : le PO l'écoute, mais l'objectif produit
+    reste un seul objectif ;
+  - répondre « hors objectif, donc on ne fait rien pour Claire » : l'objectif guide l'ordre et
+    les arbitrages, il ne fait pas disparaître une partie prenante.
+- **Ce qui marche** : si la réponse s'arrête au refus, demander « et alors, que deviennent les
+  demandes de Claire ? ».
+
+### Quelle mesure pour l'objectif ? (2c)
+- **Explication** : une mesure n'est utile que si elle se rattache à un but. Démarche
+  Goals-Signals-Metrics (Rodden et ses collègues, chez Google, choix d'école) : partir du but,
+  chercher le signal qui montre le succès, puis construire la mesure ; choisir un signal qui ne
+  bouge que si le résultat s'améliore ou se dégrade.
+- **Situation** : l'objectif produit est fixé. Quatre mesures sont proposées :
+  1. le nombre de consultations de la vue des stations vides par l'équipe de Bruno ;
+  2. le nombre d'éléments livrés par sprint ;
+  3. le nombre total de locations sur le réseau ;
+  4. le temps cumulé pendant lequel une station du centre-ville est vide aux heures de pointe,
+     calculé depuis les relevés des stations.
+- **Question** : laquelle dit si on se rapproche de l'objectif produit ?
+- **Réponse attendue** : la 4, retenue par l'équipe : elle mesure l'état visé, avec une source
+  qui existe déjà. La 1 dit qu'on se sert du livrable (adoption) : utile comme signal, mais on
+  peut consulter la vue sans envoyer les régulateurs plus tôt. La 2 mesure le livrable, pas le
+  résultat. La 3 est un comptage brut, qui monte avec le nombre d'abonnés ou la météo sans
+  rapport avec les stations vides : flatteuse, elle n'aide pas à décider (mesure de vanité au
+  sens d'Eric Ries). Nuance : la 4 n'est pas prête à l'emploi : la définition des heures de
+  pointe, la cible chiffrée et le calcul (par station, ou cumulé sur toutes les stations du
+  centre-ville, qui monterait si on en ajoute) ne sont pas fixés ; le PO ne les invente pas, il
+  les fait fixer avec les parties prenantes (concept 12 pour la définition d'un indicateur).
+- **Erreurs fréquentes** :
+  - choisir la 1 « parce qu'elle prouve que la vue sert » : elle prouve qu'on la regarde ;
+  - choisir la 3 « parce que plus de locations, c'est de la valeur » : peut-être pour
+    l'opérateur, mais pas le résultat visé par cet objectif ;
+  - proposer soi-même une cible (« moins 20 % ») : c'est un fait métier à fixer, pas au PO de
+    l'inventer.
+- **Ce qui marche** : pour chaque mesure, « peut-elle monter alors que les stations restent aussi
+  longtemps vides ? ». Si oui, elle ne mesure pas le résultat. Une fois la 4 choisie, relancer :
+  « que reproches-tu aux trois autres ? ».
+
+### La mesure baisse : victoire ? (2c)
+- **Explication** : une mesure seule ne suffit pas : on la croise avec d'autres sources
+  (entretiens, observation) avant de conclure (Rodden et ses collègues, choix d'école).
+- **Situation** : le mois qui suit la livraison de la vue, le temps cumulé de stations vides au
+  centre-ville baisse. Ce mois-là, il a beaucoup plu (situation d'exercice).
+- **Question** : peux-tu annoncer à Agnès que la vue a produit le résultat ?
+- **Réponse attendue** : pas encore. La baisse peut venir d'une autre cause : la pluie peut
+  réduire les locations, donc moins de stations se vident, sans rapport avec la vue. Avant de
+  conclure : comparer à des périodes comparables dans l'historique des relevés (environ un
+  an) ; vérifier le signal
+  de comportement (Bruno envoie-t-il les régulateurs plus tôt ?) ; en parler avec Bruno et
+  Malik. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
+  vient au concept 17.
+- **Erreurs fréquentes** :
+  - annoncer la victoire sur un seul mois ;
+  - à l'inverse, jeter la mesure (« elle ne vaut rien ») : elle reste la bonne, il faut la lire
+    avec le reste.
+- **Ce qui marche** : « quelle autre raison pourrait faire baisser ce chiffre ? » ; si
+  l'apprenant s'arrête au « non », relancer par « que fais-tu avant de lui répondre ? ».
+
+## Pièges
+- Juger son travail à ce qui tourne en production : c'est la confusion la plus probable d'un
+  développeur ou d'un profil data devenu PO. Le repérer quand il dit « c'est livré » pour « ça a
+  marché ».
+- Un objectif produit qui est une liste de livrables ou une feuille de route datée : on peut
+  tout livrer sans l'atteindre.
+- Un objectif produit qui décrit le livrable ou un moyen (« passer en temps réel ») : il ne dit
+  pas ce qui change pour qui. Le besoin de fraîcheur est un fait à demander aux utilisateurs ;
+  la technique revient aux Developers.
+- Un objectif produit si vaste (une vision) qu'aucune mesure ne dit si l'équipe s'en approche.
+- Deux objectifs produits à la fois, souvent sous la forme « X et Y » : un seul à la fois.
+- Prendre l'usage du livrable (consultations, connexions) pour le résultat : utile comme signal,
+  insuffisant comme preuve.
+- Un comptage brut qui monte avec la taille du réseau ou le nombre d'abonnés (le total des
+  locations du réseau) : le ramener à une base (par station, par heure de pointe) avant de le
+  lire. La mesure retenue n'y échappe pas : son calcul (par station ou cumulé) reste à fixer.
+- Une mesure qui devient la cible cesse d'être une bonne mesure (loi de Goodhart). Exemple
+  d'exercice : si l'exploitation était jugée sur le temps de stations vides, et si « vide » se
+  comptait en vélos à quai, laisser des vélos hors d'usage à quai ferait baisser la mesure sans
+  qu'un abonné trouve un vélo de plus. Retenir qu'on croise la mesure avec d'autres sources.
+- Une mesure mal définie trompe aussi, sans que personne la force : vélos à quai ou vélos
+  disponibles (à quai et louables) ? La définition d'un indicateur se travaille au concept 12.
+- Inventer la cible chiffrée ou la définition des heures de pointe à la place des parties
+  prenantes.
+- Croire l'objectif produit gravé : Scrum.org le présente comme une hypothèse, qu'on reformule
+  quand on apprend (choix d'école).
+
+## Le test rapide
+« Si on livre tout ce qui est prévu et que rien ne change pour l'utilisateur, l'objectif est-il
+atteint ? » Si oui, c'est une liste de livrables, pas un objectif produit.
+« Ma mesure peut-elle monter alors que le résultat ne bouge pas ? » Si oui, ce n'est pas une
+mesure de résultat.
+
+## Schéma
+Une chaîne horizontale de gauche à droite : une case « Livrable » (la vue des stations vides),
+seule sous l'accolade « ce que l'équipe maîtrise » ; une petite case grisée « Usage » (Bruno la
+consulte), légendée « signal, pas preuve » ; puis un grand cadre « Résultat » qui contient deux
+cases : « Changement de comportement » (il envoie les régulateurs plus tôt), puis « Effet visé »
+(stations du centre-ville moins longtemps vides aux heures de pointe). Sous l'usage et le
+résultat, une accolade : « hors du contrôle de l'équipe, ce qui juge le produit ». Une jauge
+accrochée à « Effet visé » : « mesure de résultat ». Au-dessus de l'effet visé, un drapeau « Objectif produit » (consensus, Scrum Guide) ;
+plus haut et en pointillés, un horizon « Vision produit », légendé « choix d'école ».

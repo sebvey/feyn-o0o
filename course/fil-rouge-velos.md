@@ -25,8 +25,9 @@ métier.
 - **L'objectif produit** : « Que les stations du centre-ville restent le moins longtemps
   possible vides aux heures de pointe, grâce à des données à jour pour l'exploitation. » Sa
   mesure de résultat : le temps cumulé pendant lequel une station du centre-ville est vide aux
-  heures de pointe, calculé depuis les relevés des stations. La cible chiffrée et la définition
-  des « heures de pointe » ne sont pas fixées.
+  heures de pointe, calculé depuis les relevés des stations. La cible chiffrée, la définition
+  des « heures de pointe », celle d'une station vide (vélos à quai ou vélos disponibles) et le
+  calcul (par station ou cumulé sur le centre-ville) ne sont pas fixés.
 - **Le PO, c'est l'apprenant** : chaque question le place dans ce rôle (« que proposes-tu au
   planning ? »).
 - **L'équipe vélos** (l'équipe de la plateforme) : deux data engineers (Léa, Yanis) et une
@@ -58,7 +59,7 @@ métier.
 
 | Source | Contenu | Propriétaire | Fraîcheur, défauts connus |
 |---|---|---|---|
-| Relevés des stations | Nombre de vélos à quai par station | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 15 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
+| Relevés des stations | Nombre de vélos à quai par station | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
 | Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
 | Signalements de pannes | Vélo signalé, par l'abonné dans l'appli | Équipe appli | Les signalements par téléphone ne sont pas saisis dans l'appli |
 | Abonnés | Abonnement, station favorite | Équipe appli | |
@@ -71,7 +72,7 @@ métier.
   décidé).
 - Le centre-ville sert de premier périmètre ; la météo (pluie) ajuste la prévision des
   stations à risque.
-- Rafraîchissement toutes les 15 minutes cité comme option avant le temps réel.
+- Rafraîchissement toutes les 5 minutes cité comme option avant le temps réel.
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
   de la story de tournée d'Hugo ; Sophie le réclame (concept 10).
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
@@ -83,6 +84,8 @@ métier.
 - Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). DoR de
   l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
   identifiées, accès aux données obtenu (concept 11b).
+- La vue des stations vides doit servir à Bruno à envoyer les régulateurs plus tôt vers les
+  stations qui se vident.
 - La journée de Bruno : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo

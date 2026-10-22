@@ -51,7 +51,7 @@
   | Sous-ticket | Contenu | Dépend de | État |
   |---|---|---|---|
   | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | | fait le 2026-10-22 (ADR-017) |
-  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | en cours |
+  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | fait le 2026-10-22 (ADR-020) |
   | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | à faire |
   | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | à faire |
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | à faire |
@@ -67,8 +67,10 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : traiter T-018b. sve repart de zéro (§6) : il peut tester
-  chaque lot à mesure qu'il est mergé.
+  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. Avant,
+  le ticket élargi de T-011 (démarrage d'un nouvel apprenant, `learner/` vidé, observations de
+  sve copiées anonymisées dans `maintainer/work/T-018/`) : sve repart de zéro et teste chaque
+  lot à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 
@@ -96,17 +98,19 @@
   - Le fichier du concept ne cite aucune référence : chaque affirmation que le rédacteur
     ajoute a sa ligne dans le fichier de sources, ou dans sa section « Non vérifié ».
 
-  **Étape 3 : revues croisées** (par concept, plusieurs relecteurs indépendants, en parallèle)
-  - **Exactitude** : chaque affirmation confrontée aux sources de l'étape 1 et présente dans
-    `course/sources/NN-slug.md` ; consensus et choix d'école correctement étiquetés.
-  - **Pédagogie** : sous-concepts tenables en 15 lignes ; chaque question teste la
-    compréhension (reformuler, corriger, trancher un cas limite), jamais « as-tu compris ? » ;
-    réponses attendues justes et nuancées ; pièges réalistes pour le public cible.
-  - **Cohérence** : faits du fil rouge, glossaire, renvois entre concepts, pas de doublon avec
-    un autre concept.
-  - **Style** : règles de la section « Style » de `CLAUDE.md`.
-  - Chaque constat est vérifié (vrai défaut ou faux positif) avant d'être corrigé par le
-    rédacteur ; deux tours au plus, puis arbitrage du mainteneur.
+  **Étape 3 : revues croisées** (par concept, deux relecteurs indépendants, en parallèle)
+  - **Fond** : exactitude (chaque affirmation confrontée aux sources de l'étape 1 et présente
+    dans `course/sources/NN-slug.md` ; consensus et choix d'école correctement étiquetés) et
+    cohérence (faits du fil rouge, glossaire, renvois entre concepts, pas de doublon avec un
+    autre concept).
+  - **Forme** : pédagogie (sous-concepts tenables en 15 lignes ; chaque question teste la
+    compréhension : reformuler, corriger, trancher un cas limite, jamais « as-tu compris ? » ;
+    réponses attendues justes et nuancées ; pièges réalistes pour le public cible) et style
+    (règles de la section « Style » de `CLAUDE.md`).
+  - Le rédacteur trie chaque constat (vrai défaut ou faux positif, justifié) en corrigeant. Un
+    second tour, par les relecteurs qui avaient un constat bloquant, seulement s'il y en avait ;
+    ce qui reste va à l'arbitrage du mainteneur.
+  - La cohérence entre les concepts du lot est vérifiée par le coordinateur.
 
   ### 4. Cohérence d'ensemble et tests de bout en bout (dernier sous-ticket)
 
@@ -138,10 +142,12 @@
     (paramètres : le dossier du cours et le sous-ticket du lot ; générique, voir T-023) et le
     teste ; les lots suivants le relancent par son nom
     (« lance course-lot sur T-018c »), sans le réécrire. Une session ne lance un workflow que
-    sur demande du mainteneur : le nommer suffit. Un workflow par lot, pour garder chaque
-    exécution sous une cinquantaine d'agents et valider lot par lot.
-  - Les agents de recherche et de rédaction, et le relecteur d'exactitude, tournent sur le
-    modèle le plus capable ; les autres relectures peuvent tourner sur un modèle plus léger.
+    sur demande du mainteneur : le nommer suffit. Un workflow par lot, pour valider lot par
+    lot ; de 5 à 8 agents par concept.
+  - Les agents de recherche et de rédaction, et le relecteur du fond, tournent sur le modèle le
+    plus capable ; le relecteur de la forme et le cadrage, sur un modèle plus léger. L'agent de
+    sources part des sources déjà vérifiées (cadrage, fichiers de sources existants) et ne
+    cherche que ce qui manque.
   - Briefs des agents : chacun lit les fichiers sur disque (pas de résumé de seconde main),
     connaît le public cible, le modèle de fichier, le fil rouge et les règles de style.
 

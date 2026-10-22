@@ -36,7 +36,7 @@ ajustée quand il pleut »).
 
 **Patrons de découpage** (choix d'école : SPIDR de Mike Cohn, patrons de Richard Lawrence) :
 périmètre de données (un quartier, une source), règle (seuil fixe avant seuil par station),
-simple avant complexe (heuristique avant modèle), qualité de service différée (15 minutes avant
+simple avant complexe (heuristique avant modèle), qualité de service différée (5 minutes avant
 temps réel).
 
 ## Pièges
