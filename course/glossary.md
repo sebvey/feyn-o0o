@@ -33,8 +33,8 @@ fichier à l'apprenant.
 | Mesure de résultat | outcome metric | Mesure qui dit si on s'approche du résultat visé | 2 |
 | Backlog produit | Product Backlog | Liste ordonnée et émergente de ce qui pourrait améliorer le produit | 0, 3 |
 | Élément du backlog | Product Backlog item | Toute entrée du backlog, quel que soit son niveau | 3 |
-| Epic, feature, story, tâche | epic, feature, story, task | Niveaux de découpage d'un besoin, choisis par l'équipe | 4 |
-| User story (story) | user story | Besoin d'un utilisateur : en tant que, je veux, afin de | 5 |
+| Epic, feature, story, tâche | epic, feature, story, task | Niveaux de découpage d'un besoin, choisis par l'équipe ; la tâche est du travail des Developers, pas un besoin | 4 |
+| User story (story) | user story | Un besoin précis d'un utilisateur, vu de lui ; format courant (choix d'école) : en tant que, je veux, afin de | 5 |
 | 3C | Card, Conversation, Confirmation | Une story est une carte, une conversation et une confirmation (Jeffries) | 5 |
 | Rôle | user role | Catégorie d'utilisateurs aux besoins communs | 6 |
 | Persona | persona | Portrait fictif et réaliste d'un rôle (choix d'école) | 6 |
