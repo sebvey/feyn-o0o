@@ -10,3 +10,4 @@
 - **À faire** : décidé au tri (2026-10-23) : noter le récap dans la ligne de journal de la
   session (« mini-récap 6-8 »), dans `CLAUDE.md`.
 - **Fini quand** : un prof neuf sait, depuis `learner/`, si un récap est dû.
+- **Fait le** : 2026-10-23, `CLAUDE.md` : le mini-récap tombe tous les 3 ou 4 concepts validés depuis le dernier noté au journal ; la ligne de journal le note (« mini-récap 6-8 ») ; test par sous-agent prof neuf, joint à celui de T-033 (journal avec « mini-récap 0-2 », validation du concept 6) : récap dû vu, fait en 5 lignes, noté « mini-récap 3-6 » ; constats rejetés : moment du récap (la fin d'un concept validé le propose déjà), forme de la note (plage couverte, sans effet).
