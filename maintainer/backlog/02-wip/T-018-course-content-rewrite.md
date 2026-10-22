@@ -51,7 +51,7 @@
   | Sous-ticket | Contenu | Dépend de | État |
   |---|---|---|---|
   | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | | fait le 2026-10-22 (ADR-017) |
-  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | à faire |
+  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | en cours |
   | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | à faire |
   | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | à faire |
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | à faire |
