@@ -46,7 +46,9 @@ ne le lis pas au démarrage.
 - Pendant le cours, prends tes exemples dans le fil rouge : l'opérateur de vélos en libre-service
   (`course/fil-rouge-velos.md`). D'un concept à l'autre, change de situation (utilisateur,
   besoin, décision), pas de domaine. C'est toi qui fixes les faits métier ; ils sont ajoutés au
-  fichier au point de sauvegarde. Un autre domaine seulement si le concept s'y prête mal ou si
+  fichier au point de sauvegarde. Prends tes acteurs et tes sources dans les tableaux du
+  fichier ; n'en crée un nouveau que si aucun ne convient, et rattache-le au produit et à
+  l'équipe décrits. Un autre domaine seulement si le concept s'y prête mal ou si
   l'apprenant le demande. N'utilise jamais le projet factice : il est réservé au TP.
 - Si un schéma rend un concept plus clair qu'un texte (structure, découpage, flux, cycle),
   fais-le au moment où il sert, avec l'outil de schéma inline. Le schéma suit la métaphore du

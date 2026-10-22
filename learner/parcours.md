@@ -10,6 +10,8 @@ Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en co
 station », prête sauf l'accès à la table des locations (demandé à la DSI). Trace
 `10-dor-dod/03`. Question en attente, mot pour mot : « Question pour toi : la story est-elle
 prête ? Que proposes-tu au planning du sprint ? »
+Avant de reprendre 10b : aparté « le cadre du fil rouge » en un message (entreprise, produit,
+équipe, acteurs, d'après `course/fil-rouge-velos.md`), puis 10b repris depuis le début.
 Après 10b validé : compléter la fiche 10 (partie DoR), point de sauvegarde, puis concept 11
 (priorisation).
 
