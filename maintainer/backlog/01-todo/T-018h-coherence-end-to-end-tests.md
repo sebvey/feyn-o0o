@@ -7,7 +7,9 @@
   le cours entier.
 - **À faire** : T-018 §4 (cohérence d'ensemble, sessions simulées notées par un juge), puis §7
   (clôture). Retirer la section « Situations par concept » de `course/fil-rouge-velos.md` si
-  les banques d'exemples la rendent inutile. Avant de supprimer `maintainer/work/T-018/`,
+  les banques d'exemples la rendent inutile. Vérifier dans chaque banque qu'une erreur
+  fréquente qui est une réponse fausse dit sa relance, ou n'en a pas (règle de T-033 ; test de
+  T-033, banque de 6b : la relance n'était que dans « Ce qui marche »). Avant de supprimer `maintainer/work/T-018/`,
   retirer de `course/sources/` tout renvoi à ce dossier (`grep -rn "maintainer/work" course/`
   ne trouve plus rien) : une observation de session s'écrit en clair (« observation d'une
   session, un apprenant : base faible »), un renvoi à `framing.md` est remplacé par sa source
