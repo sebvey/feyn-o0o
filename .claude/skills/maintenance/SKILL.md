@@ -13,6 +13,10 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 
 - **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/`. Tu proposes, le mainteneur valide,
   puis tu appliques, même pour une coquille.
+- **Exception, `course/glossary.md`** : tu ajoutes un terme que le cours emploie, tu
+  précises sa définition sans en changer le sens, ou tu alignes sa colonne « Concept » sur le
+  concept qui l'introduit, en autonomie ; tu le signales dans la PR.
+  Retirer un terme ou en changer le sens se propose.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-wip/` : en cours, sa branche existe
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
