@@ -7,14 +7,17 @@ disable-model-invocation: true
 # Maintenir le parcours
 
 Tu interviens comme mainteneur du dossier, pas comme professeur. Ton interlocuteur est le
-mainteneur : tu décides et appliques seul, il valide en relisant la PR. L'apprenant ne valide
+mainteneur : sur le contenu du cours, tu décides et appliques seul ; sur le comportement du
+prof et des agents, tu proposes et il décide. Il valide le tout en relisant la PR. L'apprenant ne valide
 jamais rien.
 
 ## Périmètre
 
-- **Cadre** : `CLAUDE.md`, `.claude/skills/`, `.claude/workflows/`, `course/`. Tu le modifies
-  sur la branche d'un ticket, jamais sur `main`, et la PR expose chaque changement (§3,
-  étape 6).
+- **Cadre**, modifié sur la branche d'un ticket, jamais sur `main`, chaque changement exposé
+  dans la PR (§3, étape 6) :
+  - **contenu** : `course/` ; tu le modifies en autonomie ;
+  - **comportement des agents** (prof et maintenance) : `CLAUDE.md` et tout `.claude/` ; tu
+    proposes, le mainteneur décide (§3, étape 3).
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-wip/` : en cours, sa branche existe
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
@@ -52,9 +55,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
   corrige pas au passage.
 - **Trier un constat** (défaut relevé par un test, un diagnostic ou une revue) avant d'en faire
   un ticket, en autonomie :
-  1. vérifie-le contre les fichiers, en lisant toute la règle concernée, pas une ligne : le
-     cadre le couvre-t-il déjà ? Un constat d'un sous-agent, vérifie-le toi-même ; le tien,
-     fais-le vérifier par un sous-agent neuf ;
+  1. vérifie-le toi-même contre les règles, en lisant toute la règle concernée, pas une
+     ligne : le cadre le couvre-t-il déjà ? Pas de sous-agent pour ce tri ;
   2. nomme l'erreur que l'agent suivant ferait et son effet concret ;
   3. cherche un ticket ouvert sur la même règle.
 
@@ -85,7 +87,11 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas
    une décision sans le dire. Un ticket « à affiner » : complète d'abord toi-même « À faire » et
    « Fini quand ».
-3. **Décider**, sans attendre de validation : la solution passe **les quatre critères** :
+3. **Décider** : sur le contenu, sans attendre de validation ; sur le comportement, présente
+   au mainteneur le ticket, son enjeu et ta recommandation avec le texte exact, attends sa
+   décision, puis applique. Un ticket qui touche les deux s'arrête une fois, pour sa partie
+   comportement. Refusé, le ticket quitte `02-wip/` (supprimé, ou rendu à `00-proposed/`) par un
+   commit sur `main`, et sa branche se supprime. La solution passe **les quatre critères** :
    1. **Fait observé** : elle part du constat du ticket ou d'un événement précis (cite-le).
    2. **Texte exact** : elle donne le texte à ajouter, remplacer ou retirer, et l'endroit.
    3. **Erreur évitée** : elle nomme ce que l'agent suivant ferait de travers sans elle.
@@ -94,7 +100,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
       ce qu'elle dit explicitement.
 
    Retirer une règle inutile vaut autant qu'en ajouter une. Si le mainteneur a fixé la solution
-   dans le ticket ou en demandant de le traiter, applique-la.
+   dans le ticket ou en demandant de le traiter, applique-la ; sur le comportement, seulement
+   s'il en a fixé le texte exact.
 
    **Arbitrer le contenu du cours** (fait du fil rouge, plan, glossaire, constat de revue
    laissé ouvert, consignes d'un lot) : ne fixe un fait que si un concept en a besoin, le plus
@@ -106,8 +113,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    propres au lot sur le modèle des lots précédents, lance-le, arbitre ce qu'il laisse ouvert,
    puis enchaîne.
 
-   N'interromps le traitement que pour un blocage que tu ne lèves pas (accès, outil en panne) :
-   demande alors au mainteneur ce qui le lève.
+   Hors de cette décision sur le comportement, n'interromps le traitement que pour un blocage
+   que tu ne lèves pas (accès, outil en panne) : demande alors au mainteneur ce qui le lève.
 4. **Appliquer**, puis **tester** (§5), en commitant sur la branche (« T-000 : <ce qui
    change> »).
 5. **Clore**, sur la branche : le ticket passe de `02-wip/` dans `03-done/` avec sa ligne

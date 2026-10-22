@@ -13,3 +13,4 @@
 - **Fini quand** : un agent neuf, à qui l'on demande de traiter un ticket de comportement,
   présente sa recommandation et attend ; sur un ticket de contenu, il va jusqu'à la PR ; il trie
   un constat sans lancer de sous-agent.
+- **Fait le** : 2026-10-23, skill `maintenance` : `course/` en autonomie ; `CLAUDE.md` et tout `.claude/` (comportement des agents) proposés avec le texte exact, puis appliqués après décision ; ticket mixte arrêté une fois ; refus d'un ticket démarré ; tri des constats par l'agent seul, sans sous-agent ; ADR-030, ADR-029 complété ; test court par sous-agent (T-031 : arrêt à la recommandation ; T-018g : jusqu'à la PR ; constat trié sans sous-agent, rejeté) ; ambiguïtés relevées corrigées (texte exact, ticket mixte, workflows rangés en comportement, refus après démarrage), non retestées.
