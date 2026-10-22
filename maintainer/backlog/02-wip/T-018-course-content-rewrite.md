@@ -56,7 +56,7 @@
   | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | fait le 2026-10-22 |
   | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | fait le 2026-10-22 |
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | fait le 2026-10-22 |
-  | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | en cours |
+  | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | fait le 2026-10-23 |
   | T-018g | Lot 6 : concepts 15, 16, 17, annexes A1 et A2 | T-018f | à faire |
   | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | à faire |
 
@@ -68,12 +68,12 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : traiter T-018f en lançant `course-lot` sur son sous-ticket, après
-  avoir écrit ses consignes propres au lot (comme T-018b à T-018e). Points laissés au lot 5 par
-  T-018e : qui peut bloquer un vélo à la location (plateforme ou DSI, concept 13) ; « chaque
-  indicateur publié a sa définition écrite » dans la DoD de l'équipe, ou non (concept 12a) ;
-  heures de pointe, seuil « presque vide » et station vide toujours non fixés (concept 12). sve repart
-  de zéro en nouvel apprenant (T-011) et teste chaque lot à mesure qu'il est mergé.
+  **Prochaine étape** : traiter T-018g en lançant `course-lot` sur son sous-ticket, après
+  avoir écrit ses consignes propres au lot (comme T-018b à T-018f). Points laissés au lot 6 par
+  T-018f : « vélo en panne », signalé ou constaté (15a, annoncé en 12b) ; le seuil « presque
+  vide » se fixe après exploration (17c) ; date du bilan au conseil, heures de pointe et station
+  vide toujours non fixées. sve repart de zéro en nouvel apprenant (T-011) et teste chaque lot
+  à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 

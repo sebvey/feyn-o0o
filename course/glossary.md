@@ -24,7 +24,7 @@ fichier à l'apprenant.
 | Incrément | Increment | Le produit dans un nouvel état utilisable, qui remplit la DoD | 0 |
 | Produit | product | Ce qui résout un problème d'utilisateurs et leur apporte une valeur | 1 |
 | Utilisateur | user | Personne qui se sert du produit (un consommateur de données en est un) | 1 |
-| Partie prenante | stakeholder | Toute personne ou équipe concernée par le produit (utilisateur, financeur, sponsor, équipe voisine) | 1, 14 |
+| Partie prenante | stakeholder | Toute personne ou équipe concernée par le produit (utilisateur, financeur, sponsor, équipe voisine, fournisseur de données) | 1, 14 |
 | Valeur | value | Ce que l'utilisateur ou l'organisation gagne (temps, meilleure décision, risque évité) | 1 |
 | Livrable | output | Ce que l'équipe produit (une vue, un indicateur, un pipeline) | 2 |
 | Résultat | outcome | Ce qui change chez l'utilisateur grâce au livrable | 2 |
@@ -56,15 +56,19 @@ fichier à l'apprenant.
 | Definition of Ready (DoR) | Definition of Ready | Conditions qu'un élément remplit avant d'entrer dans un sprint (choix d'école) | 11 |
 | Indicateur | metric | Valeur calculée par le produit pour ses utilisateurs (locations par quartier) | 12 |
 | Définition d'un indicateur | metric definition | Ce qu'il compte, sa règle de calcul, son grain, sa période, sa source, sa fraîcheur | 12 |
+| Grain | grain | Ce que représente une valeur d'un indicateur ou une ligne d'une table (par station, par quartier ; Kimball) | 12 |
 | Qualité des données | data quality | Respect de règles mesurables (complétude, unicité, fraîcheur, validité, exactitude, cohérence) | 12 |
 | Source de données | data source | Système qui produit les données, avec son propriétaire | 12 |
 | Donnée personnelle | personal data | Information sur une personne identifiée ou identifiable (RGPD) | 12 |
+| Finalité | purpose | Ce pour quoi des données sont demandées, dit avant de les collecter (RGPD) | 12 |
+| Minimisation | data minimisation | Ne demander que les données nécessaires à la finalité (RGPD) | 12 |
 | Ordonner | order | Décider de la place de chaque élément dans le backlog | 3, 13 |
 | Coût du retard | cost of delay | Ce qu'on perd à livrer plus tard (choix d'école) | 13 |
+| WSJF | Weighted Shortest Job First | Coût du retard divisé par la durée, pour ordonner (choix d'école, SAFe) | 13 |
 | MoSCoW | MoSCoW | Classement Must, Should, Could, Won't pour une échéance (choix d'école) | 13 |
-| Sponsor | sponsor | Responsable qui porte le budget du produit et arbitre au-delà du PO | 14 |
+| Sponsor | sponsor | Responsable qui porte le budget du produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog | 14 |
 | Obstacle | impediment | Ce qui bloque l'équipe et qu'elle ne lève pas seule | 14 |
-| Escalade | escalation | Porter un obstacle ou un arbitrage au niveau qui peut le trancher | 14 |
+| Escalade | escalation | Porter un obstacle au niveau qui peut le lever | 14 |
 | Refinement | Product Backlog refinement | Activité continue qui précise et découpe les éléments du backlog | 15 |
 | Objectif de sprint | Sprint Goal | Objectif unique du sprint, fixé au Sprint Planning | 0, 15 |
 | Backlog de sprint | Sprint Backlog | Objectif de sprint, éléments choisis et plan des Developers | 0, 15 |

@@ -15,7 +15,8 @@ métier.
 - La DSI de l'opérateur gère les systèmes (bornes, location, appli) et donne les accès à leurs
   données.
 - Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Agnès) et
-  le DSI (Pascal) : leurs désaccords s'y tranchent.
+  le DSI (Pascal) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
+  que leurs PO et Thomas ne règlent pas.
 
 ## Le produit et l'équipe
 
@@ -62,7 +63,7 @@ métier.
 | Relevés des stations | Nombre de vélos à quai par station et, pour chacun, s'il est louable | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
 | Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Historique sur plusieurs années dans le système de location. Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
 | Signalements de pannes | Vélo signalé, par l'abonné dans l'appli | Équipe appli | Les signalements par téléphone ne sont pas saisis dans l'appli |
-| Abonnés | Abonnement, station favorite | Équipe appli | |
+| Abonnés | Nom et coordonnées de l'abonné, abonnement, station favorite | Équipe appli | |
 | Référentiel des quartiers | Quartier de chaque station | La collectivité | |
 | Météo | Pluie, par heure | Service externe | Source envisagée, pas encore collectée |
 
@@ -73,7 +74,9 @@ métier.
 - Le centre-ville sert de premier périmètre ; la météo (pluie) pourrait ajuster la prévision
   des stations à risque : à vérifier (concept 17).
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
-  de la story de tournée d'Hugo ; Sophie le réclame (concept 10).
+  de la story de tournée d'Hugo ; Sophie le réclame (concept 10). Le blocage se fait dans le
+  système de location (DSI) ; la plateforme peut lui fournir la liste des vélos signalés : la
+  story de blocage dépend de la DSI (concept 13).
 - Un vélo n'est plus louable quand un technicien l'a retiré du service après constat.
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
   celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
@@ -81,7 +84,9 @@ métier.
   serveur vocal, appli) dépend de l'équipe appli.
 - La collectivité veut le nombre de locations par quartier sur le mois, puis la comparaison au
   même mois de l'an dernier (concept 10b).
-- Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). DoR de
+- Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). La DoD
+  exige aussi que chaque indicateur publié ait sa définition écrite (ajoutée en
+  rétrospective, concepts 11a et 12a). DoR de
   l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
   identifiées, accès aux données obtenu (concept 11b).
 - La vue des stations vides doit servir à Bruno à envoyer les régulateurs plus tôt vers les
