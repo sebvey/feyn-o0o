@@ -1,7 +1,7 @@
 # ADR-002 : La réponse de l'apprenant s'écrit dans la trace au moment de la correction
 
 - **Date** : 2026-10-21
-- **Statut** : accepté
+- **Statut** : remplacé par ADR-010
 - **Ticket** : T-003
 
 ## Contexte

@@ -1,11 +1,12 @@
 ---
 concept: 6
 titre: INVEST
-statut: validé
-date: 2026-10-21
 ---
 
 # INVEST
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Six critères pour juger si une story est bien formée : **I**ndependent (livrable sans attendre
@@ -29,7 +30,7 @@ Vélos en libre-service, le N (Negotiable) :
 
 Le métier ajoute : un tiers des abonnés n'a qu'un téléphone basique. Réponse de sve : le SMS
 reste négociable. Juste : ce qui devient non négociable, c'est la contrainte (téléphone
-basique, sans l'appli), et elle s'écrit dans un critère d'acceptation (fiche 07), pas en
+basique, sans l'appli), et elle s'écrit dans un critère d'acceptation (concept 7), pas en
 nommant un canal. Négociable ne veut pas dire « tout est ouvert ».
 
 ## Pièges
@@ -49,3 +50,24 @@ question ? Et l'équipe peut-elle dire « quelques jours » sans hésiter ? Sino
 ## Visuel suggéré
 Six cases (une par lettre) sur la story des OF : v3 avec E, S, T en rouge reliés au mot « mal
 renseigné », puis v4 avec ces cases passées au vert, T en orange.
+
+## Banque d'exemples
+
+### Le N d'INVEST : le SMS de l'abonné, solution ou contrainte ?
+- **Explication** : N (Negotiable) : la story fixe le besoin (qui, quoi, pourquoi) ; le
+  « comment » se négocie entre PO, métier et équipe jusqu'au sprint. Consensus : N vient de
+  Bill Wake (2003) ; « la story est une promesse de conversation » (3C de Ron Jeffries : carte,
+  conversation, confirmation).
+- **Situation** : côté abonné.
+  - Fautif : « En tant qu'abonné, je veux recevoir un SMS à 8 h avec le nombre de vélos de ma
+    station… »
+  - Négociable : « En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma
+    station, afin de ne pas me déplacer pour rien. » (SMS, notification, widget : l'équipe
+    propose.)
+- **Question** : le métier ajoute qu'un tiers des abonnés n'a pas l'appli, seulement un
+  téléphone basique. Qu'est-ce qui devient non négociable, et où l'écris-tu ?
+- **Réponse attendue** : le SMS reste une solution, donc négociable ; ce qui ne se négocie pas,
+  c'est la contrainte « sans l'appli, depuis un téléphone basique ». Elle va dans un critère
+  d'acceptation formulé sans nommer de canal (« Given Julie n'a qu'un téléphone basique… »).
+  Négociable ne veut pas dire « tout est ouvert ».
+- **Suite possible** : faire écrire ce critère en Given/When/Then (voir concept 7).

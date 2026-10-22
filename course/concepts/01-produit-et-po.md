@@ -1,11 +1,12 @@
 ---
 concept: 1
 titre: Le produit et le rôle du PO
-statut: validé
-date: 2026-10-20
 ---
 
 # Le produit et le rôle du PO
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Un produit se définit par **le problème** qu'il résout, **les utilisateurs** qui ont ce problème

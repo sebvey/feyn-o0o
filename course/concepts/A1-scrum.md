@@ -1,11 +1,12 @@
 ---
 concept: A1
 titre: Scrum en bref et l'incrément
-statut: validé
-date: 2026-10-20
 ---
 
 # Scrum en bref et l'incrément
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Scrum est un cadre de travail agile décrit dans le **Scrum Guide** (Schwaber et Sutherland,

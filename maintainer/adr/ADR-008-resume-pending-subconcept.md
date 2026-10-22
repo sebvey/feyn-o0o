@@ -13,8 +13,9 @@ plus deux demandes (la réponse, et « revenir sur un point ? »).
 ## Décision
 `CLAUDE.md`, démarrage, étape 3 : quand une question est en attente, le rappel la nomme sans la
 reposer, et le message suivant reprend le sous-concept en cours depuis le début (explication,
-exemple, question), à partir de l'énoncé de sa trace. ADR-005 reste valable : le premier message
-reste un rappel.
+exemple, question), à partir de l'énoncé de sa trace (depuis ADR-010 : l'énoncé que
+« Prochaine étape » désigne, dans `course/concepts/`). ADR-005 reste valable : le premier
+message reste un rappel.
 
 ## Options écartées
 - Un rappel plus complet, qui résume l'explication et l'exemple : assez long pour porter

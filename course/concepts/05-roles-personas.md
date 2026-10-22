@@ -1,11 +1,12 @@
 ---
 concept: 5
 titre: Rôles et personas
-statut: validé
-date: 2026-10-21
 ---
 
 # Rôles et personas
+
+> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
+> selon `course/templates/concept.md` (T-018).
 
 ## L'essentiel
 Un **rôle** est une catégorie d'utilisateurs aux besoins communs (contrôleur de gestion,

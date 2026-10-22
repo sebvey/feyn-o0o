@@ -5,9 +5,6 @@ décision) plutôt que de domaine. Le professeur fixe les faits métier :
 l'apprenant ne tranche jamais un besoin métier. Chaque nouveau fait fixé s'ajoute ici, pour
 rester cohérent d'une session à l'autre.
 
-Distinct du projet factice du TP (supérettes) : jamais de mélange. Plus léger que lui : pas de
-coulisses ni de désaccords cachés.
-
 ## L'entreprise
 
 - Un opérateur exploite le service de vélos en libre-service d'une métropole : environ 300

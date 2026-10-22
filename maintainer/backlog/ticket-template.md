@@ -1,7 +1,7 @@
 # Modèle de ticket
 
 Un ticket par fichier, nommé `T-000-<slug>.md`. Il est créé dans `maintainer/backlog/00-proposed/`
-s'il vient d'un apprenant, dans `01-todo/` s'il est décidé par le mainteneur. Numérote à la suite
+s'il est à trier, dans `01-todo/` s'il est décidé par le mainteneur. Numérote à la suite
 du dernier ticket, tous dossiers confondus ; un numéro ne se réutilise jamais. Une fois appliqué,
 le fichier passe dans `02-done/`.
 

@@ -153,3 +153,13 @@
   « Prochaine étape » ; au point de sauvegarde, écrit statut, journal, observations (dans la
   bonne section) et une entrée d'amélioration si un fait s'y prête. Aucune mention du TP ni de
   PDSF hors `archive/`.
+- **Fait le** : 2026-10-22, structure appliquée : `course/plan.md`, `course/concepts/` (fiches
+  migrées, banques d'exemples tirées des traces), `course/templates/concept.md`,
+  `maintainer/improvements/`, `learner/observations.md` (25 observations reclassées), TP et PDSF
+  dans `archive/tp/`, `CLAUDE.md` et les deux skills réécrits, ADR-010. Test par sous-agent :
+  reprise correcte (fichiers lus, 10b repris depuis l'énoncé, 15 lignes, écritures au bon
+  moment). Défauts relevés et corrigés : aparté prévu contraire à la reprise de 10b, lecture de
+  `maintainer/improvements/` non autorisée, DoR absente de « L'essentiel » du concept 10, renvois
+  « fiche NN », format des acquis. Restent hors ticket : contenu propre à sve dans
+  `course/concepts/` (T-018) ; moment exact du lancement d'`update-memory` (T-006) ; TP et
+  PDSF cités dans l'historique du journal de `learner/parcours.md` (laissé tel quel).
