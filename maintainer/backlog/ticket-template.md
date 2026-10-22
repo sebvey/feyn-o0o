@@ -2,13 +2,13 @@
 
 Un ticket par fichier, nommé `T-000-<slug>.md`. Il est créé dans `maintainer/backlog/00-proposed/`
 s'il est à trier, dans `01-todo/` s'il est décidé par le mainteneur. Numérote à la suite
-du dernier ticket, tous dossiers confondus ; un numéro ne se réutilise jamais. Une fois appliqué,
-le fichier passe dans `02-done/`.
+du dernier ticket, tous dossiers confondus ; un numéro ne se réutilise jamais. Quand son
+traitement démarre, il passe dans `02-wip/` ; une fois appliqué, dans `03-done/`.
 
 Un ticket trop gros se découpe en sous-tickets, suffixés d'une lettre dans l'ordre de création :
 `T-018a-<slug>.md`, `T-018b-<slug>.md`. Chaque sous-ticket porte `Parent` et, s'il en a une,
 `Dépend de` avec sa seule dépendance directe. Le parent liste ses sous-tickets et leur état ; il
-passe dans `02-done/` quand le dernier est clos.
+passe dans `02-wip/` au premier sous-ticket démarré, dans `03-done/` quand le dernier est clos.
 
 ```markdown
 # T-000 : <titre court, verbe à l'infinitif>
@@ -21,7 +21,7 @@ passe dans `02-done/` quand le dernier est clos.
 - **Fini quand** : <condition vérifiable>
 ```
 
-En passant dans `02-done/`, ajoute en dernière ligne :
+En passant dans `03-done/`, ajoute en dernière ligne :
 
 ```markdown
 - **Fait le** : AAAA-MM-JJ, <ce qui a été fait en une ligne>

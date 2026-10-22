@@ -1,7 +1,7 @@
 # ADR-001 : Les améliorations du cadre sont des tickets, un fichier chacun, en trois dossiers d'état
 
 - **Date** : 2026-10-21
-- **Statut** : accepté
+- **Statut** : complété par ADR-019
 - **Ticket** : aucun (créé avant le backlog)
 
 ## Contexte

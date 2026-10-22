@@ -72,8 +72,8 @@
 
   ### 3. Méthode d'un lot
 
-  Chaque sous-ticket de lot se termine par la validation du mainteneur, qui relit le diff du
-  lot sur une branche avant tout merge.
+  Chaque sous-ticket de lot se termine par la validation du mainteneur, qui relit la PR du lot
+  avant son merge.
 
   **Étape 1 : sources** (un agent de recherche par concept, en parallèle)
   - Pour chaque concept : ce qui relève du consensus, avec source primaire (texte du Scrum

@@ -82,7 +82,7 @@ Abrégé : exemples propres au cours de PO retirés, liste de références rempl
 Tu travailles dans le dépôt `/Users/sve/code/workspaces/perso/pdx/parcours-po` : un cours de gestion de produit (Product Owner) donné par un agent prof, concept par concept, à un apprenant. Tu rédiges le brouillon du cadrage du curriculum (ticket T-018a), que le mainteneur discutera ensuite. Tu proposes ; tu ne décides pas à sa place.
 
 ## À lire d'abord, sur disque (pas de résumé de seconde main)
-- `maintainer/backlog/01-todo/T-018a-curriculum-framing.md` : ton ticket (son « À faire » est ta commande).
+- `maintainer/backlog/03-done/T-018a-curriculum-framing.md` : ton ticket (son « À faire » est ta commande).
 - `maintainer/backlog/01-todo/T-018-course-content-rewrite.md` : le chantier parent (objectif, méthode des lots, §6 apprenant en cours).
 - `CLAUDE.md` : comment le prof enseigne (15 lignes par message, un sous-concept par message avec une question qui teste, consensus vs choix d'école, fil rouge). Section « Style » : règles d'écriture que tu suis.
 - `course/plan.md`, `course/fil-rouge-velos.md`, `course/templates/concept.md`, tous les fichiers de `course/concepts/`.
