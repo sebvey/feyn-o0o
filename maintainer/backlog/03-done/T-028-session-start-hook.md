@@ -29,3 +29,11 @@
 - **Fini quand** : une session neuve, `learner/` absent puis présent, affiche le bon état sans
   appel d'outil en échec ; le premier message sans saisie fonctionne, ou sa limite est
   documentée dans le ticket clos.
+- **Fait le** : 2026-10-22, hook `SessionStart` (`.claude/hooks/learner-status.sh`,
+  `.claude/settings.json`) qui donne l'état de `learner/` ; `CLAUDE.md` part de ce contexte
+  (repli : Read, jamais de shell) ; skill `maintenance` §5 : sortie du script dans le brief des
+  sous-agents. Premier message sans saisie abandonné : `initialUserMessage` testé en CLI
+  interactive (v2.1.302), aucun tour déclenché, conforme à la doc (mode `-p` seulement). Tests :
+  script dans les trois états (absent, sans surnom, « Max ») ; vraie session CLI neuve sur une
+  copie du dépôt, « Bonjour » : contexte du hook reçu, skill `learner-onboarding` suivi
+  directement, accueil correct, aucun appel d'outil en échec. ADR-022.

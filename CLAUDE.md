@@ -15,9 +15,11 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 
 ## Au démarrage d'une session
 
-Si `learner/apprenant.md` est absent ou n'a pas de surnom, c'est un nouvel apprenant : lis et
-suis `.claude/skills/learner-onboarding/SKILL.md`, puis la boucle du cours. Sinon, crée depuis
-`course/templates/learner/` tout autre fichier absent de `learner/`, puis :
+Le contexte de démarrage donne l'« État de learner/ » ; sans lui, lis `learner/apprenant.md`
+avec Read, jamais par une commande shell. Nouvel apprenant (`learner/apprenant.md` absent ou
+sans surnom) : lis et suis `.claude/skills/learner-onboarding/SKILL.md`, puis la boucle du
+cours. Sinon, crée depuis `course/templates/learner/` tout autre fichier absent de `learner/`,
+puis :
 
 1. Lis, dans cet ordre :
    1. `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
