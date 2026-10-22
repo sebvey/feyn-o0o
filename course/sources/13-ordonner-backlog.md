@@ -1,0 +1,123 @@
+---
+concept: 13
+---
+
+# Sources : Ordonner le backlog
+
+Concept nouveau (T-018f) : pas de fichier actuel, donc pas d'affirmation ancienne à revérifier.
+Ce fichier couvre ce que le fichier du concept devra affirmer, d'après sa ligne de
+`course/plan.md`, les consignes de T-018f et les promesses des concepts déjà écrits
+(`course/sources/01-produit-et-po.md` et `03-backlog-produit.md` renvoient ici la source des
+critères pour ordonner). Les faits du fil rouge (Sophie, Bruno, Claire, Inès, la DSI, le bilan
+au conseil, fait F-a) sont inventés et n'ont pas de source.
+
+## Affirmations
+
+### Transverse : qui ordonne, qui estime
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Le PO répond de l'ordre du backlog (L'essentiel, Consensus, 13a) | [S1] | « Ordering Product Backlog items » figure parmi les quatre points de « effective Product Backlog management » dont le PO répond. Déjà enseigné en 1b et 3a (`01-produit-et-po.md`, `03-backlog-produit.md`) : renvoi, pas de réenseignement |
+| Le Scrum Guide 2020 confie l'ordre au PO sans dire comment ordonner (Consensus et choix d'école, 13a) | [S1] | Texte téléchargé et cherché (« order », « ordering », « ordered », « risk », « dependenc », « size ») : aucune phrase ne donne de critère pour ordonner. Seules mentions : le PO « orders the work », l'ordre est un attribut que le travail de préparation ajoute (« a description, order, and size »), et au Sprint Planning le PO prépare « the most important Product Backlog items and how they map to the Product Goal » |
+| Les versions antérieures du Scrum Guide nommaient des critères, retirés depuis (Consensus et choix d'école, 13a ; nuance possible) | [S2], [S3], [S4] | Guide d'octobre 2011, p. 13 : « The Product Backlog is often ordered by value, risk, priority, and necessity. » (« often » : une pratique courante, pas une règle). Guide de 2010 (copie tierce) : « Priority is driven by risk, value, and necessity. » Guides de 2013, 2016 et 2017 : la phrase a disparu ; il reste les attributs « description, order, estimate and value ». Guide 2020 : aucun critère. Le passage de « prioritized » à « ordered » date de 2011 [S5] (déjà sourcé en 3a) |
+| L'ordre se justifie par l'objectif produit (13a) | [S1] | « The Product Goal is in the Product Backlog » ; « the most important Product Backlog items and how they map to the Product Goal ». Déjà sourcé en 3a (déduction du cours) : renvoi |
+| Qui veut changer l'ordre convainc le PO ; l'organisation respecte ses décisions, visibles dans l'ordre du backlog ; pas de vote (13a, mauvaises réponses « celui qui crie le plus fort », « l'ordre d'arrivée ») | [S1] | « Those wanting to change the Product Backlog can do so by trying to convince the Product Owner » ; « the entire organization must respect their decisions. These decisions are visible in the content and ordering of the Product Backlog ». Que l'ordre d'arrivée ou la voix la plus forte ne soient pas des critères : lecture du cours à partir de ces phrases et des critères ci-dessous. Déjà enseigné en 1b : renvoi |
+| Le PO peut porter les besoins de plusieurs parties prenantes dans le backlog (13a, demandes de Sophie, Bruno, Claire, Inès) | [S1] | « The Product Owner may represent the needs of many stakeholders in the Product Backlog. » |
+| Le coût vient des Developers : ce sont eux qui estiment (L'essentiel, 13a, 13 transverse) | [S1], [S2], [S4] | SG 2020 : « The Developers who will be doing the work are responsible for the sizing. » SG 2011 à 2017 : « The Development Team is responsible for all estimates. » Les deux : le PO peut influencer les Developers « by helping them understand and select trade-offs ». Le PO se sert des estimations pour ordonner : Rubin, « The product owner uses these estimates to help determine a product backlog item's priority » [S8] |
+| La prévision « pour quand ? » n'est pas l'objet du concept (renvoi au concept 16c) | [S1] | SG 2020 : « Various practices exist to forecast progress, like burn-downs, burn-ups, or cumulative flows. » Le concept 16 portera cette source |
+
+### 13a : ordonner, c'est décider (valeur, coût, risque, dépendances)
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Critères pour ordonner : valeur, coût, risque, dépendances ; une pratique établie, pas le texte du Scrum Guide (L'essentiel, Consensus et choix d'école, 13a) | [S6] ; [S2] | Mountain Goat Software (Cohn), cinq facteurs : « Value », « Cost », « Learning », « Risk », « Dependencies ». Le cours en retient quatre ; l'apprentissage (ce que l'équipe apprend en faisant l'élément) relève du concept 17 (hypothèses et exploration) : à nommer comme cinquième facteur chez Cohn si l'apprenant le demande, sans l'enseigner ici. Le Scrum Guide de 2011 nommait déjà valeur et risque [S2]. Appui indépendant de Cohn : Roman Pichler [S19] pèse « value », « risk and uncertainty », « releasability » et « dependencies » (pas le coût en tant que tel ; les dépendances « influence the effort estimates ») ; Rubin relie l'estimation de taille à la place de l'élément [S8], mais son chapitre 6 ne donne pas de liste de critères. Pratique établie (Cohn, Pichler, reprises en [S7]), étiquetée comme telle : aucun texte de consensus ne l'impose |
+| Valeur : ce que l'élément apporte, rapporté à l'objectif produit (13a) | [S6], [S1] | Cohn : « Value is a measure of the usefulness or impact on a particular audience. » Rapporter la valeur à l'objectif produit : lecture du cours (SG : « how they map to the Product Goal ») ; glossaire, ligne « Valeur » |
+| Coût : surtout l'effort de l'équipe (13a) | [S6] | « The largest cost is usually the product team's effort to develop a feature. » La page ne dit pas qui estime ; c'est le Scrum Guide qui le dit (voir plus haut) |
+| Risque : un élément risqué qu'il faut faire se fait tôt (13a) | [S6] | « If something is risky and you need to do it, do it early. » Chez Cohn, le risque porte sur la réussite du produit (technique, calendrier) ; Pichler : « uncertain and risky items should be high priority » [S19]. Un risque de sécurité pour les abonnés (vélo signalé louable) est un autre sens du mot : le fichier du concept distingue les deux (risque pour le produit, risque pour les utilisateurs), voir la ligne suivante |
+| Un risque de sécurité peut passer devant l'objectif produit, sans que le PO juge seul de sa gravité : Sophie, puis Agnès, la qualifient (13a, réponse attendue de l'exercice des quatre demandes) | [S9] en partie ; aucune pour le reste | DSDM range en Must Have ce sans quoi la livraison serait « Unsafe without it » ou « Not legal without it » [S9] : appui indirect, dans un autre cadre (MoSCoW pour une échéance). Que la gravité soit un fait métier que le PO fait qualifier par Sophie (responsable maintenance) et Agnès (sponsor, qui encadre la maintenance) : parti pris du cours (l'apprenant ne tranche jamais un fait métier ; fil rouge, acteurs) ; voir « Non vérifié » |
+| Dépendances : l'élément dont un autre dépend remonte (13a ; renvoi 10b) | [S6] | « Some items may not be high priority on their own, but they're necessary for delivering other items. » Déjà sourcé en 10b1 (`10-hors-perimetre-dependances.md`, [S5]) : renvoi |
+| Un élément qui n'est pas prêt (accès aux données non obtenu, règle non fixée) ne peut pas être choisi pour le prochain sprint ; cela pèse sur l'ordre (13a, demande de Bruno, demande de Claire, blocage de Sophie) | [S1] ; renvoi 11b | SG 2020 : « Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for selection in a Sprint Planning event. » La DoR de l'équipe vélos (accès obtenu, règles fixées, dépendances identifiées) est un fait du fil rouge ; la DoR elle-même est un choix d'école, sourcé en 11b (`11-dor-dod.md`). Que « prêt » pèse sur l'ordre (ce qui n'est pas prêt ne peut pas être fait ensuite, et l'ordre fait alors remonter ce qui le rend prêt : obtenir l'accès, faire fixer la règle) : lecture du cours |
+| Une demande sortie du hors périmètre ne se traite pas aussitôt : elle entre au backlog et s'ordonne face au reste (13a, exemple éprouvé ; erreur « c'est le bon moment ») | [S1] ; [S10] | SG : backlog « single source of work » ; décisions du PO visibles dans l'ordre. Exemple éprouvé : `maintainer/improvements/13-ordonner-backlog.md` (2026-10-21) ; erreur observée : `learner-observations.md`, `[c13]`. Déjà posé en 3 et 10a2 : renvoi |
+| Ordonner, c'est choisir : mettre tout en tête n'ordonne rien (13a, mauvaise réponse « tout placer en tête ») | [S1], [S5] ; renvoi 3a | Liste ordonnée, pas de priorités ex aequo : déjà sourcé en 3a (`03-backlog-produit.md`). Lecture du cours |
+
+### 13b : valeur et coût du retard (choix d'école)
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Le coût du retard : ce qu'on perd à livrer plus tard ; Reinertsen en fait la mesure économique à quantifier ; choix d'école (L'essentiel, Consensus et choix d'école, 13b ; glossaire) | [S11], [S12], [S13] | Reinertsen, *The Principles of Product Development Flow: Second Generation Lean Product Development*, Celeritas Publishing, 2009 : chapitre 1 (extrait diffusé par l'éditeur) : « the only way to comprehend the economic importance of queues is to quantify the cost of delay » ; « Without a cost of delay, queues appear to be free ». Arnold et Yüce : « The Cost of Delay of a feature is the value that could be generated over a given period of time, if it was available immediately » (cité par [S13], secondaire). Le terme vient du développement de produit (Reinertsen, déjà avec Smith en 1998 d'après [S13]) ; aucun texte de consensus Scrum ne l'emploie |
+| Citation attribuée à Reinertsen : « If you only quantify one thing, quantify the Cost of Delay » (13b, si le fichier la cite) | [S14] | Citée en tête de la page WSJF de SAFe, attribuée à *The Principles of Product Development Flow* ; une recension en donne une variante (« If you only measure one thing, measure the cost of delay ») [S15]. Le passage du livre n'a pas été lu : voir « Non vérifié ». Mieux vaut ne pas la citer mot pour mot |
+| Raisonner en forme de coût sans chiffrer, comme Arnold le propose pour commencer : valeur et urgence en bandes qualitatives ; Arnold chiffre ensuite (CD3) (Consensus et choix d'école, 13b, consigne « ne pas chiffrer ce que le fil rouge ne chiffre pas ») | [S12] | Arnold (Black Swan Farming), « Qualitative Cost of Delay » : bandes de valeur (« Killer », « Bonus », « Meh ») et d'urgence (« ASAP », « Soon », « Whenever ») ; l'auteur prévient qu'une approche qualitative « would lack many of the benefits of a quantitative approach » : c'est un point de départ. Choix d'école d'Arnold, qui ne s'y arrête pas : voir la ligne WSJF (CD3). Le fichier du concept dit « propose de commencer sans chiffres », pas « raisonne sans chiffres » |
+| Formes de l'urgence : un coût qui grandit chaque jour ; une valeur qui tombe après une échéance (13b, exemples : le blocage, coûteux chaque jour qu'un vélo signalé reste louable ; la comparaison à l'an dernier, qui perd sa valeur après le bilan au conseil) | [S12] | Black Swan Farming, « Urgency Profiles » : quatre profils, dont « Impact of external deadline » (« Where requirements have a specific deadline the Urgency Profile is slightly different »). La page « Qualitative Cost of Delay » note que la plupart des éléments liés à une date ont d'abord un coût du retard nul, qui monte à l'approche de l'échéance (le fichier du concept parle du coût du retard, pas de la valeur, pour ce profil). L'application aux deux exemples est du cours ; les faits (vélo signalé louable, bilan annuel au conseil, date non fixée) sont du fil rouge |
+| Joshua Arnold a appliqué le coût du retard au portefeuille de Maersk Line (13b, si le fichier le nomme) | [S13], [S12] | Rapport d'expérience Arnold et Yüce, « Black Swan Farming using Cost of Delay: Discover, Nurture and Speed Up Delivery of Value », conférence Agile 2013 (programme de la conférence) ; cas Maersk Line sur la page « Cost of Delay » de Black Swan Farming. Les pages du site ne portent pas de nom d'auteur ; l'attribution du site à Arnold vient du programme d'Agile 2013 (« Engineer, blackswanfarming.com ») et de reprises secondaires |
+| WSJF : coût du retard divisé par la durée (ou la taille) ; repris par SAFe ; cité sans être enseigné (13b) | [S14] ; [S12] | SAFe : WSJF « estimated as the relative cost of delay divided by the relative job duration » ; composantes du coût du retard chez SAFe : valeur pour l'utilisateur et l'entreprise, criticité dans le temps, réduction du risque et ouverture d'opportunités. Arnold appelle la même idée CD3 (« Cost of Delay Divided by Duration »). Source primaire de SAFe, éditeur qui vend certifications et formations : marketing |
+
+### 13c : MoSCoW pour une échéance (choix d'école)
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| MoSCoW : Must Have, Should Have, Could Have, Won't Have ; choix d'école de DSDM (L'essentiel, Consensus et choix d'école, 13c ; glossaire) | [S9] | Quatre catégories. Must Have : « Minimum Usable SubseT » que le projet garantit ; Should Have : « Important but not vital » ; Could Have : « Wanted or desirable but less important », première réserve qu'on lâche si l'échéance est menacée ; Won't Have : « at least not this time around ». Page de l'Agile Business Consortium (qui tient DSDM), datée du 28 mai 2026 ; déjà vérifiée au cadrage T-018a, §8 |
+| Won't Have veut dire « pas cette fois », pas « jamais » (13c) | [S9] | « Won't Have (this time) » ; « at least not this time around » ; les Won't Have sont notés pour clarifier le périmètre ; à la fin de chaque incrément, ce qui n'a pas été livré est reclassé pour le suivant |
+| MoSCoW se rapporte à une échéance (un délai fixé), pas à tout le backlog (13c ; piège « MoSCoW remplace l'ordre ») | [S9] ; [S1] | DSDM l'emploie quand le temps est fixé (section « MoSCoW Relating to a Specific Timeframe » ; niveaux : projet, incrément, timebox). Que MoSCoW ne remplace pas l'ordre (quatre catégories laissent des ex aequo ; le backlog reste une liste ordonnée) : lecture du cours à partir du SG (« ordered list ») et de 3a. Glossaire du cours : « priorité » seulement pour MoSCoW |
+| Pas plus de 60 % de l'effort en Must Have (13c ; piège « tout en Must ») | [S9] | « typically no more than 60% Must Have effort » ; au-delà, risque, sauf conditions (estimations fiables, approche bien connue). Choix d'école de DSDM, à citer comme tel |
+| Tout classer en Must vide la méthode (13c, piège « tout en Must ») | [S9] | « Believing everything is a Must Have is often symptomatic of insufficient decomposition of requirements » ; si tout était Must, la souplesse de MoSCoW « would no longer work » |
+| Le représentant de l'activité concernée (Business Visionary chez DSDM) dit ce qui est Must : ce que Claire classe en Must pour le bilan au conseil relève d'elle ; le PO l'aide à classer, il ne décide pas à sa place de ce que le conseil attend (13c) | [S9] en partie | Chez DSDM, le Business Visionary (ou le Business Ambassador qu'il mandate) explique pourquoi un besoin est un Must Have ; l'équipe répartit les priorités du timebox. Transposé à Claire (financeur, qui présente le bilan) : lecture du cours, cohérente avec la règle du fil rouge (l'apprenant ne tranche pas un fait métier) |
+| Origine : Dai Clegg, chez Oracle, 1994, pour le développement rapide d'applications ; adopté ensuite par DSDM (13c, si le fichier nomme l'auteur) | [S17], [S18] | Le livre existe : Clegg (avec Richard Barker), *CASE Method Fast-Track: A RAD Approach*, Addison-Wesley et Oracle (coéditeurs), 1994, ISBN 0-201-62432-X (Open Library). Que MoSCoW vienne de ce livre et de Clegg : sources secondaires concordantes (Wikipédia, d'autres reprises) ; livre non lu. « Chez Oracle » : appuyé par la coédition Oracle du livre. Usage étendu dans DSDM « from 2002 » d'après Wikipédia. Formuler : « attribué à Dai Clegg (1994), repris par DSDM » |
+
+## Références
+
+| Réf. | Source (auteur, titre, date) | Lien | Type | Consultée le |
+|---|---|---|---|---|
+| S1 | Schwaber, Sutherland, *The Scrum Guide*, novembre 2020 | https://scrumguides.org/scrum-guide.html | primaire | 2026-10-22 (texte téléchargé et cherché) |
+| S2 | Schwaber, Sutherland, *The Scrum Guide*, octobre 2011 (copie archivée du PDF de scrum.org, 5 décembre 2011), p. 13 | http://web.archive.org/web/20111205164905/http://www.scrum.org/storage/scrumguides/Scrum_Guide.pdf | primaire (version remplacée) | 2026-10-22 (texte extrait et cherché) |
+| S3 | Schwaber, Sutherland, *Scrum Guide*, 2010 (copie hébergée par ProAgile) | https://s3.eu-central-1.amazonaws.com/kursmaterial.proagile.se/scrum-guides/Scrum+Guide+2010.pdf | primaire (version remplacée, copie tierce ; extrait de recherche seulement) | 2026-10-22 |
+| S4 | Schwaber, Sutherland, *The Scrum Guide*, juillet 2013, 2016 et novembre 2017 | https://scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf ; https://scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf ; https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf | primaire (versions remplacées) | 2026-10-22 (textes extraits et cherchés) |
+| S5 | Scrum Guides, « Scrum Guide Revision History » (changements 2010-2011) | https://scrumguides.org/revisions.html | primaire | 2026-10-22 (déjà cité dans `03-backlog-produit.md`) |
+| S6 | Mountain Goat Software (Cohn), « 5 Key Factors for Effective Product Backlog Prioritization », mise à jour du 15 octobre 2024 (sans signature ; site et voix de Cohn) | https://www.mountaingoatsoftware.com/agile/5-key-factors-for-effective-product-backlog-prioritization | primaire (site de l'auteur, qui vend ses formations) | 2026-10-22 (déjà cité dans `10-hors-perimetre-dependances.md`, relu) |
+| S7 | Reprises de ces critères : Mountain Goat Software, « Product Backlog Guide » (valeur, urgence, risque, apprentissage, dépendances, coût du retard) ; forum Scrum.org (« priority, cost of delay, risk, value, dependencies ») | https://www.mountaingoatsoftware.com/agile/product-backlog ; https://www.scrum.org/forum/scrum-forum/50309/new-product-how-prioritise-when-po-prioritises-all-features-high-priority | secondaire (extraits de recherche ; forum : avis de praticiens) | 2026-10-22 |
+| S8 | Rubin, *Essential Scrum*, Addison-Wesley, 2012, chapitre 6 « Product Backlog » (extraits publiés par l'auteur) | https://innolution.com/essential-scrum/table-of-contents/chapter-6-product-backlog | primaire (extraits de l'auteur) | 2026-10-22 (déjà cité dans `03-backlog-produit.md`) |
+| S9 | Agile Business Consortium, « MoSCoW Prioritisation » (DSDM Agile Project Framework), page datée du 28 mai 2026 | https://www.agilebusiness.org/resource/what-is-moscow-prioritization | primaire (organisme qui tient DSDM et vend ses certifications) | 2026-10-22 (déjà vérifiée au cadrage T-018a, §8 ; relue) |
+| S10 | Observations de session : `maintainer/improvements/13-ordonner-backlog.md` ; `maintainer/work/T-018/learner-observations.md` (`[c13]`, `[général]`) | (dépôt) | interne (un seul apprenant : base faible) | 2026-10-22 |
+| S11 | Reinertsen, *The Principles of Product Development Flow: Second Generation Lean Product Development*, Celeritas Publishing, 2009 (table des matières et chapitre 1 diffusés par l'éditeur ; fiche Amazon pour l'éditeur, la date et l'ISBN 978-1935401001) | http://lpd2.com/wp-content/uploads/2013/06/ReinertsenFLOWChap1.pdf ; https://www.amazon.com/dp/1935401009 | primaire (extrait de l'auteur) ; livre non lu au-delà du chapitre 1 | 2026-10-22 |
+| S12 | Black Swan Farming (site de Joshua Arnold, pages sans signature) : « Cost of Delay », « Qualitative Cost of Delay » (graphiques de février 2016), « Urgency Profiles », « Cost of Delay Divided by Duration » | https://blackswanfarming.com/cost-of-delay/ ; https://blackswanfarming.com/qualitative-cost-delay ; https://blackswanfarming.com/urgency-profiles/ ; https://blackswanfarming.com/cost-of-delay-divided-by-duration | primaire (site de l'auteur, qui vend du conseil) | 2026-10-22 |
+| S13 | Arnold, Yüce, « Black Swan Farming using Cost of Delay: Discover, Nurture and Speed Up Delivery of Value », rapport d'expérience, Agile 2013 (programme) ; reprises : votito.com, « Cost of Delay » ; xprocess (Carmichael), « Understanding Cost of Delay and its Use in Kanban », avril 2016 | https://agile2013.sched.com/event/14o4ZPP ; https://www.votito.com/methods/cost-of-delay ; https://xprocess.blogspot.com/2016/04/understanding-cost-of-delay-and-its-use.html | secondaire (programme de conférence et reprises ; rapport non lu) | 2026-10-22 |
+| S14 | Scaled Agile, Inc., « WSJF », SAFe (sans date affichée, © 2026) | https://framework.scaledagile.com/wsjf | primaire, marketing (l'éditeur vend certifications et formations) | 2026-10-22 |
+| S15 | Bellinson, recension de *The Principles of Product Development Flow*, BPTrends, 2014 | https://bptrends.info/wp-content/uploads/05-06-2014-BR-The-Principles-of-Product-Development-Flow-Bellinson.pdf | secondaire (extrait de recherche) | 2026-10-22 |
+| S17 | Clegg, Barker, *CASE Method Fast-Track: A RAD Approach*, Addison-Wesley et Oracle, 1994, notice Open Library (ISBN 0-201-62432-X) | https://openlibrary.org/isbn/9780201624328 | primaire (notice bibliographique ; livre non lu) | 2026-10-22 |
+| S18 | Wikipédia, « MoSCoW method » ; whichframework.org, « MoSCoW Prioritization Framework » | https://en.wikipedia.org/wiki/MoSCoW_method ; https://whichframework.org/frameworks/moscow.html | secondaire | 2026-10-22 (extraits de recherche) |
+| S19 | Pichler, « Prioritising the Product Backlog », romanpichler.com, 18 juin 2010 | https://www.romanpichler.com/blog/prioritising-the-product-backlog/ | primaire (blog de l'auteur, qui vend formations et conseil) | 2026-10-22 |
+
+## Non vérifié
+
+- **La citation « If you only quantify one thing, quantify the Cost of Delay »** : vue seulement
+  en exergue de la page SAFe [S14], attribuée au livre de Reinertsen, et sous une variante dans
+  une recension [S15]. Le passage du livre (hors chapitre 1) n'a pas été lu. Ne pas la citer mot
+  pour mot, ni dire « en premier » (nuance qui ne repose que sur elle) ; dire seulement que
+  Reinertsen fait du coût du retard la mesure économique à quantifier ([S11], chapitre 1), en le
+  donnant comme son choix d'école.
+- **Que MoSCoW vienne du livre de Clegg et Barker (1994)** : le livre existe et a été coédité
+  par Oracle [S17] ; son contenu n'a pas été lu. L'attribution à Clegg repose sur des sources
+  secondaires concordantes [S18] ; l'Agile Business Consortium [S9] ne nomme pas d'auteur ni de
+  date d'origine. Dire « attribué à Dai Clegg ».
+- **La date d'adoption par DSDM** (« from 2002 », Wikipédia) : non confirmée par une source
+  primaire. D'autres reprises disent que MoSCoW a été donné au consortium DSDM sans date. Ne pas
+  dater l'adoption.
+- **Que Black Swan Farming soit le site de Joshua Arnold** : ses pages ne portent pas de nom
+  d'auteur ; l'attribution vient du programme d'Agile 2013 et de reprises [S13]. Le rapport
+  d'expérience Maersk Line n'a pas été lu. Si le concept nomme Arnold, le nommer comme auteur
+  des urgences et du coût du retard qualitatif, sans chiffre du cas Maersk.
+- **Le Scrum Guide de 2010** : seul un extrait de recherche d'une copie tierce a été lu [S3]
+  (« Priority is driven by risk, value, and necessity ») ; la version d'octobre 2011 [S2], lue,
+  suffit pour dire que le Guide a nommé ces critères avant de les retirer en 2013.
+- **Qu'un risque de sécurité puisse passer devant l'objectif produit, et que la gravité se fasse
+  qualifier par Sophie et Agnès** : aucune source ne le dit pour un backlog Scrum. Appui indirect :
+  DSDM range en Must Have ce qui rendrait la livraison « Unsafe » ou « Not legal » [S9]. Le
+  reste est un parti pris du cours (l'apprenant ne tranche pas un fait métier ; acteurs du fil
+  rouge). À présenter comme raisonnement du PO, pas comme règle d'un texte.
+- **Que « ce qui est prêt » pèse sur l'ordre** : lecture du cours à partir du « ready for
+  selection » du SG [S1] et de la DoR (choix d'école, `11-dor-dod.md`) ; aucune source consultée
+  ne le pose comme critère pour ordonner.
+- **Les quatre critères comme liste** : la page de Cohn en donne cinq (avec l'apprentissage) ; le
+  Scrum Guide de 2011 en donnait quatre autres (valeur, risque, priorité, nécessité). La liste
+  « valeur, coût, risque, dépendances » est le choix du cours, appuyé sur Cohn [S6] et, pour
+  valeur, risque et dépendances, sur Pichler [S19] ; la dire comme une pratique établie, pas
+  comme une liste canonique.
