@@ -17,7 +17,7 @@ fichier à l'apprenant.
 | Artefact | artifact | Ce qui représente le travail ou la valeur : backlog produit, backlog de sprint, incrément | 0 |
 | Engagement | commitment | Repère attaché à chaque artefact : objectif produit, objectif de sprint, DoD | 0 |
 | Sprint | Sprint | Période fixe d'un mois au plus, qui contient les autres événements | 0 |
-| Sprint Planning | Sprint Planning | Événement où l'équipe choisit le travail du sprint et son objectif | 0, 15 |
+| Sprint Planning | Sprint Planning | Événement où l'équipe fixe l'objectif de sprint et où les Developers choisissent, avec le PO, le travail du sprint | 0, 15 |
 | Daily Scrum | Daily Scrum | Point quotidien des Developers sur l'avancement vers l'objectif de sprint | 0 |
 | Revue de sprint | Sprint Review | Événement où l'équipe et les parties prenantes inspectent l'incrément et adaptent le backlog | 0, 15 |
 | Rétrospective | Sprint Retrospective | Événement où l'équipe inspecte sa façon de travailler, DoD comprise | 0 |

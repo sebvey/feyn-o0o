@@ -69,7 +69,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
     vélos), contient les quatre événements, et le suivant commence dès la fin du précédent ;
     l'incrément s'ajoute aux précédents ; un sprint peut en produire plusieurs, livrables avant
     sa fin.
-- **Réponse partielle** : elle ne fait pas passer le concept. Dire ce qui est juste, puis
+- **Réponse partielle** : elle ne fait pas passer le concept. La question de contrôle décide si
+  on passe le concept : la relance d'une réponse partielle prévue par les règles du cours ne
+  s'applique pas ici. Dire ce qui est juste, puis
   enseigner le sous-concept qui manque, depuis son explication : 0a (0a1, 0a2, 0a3) si l'ordre
   du backlog ou les responsabilités manquent ou sont faux, 0b si sprint et incrément sont
   confondus ou flous ; les deux si les deux manquent. Réponse partielle typique : « il y a des
@@ -91,7 +93,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   au plus, qui s'organise elle-même. Trois responsabilités. Le PO répond de la valeur du produit
   et du backlog : objectif produit, éléments, ordre ; c'est une seule personne, pas un comité.
   Les Developers réalisent l'incrément : ils font le plan du sprint, l'adaptent chaque jour et
-  respectent la DoD. Le Scrum Master répond de l'efficacité de l'équipe, et aide notamment à
+  respectent la Definition of Done (DoD), les exigences de qualité de l'équipe, vue en 0a3. Le Scrum Master répond de l'efficacité de l'équipe, et aide notamment à
   lever les obstacles ; il n'est pas le chef de l'équipe.
 - **Situation** : Bruno (responsable d'exploitation) relance Thomas, le Scrum Master, sur la vue
   des vélos en panne. Thomas, qui anime les événements de l'équipe, la remonte en tête du
