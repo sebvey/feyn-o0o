@@ -1,7 +1,7 @@
 # ADR-009 : Le fil rouge a un produit, une équipe et une distribution fixes, et l'apprenant en est le PO
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-012
 - **Ticket** : T-016
 
 ## Contexte

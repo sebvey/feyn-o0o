@@ -11,8 +11,7 @@ mainteneur : c'est lui qui valide, jamais l'apprenant.
 
 ## Périmètre
 
-- **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/` (sauf les faits de
-  `course/fil-rouge-velos.md`, tenus par le prof). Tu proposes, le mainteneur valide,
+- **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/`. Tu proposes, le mainteneur valide,
   puis tu appliques, même pour une coquille.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-done/` : appliqué. Tu l'édites en

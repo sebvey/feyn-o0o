@@ -1,9 +1,9 @@
 # Fil rouge du cours : l'opérateur de vélos en libre-service
 
 Sert d'exemple au cours, concept après concept, en changeant de situation (utilisateur, besoin,
-décision) plutôt que de domaine. Le professeur fixe les faits métier :
-l'apprenant ne tranche jamais un besoin métier. Chaque nouveau fait fixé s'ajoute ici, pour
-rester cohérent d'une session à l'autre.
+décision) plutôt que de domaine. Le mainteneur tient ce fichier. Le prof ne le modifie pas : un
+fait improvisé va dans `maintainer/improvements/`. L'apprenant ne tranche jamais un fait
+métier.
 
 ## L'entreprise
 
