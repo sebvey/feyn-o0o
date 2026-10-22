@@ -1,7 +1,7 @@
 # ADR-017 : Le cours suit un ordre logique pour un nouvel apprenant, en 18 concepts
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-018
 - **Ticket** : T-018a
 
 ## Contexte

@@ -19,8 +19,6 @@ utilisable, qui respecte la Definition of Done.
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : l'incrément est cumulatif ; on peut en produire plusieurs
   par sprint et les livrer avant la fin du sprint.
-- **Pratique répandue** : beaucoup d'équipes n'appliquent pas Scrum (Kanban, flux continu) mais
-  reprennent son vocabulaire (PO, backlog, DoD).
 
 ## Sur un exemple
 <À réécrire avec un exemple générique.>

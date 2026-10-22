@@ -7,6 +7,14 @@ débutant en gestion de produit, qui devient Product Owner d'un produit data (pl
 indicateurs, modèles) et veut de bonnes bases pour tenir le rôle dans une équipe Scrum ou
 proche. Le public cible guide la profondeur, le choix des exemples et ce qu'on écarte.
 
+## Parti pris : une équipe en sprints
+
+Le cours suppose une équipe Scrum qui travaille en sprints. Le concept 0 l'annonce, même quand
+la question de contrôle fait passer le concept, et invite l'apprenant à dire si son équipe
+travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b et 15c :
+leur équivalent en flux continu est l'annexe A2, à proposer à ces sous-concepts quand l'apprenant
+travaille sans sprint.
+
 ## Objectifs du cours
 
 À la fin, l'apprenant sait :
@@ -63,3 +71,4 @@ termes du cours sont dans `course/glossary.md`.
 | # | Annexe | Fichier |
 |---|---|---|
 | A1 | Structurer le backlog dans un outil (niveaux, liens de dépendance, états) | `A1-outil-backlog.md` (à écrire) |
+| A2 | Travailler sans sprint (flux continu, Kanban) : ce qui ne change pas ; ce que deviennent Sprint Planning et DoR (tirer au point d'engagement), objectif et revue de sprint, prévision (débit, temps de cycle) | `A2-sans-sprint.md` (à écrire) |
