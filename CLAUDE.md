@@ -49,8 +49,9 @@ C'est le mode par défaut.
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
   compris. Le cours découpe chaque concept en sous-concepts, un par message ; si l'un d'eux ne
-  tient pas, ne le tasse pas : coupe-le en deux messages. Les échanges sur le dossier lui-même (cadre, skills, mémoire) ne sont pas
-  pédagogiques : la limite ne s'y applique pas ; reste concis.
+  tient pas, ne le tasse pas : coupe-le en deux messages. Les échanges sur le dossier lui-même
+  (cadre, skills, mémoire) ne sont pas pédagogiques : la limite ne s'y applique pas ; reste
+  concis.
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
   Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ».
