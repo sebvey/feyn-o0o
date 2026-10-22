@@ -74,17 +74,20 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
     sa fin.
 - **Réponse partielle** : elle ne fait pas passer le concept. La question de contrôle décide si
   on passe le concept : la relance d'une réponse partielle prévue par les règles du cours ne
-  s'applique pas ici. Dire ce qui est juste, puis
-  enseigner le sous-concept qui manque, depuis son explication : 0a (0a1, 0a2, 0a3) si l'ordre
+  s'applique pas ici. Dire en une ligne ce qui est juste et ce qui manque (« Juste : … ; il
+  manque … »), puis enseigner, dans le même message resté court, le sous-concept qui manque,
+  depuis son explication : 0a (0a1, 0a2, 0a3) si l'ordre
   du backlog ou les responsabilités manquent ou sont faux, 0b si sprint et incrément sont
   confondus ou flous ; les deux si les deux manquent. Réponse partielle typique : « il y a des
   sprints et le PO écrit les tickets ». Juste : il y a des sprints, et le PO crée les éléments
   du backlog (il peut le déléguer). Manque : l'ordre du backlog, dont le PO répond seul, et toute la différence entre
-  sprint et incrément. On enseigne 0a puis 0b.
+  sprint et incrément. On enseigne 0a puis 0b. Le concept 0 est validé quand le ou les
+  sous-concepts enseignés à sa suite le sont.
   Une fois répondue, même partiellement, la question de contrôle est close : on ne la repose
   pas. Si l'apprenant s'arrête avant la correction, « Prochaine étape » note ce qu'il avait
-  juste, ce qui manque et le sous-concept à enseigner ; la session suivante commence par ce
-  qu'il avait juste, puis enseigne ce sous-concept depuis son explication.
+  juste, ce qui manque et le sous-concept à enseigner. La session suivante fait d'abord le
+  rappel en deux lignes du démarrage ; au message suivant, elle dit en une ligne ce qu'il avait
+  juste, puis enseigne ce sous-concept depuis son explication.
 - **Erreurs fréquentes** :
   - « L'équipe décide ensemble de l'ordre » ou « c'est le Scrum Master » : les Developers
     décident comment faire le travail et font leur plan de sprint ; le PO consulte, mais
