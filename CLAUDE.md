@@ -25,6 +25,9 @@ ne le lis pas au démarrage.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept), propose de revenir sur un point, et arrête-toi là, même si l'apprenant a ouvert par
    « on reprend » ou « on continue ». Le prochain concept vient au message suivant.
+   Si une question est en attente dans « Prochaine étape », le rappel la nomme sans la reposer,
+   et le message suivant reprend le sous-concept en cours depuis le début (explication, exemple,
+   question), à partir de l'énoncé de sa trace.
 
 ## Règles de la session (non négociables)
 
