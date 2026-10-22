@@ -138,7 +138,8 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   contrainte est un téléphone basique, sans l'appli. Corrigé : « Given Julie n'a qu'un
   téléphone basique, sans l'appli, et sa station favorite compte 4 vélos disponibles, When elle
   demande la disponibilité de sa station avant de partir, Then elle obtient « 4 ». » Nuances,
-  non attendues : on peut citer la règle de fraîcheur (« à jour de moins de 15 minutes »),
+  non attendues : « vélos » devient « vélos disponibles », le terme de la règle fixée (à quai et
+  louable) ; on peut citer la règle de fraîcheur (« à jour de moins de 15 minutes »),
   traitée dans « Fraîcheur : que vérifie le Then ? » ; sans le nombre dans le Given (« elle obtient le nombre de
   vélos disponibles »), le critère est juste mais moins tranchant ; le nombre précis en fait un
   exemple.
@@ -170,7 +171,7 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 
 ### Les vélos disponibles de Bruno (8b2)
 - **Explication** : d'un exemple à l'autre, ne changer qu'un fait du Given : si le Then change,
-  on sait quelle règle joue ; si le test échoue, on sait quoi corriger. Heuristique du cours.
+  on sait quelle règle joue ; si le test échoue, on sait quoi corriger. Choix du cours.
 - **Situation** : story d'exercice : « En tant que responsable d'exploitation, je veux voir au
   point du matin le nombre de vélos disponibles de chaque station, afin de décider où envoyer
   les régulateurs. » Règles fixées : un vélo disponible est à quai et louable ; un vélo signalé
@@ -179,12 +180,12 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   - A : « Given une station compte 6 vélos à quai, tous louables, When Bruno ouvre la vue, Then
     la vue affiche 6 vélos disponibles pour cette station. »
   - B : « Given une station compte 6 vélos à quai, dont 1 retiré du service et 1 signalé en panne,
-    When Bruno ouvre la vue, Then la vue affiche 4 vélos disponibles. »
+    When Bruno ouvre la vue, Then la vue affiche 4 vélos disponibles pour cette station. »
 - **Question** : que reproches-tu à B ? Réécris-le.
-- **Réponse attendue** : B change deux faits à la fois (un vélo non louable, un vélo signalé en
-  panne) : si le test échoue, on ne sait pas lequel est en cause. Et son Then invente une
+- **Réponse attendue** : B change deux faits à la fois (un vélo retiré du service, un vélo signalé
+  en panne) : si le test échoue, on ne sait pas lequel est en cause. Et son Then invente une
   règle : un vélo signalé en panne reste louable, donc disponible ; B attend 5, pas 4. Réécrit
-  en deux exemples : B1, 6 vélos à quai dont 1 non louable -> 5 disponibles ; B2, 6 vélos à
+  en deux exemples : B1, 6 vélos à quai dont 1 retiré du service -> 5 disponibles ; B2, 6 vélos à
   quai, tous louables, dont 1 signalé en panne -> 6 disponibles. Nuance : B2 dérange, et Sophie
   réclame le blocage des vélos signalés (concept 10) ; s'il est livré, le vélo signalé ne sera
   plus louable : la règle « vélo disponible » ne change pas, l'exemple B2 change.

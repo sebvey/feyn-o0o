@@ -28,8 +28,8 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
   d'utilisateur fait manquer des stories. Cohn admet que « utilisateur » suffit quand tous ont
   besoin du même comportement pour la même raison ; il conseille un rôle plus précis quand il
   change la conversation (règles, données, moment, droits ou résultat différents).
-- **Heuristique du cours** : « l'acteur agit et y gagne ». Cohn préfère l'initiateur de l'action
-  et nomme dans la story celui qui en profite ; il écrit pourtant parfois une story pour un rôle
+- **Heuristique du cours** : « l'acteur agit et y gagne ». Quand deux formulations se valent,
+  Cohn prend pour acteur celui qui lance l'action, et sa story nomme celui qui en profite ; il écrit pourtant parfois une story pour un rôle
   qui y gagne sans agir. À présenter comme une règle pratique, pas comme une règle sans
   exception.
 - **Choix d'école** : les personas, d'Alan Cooper, venus du design d'interaction. Pas
@@ -41,8 +41,8 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
 
 ## Sous-concepts
 1. **6a l'acteur de la story** : un rôle, pas un prénom ni « utilisateur » par défaut. Test :
-   celui qui fait l'action du « je veux » est-il celui qui gagne le « afin de » ? Deux pièges
-   annoncés au concept 5 : l'acteur technique (celui qui construit) et la valeur d'un autre rôle
+   celui qui fait l'action du « je veux » est-il celui qui gagne le « afin de » ? Deux pièges :
+   l'acteur technique (celui qui construit, annoncé au concept 5) et la valeur d'un autre rôle
    dans le « afin de ». Le PO vérifie l'acteur auprès des utilisateurs.
    Un message, avec « Hugo ou Sophie ? ». Rechange : « Yanis, acteur de sa story ? » (acteur
    technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
@@ -50,7 +50,8 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
    d'utilisateurs réels ; Julie, persona des abonnés sans l'appli. Il ne remplace ni le rôle
    dans la story, ni les entretiens. Un message, avec « Julie, on lui fait dire ce qu'on veut ? »
-   (« En tant que Julie ? » en rechange).
+   (« Le trait que Nora veut ajouter » après une réponse fausse ; « En tant que Julie ? » en
+   rechange).
 
 ## Banque d'exemples
 
@@ -78,7 +79,9 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   une autre story, dont elle est l'acteur. Le rôle, pas « Hugo » : la story vaut pour tous les
   techniciens. Et le PO ne choisit pas l'acteur sur le papier : il vérifie auprès de Hugo que
   c'est bien lui qui prépare sa tournée à partir des signalements. Si l'apprenant change
-  l'acteur sans toucher au « afin de », relance : « et le « afin de », que devient-il ? ».
+  l'acteur sans toucher au « afin de », relance : « et le « afin de », que devient-il ? ». S'il
+  garde Sophie et veut changer le « afin de », relance : « qui regardera la liste pour préparer
+  sa tournée, et qui y gagne ? » ; un « afin de » propre à Sophie ferait une autre story.
 - **Erreurs fréquentes** :
   - garder Sophie « parce que c'est elle qui a demandé » : celui qui demande n'est pas toujours
     celui qui agit ; demander « qui fera l'action, et qui y gagne ? » ;
@@ -165,6 +168,23 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 - **Ce qui marche** : « d'où vient chaque trait de Julie ? » : s'il ne vient d'aucun abonné
   réel, il n'a rien à faire dans le portrait.
 
+### Le trait que Nora veut ajouter (6b)
+- **Explication** : rechange après une réponse fausse à « Julie, on lui fait dire ce qu'on
+  veut ? ». Le prénom de Julie est inventé, ses traits viennent d'abonnés réels : chaque trait
+  doit pouvoir répondre à « d'où vient-il ? ».
+- **Situation** : Nora veut ajouter au portrait de Julie : « elle se contente d'une
+  disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
+- **Question** : que demandes-tu à Nora, et que fais-tu avant d'accepter ce trait ?
+- **Réponse attendue** : demander d'où vient ce trait ; le vérifier auprès d'abonnés sans
+  l'appli ; sans appui, il n'entre pas dans le portrait. Construire pour ce trait servirait une
+  abonnée qui n'existe pas. Nuance : il heurte en plus la fraîcheur visée (moins de 15 minutes).
+- **Erreurs fréquentes** :
+  - accepter « puisque Julie est fictive » : c'est l'erreur de départ, revenir à « d'où vient
+    ce trait ? » ;
+  - trancher soi-même que les abonnés s'en contentent : le PO le vérifie, il ne le décide pas.
+- **Ce qui marche** : opposer le téléphone basique (un tiers des abonnés, trait appuyé) au
+  trait de Nora (appuyé sur rien).
+
 ### En tant que Julie ? (6b)
 - **Explication** : le persona sert à la conversation et aux exemples ; la phrase de la story
   garde le rôle (choix du cours).
@@ -212,7 +232,8 @@ pas règle absolue) ; dans tous les cas, le PO le vérifie auprès de l'utilisat
 ## Schéma
 Deux schémas, chacun au message de son sous-concept.
 
-**6a, deux flèches vers l'acteur.** La phrase de la story en trois blocs (« En tant que », « je
+**6a, deux flèches vers l'acteur**, montré à la correction, pas avec la question : il donne la
+réponse. La phrase de la story en trois blocs (« En tant que », « je
 veux », « afin de »), la case « En tant que » vide. En dessous, Hugo (technicien de maintenance)
 et Sophie (responsable maintenance). Deux flèches partent de la phrase : du « je veux » (« voir
 les vélos signalés en panne ») vers celui qui agit, du « afin de » (« préparer ma tournée ») vers
