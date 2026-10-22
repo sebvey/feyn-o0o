@@ -17,3 +17,4 @@
 - **Fini quand** : plus aucune mention de `travaux.md` hors de `archive/`, de
   `maintainer/backlog/03-done/` et de `maintainer/work/` ; un prof neuf qui fait écrire une
   production l'évalue sans chercher à l'enregistrer, et écrit le reste de la mémoire normalement.
+- **Fait le** : 2026-10-23, `learner/travaux.md` retiré (modèle et trois mentions de `CLAUDE.md`) ; ADR-026, ADR-010 complété par ADR-026 ; test par sous-agent prof neuf (reprise en 10a1, hors périmètre incomplet puis complété, arrêt) : aucun fichier de productions cherché ni créé, production évaluée dans l'échange, mémoire et arrêt conformes ; plus aucune mention hors `archive/`, `03-done/` et `maintainer/work/`.
