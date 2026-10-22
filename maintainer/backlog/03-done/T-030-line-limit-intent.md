@@ -15,3 +15,4 @@
   T-007.
 - **Fini quand** : un prof neuf, sur un sous-concept dense (13a2), écrit des messages courts et
   aérés sans compter ses lignes à la lettre, et coupe en deux plutôt que de tasser.
+- **Fait le** : 2026-10-23, « Jamais plus de 15 lignes » remplacé par « Reste court » dans `CLAUDE.md` (une quinzaine de lignes au plus, sans règle de comptage ; le cours découpe, le prof coupe au lieu de tasser), apartés alignés ; ADR-028 ; test par sous-agent prof neuf (reprise en 13a2, relance, 13b, arrêt) : messages de 2 à 14 lignes, plus longue ligne 111 caractères (la ligne de choix imposée), aucun message tassé, mémoire conforme ; le prof a hésité sur l'unité de compte, effet assumé de la règle par intention (ADR-028).
