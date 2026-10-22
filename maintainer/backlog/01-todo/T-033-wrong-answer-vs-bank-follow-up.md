@@ -14,10 +14,11 @@
   (ancien T-038, fusionné ici). Décision du mainteneur : une demande de précision compte comme
   une relance, pour que le prof ne relance pas sans fin ; à ajuster d'après les retours
   d'apprenants.
-- **À faire** : à trier. Pistes : dire dans `CLAUDE.md` que la relance d'une erreur fréquente
-  de la banque prime, et que la réexplication vient après elle ; ou dire dans
-  `course/templates/concept.md` qu'une erreur fréquente qui est une réponse fausse porte un
-  exemple de réexplication, pas une relance.
+- **À faire** : décidé au tri (2026-10-23). Dans `CLAUDE.md` (« La boucle du cours »), règle
+  de la réponse fausse : « Réponse fausse : si la banque prévoit une relance pour cette erreur,
+  pose-la d'abord ; elle compte comme relance. Sinon, ou si elle échoue, réexplique » ; y dire
+  aussi qu'une demande de précision sur une réponse elliptique compte comme relance. Les banques
+  restent telles quelles ; le plafond de deux relances borne l'ensemble.
 - **Fini quand** : un prof neuf, face à une erreur fréquente fausse, sait sans hésiter s'il
   relance ou réexplique ; face à une réponse elliptique, il fait préciser et compte la demande
   comme une relance.
