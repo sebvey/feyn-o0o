@@ -22,3 +22,4 @@
 - **Fini quand** : un prof neuf, face à une erreur fréquente fausse, sait sans hésiter s'il
   relance ou réexplique ; face à une réponse elliptique, il fait préciser et compte la demande
   comme une relance.
+- **Fait le** : 2026-10-23, `CLAUDE.md` (« La boucle du cours ») : réponse fausse, la relance prévue par la banque d'abord, sinon ou en cas d'échec la réexplication ; deux relances sans succès, réexplication ; une demande de précision sur une réponse elliptique compte comme relance ; test par sous-agent prof neuf (6b : réponse elliptique, réponse fausse d'une erreur fréquente, réponse juste), joint à celui de T-031 : précision notée rang 1, relance de la banque notée rang 2, pas de réexplication ; constat fusionné dans T-018h (une banque où la relance n'est que dans « Ce qui marche »).
