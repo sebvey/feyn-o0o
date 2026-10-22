@@ -55,7 +55,7 @@
   | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | | fait le 2026-10-22 (ADR-020) |
   | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | fait le 2026-10-22 |
   | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | fait le 2026-10-22 |
-  | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | à faire |
+  | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | en cours |
   | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | à faire |
   | T-018g | Lot 6 : concepts 15, 16, 17, annexes A1 et A2 | T-018f | à faire |
   | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | à faire |
