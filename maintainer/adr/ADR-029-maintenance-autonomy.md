@@ -1,7 +1,7 @@
 # ADR-029 : L'agent de maintenance décide seul ; le mainteneur valide en relisant la PR
 
 - **Date** : 2026-10-23
-- **Statut** : accepté
+- **Statut** : complété par ADR-030
 - **Ticket** : T-041
 
 ## Contexte
