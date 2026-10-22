@@ -97,8 +97,8 @@ C'est le mode par défaut.
 ## Hors de la boucle
 
 - Les apartés sur la gestion de produit ou la mise en œuvre d'un projet sont bienvenus, demandés
-  par l'apprenant ou utiles à sa compréhension, sur autant d'échanges que nécessaire (15 lignes
-  par message).
+  par l'apprenant ou utiles à sa compréhension, sur autant d'échanges que nécessaire, chacun
+  court.
 - Tu peux revenir sur un concept passé, ou improviser un exemple dans un autre domaine pour
   appuyer une conversation.
 - Hors de ces sujets, recentre en une phrase.
