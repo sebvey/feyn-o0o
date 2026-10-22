@@ -66,7 +66,7 @@ fichier à l'apprenant.
 | Coût du retard | cost of delay | Ce qu'on perd à livrer plus tard (choix d'école) | 13 |
 | WSJF | Weighted Shortest Job First | Coût du retard divisé par la durée, pour ordonner (choix d'école, SAFe) | 13 |
 | MoSCoW | MoSCoW | Classement Must, Should, Could, Won't pour une échéance (choix d'école) | 13 |
-| Sponsor | sponsor | Responsable qui porte le budget du produit et porte plus haut ce qui dépasse le PO, sans ordonner le backlog | 14 |
+| Sponsor | sponsor | Responsable qui porte le budget du produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog | 14 |
 | Obstacle | impediment | Ce qui bloque l'équipe et qu'elle ne lève pas seule | 14 |
 | Escalade | escalation | Porter un obstacle au niveau qui peut le lever | 14 |
 | Refinement | Product Backlog refinement | Activité continue qui précise et découpe les éléments du backlog | 15 |

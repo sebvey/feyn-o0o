@@ -36,7 +36,9 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
     Arnold propose de commencer sans chiffres, en bandes de valeur et d'urgence, et décrit des
     profils d'urgence, dont l'échéance externe ; lui-même chiffre ensuite (CD3, proche de
     WSJF). SAFe en tire WSJF (le coût du retard divisé par la durée) : à nommer, pas à
-    enseigner ;
+    enseigner. Si l'apprenant demande ce que c'est et s'il faut l'utiliser : un score de SAFe
+    pour ordonner (proche du CD3 d'Arnold), possible si l'organisation l'emploie ; le score
+    ne remplace pas le pourquoi de chaque place ;
   - MoSCoW (Must, Should, Could, Won't), tenu par DSDM pour une échéance ; attribué à Dai Clegg
     (1994). DSDM recommande de ne pas dépasser environ 60 % de l'effort en Must.
 - **Lecture du cours** (sans source externe, à présenter comme telle) : « ce qui est prêt » pèse
@@ -114,13 +116,9 @@ du fil rouge.
   ne départage donc pas seul ici, et le PO le dit. Coût : à demander aux Developers. Risque :
   ici, le risque pour les utilisateurs ; il pèse lourd, mais sa gravité se fait qualifier par
   Sophie, voire Agnès, pas par le PO seul. Dépendances : le blocage dépend de la DSI et d'une
-  règle à faire fixer (8a2) ; la disponibilité n'attend rien de bloquant pour être prise (la
-  règle est fixée, les relevés sont collectés ; le traitement des doublons relève de la DoD,
-  11a ; la demande porte sur la donnée fournie à l'appli, son affichage relève de l'équipe
-  appli). Deux réponses justes : l'appli d'abord, parce qu'elle peut être prise tout de
-  suite, en lançant aussitôt ce qui rendra le blocage prêt (faire fixer la règle, s'accorder
-  avec la DSI) ; ou le blocage en tête si sa gravité est jugée haute, en sachant qu'il n'entrera
-  au sprint qu'une fois prêt. Dans les deux cas, la place se décide face au reste, pas parce
+  règle à faire fixer (8a2) ; la disponibilité, non (son affichage relève de l'équipe appli).
+  Deux réponses justes : l'appli d'abord, parce que rien ne la bloque ; ou le blocage en tête si
+  sa gravité est jugée haute. Ce qu'on fait d'une story qui n'est pas prête vient en 13a2. Dans les deux cas, la place se décide face au reste, pas parce
   qu'on vient d'en parler.
 - **Erreurs fréquentes** :
   - « oui, c'est le bon moment, on la prend » : demander « qu'est-ce qui ne sera pas fait à la
@@ -133,21 +131,19 @@ du fil rouge.
   - donner un ordre sans le pourquoi : demander « pourquoi ? », comme Inès le ferait.
 - **Ce qui marche** : faire trancher entre les deux demandes, pas commenter une seule ; puis
   passer chaque critère comme une case à remplir (valeur, coût, risque, dépendances). Si la
-  réponse s'arrête à un ordre, relancer : « et alors, que fais-tu dès cette semaine pour la
-  story de blocage ? ».
+  réponse s'arrête à un ordre, relancer : « pourquoi celle-ci devant, critère par critère ? ».
 
 ### Les quatre demandes (13a2)
 - **Explication** : rappel en une ligne des quatre critères. Ce qui n'est pas prêt (règle non
-  fixée, accès non obtenu, dépendance non levée) ne peut pas être fait ensuite, quel que soit
-  son rang ; l'ordre fait alors remonter ce qui le rend prêt (lecture du cours). Une demande qui
-  en suppose une autre passe après elle.
+  fixée, accès non obtenu, travail d'une autre équipe sans lequel on ne finit pas dans le
+  sprint, comme en 11b) n'entre pas au sprint, quel que soit son rang ; le PO lance ce qui le
+  rend prêt (lecture du cours). Une demande qui en suppose une autre passe après elle.
 - **Situation** : quatre demandes au backlog.
-  - Sophie : bloquer à la location les vélos signalés en panne (sécurité) ; règle non fixée ;
-    dépend de la DSI.
-  - Bruno : la vue des locations du jour ; l'accès à la table des locations n'est pas obtenu.
-  - Claire : la comparaison au même mois de l'an dernier, pour le bilan au conseil ; elle
-    suppose les locations par quartier, et le même accès.
-  - Inès : la disponibilité par station pour l'appli ; règle fixée, données déjà collectées.
+  - Sophie : bloquer les vélos signalés (sécurité) ; règle non fixée ; dépend de la DSI.
+  - Bruno : les locations du jour ; accès à la table des locations non obtenu.
+  - Claire : la comparaison à l'an dernier (bilan au conseil) ; suppose les locations par
+    quartier et le même accès.
+  - Inès : la disponibilité par station pour l'appli ; règle fixée, données collectées.
 - **Question** : propose un ordre pour ces quatre demandes et argumente chaque place.
 - **Réponse attendue** : il n'y a pas un seul ordre juste ; la réponse est bonne si elle pèse ce
   qui doit peser. L'objectif produit d'abord : le lien de chacune avec le temps vide des
@@ -159,9 +155,10 @@ du fil rouge.
   locations par quartier, absentes de la liste ; elles passent avant elle, et l'accès
   conditionne Bruno et Claire. Le risque pour les utilisateurs : le blocage peut passer devant
   l'objectif produit si Sophie et Agnès qualifient le risque de grave ; le PO ne le juge pas
-  seul. Un ordre qui se défend : l'appli (prête), puis le blocage
-  dès qu'il est prêt, puis Bruno ou Claire, l'un et l'autre derrière l'accès (l'échéance de
-  Claire peut la faire passer devant Bruno, concept 13b). Autre ordre défendable : le blocage en
+  seul. Le coût : à demander à Léa, Yanis et Nora, pour chacune. Un ordre qui se défend :
+  l'appli (prête), puis le blocage dès qu'il est prêt, puis Bruno ou Claire, l'un et l'autre
+  derrière l'accès : l'un ou l'autre en troisième, à argumenter (l'exploitation au quotidien ou
+  la subvention). Autre ordre défendable : le blocage en
   tête, l'appli prise au prochain sprint parce que le blocage n'est pas prêt. Dans tous les cas,
   le PO lance ce qui débloque : faire fixer la règle, s'accorder avec la DSI, obtenir l'accès
   (s'il bloque : escalade, concept 14). Mauvaises réponses : l'ordre d'arrivée, celui qui
@@ -194,9 +191,9 @@ du fil rouge.
 - **Situation** : situation d'exercice : Claire annonce que le bilan au conseil a lieu dans
   deux mois. Deux demandes : le blocage des vélos signalés (Sophie) et la comparaison au même
   mois de l'an dernier (Claire).
-- **Question** : du blocage et de la comparaison, laquelle monte le plus vite en coût du retard,
-  et que change cette forme à ton ordre ? (Si la réponse s'arrête à la forme, relancer sur
-  l'effet sur l'ordre.)
+- **Question** : du blocage et de la comparaison, laquelle coûte dès aujourd'hui, laquelle
+  seulement plus tard, et que change cette forme à ton ordre ? (Si la réponse s'arrête à la
+  forme, relancer sur l'effet sur l'ordre.)
 - **Réponse attendue** : le blocage coûte dès aujourd'hui, et chaque jour qu'un vélo signalé
   reste louable s'ajoute aux autres : urgence immédiate, qui pousse à rendre la story prête vite
   (règle, DSI). La comparaison coûte peu tant que le bilan est loin, puis de plus en plus à son
@@ -215,9 +212,9 @@ du fil rouge.
   - confondre coût du retard et coût de la demande : l'un se perd en attendant, l'autre se
     dépense en faisant ;
   - dire « urgent » sans dire pourquoi : demander « que perd-on, et à partir de quand ? ».
-- **Ce qui marche** : faire dessiner deux courbes du coût dans le temps, à main levée, sans
-  graduation : une qui monte dès le départ (blocage), une plate puis qui monte jusqu'au bilan
-  et retombe (comparaison).
+- **Ce qui marche** : faire décrire en mots la forme des deux coûts dans le temps (dès le
+  départ, ou plat puis qui monte jusqu'au bilan) ; montrer le schéma dans la correction, pas
+  avant la réponse.
 
 ### Tout est Must pour le bilan (13c)
 - **Explication** : pour une échéance, MoSCoW classe ce qui doit y être : Must (le minimum
@@ -225,7 +222,9 @@ du fil rouge.
   premier si l'échéance est menacée), Won't (pas cette fois, pas « jamais »). Choix d'école de
   DSDM, attribué à Dai Clegg ; DSDM recommande de ne pas dépasser environ 60 % de l'effort en
   Must : au-delà, l'échéance devient risquée. Chez DSDM, c'est le représentant de l'activité
-  concernée (le Business Visionary) qui dit ce qui est Must : ici, Claire.
+  concernée (le Business Visionary) qui dit ce qui est Must : ici, Claire ; le PO l'aide à
+  classer, et tout en Must ne classe rien. MoSCoW classe pour une échéance, il ne remplace pas
+  l'ordre du backlog.
 - **Situation** : pour le bilan au conseil, Claire te dit : « Tout est Must : les locations par
   quartier, la comparaison à l'an dernier, et une carte des quartiers. »
 - **Question** : que réponds-tu à Claire ?
@@ -235,7 +234,7 @@ du fil rouge.
   attend ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose
   les locations par quartier (elle ne peut pas être Must sans elles), et l'effort se demande aux
   Developers, pour garder le Must sous environ 60 %. Classer en Won't veut dire « pas pour ce
-  bilan » : la demande reste au backlog. Nuance : les locations par quartier et la comparaison
+  bilan » : la demande reste au backlog, dans l'ordre, que MoSCoW ne remplace pas. Nuance : les locations par quartier et la comparaison
   attendent l'accès à la table des locations ; pour la carte, demander ce qu'elle montre avant
   de dire ce dont elle dépend. Un Must bloqué par l'accès est un obstacle à lever (concept 14).
 - **Erreurs fréquentes** :
