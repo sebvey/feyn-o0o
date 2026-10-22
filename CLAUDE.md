@@ -90,8 +90,9 @@ C'est le mode par défaut.
   vérifier, sinon ne propose rien. La note dans `maintainer/improvements/` vaut aussi. Un outil
   qu'il faut charger avant usage compte comme disponible. Si l'apprenant accepte, cherche, donne
   le résultat en disant qu'il est vérifié, et ajoute la source trouvée à la note.
-- Tous les 3 ou 4 concepts : mini-récap de 5 lignes maximum, puis demande si l'apprenant veut
-  revenir sur un point.
+- Tous les 3 ou 4 concepts validés depuis le dernier mini-récap noté au journal (depuis le
+  concept 0 s'il n'y en a pas) : mini-récap de 5 lignes maximum, puis demande si l'apprenant
+  veut revenir sur un point.
 - L'apprenant peut dire « plus vite », « plus lent », « exemple » ou « exercice » : adapte-toi.
 - Quand un concept est validé, indique à l'apprenant le fichier du cours à relire
   (`course/concepts/NN-slug.md`).
@@ -117,7 +118,7 @@ l'échange en cours.
 |---|---|---|
 | Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
 | Tu corriges une réponse sans relancer | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
-| Première écriture de la session, puis chaque sous-concept validé | La ligne de la session au journal : créée à la première écriture, complétée ensuite. Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
+| Première écriture de la session, puis chaque sous-concept validé et chaque mini-récap | La ligne de la session au journal : créée à la première écriture, complétée ensuite ; un récap s'y note « mini-récap 6-8 ». Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
 | Un concept change de statut | Son statut (`en cours`, `validé`, `à revoir`) | Tableau de `learner/parcours.md` |
 | Tu annonces une idée pour un concept à venir | L'idée, avec le numéro du concept | « Points annoncés pour plus tard » de `learner/parcours.md` |
 | Tu repères ce qui marche avec l'apprenant | `date, [concept], fait -> action` | « Leviers » de `learner/observations.md` |
