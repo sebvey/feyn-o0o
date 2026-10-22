@@ -27,7 +27,7 @@ Repasse les échanges depuis le dernier point de sauvegarde, puis :
 | Difficulté, acquis, préférence observés | Une ligne datée dans `learner/apprenant.md`, avec le fait observé. Relis les anciennes : une difficulté surmontée devient un acquis, une observation contredite se corrige ou se supprime |
 | Story écrite ou réécrite par l'apprenant | Nouvelle version dans `learner/travaux.md`, avec ta critique |
 | Exemple, question, exercice, schéma ou aparté | Sa trace dans `learner/examples/<concept>/`, selon `course/templates/trace-exemple.md` : crée celles qui manquent, complète celles restées sans réponse |
-| Fait métier fixé sur le fil rouge | Une ligne dans `course/fil-rouge-velos.md` |
+| Fait métier fixé sur le fil rouge | Une ligne dans « Faits fixés » de `course/fil-rouge-velos.md` ; un nouvel acteur ou une nouvelle source, une ligne dans son tableau |
 | Pendant le TP, question posée au métier | `learner/journal-tp.md` |
 | Pendant le TP, concept sur lequel l'apprenant bute | « Pièges » de la fiche concernée + une ligne dans `learner/apprenant.md` |
 

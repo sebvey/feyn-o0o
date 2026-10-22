@@ -21,8 +21,7 @@ livrable en quelques jours) > **tâche** (travail technique pour réaliser la st
   même entre praticiens. Chaque équipe choisit ses niveaux et s'y tient.
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+<À réécrire avec un exemple générique.>
 
 ## Pièges
 - Prendre un nouveau public (« les achats ») pour une story : il cache des dizaines de stories

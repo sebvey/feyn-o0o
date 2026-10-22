@@ -20,8 +20,7 @@ résultat**, et il doit y gagner lui-même, sinon il ne s'en servira pas.
   tête, pas obligatoires.
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+<À réécrire avec un exemple générique.>
 
 ## Pièges
 - Mettre en « afin de » la valeur d'un autre rôle (« des marges fiables » pour le planificateur).

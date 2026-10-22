@@ -10,6 +10,8 @@ Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en co
 station », prête sauf l'accès à la table des locations (demandé à la DSI). Trace
 `10-dor-dod/03`. Question en attente, mot pour mot : « Question pour toi : la story est-elle
 prête ? Que proposes-tu au planning du sprint ? »
+Avant de reprendre 10b : aparté « le cadre du fil rouge » en un message (entreprise, produit,
+équipe, acteurs, d'après `course/fil-rouge-velos.md`), puis 10b repris depuis le début.
 Après 10b validé : compléter la fiche 10 (partie DoR), point de sauvegarde, puis concept 11
 (priorisation).
 
@@ -17,7 +19,7 @@ Après 10b validé : compléter la fiche 10 (partie DoR), point de sauvegarde, p
 
 Tracés un par un dans `learner/examples/` (un dossier par concept). Fil rouge du cours depuis le
 2026-10-21 : l'opérateur de vélos en libre-service (`course/fil-rouge-velos.md`).
-- Marge de fabrication entre usines, qualité de saisie des OF : ancien projet réel (archivé).
+- Marge de fabrication entre usines, qualité de saisie des OF : ancien projet réel (supprimé).
 - Supérettes de produits frais : réservé au TP, jamais dans le cours.
 
 ## Concepts
@@ -45,7 +47,7 @@ Annexes déjà traitées : Scrum en bref et l'incrément (`A1-scrum.md`).
 
 ## Points annoncés pour plus tard
 
-Exemples du projet réel retirés (archivés) ; les idées restent, à illustrer par des exemples
+Exemples du projet réel retirés (supprimés) ; les idées restent, à illustrer par des exemples
 génériques :
 - Concept 11 : la page web de consolidation des fiches est un exemple de « pas maintenant ».
 - Concept 11 : annoncé en 9a, la story « bloquer à la location un vélo signalé en panne »
@@ -74,8 +76,8 @@ génériques :
   l'expérience douloureuse. Objectif final « backlog du projet réel » retiré ; cours avec
   exemples génériques ; TP en jeu de rôle sur un projet factice (supérettes, démarque) après le
   cours ; PDSF optionnel après le TP ; page web à la fin. Cadre modifié (`CLAUDE.md`, skill), avec
-  la règle « un schéma quand il aide ». `projet.md`, `travaux.md` et exemples des fiches archivés
-  dans `learner/archive/real-project/`. Le projet factice est généré dans une autre session à partir de
+  la règle « un schéma quand il aide ». `projet.md`, `travaux.md` et exemples des fiches archivés,
+  puis supprimés le 2026-10-22. Le projet factice est généré dans une autre session à partir de
   `projet-factice/GENERER.md`.
 - 2026-10-21, session 3 : concept 8 validé (exercice vélos, aparté tranche/story/tâches), sous-concept
   8b (patrons de découpage) validé, fiche 08. À la demande de sve : l'opérateur de vélos en
