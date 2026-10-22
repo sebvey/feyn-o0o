@@ -2,7 +2,7 @@
 
 - **Créé le** : 2026-10-22
 - **Constat** : demande du mainteneur. Le cours s'est construit au fil des sessions d'un seul
-  apprenant (sve) :
+  apprenant (sve) (numéros d'avant T-018a) :
   - les concepts 1 à 5 et l'annexe A1 n'ont plus d'exemple (« à réécrire avec un exemple
     générique » depuis l'abandon du projet réel) ; la fiche 06 garde un visuel sur la story des
     OF ;
@@ -48,16 +48,26 @@
   de revue, rapports de test), supprimé à la clôture (l'historique git les garde). Les sources
   vont dans le cours : `course/sources/`.
 
-  | Sous-ticket | Contenu | État |
-  |---|---|---|
-  | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | fait |
-  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot` | à faire |
-  | T-018c | Lot 2 : concepts 3, 4, 5 | à faire |
-  | T-018d | Lot 3 : concepts 6, 7, 8 | à faire |
-  | T-018e | Lot 4 : concepts 9, 10, 11 | à faire |
-  | T-018f | Lot 5 : concepts 12, 13, 14 | à faire |
-  | T-018g | Lot 6 : concepts 15, 16, 17, annexe A1 | à faire |
-  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | à faire |
+  | Sous-ticket | Contenu | Dépend de | État |
+  |---|---|---|---|
+  | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | | fait le 2026-10-22 (ADR-017) |
+  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot`, générique | T-021 | à faire, bloqué |
+  | T-018c | Lot 2 : concepts 3, 4, 5 | T-018b | à faire |
+  | T-018d | Lot 3 : concepts 6, 7, 8 | T-018c | à faire |
+  | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | à faire |
+  | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | à faire |
+  | T-018g | Lot 6 : concepts 15, 16, 17, annexe A1 | T-018f | à faire |
+  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | à faire |
+
+  **Tickets liés, hors de T-018** :
+  - T-021 (à faire) : parti pris des sprints ; bloque T-018b, car le concept 0 l'annonce.
+  - T-022 (fait le 2026-10-22, ADR-016) : sources tracées dans `course/sources/` ; a changé la
+    méthode du §3.
+  - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
+    en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
+
+  **Prochaine étape** : traiter T-021, puis T-018b. sve repart de zéro (§6) : il peut tester
+  chaque lot à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 
