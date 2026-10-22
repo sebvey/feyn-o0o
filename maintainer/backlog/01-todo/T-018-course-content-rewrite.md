@@ -124,10 +124,11 @@
   - Chaque lot tourne en workflow multi-agents (pipeline : sources -> rédaction -> revues ->
     corrections, chaque concept avance dès que son étape précédente est finie). Le premier
     sous-ticket de lot écrit ce workflow, le sauvegarde dans `.claude/workflows/course-lot`
-    (paramètre : le sous-ticket du lot) et le teste ; les lots suivants le relancent par son nom
+    (paramètres : le dossier du cours et le sous-ticket du lot ; générique, voir T-023) et le
+    teste ; les lots suivants le relancent par son nom
     (« lance course-lot sur T-018c »), sans le réécrire. Une session ne lance un workflow que
-    sur demande du mainteneur : le nommer suffit. Un workflow par lot, pour garder chaque exécution sous une cinquantaine d'agents et
-    valider lot par lot.
+    sur demande du mainteneur : le nommer suffit. Un workflow par lot, pour garder chaque
+    exécution sous une cinquantaine d'agents et valider lot par lot.
   - Les agents de recherche et de rédaction, et le relecteur d'exactitude, tournent sur le
     modèle le plus capable ; les autres relectures peuvent tourner sur un modèle plus léger.
   - Briefs des agents : chacun lit les fichiers sur disque (pas de résumé de seconde main),

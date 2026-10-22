@@ -15,7 +15,10 @@
     Scrum, sa réponse attendue et ce qu'on fait d'une réponse partielle (le test de T-018a l'a
     vu improvisée : « il y a des sprints et le PO écrit les tickets »).
   - Écrire le workflow du lot (T-018 §5), le sauvegarder dans `.claude/workflows/course-lot`
-    (paramètre : le sous-ticket du lot) et le tester sur ce lot.
+    et le tester sur ce lot. Il est générique, pour servir à un autre cours (étape 3 de la
+    chaîne de T-023) : paramètres, le dossier du cours (`course/` par défaut) et le sous-ticket
+    du lot ; rien de propre au cours de PO dans le script (public cible, fil rouge, concepts,
+    références : lus dans les fichiers du cours et le sous-ticket).
 - **Fini quand** : les fichiers des concepts 0, 1 et 2 sont conformes à
   `course/templates/concept.md`, avec leurs sources dans `course/sources/` ; les revues n'ont
   plus de constat bloquant ; le mainteneur a validé le lot sur sa branche ; le workflow
