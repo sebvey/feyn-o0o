@@ -1,7 +1,7 @@
 # ADR-010 : Le cours, le suivi de l'apprenant et le support d'amélioration sont séparés ; le prof n'écrit plus ni fiche ni trace
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-026
 - **Ticket** : T-017
 
 ## Contexte
