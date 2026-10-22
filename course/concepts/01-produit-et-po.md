@@ -46,7 +46,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
    choisissent le travail du sprint avec le PO. Les parties prenantes (toute personne ou équipe
    concernée par le produit : utilisateurs, financeur, sponsor, équipe voisine) font valoir
    leurs besoins et convainquent le PO ; le sponsor est le responsable qui porte le budget du
-   produit et arbitre au-delà du PO. Le concept 0 a situé les trois responsabilités de
+   produit et porte plus haut ce qui dépasse le PO, sans ordonner le backlog. Le concept 0 a situé les trois responsabilités de
    l'équipe Scrum ; ici, on dit qui décide. Arbitrer entre parties prenantes et escalader
    viennent au concept 14. En 15 lignes, s'en tenir au PO face aux Developers, avec la
    définition des parties prenantes en une ligne ; le comité et la délégation viennent par
@@ -153,7 +153,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   dans le backlog et explique ses choix (le pourquoi). Avec un vote, personne ne répondrait de
   la valeur. Claire et Inès sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
   une partie prenante. Nuance : Agnès est le sponsor (elle porte le budget de la plateforme et
-  arbitre au-delà du PO) ; un désaccord qui dépasse le PO se porte plus haut (concept 14), ce
+  porte plus haut ce qui dépasse le PO) ; un désaccord qui dépasse le PO se porte plus haut (concept 14), ce
   qui n'a rien d'un vote à chaque sprint.
 - **Erreurs fréquentes** : accepter le vote « pour être juste ». À l'inverse, ordonner sans
   écouter ni expliquer. Douter : « le PO peut-il vraiment ordonner seul si les demandeurs ne

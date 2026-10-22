@@ -78,15 +78,15 @@ Faits du fil rouge utilisés : les acteurs (Bruno, Malik, Hugo, Sophie, Julie, C
 Inès, Pascal, Thomas) et l'équipe vélos (Léa, Yanis, Nora) ; Agnès est sponsor de la plateforme,
 dont elle porte le budget ; Thomas est Scrum Master de l'équipe vélos et de l'équipe appli ; la
 collectivité finance le service, Claire la représente et présente un bilan au conseil, une fois
-par an ; le comité de direction réunit Agnès et Pascal et tranche leurs désaccords ; les sources
+par an ; le comité de direction réunit Agnès et Pascal et tranche leurs désaccords, comme ceux entre la
+plateforme et l'appli que leurs PO et Thomas ne règlent pas ; les sources
 de données et leurs propriétaires (DSI pour les relevés et les locations, équipe appli pour les
 signalements et les abonnés, collectivité pour le référentiel des quartiers) ; l'accès à la
 table des locations, demandé, pas encore obtenu, la DSI demandant de justifier chaque colonne ;
 la table contient l'identifiant de l'abonné ; les stories de Bruno (locations du jour) et de
 Claire (locations par quartier, comparaison à l'an dernier) attendent cet accès ; Inès veut la
-disponibilité par station pour l'appli ; le canal de Julie relève de l'équipe appli. Ne sont pas
-fixés : la date du bilan au conseil ; qui a autorité sur les deux produits, plateforme et appli
-(qui encadre Inès, qui est sponsor de l'appli). L'ordre du backlog cité
+disponibilité par station pour l'appli ; le canal de Julie relève de l'équipe appli. N'est pas
+fixée : la date du bilan au conseil. L'ordre du backlog cité
 en 14b, la liste de Nora, les propos de Claire, d'Agnès et d'Inès, et les relances à Pascal sont
 des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
 
@@ -242,7 +242,8 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   pour décider. Nuance : si Claire va voir Agnès d'elle-même, c'est son droit ; le PO montre
   alors son pourquoi (rechange 14b).
 - **Erreurs fréquentes** :
-  - « oui, le sponsor arbitre au-delà du PO » : au-delà, pas à sa place ; demander « qu'est-ce
+  - « oui, le sponsor porte plus haut ce qui dépasse le PO » : ce qui le dépasse, pas l'ordre
+    de son backlog ; demander « qu'est-ce
     qui bloque l'équipe, ici ? » ;
   - faire voter Inès et Claire : pas de vote (concept 1b).
 - **Ce qui marche** : le test rapide, obstacle ou désaccord, posé à voix haute.
@@ -262,8 +263,8 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
 - **Réponse attendue** : d'abord Inès encore : comprendre ce qui passe avant, apporter ce qui
   pèse pour Julie, et ce que la plateforme lui donne aussi (la disponibilité par station pour
   l'appli). Ensuite, si rien ne change à la fin du sprint, Thomas, qui réunit les deux PO.
-  Ensuite, Agnès, sponsor de la plateforme : elle porte la dépendance au niveau qui a autorité
-  sur les deux produits ; qui c'est, le fil rouge ne le fixe pas. Elle n'impose rien à Inès et ne
+  Ensuite, Agnès, sponsor de la plateforme : elle porte la dépendance au comité de direction,
+  où se tranchent les désaccords entre la plateforme et l'appli. Elle n'impose rien à Inès et ne
   décide pas de l'ordre de l'équipe appli. En attendant, la story de Julie reste au backlog, la
   dépendance écrite et visible ; la part de la plateforme peut sortir, elle sert l'appli.
   Nuance : c'est bien un obstacle pour ton équipe, mais on ne le force pas : l'escalade fait
@@ -277,8 +278,9 @@ des situations d'exercice : ils ne deviennent pas des faits du fil rouge.
   - inscrire soi-même le canal dans le backlog de l'équipe appli (10b2) ;
   - laisser tomber la story de Julie sans le dire : la garder au backlog, visible.
 - **Ce qui marche** : poser le test rapide à voix haute : « est-ce mon backlog, ou celui d'un
-  autre PO ? ». Si l'apprenant demande qui est au-dessus d'Inès, répondre que le fil rouge ne le
-  dit pas et que, dans une vraie organisation, c'est à identifier avant d'en avoir besoin.
+  autre PO ? ». Si l'apprenant demande qui est au-dessus d'Inès : le comité de direction tranche
+  les désaccords entre les deux produits ; dans une vraie organisation, c'est à identifier avant
+  d'en avoir besoin.
 
 ## Pièges
 - **Oublier les fournisseurs de données** : la DSI, l'équipe appli, la collectivité ne

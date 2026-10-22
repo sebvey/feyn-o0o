@@ -15,7 +15,8 @@ métier.
 - La DSI de l'opérateur gère les systèmes (bornes, location, appli) et donne les accès à leurs
   données.
 - Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Agnès) et
-  le DSI (Pascal) : leurs désaccords s'y tranchent.
+  le DSI (Pascal) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
+  que leurs PO et Thomas ne règlent pas.
 
 ## Le produit et l'équipe
 
@@ -62,7 +63,7 @@ métier.
 | Relevés des stations | Nombre de vélos à quai par station et, pour chacun, s'il est louable | Système des bornes, via la DSI | En continu ; la plateforme se rafraîchit toutes les 5 minutes et garde l'historique depuis son lancement (environ un an). Relevés en double (concept 11) |
 | Table des locations | Chaque location : vélo, abonné (identifiant), stations de départ et d'arrivée, heures | Système de location, via la DSI | Historique sur plusieurs années dans le système de location. Accès demandé, pas encore obtenu (concept 11b) ; la DSI demande de justifier chaque colonne demandée |
 | Signalements de pannes | Vélo signalé, par l'abonné dans l'appli | Équipe appli | Les signalements par téléphone ne sont pas saisis dans l'appli |
-| Abonnés | Abonnement, station favorite | Équipe appli | |
+| Abonnés | Nom et coordonnées de l'abonné, abonnement, station favorite | Équipe appli | |
 | Référentiel des quartiers | Quartier de chaque station | La collectivité | |
 | Météo | Pluie, par heure | Service externe | Source envisagée, pas encore collectée |
 

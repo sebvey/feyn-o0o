@@ -83,8 +83,7 @@ exemple ne fixe : compter ou non les locations très courtes ; quartier de la st
 ou d'arrivée ; station vide, heures de pointe, cible et calcul de la mesure de résultat ; seuil
 « presque vide ». Les brouillons de définition, les répliques des Developers et de Claire, et
 les règles de qualité proposées, l'indicateur des vélos signalés par semaine que regarde Sophie
-(banque 12b), l'hypothèse que l'opérateur, qui gère les abonnements, sait à qui correspond un
-identifiant d'abonné (banque 12c) sont des propositions d'exercice : elles ne deviennent pas des
+(banque 12b) sont des propositions d'exercice : elles ne deviennent pas des
 faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle.
 
 ### Compléter la définition des vélos disponibles (12a1)
@@ -284,8 +283,8 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   ce n'est qu'un numéro, pas un nom ; et on en aura peut-être besoin plus tard. »
 - **Question** : qu'est-ce qui ne tient pas dans les deux arguments de Léa ?
 - **Réponse attendue** : « ce n'est qu'un numéro » : l'identifiant est une donnée personnelle ;
-  l'opérateur gère les abonnements de ses 40 000 abonnés, il sait à qui correspond un
-  identifiant (hypothèse de raisonnement). « Plus tard » : une finalité se dit avant d'utiliser
+  l'opérateur connaît le nom et les coordonnées de ses abonnés, il sait à qui correspond un
+  identifiant. « Plus tard » : une finalité se dit avant d'utiliser
   les données, pas après ; « peut-être plus tard » n'en est pas une. On demande ce
   qui sert la finalité d'aujourd'hui ; une nouvelle finalité fera une nouvelle demande, avec sa
   justification. Nuance : le PO ne tranche pas un point de droit ; le délégué à la protection
