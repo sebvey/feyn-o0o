@@ -1,5 +1,5 @@
 ---
-concept: 8
+concept: 9
 titre: Découpage en tranches verticales
 ---
 
@@ -48,7 +48,7 @@ temps réel).
 - Croire qu'une story qui ne nomme pas l'écran n'a pas de couche restitution : la tranche livre
   quand même quelque chose de visible, seule sa forme est laissée à l'équipe.
 - Un mot flou dans la première tranche (« presque vide ») : c'est une règle métier à fixer
-  (seuil), voir le concept 7.
+  (seuil), voir le concept 8.
 
 ## Le test rapide
 « Si on s'arrête après cette tranche, l'utilisateur s'en sert-il demain matin ? »
@@ -59,7 +59,7 @@ seule ») et une part verticale colorée qui traverse toutes les couches, légen
 
 ## Banque d'exemples
 
-### Schéma : le gâteau en couches (8a)
+### Schéma : le gâteau en couches (9a)
 - **Situation** : schéma inline, quatre couches empilées (ingestion, transformation, données
   prêtes, restitution). Une couche entière = tranche horizontale (« rien d'utilisable seul ») ;
   des parts verticales = tranches verticales (« un peu de chaque couche, utilisable seule »).
@@ -67,7 +67,7 @@ seule ») et une part verticale colorée qui traverse toutes les couches, légen
   « vertical ») avant le schéma. Légender les parts « tranche 1, 2, 3 », pas « story », et dire
   à part qu'au niveau du sprint une tranche est une story.
 
-### Redécouper « quelles stations vont se vider ? » (8a)
+### Redécouper « quelles stations vont se vider ? » (9a)
 - **Situation** : Malik, le régulateur, veut savoir quelles stations vont se vider pour y
   apporter des vélos. L'équipe propose : 1. ingérer les relevés dans l'entrepôt, 2. entraîner le
   modèle de prévision, 3. afficher la carte des stations à risque.
@@ -78,7 +78,7 @@ seule ») et une part verticale colorée qui traverse toutes les couches, légen
   sa forme (carte, liste) est laissée à l'équipe. « Presque vide » est une règle métier à fixer
   (seuil).
 
-### Tranche = story ? Et les tâches ? (aparté, 8a)
+### Tranche = story ? Et les tâches ? (aparté, 9a)
 - **Explication** : « tranche » est une façon de découper, pas un niveau. Epic -> features et
   feature -> stories : verticales ; story -> tâches : horizontales, et c'est normal.
 - **Question** : l'équipe découpe la story « voir les stations sous le seuil » en « ingérer
@@ -88,7 +88,7 @@ seule ») et une part verticale colorée qui traverse toutes les couches, légen
   dans le Sprint Backlog (propriété des Developers). Le PO valide la story sur ses critères, pas
   les tâches.
 
-### Patrons de découpage (8b)
+### Patrons de découpage (9b)
 - **Explication** : patrons : périmètre de données, règle, simple avant complexe, qualité de
   service différée (SPIDR, Richard Lawrence : choix d'école).
 - **Situation** : story trop grosse « prévoir les stations à risque », découpage de l'équipe :

@@ -1,4 +1,4 @@
-# 08 : Découpage vertical
+# 09 : Découpage vertical
 
 - 2026-10-21, sve, incompréhension : le schéma du gâteau légendait les parts « Story 1, 2, 3 » ;
   l'apprenant a cru que tranche = story. -> Légender « tranche 1, 2, 3 », dire à part qu'au
@@ -8,7 +8,7 @@
   de devenir le fil rouge du cours.
 - 2026-10-21, sve, demande de l'apprenant : « Ta question » jugé ambigu (il croyait qu'on parlait
   d'une question qu'il avait posée). -> « Question pour toi » (appliqué dans `CLAUDE.md`).
-- 2026-10-21, sve, incompréhension : où s'arrête le découpage vertical. -> Dire dès 8a que le
+- 2026-10-21, sve, incompréhension : où s'arrête le découpage vertical. -> Dire dès 9a que le
   vertical s'arrête à la story ; les tâches sont horizontales.
 - 2026-10-21, sve, question mal posée : question double (laquelle + quels patrons), seule la
   première moitié a reçu une réponse ; et une réponse elliptique a été corrigée à tort. -> Une

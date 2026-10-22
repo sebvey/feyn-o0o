@@ -4,42 +4,41 @@ Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `à revoir
 
 ## Prochaine étape
 
-**Concept 10 en cours : 10a (DoD) validé, 10b (Definition of Ready) posé en session 7
-(2026-10-22).** Énoncé : `course/concepts/10-dor-dod.md`, banque d'exemples, « Story pas prête :
-accès aux données non obtenu ». Question en attente, mot pour mot : « Question pour toi : la
-story est-elle prête ? Que proposes-tu au planning du sprint ? »
-En reprenant 10b, ouvre par un rappel en deux lignes du cadre du fil rouge (l'apprenant est PO
-de la plateforme de données ; équipe vélos, DSI), qu'il n'a encore jamais vu.
-Après 10b validé : proposer les deux choix, puis concept 11 (priorisation).
+**Nouveau départ.** Le 2026-10-22, le cours a été réordonné (T-018a) et sve a choisi de repartir
+de zéro : aucun concept validé, pas de question en attente. Prochain concept : **0 (Scrum en
+bref et l'incrément)**, avec sa question de contrôle (`course/plan.md`).
+Ses acquis (`learner/observations.md`) datent de l'ancien contenu : enseigne quand même chaque
+concept. Le cadre du fil rouge (il est PO de la plateforme de données de l'opérateur de vélos)
+ne lui a jamais été présenté : présente-le en deux lignes au premier exemple.
 
 ## Concepts
 
 | # | Statut |
 |---|---|
-| 1 | validé |
-| 2 | validé |
-| 3 | validé |
-| 4 | validé |
-| 5 | validé |
-| 6 | validé |
-| 7 | validé |
-| 8 | validé |
-| 9 | validé |
-| 10 | en cours |
+| 0 | à faire |
+| 1 | à faire |
+| 2 | à faire |
+| 3 | à faire |
+| 4 | à faire |
+| 5 | à faire |
+| 6 | à faire |
+| 7 | à faire |
+| 8 | à faire |
+| 9 | à faire |
+| 10 | à faire |
 | 11 | à faire |
 | 12 | à faire |
 | 13 | à faire |
+| 14 | à faire |
+| 15 | à faire |
+| 16 | à faire |
+| 17 | à faire |
 
-Annexes vues : A1 (Scrum en bref et l'incrément).
+Annexes vues : aucune.
 
 ## Points annoncés pour plus tard
 
-- Concept 11 : annoncé en 9a, la story « bloquer à la location un vélo signalé en panne »
-  (sortie du hors périmètre) se priorise face au reste ; bon exemple de priorisation.
-- Concept 12 (refinement) : c'est là que se définit un terme flou (« donnée mal renseignée »),
-  pas dans une story « définir X ».
-- Concept 13 : sve avait choisi trois niveaux (epic, feature, story). Signe qu'un niveau est de
-  trop : la plupart des features ne contiennent qu'une story.
+Aucun.
 
 ## Journal
 
@@ -84,3 +83,6 @@ Annexes vues : A1 (Scrum en bref et l'incrément).
 - 2026-10-22 : pas de cours. Restructuration du dossier (T-017) : le cours est dans `course/`
   (plan, un fichier par concept), les fiches et traces de sve n'existent plus, observations
   dans `learner/observations.md`. TP et PDSF archivés.
+- 2026-10-22 : pas de cours. Cours réordonné en 18 concepts (0 à 17, T-018a) ; sve repart de
+  zéro. Statuts remis à « à faire », étiquettes des observations renumérotées, points annoncés
+  versés dans `maintainer/improvements/`. Avant, sur l'ancien plan : 1 à 9 validés, 10b posé.
