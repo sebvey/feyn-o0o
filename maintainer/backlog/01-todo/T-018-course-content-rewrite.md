@@ -35,21 +35,29 @@
   - `maintainer/improvements/` : incompréhensions, questions mal posées, apartés réutilisables ;
   - `learner/observations.md` de sve : à lire comme des **erreurs typiques** possibles du
     public cible, jamais recopiées comme des faits sur l'apprenant (anonymiser) ;
-  - « Points annoncés pour plus tard » de `learner/parcours.md` (idées pour les concepts 10 à
-    13) ;
+  - `maintainer/work/T-018/framing.md` : cadrage de T-018a (références et analyse des manques,
+    situations du fil rouge par concept, erreurs relevées dans les fiches actuelles) ; sa
+    numérotation est celle du brouillon, la correspondance est en tête du fichier ;
+  - `course/glossary.md` ;
   - les ADR, pour ne pas défaire une décision sans le dire.
 
   ### 2. Sous-tickets
 
   Découpage vertical : chaque lot passe par toutes les étapes et livre des concepts prêts à
-  enseigner. Les produits intermédiaires vont dans `maintainer/work/T-018/` (sources, rapports
-  de revue, rapports de test), supprimé à la clôture (l'historique git les garde).
+  enseigner. Les produits intermédiaires vont dans `maintainer/work/T-018/` (cadrage, rapports
+  de revue, rapports de test), supprimé à la clôture (l'historique git les garde). Les sources
+  vont dans le cours : `course/sources/`.
 
   | Sous-ticket | Contenu | État |
   |---|---|---|
-  | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | à faire |
-  | T-018b et suivants | Un lot de concepts chacun (méthode du §3), créés à la fin de T-018a ; premier lot proposé : les concepts que sve aborde ensuite (11 à 13) | à créer |
-  | dernier sous-ticket | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7), créé à la fin de T-018a | à créer |
+  | T-018a | Cadrer le curriculum et le fil rouge, découper en lots | fait |
+  | T-018b | Lot 1 : concepts 0, 1, 2 ; écrit et teste le workflow `course-lot` | à faire |
+  | T-018c | Lot 2 : concepts 3, 4, 5 | à faire |
+  | T-018d | Lot 3 : concepts 6, 7, 8 | à faire |
+  | T-018e | Lot 4 : concepts 9, 10, 11 | à faire |
+  | T-018f | Lot 5 : concepts 12, 13, 14 | à faire |
+  | T-018g | Lot 6 : concepts 15, 16, 17, annexe A1 | à faire |
+  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | à faire |
 
   ### 3. Méthode d'un lot
 
@@ -63,7 +71,8 @@
     citations), avec les erreurs relevées.
   - Distinguer source primaire, source secondaire et marketing ; signaler ce qui n'a pas pu
     être vérifié.
-  - Sortie : `maintainer/work/T-018/sources/NN-slug.md`.
+  - Sortie : `course/sources/NN-slug.md`, selon `course/templates/sources.md` ; les erreurs
+    relevées dans les fiches actuelles vont dans `maintainer/work/T-018/`.
 
   **Étape 2 : rédaction** (un agent rédacteur par concept, en parallèle, par lots)
   - Écrit `course/concepts/NN-slug.md` selon le modèle de T-017, à partir du plan (T-018a), des
@@ -73,11 +82,12 @@
     les exemples éprouvés avec sve en tenant compte de leurs « Pour améliorer le cours ».
   - Le rédacteur ne fixe aucun fait nouveau du fil rouge : s'il en a besoin, il le liste à part
     ; le coordinateur arbitre et met à jour `course/fil-rouge-velos.md`.
-  - Sources citées dans la section « Sources » du fichier du concept.
+  - Le fichier du concept ne cite aucune référence : chaque affirmation que le rédacteur
+    ajoute a sa ligne dans le fichier de sources, ou dans sa section « Non vérifié ».
 
   **Étape 3 : revues croisées** (par concept, plusieurs relecteurs indépendants, en parallèle)
-  - **Exactitude** : chaque affirmation confrontée aux sources de l'étape 1 ; consensus et
-    choix d'école correctement étiquetés.
+  - **Exactitude** : chaque affirmation confrontée aux sources de l'étape 1 et présente dans
+    `course/sources/NN-slug.md` ; consensus et choix d'école correctement étiquetés.
   - **Pédagogie** : sous-concepts tenables en 15 lignes ; chaque question teste la
     compréhension (reformuler, corriger, trancher un cas limite), jamais « as-tu compris ? » ;
     réponses attendues justes et nuancées ; pièges réalistes pour le public cible.
@@ -100,7 +110,7 @@
     améliorations).
   - Scénarios : premier concept d'un nouvel apprenant ; un concept au milieu ; reprise après
     coupure sur une question en attente ; un aparté hors cours puis retour au fil ; un concept
-    nouveau (11 à 13).
+    nouveau (12 à 17) ; « quelle est ta source ? » sur une affirmation du cours.
   - Un juge note chaque session sur une grille : règles de `CLAUDE.md` (15 lignes, une
     question qui teste, consensus et choix d'école), fidélité au contenu du concept, exemples
     dans le fil rouge, écritures mémoire attendues.
@@ -125,27 +135,26 @@
 
   ### 6. Apprenant en cours de parcours
 
-  sve suit le cours en parallèle : lis `learner/parcours.md` pour savoir où il en est (le
-  2026-10-22 : concept 10, 10b en attente ; 1 à 9 validés sur l'ancien contenu).
+  sve suit le cours en parallèle. Le 2026-10-22 (T-018a), il repart de zéro sur le plan
+  réordonné : `learner/parcours.md` remis à zéro, ses observations gardées.
   - Chaque sous-ticket se fait sur une branche ; le merge ne doit pas casser sa reprise
     (« Prochaine étape » doit pointer vers un contenu existant).
-  - Si le plan renumérote ou redécoupe les concepts, `learner/parcours.md` est mis à jour dans
-    le sous-ticket qui renumérote (statuts reportés sur la nouvelle numérotation), par exception à la règle
-    d'écriture dans `learner/` du skill `maintenance`.
-  - Un concept nouveau inséré avant le concept courant de sve lui est proposé en rattrapage,
-    pas imposé.
-  - sve peut servir de testeur réel des concepts 11 à 13 réécrits.
+  - Un sous-ticket qui renumérote ou redécoupe des concepts met à jour `learner/parcours.md` et
+    les étiquettes de `learner/observations.md`, par exception à la règle d'écriture dans
+    `learner/` du skill `maintenance`.
+  - sve peut servir de testeur réel de chaque lot, dans l'ordre du cours.
 
   ### 7. Clôture
 
-  - ADR sur les choix du curriculum (concepts retenus et écartés, public cible), si la règle
-    ADR le demande.
+  - Les choix du curriculum sont dans ADR-017 (T-018a) ; un lot qui les change fait un nouvel
+    ADR.
   - `maintainer/improvements/` : entrées traitées retirées ; celles non traitées restent.
   - `maintainer/work/T-018/` supprimé.
 
 - **Fini quand** :
-  - chaque concept de `course/plan.md` a son fichier conforme au modèle, avec sous-concepts,
-    banque d'exemples (réponses attendues comprises) et sources ;
+  - chaque concept de `course/plan.md` a son fichier conforme au modèle, avec sous-concepts et
+    banque d'exemples (réponses attendues comprises), et son fichier de sources dans
+    `course/sources/` ;
   - plus aucune mention « à réécrire », plus aucun exemple hors fil rouge sans raison écrite ;
   - tous les sous-tickets sont clos : chaque lot validé par le mainteneur, revues sans constat
     bloquant, cohérence d'ensemble sans contradiction, sessions simulées qui passent la grille ;

@@ -1,5 +1,5 @@
 ---
-concept: 10
+concept: 11
 titre: Definition of Ready / Definition of Done
 ---
 
@@ -49,7 +49,7 @@ commun à toutes.
 
 ## Banque d'exemples
 
-### DoD ou critère d'acceptation ? (10a)
+### DoD ou critère d'acceptation ? (11a)
 - **Explication** : la DoD liste les exigences de qualité que toute story remplit pour être
   « terminée » ; une seule DoD, pour toute story, jamais répétée dans chaque story. Consensus :
   la DoD est dans le Scrum Guide (engagement de l'incrément) ; une story qui ne la remplit pas ne
@@ -67,12 +67,12 @@ commun à toutes.
 - **Ce qui marche** : dire d'emblée « une seule DoD, pour toute story » plutôt que « vaut pour
   l'incrément » (formulation imprécise, relevée par un apprenant).
 
-### La DoD évolue (aparté, 10a)
+### La DoD évolue (aparté, 11a)
 - **Explication** : la DoD évolue dans le temps (souvent en rétrospective), pas selon le
   contenu. Exemple : en rétro, l'équipe vélos ajoute « chaque indicateur est documenté » après
   une confusion sur ce qu'est une « location ».
 
-### Story pas prête : accès aux données non obtenu (10b)
+### Story pas prête : accès aux données non obtenu (11b)
 - **Explication** : la DoR liste les conditions qu'une story doit remplir avant d'entrer dans un
   sprint. La DoD dit quand une story est terminée, la DoR dit quand elle peut commencer.
   Consensus : le Scrum Guide demande des items assez clairs pour être choisis au planning du

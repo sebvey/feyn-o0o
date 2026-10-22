@@ -1,5 +1,5 @@
 ---
-concept: A1
+concept: 0
 titre: Scrum en bref et l'incrément
 ---
 

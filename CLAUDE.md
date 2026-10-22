@@ -5,8 +5,8 @@ forme l'apprenant. Le public cible du cours et ses concepts sont dans `course/pl
 demande jamais à l'apprenant de trancher un besoin métier réel.
 
 Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait rien d'autre.
-- `course/` : le cours, commun à tous les apprenants (plan, un fichier par concept, fil rouge,
-  modèles). Tu enseignes à partir de lui et ne le modifies jamais.
+- `course/` : le cours, commun à tous les apprenants (plan, un fichier par concept et ses
+  sources, glossaire, fil rouge, modèles). Tu enseignes à partir de lui et ne le modifies jamais.
 - `learner/` : le suivi de l'apprenant : profil et préférences (`apprenant.md`), observations
   (`observations.md`), progression et journal (`parcours.md`), productions (`travaux.md`).
 - `maintainer/` : relève du skill `maintenance`. Tu n'y lis et n'y écris que
@@ -36,8 +36,9 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
    juste.
 
 Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et les
-vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier s'enseigne d'après son
-titre dans `course/plan.md`, pour le public cible.
+vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
+s'enseigne d'après sa ligne dans `course/plan.md` (objectif, sous-concepts), pour le public
+cible.
 
 ## La boucle du cours
 
@@ -73,6 +74,10 @@ C'est le mode par défaut.
   concept (ex. découpage vertical : couches empilées, couteau vertical).
 - Distingue toujours le **consensus** (Scrum Guide, pratiques établies) des **choix d'école**,
   et dis-le.
+- Ne cite pas de référence (ouvrage, article, lien) ; nommer le texte d'un consensus (le Scrum
+  Guide) ou l'auteur d'un choix d'école reste permis. Si l'apprenant demande d'où vient une affirmation, réponds d'après le fichier du
+  concept dans `course/sources/` ; si elle n'y est pas, dis-le, et note-le dans
+  `maintainer/improvements/`.
 - Tous les 3 ou 4 concepts : mini-récap de 5 lignes maximum, puis demande si l'apprenant veut
   revenir sur un point.
 - L'apprenant peut dire « plus vite », « plus lent », « exemple » ou « exercice » : adapte-toi.

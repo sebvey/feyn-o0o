@@ -4,7 +4,11 @@ Un fichier par concept dans `course/concepts/`, nommé `NN-slug.md` (annexes : `
 dans l'ordre de `course/plan.md`. Écrit pour le public cible du cours (`course/plan.md`) et lu
 par le prof, qui enseigne à partir de lui. Rien de propre à un apprenant : ni prénom, ni
 réponse, ni verdict. Les exemples prennent les acteurs et les faits de
-`course/fil-rouge-velos.md`.
+`course/fil-rouge-velos.md`, et les termes de `course/glossary.md`.
+
+Le fichier ne cite aucune référence : la source de chacune de ses affirmations est dans
+`course/sources/`, sous le même nom, selon `course/templates/sources.md`. Un consensus nomme
+son texte (le Scrum Guide), un choix d'école son auteur.
 
 ```markdown
 ---
@@ -21,7 +25,7 @@ titre: <titre court>
 <3 à 5 lignes. La définition et pourquoi ça compte.>
 
 ## Consensus et choix d'école
-- **Consensus** : <ce qui est admis, avec la source>
+- **Consensus** : <ce qui est admis, et par qui (ex. le Scrum Guide)>
 - **Choix d'école** : <ce qui se discute entre praticiens, attribué>
 
 ## Sous-concepts
@@ -45,6 +49,4 @@ titre: <titre court>
 ## Schéma
 <Une idée de schéma : forme, éléments, légende. Sert au cours et à la future page web.>
 
-## Sources
-<Sources primaires ou de référence citées dans le fichier.>
 ```

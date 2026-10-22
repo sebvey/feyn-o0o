@@ -1,5 +1,5 @@
 ---
-concept: 9
+concept: 10
 titre: Hors périmètre et dépendances
 ---
 
@@ -52,10 +52,10 @@ story et retarde cette valeur. On ordonne : A avant B.
 - Ne rien écrire hors périmètre : le métier comble les silences avec ses attentes, et la revue
   tourne au « c'est un bug ».
 - Traiter une demande sortie du hors périmètre comme due au prochain sprint : elle entre au
-  backlog et se priorise comme les autres (concept 11).
+  backlog et se priorise comme les autres (concept 13).
 - Fusionner deux stories pour « supprimer » une dépendance saine : on perd une livraison.
 - Accepter deux stories dont aucune n'a de valeur seule : c'est un découpage horizontal
-  (concept 8), on redécoupe.
+  (concept 9), on redécoupe.
 - Lister des évidences que personne n'attend : le hors périmètre ne sert que pour les demandes
   plausibles.
 
@@ -70,7 +70,7 @@ plausibles exclues, chacune avec une flèche vers « backlog, à prioriser ».
 
 ## Banque d'exemples
 
-### Hors périmètre d'une story de maintenance (9a)
+### Hors périmètre d'une story de maintenance (10a)
 - **Explication** : le hors périmètre dit ce que la story ne fait pas alors qu'on pourrait
   raisonnablement l'attendre ; il aligne les attentes avant le sprint. Pratique courante de
   rédaction, absente du Scrum Guide.
@@ -85,9 +85,9 @@ plausibles exclues, chacune avec une flèche vers « backlog, à prioriser ».
 - **Réponse attendue** : ce n'est pas un défaut, c'était convenu hors périmètre (le PO montre la
   ligne) ; la demande est légitime, le PO l'ajoute au backlog comme nouvelle story et la
   priorise (elle peut passer devant le reste, mais c'est une décision, pas un dû).
-- **Erreur fréquente** : supposer que la demande se traite aussitôt. Lien vers le concept 11.
+- **Erreur fréquente** : supposer que la demande se traite aussitôt. Lien vers le concept 13.
 
-### Dépendance : fusionner deux stories de la collectivité ? (9b)
+### Dépendance : fusionner deux stories de la collectivité ? (10b)
 - **Explication** : une story dépend d'une autre quand elle ne peut pas être livrée, ou n'a pas
   de sens, avant elle. Le I d'INVEST demande de les réduire ; certaines sont naturelles : on les
   rend visibles et on ordonne le backlog. Consensus : réduire et rendre visible. Choix d'école :
@@ -102,6 +102,6 @@ plausibles exclues, chacune avec une flèche vers « backlog, à prioriser ».
   la dépendance ». Bonne idée ou pas, et pourquoi ?
 - **Réponse attendue** : plutôt non. La fusion grossit la story (S) et retarde la valeur de A.
   La dépendance A puis B est saine : on ordonne (A avant B). Une dépendance pose problème quand
-  aucune des deux stories n'a de valeur seule (découpage horizontal, concept 8) : là, on
+  aucune des deux stories n'a de valeur seule (découpage horizontal, concept 9) : là, on
   redécoupe. Fusionner se défend si les deux sont minuscules.
 - **Ce qui marche** : demander « et alors, on fait quoi ? » si la réponse s'arrête au « non ».

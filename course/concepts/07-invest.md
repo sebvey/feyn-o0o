@@ -1,5 +1,5 @@
 ---
-concept: 6
+concept: 7
 titre: INVEST
 ---
 
@@ -30,7 +30,7 @@ Vélos en libre-service, le N (Negotiable) :
 
 Le métier ajoute : un tiers des abonnés n'a qu'un téléphone basique. Réponse de sve : le SMS
 reste négociable. Juste : ce qui devient non négociable, c'est la contrainte (téléphone
-basique, sans l'appli), et elle s'écrit dans un critère d'acceptation (concept 7), pas en
+basique, sans l'appli), et elle s'écrit dans un critère d'acceptation (concept 8), pas en
 nommant un canal. Négociable ne veut pas dire « tout est ouvert ».
 
 ## Pièges
@@ -70,4 +70,4 @@ renseigné », puis v4 avec ces cases passées au vert, T en orange.
   c'est la contrainte « sans l'appli, depuis un téléphone basique ». Elle va dans un critère
   d'acceptation formulé sans nommer de canal (« Given Julie n'a qu'un téléphone basique… »).
   Négociable ne veut pas dire « tout est ouvert ».
-- **Suite possible** : faire écrire ce critère en Given/When/Then (voir concept 7).
+- **Suite possible** : faire écrire ce critère en Given/When/Then (voir concept 8).

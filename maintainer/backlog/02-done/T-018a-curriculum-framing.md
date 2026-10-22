@@ -36,3 +36,12 @@
 - **Fini quand** : le mainteneur a validé `course/plan.md` et `course/fil-rouge-velos.md` ; les
   sous-tickets des lots et le sous-ticket final existent, chacun avec `Parent` et `Dépend de` ;
   le tableau de T-018 est à jour.
+- **Fait le** : 2026-10-22, brouillon de cadrage par un agent (`maintainer/work/T-018/framing.md`),
+  discuté avec le mainteneur : plan réordonné en 18 concepts (`course/plan.md`, objectifs et
+  sous-concepts), fiches et améliorations renumérotées, glossaire (`course/glossary.md`), fil
+  rouge complété (F1 à F11, situations par concept), sve remis à zéro, sous-tickets T-018b à
+  T-018h, ADR-017 ; T-021 (sprints) et T-022 (sources) créés en chemin. Test par sous-agent
+  neuf (on reprend, on continue, réponse partielle, « quelle est ta source ? », arrêt) : bons
+  chemins, concept 0 annoncé, cadre du fil rouge présenté, réponses de 2 à 8 lignes, source
+  manquante signalée et notée, reprise propre. Corrigé après le test : nommer le Scrum Guide
+  reste permis, renvoi périmé à l'annexe A1, question de contrôle du concept 0 confiée à T-018b.
