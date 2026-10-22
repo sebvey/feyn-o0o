@@ -8,3 +8,4 @@
   la retirer du concept s'il la cite.
 - **Fini quand** : la date est sourcée ou classée non vérifiée, et le concept 12 est cohérent
   avec son fichier de sources.
+- **Fait le** : 2026-10-23, la date 2017 du DMBOK 2 était appuyée par le recensement de DAMA NL [S5] sans le dire : précisé dans la ligne de 12b de `course/sources/12-donnees-produit.md` ; le concept 12 ne cite pas le DMBOK ; pas de test (aucune procédure modifiée).
