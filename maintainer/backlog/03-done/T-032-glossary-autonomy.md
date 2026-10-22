@@ -18,3 +18,4 @@
 - **Fini quand** : la règle est dans le skill, un ADR la trace, et un sous-agent neuf qui lit
   le skill dit qu'il ajoute seul un terme manquant au glossaire et le signale dans la PR, mais
   propose un changement de sens ou un fait du fil rouge.
+- **Fait le** : 2026-10-22, exception ajoutée au skill `maintenance` (« Périmètre ») ; ADR-025, ADR-020 « complété par ADR-025 » ; T-018 §3 et §5 alignés (le coordinateur complète le glossaire seul, propose l'arbitrage du fil rouge, que le mainteneur valide : T-018 disait qu'il l'arbitrait seul). Test par sous-agent neuf sur six cas : ajout et précision appliqués seuls et signalés dans la PR ; élargissement de sens, retrait, fait du fil rouge et coquille du plan proposés ; conforme. Ambiguïté restante, non tranchée : changer la colonne « Concept » d'un terme (avancer son introduction) se lit comme une précision ou comme un changement ; le sous-agent l'a proposé, par prudence.

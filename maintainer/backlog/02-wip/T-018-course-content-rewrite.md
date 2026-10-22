@@ -94,7 +94,9 @@
     chacun avec réponse attendue, erreurs fréquentes et ce qui marche pour expliquer ; garder
     les exemples éprouvés avec sve en tenant compte de leurs « Pour améliorer le cours ».
   - Le rédacteur ne fixe aucun fait nouveau du fil rouge : s'il en a besoin, il le liste à part
-    ; le coordinateur arbitre et met à jour `course/fil-rouge-velos.md`.
+    ; le coordinateur propose un arbitrage, le mainteneur valide, puis le coordinateur met à
+    jour `course/fil-rouge-velos.md`. Un terme manquant, le coordinateur l'ajoute seul au
+    glossaire et le signale dans la PR (ADR-025).
   - Le fichier du concept ne cite aucune référence : chaque affirmation que le rédacteur
     ajoute a sa ligne dans le fichier de sources, ou dans sa section « Non vérifié ».
 
@@ -134,8 +136,8 @@
 
   ### 5. Organisation agentique
 
-  - Un **coordinateur** (la session de maintenance) : tient le plan, arbitre les faits du fil
-    rouge, fusionne les retours, présente chaque lot au mainteneur.
+  - Un **coordinateur** (la session de maintenance) : tient le plan, propose l'arbitrage des faits
+    du fil rouge, complète le glossaire, fusionne les retours, présente chaque lot au mainteneur.
   - Chaque lot tourne en workflow multi-agents (pipeline : sources -> rédaction -> revues ->
     corrections, chaque concept avance dès que son étape précédente est finie). Le premier
     sous-ticket de lot écrit ce workflow, le sauvegarde dans `.claude/workflows/course-lot`
