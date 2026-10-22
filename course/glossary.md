@@ -36,6 +36,7 @@ fichier à l'apprenant.
 | Epic, feature, story, tâche | epic, feature, story, task | Niveaux de découpage d'un besoin, choisis par l'équipe ; la tâche est du travail des Developers, pas un besoin | 4 |
 | User story (story) | user story | Un besoin précis d'un utilisateur, vu de lui ; format courant (choix d'école) : en tant que, je veux, afin de | 5 |
 | 3C | Card, Conversation, Confirmation | Une story est une carte, une conversation et une confirmation (Jeffries) | 5 |
+| Acteur (d'une story) | actor | Rôle qui fait l'action du « je veux » et y gagne ce que dit le « afin de » (heuristique du cours) | 6 |
 | Rôle | user role | Catégorie d'utilisateurs aux besoins communs | 6 |
 | Persona | persona | Portrait fictif d'un rôle, construit à partir d'utilisateurs réels (choix d'école, Cooper) | 6 |
 | INVEST | INVEST | Six critères d'une story bien formée (Wake) | 7 |
