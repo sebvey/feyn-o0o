@@ -2,7 +2,6 @@
 
 - **Créé le** : 2026-10-22
 - **Parent** : T-018
-- **Dépend de** : T-021 (le concept 0 annonce le parti pris des sprints)
 - **Constat** : découpage de T-018a. Les fiches 0 (`00-scrum.md`) et 1 (`01-produit-et-po.md`)
   sont migrées sans exemple ; le concept 2 (objectif produit et résultat) n'a pas de fichier.
 - **À faire** :
@@ -10,7 +9,10 @@
     (objectif, prérequis, sous-concepts) et leurs situations dans `course/fil-rouge-velos.md`.
   - Entrées propres au lot : `maintainer/work/T-018/framing.md` §2.2 (objectif produit, mesure
     de la valeur) et §2.4 (A1, devenu 0 : « le sprint contient quatre événements » ; « environ
-    13 pages » non vérifié) ; observations `[c0]` et `[c1]` ; la décision de T-021.
+    13 pages » non vérifié) ; observations `[c0]` et `[c1]`.
+  - Concept 0 : annoncer le parti pris des sprints selon `course/plan.md`, section « Parti pris »
+    (ADR-018). La « Pratique répandue » de l'ancienne fiche 00 (« beaucoup d'équipes
+    n'appliquent pas Scrum ») a été retirée par T-021, faute de source : ne pas la réintroduire.
   - Concept 0 : écrire la question de contrôle qui permet de le passer si l'apprenant connaît
     Scrum, sa réponse attendue et ce qu'on fait d'une réponse partielle (le test de T-018a l'a
     vu improvisée : « il y a des sprints et le PO écrit les tickets »).
