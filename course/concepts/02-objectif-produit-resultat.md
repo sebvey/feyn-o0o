@@ -100,7 +100,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Situation** : quatre phrases entendues autour de la plateforme.
   1. « La plateforme calcule chaque jour le temps pendant lequel chaque station est vide. »
   2. « Bruno envoie un régulateur dès qu'une station du centre-ville se vide. »
-  3. « Les données des stations sont rafraîchies toutes les 15 minutes. »
+  3. « Les données des stations sont rafraîchies toutes les 5 minutes. »
   4. « Les stations du centre-ville restent moins longtemps vides aux heures de pointe. »
 - **Question** : classe chaque phrase en livrable ou résultat.
 - **Réponse attendue** : 1 et 3 sont des livrables ; 2 est un résultat intermédiaire (un

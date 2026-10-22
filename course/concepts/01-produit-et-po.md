@@ -58,7 +58,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Explication** : un produit se décrit par le problème qu'il résout, pour qui, et ce que ça
   change pour eux. La technique dit comment il est fait, pas pourquoi il existe.
 - **Situation** : un nouvel arrivant chez l'opérateur demande ce qu'est la plateforme. Un data
-  engineer répond : « Un entrepôt qui collecte les relevés des stations toutes les 15 minutes,
+  engineer répond : « Un entrepôt qui collecte les relevés des stations toutes les 5 minutes,
   avec des vues et des alertes par-dessus. »
 - **Question** : Réécris cette présentation avec la grille problème, utilisateurs, valeur, en
   deux ou trois phrases, sans mot technique.
@@ -118,7 +118,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 ### Léa propose de passer au streaming (1b)
 - **Explication** : le PO répond du quoi, de l'ordre et du pourquoi ; les Developers, du comment
   et du coût.
-- **Situation** : la plateforme se rafraîchit toutes les 15 minutes. Léa, data engineer,
+- **Situation** : la plateforme se rafraîchit toutes les 5 minutes. Léa, data engineer,
   propose de passer les relevés des stations en streaming. Yanis te demande : « Tu valides ? »
 - **Question** : Dans cette proposition, qu'est-ce qui relève de toi, PO, et qu'est-ce qui
   relève des Developers ?
