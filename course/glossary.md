@@ -55,7 +55,7 @@ fichier à l'apprenant.
 | Qualité des données | data quality | Respect de règles mesurables (complétude, unicité, fraîcheur, validité, exactitude, cohérence) | 12 |
 | Source de données | data source | Système qui produit les données, avec son propriétaire | 12 |
 | Donnée personnelle | personal data | Information sur une personne identifiée ou identifiable (RGPD) | 12 |
-| Ordonner | order | Décider de la place de chaque élément dans le backlog | 13 |
+| Ordonner | order | Décider de la place de chaque élément dans le backlog | 3, 13 |
 | Coût du retard | cost of delay | Ce qu'on perd à livrer plus tard (choix d'école) | 13 |
 | MoSCoW | MoSCoW | Classement Must, Should, Could, Won't pour une échéance (choix d'école) | 13 |
 | Sponsor | sponsor | Responsable qui porte le budget du produit et arbitre au-delà du PO | 14 |

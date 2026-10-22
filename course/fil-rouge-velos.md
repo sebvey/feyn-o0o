@@ -104,7 +104,7 @@ du concept prime.
 | 2 | La vue des stations vides est livrée : les stations restent-elles moins longtemps vides ? Formuler l'objectif produit avec Agnès ; choisir sa mesure |
 | 3 | Les demandes arrivent en vrac (Bruno, Sophie, Claire, Inès) : qu'est-ce qu'un backlog, et ce qu'il n'est pas |
 | 4 | « Suivre l'état du réseau » (Bruno) : epic, features (stations vides, vélos en panne, locations du jour), stories |
-| 5 | Sophie veut le nombre de vélos en panne par semaine : les « pourquoi ? » successifs |
+| 5 | Sophie veut le nombre de vélos en panne par semaine : les « pourquoi ? » successifs passent par le nombre de vélos à réparer et mènent au nombre de techniciens en tournée |
 | 6 | La tournée de réparation : acteur Hugo ou Sophie ? Julie comme persona |
 | 7 | Le SMS de Julie : solution ou contrainte ? |
 | 8 | Disponibilité de la station favorite de Julie : critères et règles métier |

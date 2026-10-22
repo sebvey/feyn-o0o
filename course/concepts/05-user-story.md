@@ -5,40 +5,234 @@ titre: La user story
 
 # La user story
 
-> Contenu migré tel quel depuis les fiches de sve (T-017), à réécrire pour le public cible
-> selon `course/templates/concept.md` (T-018).
+## Objectif
+Écrire une story qui dit qui a le besoin, ce qu'il veut faire et pourquoi, sans imposer de
+solution ; savoir que la phrase seule ne suffit pas (les 3C) ; faire remonter un « afin de »
+faible jusqu'à la décision ou au gain que l'utilisateur reconnaît.
 
 ## L'essentiel
-Une user story exprime **un besoin précis** d'un utilisateur, pas son parcours entier :
-**En tant que** (qui) **je veux** (quoi, vu de l'utilisateur, sans solution imposée) **afin de**
-(pourquoi : la valeur). Le « afin de » permet au PO de prioriser et à l'équipe de proposer une
-solution plus simple qui sert le même but.
+Une **user story** (story) exprime **un besoin précis** d'un utilisateur, vu de lui, pas son
+parcours entier ni une spécification : **en tant que** (qui), **je veux** (quoi, sans solution
+imposée), **afin de** (sa raison). La raison aide le PO à ordonner et laisse l'équipe choisir
+comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne suffit pas : la
+**conversation** précise la story, la **confirmation** dit comment vérifier qu'elle est faite
+(les 3C).
 
 ## Consensus et choix d'école
-- **Choix d'école devenu quasi standard** : le format « en tant que / je veux / afin de »,
-  popularisé vers 2001 chez Connextra.
-- **Consensus** (Ron Jeffries, les « 3C ») : une story est une **Carte** (la phrase), une
-  **Conversation** (les échanges qui la précisent) et une **Confirmation** (les critères
-  d'acceptation). La phrase seule ne suffit jamais.
+- **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle pas de story et n'impose aucun
+  format aux éléments du backlog ; il cite des attributs (description, ordre, taille) qui varient
+  selon le domaine. Rien de ce concept n'est donc du consensus Scrum.
+- **Pratique établie** (hors Scrum Guide) : la story vient d'Extreme Programming (XP), où Kent
+  Beck a introduit le terme. Les 3C (carte, conversation, confirmation) sont de Ron Jeffries
+  (XP), en 2001.
+- **Choix d'école** :
+  - le format « en tant que / je veux / afin de » : modèle de Rachel Davies, chez Connextra
+    (Londres), au début des années 2000 ; devenu le plus courant, sans être obligatoire (Mike
+    Cohn, qui le recommande, le dit lui-même) ;
+  - rapprocher la confirmation des critères d'acceptation : lecture courante ; Jeffries parle de
+    tests d'acceptation, des exemples définis par le client ;
+  - poser des « pourquoi ? » successifs sur le « afin de » : choix du cours, inspiré des « cinq
+    pourquoi » venus de Toyota (conçus pour remonter à la cause d'un problème ; le nombre de
+    « pourquoi ? » varie selon le problème).
 
-## Sur un exemple
-<À réécrire avec un exemple générique.>
+## Sous-concepts
+1. **5a les trois parties et les 3C** : qui (l'utilisateur qui a le besoin, désigné par son
+   rôle, c'est-à-dire sa catégorie d'utilisateurs ; le choix de l'acteur se travaille au
+   concept 6), quoi (ce qu'il veut faire ou savoir, sans solution), pourquoi (sa raison). Un
+   seul « je veux » ; s'il y en a plusieurs, ce n'est plus une story (feature ou epic,
+   concept 4 ; un parcours, concept 16). Origine : XP, format de Connextra, absent du Scrum
+   Guide. Les 3C : la carte (la phrase écrite) ne contient pas tout le besoin, la conversation
+   le précise, la confirmation dit comment vérifier.
+   Découpe en deux messages : **5a1** les trois parties, avec « La demande de Sophie » ou « Une
+   semaine de Sophie » ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
+   ligne. Chaque message a sa question.
+2. **5b le « afin de » et les « pourquoi ? » successifs** : un « afin de » circulaire (il répète
+   le « je veux ») ou de confort (« avoir une vue claire ») n'aide ni à ordonner ni à choisir une
+   solution. Le PO demande « pourquoi ? » à l'utilisateur, plusieurs fois, et s'arrête à une
+   décision qu'il prend ou un gain qu'il reconnaît. Trop haut, la raison devient l'objectif
+   produit ou une raison générale, commune à toutes les stories. Le PO n'invente pas la raison : il
+   la demande.
+
+## Banque d'exemples
+
+Dans les exemples de 5b, le prof joue Sophie : il donne ses réponses d'après le fil rouge, et
+l'apprenant, en PO, pose les questions. « Trois “afin de” à juger » donne la raison de Sophie :
+ne le prendre qu'après « Remonter de la demande à la décision », ou avec un apprenant qui l'a
+déjà trouvée. Les brouillons de stories à corriger sont inventés pour
+l'exercice : ils ne deviennent pas des faits du fil rouge.
+
+### La demande de Sophie, en story (5a1)
+- **Explication** : une story dit qui, quoi, pourquoi. Le « je veux » décrit ce que
+  l'utilisateur veut faire ou savoir, pas comment l'équipe le construit. Le format vient de
+  Connextra, au début des années 2000 (choix d'école) ; le Scrum Guide ne parle pas de story.
+- **Situation** : Sophie, responsable maintenance, encadre les techniciens. Elle demande le
+  nombre de vélos en panne par semaine. Yanis, data engineer, a ajouté au backlog : « Créer une
+  table hebdomadaire des signalements de pannes, alimentée par un traitement chaque nuit. »
+- **Question** : réécris cet élément en story.
+- **Réponse attendue** : il manque le qui et le pourquoi, et le quoi est une solution (une
+  table, un traitement de nuit : c'est le comment des Developers). Par exemple : « En tant que
+  responsable maintenance, je veux connaître le nombre de vélos en panne chaque semaine, afin
+  de… ». Nuance : le « afin de » ne s'invente pas ; on le laisse ouvert et on le demande à
+  Sophie (5b). La table de Yanis peut devenir une tâche sous la story (concept 4).
+- **Erreurs fréquentes** :
+  - garder la solution en la déplaçant (« je veux une table des pannes ») : demander « qu'est-ce
+    que Sophie veut savoir, sans parler de table ? » ;
+  - inventer un « afin de » plausible (« afin de réduire les pannes ») : rappeler que c'est à
+    Sophie de le dire ;
+  - écrire « en tant qu'utilisateur » : trop vague, Sophie a un rôle précis (concept 6).
+- **Ce qui marche** : faire lire la phrase à voix haute à la place de Sophie : « est-ce qu'elle
+  dirait ça elle-même ? ». Une table, elle ne la demanderait pas. Relance si la réécriture garde
+  la table : « quelles parties d'une story manquaient à l'élément de Yanis ? ».
+
+### Une semaine de Sophie : story ou parcours ? (5a1)
+- **Explication** : une story exprime un besoin, pas tout ce que fait l'utilisateur. Le parcours
+  sert ailleurs : il organise le backlog en story map, une carte des stories rangées sous les
+  étapes du parcours (concept 16).
+- **Situation** : brouillon d'exercice : « En tant que responsable maintenance, chaque semaine,
+  je consulte les signalements de pannes, je compte les vélos en panne, j'organise la semaine
+  des techniciens et je préviens les techniciens. »
+- **Question** : est-ce une story ? Tranche et justifie.
+- **Réponse attendue** : non, c'est un parcours : quatre actions, donc plusieurs besoins
+  possibles, et aucun « je veux » ni « afin de ». La plateforme sert surtout l'étape « compter
+  les vélos en panne » : « je veux connaître le nombre de vélos en panne chaque semaine, afin
+  de… ». Le « afin de » reste ouvert : on le demandera à Sophie (5b). Prévenir les techniciens
+  ne relève pas forcément de la plateforme ; si c'était un besoin, ce serait une autre story.
+  Le prof ne révèle pas ici le lien entre le comptage et la décision de Sophie : 5b le fait
+  trouver par les « pourquoi ? ».
+- **Erreurs fréquentes** :
+  - « oui, c'est une story, elle décrit ce que fait l'utilisateur » : c'est la confusion la plus
+    probable chez qui n'a jamais lu de story ; compter les actions ;
+  - garder les quatre étapes dans un seul « je veux » : une story, un « je veux » (concept 4).
+- **Ce qui marche** : « combien de “je veux” caches-tu là-dedans ? » ; relance après le « non » :
+  « lequel la plateforme peut-elle servir ? ».
+
+### La carte suffit-elle ? (5a2)
+- **Explication** : les 3C (Jeffries, XP, pratique établie) : la carte, la phrase écrite,
+  représente le besoin sans le contenir en entier ; la conversation le précise ; la confirmation
+  dit comment vérifier que la story est faite. On la rapproche couramment des critères
+  d'acceptation, conditions vérifiables qui disent quand la story est faite (concept 8).
+- **Situation** : la story de Sophie est écrite : « En tant que responsable maintenance, je veux
+  connaître le nombre de vélos en panne chaque semaine, afin de… » (le « afin de » reste à
+  demander à Sophie, 5b). Nora, analyste, dit : « La carte est claire, je m'y mets. » Les
+  signalements de pannes viennent de l'appli ; ceux reçus par téléphone n'y sont pas saisis.
+- **Question** : que manque-t-il avant que Nora puisse s'y mettre et dire un jour que c'est fait ?
+- **Réponse attendue** : la conversation et la confirmation. La conversation, avec Sophie et
+  Nora : les signalements par téléphone manquent dans la source, le chiffre sera donc incomplet,
+  est-ce acceptable pour ce que Sophie en fera ? Qu'appelle-t-on une semaine ? Ce qui compte
+  comme « en panne » se précise aussi (concepts 12 et 15). La confirmation : comment Sophie et Nora
+  vérifieront que le chiffre est juste, écrit en critères d'acceptation (concept 8). Nuance : la
+  carte n'est pas à allonger ; c'est la conversation qui porte le détail.
+- **Erreurs fréquentes** :
+  - allonger la phrase pour tout y mettre (« … hors signalements par téléphone, du lundi au
+    dimanche ») : la phrase reste courte, le détail va dans la conversation et la confirmation ;
+  - trancher soi-même le cas des signalements par téléphone : c'est à voir avec Sophie.
+- **Ce qui marche** : donner les trois mots anglais (Card, Conversation, Confirmation) et leur
+  origine XP, puis demander : « si Nora ne parle à personne, que risque-t-elle de livrer ? ».
+
+### Trois « afin de » à juger (5b)
+- **Explication** : le « afin de » donne la raison du besoin. Il aide le PO à
+  ordonner les stories et laisse l'équipe choisir comment répondre. Un « afin de » qui répète le
+  « je veux » (circulaire) ou qui parle de confort ne fait ni l'un ni l'autre.
+- **Situation** : trois fins possibles pour « En tant que responsable maintenance, je veux
+  connaître le nombre de vélos en panne chaque semaine… » :
+  1. « … afin de suivre le nombre de vélos en panne. »
+  2. « … afin d'avoir une vue claire des pannes. »
+  3. « … afin de fixer le nombre de techniciens en tournée. »
+- **Question** : lequel aide le PO à ordonner et l'équipe à choisir une solution ?
+- **Réponse attendue** : le 3. Le 1 est circulaire : il redit le « je veux ». Le 2 est de
+  confort : il ne dit pas ce que la clarté change pour Sophie. Le 3 nomme une décision que Sophie
+  prend chaque semaine : on connaît la raison (des tournées bien dimensionnées), on peut
+  comparer cette story à d'autres, et l'équipe peut proposer une autre réponse qui sert la même
+  décision, parfois plus simple (le chiffre envoyé chaque semaine plutôt qu'une nouvelle vue,
+  par exemple). Nuance : le 3 n'est juste que si Sophie le confirme.
+- **Erreurs fréquentes** :
+  - choisir le 2 « parce qu'une vue claire, c'est de la valeur » : demander « clair pour décider
+    quoi ? » ;
+  - juger le 1 acceptable « parce qu'il est vrai » : vrai, mais il n'apprend rien de plus que le
+    « je veux ».
+- **Ce qui marche** : cacher le « je veux » et lire le seul « afin de » : s'il ne dit rien de
+  neuf, il ne sert pas. Relance si l'apprenant choisit le 3 sans juger les autres : « que
+  reproches-tu au 1 et au 2 ? ».
+
+### Remonter de la demande à la décision (5b)
+- **Explication** : quand le « afin de » est faible, le PO demande « pourquoi ? » à l'utilisateur,
+  plusieurs fois, jusqu'à une décision que celui-ci prend ou un gain qu'il reconnaît. La
+  technique rappelle les « cinq pourquoi » venus de Toyota ; ici, le nombre importe peu.
+- **Situation** : tu as écrit « … afin de suivre les pannes ». Le prof joue Sophie, que
+  l'apprenant peut interroger.
+- **Réponses de Sophie, à donner seulement quand l'apprenant pose la question** : au premier
+  « pourquoi ? » : « Pour savoir combien de vélos mes techniciens auront à réparer. » Au second :
+  « Parce que chaque semaine, je fixe le nombre de techniciens en tournée. »
+- **Question** : pose tes « pourquoi ? » à Sophie, puis réécris le « afin de ».
+- **Réponse attendue** : « … afin de fixer le nombre de techniciens en tournée ». On s'arrête là
+  parce que c'est une décision que Sophie prend elle-même, chaque semaine : elle reconnaît la
+  raison, et la story sert cette décision. Un « pourquoi ? » de plus mènerait à une raison générale
+  (des vélos réparés plus vite, un meilleur service) que partagent beaucoup de stories.
+  Nuance : la première réponse de Sophie (« combien de vélos à réparer ») est déjà meilleure que
+  « suivre les pannes », mais elle ne dit pas encore ce qu'elle en fait.
+- **Erreurs fréquentes** :
+  - répondre à la place de Sophie au lieu de lui poser la question : le PO demande, il n'invente
+    pas la raison ;
+  - s'arrêter au premier « pourquoi ? » : relancer par « et qu'en fait-elle ? ».
+- **Ce qui marche** : les « pourquoi ? » successifs, posés à voix haute ; puis « Sophie dirait-elle
+  “oui, c'est exactement pour ça” ? ». Relance si l'apprenant ne justifie pas où il s'arrête :
+  « pourquoi t'arrêter là ? ».
+
+### Un « afin de » trop haut (5b)
+- **Explication** : trop de « pourquoi ? » mènent à une raison si générale qu'elle vaut pour
+  toutes les stories : elle n'aide plus à les ordonner entre elles.
+- **Situation** : Yanis propose, pour la story de Sophie : « … afin que les stations du
+  centre-ville restent moins longtemps vides aux heures de pointe. » C'est l'objectif produit de
+  la plateforme.
+- **Question** : ce « afin de » est-il meilleur que « afin de fixer le nombre de techniciens en
+  tournée » ? Tranche et justifie.
+- **Réponse attendue** : non. C'est l'objectif produit (concept 2) : beaucoup de stories y
+  contribuent, il ne distingue pas celle-ci. Il n'est pas non plus le gain de Sophie : rien
+  dans le fil rouge ne relie le nombre de techniciens en tournée aux stations vides, et Sophie
+  ne le reconnaîtrait pas comme sa raison. Le bon « afin de » est la décision de Sophie ; le lien
+  avec l'objectif produit, s'il existe, se discute quand le PO ordonne le backlog (concept 13).
+- **Erreurs fréquentes** :
+  - « oui, il est plus ambitieux » : ambitieux ne veut pas dire utile pour décider ;
+  - forcer le lien (« des vélos réparés, donc des stations moins vides ») : c'est une hypothèse,
+    pas la raison de Sophie (concept 17).
+- **Ce qui marche** : « si toutes les stories du backlog avaient ce “afin de”, comment
+  choisirais-tu laquelle faire d'abord ? ».
 
 ## Pièges
-- Acteur technique (« en tant que data engineer ») : ce n'est pas un utilisateur.
-- Solution dans le « je veux » (« le dashboard me fournit une liste ») : laisse l'équipe choisir
-  (un e-mail quotidien ferait peut-être mieux).
-- « Afin de » circulaire (« identifier les problèmes ») ou de confort (« supprimer la
-  crispation ») : demande « et pourquoi ? » jusqu'à un enjeu qu'un responsable métier
-  reconnaîtrait.
-- Chiffre précis dans la phrase (« moins de 2 secondes ») : il va dans les critères
-  d'acceptation.
-- Contradiction interne (« temps réel » et « 7 derniers jours »).
+- **La story vue comme le parcours de l'utilisateur** : piège probable de qui n'a jamais lu de
+  story. Une story est un besoin ; le parcours organise les stories en story map (concept 16).
+  Le repérer quand la phrase enchaîne plusieurs actions.
+- **Une solution dans le « je veux »** (« je veux une table des pannes », « un graphique dans la
+  vue de Bruno ») : écrire le besoin et laisser l'équipe proposer la solution ; le concept 7 y
+  revient (besoin ou solution).
+- **« Afin de » circulaire ou de confort** (« afin de suivre les pannes », « afin d'avoir une
+  vue claire ») : demander « pourquoi ? » à l'utilisateur jusqu'à une décision ou un gain qu'il
+  reconnaît.
+- **« Afin de » trop haut** (l'objectif produit, « améliorer le service ») : il vaut pour
+  toutes les stories et n'aide plus à ordonner.
+- **Inventer la raison** au lieu de la demander à l'utilisateur.
+- **Acteur technique** (« en tant que data engineer, je veux un traitement qui calcule les
+  pannes ») : l'acteur est celui qui agit et y gagne, pas celui qui construit. Un data engineer
+  qui consomme la plateforme peut être un utilisateur (concept 1) ; le choix de l'acteur se
+  travaille au concept 6.
+- **Chiffre précis dans la phrase** (« … à jour de moins de 15 minutes ») : il va dans un critère
+  d'acceptation (concept 8).
+- **Contradiction interne** (« je veux en temps réel le nombre de vélos en panne par semaine ») :
+  la conversation tranche lequel des deux est le besoin.
+- **Croire que le format est obligatoire** : le Scrum Guide n'impose aucun format ; « en tant
+  que / je veux / afin de » est un choix d'école, devenu courant.
 
 ## Le test rapide
-Lis le « afin de » à voix haute à un responsable métier : dit-il « ah oui, ça compte » ?
+Lis le seul « afin de » à la personne qui a fait la demande : reconnaît-elle une décision qu'elle
+prend ou un gain qu'elle attend (« oui, c'est pour ça ») ? Et le « je veux » nomme-t-il un besoin,
+sans table, vue ni traitement ?
 
-## Visuel suggéré
-La phrase en trois blocs colorés (qui / quoi / pourquoi), le troisième mis en avant, avec une
-échelle « pourquoi ? pourquoi ? pourquoi ? » qui remonte de « identifier les problèmes » à
-« corriger au fil de l'eau plutôt qu'à la clôture ».
+## Schéma
+La phrase en trois blocs côte à côte : « En tant que » (qui), « je veux » (quoi, sans
+solution), « afin de » (pourquoi), le troisième mis en avant. Au-dessus du troisième, une
+échelle de « pourquoi ? » qui monte : « suivre les pannes » (barré, circulaire) ; « savoir
+combien de vélos réparer » ; « fixer le nombre de techniciens en tournée » (encadré, « on
+s'arrête ici : la décision de Sophie ») ; plus haut, en pointillés et grisé, « que les stations
+restent moins longtemps vides » (« trop haut : l'objectif produit »). À côté, la carte de la
+story, avec une bulle de dialogue (conversation) et une coche (confirmation), légendée « 3C,
+Jeffries, XP ».
