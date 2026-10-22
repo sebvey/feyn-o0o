@@ -13,8 +13,19 @@
     dit déjà : vigilance ou simple sous-concept pas encore vu ?
   - l'annonce du parti pris invite l'apprenant à dire s'il travaille sans sprint, mais aucun
     endroit de `learner/` ne prévoit de noter sa réponse, utile en 11b, 15b et 15c (annexe A2).
-- **À faire** : à affiner. Pistes : préciser le noyau et le cas « partielle puis arrêt » dans
-  `00-scrum.md` (avec T-018h ou une reprise du lot 1) ; dans `CLAUDE.md`, distinguer une
-  vigilance d'un sous-concept non vu ; prévoir où noter « équipe sans sprint » (profil de
-  `learner/apprenant.md`, modèle compris).
-- **Fini quand** : un prof neuf, sur le même scénario, ne relève plus ces quatre ambiguïtés.
+- **À faire** (affiné avec le mainteneur le 2026-10-22) :
+  - `course/concepts/00-scrum.md`, question de contrôle : une fois répondue, même partiellement,
+    elle est close ; si l'apprenant s'arrête avant la correction, « Prochaine étape » note ce
+    qu'il avait juste, ce qui manque et le sous-concept à enseigner.
+  - Même fichier, noyau : « le PO décide de l'ordre du backlog » (une hésitation compte comme
+    juste) ; « une seule personne, pas un comité » passe en nuance.
+  - `CLAUDE.md`, sous le tableau de la mémoire : une notion pas encore enseignée que l'apprenant
+    ignore n'est pas une vigilance.
+  - `00-scrum.md`, annonce du parti pris : « équipe sans sprint » se note dans « Points annoncés
+    pour plus tard » (annexe A2 en 11b, 15b, 15c), règle d'ADR-018 rappelée là où elle sert ;
+    option écartée : une ligne « Équipe » dans le modèle de `apprenant.md` (même information à
+    deux endroits).
+- **Fini quand** : un sous-agent prof neuf rejoue le scénario de Max (réponse partielle puis
+  arrêt) et sa reprise, plus une variante où Max dit travailler en Kanban : la question de
+  contrôle n'est pas reposée ; « le PO je crois » est compté juste ; aucune vigilance pour
+  l'incrément ; la variante Kanban produit un point annoncé A2.

@@ -123,7 +123,9 @@ l'échange en cours.
 
 Dans `learner/`, n'écris une ligne que si, sans elle, l'agent suivant ferait autre chose
 (reposer une question, ignorer une difficulté connue, réexpliquer un acquis) ; la ligne de
-journal fait exception. Une observation contredite se corrige ou se supprime. Dans
+journal fait exception. Une observation contredite se corrige ou se supprime. Une notion pas
+encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
+déjà. Dans
 `maintainer/improvements/`, écris tout ce qui sort du cours documenté et pourrait servir à un
 autre apprenant, même si l'échange s'est bien passé. Ce qui tient à l'apprenant va dans
 `learner/observations.md`, ce qui tient au cours dans `maintainer/improvements/`, les deux si
