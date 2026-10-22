@@ -1,7 +1,7 @@
 # ADR-008 : Une question en attente à la reprise fait reposer tout son sous-concept
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-013
 - **Ticket** : T-015
 
 ## Contexte
