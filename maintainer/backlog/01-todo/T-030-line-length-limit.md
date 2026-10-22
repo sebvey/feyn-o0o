@@ -6,7 +6,9 @@
   ou trois lignes affichées ; le prof note lui-même que ses messages de 3a2 (8 et 7 lignes)
   respectent la limite « à la lettre, pas dans l'esprit ». T-029 relève le même effet sur le
   concept 0.
-- **À faire** : à affiner. Pistes : borner la longueur d'une ligne (en caractères ou en
-  phrases), ou compter les lignes affichées à une largeur donnée ; voir ADR sur le comptage
-  (T-007).
-- **Fini quand** : à définir au tri.
+  Tests de T-018f (2026-10-23) : 13a2 ne tient en 15 lignes qu'avec des lignes de 120 à 170
+  caractères.
+- **À faire** : décidé au tri (2026-10-23) : borner la ligne à 100 caractères dans la règle des
+  15 lignes de `CLAUDE.md` (« La boucle du cours ») ; voir le comptage décidé par T-007.
+- **Fini quand** : un prof neuf compte ses lignes à 100 caractères au plus, et les messages
+  denses des concepts (13a2, 0) tiennent ou sont signalés à découper.

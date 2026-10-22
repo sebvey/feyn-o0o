@@ -19,10 +19,10 @@ source à la note de `maintainer/improvements/`, écrite dans tous les cas.
 ## Options écartées
 - Dire seulement que la source manque (règle précédente, qui vaut toujours pour les autres
   affirmations) : le prof perd un levier pour une information sans enjeu pour le fond du cours.
-- Une rubrique « Origine des termes », sourcée, dans chaque fichier de concept : T-025, à trier ;
-  la règle couvre l'attente.
+- Une rubrique « Origine des termes », sourcée, dans chaque fichier de concept : T-025, refusé
+  (2026-10-23) ; la règle couvre l'attente.
 
 ## Conséquences
 Une réponse de mémoire peut être fausse : elle est signalée comme telle, et le prof s'en tient au
 plus sûr (« des études japonaises des années 1980 » plutôt que des noms et des dates). Les notes
-de `maintainer/improvements/` alimentent T-025.
+de `maintainer/improvements/` diront si la rubrique se repropose.
