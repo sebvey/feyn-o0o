@@ -1,0 +1,98 @@
+---
+concept: 3
+---
+
+# Sources : Le backlog produit
+
+Le Scrum Guide 2020 [S1] fait foi : ce qui en vient relève du consensus. La version 2017 [S2]
+est citée seulement pour dire ce que 2020 a retiré ; elle ne fait plus foi. Les concepts 0 à 2
+portent déjà les sources du backlog comme artefact, de son engagement (l'objectif produit), du
+PO qui ordonne et du backlog seule source de travail, dette technique comprise
+(`course/sources/00-scrum.md`, `01-produit-et-po.md`, `02-objectif-produit-resultat.md`) : ce
+fichier les rappelle quand le concept 3 s'en sert, sans les refaire. Les faits du fil rouge
+(demandes de Bruno, Sophie, Claire, Inès ; F12) sont inventés : ils n'ont pas de source. Les
+sections entre parenthèses sont celles du modèle de fichier de concept, ou de la fiche
+actuelle (migrée de T-017) quand la ligne la vérifie ; le rédacteur ajoute une ligne pour toute
+affirmation qui n'est pas ici. Erreurs relevées dans la fiche actuelle :
+`maintainer/work/T-018/3-errors.md`.
+
+## Affirmations
+
+### 3a : liste ordonnée, émergente, seule source de travail
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Définition : le backlog produit est une liste ordonnée et émergente de ce qu'il faut pour améliorer le produit (L'essentiel, Consensus, 3a) | [S1] | « The Product Backlog is an emergent, ordered list of what is needed to improve the product. » Le glossaire dit « ce qui pourrait améliorer » : le SG dit « what is needed » ; « pourrait » marque que tout n'y sera pas fait (voir 3b, « jamais faits »), lecture du cours |
+| Le backlog est la seule source de travail de l'équipe Scrum (L'essentiel, 3a) | [S1] | « It is the single source of work undertaken by the Scrum Team. » Déjà enseigné au concept 1 (dette technique comprise) : y renvoyer |
+| Le backlog produit est un des trois artefacts ; son engagement est l'objectif produit, qui est dans le backlog (3a, renvoi aux concepts 0 et 2) | [S1] | « For the Product Backlog it is the Product Goal » ; « The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define "what" will fulfill the Product Goal. » Sources complètes dans `00-scrum.md` et `02-objectif-produit-resultat.md` |
+| « Ordonnée » : le reste du backlog émerge pour dire ce qui remplira l'objectif produit ; l'ordre se justifie donc par l'objectif produit (3a) | [S1] | Phrase citée ci-dessus ; au Sprint Planning, le PO prépare la discussion sur « the most important Product Backlog items and how they map to the Product Goal ». Argumenter l'ordre par l'objectif produit est une déduction du cours à partir de ces deux phrases ; comment ordonner (valeur, coût, risque, dépendances) relève du concept 13, qui en portera les sources |
+| Le Scrum Guide dit « ordered », pas « prioritized », depuis 2011 (3a, 3b « liste à dépiler », glossaire « ordonner ») | [S3] | Historique des révisions, changements 2010-2011 : « The Product Backlog is "ordered," instead of "prioritized," providing flexibility to the Product Owner to optimize value » |
+| Le PO répond du backlog : il formule l'objectif produit, crée les éléments, les ordonne, rend le backlog transparent ; il peut déléguer ce travail et en reste responsable ; qui veut changer le backlog doit le convaincre (L'essentiel, Consensus, 3a) | [S1] | Les quatre points de « effective Product Backlog management » ; « may delegate the responsibility to others. Regardless, the Product Owner remains accountable » ; « Those wanting to change the Product Backlog can do so by trying to convince the Product Owner ». Déjà enseigné aux concepts 0 et 1 : y renvoyer. La délégation couvre tout ce travail, pas seulement l'écriture des éléments |
+| Le backlog « appartient » au PO (fiche actuelle, L'essentiel) | [S1], [S2] | Le SG 2020 ne dit pas « owns » : le PO « is accountable for effective Product Backlog management ». Le SG 2017 disait « responsible for the Product Backlog, including its content, availability, and ordering ». Écrire « le PO en répond » (terme du glossaire), pas « il lui appartient » |
+| Émergente : on ajoute, précise, découpe, réordonne et retire des éléments au fil de ce que l'équipe apprend (L'essentiel, 3a) | [S1], [S4], [S5] | SG : « emergent » ; le travail qui précise et découpe les éléments est « an ongoing activity to add details, such as a description, order, and size » ; à la revue de sprint, « The Product Backlog may also be adjusted to meet new opportunities ». Cohn (DEEP) : « user stories on the product backlog will be added, removed, or reprioritized » ; Rubin : « they might add new items, discard some, and change others » |
+| Le haut du backlog est précis, le bas reste vague (L'essentiel, 3a, Schéma) | [S1], [S2], [S4], [S5] | SG 2020 : les éléments faisables en un sprint sont « ready for selection in a Sprint Planning event » ; « They usually acquire this degree of transparency after refining activities ». Le SG 2017 le disait explicitement (« Higher ordered Product Backlog items are usually clearer and more detailed than lower ordered ones […] the lower the order, the less detail ») ; le SG 2020 a retiré cette phrase. Choix d'école explicite : le D de DEEP (Cohn et Pichler), « Detailed Appropriately » : « Stories that will not be developed for awhile should be described with less detail » ; Rubin : les éléments du haut sont plus détaillés, on les précise « just-enough, just-in-time ». À présenter sans le terme « refinement » (concept 15) : « l'équipe précise un élément quand il approche du haut » |
+| « Prêt à être pris » (fiche actuelle, L'essentiel) | [S1] | Le SG 2020 dit « ready for selection » : un élément que l'équipe peut finir (Done) en un sprint. Ce n'est pas la Definition of Ready, absente du SG (concept 11) : employer « prêt » sans majuscule ni sigle, ou « assez précis pour être choisi au Sprint Planning » |
+| Le backlog garde son sens sans sprints (fiche actuelle, Consensus) | [S6], [S7] | Non vérifié comme consensus (voir « Non vérifié » et `3-errors.md`). Le Kanban Guide (mai 2025) n'emploie pas le mot « backlog » (0 occurrence) ; il dit seulement qu'on tire un nouvel élément quand le travail en cours le permet (« start work on an item (pull or select) only when there is a clear signal that there is capacity to do so »). Le Kanban Guide for Scrum Teams (Scrum.org) garde les sprints : il ne parle pas d'un flux sans sprint |
+| DEEP (Detailed appropriately, Estimated, Emergent, Prioritized), acronyme de Mike Cohn et Roman Pichler, choix d'école (Consensus et choix d'école, si le rédacteur le nomme) | [S4], [S5] | Cohn : « Roman Pichler […] and I use the acronym DEEP » ; Rubin l'attribue à Pichler (2010) et Cohn. DEEP dit « Prioritized » là où le SG dit « ordered » depuis 2011 : le nommer comme choix d'école, sans le reprendre comme définition |
+| Une liste ordonnée donne à chaque élément une place unique ; des niveaux de priorité (haute, moyenne, basse) laissent des ex aequo qui ne disent pas quoi faire ensuite (3a, banque « Trois niveaux de priorité », Pièges) | [S1], [S3] | SG : « ordered list » ; révision 2011 : « "ordered," instead of "prioritized" ». L'argument des ex aequo est celui du glossaire du cours (« Termes à éviter », ligne « prioriser ») : lecture du cours, pas texte du SG |
+| Un élément du backlog est toute entrée du backlog, quel que soit son niveau (3a) | [S1] | SG : « Product Backlog item », sans niveaux définis ; définition du glossaire du cours. Les niveaux (epic, feature, story) relèvent du concept 4 |
+| Un travail pris hors du backlog fait glisser le reste sans décision, et le PO ne peut plus répondre de l'ordre (banque « Sophie passe par Yanis ») | [S1] | SG : « the single source of work undertaken by the Scrum Team » ; le PO « remains accountable » ; ses décisions sont visibles « in the content and ordering of the Product Backlog ». La conséquence (glissement non décidé) est une déduction du cours |
+| Détailler tôt le bas du backlog : travail à refaire, car l'élément aura changé avant d'être pris (banque « Tout détailler d'avance ? », Pièges) | [S4], [S5] | Choix d'école : Cohn (DEEP) : « Stories that will not be developed for awhile should be described with less detail » ; Rubin : préciser les éléments « just-enough, just-in-time ». « Travail à refaire » est la formulation du cours |
+| Le haut est en général précisé avant le Sprint Planning ; l'équipe peut encore le préciser pendant ; si tout s'y découvre, la séance sert à découvrir la demande (banque « Tout détailler d'avance ? ») | [S1] | SG : les éléments faisables en un sprint sont « ready for selection in a Sprint Planning event » ; « They usually acquire this degree of transparency after refining activities » (« usually » : en général, pas toujours). Sprint Planning, Topic Two : « The Scrum Team may refine these items during this process, which increases understanding and confidence. » « La séance sert à découvrir la demande » est la formulation du cours ; le refinement est enseigné au concept 15 |
+| La Definition of Ready : conditions qu'une équipe fixe elle-même avant qu'un élément entre dans un sprint, choix d'école (Pièges) | [S1] | Absente du SG 2020 (voir la ligne « Prêt à être pris ») ; définition du glossaire du cours, ligne « Definition of Ready (DoR) » ; sources au concept 11 |
+| Retirer un élément n'est pas définitif : il revient si le besoin apparaît (banque « Au fond depuis des mois ») | [S1] | Conséquence de « emergent » et du PO qui crée les éléments (« Creating and clearly communicating Product Backlog items ») : déduction du cours |
+
+### 3b : ce qu'il n'est pas
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Ce n'est pas un cahier des charges figé : le backlog évolue (Pièges, 3b) | [S1], [S2], [S8] | SG 2020 : « emergent » ; SG 2017 : « A Product Backlog is never complete. […] The Product Backlog is dynamic; it constantly changes » ; Manifeste agile : « Responding to change over following a plan ». « Cahier des charges » est le terme du cours pour le document de besoins fixé d'avance ; aucune source consultée n'oppose les deux termes en français |
+| On n'en remplit qu'une partie au début (Pièges, 3b) | [S2], [S5] | SG 2017 : « The earliest development of it lays out the initially known and best-understood requirements. » Phrase retirée en 2020, idée conservée par « emergent ». Rubin : les éléments du bas restent peu détaillés ; il recommande de n'ordonner qu'environ une version d'éléments (« Prioritizing beyond that is likely a waste of effort ») : choix d'école de Rubin, à ne pas donner comme règle |
+| On ne le « dépile » pas : l'ordre change (Pièges, 3b) | [S1], [S3] | SG : liste « ordered », ajustée à la revue de sprint et par le travail continu qui précise les éléments (« order » en fait partie). « Dépiler » (traiter dans l'ordre d'arrivée, ou une fois pour toutes dans un ordre fixé) est le terme du cours |
+| Certains éléments ne seront jamais faits (Pièges, 3b) | [S4], [S5], [S9] | Pas dans le SG. Cohn (DEEP) : éléments « removed » ; Rubin : « discard some » ; Atlassian (marketing) : « closing issues the team will never get to is okay ». Pratique répandue, à présenter comme telle (choix d'école de Cohn et Rubin, ou conséquence de « emergent »), pas comme texte du SG |
+| Ce n'est pas un découpage en tickets techniques, mais en améliorations du produit (fiche actuelle, Pièges) | [S1], [S5] | À reformuler (voir `3-errors.md`). Le SG dit « what is needed to improve the product » sans exclure le travail technique ; le concept 1 enseigne que la dette technique passe par le backlog. Rubin : les éléments sont le plus souvent des fonctions utiles à l'utilisateur, mais aussi « defects needing repair, technical improvements, knowledge-acquisition work ». Ce que le cours peut affirmer : le backlog n'est pas le découpage de la solution technique en tâches ; un travail technique y entre avec sa raison (ce qu'il améliore), et c'est le PO qui l'ordonne. Le plan des tâches des Developers est dans le backlog de sprint : « an actionable plan for delivering the Increment (how) », « a plan by and for the Developers » |
+| « Ticket » : terme d'outil, absent du SG ; le cours dit « élément du backlog » (Pièges, banque) | [S1] | « ticket » : 0 occurrence dans le texte du SG 2020 (recherche du 2026-10-22) ; le SG dit « Product Backlog item ». Glossaire du cours, ligne « ticket » |
+| Réunir les parties prenantes pour recueillir leurs besoins est utile ; ce qui en sort entre au backlog, dans l'ordre que décide le PO, pas par validation du sponsor (banque « Le plan de l'année ») | [S1] | SG : « The Product Owner may represent the needs of many stakeholders in the Product Backlog » ; « Those wanting to change the Product Backlog can do so by trying to convince the Product Owner » ; « the entire organization must respect their decisions ». Le sponsor est un terme du cours (concept 1, glossaire) |
+| Ce qui apparaît à la revue de sprint modifie le backlog (banque « Le plan de l'année », Pièges « Le figer ») | [S1] | « The Product Backlog may also be adjusted to meet new opportunities » (revue de sprint) |
+| Le Scrum Guide ne dit ni « user story » ni « epic » ni « feature » (renvoi au concept 4, si l'échange y mène) | [S1], [S10] | « user story » : 0 occurrence (cadrage T-018a §8) ; le SG laisse les attributs des éléments au domaine : « Attributes often vary with the domain of work » |
+
+### Test rapide et schéma
+
+| Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
+|---|---|---|
+| Test : en lisant le haut du backlog, sait-on ce que l'équipe fera ensuite, et pourquoi dans cet ordre ? (Le test rapide) | [S1] | Le SG demande un backlog « transparent, visible and understood » et des décisions du PO visibles « in the content and ordering of the Product Backlog ». Le test est une formulation du cours |
+| Schéma : colonne de cartes, petites et nettes en haut, grosses et floues en bas (DEEP, choix d'école) ; drapeau « Objectif produit » qui justifie l'ordre ; demandes en vrac qui entrent, le PO décidant de leur place ; flèches ajouter, préciser et découper, réordonner, retirer ; sortie vers le Sprint Planning (« prêt à être choisi ») ; vignettes barrées « cahier des charges figé » et « à dépiler » (Schéma) | [S1], [S2], [S4], [S5] | Illustration du cours. Haut précis et bas vague : « the lower the order, the less detail » (SG 2017) et DEEP. Objectif produit et ordre, PO qui décide de la place (d'autres peuvent écrire des éléments : « may delegate »), émergence, « ready for selection » : lignes de 3a ci-dessus. Cahier des charges et liste à dépiler : lignes de 3b. L'image proche de l'iceberg circule (Cohn, Pichler) mais son origine n'a pas été vérifiée : ne pas l'attribuer |
+
+## Références
+
+| Réf. | Source (auteur, titre, date) | Lien | Type | Consultée le |
+|---|---|---|---|---|
+| S1 | Schwaber, Sutherland, *The Scrum Guide*, novembre 2020 | https://scrumguides.org/scrum-guide.html | primaire | 2026-10-22 (texte téléchargé et cherché) |
+| S2 | Schwaber, Sutherland, *The Scrum Guide*, novembre 2017 (section « Product Backlog », p. 15) | https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf | primaire (version remplacée) | 2026-10-22 |
+| S3 | Scrum Guides, « Scrum Guide Revision History » (changements 2010-2011 et 2017-2020) | https://scrumguides.org/revisions.html | primaire | 2026-10-22 |
+| S4 | Cohn, « Make the Product Backlog DEEP », Mountain Goat Software (page non datée) | https://www.mountaingoatsoftware.com/agile/make-the-product-backlog-deep | primaire (site de l'auteur, qui vend ses formations) | 2026-10-22 |
+| S5 | Rubin, *Essential Scrum*, Addison-Wesley, 2012, chapitre 6 « Product Backlog » (extraits publiés par l'auteur ; extrait InformIT) | https://innolution.com/essential-scrum/table-of-contents/chapter-6-product-backlog ; https://www.informit.com/articles/article.aspx?p=1928232&seqNum=3 | primaire (extraits de l'auteur) | 2026-10-22 |
+| S6 | Vacanti, Coleman, *The Kanban Guide*, mai 2025 (v2025.5) | https://kanbanguides.org/english/ | primaire | 2026-10-22 (texte téléchargé et cherché) |
+| S7 | Scrum.org, « Online Kanban Guide for Scrum Teams » | https://www.scrum.org/resources/online-kanban-guide-scrum-teams | primaire (Scrum.org), marketing pour ses formations | 2026-10-22 (extrait de recherche seulement) |
+| S8 | *Manifesto for Agile Software Development*, 2001 | https://agilemanifesto.org/ | primaire | 2026-10-22 (déjà cité dans `00-scrum.md`) |
+| S9 | Atlassian, « Product backlog: Tips for creation & prioritization » | https://www.atlassian.com/agile/scrum/backlogs | marketing (éditeur de Jira) | 2026-10-22 |
+| S10 | Cadrage T-018a, `maintainer/work/T-018/framing.md`, §8 | (dépôt) | interne (déjà vérifié) | 2026-10-22 |
+
+## Non vérifié
+
+- **« Le backlog garde son sens sans sprints » comme consensus** : aucune source consultée ne
+  l'établit. Le Kanban Guide [S6] ne parle pas de backlog ; le Kanban Guide for Scrum Teams [S7]
+  suppose des sprints. Que l'ordre du backlog dise à l'équipe quoi prendre ensuite en flux
+  continu est une pratique courante, non sourcée ici ; d'autres écoles de Kanban choisissent le
+  travail lors de points de réapprovisionnement plutôt que dans une liste ordonnée (non
+  vérifié). Le parti pris du cours (`course/plan.md` : les concepts valent sans sprint) suffit
+  pour le dire, sans le mot « consensus » ; le détail relève de l'annexe A2.
+- **Origine de l'image de l'iceberg du backlog** : attribuée selon les sources à Cohn ou à
+  Pichler ; non vérifiée. L'employer comme image du cours, sans auteur.
+- **Date de DEEP** : la page de Cohn n'est pas datée ; Rubin renvoie à Pichler (2010). Ne pas
+  dater l'acronyme.
+- **Termes français de la traduction officielle du SG 2020** (« Backlog Produit », « émergent ») :
+  non vérifiés (voir `00-scrum.md`).
+- **Kanban Guide for Scrum Teams [S7]** : vu par un extrait de recherche, texte non lu ; il ne
+  sert qu'à dire qu'il garde les sprints, ce que l'extrait montre (« flow-based Sprint
+  Planning »).

@@ -88,6 +88,7 @@ métier.
   stations qui se vident.
 - La journée de Bruno : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.
+- Sophie fixe chaque semaine le nombre de techniciens en tournée.
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo
   défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé.
 
@@ -102,8 +103,8 @@ du concept prime.
 | 1 | Présenter la plateforme à un nouvel arrivant : par son effet ou par sa technique ? Léa propose de passer au streaming : quoi ou comment ? |
 | 2 | La vue des stations vides est livrée : les stations restent-elles moins longtemps vides ? Formuler l'objectif produit avec Agnès ; choisir sa mesure |
 | 3 | Les demandes arrivent en vrac (Bruno, Sophie, Claire, Inès) : qu'est-ce qu'un backlog, et ce qu'il n'est pas |
-| 4 | « Suivre l'état du réseau » (Bruno) : epic, features (stations vides, vélos en panne, locations du jour), stories |
-| 5 | Sophie veut le nombre de vélos en panne par semaine : les « pourquoi ? » successifs |
+| 4 | « Suivre l'état du réseau » (Bruno) : epic, vues (stations vides, vélos en panne, locations du jour), stories |
+| 5 | Sophie veut le nombre de vélos en panne par semaine : les « pourquoi ? » successifs passent par le nombre de vélos à réparer et mènent au nombre de techniciens en tournée |
 | 6 | La tournée de réparation : acteur Hugo ou Sophie ? Julie comme persona |
 | 7 | Le SMS de Julie : solution ou contrainte ? |
 | 8 | Disponibilité de la station favorite de Julie : critères et règles métier |
