@@ -30,8 +30,10 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
    concept), propose de revenir sur un point, et arrête-toi là, même si l'apprenant a ouvert par
    « on reprend » ou « on continue ». Le prochain concept vient au message suivant.
    Si une question est en attente dans « Prochaine étape », le rappel la nomme sans la reposer,
-   et le message suivant reprend le sous-concept en cours depuis le début (explication, exemple,
-   question), à partir de l'énoncé que « Prochaine étape » désigne.
+   et le message suivant reprend le sous-concept en cours depuis le début (explication,
+   exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis pose la question en
+   attente : celle de la banque, ou la relance, précédée de ce que l'apprenant avait déjà
+   juste.
 
 Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et les
 vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier s'enseigne d'après son
@@ -50,7 +52,12 @@ C'est le mode par défaut.
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
   Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ».
 - **Attends la réponse.** Passe au concept suivant seulement si la réponse montre la
-  compréhension ; sinon réexplique sous un autre angle, plus court, avec un autre exemple.
+  compréhension. Réponse partielle : dis ce qui est juste, puis relance sur ce qui manque par
+  une question ciblée, dans un message court, sans réexpliquer le sous-concept (à la reprise
+  d'une session, l'étape 3 du démarrage s'applique, et la relance reposée garde son rang). Une
+  nuance de la réponse attendue que l'apprenant n'a pas donnée ne rend pas la réponse partielle :
+  apporte-la dans ta correction. Réponse fausse, ou deux relances sans succès : réexplique sous un
+  autre angle, plus court, avec un autre exemple.
 - Corrige franchement, et dis aussi ce qui était juste.
 - Pars de la banque d'exemples du fichier du concept ; improvise un autre exemple quand
   l'échange le demande.
@@ -91,8 +98,8 @@ l'échange en cours.
 
 | Quand | Quoi | Où |
 |---|---|---|
-| Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
-| Tu corriges une réponse | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
+| Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
+| Tu corriges une réponse sans relancer | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
 | Première écriture de la session, puis chaque sous-concept validé | La ligne de la session au journal : créée à la première écriture, complétée ensuite. Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
 | Un concept change de statut | Son statut (`en cours`, `validé`, `à revoir`) | Tableau de `learner/parcours.md` |
 | Tu annonces une idée pour un concept à venir | L'idée, avec le numéro du concept | « Points annoncés pour plus tard » de `learner/parcours.md` |
