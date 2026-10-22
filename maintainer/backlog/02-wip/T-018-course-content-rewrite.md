@@ -33,8 +33,9 @@
   - `course/concepts/` : fiches migrées telles quelles et banque d'exemples tirée des traces ;
   - `course/fil-rouge-velos.md` (cadré par T-016) ;
   - `maintainer/improvements/` : incompréhensions, questions mal posées, apartés réutilisables ;
-  - `learner/observations.md` de sve : à lire comme des **erreurs typiques** possibles du
-    public cible, jamais recopiées comme des faits sur l'apprenant (anonymiser) ;
+  - `maintainer/work/T-018/learner-observations.md` : observations, profil de départ et une
+    production d'un premier apprenant, anonymisés (T-011), à lire comme des **erreurs
+    typiques** possibles du public cible ;
   - `maintainer/work/T-018/framing.md` : cadrage de T-018a (références et analyse des manques,
     situations du fil rouge par concept, erreurs relevées dans les fiches actuelles) ; sa
     numérotation est celle du brouillon, la correspondance est en tête du fichier ;
@@ -67,10 +68,8 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. Avant,
-  le ticket élargi de T-011 (démarrage d'un nouvel apprenant, `learner/` vidé, observations de
-  sve copiées anonymisées dans `maintainer/work/T-018/`) : sve repart de zéro et teste chaque
-  lot à mesure qu'il est mergé.
+  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. sve repart
+  de zéro en nouvel apprenant (T-011) et teste chaque lot à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 
@@ -153,13 +152,15 @@
 
   ### 6. Apprenant en cours de parcours
 
-  sve suit le cours en parallèle. Le 2026-10-22 (T-018a), il repart de zéro sur le plan
-  réordonné : `learner/parcours.md` remis à zéro, ses observations gardées.
+  sve suit le cours en parallèle. Le 2026-10-22 (T-011), `learner/` a été vidé : sve repart en
+  nouvel apprenant ; ses observations, anonymisées, sont dans
+  `maintainer/work/T-018/learner-observations.md`.
   - Chaque sous-ticket se fait sur une branche ; le merge ne doit pas casser sa reprise
     (« Prochaine étape » doit pointer vers un contenu existant).
-  - Un sous-ticket qui renumérote ou redécoupe des concepts met à jour `learner/parcours.md` et
-    les étiquettes de `learner/observations.md`, par exception à la règle d'écriture dans
-    `learner/` du skill `maintenance`.
+  - Un sous-ticket qui renumérote ou redécoupe des concepts met à jour, dans
+    `learner/parcours.md`, le tableau des statuts et « Prochaine étape », et les étiquettes de
+    `learner/observations.md`, par exception à la règle d'écriture dans `learner/` du skill
+    `maintenance` ; jamais le journal.
   - sve peut servir de testeur réel de chaque lot, dans l'ordre du cours.
 
   ### 7. Clôture

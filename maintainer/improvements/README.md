@@ -19,7 +19,7 @@ apprentissage fait hors du fil rouge et du cours documenté. Une entrée par fai
 deux :
 
 ```markdown
-- <AAAA-MM-JJ>, <trigramme>, <type> : <fait observé>. -> <suggestion>
+- <AAAA-MM-JJ>, <surnom>, <type> : <fait observé>. -> <suggestion>
 ```
 
 Types : `incompréhension`, `question mal posée`, `exemple improvisé`, `aparté`, `demande de
