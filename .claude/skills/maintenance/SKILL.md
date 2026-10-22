@@ -7,16 +7,14 @@ disable-model-invocation: true
 # Maintenir le parcours
 
 Tu interviens comme mainteneur du dossier, pas comme professeur. Ton interlocuteur est le
-mainteneur : c'est lui qui valide, jamais l'apprenant.
+mainteneur : tu décides et appliques seul, il valide en relisant la PR. L'apprenant ne valide
+jamais rien.
 
 ## Périmètre
 
-- **Cadre** : `CLAUDE.md`, `.claude/skills/`, `course/`. Tu proposes, le mainteneur valide,
-  puis tu appliques, même pour une coquille.
-- **Exception, `course/glossary.md`** : tu ajoutes un terme que le cours emploie, tu
-  précises sa définition sans en changer le sens, ou tu alignes sa colonne « Concept » sur le
-  concept qui l'introduit, en autonomie ; tu le signales dans la PR.
-  Retirer un terme ou en changer le sens se propose.
+- **Cadre** : `CLAUDE.md`, `.claude/skills/`, `.claude/workflows/`, `course/`. Tu le modifies
+  sur la branche d'un ticket, jamais sur `main`, et la PR expose chaque changement (§3,
+  étape 6).
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-wip/` : en cours, sa branche existe
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
@@ -43,16 +41,26 @@ jour depuis le remote (§3, étape 1), puis liste `00-proposed/`, `01-todo/`, `0
 fichiers de `maintainer/improvements/`, et propose un ordre. Un ticket de `02-wip/` se propose
 en premier : vérifie d'abord sa PR (`gh pr list`) ; si elle attend la revue, il attend le
 merge ; sinon, on reprend sa branche, ou, pour un parent, son prochain sous-ticket dont la
-dépendance est mergée. Un ticket « à affiner » s'affine avec le mainteneur avant d'être
-traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà appliqué se vérifie, puis se clôt
+dépendance est mergée. Un ticket « à affiner » s'affine au traitement (§3, étape 2) ; un
+ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà appliqué se vérifie, puis se clôt
 (§3, étape 5). Le mainteneur choisit.
 
 ## 2. Créer ou trier un ticket
 
-- **Créer** : une demande du mainteneur, ou un défaut relevé pendant un test ou un diagnostic,
-  devient un ticket selon `ticket-template.md`, dans `01-todo/` si le mainteneur l'a décidé, dans
-  `00-proposed/` sinon. Un défaut hors du ticket en cours ne se corrige pas au passage : propose
-  le ticket.
+- **Créer** : une demande du mainteneur devient un ticket selon `ticket-template.md`, dans
+  `01-todo/` s'il l'a décidé, dans `00-proposed/` sinon. Un défaut hors du ticket en cours ne se
+  corrige pas au passage.
+- **Trier un constat** (défaut relevé par un test, un diagnostic ou une revue) avant d'en faire
+  un ticket, en autonomie :
+  1. vérifie-le contre les fichiers, en lisant toute la règle concernée, pas une ligne : le
+     cadre le couvre-t-il déjà ? Fais-le vérifier par un sous-agent qui ne l'a pas relevé quand
+     tu en as plusieurs ;
+  2. nomme l'erreur que l'agent suivant ferait et son effet concret ;
+  3. cherche un ticket ouvert sur la même règle.
+
+  Constat faux ou sans effet : rejeté. Même règle qu'un ticket ouvert : fusionné dans son
+  constat. Sinon : ticket affiné (« À faire », « Fini quand ») dans `00-proposed/`. La PR liste
+  chaque constat rejeté ou fusionné, une ligne avec sa raison.
 - **Trier** un ticket de `00-proposed/` avec le mainteneur : décidé, il passe dans `01-todo/`,
   complété ou marqué « à affiner » ; refusé, il est supprimé, et tu appliques la règle ADR au refus (§4) ; non tranché,
   il reste.
@@ -61,9 +69,9 @@ traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semb
 
 1. **Démarrer** : mets `main` à jour depuis le remote (`git switch main`,
    `git pull --ff-only`). Si l'arbre de travail n'est pas propre (fichiers de `learner/` ou de
-   `maintainer/improvements/` laissés par une session de cours), dis-le au mainteneur et, avec
-   son accord, commite-les sur `main` et pousse. Un ticket de `00-proposed/` se trie d'abord
-   avec le mainteneur (§2) ; décidé, il va directement dans `02-wip/`. Déplace le ticket vers
+   `maintainer/improvements/` laissés par une session de cours), commite-les sur `main`, pousse,
+   et dis-le dans la PR. Un ticket de `00-proposed/` que le mainteneur demande de traiter est
+   décidé : il va directement dans `02-wip/`. Déplace le ticket vers
    `02-wip/` (`git mv`), avec son parent s'il n'y est pas déjà ; pour un sous-ticket, passe son
    état à « en cours » dans le parent. Commite le tout sur `main` (« T-000 : en cours ») et
    pousse. Crée la branche `ticket/<nom du fichier du ticket, sans .md>`. Un travail hors
@@ -75,10 +83,9 @@ traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semb
    le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
    branche et une PR.
 2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas
-   une décision sans le dire. Un ticket « à affiner » : complète d'abord « À faire » et « Fini
-   quand » avec le mainteneur.
-3. **Proposer** au mainteneur, puis attendre sa validation. Une proposition passe **les quatre
-   critères** :
+   une décision sans le dire. Un ticket « à affiner » : complète d'abord toi-même « À faire » et
+   « Fini quand ».
+3. **Décider**, sans attendre de validation : la solution passe **les quatre critères** :
    1. **Fait observé** : elle part du constat du ticket ou d'un événement précis (cite-le).
    2. **Texte exact** : elle donne le texte à ajouter, remplacer ou retirer, et l'endroit.
    3. **Erreur évitée** : elle nomme ce que l'agent suivant ferait de travers sans elle.
@@ -86,8 +93,21 @@ traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semb
       contredit pas une règle existante, sauf si la proposition consiste justement à la changer,
       ce qu'elle dit explicitement.
 
-   Proposer de retirer une règle inutile vaut autant qu'en ajouter une. Si le mainteneur a déjà
-   fixé la solution dans le ticket ou en demandant de le traiter, applique-la sans reproposer.
+   Retirer une règle inutile vaut autant qu'en ajouter une. Si le mainteneur a fixé la solution
+   dans le ticket ou en demandant de le traiter, applique-la.
+
+   **Arbitrer le contenu du cours** (fait du fil rouge, plan, glossaire, constat de revue
+   laissé ouvert, consignes d'un lot) : ne fixe un fait que si un concept en a besoin, le plus
+   petit possible, sans contredire l'existant ; laisse non fixé ce dont aucun exemple ne
+   dépend ; ne tranche jamais un fait métier réel. Chaque arbitrage va dans la PR, avec l'option
+   écartée.
+
+   Traiter un sous-ticket de lot vaut demande de lancer `course-lot` : écris ses consignes
+   propres au lot sur le modèle des lots précédents, lance-le, arbitre ce qu'il laisse ouvert,
+   puis enchaîne.
+
+   N'interromps le traitement que pour un blocage que tu ne lèves pas (accès, outil en panne) :
+   demande alors au mainteneur ce qui le lève.
 4. **Appliquer**, puis **tester** (§5), en commitant sur la branche (« T-000 : <ce qui
    change> »).
 5. **Clore**, sur la branche : le ticket passe de `02-wip/` dans `03-done/` avec sa ligne
@@ -95,9 +115,17 @@ traité ; un ticket qui dépend d'un autre passe après lui ; un ticket qui semb
    prochaine étape dans le parent, et le parent passe aussi dans `03-done/` si c'était le
    dernier ; applique la règle ADR (§4).
 6. **Ouvrir la PR** : pousse la branche et ouvre une PR vers `main`, titrée « T-000 : <titre du
-   ticket> », avec ce qui change, le résultat du test et l'ADR créé : le titre et la
-   description deviennent le message du commit squashé. Le mainteneur relit la PR et la merge
-   lui-même (le dépôt n'autorise que le squash, et GitHub supprime la branche distante). Ses
+   ticket> » ; le titre et la description deviennent le message du commit squashé. Description,
+   dans cet ordre :
+   1. ce qui change le comportement du prof (`CLAUDE.md`, skills, hooks), en tête ;
+   2. les arbitrages, chacun avec l'option écartée ;
+   3. les tickets créés, et les constats rejetés ou fusionnés avec leur raison (§2) ;
+   4. les tests et leur résultat ;
+   5. ce qui reste non vérifié ;
+   6. l'ADR créé.
+
+   Pour un lot de contenu, ni réponse attendue ni extrait de banque d'exemples : le mainteneur
+   suit le cours. Le mainteneur relit la PR et la merge lui-même, ou te demande de la merger (le dépôt n'autorise que le squash, et GitHub supprime la branche distante). Ses
    remarques se traitent par de nouveaux commits sur la branche ; mets alors la description à
    jour. Après le merge (le mainteneur te le dit ; vérifie-le avec `gh pr view`), mets `main` à
    jour et supprime la branche locale (`git branch -D` : après un squash, git ne la voit pas
@@ -117,7 +145,7 @@ Après chaque ticket appliqué ou proposition refusée, juge chaque décision qu
    personne n'a nommée.
 
 Deux oui pour une décision du ticket : écris un ADR dans `maintainer/adr/`, selon
-`maintainer/adr/adr-template.md`, et dis-le au mainteneur. Une décision qui annule, remplace ou
+`maintainer/adr/adr-template.md`, et dis-le dans la PR. Une décision qui annule, remplace ou
 contredit ce qu'un ADR décide fait aussi un nouvel ADR ; ajouter un cas ou préciser ne compte
 pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
 
@@ -137,8 +165,8 @@ que chaque fait, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observati
 section, entrée dans `maintainer/improvements/` si un fait s'y prête, journal et contrôle de
 reprise à l'arrêt).
 
-Rapporte le résultat au mainteneur. Les défauts que le test révèle hors du ticket deviennent des
-tickets (§2).
+Le résultat va dans la PR. Les défauts que le test révèle hors du ticket passent le tri des
+constats (§2).
 
 ## Cas particulier : diagnostiquer une session de cours
 
@@ -152,5 +180,6 @@ Relève, avec un fait précis pour chacun :
 - ce qui a fait déclic chez l'apprenant, et ce qui n'a pas marché ;
 - les demandes de l'apprenant sur le rythme ou la forme (« plus vite », « exemple », apartés) ;
 
-Chaque point qui appelle un changement devient un ticket (§2), avec pour constat le fait relevé.
+Chaque point qui appelle un changement passe le tri des constats (§2), avec pour constat le
+fait relevé.
 Aucun ticket est un résultat normal : ne force rien.

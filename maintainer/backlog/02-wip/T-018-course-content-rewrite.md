@@ -97,8 +97,8 @@
     chacun avec réponse attendue, erreurs fréquentes et ce qui marche pour expliquer ; garder
     les exemples éprouvés avec sve en tenant compte de leurs « Pour améliorer le cours ».
   - Le rédacteur ne fixe aucun fait nouveau du fil rouge : s'il en a besoin, il le liste à part
-    ; le coordinateur propose un arbitrage, le mainteneur valide, puis le coordinateur met à
-    jour `course/fil-rouge-velos.md`. Un terme manquant, le coordinateur l'ajoute seul au
+    ; le coordinateur l'arbitre (skill `maintenance`, §3, étape 3), met à jour
+    `course/fil-rouge-velos.md` et le signale dans la PR. Un terme manquant, le coordinateur l'ajoute seul au
     glossaire et le signale dans la PR (ADR-025).
   - Le fichier du concept ne cite aucune référence : chaque affirmation que le rédacteur
     ajoute a sa ligne dans le fichier de sources, ou dans sa section « Non vérifié ».
@@ -114,7 +114,7 @@
     (règles de la section « Style » de `CLAUDE.md`).
   - Le rédacteur trie chaque constat (vrai défaut ou faux positif, justifié) en corrigeant. Un
     second tour, par les relecteurs qui avaient un constat bloquant, seulement s'il y en avait ;
-    ce qui reste va à l'arbitrage du mainteneur.
+    ce qui reste va à l'arbitrage du coordinateur.
   - La cohérence entre les concepts du lot est vérifiée par le coordinateur.
 
   ### 4. Cohérence d'ensemble et tests de bout en bout (dernier sous-ticket)
@@ -139,15 +139,16 @@
 
   ### 5. Organisation agentique
 
-  - Un **coordinateur** (la session de maintenance) : tient le plan, propose l'arbitrage des faits
-    du fil rouge, complète le glossaire, fusionne les retours, présente chaque lot au mainteneur.
+  - Un **coordinateur** (la session de maintenance) : tient le plan, écrit les consignes du lot,
+    arbitre les faits du fil rouge et les constats ouverts, complète le glossaire, fusionne les
+    retours, présente chaque lot au mainteneur dans sa PR (T-041).
   - Chaque lot tourne en workflow multi-agents (pipeline : sources -> rédaction -> revues ->
     corrections, chaque concept avance dès que son étape précédente est finie). Le premier
     sous-ticket de lot écrit ce workflow, le sauvegarde dans `.claude/workflows/course-lot`
     (paramètres : le dossier du cours et le sous-ticket du lot ; générique, voir T-023) et le
     teste ; les lots suivants le relancent par son nom
     (« lance course-lot sur T-018c »), sans le réécrire. Une session ne lance un workflow que
-    sur demande du mainteneur : le nommer suffit. Un workflow par lot, pour valider lot par
+    sur demande du mainteneur : le nommer, ou demander de traiter le sous-ticket du lot, suffit. Un workflow par lot, pour valider lot par
     lot ; de 5 à 8 agents par concept.
   - Les agents de recherche et de rédaction, et le relecteur du fond, tournent sur le modèle le
     plus capable ; le relecteur de la forme et le cadrage, sur un modèle plus léger. L'agent de
@@ -182,6 +183,6 @@
     banque d'exemples (réponses attendues comprises), et son fichier de sources dans
     `course/sources/` ;
   - plus aucune mention « à réécrire », plus aucun exemple hors fil rouge sans raison écrite ;
-  - tous les sous-tickets sont clos : chaque lot validé par le mainteneur, revues sans constat
+  - tous les sous-tickets sont clos : chaque lot mergé par le mainteneur, revues sans constat
     bloquant, cohérence d'ensemble sans contradiction, sessions simulées qui passent la grille ;
   - la reprise de sve fonctionne après le merge (test de reprise par sous-agent).
