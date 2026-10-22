@@ -25,3 +25,4 @@
 - **Fini quand** : un prof neuf, sur le scénario de T-027 (réponse partielle, arrêt, reprise),
   valide le concept 0 au bon moment, rappelle avant de reprendre et tient le message de reprise
   en 15 lignes.
+- **Fait le** : 2026-10-23, `course/concepts/00-scrum.md` (« La question de contrôle ») : correction d'une réponse partielle en une ligne, puis le sous-concept dans le même message ; concept 0 validé avec les sous-concepts enseignés ; reprise par le rappel en deux lignes, puis ce que l'apprenant avait juste ; précisé après le test : une durée donnée compte comme durée fixe, 0a si une responsabilité est fausse, les nuances viennent avec le sous-concept ; test par sous-agent prof neuf (scénario de T-027 : réponse partielle, départ pressé, reprise, validation) : conforme sur les trois points.
