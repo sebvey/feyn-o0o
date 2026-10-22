@@ -160,3 +160,8 @@
   - les sessions simulées de la phase 6 passent la grille ;
   - le mainteneur a validé chaque lot ;
   - la reprise de sve fonctionne après le merge (test de reprise par sous-agent).
+- **Note du 2026-10-22 (T-019)** : pour la phase 1 (plan du fil rouge), le test de T-019 a
+  relevé que l'équipe vélos n'a ni Scrum Master ni sponsor ou direction au-dessus de la DSI,
+  alors que la levée des obstacles (Scrum Master) et l'escalade d'une dépendance sont des
+  questions naturelles en 9b et 10b. Un prof a improvisé un directeur des opérations, sponsor de
+  la plateforme.

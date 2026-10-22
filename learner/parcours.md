@@ -10,7 +10,7 @@ accès aux données non obtenu ». Question en attente, mot pour mot : « Questi
 story est-elle prête ? Que proposes-tu au planning du sprint ? »
 En reprenant 10b, ouvre par un rappel en deux lignes du cadre du fil rouge (l'apprenant est PO
 de la plateforme de données ; équipe vélos, DSI), qu'il n'a encore jamais vu.
-Après 10b validé : point de sauvegarde, puis concept 11 (priorisation).
+Après 10b validé : proposer les deux choix, puis concept 11 (priorisation).
 
 ## Concepts
 
