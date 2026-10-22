@@ -73,7 +73,9 @@ métier.
 - Le centre-ville sert de premier périmètre ; la météo (pluie) pourrait ajuster la prévision
   des stations à risque : à vérifier (concept 17).
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
-  de la story de tournée d'Hugo ; Sophie le réclame (concept 10).
+  de la story de tournée d'Hugo ; Sophie le réclame (concept 10). Le blocage se fait dans le
+  système de location (DSI) ; la plateforme peut lui fournir la liste des vélos signalés : la
+  story de blocage dépend de la DSI (concept 13).
 - Un vélo n'est plus louable quand un technicien l'a retiré du service après constat.
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
   celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
@@ -81,7 +83,9 @@ métier.
   serveur vocal, appli) dépend de l'équipe appli.
 - La collectivité veut le nombre de locations par quartier sur le mois, puis la comparaison au
   même mois de l'an dernier (concept 10b).
-- Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). DoR de
+- Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). La DoD
+  exige aussi que chaque indicateur publié ait sa définition écrite (ajoutée en
+  rétrospective, concepts 11a et 12a). DoR de
   l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
   identifiées, accès aux données obtenu (concept 11b).
 - La vue des stations vides doit servir à Bruno à envoyer les régulateurs plus tôt vers les
