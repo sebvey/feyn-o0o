@@ -29,3 +29,4 @@
   arrêt) et sa reprise, plus une variante où Max dit travailler en Kanban : la question de
   contrôle n'est pas reposée ; « le PO je crois » est compté juste ; aucune vigilance pour
   l'incrément ; la variante Kanban produit un point annoncé A2.
+- **Fait le** : 2026-10-22, quatre précisions (question de contrôle close une fois répondue, noyau « le PO décide de l'ordre », notion pas encore vue qui n'est pas une vigilance, équipe sans sprint en point annoncé), ADR-022 ; test par sous-agent (accueil de Max, réponse partielle avec Kanban puis arrêt, reprise) : question de contrôle non reposée, « le PO je crois » compté juste, aucune vigilance pour l'incrément, point annoncé A2 écrit, 15 lignes tenues ; défauts hors ticket dans T-029 (0a sauté, validation du concept 0, reprise d'une correction reportée).
