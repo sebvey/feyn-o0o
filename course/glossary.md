@@ -45,10 +45,13 @@ fichier à l'apprenant.
 | Règle métier | business rule | Vérité du domaine, valable hors de la story | 8 |
 | Given/When/Then | Given/When/Then | Forme d'un critère en exemple (issue du BDD, choix d'école) | 8 |
 | Fraîcheur | freshness | Âge maximal des données au moment où on les lit | 8, 12 |
+| Couche | layer | Partie empilée du produit (ingestion, transformation, données prêtes, restitution, dans l'exemple du cours) | 9 |
+| Tranche horizontale | horizontal slice | Une couche entière du produit, qui ne sert pas seule à l'utilisateur | 9 |
 | Tranche verticale | vertical slice | Découpage qui traverse les couches et sert seul à l'utilisateur | 9 |
+| Walking skeleton | walking skeleton | Toute petite implémentation de bout en bout qui relie les composants de l'architecture (Cockburn) ; sert l'équipe, pas une tranche verticale | 9 |
 | Patron de découpage | splitting pattern | Façon type de découper une story trop grosse (choix d'école) | 9 |
 | Hors périmètre | out of scope | Ce qu'une story ne fait pas alors qu'on pourrait l'attendre | 10 |
-| Dépendance | dependency | Une story ne peut pas être livrée, ou n'a pas de sens, avant une autre | 10 |
+| Dépendance | dependency | Une story ne peut pas être livrée, ou n'a pas de sens, avant une autre story ou le travail d'une autre équipe | 10 |
 | Definition of Done (DoD) | Definition of Done | Exigences de qualité que tout élément remplit pour faire partie de l'incrément | 0, 11 |
 | Definition of Ready (DoR) | Definition of Ready | Conditions qu'un élément remplit avant d'entrer dans un sprint (choix d'école) | 11 |
 | Indicateur | metric | Valeur calculée par le produit pour ses utilisateurs (locations par quartier) | 12 |
