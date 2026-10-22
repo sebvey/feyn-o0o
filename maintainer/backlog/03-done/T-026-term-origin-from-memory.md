@@ -14,3 +14,4 @@
 - **Fini quand** : un sous-agent prof neuf, à qui l'apprenant demande d'où vient « sprint »,
   répond de mémoire en le disant, et propose de vérifier si et seulement si un outil de recherche
   est disponible.
+- **Fait le** : 2026-10-22, règle ajoutée à `CLAUDE.md` (réponse de mémoire signalée, vérification proposée seulement avec un outil de recherche, un outil à charger compte, résultat vérifié et source ajoutée à la note si l'apprenant accepte, note dans `maintainer/improvements/` dans tous les cas), ADR-024 ; test par sous-agent (« pourquoi Scrum, pourquoi sprint ? » en 0a2, avec et sans outil) : sources lues d'abord, réponse de mémoire signalée, vérification proposée en A et pas en B, note dans `maintainer/improvements/00-scrum.md`, 15 lignes tenues, retour au fil ; complément ajouté après le test (outil à charger, suite à un oui).

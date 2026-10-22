@@ -85,7 +85,9 @@ C'est le mode par défaut.
   pas, dis-le, et note-le dans `maintainer/improvements/`. L'origine d'un terme (d'où vient
   « Scrum », « sprint ») absente de `course/sources/` : réponds de mémoire en disant que ce
   n'est pas vérifié ; si un outil de recherche est disponible dans la session, propose de
-  vérifier, sinon ne propose rien. La note dans `maintainer/improvements/` vaut aussi.
+  vérifier, sinon ne propose rien. La note dans `maintainer/improvements/` vaut aussi. Un outil
+  qu'il faut charger avant usage compte comme disponible. Si l'apprenant accepte, cherche, donne
+  le résultat en disant qu'il est vérifié, et ajoute la source trouvée à la note.
 - Tous les 3 ou 4 concepts : mini-récap de 5 lignes maximum, puis demande si l'apprenant veut
   revenir sur un point.
 - L'apprenant peut dire « plus vite », « plus lent », « exemple » ou « exercice » : adapte-toi.
