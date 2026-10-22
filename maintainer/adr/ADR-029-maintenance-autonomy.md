@@ -13,7 +13,7 @@ T-037 : constat démenti par le cadre ; T-038 : doublon de T-033).
 
 ## Décision
 Skill `maintenance` : l'agent décide, applique et expose ses choix dans la PR, qui est le seul
-point de contrôle (le mainteneur merge). Il arbitre le contenu selon des critères écrits (§3,
+point de contrôle (le mainteneur la merge, ou demande à l'agent de la merger). Il arbitre le contenu selon des critères écrits (§3,
 étape 3), écrit les consignes d'un lot et enchaîne sur `course-lot`, et ne s'arrête que pour
 un blocage qu'il ne lève pas. Un constat de test, de diagnostic ou de revue passe un tri
 critique et autonome avant de devenir un ticket de `00-proposed/` (§2) ; les constats rejetés

@@ -53,8 +53,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 - **Trier un constat** (défaut relevé par un test, un diagnostic ou une revue) avant d'en faire
   un ticket, en autonomie :
   1. vérifie-le contre les fichiers, en lisant toute la règle concernée, pas une ligne : le
-     cadre le couvre-t-il déjà ? Fais-le vérifier par un sous-agent qui ne l'a pas relevé quand
-     tu en as plusieurs ;
+     cadre le couvre-t-il déjà ? Un constat d'un sous-agent, vérifie-le toi-même ; le tien,
+     fais-le vérifier par un sous-agent neuf ;
   2. nomme l'erreur que l'agent suivant ferait et son effet concret ;
   3. cherche un ticket ouvert sur la même règle.
 
@@ -79,8 +79,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    une branche `maint/<slug>`.
 
    Sur `main`, ne commite directement que les fichiers d'une session de cours, le backlog créé
-   ou trié hors du traitement d'un ticket (§2) et le passage en `02-wip/`. Un ticket créé pendant
-   le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
+   ou trié hors du traitement d'un ticket (§2) et le passage en `02-wip/`. Un ticket créé ou
+   complété pendant le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
    branche et une PR.
 2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas
    une décision sans le dire. Un ticket « à affiner » : complète d'abord toi-même « À faire » et
@@ -151,8 +151,9 @@ pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
 
 ## 5. Tester
 
-Après un changement qui modifie une procédure ou déplace des fichiers, lance un sous-agent neuf,
-en lecture seule, sur un scénario qui met le changement à l'épreuve. Demande-lui de relire
+Après un changement qui modifie une procédure ou déplace des fichiers, lance un sous-agent neuf
+sur un scénario qui met le changement à l'épreuve, dans une copie du dépôt (dossier de
+travail temporaire), avec un `learner/` fictif si besoin : il ne modifie jamais le dépôt. Demande-lui de relire
 `CLAUDE.md` sur disque : la version de son contexte peut être périmée. Il ne reçoit pas le
 contexte des hooks de démarrage : donne-lui la sortie de `.claude/hooks/learner-status.sh` dans
 son brief.
