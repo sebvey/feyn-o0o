@@ -68,10 +68,8 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. Avant,
-  le ticket élargi de T-011 (démarrage d'un nouvel apprenant, `learner/` vidé, observations de
-  sve copiées anonymisées dans `maintainer/work/T-018/`) : sve repart de zéro et teste chaque
-  lot à mesure qu'il est mergé.
+  **Prochaine étape** : traiter T-018c en lançant `course-lot` sur son sous-ticket. sve repart
+  de zéro en nouvel apprenant (T-011) et teste chaque lot à mesure qu'il est mergé.
 
   ### 3. Méthode d'un lot
 
