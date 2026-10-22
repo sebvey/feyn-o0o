@@ -43,8 +43,8 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
    concept 4 ; un parcours, concept 16). Origine : XP, format de Connextra, absent du Scrum
    Guide. Les 3C : la carte (la phrase écrite) ne contient pas tout le besoin, la conversation
    le précise, la confirmation dit comment vérifier.
-   Découpe en deux messages : **5a1** les trois parties, avec « La demande de Sophie » ou « Une
-   semaine de Sophie » ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
+   Découpe en deux messages : **5a1** les trois parties, avec « La demande de Sophie » (« Une
+   semaine de Sophie » en rechange, ou si l'apprenant décrit un parcours) ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
    ligne. Chaque message a sa question.
 2. **5b le « afin de » et les « pourquoi ? » successifs** : un « afin de » circulaire (il répète
    le « je veux ») ou de confort (« avoir une vue claire ») n'aide ni à ordonner ni à choisir une
@@ -63,8 +63,8 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
 
 ### La demande de Sophie, en story (5a1)
 - **Explication** : une story dit qui, quoi, pourquoi. Le « je veux » décrit ce que
-  l'utilisateur veut faire ou savoir, pas comment l'équipe le construit. Le format vient de
-  Connextra, au début des années 2000 (choix d'école) ; le Scrum Guide ne parle pas de story.
+  l'utilisateur veut faire ou savoir, pas comment l'équipe le construit. Le Scrum Guide ne parle
+  pas de story ; ce format est un choix d'école (son origine : 5a2).
 - **Situation** : Sophie, responsable maintenance, encadre les techniciens. Elle demande le
   nombre de vélos en panne par semaine. Yanis, data engineer, a ajouté au backlog : « Créer une
   table hebdomadaire des signalements de pannes, alimentée par un traitement chaque nuit. »
@@ -73,7 +73,8 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   table, un traitement de nuit : c'est le comment des Developers). Par exemple : « En tant que
   responsable maintenance, je veux connaître le nombre de vélos en panne chaque semaine, afin
   de… ». Nuance : le « afin de » ne s'invente pas ; on le laisse ouvert et on le demande à
-  Sophie (5b). La table de Yanis peut devenir une tâche sous la story (concept 4).
+  Sophie (5b). La table relève du plan des Developers : s'ils la retiennent, c'est une de leurs
+  tâches (concept 4), pas un élément que le PO écrit.
 - **Erreurs fréquentes** :
   - garder la solution en la déplaçant (« je veux une table des pannes ») : demander « qu'est-ce
     que Sophie veut savoir, sans parler de table ? » ;
@@ -89,8 +90,8 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   sert ailleurs : il organise le backlog en story map, une carte des stories rangées sous les
   étapes du parcours (concept 16).
 - **Situation** : brouillon d'exercice : « En tant que responsable maintenance, chaque semaine,
-  je consulte les signalements de pannes, je compte les vélos en panne, j'organise la semaine
-  des techniciens et je préviens les techniciens. »
+  je consulte les signalements de pannes, je compte les vélos en panne, je fais le point avec
+  mes techniciens et je les préviens des vélos à réparer. »
 - **Question** : est-ce une story ? Tranche et justifie.
 - **Réponse attendue** : non, c'est un parcours : quatre actions, donc plusieurs besoins
   possibles, et aucun « je veux » ni « afin de ». La plateforme sert surtout l'étape « compter

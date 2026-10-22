@@ -14,7 +14,7 @@ liste à dépiler, le découpage technique de la solution).
 Le backlog produit est la **liste ordonnée et émergente** de ce qu'il faut pour améliorer le
 produit, et la **seule source de travail** de l'équipe Scrum (Scrum Guide). **Ordonnée** : chaque
 élément a une place, et l'ordre se justifie par l'objectif produit. **Émergente** : on ajoute,
-précise, découpe, réordonne et retire des éléments à mesure que l'équipe apprend ; le haut est
+précise, découpe et réordonne des éléments à mesure que l'équipe apprend ; le haut est
 précis, le bas reste vague. Il ne se remplit pas d'avance pour être dépilé ensuite : c'est ce
 qui le sépare d'un cahier des charges.
 
@@ -81,7 +81,7 @@ ne deviennent pas des faits du fil rouge.
   d'abord : la question revient à chaque Sprint Planning. Un ordre donne à chaque demande une
   place unique, et le PO dit pourquoi ce rang : en quoi la demande rapproche (ou non) de
   l'objectif produit, des stations du centre-ville moins longtemps vides aux heures de pointe.
-  Nuance : l'ordre lui-même (sécurité, accès en attente, échéance du conseil) se travaille au
+  Nuance : l'ordre lui-même (sécurité, échéance du conseil) se travaille au
   concept 13 ; ici, on retient qu'une liste ordonnée tranche là où des priorités laissent des
   égalités.
 - **Erreurs fréquentes** :
@@ -91,7 +91,11 @@ ne deviennent pas des faits du fil rouge.
     de l'objectif produit ? » ;
   - garder les priorités et ajouter un sous-ordre : c'est revenir à un ordre, en plus lourd ;
   - proposer un ordre sans dire ce que les priorités ne règlent pas : relancer par « qu'est-ce
-    que la proposition de Yanis ne règle pas ? ».
+    que la proposition de Yanis ne règle pas ? » ;
+  - proposer un ordre sans dire sur quoi il s'appuie : relancer par « sur quoi t'appuies-tu pour
+    mettre une demande en premier ? » ; les deux manques ensemble : « Léa finit son travail
+    mardi : laquelle des trois "haute" prend-elle, et avec ton ordre, sur quoi t'appuies-tu
+    pour mettre une demande en premier ? ».
 - **Ce qui marche** : demander « Léa finit son travail mardi : laquelle des trois "haute"
   prend-elle ? ». L'apprenant voit qu'il faut une place unique.
 
@@ -100,7 +104,8 @@ ne deviennent pas des faits du fil rouge.
   élément se précise quand il approche du haut ; le bas reste vague. Le haut doit être assez
   précis pour que les Developers puissent le choisir au Sprint Planning et le finir en un
   sprint. Le Scrum Guide 2017 le disait ; aujourd'hui, c'est le D de DEEP (détaillé à bon
-  escient), choix d'école de Cohn et Pichler.
+  escient), choix d'école de Cohn et Pichler. Rappel en une ligne (concept 1) : le backlog reste
+  la seule source de travail de l'équipe.
 - **Situation** : Nora propose de consacrer les deux prochains jours à écrire en détail tous
   les éléments du backlog, jusqu'à la comparaison au même mois de l'an dernier pour Claire. Or
   cette comparaison suppose les locations par quartier, qui supposent l'accès à la table des
@@ -121,6 +126,9 @@ ne deviennent pas des faits du fil rouge.
     mais si tout s'y découvre, la séance sert à découvrir la demande ;
   - répondre « non » sans dire quoi détailler : relancer par « que détailles-tu en premier ? ».
 - **Ce qui marche** : « quand cet élément sera pris, que saura-t-on de plus qu'aujourd'hui ? ».
+  Pour réexpliquer après « détaillé partout » : la vue des locations du jour de Bruno attend elle
+  aussi l'accès à la table des locations ; si la DSI n'accorde que certaines colonnes, le détail
+  écrit aujourd'hui est à refaire.
 
 ### Sophie passe par Yanis (3a2)
 - **Explication** : le backlog est la seule source de travail de l'équipe (concept 1) : ce qui

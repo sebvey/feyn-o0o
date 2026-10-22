@@ -104,17 +104,14 @@ vides, pas encore fixé.
 
 ### « Scrum impose trois niveaux » (4a2)
 - **Explication** : les noms et le nombre de niveaux viennent des outils et des équipes, pas du
-  Scrum Guide. Jira Cloud a trois niveaux par défaut (Epic > Story > Subtask) ; Azure DevOps en
-  a quatre ou trois selon le processus choisi.
+  Scrum Guide ; chaque outil a ses niveaux par défaut, qui se modifient.
 - **Situation** : l'équipe vélos range son backlog. Léa, data engineer : « Scrum impose trois
-  niveaux : epic, story, sous-tâche. » Nora, analyste, veut ajouter un niveau feature pour les
-  vues de Bruno.
+  niveaux : epic, story, sous-tâche. »
 - **Question** : que réponds-tu à Léa ?
 - **Réponse attendue** : le Scrum Guide n'impose aucun niveau ; il ne parle que d'éléments du
   backlog. Epic > Story > Subtask, ce sont les niveaux par défaut de Jira, modifiables ;
   Azure DevOps, en processus Agile, ajoute Feature. L'équipe choisit ses niveaux et s'y tient,
-  avec le moins de niveaux possible. Ajouter le niveau feature se justifie si la plupart des
-  features regroupent plusieurs stories ; sinon, il est de trop.
+  avec le moins de niveaux possible. Quand un niveau est de trop : 4a3, à ne pas dévoiler ici.
 - **Erreurs fréquentes** :
   - donner raison à Léa parce que « tout le monde fait comme ça dans Jira » : c'est un réglage
     par défaut d'un outil, pas une règle de Scrum ;
@@ -129,8 +126,9 @@ vides, pas encore fixé.
 - **Explication** : un niveau coûte : chaque élément s'y écrit, s'y range et s'y suit. S'il
   double presque toujours le niveau du dessous, il est de trop. C'est une règle pratique du
   cours, pas un consensus.
-- **Situation** : l'équipe a gardé quatre niveaux. Le backlog des vues de Bruno compte un epic,
-  cinq features et sept stories ; quatre des cinq features ne contiennent qu'une story
+- **Situation** : Nora, analyste, a obtenu d'ajouter un niveau feature pour les vues de Bruno :
+  l'équipe a quatre niveaux. Quelques sprints plus tard, le backlog des vues de Bruno compte un
+  epic, cinq features et sept stories ; quatre des cinq features ne contiennent qu'une story
   (répartition d'exercice).
 - **Question** : que proposes-tu à l'équipe ?
 - **Réponse attendue** : le niveau feature est probablement de trop : quand la plupart des
@@ -138,15 +136,19 @@ vides, pas encore fixé.
   suivi. Avant de le retirer, vérifier que ces features ne sont pas des stories mal classées, ou
   des features dont les autres stories ne sont pas encore écrites : si c'est le cas, on reclasse
   et on recompte. Sinon, proposer de retirer le niveau (epic > story > tâche) et d'y revenir si
-  des besoins à plusieurs « je veux » reviennent. Une réponse qui commence par cette vérification
-  est juste. Nuance : c'est une règle pratique du cours, pas un consensus ; une feature isolée
-  qui ne contient qu'une story n'est pas un signal. Comment régler les niveaux dans l'outil :
-  annexe A1, à proposer quand l'apprenant en a besoin.
+  des besoins à plusieurs « je veux » reviennent. Une réponse qui propose de retirer le niveau
+  sans cette vérification est juste : apporter la vérification dans la correction. Nuance : c'est
+  une règle pratique du cours, pas un consensus ; une feature isolée qui ne contient qu'une story
+  n'est pas un signal. Comment régler les niveaux dans l'outil :
+  annexe A1, à proposer quand l'apprenant en a besoin (tant qu'elle est à écrire, d'après sa ligne
+  de `course/plan.md`).
 - **Erreurs fréquentes** :
   - garder le niveau « au cas où » : chaque niveau se remplit et se tient à jour ;
   - retirer le niveau story et garder les features : ce sont les stories qui entrent dans les
     sprints.
-- **Ce qui marche** : compter, feature par feature, les stories dessous, à voix haute.
+- **Ce qui marche** : compter, feature par feature, les stories dessous, à voix haute. Après
+  « au cas où, ça ne coûte rien » : montrer le coût dans l'outil (une feature à une seule story,
+  ce sont deux éléments et deux statuts à tenir pour un seul « je veux » de Bruno).
 
 ### Un seul « je veux » ? (4b)
 - **Explication** : écris les « je veux » de ce qu'il reste à livrer. Un seul, qui tient dans un
