@@ -1,7 +1,7 @@
 # ADR-025 : Le mainteneur-agent enrichit le glossaire en autonomie
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-029
 - **Ticket** : T-032
 
 ## Contexte

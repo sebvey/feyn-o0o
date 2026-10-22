@@ -7,7 +7,7 @@
   première version), 17 (hypothèses et exploration), annexe A1 (structurer le backlog dans un
   outil). T-021 ajoute l'annexe A2 (travailler sans sprint, ADR-018).
 - **À faire** :
-  - Lancer `course-lot` sur T-018g, sur demande du mainteneur. Pour les annexes A1 et A2 :
+  - Écrire les consignes propres au lot, puis lancer `course-lot` sur T-018g (T-041). Pour les annexes A1 et A2 :
     sources et relecture d'exactitude seulement.
   - Entrées propres au lot : `framing.md` §2.2 (découverte, incertitude) et §2.3 ;
     `maintainer/improvements/15-vie-story.md` et `04-hierarchie.md` (pour A1) ; observations

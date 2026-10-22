@@ -1,7 +1,7 @@
 export const meta = {
   name: 'course-lot',
   description: "Écrit un lot de concepts d'un cours : sources, rédaction, deux revues, correction",
-  whenToUse: "Le mainteneur demande de lancer course-lot sur un sous-ticket de lot (ex. « lance course-lot sur T-018c »). args : { ticket: '<chemin du sous-ticket>', course?: 'course/', work?: '<dossier des produits intermédiaires>' }",
+  whenToUse: "Le mainteneur demande de lancer course-lot sur un sous-ticket de lot, ou de traiter ce sous-ticket (ex. « lance course-lot sur T-018c », « traite T-018g »). args : { ticket: '<chemin du sous-ticket>', course?: 'course/', work?: '<dossier des produits intermédiaires>' }",
   phases: [
     { title: 'Cadrage', detail: 'lit le ticket et le cours, liste les concepts du lot' },
     { title: 'Sources', detail: 'un agent par concept, fichier de sources tracé' },
@@ -91,7 +91,7 @@ const FIX_SCHEMA = {
     open: {
       type: 'array',
       items: { type: 'object', properties: { id: { type: 'string' }, question: { type: 'string' } }, required: ['id', 'question'] },
-      description: 'constats que tu ne peux pas trancher seul (fait du fil rouge, terme du glossaire, choix du mainteneur)',
+      description: 'constats que tu ne peux pas trancher seul (fait du fil rouge, terme du glossaire, choix du coordinateur)',
     },
   },
   required: ['applied', 'rejected', 'open'],
@@ -185,7 +185,7 @@ ${JSON.stringify(findings, null, 1)}
 Pour chaque constat : vérifie-le contre les fichiers (vrai défaut ou faux positif). Corrige les \
 vrais défauts dans ${c.concept_file} et, si besoin, ${c.sources_file}. Écarte les faux positifs \
 en disant pourquoi. Un constat qui demande un fait nouveau du fil rouge, un terme nouveau du \
-glossaire ou un choix du mainteneur : ne le tranche pas, mets-le dans « open » et ajoute-le à \
+glossaire ou un choix du coordinateur : ne le tranche pas, mets-le dans « open » et ajoute-le à \
 ${WORK}${c.id}-needs.md.`
 
 // --- Pipeline par concept --------------------------------------------------
