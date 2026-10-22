@@ -121,7 +121,9 @@ pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
 
 Après un changement qui modifie une procédure ou déplace des fichiers, lance un sous-agent neuf,
 en lecture seule, sur un scénario qui met le changement à l'épreuve. Demande-lui de relire
-`CLAUDE.md` sur disque : la version de son contexte peut être périmée.
+`CLAUDE.md` sur disque : la version de son contexte peut être périmée. Il ne reçoit pas le
+contexte des hooks de démarrage : donne-lui la sortie de `.claude/hooks/learner-status.sh` dans
+son brief.
 
 Pour un changement du cours, le scénario par défaut est « on reprend », puis « on continue »,
 puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce le bon concept,
