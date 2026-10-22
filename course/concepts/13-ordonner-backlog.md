@@ -230,8 +230,8 @@ du fil rouge.
 - **Question** : que réponds-tu à Claire ?
 - **Réponse attendue** : tout en Must, c'est ne rien classer : si l'échéance est menacée, on ne
   sait plus quoi lâcher. Le PO aide Claire à classer par une question : « si le conseil n'avait
-  que ça, le bilan tiendrait-il ? ». C'est elle qui y répond, elle sait ce que le conseil attend
-  ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose les
+  que ça, le bilan tiendrait-il ? ». C'est elle qui y répond, elle sait ce que le conseil
+  attend ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose les
   locations par quartier (elle ne peut pas être Must sans elles), et l'effort se demande aux
   Developers, pour garder le Must sous environ 60 %. Classer en Won't veut dire « pas pour ce
   bilan » : la demande reste au backlog, dans l'ordre, que MoSCoW ne remplace pas. Nuance : les
