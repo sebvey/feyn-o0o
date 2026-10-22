@@ -71,3 +71,15 @@ Trigramme : **sve**.
   précédente », nouvelle US écrite avec le métier). Mais a supposé que la demande se traite
   aussitôt (« c'est le bon moment ») : la priorisation par le PO n'est pas encore un réflexe.
   À reprendre au concept 11.
+- 2026-10-21 : N d'INVEST : a vu seul que le SMS restait une solution négociable même face à
+  une contrainte d'usage (mieux que la réponse attendue). Ne sait pas encore où écrire une
+  contrainte : le lien « contrainte -> critère d'acceptation » n'est pas un réflexe.
+- 2026-10-21 : premier critère Given/When/Then en autonomie : canal non nommé (bien), mais
+  sans When et avec un Then vague (« she can know »). Lui faire dire ce que le testeur vérifie.
+- 2026-10-21 : veille à la qualité de ses fiches (a signalé que la fiche 07 n'était pas à
+  jour) : les tenir à jour sans attendre qu'il le relève.
+- 2026-10-22 : dépendances comprises du premier coup (garder la plus petite story qui a une
+  valeur seule). Réponse juste mais elliptique : n'a pas dit comment gérer la dépendance
+  (ordonner le backlog). Lui demander le « et alors, on fait quoi ? ».
+- 2026-10-22 : DoD comprise du premier coup (3/3, sans justifier). Repère une formulation
+  imprécise du prof (« DoD au niveau de l'incrément ») : soigner les termes, il les vérifie.

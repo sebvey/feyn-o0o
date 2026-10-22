@@ -5,13 +5,13 @@ Ordre indicatif : adapte selon les réponses de sve. Statuts : `validé`, `en co
 
 ## Prochaine étape
 
-**Session 6 (2026-10-21) : retour sur le N d'INVEST, demandé par sve après un mini-récap 6 à 9a.**
-Trace `06-invest/01` : retour sur N validé (critère sans canal réussi, When et Then à
-resserrer). Aucune question en attente. Point de sauvegarde proposé.
-Ensuite : **sous-concept 9b (dépendances entre stories)**, sur le fil rouge vélos, avec une
-situation neuve (ni maintenance, ni régulateur, ni abonné-SMS). Idée à illustrer : deux stories
-d'une même feature peuvent dépendre l'une de l'autre (voir « Points annoncés »). Après 9b :
-point de sauvegarde, puis mini-récap 6 à 9 (déjà fait en partie en session 6 : être bref).
+**Concept 10 en cours : 10a (DoD) validé, 10b (Definition of Ready) posé en session 7
+(2026-10-22).** Situation : story du responsable d'exploitation « voir les locations du jour par
+station », prête sauf l'accès à la table des locations (demandé à la DSI). Trace
+`10-dor-dod/03`. Question en attente, mot pour mot : « Question pour toi : la story est-elle
+prête ? Que proposes-tu au planning du sprint ? »
+Après 10b validé : compléter la fiche 10 (partie DoR), point de sauvegarde, puis concept 11
+(priorisation).
 
 ## Exemples déjà utilisés dans le cours
 
@@ -32,8 +32,8 @@ Tracés un par un dans `learner/examples/` (un dossier par concept). Fil rouge d
 | 6 | INVEST | validé | `06-invest.md` |
 | 7 | Critères d'acceptation (Given/When/Then) et règles métier | validé | `07-criteres-regles.md` |
 | 8 | Découpage en tranches verticales vs couches techniques | validé | `08-decoupage-vertical.md` |
-| 9 | Hors périmètre et dépendances | en cours | `09-hors-perimetre-dependances.md` |
-| 10 | Definition of Ready / Definition of Done | à faire | |
+| 9 | Hors périmètre et dépendances | validé | `09-hors-perimetre-dependances.md` |
+| 10 | Definition of Ready / Definition of Done | en cours | `10-dor-dod.md` |
 | 11 | Priorisation : valeur/effort, MoSCoW, MVP, story mapping | à faire | |
 | 12 | Cycle de vie d'une story : états, refinement, sélection | à faire | |
 | 13 | Choix d'outil et structure minimale du backlog | dans le TP | |
@@ -47,10 +47,6 @@ Annexes déjà traitées : Scrum en bref et l'incrément (`A1-scrum.md`).
 
 Exemples du projet réel retirés (archivés) ; les idées restent, à illustrer par des exemples
 génériques :
-- Concept 9 (dépendances) : deux stories d'une même feature peuvent dépendre l'une de l'autre
-  (ex. comparer deux périodes suppose d'avoir d'abord la décomposition).
-- Concept 10 : une exigence commune à toutes les vues (temps de réponse, heure de mise à
-  disposition) va dans la DoD, pas dans chaque story.
 - Concept 11 : la page web de consolidation des fiches est un exemple de « pas maintenant ».
 - Concept 11 : annoncé en 9a, la story « bloquer à la location un vélo signalé en panne »
   (sortie du hors périmètre) se priorise face au reste ; bon exemple de priorisation.
@@ -91,3 +87,11 @@ génériques :
   (backlog et ADR), qui tient désormais les changements du cadre.
 - 2026-10-21, session 5 : concept 9 commencé, sous-concept 9a (hors périmètre) validé sur la
   maintenance des vélos en panne, fiche 09 commencée. Arrêt au point de sauvegarde avant 9b.
+- 2026-10-21, session 6 : mini-récap 6 à 9a à la demande de sve, retour sur le N d'INVEST
+  (abonné sans appli, SMS : solution ou contrainte ?), critère Given/When/Then écrit par sve.
+  sve a signalé que la fiche 07 gardait un exemple archivé : exemples des fiches 06 et 07
+  réécrits sur les vélos. Sous-concept 9b posé.
+- 2026-10-22, session 7 : 9b repris depuis le début et validé (collectivité, fusion de A et B :
+  non), fiche 09 complétée et validée, concept 9 validé. Mini-récap 6 à 9.
+  Concept 10 : 10a (DoD) validé, fiche 10 créée ; sve a relevé que la DoD vaut pour toute
+  story (formulation « au niveau de l'incrément » corrigée). 10b posé.

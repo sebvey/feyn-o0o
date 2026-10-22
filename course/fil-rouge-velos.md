@@ -27,8 +27,14 @@ Distinct du projet factice du TP (supérettes) : jamais de mélange.
   station. Exemple : Julie.
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
   celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
+- **Collectivité** (concept 9b) : elle finance le service. Sa chargée de mission mobilité doit
+  justifier la subvention au conseil ; elle veut le nombre de locations par quartier sur le mois,
+  puis la comparaison au même mois de l'an dernier.
+
+- **Responsable d'exploitation** (concept 10) : suit plusieurs vues (stations vides, vélos en
+  panne, locations du jour). Chaque vue affiche l'heure de la dernière mise à jour (DoD). La
+  table des locations dépend d'un accès à demander à la DSI.
 
 ## Pistes pas encore utilisées
 
-Autres utilisateurs possibles : responsable d'exploitation, collectivité qui
-finance le service.
+Autres utilisateurs possibles : <aucun noté>.

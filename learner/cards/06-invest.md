@@ -21,8 +21,16 @@ sprint au plus), **T**estable (on tranche sans débat si c'est fait). INVEST jug
   surtout aux incertitudes techniques ; pour un besoin métier flou, on préfère le refinement.
 
 ## Sur un exemple
-<À réécrire avec un exemple générique ; ceux du projet réel sont archivés dans
-`learner/archive/real-project/fiches-exemples.md`.>
+Vélos en libre-service, le N (Negotiable) :
+> Fautif : « En tant qu'abonné, je veux recevoir un SMS à 8 h avec le nombre de vélos de ma
+> station… » (la solution est figée dans la story).
+> Négociable : « En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma
+> station, afin de ne pas me déplacer pour rien. »
+
+Le métier ajoute : un tiers des abonnés n'a qu'un téléphone basique. Réponse de sve : le SMS
+reste négociable. Juste : ce qui devient non négociable, c'est la contrainte (téléphone
+basique, sans l'appli), et elle s'écrit dans un critère d'acceptation (fiche 07), pas en
+nommant un canal. Négociable ne veut pas dire « tout est ouvert ».
 
 ## Pièges
 - Cocher E et S « OK » sans pouvoir le vérifier. Si plusieurs lettres dépendent d'un même mot
@@ -30,6 +38,9 @@ sprint au plus), **T**estable (on tranche sans débat si c'est fait). INVEST jug
 - Réflexe du backlog technique : créer une story « définir X » dont une autre dépend. Elle
   n'apporte pas de valeur. Le PO et le métier précisent X en refinement, et on livre d'abord
   une story limitée aux règles connues ; chaque règle découverte devient une nouvelle story.
+
+- Écrire la solution dans la story (« recevoir un SMS ») : l'équipe ne peut plus proposer
+  mieux. Écrire le besoin ; les contraintes réelles vont dans les critères.
 
 ## Le test rapide
 Un testeur qui ne connaît que la story peut-il dire « fait » ou « pas fait » sans te poser de
