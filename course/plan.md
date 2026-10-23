@@ -14,6 +14,10 @@ la question de contrôle fait passer le concept, et invite l'apprenant à dire s
 travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b, 15c et 16c :
 leur équivalent en flux continu est l'annexe A2, à proposer à ces sous-concepts quand l'apprenant
 travaille sans sprint ; une réponse juste à la question de l'annexe valide le sous-concept.
+Ailleurs, le sprint ne sert que de repère (une story tient dans un sprint, une escalade à la
+fin du sprint, une revue de sprint) : à l'apprenant sans sprint, le prof le dit et prend pour
+repère le cycle que l'équipe se donne (sa cadence de livraison ou de revue), sans ouvrir
+l'annexe.
 
 ## Objectifs du cours
 
@@ -57,9 +61,9 @@ dans `course/concepts/`, selon `course/templates/concept.md`, et ses sources dan
 | 11 | Definition of Done, Definition of Ready | distinguer DoD, DoR et critère ; décider si une story est prête | 0, 8, 10 | 11a DoD ; 11b DoR | `11-dor-dod.md` |
 | 12 | Les données du produit | définir un indicateur ; écrire une exigence de qualité ; savoir quel accès demander | 2, 8, 11 | 12a définir un indicateur (règle de calcul, grain, période, source, fraîcheur), en deux messages : 12a1 le contenu d'une définition, 12a2 ce qui manque et qui le fixe ; 12b qualité des données (dimensions, où l'écrire) ; 12c accès et données personnelles (finalité, minimisation) | `12-donnees-produit.md` |
 | 13 | Ordonner le backlog | ordonner des demandes concurrentes et argumenter l'ordre | 2, 10, 11 | 13a ordonner, c'est décider (valeur, coût, risque, dépendances, objectif produit), en deux messages : 13a1 les critères, face à une autre demande, 13a2 ordonner quatre demandes ; 13b valeur et coût du retard (choix d'école) ; 13c MoSCoW pour une échéance (choix d'école) | `13-ordonner-backlog.md` |
-| 14 | Les parties prenantes | identifier les parties prenantes, arbitrer entre elles, escalader | 1, 13 | 14a qui sont-elles (utilisateurs, financeur, sponsor, équipes voisines, fournisseurs de données) ; 14b arbitrer et dire non avec l'objectif produit ; 14c escalader un obstacle (Scrum Master, sponsor) | `14-parties-prenantes.md` |
-| 15 | La vie d'une story : refinement, planning, revue | préparer une story, la faire choisir avec un objectif de sprint, la faire inspecter | 11, 13 | 15a refinement, en deux messages : 15a1 le terme flou se précise avec l'utilisateur concerné, 15a2 pas de story « définir X » ; 15b Sprint Planning et objectif de sprint ; 15c revue de sprint : l'incrément inspecté, le backlog adapté | `15-vie-story.md` |
-| 16 | Story map et première version | organiser un backlog selon le parcours de l'utilisateur, tracer une première version utile, répondre à « pour quand ? » | 9, 13 | 16a la carte (activités, stories dessous) ; 16b tranche de version, en deux messages : 16b1 la tranche et la première version utile (résultat visé, mesure), 16b2 les deux sens de MVP ; 16c la prévision vient des Developers | `16-story-map.md` |
+| 14 | Les parties prenantes | identifier les parties prenantes, arbitrer entre elles, escalader | 1, 12, 13 | 14a qui sont-elles (utilisateurs, financeur, sponsor, équipes voisines, fournisseurs de données) ; 14b arbitrer et dire non avec l'objectif produit ; 14c escalader un obstacle (Scrum Master, sponsor) | `14-parties-prenantes.md` |
+| 15 | La vie d'une story : refinement, planning, revue | préparer une story, la faire choisir avec un objectif de sprint, la faire inspecter | 11, 12, 13 | 15a refinement, en deux messages : 15a1 le mot flou se précise avec l'utilisateur concerné, 15a2 pas de story « définir X » ; 15b Sprint Planning et objectif de sprint ; 15c revue de sprint : l'incrément inspecté, le backlog adapté | `15-vie-story.md` |
+| 16 | Story map et première version | organiser un backlog selon le parcours de l'utilisateur, tracer une première version utile, répondre à « pour quand ? » | 9, 13, 14, 15 | 16a la carte (activités, stories dessous) ; 16b tranche de version, en deux messages : 16b1 la tranche et la première version utile (résultat visé, mesure), 16b2 les deux sens de MVP ; 16c la prévision vient des Developers | `16-story-map.md` |
 | 17 | Hypothèses et exploration | séparer ce qu'on sait de ce qu'on suppose ; borner une exploration ; accepter un résultat incertain | 2, 9, 12, 16 | 17a savoir ou supposer (risques de valeur et de faisabilité, données comprises) ; 17b explorer à moindre coût, en deux messages : 17b1 décider l'exploration avant (question, durée, décision), 17b2 choisir la façon d'explorer (analyse d'historique, prototype) ; 17c accepter un résultat incertain (seuil fixé après exploration) | `17-hypotheses-exploration.md` |
 
 ## Annexes

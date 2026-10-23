@@ -29,9 +29,9 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   Developers le choisissent en discussion avec le PO : le PO ne le fixe pas seul.
 - **Choix d'école** (Dehghani, data mesh) : traiter les consommateurs de données comme des
   clients.
-- **Parti pris du cours** (ni consensus ni choix d'école) : la grille problème, utilisateurs,
+- **Choix du cours** (ni consensus ni choix d'école) : la grille problème, utilisateurs,
   valeur. Le Scrum Guide nomme les utilisateurs et la valeur ; le « problème » est l'ajout du
-  cours, pour décrire le produit par son effet plutôt que par sa technique. Autre parti pris,
+  cours, pour décrire le produit par son effet plutôt que par sa technique. Autre choix du cours,
   appuyé sur le choix de Dehghani : les consommateurs de données sont des utilisateurs du
   produit (l'équipe appli, qui reçoit les données qu'affiche l'appli ; la collectivité, qui
   reçoit des indicateurs).
@@ -92,11 +92,12 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   lit) des données livrées comptent pour elle autant qu'un écran pour Bruno. Nuance : Yanis n'a
   pas tout faux, une même équipe peut être à la fois utilisatrice de la plateforme et équipe
   voisine dont dépend une partie du travail (concept 10) ; dans les deux cas, c'est une partie
-  prenante. Faire des consommateurs de données des utilisateurs est un parti pris du cours,
+  prenante. Faire des consommateurs de données des utilisateurs est un choix du cours,
   appuyé sur le data mesh (choix d'école de Dehghani).
 - **Erreurs fréquentes** : réserver « utilisateur » aux humains devant un écran. Répondre que
   les utilisateurs sont les abonnés : ils profitent de la plateforme à travers l'appli, mais le
-  besoin que la plateforme sert directement est celui de l'équipe appli.
+  besoin que la plateforme sert directement est celui de l'équipe appli. Pour l'une ou l'autre,
+  relancer : « si la plateforme livre des données fausses, qui s'en plaint en premier ? ».
 - **Ce qui marche** : demander « si la plateforme livre des données fausses, qui s'en plaint en
   premier ? » : l'équipe appli, puis ses abonnés.
 
@@ -111,7 +112,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   qu'elle affiche. Nuance : ce que ça change par rapport à aujourd'hui, et combien de temps Hugo
   y gagne, le PO ne le sait pas ; il le demande à Hugo ou à Sophie, il ne l'invente pas.
 - **Erreurs fréquentes** : ajouter de la technique (« depuis la source des signalements »).
-  Inventer la valeur (« Hugo gagne une heure par jour ») au lieu de la demander.
+  Relancer : « et alors ? ». Inventer la valeur (« Hugo gagne une heure par jour ») au lieu de
+  la demander. Relancer : « d'où vient ce chiffre ? ».
 - **Ce qui marche** : répéter « et alors ? » jusqu'à obtenir un changement pour une personne
   nommée.
 
@@ -134,10 +136,12 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   « la cible est-elle tenue, et descendre en dessous changerait-il quelque chose pour Bruno ? » ;
   le moyen de la tenir (streaming ou autre) reste aux Developers.
 - **Erreurs fréquentes** : choisir ou refuser la technique (« le streaming, c'est trop lourd pour
-  nous ») : réflexe d'ancien développeur ; c'est le comment, il revient aux Developers. À
+  nous ») : réflexe d'ancien développeur ; c'est le comment, il revient aux Developers.
+  Relancer : « comment on le fait, pour quel coût : qui répond à cette question ? ». À
   l'inverse, « c'est technique, ça ne me regarde pas » : le PO perd le pourquoi (qui y gagne ?)
-  et l'ordre. Décider seul que les régulateurs « ont besoin du temps réel » : c'est un fait
-  métier, à demander à Bruno.
+  et l'ordre. Relancer : « qu'est-ce que ça change pour un utilisateur ? ». Décider seul que les
+  régulateurs « ont besoin du temps réel » : c'est un fait métier, à demander à Bruno. Relancer :
+  « qui peut dire si les régulateurs en ont besoin ? ».
 - **Ce qui marche** : couper la proposition en deux questions : « qu'est-ce que ça change pour
   un utilisateur ? » (PO) et « comment on le fait, pour quel coût ? » (Developers).
 
@@ -155,7 +159,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   une partie prenante. Nuance : Agnès est le sponsor (elle porte le budget de la plateforme et
   porte plus haut les obstacles qui dépassent le PO) ; l'ordre, lui, reste au PO, et un obstacle
   qui le dépasse se porte plus haut (concept 14), ce qui n'a rien d'un vote à chaque sprint.
-- **Erreurs fréquentes** : accepter le vote « pour être juste ». À l'inverse, ordonner sans
+- **Erreurs fréquentes** : accepter le vote « pour être juste ». Relancer : « si l'ordre se
+  révèle mauvais, qui en répond ? ». À l'inverse, ordonner sans
   écouter ni expliquer. Douter : « le PO peut-il vraiment ordonner seul si les demandeurs ne
   sont pas d'accord ? » Oui, c'est sa responsabilité ; ce doute est sain, le concept 14 y répond
   (arbitrer, dire non avec l'objectif produit).
@@ -177,7 +182,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Erreurs fréquentes** : accepter « pour aller plus vite » ou parce qu'Inès connaît mieux les
   données de l'appli : la connaissance d'Inès sert le backlog par la discussion, pas par le
   partage du rôle. Confondre avec la délégation : confier du travail est permis, partager la
-  responsabilité non.
+  responsabilité non. Pour l'une ou l'autre, relancer : « si les deux ordres se contredisent,
+  qui tranche ? ».
 - **Ce qui marche** : demander « si les deux ordres se contredisent, qui tranche ? ». S'il faut
   un arbitre, c'est qu'il y a un seul PO.
 

@@ -27,8 +27,8 @@ atteindre, par l'utilisateur qui en paie les erreurs.
   arriver est inconnu. Le Scrum Guide ne parle ni de spike ni de découverte ; il ne nomme les
   hypothèses (assumptions) qu'à la rétrospective, pour celles qui ont égaré l'équipe dans sa
   façon de travailler, pas pour les hypothèses du produit.
-- **Référentiel de certification** (objectifs d'apprentissage du PO de Scrum Alliance, CSPO ;
-  ni le Scrum Guide ni un consensus) : repérer et valider
+- **Consensus** (pratique établie, hors du Scrum Guide : objectifs d'apprentissage du PO de
+  Scrum Alliance, CSPO) : repérer et valider
   les hypothèses du produit fait partie du travail du PO, et les façons de les valider se
   comparent par leur coût et par la qualité de ce qu'on apprend.
 - **Choix d'école** :
@@ -56,15 +56,15 @@ atteindre, par l'utilisateur qui en paie les erreurs.
     visé. Nommée ici, pas enseignée ;
   - le **MVP au sens d'Eric Ries** : la version qui permet d'apprendre le plus sur les
     utilisateurs pour le moindre effort (concept 16b) ; une manière d'apprendre parmi d'autres.
-- **Pratique établie** (en analyse de données, hors Scrum et gestion de produit : CRISP-DM,
-  guides de Google) : la réussite d'une analyse de données se dit par un niveau
-  atteint (une précision de prévision, par exemple), mesuré sur des données mises de côté, et
+- **Consensus** (pratique établie en analyse de données, hors du Scrum Guide et de la gestion
+  de produit : CRISP-DM, guides de Google) : la réussite d'une analyse de données se dit par
+  un niveau atteint (une précision de prévision, par exemple), mesuré sur des données mises de côté, et
   distinct des critères de réussite du métier (ce que l'organisation attend du projet) ; le
   seuil d'une alerte se choisit en pesant le coût d'une fausse alerte et celui d'un cas manqué,
   avec les utilisateurs. CRISP-DM met en garde contre les objectifs inatteignables et admet que
   les critères changent au fil de l'analyse. Le moment où l'on fixe le niveau n'est pas dans cette
-  pratique (voir la lecture du cours ci-dessous).
-- **Lecture du cours** (sans source qui le dise en ces termes, à présenter comme telle) :
+  pratique (voir le choix du cours ci-dessous).
+- **Choix du cours** (sans source qui le dise en ces termes, à présenter comme tel) :
   - le cours retient deux des quatre risques, valeur et faisabilité, et range la donnée dans la
     faisabilité (existe-t-elle, est-elle assez bonne, assez fraîche ?) ; Cagan ne parle pas de
     données ;
@@ -132,8 +132,8 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 
 ### Prévoir les stations à risque : on sait ou on suppose ? (17a)
 - **Explication** : une hypothèse, c'est ce qu'on tient pour vrai sans l'avoir vérifié
-  (l'objectif produit en est une, concept 2). Marty Cagan (choix d'école) nomme quatre grands
-  risques : valeur, utilisabilité, faisabilité, viabilité. Le cours en retient deux : la
+  (pour Scrum.org, l'objectif produit en est une : choix d'école, concept 2). Marty Cagan
+  (choix d'école) nomme quatre grands risques : valeur, utilisabilité, faisabilité, viabilité. Le cours en retient deux : la
   **valeur** (l'utilisateur s'en servira-t-il, cela sert-il l'objectif produit ?) et la
   **faisabilité** (peut-on le construire, avec des données qui existent, assez bonnes et
   fraîches ? ce point sur les données est un choix du cours). Le reste de Cagan (il parle de
@@ -154,9 +154,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   n'a vérifié que la tendance prévoit assez tôt. 3 se suppose, faisabilité côté données, et plus
   que ça : la météo n'est pas collectée, on ne peut même pas le vérifier sur nos données
   aujourd'hui. 4 se suppose, valeur, et contient deux hypothèses : que Malik change sa tournée
-  (comportement), et que cela réduit le temps vide (lien avec l'objectif produit, qui est
-  lui-même une hypothèse, concept 2). Suite : on ne tranche aucune des trois, on cherche
-  comment les vérifier au moindre coût (17b). Nuance : 4 dépend aussi de ce qu'est une station
+  (comportement), et que cela réduit le temps vide (lien avec l'objectif produit, qui, pour
+  Scrum.org, est lui-même une hypothèse, concept 2). Suite : on ne tranche aucune des trois,
+  on cherche comment les vérifier au moindre coût (17b). Nuance : 4 dépend aussi de ce qu'est une station
   vide et des heures de pointe, non fixés (règles à faire fixer, concept 8a2).
 - **Erreurs fréquentes** :
   - ranger 2 en « on sait » parce que « c'est ce que fait n'importe quel modèle » : demander
@@ -196,7 +196,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 ### On verra ce que Nora trouve (17b1)
 - **Explication** : une exploration bornée (spike, venu d'XP) répond à une question dans un
   temps fixé ; elle livre une réponse, pas une fonction, et ce qu'elle produit se jette souvent.
-  Elle se décide avant, sur trois points (synthèse du cours) : la question, la durée, ce qu'on
+  Elle se décide avant, sur trois points (choix du cours) : la question, la durée, ce qu'on
   décidera selon la réponse, y compris ce qui compte comme « oui ». Teresa Torres (choix
   d'école) le dit ainsi : si toutes les réponses mènent à la même décision, inutile d'explorer.
   Le temps fixé borne le coût ; au terme, on décide, parfois d'explorer encore. Mise au backlog
@@ -280,7 +280,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   Le critère d'acceptation porte donc sur un niveau atteint, mesuré sur des données mises de
   côté (une part de l'historique des relevés, par exemple) : une pratique établie en analyse de
   données (CRISP-DM, Google), hors Scrum. Ce niveau se fixe après l'exploration qui montre ce
-  qu'on peut atteindre, pas avant (lecture du cours). Il se fait fixer par l'utilisateur
+  qu'on peut atteindre, pas avant (choix du cours). Il se fait fixer par l'utilisateur
   concerné, qui pèse deux erreurs : une fausse alerte (une camionnette envoyée pour rien) et une
   station vide manquée. Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce
   qui comptait comme « oui » pour l'exploration, dit avant par Bruno et Malik pour savoir si on

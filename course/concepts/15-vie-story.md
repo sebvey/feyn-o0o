@@ -6,14 +6,14 @@ titre: La vie d'une story
 # La vie d'une story : refinement, planning, revue
 
 ## Objectif
-Préparer une story au refinement en faisant préciser ses termes flous par l'utilisateur
+Préparer une story au refinement en faisant préciser ses mots flous par l'utilisateur
 concerné ; la faire choisir au Sprint Planning avec un objectif de sprint qui dit pourquoi le
 sprint a de la valeur ; la faire inspecter en revue de sprint et adapter le backlog à ce qu'on
 y apprend.
 
 ## L'essentiel
 Une story vit en trois temps. Le **refinement**, activité continue, la précise et la découpe ;
-un terme flou s'y fait préciser par l'utilisateur concerné, pas par une story « définir X ». Au
+un mot flou s'y fait préciser par l'utilisateur concerné, pas par une story « définir X ». Au
 **Sprint Planning** (pourquoi, quoi, comment), l'**objectif de sprint** dit pourquoi le sprint a
 de la valeur, pas quelles stories finir. La **revue de sprint**, séance de travail, inspecte
 l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette vie (annexe A1).
@@ -38,7 +38,7 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
     participants décident ensemble de la suite et le backlog peut être ajusté. C'est une
     séance de travail, pas une simple présentation, ni une porte de mise en production. Une
     story qui ne remplit pas la DoD n'y est pas présentée (concept 11).
-- **Pratique établie** (Scrum.org, hors Scrum Guide) : la revue n'est ni une démonstration à
+- **Consensus** (pratique établie, hors du Scrum Guide ; Scrum.org) : la revue n'est ni une démonstration à
   sens unique, ni une séance où le PO « accepte » le travail des Developers.
 - **Choix d'école** :
   - le refinement n'est pas forcément une réunion de toute l'équipe : c'est une suite de
@@ -46,17 +46,18 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
   - « finir les sept stories » n'est pas un bon objectif de sprint (Mike Cohn, cohérent avec
     le Scrum Guide). Mais Cohn tient l'objectif de sprint pour facultatif, contre le Scrum
     Guide, qui en fait un engagement : à dire seulement si l'échange y mène.
-- **Choix du cours** (sans source externe, à présenter comme tel) : un terme flou se fait
+- **Choix du cours** (sans source externe, à présenter comme tel) : un mot flou se fait
   préciser par l'utilisateur concerné de chaque story, et le sens peut différer d'une story à
   l'autre, sous un nom distinct (un chiffre partagé garde une seule définition, concept 7a2) ;
   une story « définir X » dont une autre dépend n'apporte rien seule ; le mot
-  « recette » pour la revue prise comme validation.
+  « recette » nomme, dans le cours, l'erreur qui fait de la revue une validation avant
+  livraison (banque « La revue en recette »).
 
 ## Sous-concepts
 1. **15a refinement**, en deux messages, chacun avec sa question :
-   - **15a1** le refinement et le terme flou (« Vélo en panne : qui le précise ? ») : activité
+   - **15a1** le refinement et le mot flou (« Vélo en panne : qui le précise ? ») : activité
      continue, sans événement imposé ; on y précise, découpe, et les Developers estiment la
-     taille. Le terme flou se fait préciser par l'utilisateur concerné de chaque story, au
+     taille. Le mot flou se fait préciser par l'utilisateur concerné de chaque story, au
      refinement ; chaque story dit le sens retenu. Le cours ne fixe aucun de ces sens.
    - **15a2** pas de story « définir X » (« La story "définir le seuil" », exemple éprouvé) :
      une story « définir X » dont une autre dépend n'apporte rien seule ; X se précise au
@@ -115,7 +116,7 @@ tâches).
   Developers en estiment la taille. Le Scrum Guide en fait une activité continue, pas un
   événement : ni moment ni durée imposés. Il se fait en général avant le Sprint Planning. Ce
   n'est pas forcément une réunion de toute l'équipe : des conversations, parfois avec les
-  parties prenantes (Verwijs et Overeem, choix d'école). Choix du cours : un terme flou se fait
+  parties prenantes (Verwijs et Overeem, choix d'école). Choix du cours : un mot flou se fait
   préciser par l'utilisateur concerné (rappel du concept 7a2).
 - **Situation** : trois stories du haut du backlog parlent de vélos en panne : la vue des vélos
   en panne de Bruno, le nombre de vélos en panne par semaine pour Sophie, une évolution de la
@@ -158,7 +159,7 @@ tâches).
   tournée. Trois décisions, peut-être trois sens.
 
 ### La story « définir le seuil » (15a2, exemple éprouvé)
-- **Explication** : un terme ou une règle à préciser n'est pas une story : rien ne change pour
+- **Explication** : un mot ou une règle à préciser n'est pas une story : rien ne change pour
   l'utilisateur quand c'est fait. On le précise au refinement, avec l'utilisateur concerné.
   Rappel, sans le réenseigner : la règle non fixée, le PO la fait fixer (concept 8a2) ; la DoR
   de l'équipe vélos demande des règles métier fixées (concept 11b).
@@ -217,10 +218,11 @@ tâches).
 - **Erreurs fréquentes** :
   - raccourcir la liste (« finir la vue et la tournée ») : demander « pourquoi ce sprint
     compte-t-il pour Bruno, Sophie et Hugo ? » ;
-  - fixer l'objectif seul (« mon objectif ») : le PO propose, l'équipe le fixe ;
+  - fixer l'objectif seul (« mon objectif ») : le PO propose, l'équipe le fixe ; relancer :
+    « au Sprint Planning, qui propose l'objectif, et qui le fixe ? » ;
   - choisir les stories ou leur nombre à la place des Developers : ils choisissent, avec le
     PO, d'après leurs résultats passés, leur capacité et la DoD ; ne pas entrer dans
-    l'estimation ni la vélocité ;
+    l'estimation ni la vélocité ; relancer : « qui choisit les stories du sprint ? » ;
   - si l'apprenant dit que Scrum peut se passer d'objectif de sprint : c'est l'avis de Mike
     Cohn (choix d'école) ; le Scrum Guide en fait un engagement.
 - **Ce qui marche** : demander « si une des trois stories ne passe pas, le sprint a-t-il
@@ -299,7 +301,7 @@ tâches).
   - « je note, on verra » sans dire où : demander « et alors, où va sa demande ? » ;
   - remercier et clore, comme après une présentation : la revue sert à décider de la suite.
 - **Ce qui marche** : trois temps, au ton de PO : reconnaître ce que la revue a appris, dire où
-  va chaque demande et qui la place, dire quand se reprécise le terme.
+  va chaque demande et qui la place, dire quand se reprécise le mot.
 
 ### La revue en recette (15c, en rechange)
 - **Explication** : la revue n'est ni une démonstration à sens unique, ni une séance où le PO
@@ -318,9 +320,10 @@ tâches).
   incrément peut être livré avant la revue ; la revue n'est pas une porte de mise en
   production.
 - **Erreurs fréquentes** :
-  - le montrer « en avant-première » : présenté en revue, il passe pour fait ;
+  - le montrer « en avant-première » : présenté en revue, il passe pour fait ; réexpliquer ;
   - garder la validation de Sophie « pour être sûr » : la DoD et les critères disent quand
-    c'est fait ; Sophie dit ce qu'il faut ensuite ;
+    c'est fait ; Sophie dit ce qu'il faut ensuite ; relancer : « si Sophie dit oui en séance,
+    la définition écrite existe-t-elle pour autant ? » ;
   - ne relever qu'un des deux points : relancer sur l'autre.
 - **Ce qui marche** : « si Sophie dit oui en séance, la définition écrite existe-t-elle pour
   autant ? ».
@@ -341,7 +344,7 @@ tâches).
 ## Pièges
 - **Un refinement en réunion d'équipe, sans l'utilisateur concerné** : personne dans la pièce
   ne sait ce que le mot veut dire pour lui.
-- **Le PO qui tranche le terme flou lui-même**, ou qui impose d'office un sens à toutes les
+- **Le PO qui tranche le mot flou lui-même**, ou qui impose d'office un sens à toutes les
   stories sans demander à chaque utilisateur : chacun précise le sens pour sa story. Un même
   chiffre partagé (plusieurs utilisateurs, mesure de l'objectif produit) garde une seule
   définition sous son nom (concept 7a2).

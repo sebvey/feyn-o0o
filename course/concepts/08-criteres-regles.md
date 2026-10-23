@@ -20,7 +20,7 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle ni de critère d'acceptation, ni de
   règle métier, ni de story. Rien de ce concept n'est donc du consensus Scrum.
-- **Pratique établie** (hors Scrum Guide) : chaque story porte des critères d'acceptation. C'est
+- **Consensus** (pratique établie, hors du Scrum Guide) : chaque story porte des critères d'acceptation. C'est
   la confirmation des 3C de Ron Jeffries (XP, concept 5) et le T d'INVEST de Bill Wake
   (concept 7). Mike Cohn parle de conditions de satisfaction, presque synonymes, et en confie
   l'écriture d'abord au PO ; le cours y ajoute la conversation avec l'utilisateur et l'équipe.
@@ -108,8 +108,9 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Question** : qu'est-ce que ce critère décide, et qui l'a décidé ?
 - **Réponse attendue** : la forme est correcte (Given, When, Then), mais le critère repose sur
   « presque vide », dont la règle n'est pas fixée : il décide qu'une station à 2 vélos est
-  presque vide, alors que personne n'a fixé le seuil : Léa le tire de ce que « tout le monde
-  dit ». Un critère illustre une règle, il ne la remplace pas. Suite,
+  presque vide. Qui l'a décidé : personne ; Léa le tire de ce que « tout le monde dit », et un
+  avis répandu n'est pas une décision. Répondre « Léa » sans dire que personne n'a décidé est
+  l'erreur fréquente ci-dessous, pas une réponse partielle. Un critère illustre une règle, il ne la remplace pas. Suite,
   en renvoi : le PO la fait fixer, la story attend (concepts 4 et 7a2) ; la DoR de l'équipe
   vélos demande des règles métier fixées (concept 11). Nuance : la règle devra aussi dire si
   une station au seuil compte comme presque vide. Une fois fixée, elle s'écrit comme règle
@@ -117,8 +118,11 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Erreurs fréquentes** :
   - juger le critère bon parce que sa forme l'est : demander « d'où vient le 2 ? » ;
   - répondre « Léa » ou « l'équipe » sans voir que personne n'a décidé : un avis répandu n'est
-    pas une décision ;
-  - proposer soi-même un seuil pour débloquer : renvoyer à 4b et 7a2, sans réexpliquer.
+    pas une décision ; relancer : « si Bruno voit une station marquée presque vide avec 2 vélos,
+    qui a décidé que c'était presque vide ? » ;
+  - proposer soi-même un seuil pour débloquer : relancer : « qui, chez l'opérateur, sait à
+    partir de combien de vélos une station est presque vide pour Bruno ? » ; puis renvoyer à 4b
+    et 7a2, sans réexpliquer.
 - **Ce qui marche** : « si Bruno voit une station marquée presque vide avec 2 vélos, qui a
   décidé que c'était presque vide ? ».
 
@@ -145,9 +149,12 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   exemple.
 - **Erreurs fréquentes** :
   - corriger le Then en nommant un canal (« elle reçoit un SMS ») : c'est une solution
-    (concept 7b), le Then dit ce qu'elle obtient ;
-  - garder « elle peut savoir » : on ne sait pas quoi vérifier ;
-  - ajouter un When au mauvais moment (« quand elle arrive à la station »).
+    (concept 7b), le Then dit ce qu'elle obtient ; relancer : « si l'équipe appli choisit un
+    serveur vocal, ton critère passe-t-il ? » ;
+  - garder « elle peut savoir » : on ne sait pas quoi vérifier ; relancer : « qu'est-ce que le
+    testeur regarde pour dire OK ? » ;
+  - ajouter un When au mauvais moment (« quand elle arrive à la station ») : relancer : « à
+    quel moment Julie veut-elle savoir ? ».
 - **Ce qui marche** : « qu'est-ce que le testeur regarde pour dire OK ? ». Si un défaut reste
   après la réponse, dire ce qui est corrigé et relancer sur celui-là seul.
 
@@ -165,8 +172,10 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   que le critère change ; seul, il ne la garantit pas (un rafraîchissement qui échoue).
 - **Erreurs fréquentes** :
   - garder les deux « parce que 5 minutes, c'est plus exigeant » : le critère fige alors un
-    moyen que l'équipe pouvait changer ;
-  - écrire « en temps réel » : un mot flou, et une solution.
+    moyen que l'équipe pouvait changer ; relancer : « Julie voit-elle la fréquence de
+    rafraîchissement ? Que voit-elle ? » ;
+  - écrire « en temps réel » : un mot flou, et une solution ; relancer : « comment le testeur
+    vérifie-t-il « en temps réel » ? ».
 - **Ce qui marche** : « Julie voit-elle la fréquence de rafraîchissement ? Que voit-elle ? ».
 
 ### Les vélos disponibles de Bruno (8b2)

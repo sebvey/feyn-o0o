@@ -112,12 +112,13 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   ne les invente pas.
 - **Erreurs fréquentes** :
   - écrire comment calculer (requête, jointure) : c'est le comment des Developers ; la
-    définition dit ce qu'on compte, sur quoi, quand ;
+    définition dit ce qu'on compte, sur quoi, quand ; réexpliquer ;
   - exclure les vélos signalés en panne « parce qu'ils sont en panne » : la règle dit qu'un
     vélo signalé reste louable, donc disponible ; exclure, c'est inventer une règle (concept
-    8b2) ;
+    8b2) ; relancer : « qui a fixé qu'un vélo signalé en panne ne compte pas ? » ;
   - écrire « en temps réel » pour la fraîcheur : un mot flou (concept 7a2) ; la règle fixée
-    dit moins de 15 minutes ;
+    dit moins de 15 minutes ; relancer : « Nora et Yanis lisent ta définition chacun de leur
+    côté : trouvent-ils le même nombre pour la même station ? » ;
   - ajouter seulement « à quai et louables », sans période ni fraîcheur : dire ce qui est
     corrigé, puis demander « à quel moment ce nombre est-il vrai, et vieux de combien ? » ;
   - perdre en réécrivant une case déjà juste (« par station » disparaît) : dire ce qui est
@@ -142,9 +143,10 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   courtes ; rattacher la location au quartier de la station de départ ou d'arrivée. Toutes deux
   changent le chiffre ; c'est Claire qui les fixe, pour ce qu'elle montre au conseil ; le PO lui
   pose la question, il ne choisit pas. Bruno peut l'éclairer (il voit les vélos rendus
-  aussitôt), il ne fixe pas : sa vue des locations du jour montre toutes les locations, et la
-  règle concerne l'indicateur de Claire. La source est incomplète : le quartier vient du
-  référentiel des quartiers, tenu par la collectivité, à côté de la table des locations. La
+  aussitôt), il ne fixe pas : sa vue des locations du jour, pas encore construite, montrera
+  toutes les locations, et la règle concerne l'indicateur de Claire. La source est
+  incomplète : le quartier vient du référentiel des quartiers, tenu par la collectivité, à côté
+  de la table des locations. La
   fraîcheur manque aussi : le PO demande à Claire quand elle a besoin du mois. Nuances, non
   attendues : la table des locations n'est pas encore accessible (concept 11b) : la story ne
   remplit pas la DoR, même avec une définition complète. La comparaison au même mois de l'an
@@ -156,7 +158,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
     l'exemple de « Ce qui marche » (la location de trois minutes), puis demander « qui montre ce
     chiffre au conseil ? » ;
   - voir ce qui manque sans dire qui le fixe : demander « et alors, on fait quoi ? » ;
-  - répondre « Bruno » : sa vue des locations du jour montre toutes les locations, courtes
+  - répondre « Bruno » : sa vue des locations du jour montrera toutes les locations, courtes
     comprises ; c'est une autre vue ; pour l'indicateur de Claire, c'est Claire ;
   - mettre la définition dans les critères de la story A : demander « et la story B, quelle
     définition prend-elle ? » ;
@@ -183,7 +185,8 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 - **Erreurs fréquentes** :
   - proposer une définition (« vide, c'est zéro vélo disponible ») : c'est fixer un fait
     métier ; demander « qui doit le décider ? » ;
-  - croire la mesure prête parce que sa phrase est longue : compter les cases remplies.
+  - croire la mesure prête parce que sa phrase est longue : compter les cases remplies ;
+    relancer : « deux analystes la calculent demain : trouvent-ils le même temps ? ».
 - **Ce qui marche** : « deux analystes la calculent demain : trouvent-ils le même temps ? ».
 
 ### Les signalements par téléphone (12b)
@@ -214,6 +217,8 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   - accepter la story de Yanis : demander « avec quelles données la plateforme les
     retrouverait-elle ? » ;
   - l'écrire dans la DoD : elle ne vaut pas pour toute story, seulement pour cet indicateur ;
+    relancer : « cette exigence vaut-elle pour toute story, pour une story, ou pour cet
+    indicateur ? » ;
   - l'écrire dans la définition sans la montrer : Sophie lit le chiffre, pas la définition ;
     demander « où Sophie l'apprend-elle ? » ;
   - réponse juste sans la suite (« c'est une limite de la source ») : demander « et alors, on
@@ -239,7 +244,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 - **Erreurs fréquentes** :
   - répondre « on testera tout » : demander « que vérifie le test, exactement ? » ;
   - fixer soi-même un seuil (« moins de 1 % d'erreurs ») : c'est à Claire de dire ce dont le
-    conseil a besoin.
+    conseil a besoin ; relancer : « qui sait ce dont le conseil a besoin ? ».
 - **Ce qui marche** : « quel chiffre, faux, te mettrait en difficulté devant le conseil ? ».
 
 ### Quelles colonnes demander à Pascal ? (12c)
@@ -299,9 +304,13 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   justification. Nuance : le PO ne tranche pas un point de droit ; le délégué à la protection
   des données, s'il y en a un, conseille.
 - **Erreurs fréquentes** :
+  - donner raison à Léa : relancer : « l'opérateur peut-il retrouver qui est l'abonné
+    48213 ? » ;
   - ne réfuter que l'un des deux arguments : dire ce qui est juste, relancer sur l'autre ;
   - « on l'anonymisera dans l'entrepôt » : la collecte reste trop large ; et un identifiant
-    remplacé par un autre reste rattachable tant que quelqu'un garde la correspondance.
+    remplacé par un autre reste rattachable tant que quelqu'un garde la correspondance ;
+    relancer : « une fois l'identifiant remplacé, quelqu'un peut-il encore retrouver
+    l'abonné ? ».
 - **Ce qui marche** : « l'opérateur peut-il retrouver qui est l'abonné 48213 ? ».
 
 ## Pièges

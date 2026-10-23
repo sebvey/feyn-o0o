@@ -22,7 +22,7 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
   précisé avant ; le contenu du sprint peut encore se clarifier pendant le sprint, avec le PO.
   La revue de sprint peut adapter le backlog, et le PO l'ordonne (concepts 0, 1, 3). Le Scrum
   Guide ne parle ni de hors périmètre ni de dépendance entre éléments du backlog.
-- **Pratique établie** (hors Scrum Guide) : réduire les dépendances et rendre visibles celles
+- **Consensus** (pratique établie, hors du Scrum Guide) : réduire les dépendances et rendre visibles celles
   qui restent. Bill Wake (I d'INVEST), Mike Cohn et Scrum.org, pour plusieurs équipes sur un même
   produit, concordent. Cohn donne deux façons de lever une dépendance entre deux stories : les
   fusionner, si la story fusionnée reste petite, ou les découper autrement. Il compte aussi
@@ -104,8 +104,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 
 ### Sophie crie au bug (10a2)
 - **Explication** : écrit avant le sprint, le hors périmètre aligne les attentes : à la revue,
-  personne ne découvre un manque convenu. Chaque ligne reste une demande à traiter : elle entre
-  au backlog, et le PO l'ordonne.
+  personne ne découvre un manque convenu.
 - **Situation** :
   > En tant que technicien de maintenance, je veux voir les vélos signalés en panne, afin de
   > préparer ma tournée de réparation.
@@ -167,9 +166,12 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 - **Erreurs fréquentes** :
   - s'arrêter au « non » : demander « et alors, on fait quoi de la dépendance ? » ;
   - accepter la fusion parce qu'une dépendance serait toujours un défaut : le I se tient autant
-    que possible (concept 7) ;
-  - répondre « fusionner, jamais » : Cohn la retient quand le résultat reste petit ;
-  - placer B avant A, ou les laisser sans ordre : B n'a pas de sens sans A.
+    que possible (concept 7) ; relancer : « si l'équipe s'arrête après A, Claire s'en
+    sert-elle ? » ;
+  - répondre « fusionner, jamais » : Cohn la retient quand le résultat reste petit ; relancer :
+    « dans quel cas Cohn fusionne-t-il deux stories ? » ;
+  - placer B avant A, ou les laisser sans ordre : B n'a pas de sens sans A ; relancer : « si
+    l'équipe livre B seule, que voit Claire ? ».
 - **Ce qui marche** : « si l'équipe s'arrête après A, Claire s'en sert-elle ? », puis « et si
   elle s'arrête après la story fusionnée, qu'a-t-elle eu en attendant ? ».
 
@@ -177,7 +179,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 - **Explication** : une dépendance envers une autre équipe ne se règle pas dans son seul
   backlog. Le PO l'écrit dans son backlog, demande à l'autre PO de l'écrire dans le sien, et
   s'accorde avec lui sur l'ordre dans les deux backlogs, pour que les deux parts arrivent à
-  temps. Chaque PO ordonne seul son backlog : pour changer sa place, on le convainc. Pratique du
+  temps. Chaque PO ordonne seul son backlog : pour changer sa place, on le convainc. Choix du
   cours : le Scrum Guide ne traite pas deux produits ayant chacun son PO.
 - **Situation** : la story de Julie (concept 7) : « En tant qu'abonné, je veux savoir avant de
   partir s'il reste un vélo à ma station, afin de ne pas me déplacer pour rien. » La

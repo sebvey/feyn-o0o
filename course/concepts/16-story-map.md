@@ -8,12 +8,12 @@ titre: Story map et première version
 ## Objectif
 Ranger les stories d'un backlog selon le parcours de l'utilisateur, en story map ; tracer une
 première version utile qui traverse ce parcours, avec son résultat visé et sa mesure ; répondre
-à « pour quand ? » par la prévision des Developers, en fourchette, sans en faire un engagement.
+à « pour quand ? » par la prévision des Developers, en fourchette, sans en faire une promesse.
 
 ## L'essentiel
 La **story map** (Jeff Patton) range les stories sous les activités de l'utilisateur, dans
 l'ordre où il raconte sa journée : on voit le tout, pas une liste plate. Une **tranche de
-version** coupe la carte à l'horizontale : la première version utile prend, sous chaque
+version** trace une ligne en travers de la carte : la première version utile prend, sous chaque
 activité, le moins de stories qui permet à l'utilisateur d'atteindre son but, avec un résultat
 visé et une mesure. « MVP » a deux sens : on dit lequel on emploie. À « pour quand ? », le PO
 répond par la **prévision**, construite sur la taille et le rythme des Developers : une
@@ -23,13 +23,14 @@ fourchette, revue à chaque sprint, pas une promesse.
 - **Consensus** (Scrum Guide 2020) : le backlog est une liste ordonnée et émergente, seule
   source du travail, dont le PO répond de l'ordre (concepts 1b, 3). Le guide ne parle ni de
   story map ni de plan de version. Les Developers qui feront le travail en estiment la taille ;
-  le travail choisi au Sprint Planning est leur prévision (15b). Les engagements sont l'objectif
-  produit, l'objectif de sprint et la DoD (0a3) : la prévision n'en est pas un (le guide de 2011
-  a remplacé « commit » par « forecast » pour le travail choisi). Le guide cite des pratiques de
-  prévision (burn-down, burn-up, flux cumulé) sans en imposer aucune, et rappelle que dans un
-  environnement complexe, ce qui va arriver est inconnu : seul ce qui s'est déjà passé sert à
-  décider. Il ne dit pas qui prévoit une version. Les référentiels de PO (CSPO) font planifier
-  une version et établir une prévision avec les parties prenantes.
+  le travail choisi au Sprint Planning est leur prévision. Les engagements sont l'objectif
+  produit, l'objectif de sprint et la DoD (0a3). La prévision n'est pas une promesse : le guide
+  de 2011 a remplacé « commit » par « forecast » pour le travail choisi. Le guide cite des
+  pratiques de prévision (burn-down, burn-up, flux cumulé) sans en imposer aucune, et rappelle
+  que dans un environnement complexe, ce qui va arriver est inconnu : seul ce qui s'est déjà passé sert à
+  décider. Il ne dit pas qui prévoit une version.
+- **Consensus** (pratique établie, hors du Scrum Guide) : les référentiels de PO (CSPO) font
+  planifier une version et établir une prévision avec les parties prenantes.
 - **Choix d'école** :
   - la story map, de Jeff Patton : en haut, les activités de l'utilisateur, de gauche à droite
     dans l'ordre du récit (la colonne vertébrale, qui ne s'ordonne pas) ; dessous, les stories,
@@ -47,7 +48,7 @@ fourchette, revue à chaque sprint, pas une promesse.
   - story points et vélocité : pratiques courantes d'estimation et de prévision, absentes du
     Scrum Guide, nommées sans être enseignées ; Ron Jeffries juge faible leur usage pour prédire
     une date de fin. En flux continu, la prévision passe par le temps de cycle (annexe A2d).
-- **Lecture du cours** (sans source externe, à présenter comme telle) : la carte complète le
+- **Choix du cours** (sans source externe, à présenter comme tel) : la carte complète le
   backlog ordonné, elle ne le remplace pas (compatible avec le Scrum Guide, pas avec Patton) ;
   la prévision d'une version se construit sur la taille et le rythme des Developers, le PO ne
   l'invente pas et la porte aux parties prenantes ; ce qui la fait bouger : l'ordre du backlog,
@@ -65,7 +66,7 @@ fourchette, revue à chaque sprint, pas une promesse.
      et sa mesure de succès, sans cible (« Le point du matin d'abord ») ;
    - **16b2** les deux sens de MVP, et dire lequel on emploie (« Un MVP, même bâclé »).
 3. **16c la prévision vient des Developers** : la fourchette, ce qui la fait bouger, pas un
-   engagement (« Pour quand ? »). En rechange : « Il me faut une date ». À l'apprenant qui
+   promesse (« Pour quand ? »). En rechange : « Il me faut une date ». À l'apprenant qui
    travaille sans sprint : annexe A2d (prévoir en flux).
 
 Déjà enseigné, à rappeler sans le réenseigner : l'incrément et les trois engagements (0) ; le PO
@@ -83,8 +84,9 @@ d'apprendre (17) ; l'outil du backlog (annexe A1) ; travailler sans sprint (anne
 Faits du fil rouge utilisés : la journée de Bruno (point du matin sur l'état du réseau, envoi
 des régulateurs, suivi des incidents, bilan du soir) ; ses vues (stations vides, vélos en panne,
 locations du jour) ; la vue des stations vides, déjà livrée, doit servir à Bruno à envoyer les
-régulateurs plus tôt vers les stations qui se vident ; l'accès à la table des locations n'est
-pas obtenu ; le blocage des vélos signalés, réclamé par Sophie ; sprints de deux semaines ;
+régulateurs plus tôt vers les stations qui se vident ; les deux autres vues ne sont pas
+livrées ; l'accès à la table des locations n'est pas obtenu ; le blocage des vélos signalés,
+réclamé par Sophie ; sprints de deux semaines ;
 l'objectif produit et sa mesure de résultat, dont la cible, les heures de pointe, la station
 vide et le calcul ne sont pas fixés ; Agnès, sponsor. Situations d'exercice, qui ne deviennent
 pas des faits du fil rouge : les stories de Bruno et le moment où il s'en sert, les cartes de
@@ -96,7 +98,7 @@ et le contenu de la tranche en 16c.
   l'utilisateur. En haut, ses activités, de gauche à droite dans l'ordre où il la raconte : la
   colonne vertébrale. Sous chaque activité, les stories qui la servent, de haut en bas : en
   haut l'indispensable, plus bas ce qui l'est moins. La carte fait voir le tout ; elle complète
-  le backlog ordonné, elle ne le remplace pas (lecture du cours), et le PO garde l'ordre.
+  le backlog ordonné, elle ne le remplace pas (choix du cours), et le PO garde l'ordre.
 - **Situation** : Bruno raconte sa journée : point du matin sur l'état du réseau, envoi des
   régulateurs, suivi des incidents, bilan du soir. Nora a dessiné une carte pour Bruno : trois
   colonnes, « Stations vides », « Vélos en panne », « Locations du jour », avec sous chacune les
@@ -104,7 +106,7 @@ et le contenu de la tranche en 16c.
   1. « voir les stations vides, pour y envoyer les régulateurs » (déjà livrée) ;
   2. « au point du matin, voir les vélos signalés en panne, station par station » ;
   3. « au bilan du soir, savoir combien de vélos ont été signalés dans la journée » ;
-  4. « voir le nombre de locations depuis ce matin ».
+  4. « voir le nombre de locations depuis ce matin, par station ».
 - **Question** : corrige la carte de Nora : que mets-tu en haut, et où ranges-tu ces quatre
   stories ?
 - **Réponse attendue** : les colonnes de Nora sont des vues, des éléments de la hiérarchie
@@ -144,14 +146,14 @@ et le contenu de la tranche en 16c.
   de deux colonnes et de la même tranche n'y ont pas d'ordre entre elles : la carte ne donne pas
   d'ordre unique. Si Léa finit lundi, laquelle prend-elle ? Chaque story de la carte est un
   élément du backlog, à sa place dans l'ordre. Nuance : Patton, lui, voit la carte comme un
-  meilleur backlog (choix d'école) ; garder les deux est le parti pris du cours.
+  meilleur backlog (choix d'école) ; garder les deux est un choix du cours.
 - **Erreurs fréquentes** :
   - « oui, la carte suffit » : demander « quelle story vient en premier ? » ;
   - prendre l'ordre de gauche à droite pour l'ordre du travail : c'est l'ordre du récit.
 - **Ce qui marche** : « Léa finit lundi : quelle story prend-elle ? ».
 
 ### Le point du matin d'abord (16b1)
-- **Explication** : une tranche de version est une ligne horizontale sur la carte : au-dessus,
+- **Explication** : une tranche de version est une ligne tracée en travers de la carte : au-dessus,
   les stories de la version. Chez Patton (choix d'école), la tranche traverse toute la colonne
   vertébrale : la première version utile, c'est le moins de stories, prises sous chaque
   activité, qui permet à l'utilisateur d'atteindre son but. À côté de la tranche, on écrit son
@@ -191,6 +193,10 @@ et le contenu de la tranche en 16c.
     journée de Bruno tient-elle ? » ;
   - penser la première version comme une couche (« d'abord toutes les données dans l'entrepôt,
     les vues après ») : elle ne sert pas seule (9) ;
+  - croire que la tranche de version est une tranche horizontale (9) parce que sa ligne traverse
+    la carte : la carte range les moments de la journée de Bruno, pas les couches du produit ; la
+    tranche de version traverse toute la journée et sert seule ; relancer : « que contient cette
+    tranche : une couche du produit, ou un peu de chaque moment de la journée de Bruno ? » ;
   - choisir soi-même ce qui est indispensable : c'est Bruno qui le dit ;
   - fixer une cible (« moins 20 % de temps vide ») : la cible n'est pas fixée, le PO la fait
     fixer ;
@@ -220,13 +226,13 @@ et le contenu de la tranche en 16c.
   pas de date (16c).
 - **Erreurs fréquentes** :
   - accepter « bâclé » parce qu'Agnès est sponsor : le sponsor n'ordonne pas le backlog (14),
-    et la DoD vaut pour tout incrément ;
+    et la DoD vaut pour tout incrément ; relancer : « minimum de quoi ? » ;
   - employer « MVP » sans dire dans quel sens : Agnès et l'équipe ne parlent plus de la même
-    chose ;
+    chose ; relancer : « de quel MVP parle Agnès ? » ;
   - refuser le mot en bloc (« le MVP, c'est du marketing ») : il a deux sens utiles, à
-    distinguer ;
+    distinguer ; relancer : « de quel MVP parle Agnès ? » ;
   - proposer un « MVP » qui ne sert pas seul (les données dans l'entrepôt, sans vue) : c'est
-    une couche (9).
+    une couche (9) ; relancer : « avec cette version seule, que voit Bruno ? ».
 - **Ce qui marche** : « minimum de quoi ? » : des stories, jamais de la qualité. Faire dire le
   sens en une phrase avant de répondre à Agnès.
 
@@ -234,7 +240,7 @@ et le contenu de la tranche en 16c.
 - **Explication** : à « pour quand ? », le PO ne donne pas une date qu'il invente. La prévision
   se construit sur la taille des stories, que les Developers estiment, et sur leur rythme des
   derniers sprints (Scrum Guide : seul ce qui s'est déjà passé sert à prévoir). Elle se donne
-  en fourchette (école de Mike Cohn) et se revoit à chaque sprint. Ce n'est pas un engagement.
+  en fourchette (école de Mike Cohn) et se revoit à chaque sprint. Ce n'est pas une promesse.
   Le Scrum Guide cite des pratiques de prévision sans en imposer ; story points et vélocité en
   sont, choix d'école, sans les détailler ici.
 - **Situation** : Bruno, devant la première tranche : « Pour quand ? » Dans cet exercice, Bruno
@@ -245,7 +251,7 @@ et le contenu de la tranche en 16c.
   promis. »
 - **Question** : corrige la réponse du PO : que dis-tu à Bruno ?
 - **Réponse attendue** : pas de date promise : « fin du mois prochain » ne vient pas des
-  Developers, et « promis » en fait un engagement. Le PO dit : d'après Léa, Yanis et Nora, trois
+  Developers, et « promis » en fait une promesse. Le PO dit : d'après Léa, Yanis et Nora, trois
   à cinq sprints, soit six à dix semaines ; une prévision, revue à chaque sprint, dont on
   reparle à chaque revue. Puis ce qui la ferait bouger : la dépendance (les locations du jour
   attendent l'accès ; s'il tarde, la version glisse, ou le PO propose à Bruno de sortir cette
@@ -265,7 +271,7 @@ et le contenu de la tranche en 16c.
   corriger : « et tu le dis comment à Bruno ? ».
 
 ### Il me faut une date (16c, en rechange)
-- **Explication** : rappel en une ligne : la prévision est une fourchette, pas un engagement.
+- **Explication** : rappel en une ligne : la prévision est une fourchette, pas une promesse.
 - **Situation** : Bruno (propos d'exercice) : « Une fourchette ne m'aide pas : il me faut une
   date ferme. »
 - **Question** : que proposes-tu à Bruno ?
@@ -273,11 +279,11 @@ et le contenu de la tranche en 16c.
   la fourchette suffit, revue à chaque sprint. Si une date compte vraiment, on la prend comme
   échéance et c'est le contenu qui varie : ce qui sera prêt à cette date dépend de l'ordre, et
   MoSCoW peut dire avec Bruno ce qui doit y être (13c) ; les Developers disent ce qui tient
-  probablement avant. On ne fixe pas à la fois la date et tout le contenu (lecture du cours).
+  probablement avant. On ne fixe pas à la fois la date et tout le contenu (choix du cours).
   La date et ce qui doit y être, c'est Bruno qui les dit ; le PO ne les invente pas.
 - **Erreurs fréquentes** :
   - donner la borne haute comme date ferme « pour être tranquille » : c'est toujours une
-    promesse sur tout le contenu ;
+    promesse sur tout le contenu ; relancer : « qu'est-ce qui se passe à cette date ? » ;
   - répondre « en Scrum, on ne donne pas de date » et s'arrêter là : relancer « et alors, que
     proposes-tu à Bruno ? ».
 - **Ce qui marche** : « qu'est-ce qui se passe à cette date ? ».
@@ -287,7 +293,7 @@ et le contenu de la tranche en 16c.
   la carte. En haut, les activités de l'utilisateur ; dessous, ses stories.
 - **Ordonner la colonne vertébrale par importance** : elle suit l'ordre du récit.
 - **Croire que la carte remplace le backlog**, ou que l'ordre de gauche à droite est l'ordre du
-  travail : le backlog reste la liste ordonnée par le PO (parti pris du cours).
+  travail : le backlog reste la liste ordonnée par le PO (choix du cours).
 - **Placer une story sans savoir quand l'utilisateur s'en sert** : le lui demander.
 - **Une première version qui finit une activité avant la suivante**, ou qui est une couche
   (9) : la tranche traverse la carte et sert seule.
@@ -297,7 +303,7 @@ et le contenu de la tranche en 16c.
   pour tout ce qui entre dans l'incrément.
 - **Le walking skeleton de Patton pris pour celui de Cockburn** : le cours garde le sens de
   Cockburn (9).
-- **Inventer une date**, prendre la prévision pour un engagement, estimer à la place des
+- **Inventer une date**, prendre la prévision pour une promesse, estimer à la place des
   Developers.
 - **Viser le bilan au conseil sans date** : sa date n'est pas fixée ; si une prévision doit le
   viser, la date se demande à Claire.
@@ -330,4 +336,4 @@ Deux panneaux.
    reste : le PO l'ordonne ». Légende : « story map : Patton, choix d'école ».
 2. **Pour quand ? (16c)** : une barre horizontale « 3 à 5 sprints (exercice) », redessinée à
    chaque revue de sprint, avec deux poids posés dessus : « l'ordre du backlog » et « l'accès à
-   la table des locations ». Légende : « une prévision des Developers, pas un engagement ».
+   la table des locations ». Légende : « une prévision des Developers, pas une promesse ».

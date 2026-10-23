@@ -27,7 +27,7 @@ L'**objectif produit** est la cible à long terme de l'équipe : un état futur 
   est un pas vers lui ; le Sprint Planning y rattache les éléments choisis, la revue de sprint
   discute du progrès vers lui. Le Scrum Guide n'impose ni format ni horizon. Sa version 2020 a
   introduit l'objectif produit.
-- **Consensus** (pratiques établies, sans être dans le Scrum Guide) : distinguer livrable et
+- **Consensus** (pratique établie, hors du Scrum Guide) : distinguer livrable et
   résultat, et mesurer le résultat. Les objectifs d'apprentissage du PO de Scrum Alliance le
   demandent ; Scrum.org, Teresa Torres et Josh Seiden partagent la distinction.
 - **Choix d'école** :
@@ -88,7 +88,8 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Erreurs fréquentes** :
   - « oui, la vue est terminée et Bruno est content » : terminée dit que c'est bien fait, pas que
     ça change quelque chose ; la satisfaction de Bruno est utile en complément, elle ne dit pas
-    si les stations restent moins longtemps vides ;
+    si les stations restent moins longtemps vides. Relancer : « si on éteignait la vue demain,
+    qu'est-ce qui changerait pour Bruno et pour les stations ? » ;
   - s'arrêter au « non » sans dire quoi observer : relancer par « que faudrait-il observer pour
     dire que la vue a servi, et quand ? ».
 - **Ce qui marche** : donner les mots anglais (output, outcome), puis demander : « Si on éteignait
@@ -111,9 +112,10 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   Même chiffre, deux rôles.
 - **Erreurs fréquentes** :
   - classer 1 en résultat « parce qu'il parle des stations vides » : le calculer ne vide ni ne
-    remplit aucune station ;
+    remplit aucune station. Relancer : « qui doit changer quoi pour que ce soit vrai ? » ;
   - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur est
-    une qualité du livrable ; la valeur vient de ce que Bruno en fait.
+    une qualité du livrable ; la valeur vient de ce que Bruno en fait. Relancer : « qui doit
+    changer quoi pour que ce soit vrai ? ».
 - **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si la
   réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
   relancer : « la phrase 1 peut-elle aussi servir de mesure de résultat ? ».
@@ -150,13 +152,16 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
     un choix d'école ; le Scrum Guide n'en fixe aucun.
 - **Erreurs fréquentes** :
   - approuver A « parce que c'est concret et daté » : concret, oui, mais c'est un plan de
-    livraison ;
+    livraison. Relancer : « peut-on tout faire sans que rien ne change pour un utilisateur ? » ;
   - approuver C « parce que c'est motivant » : dans l'approche qui garde la vision (Scrum.org,
-    Scrum Alliance), la motivation relève de la vision, et l'objectif produit doit se mesurer ;
+    Scrum Alliance), la motivation relève de la vision, et l'objectif produit doit se mesurer.
+    Relancer : « une mesure dira-t-elle si on s'en approche ? » ;
   - rejeter B seulement « parce que c'est cher » : le défaut est qu'il ne dit pas ce qui change
-    pour l'utilisateur ;
+    pour l'utilisateur. Relancer : « peut-on tout faire sans que rien ne change pour un
+    utilisateur ? » ;
   - à l'inverse, décider seul que l'exploitation « n'a pas besoin du temps réel » : c'est un
-    fait métier, à demander à Bruno.
+    fait métier, à demander à Bruno. Relancer : « qui peut dire si l'exploitation en a
+    besoin ? ».
 - **Ce qui marche** : deux questions par formulation : « peut-on tout faire sans que rien ne
   change pour un utilisateur ? » et « une mesure dira-t-elle si on s'en approche ? ».
 
@@ -207,6 +212,8 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   - choisir la 1 « parce qu'elle prouve que la vue sert » : elle prouve qu'on la regarde ;
   - choisir la 3 « parce que plus de locations, c'est de la valeur » : peut-être pour
     l'opérateur, mais pas le résultat visé par cet objectif ;
+  - pour la 1 ou la 3, relancer : « peut-elle monter alors que les stations restent aussi
+    longtemps vides ? » ;
   - proposer soi-même une cible (« moins 20 % ») : c'est un fait métier à fixer, pas au PO de
     l'inventer.
 - **Ce qui marche** : pour chaque mesure, « peut-elle monter alors que les stations restent aussi
@@ -227,9 +234,10 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   Malik. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
   vient au concept 17.
 - **Erreurs fréquentes** :
-  - annoncer la victoire sur un seul mois ;
+  - annoncer la victoire sur un seul mois. Relancer : « quelle autre raison pourrait faire
+    baisser ce chiffre ? » ;
   - à l'inverse, jeter la mesure (« elle ne vaut rien ») : elle reste la bonne, il faut la lire
-    avec le reste.
+    avec le reste. Réexpliquer.
 - **Ce qui marche** : « quelle autre raison pourrait faire baisser ce chiffre ? » ; si
   l'apprenant s'arrête au « non », relancer par « que fais-tu avant de lui répondre ? ».
 

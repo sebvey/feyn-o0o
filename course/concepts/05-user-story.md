@@ -21,8 +21,8 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle pas de story et n'impose aucun
   format aux éléments du backlog ; il cite des attributs (description, ordre, taille) qui varient
-  selon le domaine. Rien de ce concept n'est donc du consensus Scrum.
-- **Pratique établie** (hors Scrum Guide) : la story vient d'Extreme Programming (XP), où Kent
+  selon le domaine. Rien de ce concept n'est donc dans le Scrum Guide.
+- **Consensus** (pratique établie, hors du Scrum Guide) : la story vient d'Extreme Programming (XP), où Kent
   Beck a introduit le terme. Les 3C (carte, conversation, confirmation) sont de Ron Jeffries
   (XP), en 2001.
 - **Choix d'école** :
@@ -77,13 +77,13 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   tâches (concept 4), pas un élément que le PO écrit.
 - **Erreurs fréquentes** :
   - garder la solution en la déplaçant (« je veux une table des pannes ») : demander « qu'est-ce
-    que Sophie veut savoir, sans parler de table ? » ;
+    que Sophie veut savoir, sans parler de table ? » ; sinon : « quelles parties d'une story
+    manquaient à l'élément de Yanis ? » ;
   - inventer un « afin de » plausible (« afin de réduire les pannes ») : rappeler que c'est à
     Sophie de le dire ;
   - écrire « en tant qu'utilisateur » : trop vague, Sophie a un rôle précis (concept 6).
 - **Ce qui marche** : faire lire la phrase à voix haute à la place de Sophie : « est-ce qu'elle
-  dirait ça elle-même ? ». Une table, elle ne la demanderait pas. Relance si la réécriture garde
-  la table : « quelles parties d'une story manquaient à l'élément de Yanis ? ».
+  dirait ça elle-même ? ». Une table, elle ne la demanderait pas.
 
 ### Une semaine de Sophie : story ou parcours ? (5a1)
 - **Explication** : une story exprime un besoin, pas tout ce que fait l'utilisateur. Le parcours
@@ -102,8 +102,10 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   trouver par les « pourquoi ? ».
 - **Erreurs fréquentes** :
   - « oui, c'est une story, elle décrit ce que fait l'utilisateur » : c'est la confusion la plus
-    probable chez qui n'a jamais lu de story ; compter les actions ;
+    probable chez qui n'a jamais lu de story ; compter les actions. Relancer : « combien de “je
+    veux” caches-tu là-dedans ? » ;
   - garder les quatre étapes dans un seul « je veux » : une story, un « je veux » (concept 4).
+    Relancer : « combien de “je veux” caches-tu là-dedans ? ».
 - **Ce qui marche** : « combien de “je veux” caches-tu là-dedans ? » ; relance après le « non » :
   « lequel la plateforme peut-elle servir ? ».
 
@@ -125,8 +127,10 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   carte n'est pas à allonger ; c'est la conversation qui porte le détail.
 - **Erreurs fréquentes** :
   - allonger la phrase pour tout y mettre (« … hors signalements par téléphone, du lundi au
-    dimanche ») : la phrase reste courte, le détail va dans la conversation et la confirmation ;
+    dimanche ») : la phrase reste courte, le détail va dans la conversation et la confirmation.
+    Relancer : « si Nora ne parle à personne, que risque-t-elle de livrer ? » ;
   - trancher soi-même le cas des signalements par téléphone : c'est à voir avec Sophie.
+    Relancer : « qui décide si un chiffre incomplet suffit ? ».
 - **Ce qui marche** : donner les trois mots anglais (Card, Conversation, Confirmation) et leur
   origine XP, puis demander : « si Nora ne parle à personne, que risque-t-elle de livrer ? ».
 
@@ -193,9 +197,12 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   ne le reconnaîtrait pas comme sa raison. Le bon « afin de » est la décision de Sophie ; le lien
   avec l'objectif produit, s'il existe, se discute quand le PO ordonne le backlog (concept 13).
 - **Erreurs fréquentes** :
-  - « oui, il est plus ambitieux » : ambitieux ne veut pas dire utile pour décider ;
+  - « oui, il est plus ambitieux » : ambitieux ne veut pas dire utile pour décider. Relancer :
+    « si toutes les stories du backlog avaient ce “afin de”, comment choisirais-tu laquelle faire
+    d'abord ? » ;
   - forcer le lien (« des vélos réparés, donc des stations moins vides ») : c'est une hypothèse,
-    pas la raison de Sophie (concept 17).
+    pas la raison de Sophie (concept 17). Relancer : « Sophie reconnaîtrait-elle cette raison
+    comme la sienne ? ».
 - **Ce qui marche** : « si toutes les stories du backlog avaient ce “afin de”, comment
   choisirais-tu laquelle faire d'abord ? ».
 

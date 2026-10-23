@@ -25,12 +25,12 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
   comprendre les compromis. Le Scrum Guide ne dit pas comment ordonner : celui d'octobre 2011
   disait que le backlog est « souvent » ordonné par valeur, risque, priorité et nécessité ; la
   phrase a disparu dès la version de 2013.
-- **Pratique établie** (hors Scrum Guide) : ordonner selon la valeur, le coût, le risque et les
+- **Consensus** (pratique établie, hors du Scrum Guide) : ordonner selon la valeur, le coût, le risque et les
   dépendances. Mike Cohn en donne cinq facteurs : ces quatre et l'apprentissage (ce que l'équipe
   apprend en faisant l'élément, concept 17) ; Roman Pichler pèse aussi valeur, risque et
-  dépendances. Aucun texte de consensus n'impose cette liste. Le risque y est celui qui pèse
+  dépendances. Aucun texte n'impose cette liste. Le risque y est celui qui pèse
   sur la réussite du produit ; le risque pour les utilisateurs (sécurité) en est un autre sens,
-  voir « Lecture du cours ».
+  voir « Choix du cours ».
 - **Choix d'école** :
   - le coût du retard : Don Reinertsen (2009) en fait la mesure économique à quantifier ; Joshua
     Arnold propose de commencer sans chiffres, en bandes de valeur et d'urgence, et décrit des
@@ -41,7 +41,7 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
     ne remplace pas le pourquoi de chaque place ;
   - MoSCoW (Must, Should, Could, Won't), tenu par DSDM pour une échéance ; attribué à Dai Clegg
     (1994). DSDM recommande de ne pas dépasser environ 60 % de l'effort en Must.
-- **Lecture du cours** (sans source externe, à présenter comme telle) : « ce qui est prêt » pèse
+- **Choix du cours** (sans source externe, à présenter comme tel) : « ce qui est prêt » pèse
   sur l'ordre (un élément est prêt à être choisi quand l'équipe peut le finir en un sprint,
   Scrum Guide ; la DoR est un choix d'école, concept 11b) ; un risque de sécurité peut passer
   devant l'objectif produit, mais sa gravité se fait qualifier par ceux qui en répondent, pas
@@ -98,7 +98,7 @@ du fil rouge.
   **coût** : l'effort, que les Developers estiment, pas le PO. Le **risque**, en deux sens : le
   risque pour le produit (ce qui est incertain et nécessaire se fait tôt, Cohn) ; le risque
   pour les utilisateurs (sécurité), dont la gravité se fait qualifier par ceux qui en
-  répondent (lecture du cours). Les **dépendances** : ce dont une autre demande a besoin
+  répondent (choix du cours). Les **dépendances** : ce dont une autre demande a besoin
   remonte. L'ordre d'arrivée n'en fait pas partie.
 - **Situation** : à la revue, la demande de Sophie (bloquer à la location un vélo signalé en
   panne) est entrée au backlog (10a2). Yanis : « On vient d'en parler, c'est le bon moment :
@@ -137,7 +137,7 @@ du fil rouge.
 - **Explication** : rappel en une ligne des quatre critères. Ce qui n'est pas prêt (règle non
   fixée, accès non obtenu, travail d'une autre équipe sans lequel on ne finit pas dans le
   sprint, comme en 11b) n'entre pas au sprint, quel que soit son rang ; le PO lance ce qui le
-  rend prêt (lecture du cours). Une demande qui en suppose une autre passe après elle.
+  rend prêt (choix du cours). Une demande qui en suppose une autre passe après elle.
 - **Situation** : quatre demandes au backlog.
   - Sophie : bloquer les vélos signalés (sécurité) ; règle non fixée ; dépend de la DSI.
   - Bruno : les locations du jour ; accès à la table des locations non obtenu.

@@ -1,7 +1,7 @@
 # ADR-031 : Pour l'apprenant sans sprint, la question de l'annexe A2 valide le sous-concept du cours
 
 - **Date** : 2026-10-23
-- **Statut** : accepté
+- **Statut** : complété par ADR-033
 - **Ticket** : T-018g
 
 ## Contexte

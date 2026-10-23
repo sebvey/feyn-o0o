@@ -36,7 +36,7 @@ garde ses sprints et y ajoute des pratiques de flux suit le cours tel quel.
 - **Choix d'école** : la méthode Kanban (David J. Anderson, Kanban University), une autre école
   que le *Kanban Guide* : le point d'engagement, le réapprovisionnement, des cadences de revue
   dont la revue de la livraison du service. Ni elle ni le *Kanban Guide* ne sont le consensus.
-- **Lecture du cours** (à présenter comme telle) : ce qui ne change pas ; le PO ordonne et les
+- **Choix du cours** (à présenter comme tel) : ce qui ne change pas ; le PO ordonne et les
   Developers tirent (le *Kanban Guide* ne nomme que les membres du système Kanban) ; la DoR
   devient la règle pour franchir le début du flux ; l'objectif produit et l'ordre du backlog
   donnent la direction ; l'équipe inspecte ce qui est livré avec les parties prenantes, à une
@@ -58,7 +58,7 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
 1. **A2a, depuis 11b : tirer l'élément, la DoR au début du flux.** Pas de Sprint Planning :
    l'équipe tire l'élément suivant quand une place se libère sous la limite du travail en cours
    (éléments commencés et pas finis). La Definition of Workflow dit où commence un élément ; la
-   DoR devient la règle pour franchir ce début (lecture du cours). Kanban University appelle ce
+   DoR devient la règle pour franchir ce début (choix du cours). Kanban University appelle ce
    moment le point d'engagement (choix d'école). Exemple : « La place libérée par Nora ».
 2. **A2b, depuis 15b : sans objectif de sprint, ce qui donne la direction.** Rien ne regroupe
    deux semaines de travail : la direction vient de l'objectif produit et de l'ordre du backlog,
@@ -66,7 +66,7 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
    Exemple : « Chacun tire ce qu'il veut ».
 3. **A2c, depuis 15c : sans revue de sprint, inspecter ce qui est livré.** Un élément fini
    peut partir sans attendre de revue ; l'inspection avec les parties prenantes reste, à une
-   cadence que l'équipe choisit (lecture du cours). Exemple : « Plus de revue, plus de
+   cadence que l'équipe choisit (choix du cours). Exemple : « Plus de revue, plus de
    retour ? ».
 4. **A2d, depuis 16c : prévoir en flux.** Sur l'historique du temps de cycle, une prévision en
    durée et probabilité (l'attente de niveau de service), pas une promesse ; le débit est l'une
@@ -90,7 +90,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   peuvent être en cours à la fois (commencés et pas finis), et en commence un nouveau quand le
   nombre passe sous cette limite. Le *Kanban Guide* lui fait écrire sa Definition of Workflow,
   qui dit entre autres où commence un élément et à quelle règle il franchit ce début : pour une
-  équipe qui avait une DoR, c'est là qu'elle sert (lecture du cours). Kanban University appelle
+  équipe qui avait une DoR, c'est là qu'elle sert (choix du cours). Kanban University appelle
   ce moment le point d'engagement (choix d'école).
 - **Situation** : si l'équipe vélos travaillait sans sprint, avec une limite de trois éléments
   en cours (dans cet exercice). Nora finit un élément : une place se libère. En haut du backlog,
@@ -103,7 +103,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   qui est prête ; les Developers tirent, le PO a ordonné (répartition du cours, pas du
   *Kanban Guide*, qui n'a pas de rôles). Ce qui change sans sprint :
   commencée sans accès, la story compterait dans le travail en cours, donc occuperait l'une des
-  trois places sans avancer (déduction du cours, à partir de la définition du travail en
+  trois places sans avancer (choix du cours, déduit de la définition du travail en
   cours). Le PO fait avancer l'accès (relancer Pascal, escalader si ça bloque : concept 14).
 - **Erreurs fréquentes** :
   - « oui, elle est en haut du backlog » : demander « que fait-elle dans sa place tant que
@@ -148,7 +148,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   réunion avec les parties prenantes. Un élément fini peut partir sans attendre (le Scrum Guide
   dit déjà que livrer n'attend pas la revue). Ce qui reste nécessaire : inspecter ce qui est
   livré avec les parties prenantes et adapter le backlog, à une cadence que l'équipe choisit
-  (lecture du cours).
+  (choix du cours).
 - **Situation** : si l'équipe vélos travaillait sans sprint. Dans cet exercice, la vue des vélos en
   panne de Bruno est livrée un mardi, l'évolution de la tournée d'Hugo dix jours plus tard. Yanis :
   « Plus besoin de revue : chaque livraison part, Bruno et Sophie nous écriront s'il y a un
@@ -167,9 +167,12 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « ils nous écriront » : demander « qui écrit pour dire que la vue ne sert pas ? » ;
   - réponse juste sans la suite (ce que le PO propose) : relancer par « et que proposes-tu à
     la place ? » ;
+  - faire de ce moment une recette, où Bruno et Sophie valident avant que la livraison parte :
+    relancer : « si Sophie n'est pas disponible cette semaine-là, l'évolution de la tournée
+    attend-elle pour partir ? » ;
   - proposer la revue de la livraison du service de la méthode Kanban (choix d'école) : elle
     porte sur la performance du service, pas sur ce que la vue change pour Bruno ; ce n'est
-    pas une revue de sprint sans sprint (lecture du cours).
+    pas une revue de sprint sans sprint (choix du cours).
 - **Ce qui marche** : séparer deux questions, « quand livre-t-on ? » et « quand regarde-t-on
   ensemble ce qu'on a livré ? ».
 

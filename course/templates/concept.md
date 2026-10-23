@@ -27,6 +27,7 @@ titre: <titre court>
 ## Consensus et choix d'école
 - **Consensus** : <ce qui est admis, et par qui (ex. le Scrum Guide)>
 - **Choix d'école** : <ce qui se discute entre praticiens, attribué>
+- **Choix du cours** : <la position propre au cours, sans source externe, à présenter comme telle>
 
 ## Sous-concepts
 <Liste ordonnée (Na, Nb…), chacun tenable en un message de 15 lignes avec sa question.>
@@ -37,7 +38,9 @@ titre: <titre court>
 - **Situation** : <acteurs et faits du fil rouge>
 - **Question** : <la question qui teste la compréhension>
 - **Réponse attendue** : <la réponse juste, avec ses nuances>
-- **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger>
+- **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger ; pour
+  une réponse fausse, sa relance (« Relancer : <question ciblée> ») ou, sans relance,
+  « réexpliquer » ; une question de « Ce qui marche » n'est une relance que si l'erreur y renvoie>
 - **Ce qui marche** : <formulation, schéma ou relance qui a fait déclic>
 
 ## Pièges

@@ -21,9 +21,8 @@ horizontales.
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle ni de tranche, ni de couche, ni
   de story. Il dit que l'incrément doit être utilisable et que les éléments du backlog se
-  découpent en éléments plus petits et plus précis, sans dire comment. Que chaque élément soit
-  une tranche verticale est une déduction du cours, pas un texte du Guide.
-- **Pratique établie** (hors Scrum Guide) : découper par valeur plutôt que par couche technique.
+  découpent en éléments plus petits et plus précis, sans dire comment.
+- **Consensus** (pratique établie, hors du Scrum Guide) : découper par valeur plutôt que par couche technique.
   Les auteurs de stories concordent : Bill Wake (on trouve chez lui, en 2003, la métaphore du
   gâteau en couches, sous le V d'INVEST, concept 7), Richard Lawrence (et le guide qu'il publie
   avec Peter Green).
@@ -40,7 +39,9 @@ horizontales.
   produit data (un exemple, pas un découpage normé) ; « sert seule à l'utilisateur » comme
   exigence de chaque tranche (proche de Wake et de Lawrence, qui demandent que chaque tranche ait
   de la valeur pour l'utilisateur) ; le test « si on s'arrête après cette tranche,
-  l'utilisateur s'en sert-il demain matin ? ».
+  l'utilisateur s'en sert-il demain matin ? » ; que chaque story soit une tranche verticale (pas
+  un texte du Guide) : un travail technique qui porte sa propre raison (concept 3b) et une
+  exploration bornée (concept 17b1) entrent aussi au backlog sans en être une.
 
 ## Sous-concepts
 1. **9a tranche verticale**, en deux messages, chacun avec sa question :
@@ -180,6 +181,8 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   story doit servir seule.
 - **Erreurs fréquentes** : « oui, sinon c'est horizontal » : demander « Julie verra-t-elle un
   jour la tâche « lire les relevés » toute seule ? ».
+- **Ce qui marche** : opposer ce que Julie reçoit (le nombre de vélos disponibles) et ce que
+  l'équipe fait pour le produire (les trois tâches).
 
 ### Prévoir les stations à risque : laquelle est une couche ? (9b1)
 - **Explication** : une story trop grosse pour un sprint se découpe (concept 4). Chaque
@@ -200,8 +203,9 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   (exploration bornée, concept 17).
 - **Erreurs fréquentes** :
   - désigner a, « parce que ce n'est qu'une partie des stations » : un périmètre réduit reste
-    vertical s'il sert seul ;
+    vertical s'il sert seul ; relancer : « si on livre seulement a, que voit Malik ? » ;
   - désigner c, « parce qu'il n'y a pas de modèle » : le modèle est un moyen, pas la valeur ;
+    relancer : « si on livre seulement c, que voit Malik ? » ;
   - trancher que la pluie compte ou non : c'est une hypothèse, concept 17 ;
   - réponse elliptique (« b ») : faire dire pourquoi avant de corriger, puis demander « et
     alors, que fais-tu de b ? ».
