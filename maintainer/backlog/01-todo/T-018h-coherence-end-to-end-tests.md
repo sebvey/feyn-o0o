@@ -15,4 +15,9 @@
   session, un apprenant : base faible »), un renvoi à `framing.md` est remplacé par sa source
   primaire, un renvoi à un fichier `N-errors.md` ou `N-needs.md` est remplacé par le fait
   qu'il justifie, ou retiré.
+  Constats du test de T-018g sur le concept 4 (hors du lot 6), à vérifier ici : le premier
+  exemple de 4b (« suivre l'état du réseau ») refait trancher l'élément 1 de 4a1, déjà
+  « epic » ; deux définitions de l'epic se recoupent (par la taille dans « L'essentiel », par
+  le compte des « je veux » en 4b) sans dire laquelle l'emporte ; coquille en 4b
+  (« faite de un ou plusieurs »).
 - **Fini quand** : « Fini quand » de T-018.
