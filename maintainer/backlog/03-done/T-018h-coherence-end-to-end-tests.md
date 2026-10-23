@@ -21,3 +21,4 @@
   le compte des « je veux » en 4b) sans dire laquelle l'emporte ; coquille en 4b
   (« faite de un ou plusieurs »).
 - **Fini quand** : « Fini quand » de T-018.
+- **Fait le** : 2026-10-23, cohérence d'ensemble par deux relecteurs (19 et 10 constats, tous appliqués ou arbitrés : fil rouge, glossaire, plan, prérequis, renvois, étiquettes consensus et choix du cours, 93 relances rattachées à leur erreur, modèle de concept) ; trois défauts du concept 4 corrigés ; « Situations par concept » retirée ; renvois de `course/sources/` à `maintainer/work/` retirés et dossier supprimé ; sept sessions simulées (accueil, milieu, reprise, aparté, concept 13, source, sans sprint) notées par un juge : six passent, la reprise échoue (8a2 validé sur une erreur de la banque), corrigée dans le cours et repassée au contrôle, avec un second contrôle du concept 7 ; défauts du cours corrigés, constats du cadre triés (T-043 proposé) ; ADR-033.

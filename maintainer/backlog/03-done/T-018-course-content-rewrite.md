@@ -58,7 +58,7 @@
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | fait le 2026-10-22 |
   | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | fait le 2026-10-23 |
   | T-018g | Lot 6 : concepts 15, 16, 17, annexes A1 et A2 | T-018f | fait le 2026-10-23 (ADR-031) |
-  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | en cours |
+  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | fait le 2026-10-23 (ADR-033) |
 
   **Tickets liés, hors de T-018** :
   - T-021 (fait le 2026-10-22, ADR-018) : parti pris des sprints, annoncé au concept 0 ; annexe
@@ -68,10 +68,8 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : T-018h (cohérence
-  d'ensemble et tests de bout en bout, clôture). Tous les concepts et les deux annexes ont leur
-  fichier. sve repart de zéro en nouvel apprenant (T-011) et teste chaque lot à mesure qu'il est
-  mergé.
+  **Prochaine étape** : aucune, tous les sous-tickets sont clos. sve commence le cours en
+  nouvel apprenant (T-011).
 
   ### 3. Méthode d'un lot
 
@@ -174,7 +172,7 @@
     ADR.
   - `maintainer/improvements/` : retiré par T-040.
   - `maintainer/work/T-018/` supprimé, après avoir retiré de `course/sources/` tout renvoi à
-    ce dossier (T-018h).
+    ce dossier (T-018h) ; l'historique git le garde (commit `5bba3af` de `main`).
 
 - **Fini quand** :
   - chaque concept de `course/plan.md` a son fichier conforme au modèle, avec sous-concepts et
@@ -184,3 +182,4 @@
   - tous les sous-tickets sont clos : chaque lot mergé par le mainteneur, revues sans constat
     bloquant, cohérence d'ensemble sans contradiction, sessions simulées qui passent la grille ;
   - la reprise de sve fonctionne après le merge (test de reprise par sous-agent).
+- **Fait le** : 2026-10-23, cours réécrit de bout en bout en sept lots (T-018a à T-018h) : concepts 0 à 17 et annexes A1, A2, chacun avec ses sources ; cohérence d'ensemble relue et corrigée ; neuf sessions simulées notées par un juge (sept scénarios, deux contrôles), toutes passées après correction ; `maintainer/work/T-018/` supprimé ; reprise de sve sans objet (`learner/` vide, il commence en nouvel apprenant, scénario d'accueil testé).
