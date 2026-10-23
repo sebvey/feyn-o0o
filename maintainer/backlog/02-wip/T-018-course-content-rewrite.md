@@ -58,7 +58,7 @@
   | T-018e | Lot 4 : concepts 9, 10, 11 | T-018d | fait le 2026-10-22 |
   | T-018f | Lot 5 : concepts 12, 13, 14 | T-018e | fait le 2026-10-23 |
   | T-018g | Lot 6 : concepts 15, 16, 17, annexes A1 et A2 | T-018f | fait le 2026-10-23 (ADR-031) |
-  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | à faire |
+  | T-018h | Cohérence d'ensemble et tests de bout en bout (§4), clôture (§7) | T-018g | en cours |
 
   **Tickets liés, hors de T-018** :
   - T-021 (fait le 2026-10-22, ADR-018) : parti pris des sprints, annoncé au concept 0 ; annexe
