@@ -1,0 +1,379 @@
+---
+concept: 15
+titre: La vie d'une story
+---
+
+# La vie d'une story : refinement, planning, revue
+
+## Objectif
+Préparer une story au refinement en faisant préciser ses termes flous par l'utilisateur
+concerné ; la faire choisir au Sprint Planning avec un objectif de sprint qui dit pourquoi le
+sprint a de la valeur ; la faire inspecter en revue de sprint et adapter le backlog à ce qu'on
+y apprend.
+
+## L'essentiel
+Une story vit en trois temps. Le **refinement**, activité continue, la précise et la découpe ;
+un terme flou s'y fait préciser par l'utilisateur concerné, pas par une story « définir X ». Au
+**Sprint Planning** (pourquoi, quoi, comment), l'**objectif de sprint** dit pourquoi le sprint a
+de la valeur, pas quelles stories finir. La **revue de sprint**, séance de travail, inspecte
+l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette vie (annexe A1).
+
+## Consensus et choix d'école
+- **Consensus** (Scrum Guide 2020) :
+  - le refinement découpe les éléments du backlog et les précise (description, ordre, taille) ;
+    c'est une activité continue, pas un événement : le Scrum Guide ne lui fixe ni moment ni
+    durée. Il se fait en général avant le Sprint Planning, et l'équipe peut encore préciser un
+    élément pendant. Les Developers qui feront le travail répondent de la taille ;
+  - le Sprint Planning traite trois sujets. Pourquoi : le PO propose comment le produit peut
+    gagner en valeur, toute l'équipe Scrum fixe l'objectif de sprint avant la fin du Sprint
+    Planning. Quoi : les Developers choisissent les éléments en discutant avec le PO. Comment :
+    les Developers planifient le travail, à leur seule discrétion. Le « pourquoi » est l'ajout
+    de 2020 ;
+  - l'objectif de sprint est l'objectif unique du sprint et l'engagement du backlog de sprint
+    (concept 0a3) ; il donne cohérence et focus. Les Developers s'y engagent, mais il laisse de
+    la souplesse sur le travail exact : si le travail diffère de ce qu'ils attendaient, ils
+    renégocient la portée avec le PO sans toucher à l'objectif. Si l'objectif devient obsolète,
+    seul le PO peut annuler le sprint ;
+  - la revue de sprint inspecte ce que le sprint a produit et ce qui a changé ; les
+    participants décident ensemble de la suite et le backlog peut être ajusté. C'est une
+    séance de travail, pas une simple présentation, ni une porte de mise en production. Une
+    story qui ne remplit pas la DoD n'y est pas présentée (concept 11).
+- **Pratique établie** (Scrum.org, hors Scrum Guide) : la revue n'est ni une démonstration à
+  sens unique, ni une séance où le PO « accepte » le travail des Developers.
+- **Choix d'école** :
+  - le refinement n'est pas forcément une réunion de toute l'équipe : c'est une suite de
+    conversations, parfois avec les parties prenantes (Christiaan Verwijs et Barry Overeem) ;
+  - « finir les sept stories » n'est pas un bon objectif de sprint (Mike Cohn, cohérent avec
+    le Scrum Guide). Mais Cohn tient l'objectif de sprint pour facultatif, contre le Scrum
+    Guide, qui en fait un engagement : à dire seulement si l'échange y mène.
+- **Choix du cours** (sans source externe, à présenter comme tel) : un terme flou se fait
+  préciser par l'utilisateur concerné de chaque story, et le sens peut différer d'une story à
+  l'autre, sous un nom distinct (un chiffre partagé garde une seule définition, concept 7a2) ;
+  une story « définir X » dont une autre dépend n'apporte rien seule ; le mot
+  « recette » pour la revue prise comme validation.
+
+## Sous-concepts
+1. **15a refinement**, en deux messages, chacun avec sa question :
+   - **15a1** le refinement et le terme flou (« Vélo en panne : qui le précise ? ») : activité
+     continue, sans événement imposé ; on y précise, découpe, et les Developers estiment la
+     taille. Le terme flou se fait préciser par l'utilisateur concerné de chaque story, au
+     refinement ; chaque story dit le sens retenu. Le cours ne fixe aucun de ces sens.
+   - **15a2** pas de story « définir X » (« La story "définir le seuil" », exemple éprouvé) :
+     une story « définir X » dont une autre dépend n'apporte rien seule ; X se précise au
+     refinement avec l'utilisateur concerné, et on livre d'abord ce dont les règles sont
+     connues.
+2. **15b Sprint Planning et objectif de sprint** : les trois sujets ; le PO propose, l'équipe
+   fixe l'objectif, les Developers choisissent avec le PO et font leur plan (« L'objectif de
+   sprint de Yanis »). En rechange, ou pour « exercice » : « La liste pour le blocage entre-t-elle
+   au sprint ? » (ce qui entre : la DoR, concept 11b) ; « La story qui ne passe pas » (l'objectif
+   reste quand une story ne passe pas). Ne pas enseigner l'estimation ni la vélocité. 15b
+   suppose des sprints : à l'apprenant qui travaille sans sprint, proposer l'annexe A2.
+3. **15c revue de sprint** : l'incrément inspecté, ce qui a changé, le backlog adapté ; une
+   demande née de la revue entre au backlog et s'ordonne (« La revue avec Bruno et Sophie »).
+   En rechange, ou si l'apprenant voit la revue comme une validation : « La revue en recette ».
+   Aparté possible, si l'apprenant décrit la vie d'une story par les états de l'outil :
+   « Tout est en "Fait" ». 15c suppose des sprints : à l'apprenant qui travaille sans sprint,
+   proposer l'annexe A2.
+
+Déjà enseigné, à rappeler sans le réenseigner : responsabilités, événements, artefacts et
+engagements, sprint et incrément (concept 0) ; le PO seul ordonne, qui veut changer l'ordre le
+convainc (1b) ; objectif produit (2) ; backlog émergent, le haut précis et le bas vague (3a2) ;
+découper un élément, la tâche aux Developers (4) ; le mot flou qui se fait préciser, la story
+attend (7a2) ; V et I d'INVEST, les Developers estiment (7) ; la règle non fixée que le PO fait
+fixer (8a2) ; tranche verticale et tâches de Léa (9) ; hors périmètre, la demande de Sophie
+entre au backlog à la revue, dépendance envers une autre équipe (10) ; DoD, DoR, élément prêt
+à être choisi (11) ; définition d'un indicateur, signalements par téléphone absents (12) ;
+ordonner (13) ; dire non, escalade (14). Pas encore enseignés, nommés avec renvoi : story map
+et prévision « pour quand ? » (16), exploration d'une hypothèse (17), outil et états d'un
+élément (annexe A1), travail sans sprint (annexe A2).
+
+## Banque d'exemples
+
+Faits du fil rouge utilisés : Hugo, technicien de maintenance, prépare sa tournée de réparation
+à partir des vélos signalés et confirme ou infirme sur place une panne signalée ; un vélo
+signalé en panne reste louable ; un vélo n'est plus louable quand un technicien l'a retiré du
+service après constat ; les signalements sont saisis par l'abonné dans l'appli, ceux par
+téléphone n'y sont pas ; Bruno suit plusieurs vues, dont les vélos en panne ; Sophie veut le
+nombre de vélos en panne par semaine et fixe chaque semaine le nombre de techniciens en
+tournée ; le blocage d'un vélo signalé se fait dans le système de location (DSI), la plateforme
+peut lui fournir la liste des vélos signalés, la story de blocage dépend de la DSI ; la règle
+« vélo disponible » (à quai et louable) ; le seuil « presque vide » n'est pas fixé (3 vélos
+cité, pas décidé) ; la vue des stations vides sert à Bruno à envoyer les régulateurs plus tôt
+vers les stations qui se vident ; DoD de l'équipe vélos (heure de la dernière mise à jour,
+définition écrite de chaque indicateur publié) et DoR (critères écrits, règles métier fixées,
+dépendances identifiées, accès obtenu) ; Developers : Léa, Yanis (data engineers), Nora
+(analyste) ; sprints de deux semaines. Les répliques de l'équipe, de Bruno et de Sophie, les
+brouillons de stories et d'objectifs, le contenu des sprints et une part de pannes infirmées
+sont des propositions d'exercice : ils ne deviennent pas des faits du fil rouge. Restent non
+fixés, et aucun exemple ne les fixe : le sens de « en panne » pour chaque utilisateur, le seuil
+« presque vide », la règle de blocage (dès le signalement ou non). Le prof ne demande jamais à
+l'apprenant de fixer une règle ni de faire le travail des Developers (estimer, planifier les
+tâches).
+
+### Vélo en panne : qui le précise ? (15a1)
+- **Explication** : le refinement précise et découpe les éléments du haut du backlog ; les
+  Developers en estiment la taille. Le Scrum Guide en fait une activité continue, pas un
+  événement : ni moment ni durée imposés. Il se fait en général avant le Sprint Planning. Ce
+  n'est pas forcément une réunion de toute l'équipe : des conversations, parfois avec les
+  parties prenantes (Verwijs et Overeem, choix d'école). Choix du cours : un terme flou se fait
+  préciser par l'utilisateur concerné (rappel du concept 7a2).
+- **Situation** : trois stories du haut du backlog parlent de vélos en panne : la vue des
+  vélos en panne de Bruno, le nombre de vélos en panne par semaine pour Sophie, la tournée
+  d'Hugo. Un vélo est signalé par un abonné dans l'appli ; Hugo confirme ou infirme la panne
+  sur place. Au refinement, Nora, analyste : « En panne, c'est signalé : c'est ce qu'on a dans
+  les données. On l'écrit pour les trois et on passe au planning. »
+- **Question** : que réponds-tu à Nora : qui précise ce que veut dire « en panne », quand, et
+  où l'écrit-on ?
+- **Réponse attendue** : ni Nora ni le PO ne le fixent. Chaque utilisateur concerné le précise
+  pour sa story : Sophie pour son indicateur, Bruno pour sa vue, Hugo pour sa tournée. Le sens
+  peut différer d'une story à l'autre : chaque story dit le sien, sous un nom qui ne prête pas à
+  confusion (par exemple « vélos signalés » ou « pannes confirmées »). Mais quand un même
+  chiffre sert à plusieurs utilisateurs, ou à la mesure de l'objectif produit, le PO ne laisse
+  pas deux définitions sous un même nom (concept 7a2). Quand : au refinement, avant
+  que la story soit choisie ; tant que le sens n'est pas précisé, la story attend (concepts 7a2
+  et 8a2). Où : pour Sophie, dans la définition écrite de son indicateur, que la DoD exige
+  (concept 12a) ; pour Bruno et Hugo, dans la règle ou les critères d'acceptation de leur story
+  (concept 8). Nuances, non attendues : la tournée part déjà des vélos signalés ; reste à voir
+  avec Hugo ce qu'elle fait, par exemple, d'un vélo dont il a infirmé la panne. Ce que la
+  source contient ne dit pas ce dont l'utilisateur a besoin ; si un utilisateur retient les
+  pannes constatées, les Developers diront si la donnée existe. Les signalements par téléphone
+  manquent dans la source (concept 12b).
+- **Erreurs fréquentes** :
+  - donner raison à Nora parce que « c'est ce qu'on a » : demander « Sophie compte-t-elle les
+    vélos signalés ou les vélos à réparer, et qui le sait ? » ;
+  - trancher soi-même (« signalé, c'est plus simple ») : le PO fait préciser, il ne fixe pas ;
+  - imposer d'office un seul sens aux trois stories, sans demander à chacun : demander
+    « Sophie, Bruno et Hugo décident-ils la même chose avec ce mot ? » ;
+  - tenir le refinement en réunion d'équipe, sans Sophie, Bruno ni Hugo : demander « qui, dans
+    la pièce, sait ce que compte Sophie ? » ;
+  - proposer une story « définir "en panne" » : c'est l'objet de 15a2 ;
+  - réponse juste sans le « où » : demander « et alors, où l'écrit-on ? » ;
+  - citer « 10 % de la capacité » pour le refinement : repère du Scrum Guide 2017, retiré en
+    2020 ;
+  - réponse elliptique (« on demande à chacun ») : faire préciser avant de corriger (qui,
+    quand, où).
+- **Ce qui marche** : « qui se sert de ce chiffre, et pour décider quoi ? » : Sophie fixe
+  chaque semaine le nombre de techniciens en tournée ; Bruno pilote la flotte ; Hugo prépare sa
+  tournée. Trois décisions, peut-être trois sens.
+
+### La story « définir le seuil » (15a2, exemple éprouvé)
+- **Explication** : un terme ou une règle à préciser n'est pas une story : rien ne change pour
+  l'utilisateur quand c'est fait. On le précise au refinement, avec l'utilisateur concerné.
+  Rappel, sans le réenseigner : la règle non fixée, le PO la fait fixer (concept 8a2) ; la DoR
+  de l'équipe vélos demande des règles métier fixées (concept 11b).
+- **Situation** : Bruno demande de voir aussi les stations presque vides (demande d'exercice,
+  concept 8a2). Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Yanis, data
+  engineer, écrit deux stories :
+  1. « Définir le seuil "presque vide". »
+  2. « En tant que responsable d'exploitation, je veux voir les stations presque vides, afin
+     d'envoyer les régulateurs plus tôt vers les stations qui se vident. » Elle dépend de la 1.
+- **Question** : que penses-tu de la story 1, et que proposes-tu à la place ?
+- **Réponse attendue** : la story 1 n'apporte rien seule : une fois finie, Bruno ne voit rien
+  de plus (V d'INVEST), et la 2 en dépend (I, concept 7). Le seuil n'est pas du travail de
+  sprint : c'est une règle métier que le PO fait fixer, au refinement, par l'utilisateur
+  concerné, ici Bruno (concept 8a2) ; le cours n'en donne pas la valeur. La story 2 attend : sans
+  seuil fixé, elle ne remplit pas la DoR. En attendant, on livre d'abord ce dont les règles
+  sont connues : par exemple, les vélos disponibles de chaque station (règle fixée : à quai et
+  louable). Nuance, non attendue : si Bruno a besoin de données pour fixer le seuil, une
+  exploration bornée peut l'éclairer ; elle livre une réponse, pas le seuil, que Bruno fixe
+  (concept 17).
+- **Erreurs fréquentes** :
+  - garder la story 1 « pour ne pas l'oublier » : demander « une fois finie, que peut faire
+    Bruno de plus ? » ;
+  - en faire une tâche des Developers : le seuil n'est pas un « comment », c'est une règle du
+    domaine ;
+  - proposer soi-même 3 vélos pour débloquer : renvoyer à 8a2, sans réexpliquer ;
+  - « la story 1 n'a pas de valeur » et s'arrêter là : demander « et alors, on fait quoi ? »
+    (où se précise le seuil, et ce qu'on livre en attendant).
+- **Ce qui marche** : l'apprenant voit souvent seul que la story 1 n'apporte rien ; partir de
+  là et montrer où va le travail : au refinement avec Bruno, et une story dont les règles sont
+  connues en attendant.
+
+### L'objectif de sprint de Yanis (15b)
+- **Explication** : le Sprint Planning traite trois sujets (Scrum Guide). Pourquoi : le PO
+  propose comment le produit peut gagner en valeur, toute l'équipe fixe l'objectif de sprint.
+  Quoi : les Developers choisissent les éléments en discutant avec le PO. Comment : les
+  Developers font leur plan (les tâches de Léa, concept 9). L'objectif de sprint, engagement
+  du backlog de sprint (concept 0a3), dit pourquoi le sprint a de la valeur et fait travailler
+  l'équipe ensemble.
+- **Situation** : situation d'exercice. Au Sprint Planning, trois stories prêtes sont en haut
+  du backlog : la vue des vélos en panne de Bruno, le nombre de vélos en panne par semaine pour
+  Sophie, la tournée d'Hugo. Yanis propose comme objectif de sprint : « Finir la vue de Bruno,
+  le nombre par semaine de Sophie et la tournée d'Hugo. »
+- **Question** : corrige cet objectif de sprint : qu'est-ce qui ne va pas, et que proposes-tu
+  à l'équipe ?
+- **Réponse attendue** : c'est une liste de stories, pas un objectif : il dit quoi, pas
+  pourquoi le sprint a de la valeur ; il ne donne pas de cohérence, chacun finit « sa »
+  story. Une proposition dit la valeur commune, par exemple : « Que la maintenance et
+  l'exploitation voient les vélos en panne depuis la plateforme, pour organiser les
+  réparations. » Le PO propose, toute l'équipe fixe l'objectif ; les Developers choisissent
+  avec lui les stories qui le servent et font leur plan. Nuances, non attendues : un bon
+  objectif laisse de la souplesse (si une story ne passe pas, il peut être atteint quand même,
+  rechange « La story qui ne passe pas ») ; le PO prépare aussi le lien des stories avec
+  l'objectif produit (Scrum Guide) ; l'objectif ne fixe pas le sens de « en panne », précisé
+  au refinement (15a1).
+- **Erreurs fréquentes** :
+  - raccourcir la liste (« finir la vue et la tournée ») : demander « pourquoi ce sprint
+    compte-t-il pour Bruno, Sophie et Hugo ? » ;
+  - fixer l'objectif seul (« mon objectif ») : le PO propose, l'équipe le fixe ;
+  - choisir les stories ou leur nombre à la place des Developers : ils choisissent, avec le
+    PO, d'après leurs résultats passés, leur capacité et la DoD ; ne pas entrer dans
+    l'estimation ni la vélocité ;
+  - si l'apprenant dit que Scrum peut se passer d'objectif de sprint : c'est l'avis de Mike
+    Cohn (choix d'école) ; le Scrum Guide en fait un engagement.
+- **Ce qui marche** : demander « si une des trois stories ne passe pas, le sprint a-t-il
+  échoué ? » : la liste dit oui, un objectif peut dire non.
+
+### La liste pour le blocage entre-t-elle au sprint ? (15b, en rechange)
+- **Explication** : au Sprint Planning, les Developers choisissent les éléments prêts ; une
+  story qui ne remplit pas la DoR ne se choisit pas (concept 11b). Le PO propose, il n'impose
+  pas.
+- **Situation** : situation d'exercice. Une story fournit au système de location la liste des
+  vélos signalés, pour le blocage ; le blocage lui-même se fait à la DSI. La règle n'est pas
+  fixée : bloquer dès le signalement, et débloquer si Hugo infirme la panne ? (concept 10a2).
+  Sophie, responsable maintenance, insiste : « Elle doit entrer dans ce sprint. »
+- **Question** : que proposes-tu au Sprint Planning, et que dis-tu à Sophie ?
+- **Réponse attendue** : la story n'est pas prête : la règle de blocage n'est pas fixée, elle
+  ne remplit pas la DoR (règles métier fixées). Le PO ne la propose pas pour ce sprint ; les
+  Developers choisissent parmi les stories prêtes. À Sophie, il dit pourquoi, et ce qu'il fait :
+  il fait fixer la règle (concept 8a2) et suit la dépendance envers la DSI (concept 10b2) ; la
+  story garde sa place dans l'ordre (concept 13). Nuance : il ne tranche pas la règle pour la
+  rendre prête.
+- **Erreurs fréquentes** :
+  - « on la prend, la règle se décidera pendant le sprint » : demander « que construisent les
+    Developers lundi ? » ;
+  - trancher la règle soi-même : à faire fixer, pas à décider en planning ;
+  - « non » sans la suite : demander « et alors, on fait quoi pour Sophie ? ».
+- **Ce qui marche** : relire la DoR de l'équipe à voix haute, ligne par ligne, devant la story.
+
+### La story qui ne passe pas (15b, en rechange)
+- **Explication** : l'objectif de sprint est un engagement des Developers, mais il laisse de
+  la souplesse sur le travail exact. Si le travail diffère de ce qu'ils attendaient, ils
+  renégocient la portée avec le PO, sans toucher à l'objectif (Scrum Guide).
+- **Situation** : situation d'exercice. L'objectif fixé : « Que la maintenance et
+  l'exploitation voient les vélos en panne depuis la plateforme, pour organiser les
+  réparations. » En milieu de sprint, Nora découvre que le nombre par semaine de Sophie
+  demande un travail imprévu sur la source des signalements. Yanis : « On change l'objectif de
+  sprint, ou on annule le sprint ? »
+- **Question** : que réponds-tu à Yanis ?
+- **Réponse attendue** : ni l'un ni l'autre. L'objectif reste : la vue de Bruno et la tournée
+  d'Hugo le servent encore. Les Developers et le PO renégocient la portée du backlog de sprint :
+  le nombre de Sophie peut sortir du sprint et revenir au backlog, où le PO l'ordonne. Annuler
+  le sprint se fait seulement si l'objectif devient obsolète, et seul le PO le peut ; ce n'est
+  pas le cas ici. Le PO prévient Sophie.
+- **Erreurs fréquentes** :
+  - réécrire l'objectif pour qu'il colle au travail fait : l'objectif est l'engagement, la
+    portée bouge autour ;
+  - annuler pour « repartir propre » : demander « l'objectif a-t-il perdu son sens ? » ;
+  - décider seul de ce qui sort : la portée se renégocie entre Developers et PO.
+- **Ce qui marche** : séparer ce qui bouge (les stories du sprint) et ce qui tient (le
+  pourquoi).
+
+### La revue avec Bruno et Sophie (15c)
+- **Explication** : la revue de sprint inspecte ce que le sprint a produit et ce qui a changé ;
+  l'équipe et les parties prenantes décident ensemble de la suite, et le backlog peut être
+  ajusté. C'est une séance de travail (Scrum Guide). Rappel, sans le réenseigner : une demande
+  née en revue entre au backlog et s'ordonne (concepts 10a2 et 13).
+- **Situation** : situation d'exercice. L'incrément contient la vue des vélos en panne de
+  Bruno et la tournée d'Hugo. Dans cet exercice, la vue de Bruno affiche les vélos signalés,
+  sens retenu avec lui au refinement, et Hugo a infirmé sur place environ une panne signalée
+  sur trois pendant le sprint. En revue, Bruno : « Donc un tiers des vélos de ma vue
+  roulent ? » Sophie : « Il me faut les pannes confirmées par semaine. Vous me le faites au
+  prochain sprint ? »
+- **Question** : que fais-tu, en tant que PO, de ce que la revue vient de faire apparaître ?
+- **Réponse attendue** : c'est le but de la revue : inspecter l'incrément et ce qui a changé
+  (une part des signalements infirmée), et adapter le backlog. La demande de Sophie entre au
+  backlog comme un nouvel élément ; le PO l'ordonne face au reste (concept 13), et les
+  Developers choisiront au Sprint Planning. Il ne la promet pas en séance, et ne la refuse pas.
+  La remarque de Bruno ne se tranche pas en séance : le sens de « en panne » pour sa vue se
+  reprécise avec lui au refinement (15a1). Nuance, non attendue : compter les pannes confirmées
+  suppose une donnée dont le fil rouge ne dit pas si elle existe ; les Developers le diront au
+  refinement.
+- **Erreurs fréquentes** :
+  - promettre le prochain sprint : demander « qui décide de sa place, et qui choisit le travail
+    du sprint ? » ;
+  - décider en séance que la vue n'affichera que les pannes confirmées : à reprendre avec Bruno
+    au refinement ;
+  - « je note, on verra » sans dire où : demander « et alors, où va sa demande ? » ;
+  - remercier et clore, comme après une présentation : la revue sert à décider de la suite.
+- **Ce qui marche** : trois temps, au ton de PO : reconnaître ce que la revue a appris, dire où
+  va chaque demande et qui la place, dire quand se reprécise le terme.
+
+### La revue en recette (15c, en rechange)
+- **Explication** : la revue n'est ni une démonstration à sens unique, ni une séance où le PO
+  « accepte » le travail (Scrum.org, pratique établie) ; le cours en tire qu'elle n'est pas non
+  plus une recette où une partie prenante valide (choix du cours). Fait se décide par la DoD,
+  avant la revue ; une story qui ne la remplit pas n'est pas présentée (concept 11).
+- **Situation** : situation d'exercice. Le nombre par semaine de Sophie passe ses critères
+  d'acceptation, mais sa définition écrite manque, alors que la DoD l'exige pour tout indicateur
+  publié. Yanis prépare la revue : « On le montre quand même, Sophie le validera en séance : la
+  revue servira de recette. »
+- **Question** : que corriges-tu dans le plan de Yanis ?
+- **Réponse attendue** : deux points. Le nombre ne remplit pas la DoD : il n'est pas fait, il
+  n'est pas présenté, il retourne au backlog (concept 0b). Et la revue n'est pas une
+  validation : ce n'est pas la signature de Sophie qui rend une story faite, c'est la DoD ; la
+  revue sert à inspecter avec elle ce qui est fait et à décider de la suite. Nuance : un
+  incrément peut être livré avant la revue ; la revue n'est pas une porte de mise en
+  production.
+- **Erreurs fréquentes** :
+  - le montrer « en avant-première » : présenté en revue, il passe pour fait ;
+  - garder la validation de Sophie « pour être sûr » : la DoD et les critères disent quand
+    c'est fait ; Sophie dit ce qu'il faut ensuite ;
+  - ne relever qu'un des deux points : relancer sur l'autre.
+- **Ce qui marche** : « si Sophie dit oui en séance, la définition écrite existe-t-elle pour
+  autant ? ».
+
+### Tout est en « Fait » (aparté, 15c)
+- **Explication** : les états d'un élément dans l'outil (à faire, en cours, fait) sont un choix
+  d'équipe, configurable ; le Scrum Guide n'en fixe aucun. Détail : annexe A1.
+- **Situation** : en fin de sprint, toutes les cartes du tableau de l'équipe sont dans la
+  colonne « Fait ». Léa : « La vie de ces stories est finie. »
+- **Question** : qu'est-ce que la colonne « Fait » te dit, et que lui manque-t-il ?
+- **Réponse attendue** : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » : l'outil
+  ne connaît pas la DoD. Et la vie d'une story ne s'arrête pas à l'état : la revue l'inspecte
+  avec les parties prenantes, et ce qu'on y apprend adapte le backlog.
+- **Erreurs fréquentes** : prendre les états de l'outil pour les étapes de Scrum : demander
+  « où, dans ces colonnes, sont le refinement et la revue ? ».
+- **Ce qui marche** : demander à l'équipe ce que veut dire « Fait » chez elle.
+
+## Pièges
+- **Un refinement en réunion d'équipe, sans l'utilisateur concerné** : personne dans la pièce
+  ne sait ce que le mot veut dire pour lui.
+- **Le PO qui tranche le terme flou lui-même**, ou qui impose d'office un sens à toutes les
+  stories sans demander à chaque utilisateur : chacun précise le sens pour sa story. Un même
+  chiffre partagé (plusieurs utilisateurs, mesure de l'objectif produit) garde une seule
+  définition sous son nom (concept 7a2).
+- **Une story « définir X »** dont une autre dépend : elle n'apporte rien seule ; X se précise
+  au refinement, et on livre d'abord ce dont les règles sont connues.
+- **Prendre le refinement pour un événement** à heure fixe, ou citer les 10 % de capacité :
+  activité continue ; le repère des 10 % figurait encore dans le Scrum Guide 2017 et a été
+  retiré en 2020.
+- **Un objectif de sprint en liste de stories** (« finir X, Y, Z ») : il dit quoi, pas
+  pourquoi.
+- **Le PO qui fixe l'objectif seul ou choisit les stories** : il propose ; l'équipe fixe
+  l'objectif, les Developers choisissent avec lui.
+- **Changer l'objectif quand une story ne passe pas** : la portée se renégocie, l'objectif
+  reste.
+- **La revue en recette, en validation ou en démonstration à sens unique** : séance de travail,
+  qui adapte le backlog.
+- **Promettre en séance une demande née de la revue** : elle entre au backlog et s'ordonne.
+- **Présenter en revue une story qui ne remplit pas la DoD** : elle retourne au backlog.
+- **Prendre les états d'un élément dans l'outil pour la vie d'une story** : « Fait » ne dit rien
+  s'il ne veut pas dire DoD remplie (annexe A1).
+
+## Le test rapide
+Refinement : « qui précise ce mot, pour quelle story ? ». Sprint Planning : « pourquoi ce
+sprint a-t-il de la valeur ? » (si la réponse est une liste, ce n'est pas un objectif). Revue :
+« qu'est-ce qui change dans le backlog après la séance ? ».
+
+## Schéma
+Une frise du sprint, de gauche à droite. Au-dessus, sur toute la longueur, une bande continue
+« refinement » (pas une boîte : activité continue), où une bulle relie une story du haut du
+backlog à l'utilisateur concerné (« en panne ? » : Sophie, Bruno, Hugo). Au début du sprint,
+la porte « Sprint Planning » et ses trois questions empilées : pourquoi (l'objectif de sprint,
+en drapeau), quoi (les stories choisies), comment (les tâches des Developers). À la fin, la
+table « revue de sprint », où l'équipe et Bruno et Sophie entourent l'incrément ; une flèche
+repart vers le backlog avec une nouvelle carte (« pannes confirmées par semaine »). En marge,
+grisée, une rangée de colonnes d'outil « à faire, en cours, fait », légendée « états de
+l'outil, pas la vie de la story ». Légende : « préciser avec l'utilisateur, choisir pour un
+pourquoi, inspecter pour adapter ».
