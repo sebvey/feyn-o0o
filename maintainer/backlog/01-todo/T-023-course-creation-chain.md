@@ -7,6 +7,11 @@
   `maintainer/work/T-018/framing.md`), production par lots dans T-018 §3 et §5, tests de bout
   en bout dans T-018 §4, amélioration continue par `CLAUDE.md` et le
   skill `maintenance`.
+  `maintainer/work/T-018/` est supprimé à la clôture de T-018 (T-018h) : `framing.md`,
+  `learner-observations.md` et les autres fichiers du dossier se lisent dans l'historique git,
+  au commit `5bba3af` de `main` (`git show 5bba3af:maintainer/work/T-018/framing.md`). Le
+  protocole des sessions simulées de T-018h (pilote, prof neuf, apprenant simulé, juge) est
+  décrit dans la PR de T-018h.
 - **À faire** :
 
   ### 1. Décrire la chaîne

@@ -120,7 +120,9 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   - répondre « Léa » ou « l'équipe » sans voir que personne n'a décidé : un avis répandu n'est
     pas une décision ; relancer : « si Bruno voit une station marquée presque vide avec 2 vélos,
     qui a décidé que c'était presque vide ? » ;
-  - proposer soi-même un seuil pour débloquer : renvoyer à 4b et 7a2, sans réexpliquer.
+  - proposer soi-même un seuil pour débloquer : relancer : « qui, chez l'opérateur, sait à
+    partir de combien de vélos une station est presque vide pour Bruno ? » ; puis renvoyer à 4b
+    et 7a2, sans réexpliquer.
 - **Ce qui marche** : « si Bruno voit une station marquée presque vide avec 2 vélos, qui a
   décidé que c'était presque vide ? ».
 
