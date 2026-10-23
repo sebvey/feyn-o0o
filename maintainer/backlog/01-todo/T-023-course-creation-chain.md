@@ -5,7 +5,7 @@
   PO de quoi créer un autre cours plus tard. Les bases, à affiner ensuite. La méthode existe
   aujourd'hui en morceaux : cadrage fait à la main dans T-018a (brief d'agent en annexe, sortie
   `maintainer/work/T-018/framing.md`), production par lots dans T-018 §3 et §5, tests de bout
-  en bout dans T-018 §4, amélioration continue par `CLAUDE.md`, `maintainer/improvements/` et le
+  en bout dans T-018 §4, amélioration continue par `CLAUDE.md` et le
   skill `maintenance`.
 - **À faire** :
 
@@ -21,7 +21,7 @@
   | 2. Cadrage | skill `course-framing`, interactif, lance un agent | brief | `course/plan.md`, `course/glossary.md`, fil rouge, sous-tickets de lots, ADR |
   | 3. Production par lots | workflow `course-lot` (T-018b) | sous-ticket de lot | fiches de concept et fichiers de sources validés |
   | 4. Cohérence et tests de bout en bout | workflow (T-018h) | cours complet | rapport, corrections |
-  | 5. Enseignement et amélioration | `CLAUDE.md`, `maintainer/improvements/`, skill `maintenance` | sessions de cours | tickets |
+  | 5. Enseignement et amélioration | `CLAUDE.md`, skill `maintenance` | sessions de cours (`learner/`, conversations) | tickets |
 
   ### 2. Modèle du brief (sortie de l'étape 1)
 

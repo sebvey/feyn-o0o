@@ -1,7 +1,7 @@
 # ADR-016 : Les sources du cours sont tracées dans `course/sources/`, et le prof ne les cite pas
 
 - **Date** : 2026-10-22
-- **Statut** : complété par ADR-027
+- **Statut** : complété par ADR-027 et ADR-032
 - **Ticket** : T-022
 
 ## Contexte

@@ -70,5 +70,5 @@ sprints est un choix du cours (`course/plan.md`, ADR-018), sans source externe.
   « Incrément », « Responsabilités ») : le texte du PDF n'a pas pu être extrait. Les termes du
   cours suivent `course/glossary.md`, sans vérification contre cette traduction.
 - La fréquence de la confusion « on livre un sprint » : observée dans les sessions du cours
-  (`maintainer/improvements/off-course.md`, entrée du 2026-10-21), sans étude ni source
+  (amélioration de session (`off-course.md`, historique git), entrée du 2026-10-21), sans étude ni source
   externe. À présenter comme une erreur fréquente en formation, pas comme un fait mesuré.

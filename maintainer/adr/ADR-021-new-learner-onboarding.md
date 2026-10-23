@@ -1,7 +1,7 @@
 # ADR-021 : Un nouvel apprenant démarre depuis un `learner/` vide, accueilli par le skill `learner-onboarding` ; le journal est réservé aux sessions de cours
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-032
 - **Ticket** : T-011
 
 ## Contexte

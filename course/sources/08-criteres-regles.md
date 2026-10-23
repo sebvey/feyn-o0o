@@ -43,7 +43,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Test rapide : « est-ce encore vrai si cette story n'existe pas ? » -> règle (Le test rapide) | aucune | Heuristique du cours, sans source |
 | Example Mapping : règles en bleu, exemples en vert, questions en rouge (Schéma) | [S7] | Wynne : cartes bleues pour les règles, vertes pour les exemples ; une question sans réponse va sur une carte rouge |
 | Test rapide : « un testeur peut-il dire OK ou KO sans me poser de question ? » -> critère (Le test rapide) | [S3] en partie | Découle du T de Wake (pouvoir écrire un test) ; la formulation est celle du cours |
-| Une contrainte d'usage (téléphone basique) s'écrit dans un critère ; l'équipe choisit la solution, le N d'INVEST (Sur un exemple, banque) | [S3] | Wake, N : « It is not an explicit contract for features; rather, details will be co-created by the customer and programmer » ; « A good story captures the essence, not the details ». Mettre la contrainte dans le critère est la lecture du cours (concept 7b ; `maintainer/improvements/07-invest.md`) |
+| Une contrainte d'usage (téléphone basique) s'écrit dans un critère ; l'équipe choisit la solution, le N d'INVEST (Sur un exemple, banque) | [S3] | Wake, N : « It is not an explicit contract for features; rather, details will be co-created by the customer and programmer » ; « A good story captures the essence, not the details ». Mettre la contrainte dans le critère est la lecture du cours (concept 7b ; amélioration de session (`07-invest.md`, historique git)) |
 | Une règle non fixée (seuil « presque vide ») : le PO ne l'invente pas ni ne la tranche seul, il la fait fixer par l'utilisateur concerné avant que la story parte ; renvoi au concept 4, DoR au concept 11 (Pièges, banque) | [S7] en partie | Choix du cours (concept 4). Wynne : une question sans réponse va sur une carte rouge, « simply capture the question and move on » ; quelqu'un manque peut-être à la conversation. La DoR de l'équipe vélos (« règles métier fixées ») est un fait du fil rouge |
 
 ### 8b : Given/When/Then, une variable à la fois
@@ -86,7 +86,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | S9 | Fowler, « Specification By Example », bliki, 18 mars 2004 | https://martinfowler.com/bliki/SpecificationByExample.html | primaire | 2026-10-22 |
 | S10 | Agile Alliance, glossaire : « Given-When-Then » et « BDD » | https://www.agilealliance.org/glossary/gwt/ ; https://www.agilealliance.org/glossary/bdd/ | secondaire | 2026-10-22 |
 | S11 | Glossaire du cours | `course/glossary.md` | interne (définition du cours, pas une source externe) | 2026-10-22 |
-| S12 | Observations de session : `maintainer/work/T-018/learner-observations.md` ([c8], section « Production ») ; `maintainer/improvements/07-invest.md` | (dépôt) | interne (observation de session, un seul apprenant : base faible) | 2026-10-22 |
+| S12 | Observations de session : `maintainer/work/T-018/learner-observations.md` ([c8], section « Production ») ; amélioration de session (`07-invest.md`, historique git) | (dépôt) | interne (observation de session, un seul apprenant : base faible) | 2026-10-22 |
 
 ## Non vérifié
 

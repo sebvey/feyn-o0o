@@ -106,6 +106,6 @@ de fil rouge.
 - **Le PO propose, l'administrateur règle** : les pages [S2], [S4], [S5], [S10] disent qui a
   les droits, pas le rôle du PO. Lecture du cours.
 - **Le niveau de trop** : règle pratique du cours, tirée d'une session (un seul apprenant),
-  déjà en « Non vérifié » au concept 4. L'entrée de session retirée de
-  `maintainer/improvements/` n'a pas été relue (pas d'accès à l'historique dans ce lot) : la
+  déjà en « Non vérifié » au concept 4. L'entrée de session retirée (amélioration de
+  session, historique git) n'a pas été relue (pas d'accès à l'historique dans ce lot) : la
   règle est reprise de `course/concepts/04-hierarchie.md` et `course/sources/04-hierarchie.md`.

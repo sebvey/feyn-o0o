@@ -94,7 +94,7 @@ ligne pour toute affirmation qui n'est pas ici.
 | S5 | Scrum Patterns Group (Coplien et al.), « Definition of Ready », *A Scrum Book* (site scrumbook.org) ; cite Kronfält, « Ready-ready: the Definition of Ready for User Stories going into Sprint Planning », blog, octobre 2008 | https://scrumbook.org/value-stream/product-backlog/definition-of-ready.html | secondaire (le billet de Kronfält n'a pas été lu) | 2026-10-22 |
 | S6 | Mountain Goat Software (Cohn), « Definition of Ready: What It Is and Why It's Dangerous », mise à jour du 28 juin 2023 (sans signature ; site et voix de Cohn) | https://www.mountaingoatsoftware.com/blog/the-dangers-of-a-definition-of-ready | primaire (site de l'auteur, qui vend aussi ses formations) | 2026-10-22 |
 | S7 | T-018a, `maintainer/work/T-018/framing.md`, §2.4 et §8 | (dépôt) | secondaire (travail interne, déjà vérifié) | 2026-10-22 |
-| S8 | Observations de session : `maintainer/work/T-018/learner-observations.md` ([c11], [général]) ; `maintainer/improvements/11-dor-dod.md` | (dépôt) | interne (un seul apprenant : base faible) | 2026-10-22 |
+| S8 | Observations de session : `maintainer/work/T-018/learner-observations.md` ([c11], [général]) ; amélioration de session (`11-dor-dod.md`, historique git) | (dépôt) | interne (un seul apprenant : base faible) | 2026-10-22 |
 | S9 | Ambler, « Definition of Done (DoD) for a Data Warehouse Team », *Agile Data* (sans date ; site © 2002-2026) | https://agiledata.org/essays/definition-of-done.html | primaire (site de l'auteur, qui vend sa méthode) | 2026-10-22 |
 | S10 | Glossaire du cours, lignes « Definition of Done (DoD) » et « Definition of Ready (DoR) » | `course/glossary.md` | interne (définition du cours) | 2026-10-22 |
 

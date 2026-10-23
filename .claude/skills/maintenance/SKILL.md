@@ -21,9 +21,6 @@ jamais rien.
 - **`maintainer/backlog/`** : un ticket par fichier, au format de `ticket-template.md`.
   `00-proposed/` : à trier ; `01-todo/` : décidé ; `02-wip/` : en cours, sa branche existe
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
-- **`maintainer/improvements/`** : écrit par le prof pendant le cours. Tu le lis quand tu
-  retravailles un concept ou au tri du backlog, tu en tires des tickets (§2), et tu retires une
-  entrée une fois traitée.
 - **`maintainer/adr/`** : les décisions qui passent la règle ADR (§4), au format
   d'`adr-template.md`. Tu l'édites en autonomie.
 - **`archive/`** : tu ne le lis que sur demande du mainteneur.
@@ -40,8 +37,8 @@ jamais rien.
 ## 1. Faire le point sur le backlog
 
 Au début de la session, sauf si le mainteneur arrive avec une demande précise : mets `main` à
-jour depuis le remote (§3, étape 1), puis liste `00-proposed/`, `01-todo/`, `02-wip/` et les
-fichiers de `maintainer/improvements/`, et propose un ordre. Un ticket de `02-wip/` se propose
+jour depuis le remote (§3, étape 1), puis liste `00-proposed/`, `01-todo/` et `02-wip/`, et
+propose un ordre. Un ticket de `02-wip/` se propose
 en premier : vérifie d'abord sa PR (`gh pr list`) ; si elle attend la revue, il attend le
 merge ; sinon, on reprend sa branche, ou, pour un parent, son prochain sous-ticket dont la
 dépendance est mergée. Un ticket « à affiner » s'affine au traitement (§3, étape 2) ; un
@@ -70,8 +67,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 ## 3. Traiter un ticket
 
 1. **Démarrer** : mets `main` à jour depuis le remote (`git switch main`,
-   `git pull --ff-only`). Si l'arbre de travail n'est pas propre (fichiers de `learner/` ou de
-   `maintainer/improvements/` laissés par une session de cours), commite-les sur `main`, pousse,
+   `git pull --ff-only`). Si l'arbre de travail n'est pas propre (fichiers de `learner/` laissés par
+   une session de cours), commite-les sur `main`, pousse,
    et dis-le dans la PR. Un ticket de `00-proposed/` que le mainteneur demande de traiter est
    décidé : il va directement dans `02-wip/`. Déplace le ticket vers
    `02-wip/` (`git mv`), avec son parent s'il n'y est pas déjà ; pour un sous-ticket, passe son
@@ -170,7 +167,7 @@ puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce 
 tient les 15 lignes, enseigne à partir du fichier du concept, prend ses exemples dans le fil
 rouge vélos, ne repose pas les questions d'accueil, et écrit la mémoire dans la même réponse
 que chaque fait, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observations dans la bonne
-section, entrée dans `maintainer/improvements/` si un fait s'y prête, journal et contrôle de
+section, journal et contrôle de
 reprise à l'arrêt).
 
 Le résultat va dans la PR. Les défauts que le test révèle hors du ticket passent le tri des
@@ -179,8 +176,9 @@ constats (§2).
 ## Cas particulier : diagnostiquer une session de cours
 
 Quand le mainteneur le demande. Périmètre : la dernière session de cours, sauf s'il en demande
-plus. Sources : la conversation si tu es lancé dans la session de cours elle-même ; sinon les
-entrées de `maintainer/improvements/` et le journal de `learner/parcours.md` pour ces sessions.
+plus. Sources : la conversation si tu es lancé dans la session de cours elle-même ; sinon le
+journal de `learner/parcours.md` et `learner/observations.md`, ou la conversation que le
+mainteneur te donne.
 
 Relève, avec un fait précis pour chacun :
 - les écarts aux règles du `CLAUDE.md` (message de plus de 15 lignes, deux concepts dans un
