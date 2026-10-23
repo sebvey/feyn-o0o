@@ -68,7 +68,7 @@
   - T-023 (à faire) : chaîne de création d'un cours ; `course-lot` (T-018b) et le test de bout
     en bout (T-018h) en sont les étapes 3 et 4, d'où un workflow générique.
 
-  **Prochaine étape** : T-040 (retirer `maintainer/improvements/`), puis T-018h (cohérence
+  **Prochaine étape** : T-018h (cohérence
   d'ensemble et tests de bout en bout, clôture). Tous les concepts et les deux annexes ont leur
   fichier. sve repart de zéro en nouvel apprenant (T-011) et teste chaque lot à mesure qu'il est
   mergé.

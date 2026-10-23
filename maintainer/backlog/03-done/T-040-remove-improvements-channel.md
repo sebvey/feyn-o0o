@@ -19,3 +19,4 @@
 - **Fini quand** : plus aucune écriture du prof dans `maintainer/` ; un prof neuf qui improvise
   un fait du fil rouge ou reçoit une demande sur la forme ne cherche pas à l'écrire ailleurs
   que là où le cadre le dit ; le skill `maintenance` ne s'appuie plus sur ce dossier.
+- **Fait le** : 2026-10-23, `CLAUDE.md` : le prof ne lit ni n'écrit rien dans `maintainer/` (fait improvisé, source manquante, origine d'un terme, aparté non notés ; demande sur la forme : adaptation et préférence dans `learner/apprenant.md`, sinon « le cours ne le prévoit pas ») ; skill `maintenance` aligné (périmètre, point du backlog, démarrage, test, diagnostic) ; `maintainer/improvements/` supprimé, renvois des sources vers l'historique git, fil rouge, T-018 et T-023 à jour ; ADR-032 ; test par sous-agent prof neuf (9a1 : fait improvisé, origine d'un terme, source absente, demande de tableaux, arrêt) : rien lu ni écrit dans `maintainer/`, sources et forme conformes.

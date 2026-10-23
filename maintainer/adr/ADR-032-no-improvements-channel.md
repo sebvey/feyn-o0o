@@ -30,4 +30,6 @@ unique), ADR-012 (fait improvisé noté), ADR-016 (source manquante notée), ADR
 
 ## Conséquences
 Le mainteneur n'a plus de trace écrite des sessions hors de `learner/` : pour diagnostiquer,
-il garde la conversation. Une remontée des problèmes se pensera avec la diffusion du cours.
+il garde la conversation. Un fait improvisé n'étant plus noté, deux sessions peuvent
+improviser différemment le même fait : le prof ne doit pas contredire le fil rouge, mais rien
+ne garde ses improvisations. Une remontée des problèmes se pensera avec la diffusion du cours.
