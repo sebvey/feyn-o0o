@@ -15,6 +15,8 @@ courants : **epic** (trop gros pour un sprint), **feature** (sert seule, faite d
 besoins), **story** (un besoin, tient dans un sprint), **tâche** (travail des Developers pour une
 story, dans le backlog de sprint). Les outils ont trois ou quatre niveaux par défaut ; l'équipe
 choisit les siens, peu suffisent. Pour trancher : compter les « je veux » qu'il reste à livrer.
+Le compte l'emporte sur la taille : une feature peut prendre plusieurs sprints ; la taille ne
+tranche qu'entre story et epic, pour un seul « je veux ».
 
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le backlog contient des « éléments du backlog », sans
@@ -40,7 +42,8 @@ choisit les siens, peu suffisent. Pour trancher : compter les « je veux » qu'i
   (Cohn le juge même superflu). La frontière entre niveaux reste floue entre praticiens.
 - **Choix du cours** (règles pratiques, sans source externe, à présenter comme telles) : compter
   les « je veux » pour trancher ; juger d'après ce qu'il reste à livrer ; un seul « je veux » trop
-  gros pour un sprint est un epic (au sens de Cohn, une grosse story), qui se découpe ; un niveau est de trop quand la
+  gros pour un sprint est un epic (au sens de Cohn, une grosse story), qui se découpe ; quand
+  la taille et le compte divergent, le compte l'emporte ; un niveau est de trop quand la
   plupart des features ne contiennent qu'une story.
 
 ## Sous-concepts
@@ -68,7 +71,8 @@ viennent du fil rouge : Bruno veut suivre l'état du réseau dans plusieurs vues
 vélos en panne, locations du jour) ; sa journée (point du matin, envoi des régulateurs, suivi
 des incidents, bilan du soir) ; la vue des stations vides, déjà livrée ; les relevés en double ;
 les signalements de pannes, faits par les abonnés dans l'appli ; le seuil des stations presque
-vides, pas encore fixé.
+vides, pas encore fixé ; le bilan que Claire présente au conseil (locations par quartier sur le
+mois, puis comparaison au même mois de l'an dernier).
 
 ### Classer l'arbre de Bruno (4a1)
 - **Explication** : le Scrum Guide ne parle que d'éléments du backlog. Quatre mots courants les
@@ -156,21 +160,24 @@ vides, pas encore fixé.
   et chaque « je veux » devient une story candidate. Plusieurs groupes, ou des « je veux » qu'on
   ne sait pas encore écrire : epic. Un « je veux » qui en contient d'autres se déplie avant de
   compter.
-- **Situation** : Nora ajoute au backlog : « Bruno : je veux suivre l'état du réseau. » Elle
-  conclut : « Un seul je veux, donc une story. »
+- **Situation** : Nora ajoute au backlog : « Claire : je veux justifier la subvention devant le
+  conseil. » Elle conclut : « Un seul je veux, donc une story. » Pour son bilan, Claire a déjà
+  cité les locations par quartier sur le mois, puis la comparaison au même mois de l'an dernier ;
+  elle n'a pas dit si le bilan contiendra autre chose.
 - **Question** : Nora a-t-elle raison ?
-- **Réponse attendue** : non. Ce « je veux » en contient d'autres : déplié le long de la journée
-  de Bruno (point du matin, envoi des régulateurs, suivi des incidents, bilan du soir), il donne
-  plusieurs vues (stations vides, vélos en panne, locations du jour), chacune faite de un ou
-  plusieurs « je veux », et d'autres qu'on ne sait pas encore écrire. Plusieurs groupes : epic.
-  Nuance : une phrase au format d'une story peut être un epic ; le format (concept 5) ne fait
-  pas le niveau.
+- **Réponse attendue** : non. Ce « je veux » en contient d'autres : déplié, il donne au moins
+  deux « je veux », chacun utile seul (voir les locations par quartier du mois ; les comparer au
+  même mois de l'an dernier), et peut-être d'autres que Claire n'a pas encore dits. Des « je
+  veux » qu'on ne sait pas encore écrire : epic. Si Claire confirme que le bilan s'arrête à ces
+  deux-là, c'est une feature. Nuance : une phrase au format d'une story peut cacher plusieurs
+  besoins ; le format (concept 5) ne fait pas le niveau.
 - **Erreurs fréquentes** :
   - valider la story parce que la phrase a la bonne forme : c'est l'erreur « epic classé en
-    story » ;
-  - répondre « feature » : il contient plusieurs features, pas seulement plusieurs stories.
-- **Ce qui marche** : faire écrire ce que Bruno veut à chaque moment de sa journée ; le nombre de
-  « je veux » obtenus tranche seul.
+    story ». Relancer : « qu'est-ce que Claire montrera au conseil ? » ;
+  - répondre « feature » sans réserve : juste pour les deux « je veux » connus, mais le bilan
+    n'est pas tout écrit. Relancer : « Claire a-t-elle dit tout ce que contiendra son bilan ? ».
+- **Ce qui marche** : faire écrire ce que Claire montrera au conseil, ligne par ligne ; le nombre
+  de « je veux » obtenus, et ceux qui manquent, tranchent seuls.
 
 ### Vélos en panne et locations du jour : feature ou story ? (4b)
 - **Situation** : interrogé sur deux vues (propos d'exercice), Bruno dit :
