@@ -42,7 +42,7 @@ L'apprenant ne tranche jamais un fait métier.
 
 ## Les acteurs
 
-| Acteur | Rôle | Besoin principal | Concept |
+| Acteur | Rôle | Besoin principal | Concepts où il est central |
 |---|---|---|---|
 | Agnès, directrice des opérations | Encadre l'exploitation (Bruno) et la maintenance (Sophie) ; sponsor de la plateforme, dont elle porte le budget | Que la plateforme améliore le service (objectif produit) | 2, 14 |
 | Thomas, Scrum Master | Scrum Master de l'équipe vélos et de l'équipe appli | Lever les obstacles des deux équipes | 0, 14 |
@@ -85,41 +85,20 @@ L'apprenant ne tranche jamais un fait métier.
   même mois de l'an dernier (concept 10b).
 - Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). La DoD
   exige aussi que chaque indicateur publié ait sa définition écrite (ajoutée en
-  rétrospective, concepts 11a et 12a). DoR de
+  rétrospective, concepts 11a et 12a), et que les relevés en double soient détectés par un
+  test automatique avant publication (concept 11a). DoR de
   l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
   identifiées, accès aux données obtenu (concept 11b).
-- La vue des stations vides doit servir à Bruno à envoyer les régulateurs plus tôt vers les
-  stations qui se vident.
+- La vue des stations vides est livrée (concept 0b) ; elle doit servir à Bruno à envoyer les
+  régulateurs plus tôt vers les stations qui se vident. Les autres vues de Bruno ne sont pas
+  livrées. La story de tournée d'Hugo est livrée (concept 10a2).
+- Bruno envoie les régulateurs vers les stations ; sur le terrain, un régulateur comme Malik va
+  aussi de lui-même vers une station qu'il voit se vider.
 - La journée de Bruno : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.
-- Sophie fixe chaque semaine le nombre de techniciens en tournée.
+- Sophie fixe chaque semaine le nombre de techniciens en tournée ; elle demande le nombre de
+  vélos en panne par semaine (concept 5).
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo
   défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé pour les
-  indicateurs (concept 12a). La vue des locations du jour de Bruno montre toutes les
-  locations, courtes comprises.
-
-## Situations par concept
-
-Indicatif, pour varier les situations d'un concept à l'autre ; la banque d'exemples du fichier
-du concept prime.
-
-| # | Situation |
-|---|---|
-| 0 | Un sprint de deux semaines de l'équipe vélos ; la vue des stations vides est livrée le mercredi de la deuxième semaine (incrément avant la fin du sprint) |
-| 1 | Présenter la plateforme à un nouvel arrivant : par son effet ou par sa technique ? Léa propose de passer au streaming : quoi ou comment ? |
-| 2 | La vue des stations vides est livrée : les stations restent-elles moins longtemps vides ? Formuler l'objectif produit avec Agnès ; choisir sa mesure |
-| 3 | Les demandes arrivent en vrac (Bruno, Sophie, Claire, Inès) : qu'est-ce qu'un backlog, et ce qu'il n'est pas |
-| 4 | « Suivre l'état du réseau » (Bruno) : epic, vues (stations vides, vélos en panne, locations du jour), stories |
-| 5 | Sophie veut le nombre de vélos en panne par semaine : les « pourquoi ? » successifs passent par le nombre de vélos à réparer et mènent au nombre de techniciens en tournée |
-| 6 | La tournée de réparation : acteur Hugo ou Sophie ? Julie comme persona |
-| 7 | Le SMS de Julie : solution ou contrainte ? |
-| 8 | Disponibilité de la station favorite de Julie : critères et règles métier |
-| 9 | Quelles stations vont se vider ? (Malik) |
-| 10 | La tournée d'Hugo et le blocage réclamé par Sophie ; les stories de Claire (locations par quartier, comparaison à l'an dernier) |
-| 11 | Les vues de Bruno ; l'accès à la table des locations, pas encore obtenu |
-| 12 | Définir « locations par quartier » pour Claire (locations très courtes, référentiel des quartiers) ; relevés en double, signalements par téléphone absents ; quelles colonnes de la table des locations demander à Pascal |
-| 13 | Ordonner quatre demandes : blocage des vélos en panne (Sophie, sécurité), locations du jour (Bruno, accès en attente), comparaison à l'an dernier (Claire, bilan annuel au conseil), disponibilité pour l'appli (Inès) ; MoSCoW pour le bilan au conseil |
-| 14 | Carte des parties prenantes ; Inès et Claire veulent le même sprint ; l'accès aux locations bloque depuis trois sprints : escalade (Thomas, Agnès, Pascal) |
-| 15 | « Vélo en panne » : signalé ou constaté par Hugo ? Objectif de sprint autour des vélos en panne ; revue avec Bruno et Sophie, le backlog change |
-| 16 | La journée de Bruno en story map ; première version : le point du matin d'abord, ou un peu de chaque moment ? ; Bruno demande « pour quand ? » |
-| 17 | La prévision des stations à risque : la tendance de la dernière heure suffit-elle ? La pluie compte-t-elle ? Nora explore l'historique des relevés pendant un temps borné |
+  indicateurs (concept 12a). La vue des locations du jour de Bruno, pas encore construite
+  (accès à la table des locations non obtenu), montrera toutes les locations, courtes comprises.

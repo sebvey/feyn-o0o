@@ -37,7 +37,9 @@ titre: <titre court>
 - **Situation** : <acteurs et faits du fil rouge>
 - **Question** : <la question qui teste la compréhension>
 - **Réponse attendue** : <la réponse juste, avec ses nuances>
-- **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger>
+- **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger ; pour
+  une réponse fausse, sa relance (« Relancer : <question ciblée> ») ou, sans relance,
+  « réexpliquer » ; une question de « Ce qui marche » n'est une relance que si l'erreur y renvoie>
 - **Ce qui marche** : <formulation, schéma ou relance qui a fait déclic>
 
 ## Pièges
