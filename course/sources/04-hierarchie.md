@@ -34,6 +34,7 @@ source externe (voir « Non vérifié »).
 | Feature ou story : compter les « je veux » (un seul : story ; plusieurs, chacun utile seul : feature) (4b, Le test rapide) | [S8] | Choix du cours : test qui a marché avec un apprenant, là où « je sais ce que voit l'utilisateur » ne marchait pas (amélioration de session (`off-course.md`, historique git), observation `[c4]`). Aucune source externe |
 | Juger le niveau d'après ce qu'il reste à livrer, pas dans l'absolu (Pièges) | [S8] | Choix du cours, sans source externe ; cohérent avec [S2] (pas de seuil précis) et avec le refinement qui découpe en continu [S1] |
 | Epic au sens du test du cours : plusieurs groupes de « je veux », ou des « je veux » qu'on ne sait pas encore écrire ; un « je veux » qui en contient d'autres se déplie avant de compter (4b, Le test rapide, Pièges) | [S8] ; appui partiel [S2] | Choix du cours, extension du test « compter les “je veux” » à l'epic, sans source externe. [S2] : l'epic est une grosse story, trop grosse pour un sprint, donc faite de plusieurs stories |
+| Quand la taille et le compte divergent, le compte l'emporte : une feature peut prendre plusieurs sprints ; la taille ne tranche qu'entre story et epic, pour un seul « je veux » (L'essentiel, Consensus et choix d'école) | [S8] ; appui partiel [S2] | Choix du cours, sans source externe ; [S2] : aucun seuil ne sépare les niveaux |
 | Une phrase au format d'une story peut être un epic : le format ne fait pas le niveau (4b, Pièges) | [S2] | « an epic is a large user story » : un epic s'écrit comme une story ; seule sa taille le distingue. Formulation du cours |
 | Un travail qui ne sert qu'à réaliser une story est une tâche du plan des Developers ; un travail technique qui porte sa propre raison entre au backlog, et le PO l'ordonne (Pièges, banque « Classer l'arbre de Bruno ») | [S1] ; `course/sources/01-produit-et-po.md`, `course/sources/03-backlog-produit.md` | Backlog « single source of work » (renvoi au concept 1) ; découpage en travail d'un jour ou moins « at the sole discretion of the Developers » (voir plus haut). La ligne de partage (« ne sert qu'à une story » ou « porte sa propre raison ») est une formulation du cours, alignée sur le concept 3 (banque « Le backlog de Léa ») |
 | Un niveau coûte (écrire, ranger, suivre) ; avant de retirer le niveau feature, vérifier que ses features ne sont pas des stories mal classées (banque « Un niveau de trop ? ») | [S8] | Choix du cours, sans source externe |
@@ -49,7 +50,7 @@ source externe (voir « Non vérifié »).
 | S5 | Scaled Agile, « Features and Capabilities », SAFe, mise à jour le 24 février 2025 | https://framework.scaledagile.com/features-and-capabilities | primaire, marketing pour la formation SAFe | 2026-10-22 |
 | S6 | Wikipédia, « User story » (chronologie, section sur epics et thèmes) | https://en.wikipedia.org/wiki/User_story | secondaire | 2026-10-22 |
 | S7 | Wake, « INVEST in Good Stories, and SMART Tasks », 17 août 2003 | https://xp123.com/invest-in-good-stories-and-smart-tasks/ | primaire | 2026-10-22 (cadrage T-018a, §8) |
-| S8 | Choix du cours : amélioration de session (`04-hierarchie.md`, historique git), amélioration de session (`off-course.md`, historique git) (entrée « feature ou story »), `maintainer/work/T-018/learner-observations.md` (`[c4]`) | (dépôt) | interne (observation de session, pas une source externe) | 2026-10-22 |
+| S8 | Choix du cours : amélioration de session (`04-hierarchie.md`, historique git), amélioration de session (`off-course.md`, historique git) (entrée « feature ou story »), observation d'une session, un apprenant (`[c4]` : a classé un epic en story ; le test « je sais ce que voit l'utilisateur » ne lui parlait pas, compter les « je veux » a marché) | (dépôt) | interne (observation de session, pas une source externe) | 2026-10-22 |
 
 ## Non vérifié
 - Le texte de Beck, *Extreme Programming Explained* (1999) : non consulté. L'origine XP de la
@@ -63,12 +64,13 @@ source externe (voir « Non vérifié »).
   pratique Story, Task et Bug ; [S3] ne nomme que « Story ».
 - « Story et tâche sont quasi universelles » (fiche actuelle) : aucune source ; contredit en
   partie par [S3] (Subtask, pas Task) et [S4] (Product Backlog Item, Issue ou Requirement selon
-  le processus). Voir `maintainer/work/T-018/4-errors.md`.
+  le processus). Erreur relevée dans la fiche actuelle : retirer « quasi universel » ou le
+  reformuler.
 - « La plupart des équipes et des outils emploient quatre mots » (première rédaction, retirée
   après revue) : aucune source ; contredit par [S3] (trois niveaux, sans feature) et [S4]
   (processus Basic sans feature).
-- « Quelques jours » comme pratique courante pour la taille d'une story (cadrage §2.4,
-  affirmation 06) : aucune source ; [S7] dit « at most a few person-weeks ». Retiré du fichier
+- « Quelques jours » comme pratique courante pour la taille d'une story (relevé dans la
+  fiche actuelle) : aucune source ; [S7] dit « at most a few person-weeks ». Retiré du fichier
   du concept.
 - Le sens de « thème » dans Jira (regroupement transversal) : lu seulement dans [S6], page qui
   affiche un avertissement de fiabilité ; absent de [S3]. Non cité dans le fichier du concept.

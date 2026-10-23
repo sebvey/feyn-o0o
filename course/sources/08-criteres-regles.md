@@ -51,14 +51,14 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
 | Given : le contexte de départ ; When : l'événement ou l'action ; Then : le résultat attendu, observable (8b) | [S5], [S6], [S10] | North : « Given some initial context […] When an event occurs, Then ensure some outcomes ». Gherkin : Given « describe the initial context », When « describe an event, or an action », Then « describe an expected outcome » ; « An outcome should be on an observable output ». Agile Alliance : « a particular set of observable consequences » |
-| Un Then vague (« elle peut savoir ») ne se teste pas : le Then dit ce que le testeur vérifie (Pièges, banque « critère de Julie ») | [S6] ; [S12] | Gherkin : le résultat doit être observable. L'erreur vient d'une session (`learner-observations.md` [c8] et « Production ») |
+| Un Then vague (« elle peut savoir ») ne se teste pas : le Then dit ce que le testeur vérifie (Pièges, banque « critère de Julie ») | [S6] ; [S12] | Gherkin : le résultat doit être observable. L'erreur vient d'une session (observation d'une session, un apprenant, [c8] : premier Given/When/Then avec un Then vague, « she can know ») |
 | Un critère sans When : le Then n'a pas d'événement qui le déclenche (banque « critère de Julie ») | [S5], [S6] | La forme de North et de Gherkin a trois parties ; l'erreur vient d'une session [S12] |
-| Changer une seule variable d'un exemple à l'autre, pour savoir quelle règle on teste (8b, Pièges) | [S12] | Heuristique du cours, sans source externe trouvée ; réussie 3/3 en session (`learner-observations.md` [c8]). L'exemple du distributeur de North [S5] fait varier l'état du compte entre deux scénarios, sans en faire une règle. Gherkin recommande seulement « 3-5 steps per example » |
+| Changer une seule variable d'un exemple à l'autre, pour savoir quelle règle on teste (8b, Pièges) | [S12] | Heuristique du cours, sans source externe trouvée ; réussie 3/3 en session (observation d'une session, un apprenant, [c8]). L'exemple du distributeur de North [S5] fait varier l'état du compte entre deux scénarios, sans en faire une règle. Gherkin recommande seulement « 3-5 steps per example » |
 | Le Then d'un critère de fraîcheur vérifie l'âge des données (moins de 15 minutes), pas la fréquence de rafraîchissement de la plateforme (toutes les 5 minutes, ce qui permet de tenir la fraîcheur) (Pièges, banque) | aucune | Raisonnement du cours sur des faits du fil rouge : vérifier un résultat observable [S6], pas un moyen choisi par l'équipe [S3] (N). Sans source externe. « Seul, le rafraîchissement ne garantit pas la fraîcheur (un rafraîchissement qui échoue) » : raisonnement du cours (banque « Fraîcheur : que vérifie le Then ? ») |
 | Un mot flou dans un critère oblige le testeur à poser une question (Pièges) | [S3] en partie | Découle du T de Wake ; formulation du cours |
 | Nommer la solution dans le Then (« elle reçoit un SMS ») fige ce que l'équipe pouvait négocier (Pièges) | [S3] | Wake, N (voir plus haut) ; renvoi au concept 7b |
 | Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles de Bruno », Pièges) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
-| « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère de Julie à corriger ») | [S12] | Critique de la v1 en session (`learner-observations.md`, « Production ») |
+| « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère de Julie à corriger ») | [S12] | Critique de la v1 en session (observation d'une session, un apprenant : sa première version d'un critère pour l'abonné sans appli) |
 | Given/When/Then n'est pas obligatoire : un critère écrit autrement convient s'il reste tranchable (Pièges) | [S10] en partie ; [S2], [S3] | Agile Alliance : la forme est une heuristique ; Jeffries et Wake demandent un test d'acceptation, sans imposer de forme. « S'il reste tranchable » : formulation du cours |
 
 ### Renvois sans enseignement
@@ -86,7 +86,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | S9 | Fowler, « Specification By Example », bliki, 18 mars 2004 | https://martinfowler.com/bliki/SpecificationByExample.html | primaire | 2026-10-22 |
 | S10 | Agile Alliance, glossaire : « Given-When-Then » et « BDD » | https://www.agilealliance.org/glossary/gwt/ ; https://www.agilealliance.org/glossary/bdd/ | secondaire | 2026-10-22 |
 | S11 | Glossaire du cours | `course/glossary.md` | interne (définition du cours, pas une source externe) | 2026-10-22 |
-| S12 | Observations de session : `maintainer/work/T-018/learner-observations.md` ([c8], section « Production ») ; amélioration de session (`07-invest.md`, historique git) | (dépôt) | interne (observation de session, un seul apprenant : base faible) | 2026-10-22 |
+| S12 | Observations d'une session, un apprenant ([c8] : premier Given/When/Then sans When et avec un Then vague, une seule variable par exemple réussie 3/3, critique de sa première version d'un critère pour l'abonné sans appli ; [c15] : story « définir X » dont une autre dépend) ; amélioration de session (`07-invest.md`, historique git) | (dépôt) | interne (observation de session, un seul apprenant : base faible) | 2026-10-22 |
 
 ## Non vérifié
 
@@ -107,8 +107,8 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 - **« Une variable à la fois »** : heuristique du cours (observations de session), aucune source
   externe trouvée.
 - **« Une story porte des critères d'acceptation » étiqueté « Consensus »** : non confirmé par
-  le Scrum Guide [S1] ; pratique établie (XP, Wake, Cohn). Voir
-  `maintainer/work/T-018/8-errors.md`.
+  le Scrum Guide [S1] ; pratique établie (XP, Wake, Cohn). Erreur relevée dans la fiche
+  actuelle : à étiqueter pratique établie, pas consensus.
 - **SPIDR (Cohn) et patrons de Richard Lawrence** : cités au cadrage pour l'ancien concept 7,
   relèvent du découpage (concept 9) ; non cherchés ici, à vérifier au lot du concept 9. Le
   fichier du concept 8 ne doit pas les nommer.
