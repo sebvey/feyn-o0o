@@ -41,10 +41,12 @@ fichier à l'apprenant.
 | Persona | persona | Portrait fictif d'un rôle, construit à partir d'utilisateurs réels (choix d'école, Cooper) | 6 |
 | INVEST | INVEST | Six critères d'une story bien formée (Wake) | 7 |
 | Exploration bornée (spike) | spike | Travail limité dans le temps pour répondre à une question, sans livrer de fonction | 7, 17 |
+| Contrainte | constraint | Exigence réelle de l'usage, qui ne se négocie pas ; elle s'écrit dans un critère d'acceptation, sans nommer de solution | 7, 8 |
+| Mot flou | vague term | Mot d'une story ou d'un critère dont le sens n'est pas fixé, qui rend plusieurs lettres d'INVEST douteuses ; le PO le fait préciser par l'utilisateur concerné | 7, 15 |
 | Critère d'acceptation | acceptance criterion | Condition vérifiable, propre à une story, qui dit quand elle est faite | 8 |
 | Règle métier | business rule | Vérité du domaine, valable hors de la story | 8 |
 | Given/When/Then | Given/When/Then | Forme d'un critère en exemple (issue du BDD, choix d'école) | 8 |
-| Fraîcheur | freshness | Âge maximal des données au moment où on les lit | 8, 12 |
+| Fraîcheur | freshness | Âge maximal des données au moment où on les lit | 1, 8, 12 |
 | Couche | layer | Partie empilée du produit (ingestion, transformation, données prêtes, restitution, dans l'exemple du cours) | 9 |
 | Tranche horizontale | horizontal slice | Une couche entière du produit, qui ne sert pas seule à l'utilisateur | 9 |
 | Tranche verticale | vertical slice | Découpage qui traverse les couches et sert seul à l'utilisateur | 9 |
@@ -54,19 +56,20 @@ fichier à l'apprenant.
 | Dépendance | dependency | Une story ne peut pas être livrée, ou n'a pas de sens, avant une autre story ou le travail d'une autre équipe | 10 |
 | Definition of Done (DoD) | Definition of Done | Exigences de qualité que tout élément remplit pour faire partie de l'incrément | 0, 11 |
 | Definition of Ready (DoR) | Definition of Ready | Conditions qu'un élément remplit avant d'être commencé : entrer dans un sprint, ou franchir le début du flux (annexe A2) ; choix d'école | 11 |
-| Indicateur | metric | Valeur calculée par le produit pour ses utilisateurs (locations par quartier) | 12 |
+| Indicateur | metric | Valeur calculée par le produit pour ses utilisateurs (locations par quartier) | 2, 12 |
 | Définition d'un indicateur | metric definition | Ce qu'il compte, sa règle de calcul, son grain, sa période, sa source, sa fraîcheur | 12 |
 | Grain | grain | Ce que représente une valeur d'un indicateur ou une ligne d'une table (par station, par quartier ; Kimball) | 12 |
-| Qualité des données | data quality | Respect de règles mesurables (complétude, unicité, fraîcheur, validité, exactitude, cohérence) | 12 |
+| Qualité des données | data quality | Respect de règles mesurables sur des dimensions (six chez DAMA UK : complétude, unicité, fraîcheur, validité, exactitude, cohérence ; la liste est un choix d'école) | 12 |
 | Source de données | data source | Système qui produit les données, avec son propriétaire | 12 |
 | Donnée personnelle | personal data | Information sur une personne identifiée ou identifiable (RGPD) | 12 |
 | Finalité | purpose | Ce pour quoi des données sont demandées, dit avant de les collecter (RGPD) | 12 |
 | Minimisation | data minimisation | Ne demander que les données nécessaires à la finalité (RGPD) | 12 |
 | Ordonner | order | Décider de la place de chaque élément dans le backlog | 3, 13 |
+| Prêt à être choisi | ready for selection | Élément que l'équipe peut finir en un sprint, une fois précisé (Scrum Guide) ; la DoR en est une version écrite par l'équipe | 3, 11 |
 | Coût du retard | cost of delay | Ce qu'on perd à livrer plus tard (choix d'école) | 13 |
 | WSJF | Weighted Shortest Job First | Coût du retard divisé par la durée, pour ordonner (choix d'école, SAFe) | 13 |
 | MoSCoW | MoSCoW | Classement Must, Should, Could, Won't pour une échéance (choix d'école) | 13 |
-| Sponsor | sponsor | Responsable qui porte le budget du produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog | 14 |
+| Sponsor | sponsor | Responsable qui porte le budget du produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog | 1, 14 |
 | Obstacle | impediment | Ce qui bloque l'équipe et qu'elle ne lève pas seule | 14 |
 | Escalade | escalation | Porter un obstacle au niveau qui peut le lever | 14 |
 | Refinement | Product Backlog refinement | Activité continue qui précise et découpe les éléments du backlog | 15 |
@@ -78,7 +81,8 @@ fichier à l'apprenant.
 | MVP | minimum viable product | Au sens de Ries : version qui apporte le plus d'apprentissage pour le moindre effort ; l'usage courant en fait la première version | 16, 17 |
 | Prévision | forecast | Estimation de ce qui sera fait et quand, tirée de la taille et du rythme mesurés des Developers ; pas un engagement. À ne pas confondre avec la prévision des stations à risque, une fonction du produit (9, 17) | 16 |
 | Story points, vélocité | story points, velocity | Unité d'estimation de la taille, et quantité finie par sprint dans cette unité : pratiques courantes, absentes du Scrum Guide, nommées sans être enseignées (choix d'école) | 16 |
-| Hypothèse | assumption | Ce qu'on tient pour vrai sans l'avoir vérifié | 17 |
+| Mesure de succès | success metric | Mesure qui dit si une version a réussi, de préférence un changement de comportement de l'utilisateur (Patton) ; distincte de la mesure de résultat de l'objectif produit | 2, 16 |
+| Hypothèse | assumption | Ce qu'on tient pour vrai sans l'avoir vérifié | 2, 17 |
 | Risque de valeur, risque de faisabilité | value risk, feasibility risk | Hypothèse sur ce que l'utilisateur fera du produit et sur ce qu'il sert l'objectif produit ; hypothèse sur ce qu'on peut construire, données comprises (deux des quatre risques de Cagan ; les données : choix du cours) | 17 |
 | Prototype | prototype | Version rapide et peu chère d'une idée, faite pour la tester et souvent jetée : maquette montrée à l'utilisateur, ou prototype sur données réelles, utilisé pour de vrai par de vrais utilisateurs (Cagan) | 17 |
 | État (d'un élément) | status, state | Étape où se trouve un élément dans le tableau de l'équipe (à faire, en cours, fait), réglée dans l'outil ; absent du Scrum Guide ; Jira dit « statut » | A1 |

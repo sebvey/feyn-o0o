@@ -27,6 +27,7 @@ titre: <titre court>
 ## Consensus et choix d'école
 - **Consensus** : <ce qui est admis, et par qui (ex. le Scrum Guide)>
 - **Choix d'école** : <ce qui se discute entre praticiens, attribué>
+- **Choix du cours** : <la position propre au cours, sans source externe, à présenter comme telle>
 
 ## Sous-concepts
 <Liste ordonnée (Na, Nb…), chacun tenable en un message de 15 lignes avec sa question.>
