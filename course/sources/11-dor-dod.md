@@ -72,7 +72,7 @@ ligne pour toute affirmation qui n'est pas ici.
 | Story de Bruno « voir les locations du jour par station » ; accès à la table des locations demandé à la DSI, pas encore obtenu (11b) | `course/fil-rouge-velos.md` | Faits du fil rouge, inventés (sources de données : « Accès demandé, pas encore obtenu (concept 11b) » ; acteur Pascal, DSI) |
 | Réponse attendue : la story n'est pas prête ; proposer une story prête à la place ; faire avancer l'accès pour le sprint suivant (11b) | [S1], [S6] | Le PO propose, les Developers choisissent [S1]. Ne pas prendre une story dont la dépendance externe n'est pas levée : cohérent avec l'exception de Cohn [S6]. Faire avancer l'accès : escalade, concept 14 (renvoi) |
 | Sur un projet data, l'accès aux données figure souvent dans la DoR (L'essentiel, 11b) | `course/fil-rouge-velos.md` ; [S6] | La DoR de l'équipe vélos le contient (fil rouge, inventé). Une dépendance externe dans une DoR : exemple de Cohn. « Souvent, en data » : non vérifié (voir « Non vérifié ») |
-| 11b suppose des sprints ; l'annexe A2 se propose à l'apprenant qui travaille sans sprint (11b) | ADR-018 ; `course/plan.md` (Parti pris) | Décision interne du cours (T-021), sans source externe ; A2 est écrite par le lot 6 (T-018g) |
+| 11b suppose des sprints ; l'annexe A2 se propose à l'apprenant qui travaille sans sprint (11b) | ADR-018 ; `course/plan.md` (Parti pris) | Décision interne du cours (T-021), sans source externe ; A2 est écrite par le lot 6 (T-018g), sous-concept A2a |
 
 ### Renvois sans enseignement
 

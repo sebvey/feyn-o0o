@@ -53,7 +53,7 @@ fichier à l'apprenant.
 | Hors périmètre | out of scope | Ce qu'une story ne fait pas alors qu'on pourrait l'attendre | 10 |
 | Dépendance | dependency | Une story ne peut pas être livrée, ou n'a pas de sens, avant une autre story ou le travail d'une autre équipe | 10 |
 | Definition of Done (DoD) | Definition of Done | Exigences de qualité que tout élément remplit pour faire partie de l'incrément | 0, 11 |
-| Definition of Ready (DoR) | Definition of Ready | Conditions qu'un élément remplit avant d'entrer dans un sprint (choix d'école) | 11 |
+| Definition of Ready (DoR) | Definition of Ready | Conditions qu'un élément remplit avant d'être commencé : entrer dans un sprint, ou franchir le début du flux (annexe A2) ; choix d'école | 11 |
 | Indicateur | metric | Valeur calculée par le produit pour ses utilisateurs (locations par quartier) | 12 |
 | Définition d'un indicateur | metric definition | Ce qu'il compte, sa règle de calcul, son grain, sa période, sa source, sa fraîcheur | 12 |
 | Grain | grain | Ce que représente une valeur d'un indicateur ou une ligne d'une table (par station, par quartier ; Kimball) | 12 |
@@ -73,10 +73,25 @@ fichier à l'apprenant.
 | Objectif de sprint | Sprint Goal | Objectif unique du sprint, fixé au Sprint Planning | 0, 15 |
 | Backlog de sprint | Sprint Backlog | Objectif de sprint, éléments choisis et plan des Developers | 0, 15 |
 | Story map | story map | Carte du backlog selon le parcours de l'utilisateur (Patton) | 16 |
+| Colonne vertébrale | backbone | Ligne des activités de l'utilisateur en haut de la story map, dans l'ordre de son récit ; elle ne s'ordonne pas (Patton) | 16 |
 | Tranche de version | release slice | Ensemble de stories de la carte qui forme une version utile | 16 |
 | MVP | minimum viable product | Au sens de Ries : version qui apporte le plus d'apprentissage pour le moindre effort ; l'usage courant en fait la première version | 16, 17 |
-| Prévision | forecast | Estimation de ce qui sera fait et quand, par les Developers ; pas un engagement | 16 |
+| Prévision | forecast | Estimation de ce qui sera fait et quand, tirée de la taille et du rythme mesurés des Developers ; pas un engagement. À ne pas confondre avec la prévision des stations à risque, une fonction du produit (9, 17) | 16 |
+| Story points, vélocité | story points, velocity | Unité d'estimation de la taille, et quantité finie par sprint dans cette unité : pratiques courantes, absentes du Scrum Guide, nommées sans être enseignées (choix d'école) | 16 |
 | Hypothèse | assumption | Ce qu'on tient pour vrai sans l'avoir vérifié | 17 |
+| Risque de valeur, risque de faisabilité | value risk, feasibility risk | Hypothèse sur ce que l'utilisateur fera du produit et sur ce qu'il sert l'objectif produit ; hypothèse sur ce qu'on peut construire, données comprises (deux des quatre risques de Cagan ; les données : choix du cours) | 17 |
+| Prototype | prototype | Version rapide et peu chère d'une idée, faite pour la tester ; sur données réelles, utilisée pour de vrai par de vrais utilisateurs (Cagan) | 17 |
+| État (d'un élément) | status, state | Étape où se trouve un élément dans le tableau de l'équipe (à faire, en cours, fait), réglée dans l'outil ; absent du Scrum Guide ; Jira dit « statut » | A1 |
+| Flux continu | continuous flow | Travail sans sprint : un élément commence quand l'équipe a de la place et se livre quand il est fini (terme du cours) | A2 |
+| Travail en cours | work in progress (WIP) | Éléments commencés et pas finis (*Kanban Guide*) | A2 |
+| Limite du travail en cours | WIP limit | Nombre d'éléments en cours que l'équipe s'autorise (*Kanban Guide for Scrum Teams* ; le *Kanban Guide* dit « contrôler ») | A2 |
+| Definition of Workflow | Definition of Workflow | Ce que l'équipe écrit de son flux : ce qu'est un élément, quand il commence et finit, ses états, ses règles de passage (*Kanban Guide*) | A2 |
+| Point d'engagement | commitment point | Moment où l'on décide de commencer un élément (choix d'école, Kanban University) | A2 |
+| Réapprovisionnement | replenishment | Moment régulier où l'on revoit les éléments prêts et choisit ceux qui entreront selon la place (choix d'école, Kanban University) | A2 |
+| Débit | throughput | Nombre d'éléments finis par unité de temps (*Kanban Guide*) | A2 |
+| Temps de cycle | cycle time | Durée entre le début et la fin d'un élément (*Kanban Guide*) | A2 |
+| Âge d'un élément | work item age | Durée depuis le début d'un élément encore en cours (*Kanban Guide*) | A2 |
+| Attente de niveau de service | service level expectation (SLE) | Prévision du temps de cycle en durée et probabilité, tirée de l'historique (*Kanban Guide*) | A2 |
 
 ## Termes à éviter
 

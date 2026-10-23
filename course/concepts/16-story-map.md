@@ -46,8 +46,7 @@ fourchette, revue à chaque sprint, pas une promesse.
     la vélocité ; elle découle aussi de l'empirisme du Scrum Guide ;
   - story points et vélocité : pratiques courantes d'estimation et de prévision, absentes du
     Scrum Guide, nommées sans être enseignées ; Ron Jeffries juge faible leur usage pour prédire
-    une date de fin. En flux continu, la prévision passe par le débit et le temps de cycle
-    (annexe A2).
+    une date de fin. En flux continu, la prévision passe par le temps de cycle (annexe A2d).
 - **Lecture du cours** (sans source externe, à présenter comme telle) : la carte complète le
   backlog ordonné, elle ne le remplace pas (compatible avec le Scrum Guide, pas avec Patton) ;
   la prévision d'une version se construit sur la taille et le rythme des Developers, le PO ne
@@ -67,7 +66,7 @@ fourchette, revue à chaque sprint, pas une promesse.
    - **16b2** les deux sens de MVP, et dire lequel on emploie (« Un MVP, même bâclé »).
 3. **16c la prévision vient des Developers** : la fourchette, ce qui la fait bouger, pas un
    engagement (« Pour quand ? »). En rechange : « Il me faut une date ». À l'apprenant qui
-   travaille sans sprint : annexe A2 (débit, temps de cycle).
+   travaille sans sprint : annexe A2d (prévoir en flux).
 
 Déjà enseigné, à rappeler sans le réenseigner : l'incrément et les trois engagements (0) ; le PO
 seul ordonne, qui veut changer l'ordre le convainc (1b) ; résultat, mesure de résultat et ses
@@ -107,16 +106,17 @@ et le contenu de la tranche en 16c.
   4. « voir le nombre de locations depuis ce matin ».
 - **Question** : corrige la carte de Nora : que mets-tu en haut, et où ranges-tu ces quatre
   stories ?
-- **Réponse attendue** : les colonnes de Nora sont des vues, des éléments de la
-  hiérarchie (concept 4) qui découpent le produit, pas des moments de la journée de Bruno. En haut, ses quatre activités, dans
-  l'ordre de sa journée : point du matin, envoi des régulateurs, suivi des incidents, bilan du
-  soir. Chaque story va sous l'activité qu'elle sert : 1 sous l'envoi des régulateurs, 2 sous le
-  point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est pas dit : on demande à Bruno
-  quand il s'en sert, on ne le décide pas à sa place. Ce que la carte montre et que l'arbre de
-  4 ne montre pas : une même vue a des stories sous plusieurs activités (vélos en panne, le
-  matin et le soir), et une activité peut rester vide (le suivi des incidents, ici) : un trou à
-  explorer avec Bruno. Nuances : la story 1, déjà livrée, reste sur la carte (on voit ce que
-  Bruno a déjà) ; la carte ne remplace pas le backlog, chaque story y garde sa place.
+- **Réponse attendue** : les colonnes de Nora sont des vues, des éléments de la hiérarchie
+  (concept 4) qui découpent le produit, pas des moments de la journée de Bruno. En haut, ses
+  quatre activités, dans l'ordre de sa journée : point du matin, envoi des régulateurs, suivi
+  des incidents, bilan du soir. Chaque story va sous l'activité qu'elle sert : 1 sous l'envoi
+  des régulateurs, 2 sous le point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est
+  pas dit : on demande à Bruno quand il s'en sert, on ne le décide pas à sa place. Ce que la
+  carte montre et que l'arbre de 4 ne montre pas : une même vue a des stories sous plusieurs
+  activités (vélos en panne, le matin et le soir), et une activité peut rester vide (le suivi
+  des incidents, ici) : un trou à explorer avec Bruno. Nuances : la story 1, déjà livrée, reste
+  sur la carte (on voit ce que Bruno a déjà) ; la carte ne remplace pas le backlog, chaque story
+  y garde sa place.
 - **Erreurs fréquentes** :
   - garder les vues en colonnes (« c'est plus clair ») : demander « à quel moment de sa journée
     Bruno s'en sert-il ? » ;
@@ -136,11 +136,11 @@ et le contenu de la tranche en 16c.
   on peut supprimer le backlog dans l'outil. »
 - **Question** : que réponds-tu à Léa ?
 - **Réponse attendue** : non, dans ce cours : le backlog reste la seule liste ordonnée, et le PO
-  en répond (Scrum Guide). La carte montre le tout, les trous et les versions, mais deux
-  stories de deux colonnes et de la même tranche n'y ont pas d'ordre entre elles : la carte ne
-  donne pas d'ordre unique. Si Léa finit lundi, laquelle prend-elle ? Chaque story de la carte est un élément du backlog, à sa place dans l'ordre.
-  Nuance : Patton, lui, voit la carte comme un meilleur backlog (choix d'école) ; garder les
-  deux est le parti pris du cours.
+  en répond (Scrum Guide). La carte montre le tout, les trous et les versions, mais deux stories
+  de deux colonnes et de la même tranche n'y ont pas d'ordre entre elles : la carte ne donne pas
+  d'ordre unique. Si Léa finit lundi, laquelle prend-elle ? Chaque story de la carte est un
+  élément du backlog, à sa place dans l'ordre. Nuance : Patton, lui, voit la carte comme un
+  meilleur backlog (choix d'école) ; garder les deux est le parti pris du cours.
 - **Erreurs fréquentes** :
   - « oui, la carte suffit » : demander « quelle story vient en premier ? » ;
   - prendre l'ordre de gauche à droite pour l'ordre du travail : c'est l'ordre du récit.
@@ -158,23 +158,23 @@ et le contenu de la tranche en 16c.
   point du matin, en entier, avec tout ce que Bruno voudrait y voir. Ensuite l'envoi des
   régulateurs, puis le reste. »
 - **Question** : que proposes-tu à Yanis à la place ?
-- **Réponse attendue** : finir une activité avant la suivante, c'est construire une colonne à
-  la fois : Bruno aurait un point du matin complet et rien pour le reste de sa journée. La
-  première tranche prend, sous chaque activité, le minimum qui permet à Bruno de mener sa
-  journée : par exemple, les vélos signalés au point du matin (story 2), la vue des stations
-  vides (story 1, déjà livrée) pour l'envoi des régulateurs, les vélos signalés dans la journée
-  au bilan du soir (story 3). La story 4 (locations du jour) attend que Bruno dise quand il s'en
-  sert, et son accès n'est pas obtenu (11b). Ce qui est indispensable, c'est Bruno qui le dit ;
-  le PO le lui fait dire (« sans quoi ta journée ne tient pas ? »). Le suivi des incidents n'a
-  pas encore de story : la tranche couvre ce que la carte contient, et elle n'est pas complète
-  tant que ce trou n'est pas exploré avec Bruno. C'est lui qui dit si sa journée tient sans le
-  suivi des incidents, pas le PO ; la tranche se confirme après. À côté de la tranche : un résultat visé que le PO propose et fait
-  confirmer (par exemple, que Bruno envoie plus tôt les régulateurs vers les stations qui se
-  vident) et une mesure de succès, nommée sans cible : la mesure de résultat de l'objectif
-  produit en est une, avec ses points non fixés (concept 2) ; une mesure plus proche de ce que
-  fait Bruno se cherche avec lui. C'est l'idée de la tranche verticale (9) à l'échelle d'une
-  version : la version sert seule. Une réponse qui oublie le résultat et la mesure est juste
-  sur la tranche : les apporter dans la correction.
+- **Réponse attendue** : finir une activité avant la suivante, c'est construire une colonne à la
+  fois : Bruno aurait un point du matin complet et rien pour le reste de sa journée. La première
+  tranche prend, sous chaque activité, le minimum qui permet à Bruno de mener sa journée : par
+  exemple, les vélos signalés au point du matin (story 2), la vue des stations vides (story 1,
+  déjà livrée) pour l'envoi des régulateurs, les vélos signalés dans la journée au bilan du soir
+  (story 3). La story 4 (locations du jour) attend que Bruno dise quand il s'en sert, et son
+  accès n'est pas obtenu (11b). Ce qui est indispensable, c'est Bruno qui le dit ; le PO le lui
+  fait dire (« sans quoi ta journée ne tient pas ? »). Le suivi des incidents n'a pas encore de
+  story : la tranche couvre ce que la carte contient, et elle n'est pas complète tant que ce
+  trou n'est pas exploré avec Bruno. C'est lui qui dit si sa journée tient sans le suivi des
+  incidents, pas le PO ; la tranche se confirme après. À côté de la tranche : un résultat visé
+  que le PO propose et fait confirmer (par exemple, que Bruno envoie plus tôt les régulateurs
+  vers les stations qui se vident) et une mesure de succès, nommée sans cible : la mesure de
+  résultat de l'objectif produit en est une, avec ses points non fixés (concept 2) ; une mesure
+  plus proche de ce que fait Bruno se cherche avec lui. C'est l'idée de la tranche verticale (9)
+  à l'échelle d'une version : la version sert seule. Une réponse qui oublie le résultat et la
+  mesure est juste sur la tranche : les apporter dans la correction.
 - **Erreurs fréquentes** :
   - accepter « le point du matin d'abord » : demander « lundi, avec cette version seule, la
     journée de Bruno tient-elle ? » ;

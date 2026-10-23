@@ -11,12 +11,12 @@ trop), le lien qui note une dépendance, y compris envers une autre équipe, et 
 élément, où « fait » veut dire DoD remplie.
 
 ## L'essentiel
-Le Scrum Guide ne parle ni d'outil de suivi, ni de niveau, ni de lien, ni d'état : il demande
-un backlog transparent, visible et compris. L'outil propose des **réglages par défaut**
-(niveaux, types de liens, états) que l'équipe change ; aucun n'est une règle de Scrum. Le PO dit ce qu'il veut
-voir dans l'outil et pourquoi ; l'administrateur de l'outil fait le réglage, qui peut toucher
-d'autres équipes. Le cours ne décrit pas où cliquer : les écrans changent d'un outil et d'une
-version à l'autre.
+Le Scrum Guide ne parle ni d'outil de suivi, ni de niveau, ni de lien, ni d'état : il demande un
+backlog transparent, visible et compris. L'outil propose des **réglages par défaut** (niveaux,
+types de liens, états) que l'équipe change ; aucun n'est une règle de Scrum. Le PO dit ce qu'il
+veut voir dans l'outil et pourquoi ; l'administrateur de l'outil fait le réglage, qui peut
+toucher d'autres équipes. Le cours ne décrit pas où cliquer : les écrans changent d'un outil et
+d'une version à l'autre.
 
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : ni outil de suivi, ni état, ni lien entre éléments, ni
@@ -26,9 +26,9 @@ version à l'autre.
 - **Ce que font les outils** (documentation des éditeurs, vérifiée pour Jira, Azure DevOps et
   Linear) :
   - niveaux par défaut : Jira, Epic > Story > Subtask (niveaux au-dessus seulement dans les
-    offres Premium et Enterprise) ; Azure DevOps, processus Agile,
-    Epic > Feature > User Story > Task. Dans Azure DevOps, on ne retire pas un niveau hérité : on le renomme, on désactive
-    son type, et chaque équipe choisit les niveaux qu'elle affiche ;
+    offres Premium et Enterprise) ; Azure DevOps, processus Agile, Epic > Feature > User Story >
+    Task. Dans Azure DevOps, on ne retire pas un niveau hérité : on le renomme, on désactive son
+    type, et chaque équipe choisit les niveaux qu'elle affiche ;
   - liens de dépendance : aucun ne s'appelle « dépend de ». Jira, « blocks / is blocked by » ;
     Azure DevOps, « Predecessor / Successor » ; Linear, « blocked / blocking ». Le lien peut
     relier des éléments de deux équipes, même dans deux espaces (Jira) ou deux projets (Azure
@@ -81,8 +81,8 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
 
 ### Coincés avec le niveau Feature ? (A1a)
 - **Explication** : les niveaux viennent de l'outil, pas de Scrum (concept 4a2). Jira a par
-  défaut Epic > Story > Subtask ; Azure DevOps, en processus Agile,
-  Epic > Feature > User Story > Task. Un niveau de trop (4a3) ne se retire pas toujours : dans Azure DevOps, un niveau
+  défaut Epic > Story > Subtask ; Azure DevOps, en processus Agile, Epic > Feature > User Story
+  > Task. Un niveau de trop (4a3) ne se retire pas toujours : dans Azure DevOps, un niveau
   hérité ne se supprime pas, mais chaque équipe choisit les niveaux qu'elle affiche, et le type
   peut être désactivé (réglage du processus, qui touche tous les projets qui l'emploient).
 - **Situation** : dans cet exercice, l'équipe vélos travaille dans Azure DevOps, en processus

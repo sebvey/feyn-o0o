@@ -67,13 +67,13 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
    sprint de Yanis »). En rechange, ou pour « exercice » : « La liste pour le blocage entre-t-elle
    au sprint ? » (ce qui entre : la DoR, concept 11b) ; « La story qui ne passe pas » (l'objectif
    reste quand une story ne passe pas). Ne pas enseigner l'estimation ni la vélocité. 15b
-   suppose des sprints : à l'apprenant qui travaille sans sprint, proposer l'annexe A2.
+   suppose des sprints : à l'apprenant qui travaille sans sprint, proposer l'annexe A2b.
 3. **15c revue de sprint** : l'incrément inspecté, ce qui a changé, le backlog adapté ; une
    demande née de la revue entre au backlog et s'ordonne (« La revue avec Bruno et Sophie »).
    En rechange, ou si l'apprenant voit la revue comme une validation : « La revue en recette ».
    Aparté possible, si l'apprenant décrit la vie d'une story par les états de l'outil :
    « Tout est en "Fait" ». 15c suppose des sprints : à l'apprenant qui travaille sans sprint,
-   proposer l'annexe A2.
+   proposer l'annexe A2c.
 
 Déjà enseigné, à rappeler sans le réenseigner : responsabilités, événements, artefacts et
 engagements, sprint et incrément (concept 0) ; le PO seul ordonne, qui veut changer l'ordre le
@@ -117,11 +117,12 @@ tâches).
   n'est pas forcément une réunion de toute l'équipe : des conversations, parfois avec les
   parties prenantes (Verwijs et Overeem, choix d'école). Choix du cours : un terme flou se fait
   préciser par l'utilisateur concerné (rappel du concept 7a2).
-- **Situation** : trois stories du haut du backlog parlent de vélos en panne : la vue des
-  vélos en panne de Bruno, le nombre de vélos en panne par semaine pour Sophie, la tournée
-  d'Hugo. Un vélo est signalé par un abonné dans l'appli ; Hugo confirme ou infirme la panne
-  sur place. Au refinement, Nora, analyste : « En panne, c'est signalé : c'est ce qu'on a dans
-  les données. On l'écrit pour les trois et on passe au planning. »
+- **Situation** : trois stories du haut du backlog parlent de vélos en panne : la vue des vélos
+  en panne de Bruno, le nombre de vélos en panne par semaine pour Sophie, une évolution de la
+  tournée d'Hugo, déjà livrée (concept 10). Un vélo est signalé par un abonné dans l'appli ;
+  Hugo confirme ou infirme la panne sur place. Au refinement, Nora, analyste : « En panne, c'est
+  signalé : c'est ce qu'on a dans les données. On l'écrit pour les trois et on passe au
+  planning. »
 - **Question** : que réponds-tu à Nora : qui précise ce que veut dire « en panne », quand, et
   où l'écrit-on ?
 - **Réponse attendue** : ni Nora ni le PO ne le fixent. Chaque utilisateur concerné le précise
@@ -129,12 +130,12 @@ tâches).
   peut différer d'une story à l'autre : chaque story dit le sien, sous un nom qui ne prête pas à
   confusion (par exemple « vélos signalés » ou « pannes confirmées »). Mais quand un même
   chiffre sert à plusieurs utilisateurs, ou à la mesure de l'objectif produit, le PO ne laisse
-  pas deux définitions sous un même nom (concept 7a2). Quand : au refinement, avant
-  que la story soit choisie ; tant que le sens n'est pas précisé, la story attend (concepts 7a2
-  et 8a2). Où : pour Sophie, dans la définition écrite de son indicateur, que la DoD exige
-  (concept 12a) ; pour Bruno et Hugo, dans la règle ou les critères d'acceptation de leur story
-  (concept 8). Nuances, non attendues : la tournée part déjà des vélos signalés ; reste à voir
-  avec Hugo ce qu'elle fait, par exemple, d'un vélo dont il a infirmé la panne. Ce que la
+  pas deux définitions sous un même nom (concept 7a2). Quand : au refinement, avant que la story
+  soit choisie ; tant que le sens n'est pas précisé, la story attend (concepts 7a2 et 8a2). Où :
+  pour Sophie, dans la définition écrite de son indicateur, que la DoD exige (concept 12a) ;
+  pour Bruno et Hugo, dans la règle ou les critères d'acceptation de leur story (concept 8).
+  Nuances, non attendues : la tournée livrée part déjà des vélos signalés ; reste à voir avec
+  Hugo ce que son évolution fait, par exemple, d'un vélo dont il a infirmé la panne. Ce que la
   source contient ne dit pas ce dont l'utilisateur a besoin ; si un utilisateur retient les
   pannes constatées, les Developers diront si la donnée existe. Les signalements par téléphone
   manquent dans la source (concept 12b).
@@ -198,8 +199,8 @@ tâches).
   l'équipe ensemble.
 - **Situation** : situation d'exercice. Au Sprint Planning, trois stories prêtes sont en haut
   du backlog : la vue des vélos en panne de Bruno, le nombre de vélos en panne par semaine pour
-  Sophie, la tournée d'Hugo. Yanis propose comme objectif de sprint : « Finir la vue de Bruno,
-  le nombre par semaine de Sophie et la tournée d'Hugo. »
+  Sophie, une évolution de la tournée d'Hugo. Yanis propose comme objectif de sprint : « Finir
+  la vue de Bruno, le nombre par semaine de Sophie et la tournée d'Hugo. »
 - **Question** : corrige cet objectif de sprint : qu'est-ce qui ne va pas, et que proposes-tu
   à l'équipe ?
 - **Réponse attendue** : c'est une liste de stories, pas un objectif : il dit quoi, pas
@@ -256,11 +257,11 @@ tâches).
   demande un travail imprévu sur la source des signalements. Yanis : « On change l'objectif de
   sprint, ou on annule le sprint ? »
 - **Question** : que réponds-tu à Yanis ?
-- **Réponse attendue** : ni l'un ni l'autre. L'objectif reste : la vue de Bruno et la tournée
-  d'Hugo le servent encore. Les Developers et le PO renégocient la portée du backlog de sprint :
-  le nombre de Sophie peut sortir du sprint et revenir au backlog, où le PO l'ordonne. Annuler
-  le sprint se fait seulement si l'objectif devient obsolète, et seul le PO le peut ; ce n'est
-  pas le cas ici. Le PO prévient Sophie.
+- **Réponse attendue** : ni l'un ni l'autre. L'objectif reste : la vue de Bruno et l'évolution
+  de la tournée d'Hugo le servent encore. Les Developers et le PO renégocient la portée du
+  backlog de sprint : le nombre de Sophie peut sortir du sprint et revenir au backlog, où le PO
+  l'ordonne. Annuler le sprint se fait seulement si l'objectif devient obsolète, et seul le PO
+  le peut ; ce n'est pas le cas ici. Le PO prévient Sophie.
 - **Erreurs fréquentes** :
   - réécrire l'objectif pour qu'il colle au travail fait : l'objectif est l'engagement, la
     portée bouge autour ;
@@ -274,10 +275,10 @@ tâches).
   l'équipe et les parties prenantes décident ensemble de la suite, et le backlog peut être
   ajusté. C'est une séance de travail (Scrum Guide). Rappel, sans le réenseigner : une demande
   née en revue entre au backlog et s'ordonne (concepts 10a2 et 13).
-- **Situation** : situation d'exercice. L'incrément contient la vue des vélos en panne de
-  Bruno et la tournée d'Hugo. Dans cet exercice, la vue de Bruno affiche les vélos signalés,
-  sens retenu avec lui au refinement, et Hugo a infirmé sur place environ une panne signalée
-  sur trois pendant le sprint. En revue, Bruno : « Donc un tiers des vélos de ma vue
+- **Situation** : situation d'exercice. L'incrément contient la vue des vélos en panne de Bruno
+  et l'évolution de la tournée d'Hugo. Dans cet exercice, la vue de Bruno affiche les vélos
+  signalés, sens retenu avec lui au refinement, et Hugo a infirmé sur place environ une panne
+  signalée sur trois pendant le sprint. En revue, Bruno : « Donc un tiers des vélos de ma vue
   roulent ? » Sophie : « Il me faut les pannes confirmées par semaine. Vous me le faites au
   prochain sprint ? »
 - **Question** : que fais-tu, en tant que PO, de ce que la revue vient de faire apparaître ?

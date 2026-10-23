@@ -14,9 +14,9 @@ sprint et la prévision.
 En flux continu, il n'y a pas de sprint : l'équipe commence un élément quand elle a de la place,
 sous une limite du travail en cours, et peut le livrer dès qu'il est fini (la fin d'un élément,
 l'équipe la définit). Le cours le décrit d'après le *Kanban Guide*, qui n'a ni rôles, ni
-événements, ni cadence imposée. Ne change pas : le backlog ordonné par le PO, la DoD, l'incrément, l'objectif produit.
-À ne pas confondre avec Kanban dans Scrum : une équipe qui garde ses sprints et y ajoute des
-pratiques de flux suit le cours tel quel.
+événements, ni cadence imposée. Ne change pas : le backlog ordonné par le PO, la DoD,
+l'incrément, l'objectif produit. À ne pas confondre avec Kanban dans Scrum : une équipe qui
+garde ses sprints et y ajoute des pratiques de flux suit le cours tel quel.
 
 ## Consensus et choix d'école
 - **Consensus** : aucun texte ne fait consensus pour travailler sans sprint. Ce que le cours
@@ -58,15 +58,14 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
    deux semaines de travail : la direction vient de l'objectif produit et de l'ordre du backlog,
    que le PO tient. Le réapprovisionnement de la méthode Kanban, choix d'école, en une ligne.
    Exemple : « Chacun tire ce qu'il veut ».
-3. **A2c, depuis 15c**, en deux messages :
-   - **A2c1 sans revue de sprint, inspecter ce qui est livré** : un élément fini peut partir
-     sans attendre de revue ; l'inspection avec les parties prenantes reste, à une cadence que
-     l'équipe choisit (lecture du cours). Exemple : « Plus de revue, plus de retour ? » ;
-   - **A2c2 prévoir en flux** : sur l'historique du temps de cycle, une prévision en durée et
-     probabilité (l'attente de niveau de service), pas une promesse ; le débit est l'une des
-     mesures suivies, pas la base de cette prévision. La prévision vient des Developers
-     (renvoi 16c ; si 16c n'est pas encore vu, le dire en une ligne). Exemple : « Bruno demande
-     pour quand ».
+3. **A2c, depuis 15c : sans revue de sprint, inspecter ce qui est livré.** Un élément fini
+   peut partir sans attendre de revue ; l'inspection avec les parties prenantes reste, à une
+   cadence que l'équipe choisit (lecture du cours). Exemple : « Plus de revue, plus de
+   retour ? ».
+4. **A2d, depuis 16c : prévoir en flux.** Sur l'historique du temps de cycle, une prévision en
+   durée et probabilité (l'attente de niveau de service), pas une promesse ; le débit est l'une
+   des mesures suivies, pas la base de cette prévision. La prévision vient des Developers, comme
+   en 16c. Exemple : « Bruno demande pour quand ».
 
 ## Banque d'exemples
 
@@ -92,7 +91,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   la story de Bruno « voir les locations du jour par station » : critères écrits, mais l'accès
   à la table des locations n'est pas obtenu. Juste après, une story qui remplit la DoR. Yanis :
   « Commençons celle de Bruno, comme ça elle est en route. »
-- **Question pour toi** : que proposes-tu à Yanis, et pourquoi ?
+- **Question** : que proposes-tu à Yanis, et pourquoi ?
 - **Réponse attendue** : la story de Bruno ne franchit pas le début du flux : elle ne remplit
   pas la DoR (accès non obtenu), comme en 11b. L'équipe tire la suivante dans l'ordre, celle
   qui est prête ; les Developers tirent, le PO a ordonné (répartition du cours, pas du
@@ -120,7 +119,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   son bilan, Inès un autre pour l'appli ; les deux sont prêts. Yanis : « Puisqu'il n'y a plus
   d'objectif de sprint, quand une place se libère, chacun prend l'élément de la personne qui
   l'a relancé en dernier. »
-- **Question pour toi** : qu'est-ce qui cloche dans la proposition de Yanis ?
+- **Question** : qu'est-ce qui cloche dans la proposition de Yanis ?
 - **Réponse attendue** : sans objectif de sprint, la direction ne disparaît pas : elle vient de
   l'objectif produit et de l'ordre du backlog. La place libérée va à l'élément prêt le plus
   haut ; c'est le PO qui ordonne, et qui veut changer l'ordre le convainc (concept 1b). Suivre
@@ -137,7 +136,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
 - **Ce qui marche** : « sans sprint, qu'est-ce qui dit encore pourquoi on fait ça plutôt
   qu'autre chose ? »
 
-### Plus de revue, plus de retour ? (A2c1)
+### Plus de revue, plus de retour ? (A2c)
 - **Explication** : sans sprint, pas de revue de sprint, et le *Kanban Guide* ne prévoit aucune
   réunion avec les parties prenantes. Un élément fini peut partir sans attendre (le Scrum Guide
   dit déjà que livrer n'attend pas la revue). Ce qui reste nécessaire : inspecter ce qui est
@@ -147,7 +146,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   est livrée un mardi, la tournée d'Hugo dix jours plus tard (dans cet exercice). Yanis :
   « Plus besoin de revue : chaque livraison part, Bruno et Sophie nous écriront s'il y a un
   souci. »
-- **Question pour toi** : que perd l'équipe avec la proposition de Yanis ?
+- **Question** : que perd l'équipe avec la proposition de Yanis ?
 - **Réponse attendue** : livrer au fil de l'eau, oui ; mais sans inspection, l'équipe n'apprend
   que les problèmes, pas ce que l'incrément change pour Bruno et Sophie ni ce qu'il faut
   adapter au backlog. Le PO propose un moment où Bruno et Sophie regardent ce qui a été livré
@@ -166,17 +165,17 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
 - **Ce qui marche** : séparer deux questions, « quand livre-t-on ? » et « quand regarde-t-on
   ensemble ce qu'on a livré ? ».
 
-### Bruno demande pour quand (A2c2)
+### Bruno demande pour quand (A2d)
 - **Explication** : sans sprint, pas de prévision par sprint. Parmi les quatre mesures que le
   *Kanban Guide* fait suivre, le temps de cycle va du début d'un élément à sa fin. Sur son
-  historique, l'équipe tire une prévision
-  en deux parties, une durée et une probabilité : c'est son attente de niveau de service. Elle
-  vient des Developers et de leurs mesures (concept 16c), pas d'une date que le PO invente.
+  historique, l'équipe tire une prévision en deux parties, une durée et une probabilité : c'est
+  son attente de niveau de service. Elle vient des Developers et de leurs mesures (concept 16c),
+  pas d'une date que le PO invente.
 - **Situation** : si l'équipe vélos travaillait sans sprint. Dans cet exercice, ses mesures
   disent : 9 éléments sur 10 sont finis en 12 jours ou moins après leur début. Bruno demande
   pour quand la vue des locations du jour ; la story n'est pas commencée (accès non obtenu),
   et deux éléments la précèdent dans l'ordre.
-- **Question pour toi** : un collègue propose de répondre « dans 12 jours ». Qu'est-ce qui
+- **Question** : un collègue propose de répondre « dans 12 jours ». Qu'est-ce qui
   cloche dans cette réponse ?
 - **Réponse attendue** : les 12 jours comptent à partir du début de la story, pas
   d'aujourd'hui ; elle n'a pas commencé et ne le peut pas sans l'accès. Et ce n'est pas une

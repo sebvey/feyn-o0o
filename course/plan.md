@@ -11,7 +11,7 @@ proche. Le public cible guide la profondeur, le choix des exemples et ce qu'on �
 
 Le cours suppose une équipe Scrum qui travaille en sprints. Le concept 0 l'annonce, même quand
 la question de contrôle fait passer le concept, et invite l'apprenant à dire si son équipe
-travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b et 15c :
+travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b, 15c et 16c :
 leur équivalent en flux continu est l'annexe A2, à proposer à ces sous-concepts quand l'apprenant
 travaille sans sprint.
 
@@ -39,9 +39,7 @@ travaille sans sprint.
 
 Ordre indicatif : le prof l'adapte selon les réponses de l'apprenant. Un fichier par concept
 dans `course/concepts/`, selon `course/templates/concept.md`, et ses sources dans
-`course/sources/`, sous le même nom. Un fichier « à écrire » n'existe pas encore : le concept
-s'enseigne d'après sa ligne (objectif, sous-concepts) ; son contenu est à écrire (T-018). Les
-termes du cours sont dans `course/glossary.md`.
+`course/sources/`, sous le même nom. Les termes du cours sont dans `course/glossary.md`.
 
 | # | Concept | À la fin, l'apprenant sait… | Prérequis | Sous-concepts | Fichier |
 |---|---|---|---|---|---|
@@ -60,9 +58,9 @@ termes du cours sont dans `course/glossary.md`.
 | 12 | Les données du produit | définir un indicateur ; écrire une exigence de qualité ; savoir quel accès demander | 2, 8, 11 | 12a définir un indicateur (règle de calcul, grain, période, source, fraîcheur), en deux messages : 12a1 le contenu d'une définition, 12a2 ce qui manque et qui le fixe ; 12b qualité des données (dimensions, où l'écrire) ; 12c accès et données personnelles (finalité, minimisation) | `12-donnees-produit.md` |
 | 13 | Ordonner le backlog | ordonner des demandes concurrentes et argumenter l'ordre | 2, 10, 11 | 13a ordonner, c'est décider (valeur, coût, risque, dépendances, objectif produit), en deux messages : 13a1 les critères, face à une autre demande, 13a2 ordonner quatre demandes ; 13b valeur et coût du retard (choix d'école) ; 13c MoSCoW pour une échéance (choix d'école) | `13-ordonner-backlog.md` |
 | 14 | Les parties prenantes | identifier les parties prenantes, arbitrer entre elles, escalader | 1, 13 | 14a qui sont-elles (utilisateurs, financeur, sponsor, équipes voisines, fournisseurs de données) ; 14b arbitrer et dire non avec l'objectif produit ; 14c escalader un obstacle (Scrum Master, sponsor) | `14-parties-prenantes.md` |
-| 15 | La vie d'une story : refinement, planning, revue | préparer une story, la faire choisir avec un objectif de sprint, la faire inspecter | 11, 13 | 15a refinement (on précise un terme flou avec l'utilisateur, pas de story « définir X ») ; 15b Sprint Planning et objectif de sprint ; 15c revue de sprint : l'incrément inspecté, le backlog adapté | `15-vie-story.md` (à écrire) |
-| 16 | Story map et première version | organiser un backlog selon le parcours de l'utilisateur, tracer une première version utile, répondre à « pour quand ? » | 9, 13 | 16a la carte (activités, stories dessous) ; 16b tranche de version, première version utile, les deux sens de MVP ; 16c la prévision vient des Developers | `16-story-map.md` (à écrire) |
-| 17 | Hypothèses et exploration | séparer ce qu'on sait de ce qu'on suppose ; borner une exploration ; accepter un résultat incertain | 2, 9, 12, 16 | 17a savoir ou supposer (risques de valeur et de faisabilité, données comprises) ; 17b explorer à moindre coût (exploration bornée, prototype, analyse d'historique) ; 17c accepter un résultat incertain (seuil fixé après exploration) | `17-hypotheses-exploration.md` (à écrire) |
+| 15 | La vie d'une story : refinement, planning, revue | préparer une story, la faire choisir avec un objectif de sprint, la faire inspecter | 11, 13 | 15a refinement, en deux messages : 15a1 le terme flou se précise avec l'utilisateur concerné, 15a2 pas de story « définir X » ; 15b Sprint Planning et objectif de sprint ; 15c revue de sprint : l'incrément inspecté, le backlog adapté | `15-vie-story.md` |
+| 16 | Story map et première version | organiser un backlog selon le parcours de l'utilisateur, tracer une première version utile, répondre à « pour quand ? » | 9, 13 | 16a la carte (activités, stories dessous) ; 16b tranche de version, en deux messages : 16b1 la tranche et la première version utile (résultat visé, mesure), 16b2 les deux sens de MVP ; 16c la prévision vient des Developers | `16-story-map.md` |
+| 17 | Hypothèses et exploration | séparer ce qu'on sait de ce qu'on suppose ; borner une exploration ; accepter un résultat incertain | 2, 9, 12, 16 | 17a savoir ou supposer (risques de valeur et de faisabilité, données comprises) ; 17b explorer à moindre coût, en deux messages : 17b1 décider l'exploration avant (question, durée, décision), 17b2 choisir la façon d'explorer (analyse d'historique, prototype) ; 17c accepter un résultat incertain (seuil fixé après exploration) | `17-hypotheses-exploration.md` |
 
 ## Annexes
 
@@ -70,5 +68,5 @@ termes du cours sont dans `course/glossary.md`.
 
 | # | Annexe | Fichier |
 |---|---|---|
-| A1 | Structurer le backlog dans un outil (niveaux, liens de dépendance, états) | `A1-outil-backlog.md` (à écrire) |
-| A2 | Travailler sans sprint (flux continu, Kanban) : ce qui ne change pas ; ce que deviennent Sprint Planning et DoR (tirer au point d'engagement), objectif et revue de sprint, prévision (débit, temps de cycle) | `A2-sans-sprint.md` (à écrire) |
+| A1 | Structurer le backlog dans un outil : A1a les niveaux dans l'outil (après 4a3) ; A1b les liens de dépendance (après 10b2) ; A1c les états (après 11) | `A1-outil-backlog.md` |
+| A2 | Travailler sans sprint (flux continu, Kanban), chaque sous-concept ouvert par ce qui ne change pas : A2a tirer l'élément, la DoR au début du flux (depuis 11b) ; A2b sans objectif de sprint, ce qui donne la direction (depuis 15b) ; A2c sans revue de sprint, inspecter ce qui est livré (depuis 15c) ; A2d prévoir en flux, temps de cycle (depuis 16c) | `A2-sans-sprint.md` |

@@ -43,10 +43,10 @@ atteindre, par l'utilisateur qui en paie les erreurs.
     de conception, certains l'emploient aussi pour une question métier (concept 7). Certaines
     équipes la mettent au backlog produit, d'autres la gardent dans un autre élément ;
   - le **prototype** chez Cagan : choisir la façon la plus rapide et la moins chère de tester
-    une idée ; il en distingue plusieurs sortes, dont un prototype de faisabilité, écrit par les ingénieurs, qu'on peut jeter ; un prototype sur
-    données réelles, utilisé pour de vrai par de vrais utilisateurs, pour prouver qu'une idée
-    marche. Une maquette montrée à l'utilisateur ne prouve pas qu'il s'en servira : on dit une
-    chose et on en fait une autre ;
+    une idée ; il en distingue plusieurs sortes, dont un prototype de faisabilité, écrit par les
+    ingénieurs, qu'on peut jeter ; un prototype sur données réelles, utilisé pour de vrai par de
+    vrais utilisateurs, pour prouver qu'une idée marche. Une maquette montrée à l'utilisateur ne
+    prouve pas qu'il s'en servira : on dit une chose et on en fait une autre ;
   - décider **avant** une expérience comment on la jugera et ce qu'on fera selon le résultat ;
     si toutes les réponses mènent à la même action, ne pas explorer (Teresa Torres). Torres
     fixe aussi avant le test le seuil qui dira s'il a réussi ;
@@ -55,14 +55,14 @@ atteindre, par l'utilisateur qui en paie les erreurs.
     visé. Nommée ici, pas enseignée ;
   - le **MVP au sens d'Eric Ries** : la version qui permet d'apprendre le plus sur les
     utilisateurs pour le moindre effort (concept 16b) ; une manière d'apprendre parmi d'autres.
-- **Consensus** (pratiques établies en analyse de données, hors Scrum et gestion de produit :
-  CRISP-DM, guides de Google) : la réussite d'une analyse de données se dit par un niveau
+- **Pratique établie** (en analyse de données, hors Scrum et gestion de produit : CRISP-DM,
+  guides de Google) : la réussite d'une analyse de données se dit par un niveau
   atteint (une précision de prévision, par exemple), mesuré sur des données mises de côté, et
   distinct des critères de réussite du métier (ce que l'organisation attend du projet) ; le
   seuil d'une alerte se choisit en pesant le coût d'une fausse alerte et celui d'un cas manqué,
   avec les utilisateurs. CRISP-DM met en garde contre les objectifs inatteignables et admet que
-  les critères changent au fil de l'analyse. Le moment où l'on fixe le niveau n'est pas dans ce
-  consensus (voir la lecture du cours ci-dessous).
+  les critères changent au fil de l'analyse. Le moment où l'on fixe le niveau n'est pas dans cette
+  pratique (voir la lecture du cours ci-dessous).
 - **Lecture du cours** (sans source qui le dise en ces termes, à présenter comme telle) :
   - le cours retient deux des quatre risques, valeur et faisabilité, et range la donnée dans la
     faisabilité (existe-t-elle, est-elle assez bonne, assez fraîche ?) ; Cagan ne parle pas de
@@ -208,18 +208,19 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   bornée, et que proposes-tu ?
 - **Réponse attendue** : il manque les trois points. La question : par exemple « sur
   l'historique d'environ un an, la tendance de la dernière heure repère-t-elle à l'avance les
-  stations du centre-ville qui se sont vidées ? ». La durée : fixée avec Nora avant de
-  commencer (dans cet exercice, deux jours) ; c'est elle qui dit ce qu'il lui faut, le PO ne
-  l'estime pas. Ce qu'on décidera : si oui, on construit la prévision par la tendance (morceau c
-  du concept 9b) ; si non, on cherche d'autres données ou on revoit la tranche ; dans les deux
-  cas, on ne livre pas l'exploration à Malik. Ce qui compte comme « oui » (combien de stations
-  repérées, avec combien d'avance) se dit aussi avant : c'est le seuil qui juge l'exploration ;
-  le PO ne le chiffre pas, il le fait dire par Bruno et Malik (« combien d'avance vous faut-il,
-  pour combien de stations, pour que ça vaille la peine ? »), comme toute règle métier (8a2).
-  Il ne se confond pas avec le niveau exigé de la fonction livrée, fixé après (17c). Nuances :
-  « se vider » suppose ce qu'est une station vide, non fixé (règle à faire fixer, 8a2) ; Nora
-  peut le noter comme limite de sa réponse. La pluie ne s'explore pas sur nos relevés : la météo n'est pas collectée ; savoir
-  s'il existe un historique météo est une question à poser, pas une hypothèse à trancher.
+  stations du centre-ville qui se sont vidées ? ». La durée : fixée avec Nora avant de commencer
+  (dans cet exercice, deux jours) ; c'est elle qui dit ce qu'il lui faut, le PO ne l'estime pas.
+  Ce qu'on décidera : si oui, on construit la prévision par la tendance (morceau c du concept
+  9b) ; si non, on cherche d'autres données ou on revoit la tranche ; dans les deux cas, on ne
+  livre pas l'exploration à Malik. Ce qui compte comme « oui » (combien de stations repérées,
+  avec combien d'avance) se dit aussi avant : c'est le seuil qui juge l'exploration ; le PO ne
+  le chiffre pas, il le fait dire par Bruno et Malik (« combien d'avance vous faut-il, pour
+  combien de stations, pour que ça vaille la peine ? »), comme toute règle métier (8a2). Il ne
+  se confond pas avec le niveau exigé de la fonction livrée, fixé après (17c). Nuances : « se
+  vider » suppose ce qu'est une station vide, non fixé (règle à faire fixer, 8a2) ; Nora peut le
+  noter comme limite de sa réponse. La pluie ne s'explore pas sur nos relevés : la météo n'est
+  pas collectée ; savoir s'il existe un historique météo est une question à poser, pas une
+  hypothèse à trancher.
 - **Erreurs fréquentes** :
   - proposer de faire l'exploration soi-même (« je sais faire une requête ») : la tentation d'un
     profil data ; le PO pose la question, Nora explore ;
@@ -270,28 +271,28 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 ### Le critère à 90 % (17c)
 - **Explication** : une prévision n'est jamais sûre ; une story qui l'exige ne se finit jamais.
   Le critère d'acceptation porte donc sur un niveau atteint, mesuré sur des données mises de
-  côté (une part de l'historique des relevés, par exemple) : c'est le consensus des pratiques
-  établies en analyse de données (CRISP-DM, Google), hors Scrum. Ce niveau se fixe après l'exploration qui montre ce qu'on peut atteindre,
-  pas avant (lecture du cours). Il se fait fixer par l'utilisateur concerné, qui pèse deux
-  erreurs : une fausse alerte (une camionnette envoyée pour rien) et une station vide manquée.
-  Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce qui comptait comme
-  « oui » pour l'exploration, dit avant par Bruno et Malik pour savoir si on continue (17b1).
+  côté (une part de l'historique des relevés, par exemple) : une pratique établie en analyse de
+  données (CRISP-DM, Google), hors Scrum. Ce niveau se fixe après l'exploration qui montre ce
+  qu'on peut atteindre, pas avant (lecture du cours). Il se fait fixer par l'utilisateur
+  concerné, qui pèse deux erreurs : une fausse alerte (une camionnette envoyée pour rien) et une
+  station vide manquée. Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce
+  qui comptait comme « oui » pour l'exploration, dit avant par Bruno et Malik pour savoir si on
+  continue (17b1).
 - **Situation** : avant toute exploration, Léa propose pour la story de Malik ce critère :
   « Then la prévision annonce au moins 90 % des stations qui vont se vider. » Elle ajoute :
   « 90 %, c'est le standard. »
 - **Question** : qu'est-ce qui ne va pas dans ce critère, et que proposes-tu à la place ?
 - **Réponse attendue** : trois défauts. Le niveau est fixé avant de savoir ce qu'on peut
   atteindre : 90 % est peut-être inatteignable, ou trop modeste. Personne de concerné ne l'a
-  fixé : « le standard » n'est pas une décision, comme le seuil « presque vide » de Léa
-  (concept 8a2). Il ne compte qu'une erreur : on atteint 90 % en annonçant toutes les stations,
-  au prix de camionnettes envoyées pour rien ; il faut aussi les fausses alertes. Proposition : un critère de la forme
-  « rejouée sur une part de l'historique mise de côté, la prévision repère à l'avance au moins
-  N stations vides sur 10, avec au plus M fausses alertes », N et M fixés par Bruno et Malik
-  après l'exploration de Nora, qui montre ce qu'on peut atteindre. Nuances : « vont se vider »
-  ne se teste pas tel quel (sur quoi le mesure-t-on ?), d'où la forme rejouée sur l'historique ;
-  « station vide »
-  et le temps d'avance utile sont aussi à faire fixer ; le PO apporte le compromis, il ne choisit
-  pas N et M.
+  fixé : « le standard » n'est pas une décision, comme le seuil « presque vide » de Léa (concept
+  8a2). Il ne compte qu'une erreur : on atteint 90 % en annonçant toutes les stations, au prix
+  de camionnettes envoyées pour rien ; il faut aussi les fausses alertes. Proposition : un
+  critère de la forme « rejouée sur une part de l'historique mise de côté, la prévision repère à
+  l'avance au moins N stations vides sur 10, avec au plus M fausses alertes », N et M fixés par
+  Bruno et Malik après l'exploration de Nora, qui montre ce qu'on peut atteindre. Nuances : «
+  vont se vider » ne se teste pas tel quel (sur quoi le mesure-t-on ?), d'où la forme rejouée
+  sur l'historique ; « station vide » et le temps d'avance utile sont aussi à faire fixer ; le
+  PO apporte le compromis, il ne choisit pas N et M.
 - **Erreurs fréquentes** :
   - corriger le chiffre (« plutôt 80 % ») : le PO tranche alors un niveau ; demander « qui paie
     une erreur de la prévision ? » ;
@@ -332,11 +333,11 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   qui descend à 3 vélos se vide souvent dans l'heure. Léa : « Voilà, c'est prouvé : presque
   vide, c'est 3 vélos. »
 - **Question** : que réponds-tu à Léa, et que fais-tu des chiffres de Nora ?
-- **Réponse attendue** : l'exploration ne fixe pas le seuil, elle l'éclaire : elle montre ce qui se passe à 3 vélos, et peut
-  montrer ce qui se passe à 2 ou à 4. Le seuil reste une règle métier que Bruno fixe, en
-  pesant ce qu'il en fera (envoyer plus tôt, au risque de déplacements inutiles) ; le PO lui
-  porte les chiffres et fait fixer la règle (concept 8a2). Et « souvent » dans l'heure se fait
-  préciser : combien de fois sur combien ?
+- **Réponse attendue** : l'exploration ne fixe pas le seuil, elle l'éclaire : elle montre ce qui
+  se passe à 3 vélos, et peut montrer ce qui se passe à 2 ou à 4. Le seuil reste une règle
+  métier que Bruno fixe, en pesant ce qu'il en fera (envoyer plus tôt, au risque de déplacements
+  inutiles) ; le PO lui porte les chiffres et fait fixer la règle (concept 8a2). Et « souvent »
+  dans l'heure se fait préciser : combien de fois sur combien ?
 - **Erreurs fréquentes** :
   - « 3 vélos, c'est prouvé » : une donnée dit ce qui se passe, pas ce qu'on décide d'en faire ;
     demander « l'exploration de Nora fixe-t-elle le seuil, ou l'éclaire-t-elle ? », puis « qui

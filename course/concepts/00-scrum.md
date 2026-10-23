@@ -35,10 +35,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 1. **Annonce du parti pris** (premier message du concept, toujours, même si la question de
    contrôle fait passer le concept) : le cours suppose une équipe Scrum en sprints ; si
    l'équipe de l'apprenant travaille sans sprint, il le signale, et l'annexe A2 lui sera
-   proposée aux sous-concepts 11b, 15b et 15c (le reste du cours vaut sans sprint). L'annonce
+   proposée aux sous-concepts 11b, 15b, 15c et 16c (le reste du cours vaut sans sprint). L'annonce
    invite l'apprenant à signaler son cas ; la question du message est la question de contrôle.
    S'il dit travailler sans sprint, note dans « Points annoncés pour plus tard » : annexe A2 à
-   proposer en 11b, 15b et 15c.
+   proposer en 11b, 15b, 15c et 16c.
 2. **Question de contrôle** (même message) : elle permet de passer le concept si l'apprenant
    connaît Scrum. Noyau de la réponse donné : concept validé, on passe au concept 1. Réponse partielle :
    le concept n'est pas passé ; on enseigne le sous-concept qui manque (voir la banque).

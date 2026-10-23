@@ -122,5 +122,5 @@ du concept prime.
 | 13 | Ordonner quatre demandes : blocage des vélos en panne (Sophie, sécurité), locations du jour (Bruno, accès en attente), comparaison à l'an dernier (Claire, bilan annuel au conseil), disponibilité pour l'appli (Inès) ; MoSCoW pour le bilan au conseil |
 | 14 | Carte des parties prenantes ; Inès et Claire veulent le même sprint ; l'accès aux locations bloque depuis trois sprints : escalade (Thomas, Agnès, Pascal) |
 | 15 | « Vélo en panne » : signalé ou constaté par Hugo ? Objectif de sprint autour des vélos en panne ; revue avec Bruno et Sophie, le backlog change |
-| 16 | La journée de Bruno en story map ; première version : le point du matin ; Bruno demande « pour quand ? » |
+| 16 | La journée de Bruno en story map ; première version : le point du matin d'abord, ou un peu de chaque moment ? ; Bruno demande « pour quand ? » |
 | 17 | La prévision des stations à risque : la tendance de la dernière heure suffit-elle ? La pluie compte-t-elle ? Nora explore l'historique des relevés pendant un temps borné |

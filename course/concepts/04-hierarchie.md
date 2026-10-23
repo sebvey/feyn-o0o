@@ -140,8 +140,7 @@ vides, pas encore fixé.
   sans cette vérification est juste : apporter la vérification dans la correction. Nuance : c'est
   une règle pratique du cours, pas un consensus ; une feature isolée qui ne contient qu'une story
   n'est pas un signal. Comment régler les niveaux dans l'outil :
-  annexe A1, à proposer quand l'apprenant en a besoin (tant qu'elle est à écrire, d'après sa ligne
-  de `course/plan.md`).
+  annexe A1a, à proposer quand l'apprenant en a besoin.
 - **Erreurs fréquentes** :
   - garder le niveau « au cas où » : chaque niveau se remplit et se tient à jour ;
   - retirer le niveau story et garder les features : ce sont les stories qui entrent dans les
