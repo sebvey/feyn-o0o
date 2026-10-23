@@ -83,7 +83,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   du backlog (il peut le déléguer). Manque : l'ordre du backlog, dont le PO répond seul, et toute la différence entre
   sprint et incrément. On enseigne 0a puis 0b. Le concept 0 est validé quand le ou les
   sous-concepts enseignés à sa suite le sont. Après une réponse partielle, les nuances viennent
-  avec le sous-concept enseigné, pas dans la ligne de correction.
+  avec le sous-concept enseigné, pas dans la ligne de correction ; celles d'une partie juste
+  dont le sous-concept n'est pas enseigné (0a sauté) s'ajoutent à la ligne « Juste : … », en
+  quelques mots.
   Une fois répondue, même partiellement, la question de contrôle est close : on ne la repose
   pas. Si l'apprenant s'arrête avant la correction, « Prochaine étape » note ce qu'il avait
   juste, ce qui manque et le sous-concept à enseigner. La session suivante fait d'abord le

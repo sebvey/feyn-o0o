@@ -29,7 +29,7 @@ le Scrum Guide, la DoR non.
   - le Scrum Guide ne parle ni de story, ni de critère d'acceptation, ni de DoR. Il dit qu'un
     élément que l'équipe peut finir en un sprint est prêt à être choisi au Sprint Planning, et
     qu'il le devient en général après avoir été précisé.
-- **Pratique établie** (hors Scrum Guide) : distinguer DoD et critère d'acceptation. Mike Cohn
+- **Consensus** (pratique établie, hors du Scrum Guide) : distinguer DoD et critère d'acceptation. Mike Cohn
   voit la DoD comme des critères ajoutés à chaque story ; les critères d'acceptation sont
   propres à une story.
 - **Choix d'école** :

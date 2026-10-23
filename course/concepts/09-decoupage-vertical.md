@@ -22,7 +22,7 @@ horizontales.
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle ni de tranche, ni de couche, ni
   de story. Il dit que l'incrément doit être utilisable et que les éléments du backlog se
   découpent en éléments plus petits et plus précis, sans dire comment.
-- **Pratique établie** (hors Scrum Guide) : découper par valeur plutôt que par couche technique.
+- **Consensus** (pratique établie, hors du Scrum Guide) : découper par valeur plutôt que par couche technique.
   Les auteurs de stories concordent : Bill Wake (on trouve chez lui, en 2003, la métaphore du
   gâteau en couches, sous le V d'INVEST, concept 7), Richard Lawrence (et le guide qu'il publie
   avec Peter Green).

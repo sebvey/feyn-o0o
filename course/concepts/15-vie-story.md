@@ -38,7 +38,7 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
     participants décident ensemble de la suite et le backlog peut être ajusté. C'est une
     séance de travail, pas une simple présentation, ni une porte de mise en production. Une
     story qui ne remplit pas la DoD n'y est pas présentée (concept 11).
-- **Pratique établie** (Scrum.org, hors Scrum Guide) : la revue n'est ni une démonstration à
+- **Consensus** (pratique établie, hors du Scrum Guide ; Scrum.org) : la revue n'est ni une démonstration à
   sens unique, ni une séance où le PO « accepte » le travail des Developers.
 - **Choix d'école** :
   - le refinement n'est pas forcément une réunion de toute l'équipe : c'est une suite de
@@ -50,7 +50,8 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
   préciser par l'utilisateur concerné de chaque story, et le sens peut différer d'une story à
   l'autre, sous un nom distinct (un chiffre partagé garde une seule définition, concept 7a2) ;
   une story « définir X » dont une autre dépend n'apporte rien seule ; le mot
-  « recette » pour la revue prise comme validation.
+  « recette » nomme, dans le cours, l'erreur qui fait de la revue une validation avant
+  livraison (banque « La revue en recette »).
 
 ## Sous-concepts
 1. **15a refinement**, en deux messages, chacun avec sa question :

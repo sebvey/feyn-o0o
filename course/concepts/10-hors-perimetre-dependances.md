@@ -22,7 +22,7 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
   précisé avant ; le contenu du sprint peut encore se clarifier pendant le sprint, avec le PO.
   La revue de sprint peut adapter le backlog, et le PO l'ordonne (concepts 0, 1, 3). Le Scrum
   Guide ne parle ni de hors périmètre ni de dépendance entre éléments du backlog.
-- **Pratique établie** (hors Scrum Guide) : réduire les dépendances et rendre visibles celles
+- **Consensus** (pratique établie, hors du Scrum Guide) : réduire les dépendances et rendre visibles celles
   qui restent. Bill Wake (I d'INVEST), Mike Cohn et Scrum.org, pour plusieurs équipes sur un même
   produit, concordent. Cohn donne deux façons de lever une dépendance entre deux stories : les
   fusionner, si la story fusionnée reste petite, ou les découper autrement. Il compte aussi
@@ -104,8 +104,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 
 ### Sophie crie au bug (10a2)
 - **Explication** : écrit avant le sprint, le hors périmètre aligne les attentes : à la revue,
-  personne ne découvre un manque convenu. Chaque ligne reste une demande à traiter : elle entre
-  au backlog, et le PO l'ordonne.
+  personne ne découvre un manque convenu.
 - **Situation** :
   > En tant que technicien de maintenance, je veux voir les vélos signalés en panne, afin de
   > préparer ma tournée de réparation.

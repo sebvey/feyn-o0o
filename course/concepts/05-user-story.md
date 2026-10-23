@@ -21,8 +21,8 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
 ## Consensus et choix d'école
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle pas de story et n'impose aucun
   format aux éléments du backlog ; il cite des attributs (description, ordre, taille) qui varient
-  selon le domaine. Rien de ce concept n'est donc du consensus Scrum.
-- **Pratique établie** (hors Scrum Guide) : la story vient d'Extreme Programming (XP), où Kent
+  selon le domaine. Rien de ce concept n'est donc dans le Scrum Guide.
+- **Consensus** (pratique établie, hors du Scrum Guide) : la story vient d'Extreme Programming (XP), où Kent
   Beck a introduit le terme. Les 3C (carte, conversation, confirmation) sont de Ron Jeffries
   (XP), en 2001.
 - **Choix d'école** :

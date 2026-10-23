@@ -167,6 +167,9 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « ils nous écriront » : demander « qui écrit pour dire que la vue ne sert pas ? » ;
   - réponse juste sans la suite (ce que le PO propose) : relancer par « et que proposes-tu à
     la place ? » ;
+  - faire de ce moment une recette, où Bruno et Sophie valident avant que la livraison parte :
+    relancer : « si Sophie n'est pas disponible cette semaine-là, l'évolution de la tournée
+    attend-elle pour partir ? » ;
   - proposer la revue de la livraison du service de la méthode Kanban (choix d'école) : elle
     porte sur la performance du service, pas sur ce que la vue change pour Bruno ; ce n'est
     pas une revue de sprint sans sprint (choix du cours).

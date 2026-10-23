@@ -25,7 +25,7 @@ coche pas.
 - **Consensus** (Scrum Guide 2020) : le Scrum Guide ne parle ni d'INVEST ni de story. Il dit
   qu'un élément du backlog que l'équipe peut terminer en un sprint est prêt à être choisi au
   Sprint Planning, et que les Developers qui feront le travail en estiment la taille.
-- **Pratique établie** (hors Scrum Guide) : INVEST est une grille de Bill Wake (2003, milieu
+- **Consensus** (pratique établie, hors du Scrum Guide) : INVEST est une grille de Bill Wake (2003, milieu
   XP), reprise par d'autres praticiens, dont Mike Cohn. Wake la présente comme un aide-mémoire,
   pas comme une règle. Il l'ouvre sur les 3C (concept 5) : la carte n'est pas toute la story.
 - **S, deux repères à ne pas mêler** : chez Wake, une story représente au plus quelques

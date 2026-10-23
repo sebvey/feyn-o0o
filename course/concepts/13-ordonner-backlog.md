@@ -25,10 +25,10 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
   comprendre les compromis. Le Scrum Guide ne dit pas comment ordonner : celui d'octobre 2011
   disait que le backlog est « souvent » ordonné par valeur, risque, priorité et nécessité ; la
   phrase a disparu dès la version de 2013.
-- **Pratique établie** (hors Scrum Guide) : ordonner selon la valeur, le coût, le risque et les
+- **Consensus** (pratique établie, hors du Scrum Guide) : ordonner selon la valeur, le coût, le risque et les
   dépendances. Mike Cohn en donne cinq facteurs : ces quatre et l'apprentissage (ce que l'équipe
   apprend en faisant l'élément, concept 17) ; Roman Pichler pèse aussi valeur, risque et
-  dépendances. Aucun texte de consensus n'impose cette liste. Le risque y est celui qui pèse
+  dépendances. Aucun texte n'impose cette liste. Le risque y est celui qui pèse
   sur la réussite du produit ; le risque pour les utilisateurs (sécurité) en est un autre sens,
   voir « Choix du cours ».
 - **Choix d'école** :
