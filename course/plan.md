@@ -13,7 +13,7 @@ Le cours suppose une équipe Scrum qui travaille en sprints. Le concept 0 l'anno
 la question de contrôle fait passer le concept, et invite l'apprenant à dire si son équipe
 travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b, 15c et 16c :
 leur équivalent en flux continu est l'annexe A2, à proposer à ces sous-concepts quand l'apprenant
-travaille sans sprint.
+travaille sans sprint ; une réponse juste à la question de l'annexe valide le sous-concept.
 
 ## Objectifs du cours
 

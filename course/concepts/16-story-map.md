@@ -97,7 +97,8 @@ et le contenu de la tranche en 16c.
   colonne vertébrale. Sous chaque activité, les stories qui la servent, de haut en bas : en
   haut l'indispensable, plus bas ce qui l'est moins. La carte fait voir le tout ; elle complète
   le backlog ordonné, elle ne le remplace pas (lecture du cours), et le PO garde l'ordre.
-- **Situation** : Nora a dessiné une carte pour Bruno : trois colonnes, « Stations vides »,
+- **Situation** : Bruno raconte sa journée : point du matin sur l'état du réseau, envoi des
+  régulateurs, suivi des incidents, bilan du soir. Nora a dessiné une carte pour Bruno : trois colonnes, « Stations vides »,
   « Vélos en panne », « Locations du jour », avec sous chacune les stories de la vue. Parmi
   elles (propos d'exercice de Bruno) :
   1. « voir les stations vides, pour y envoyer les régulateurs » (déjà livrée) ;
@@ -111,10 +112,10 @@ et le contenu de la tranche en 16c.
   quatre activités, dans l'ordre de sa journée : point du matin, envoi des régulateurs, suivi
   des incidents, bilan du soir. Chaque story va sous l'activité qu'elle sert : 1 sous l'envoi
   des régulateurs, 2 sous le point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est
-  pas dit : on demande à Bruno quand il s'en sert, on ne le décide pas à sa place. Ce que la
-  carte montre et que l'arbre de 4 ne montre pas : une même vue a des stories sous plusieurs
+  pas dit : on demande à Bruno quand il s'en sert, on ne le décide pas à sa place. Nuances,
+  non attendues, à apporter dans la correction : ce que la carte montre et que l'arbre de 4 ne montre pas : une même vue a des stories sous plusieurs
   activités (vélos en panne, le matin et le soir), et une activité peut rester vide (le suivi
-  des incidents, ici) : un trou à explorer avec Bruno. Nuances : la story 1, déjà livrée, reste
+  des incidents, ici) : un trou à explorer avec Bruno ; la story 1, déjà livrée, reste
   sur la carte (on voit ce que Bruno a déjà) ; la carte ne remplace pas le backlog, chaque story
   y garde sa place.
 - **Erreurs fréquentes** :
@@ -124,7 +125,11 @@ et le contenu de la tranche en 16c.
     vont de l'indispensable au moins nécessaire ;
   - ranger les activités par importance : la colonne vertébrale suit l'ordre du récit, elle ne
     s'ordonne pas ;
-  - placer la story 4 soi-même : son moment se demande à Bruno.
+  - placer la story 4 soi-même : demander « qu'est-ce qui te dit à quel moment Bruno s'en
+    sert ? » ;
+  - placer une story « parce que c'est le plus important pour Bruno » : l'importance joue de
+    haut en bas ; de gauche à droite, c'est le moment, que seul Bruno sait ; demander « et
+    s'il la regarde au bilan du soir ? ».
 - **Ce qui marche** : faire raconter la journée de Bruno à voix haute (« d'abord…, puis… »),
   puis poser chaque story sous le moment où il la lit. Lien avec le format (5), chez Patton :
   la tâche de l'utilisateur va après « je veux », l'activité après « afin de ».
@@ -157,7 +162,7 @@ et le contenu de la tranche en 16c.
 - **Situation** : la carte de la journée de Bruno est faite. Yanis : « Première version : le
   point du matin, en entier, avec tout ce que Bruno voudrait y voir. Ensuite l'envoi des
   régulateurs, puis le reste. »
-- **Question** : que proposes-tu à Yanis à la place ?
+- **Question** : que proposes-tu à Yanis à la place, et qu'écris-tu à côté de la tranche ?
 - **Réponse attendue** : finir une activité avant la suivante, c'est construire une colonne à la
   fois : Bruno aurait un point du matin complet et rien pour le reste de sa journée. La première
   tranche prend, sous chaque activité, le minimum qui permet à Bruno de mener sa journée : par
@@ -173,8 +178,9 @@ et le contenu de la tranche en 16c.
   vers les stations qui se vident) et une mesure de succès, nommée sans cible : la mesure de
   résultat de l'objectif produit en est une, avec ses points non fixés (concept 2) ; une mesure
   plus proche de ce que fait Bruno se cherche avec lui. C'est l'idée de la tranche verticale (9)
-  à l'échelle d'une version : la version sert seule. Une réponse qui oublie le résultat et la
-  mesure est juste sur la tranche : les apporter dans la correction.
+  à l'échelle d'une version : la version sert seule. La correction tient en un message : la tranche, qui dit
+  l'indispensable, le résultat visé et la mesure ; le trou du suivi des incidents et le lien avec
+  9 se disent en une ligne chacun, ou se renvoient au fichier à relire.
 - **Erreurs fréquentes** :
   - accepter « le point du matin d'abord » : demander « lundi, avec cette version seule, la
     journée de Bruno tient-elle ? » ;
@@ -227,7 +233,8 @@ et le contenu de la tranche en 16c.
   Le Scrum Guide cite des pratiques de prévision sans en imposer ; story points et vélocité en
   sont, choix d'école, sans les détailler ici.
 - **Situation** : Bruno, devant la première tranche : « Pour quand ? » Dans cet exercice,
-  Léa, Yanis et Nora prévoient trois à cinq sprints, d'après la taille des stories et leurs
+  Bruno a dit qu'il regarde les locations du jour au bilan du soir et les veut dans la
+  version ; Léa, Yanis et Nora prévoient trois à cinq sprints, d'après la taille des stories et leurs
   derniers sprints, et la tranche retenue avec Bruno contient les locations du jour, qui
   attendent l'accès à la table des locations. Le PO a commencé à répondre : « Fin du mois
   prochain, promis. »
@@ -300,6 +307,8 @@ donne-t-elle la fourchette des Developers et ce qui la ferait bouger ? » Un non
 trois : le concept n'est pas appliqué.
 
 ## Schéma
+À montrer après la correction de 16a (le panneau 1 sans sa tranche), puis de 16b1 (la tranche) : il
+contient leurs réponses.
 Deux panneaux.
 1. **La carte (16a, 16b)** : en haut, quatre cartes côte à côte, « point du matin », « envoi des
    régulateurs », « suivi des incidents », « bilan du soir », sous une accolade « colonne

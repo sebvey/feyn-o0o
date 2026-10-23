@@ -119,21 +119,21 @@ tâches).
   préciser par l'utilisateur concerné (rappel du concept 7a2).
 - **Situation** : trois stories du haut du backlog parlent de vélos en panne : la vue des vélos
   en panne de Bruno, le nombre de vélos en panne par semaine pour Sophie, une évolution de la
-  tournée d'Hugo, déjà livrée (concept 10). Un vélo est signalé par un abonné dans l'appli ;
+  tournée d'Hugo (la tournée elle-même est livrée, concept 10). Un vélo est signalé par un abonné dans l'appli ;
   Hugo confirme ou infirme la panne sur place. Au refinement, Nora, analyste : « En panne, c'est
   signalé : c'est ce qu'on a dans les données. On l'écrit pour les trois et on passe au
   planning. »
 - **Question** : que réponds-tu à Nora : qui précise ce que veut dire « en panne », quand, et
   où l'écrit-on ?
 - **Réponse attendue** : ni Nora ni le PO ne le fixent. Chaque utilisateur concerné le précise
-  pour sa story : Sophie pour son indicateur, Bruno pour sa vue, Hugo pour sa tournée. Le sens
-  peut différer d'une story à l'autre : chaque story dit le sien, sous un nom qui ne prête pas à
+  pour sa story : Sophie pour son indicateur, Bruno pour sa vue, Hugo pour sa tournée. Nuance,
+  non attendue, à apporter dans la correction : le sens peut différer d'une story à l'autre : chaque story dit le sien, sous un nom qui ne prête pas à
   confusion (par exemple « vélos signalés » ou « pannes confirmées »). Mais quand un même
   chiffre sert à plusieurs utilisateurs, ou à la mesure de l'objectif produit, le PO ne laisse
   pas deux définitions sous un même nom (concept 7a2). Quand : au refinement, avant que la story
   soit choisie ; tant que le sens n'est pas précisé, la story attend (concepts 7a2 et 8a2). Où :
-  pour Sophie, dans la définition écrite de son indicateur, que la DoD exige (concept 12a) ;
-  pour Bruno et Hugo, dans la règle ou les critères d'acceptation de leur story (concept 8).
+  dans la règle ou les critères d'acceptation de chaque story, dès le refinement (concept 8) ;
+  pour Sophie, aussi dans la définition écrite de son indicateur, que la DoD exige (concept 12a).
   Nuances, non attendues : la tournée livrée part déjà des vélos signalés ; reste à voir avec
   Hugo ce que son évolution fait, par exemple, d'un vélo dont il a infirmé la panne. Ce que la
   source contient ne dit pas ce dont l'utilisateur a besoin ; si un utilisateur retient les
@@ -162,13 +162,14 @@ tâches).
   l'utilisateur quand c'est fait. On le précise au refinement, avec l'utilisateur concerné.
   Rappel, sans le réenseigner : la règle non fixée, le PO la fait fixer (concept 8a2) ; la DoR
   de l'équipe vélos demande des règles métier fixées (concept 11b).
-- **Situation** : Bruno demande de voir aussi les stations presque vides (demande d'exercice,
-  concept 8a2). Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Yanis, data
+- **Situation** : Bruno demande de voir aussi les stations presque vides (demande d'exercice
+  déjà vue en 8a2). Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Yanis, data
   engineer, écrit deux stories :
   1. « Définir le seuil "presque vide". »
   2. « En tant que responsable d'exploitation, je veux voir les stations presque vides, afin
      d'envoyer les régulateurs plus tôt vers les stations qui se vident. » Elle dépend de la 1.
-- **Question** : que penses-tu de la story 1, et que proposes-tu à la place ?
+- **Question** : que penses-tu de la story 1, que proposes-tu à la place, et que livres-tu à
+  Bruno en attendant ?
 - **Réponse attendue** : la story 1 n'apporte rien seule : une fois finie, Bruno ne voit rien
   de plus (V d'INVEST), et la 2 en dépend (I, concept 7). Le seuil n'est pas du travail de
   sprint : c'est une règle métier que le PO fait fixer, au refinement, par l'utilisateur

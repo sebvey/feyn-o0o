@@ -27,7 +27,8 @@ atteindre, par l'utilisateur qui en paie les erreurs.
   arriver est inconnu. Le Scrum Guide ne parle ni de spike ni de découverte ; il ne nomme les
   hypothèses (assumptions) qu'à la rétrospective, pour celles qui ont égaré l'équipe dans sa
   façon de travailler, pas pour les hypothèses du produit.
-- **Consensus** (objectifs d'apprentissage du PO de Scrum Alliance, CSPO) : repérer et valider
+- **Référentiel de certification** (objectifs d'apprentissage du PO de Scrum Alliance, CSPO ;
+  ni le Scrum Guide ni un consensus) : repérer et valider
   les hypothèses du produit fait partie du travail du PO, et les façons de les valider se
   comparent par leur coût et par la qualité de ce qu'on apprend.
 - **Choix d'école** :
@@ -236,9 +237,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 
 ### Malik ira-t-il plus tôt ? (17b2)
 - **Explication** : on choisit la façon d'explorer selon l'hypothèse, en pesant ce qu'elle
-  coûte et ce qu'elle apprend (CSPO). Une analyse d'historique répond à une question de
-  faisabilité sur des données qu'on a déjà. Pour la valeur, Cagan (choix d'école) distingue la
-  maquette, qui ne prouve pas qu'on s'en servira (on dit une chose et on en fait une autre),
+  coûte et ce qu'elle apprend (référentiel CSPO). Une analyse d'historique répond à une question de
+  faisabilité sur des données qu'on a déjà. Pour la valeur, Cagan (choix d'école) distingue plusieurs
+  prototypes, dont la maquette montrée à l'utilisateur, qui ne prouve pas qu'on s'en servira (on dit une chose et on en fait une autre),
   et le prototype sur données réelles, utilisé pour de vrai par de vrais utilisateurs, qui
   montre si l'idée marche. Le MVP au sens de Ries est une autre manière d'apprendre au moindre
   coût (concept 16b).
@@ -256,7 +257,10 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   envoie les régulateurs. C'est le PO qui pose la question et organise l'essai avec Bruno et
   Malik ; les Developers construisent le prototype. Nuance : ce prototype suppose que la
   tendance donne quelque chose (17b1) ; on peut attendre la réponse de Nora, ou accepter qu'il
-  se trompe et observer quand même le comportement de Malik.
+  se trompe et observer quand même le comportement de Malik. Ce prototype n'est pas le
+  morceau c du concept 9b : il ne remplit pas la DoD et se jette ; il sert à savoir si le
+  morceau c vaut d'être construit. L'exploration de 17b1 ne se livre pas à Malik ; le
+  prototype, lui, est fait pour qu'il s'en serve quelques jours.
 - **Erreurs fréquentes** :
   - « Malik a dit oui, donc c'est vérifié » : demander « et s'il dit oui puis ne s'en sert
     pas ? » ;
@@ -264,7 +268,10 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   - décider soi-même que Malik ira plus tôt (« c'est son métier ») : c'est la valeur supposée,
     à vérifier ;
   - réponse juste sans la suite (« il faut tester avec lui ») : demander « comment, et qui fait
-    quoi ? ».
+    quoi ? » ;
+  - « l'historique le dira », ou « je fais la requête moi-même » (profil data) : demander
+    « l'historique montre-t-il ce que Malik ferait avec une prévision qu'il n'a jamais eue ? »,
+    puis rappeler que le PO pose la question, les Developers explorent (17b1).
 - **Ce qui marche** : « qu'est-ce qui te montrerait, sans le lui demander, que Malik va plus
   tôt aux stations ? ».
 

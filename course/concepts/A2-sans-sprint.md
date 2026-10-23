@@ -44,8 +44,10 @@ garde ses sprints et y ajoute des pratiques de flux suit le cours tel quel.
 
 ## Sous-concepts
 Annexe proposée hors de l'ordre, seulement à l'apprenant dont l'équipe travaille sans sprint :
-chaque sous-concept se donne seul, au moment où il est proposé, après le sous-concept du cours.
-Il s'ouvre par une ligne sur ce qui ne change pas (backlog ordonné par le PO, DoD, incrément,
+chaque sous-concept se donne seul, au moment où il est proposé. Le prof donne l'explication du
+sous-concept du cours en une ou deux lignes (ce que fait Scrum), puis l'annexe : l'apprenant
+choisit de répondre à la question du cours, à celle de l'annexe, ou aux deux ; une réponse juste
+à l'une valide le sous-concept du cours. Il s'ouvre par une ligne sur ce qui ne change pas (backlog ordonné par le PO, DoD, incrément,
 objectif produit). Si l'équipe de l'apprenant a un tableau de flux dans des sprints, c'est
 Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
 
@@ -110,11 +112,9 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
 
 ### Chacun tire ce qu'il veut (A2b)
 - **Explication** : sans sprint, pas d'objectif de sprint qui donne un pourquoi commun à deux
-  semaines de travail. La direction vient de ce qui ne change pas : l'objectif produit, et
-  l'ordre du backlog que le PO argumente avec lui (concept 13). Dans la méthode Kanban
-  (Anderson, choix d'école), un moment régulier, le réapprovisionnement, revoit les éléments
-  prêts et choisit ceux qui entreront selon la place ; le cours n'en fixe ni la fréquence ni
-  les participants.
+  semaines de travail. Reste à savoir ce qui décide, quand une place se libère, de l'élément
+  qu'on commence. Le réapprovisionnement de la méthode Kanban (Anderson, choix d'école) se dit
+  dans la correction, pas ici ; le cours n'en fixe ni la fréquence ni les participants.
 - **Situation** : si l'équipe vélos travaillait sans sprint. Claire a demandé un élément pour
   son bilan, Inès un autre pour l'appli ; les deux sont prêts. Yanis : « Puisqu'il n'y a plus
   d'objectif de sprint, quand une place se libère, chacun prend l'élément de la personne qui
@@ -132,7 +132,10 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « on se fixe un objectif de la semaine » : demander « qu'est-ce qui le relie déjà à
     l'objectif produit ? », puis montrer que l'ordre le fait ;
   - réponse juste sans la suite (ce qui remplace la proposition) : relancer par « et que
-    mets-tu à la place : qui fait quoi quand une place se libère ? ».
+    mets-tu à la place : qui fait quoi quand une place se libère ? » ;
+  - « il faut suivre l'ordre du backlog », sans dire qui le fait ni pourquoi la relance ne
+    compte pas : demander « qui fait cet ordre, et que fait Claire si elle veut passer
+    devant ? ».
 - **Ce qui marche** : « sans sprint, qu'est-ce qui dit encore pourquoi on fait ça plutôt
   qu'autre chose ? »
 
@@ -154,8 +157,9 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   chaque livraison qui compte), aucun guide ne la fixe. Une demande qui en naît entre au
   backlog et s'ordonne, sans se promettre en séance (concepts 10a2 et 13).
 - **Erreurs fréquentes** :
-  - « on garde une revue toutes les deux semaines, comme avant » : juste sur le fond ; préciser
-    que la livraison, elle, n'attend pas ce rendez-vous ;
+  - « on garde une revue toutes les deux semaines, comme avant » : la bonne direction, mais la
+    réponse ne dit pas ce qui serait perdu ; demander « à quoi sert ce moment, et la livraison
+    l'attend-elle ? » ;
   - « ils nous écriront » : demander « qui écrit pour dire que la vue ne sert pas ? » ;
   - réponse juste sans la suite (ce que le PO propose) : relancer par « et que proposes-tu à
     la place ? » ;

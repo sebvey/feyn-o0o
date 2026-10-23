@@ -84,7 +84,11 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   défaut Epic > Story > Subtask ; Azure DevOps, en processus Agile, Epic > Feature > User Story
   > Task. Un niveau de trop (4a3) ne se retire pas toujours : dans Azure DevOps, un niveau
   hérité ne se supprime pas, mais chaque équipe choisit les niveaux qu'elle affiche, et le type
-  peut être désactivé (réglage du processus, qui touche tous les projets qui l'emploient).
+  peut être désactivé (réglage du processus, qui touche tous les projets qui l'emploient). Dans
+  Jira, un niveau entre Epic et Story (Feature, par exemple) a été ajouté ou renommé chez
+  l'équipe ; la hiérarchie se règle pour tous les espaces gérés par l'entreprise du site, et la
+  changer casse les liens parent et enfant existants. Si l'apprenant est dans Jira, poser la
+  situation dans Jira avec ces deux faits.
 - **Situation** : dans cet exercice, l'équipe vélos travaille dans Azure DevOps, en processus
   Agile. Après quelques sprints, quatre des cinq features des vues de Bruno ne contiennent
   qu'une story. Yanis : « Azure ne permet pas de supprimer le niveau Feature : on doit
@@ -103,8 +107,10 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
     ne pas l'employer, ou le propose-t-il par défaut ? » ;
   - retirer le niveau User Story et garder les features : ce sont les stories qui entrent dans
     les sprints (4a3) ;
-  - décider seul du réglage, ou le décrire clic par clic : le PO propose, l'équipe choisit, et
-    l'administrateur règle ;
+  - décider seul du réglage (« je le supprime moi-même »), ou le décrire clic par clic : donner
+    le fait de l'outil (le réglage touche d'autres projets ou espaces), puis demander « qui
+    décide de ne plus employer le niveau, et qui fait le réglage ? » ; le PO propose, l'équipe
+    choisit, l'administrateur règle ;
   - réenseigner 4a3 : une ligne sur la vérification suffit.
 - **Ce qui marche** : les trois sources de règles du concept 4a2 (le Scrum Guide : aucun
   niveau ; l'outil : des niveaux par défaut ; l'équipe : son choix), puis « ce que l'outil ne
