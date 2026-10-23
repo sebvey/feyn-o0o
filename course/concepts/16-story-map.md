@@ -98,9 +98,9 @@ et le contenu de la tranche en 16c.
   haut l'indispensable, plus bas ce qui l'est moins. La carte fait voir le tout ; elle complète
   le backlog ordonné, elle ne le remplace pas (lecture du cours), et le PO garde l'ordre.
 - **Situation** : Bruno raconte sa journée : point du matin sur l'état du réseau, envoi des
-  régulateurs, suivi des incidents, bilan du soir. Nora a dessiné une carte pour Bruno : trois colonnes, « Stations vides »,
-  « Vélos en panne », « Locations du jour », avec sous chacune les stories de la vue. Parmi
-  elles (propos d'exercice de Bruno) :
+  régulateurs, suivi des incidents, bilan du soir. Nora a dessiné une carte pour Bruno : trois
+  colonnes, « Stations vides », « Vélos en panne », « Locations du jour », avec sous chacune les
+  stories de la vue. Parmi elles (propos d'exercice de Bruno) :
   1. « voir les stations vides, pour y envoyer les régulateurs » (déjà livrée) ;
   2. « au point du matin, voir les vélos signalés en panne, station par station » ;
   3. « au bilan du soir, savoir combien de vélos ont été signalés dans la journée » ;
@@ -112,12 +112,11 @@ et le contenu de la tranche en 16c.
   quatre activités, dans l'ordre de sa journée : point du matin, envoi des régulateurs, suivi
   des incidents, bilan du soir. Chaque story va sous l'activité qu'elle sert : 1 sous l'envoi
   des régulateurs, 2 sous le point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est
-  pas dit : on demande à Bruno quand il s'en sert, on ne le décide pas à sa place. Nuances,
-  non attendues, à apporter dans la correction : ce que la carte montre et que l'arbre de 4 ne montre pas : une même vue a des stories sous plusieurs
-  activités (vélos en panne, le matin et le soir), et une activité peut rester vide (le suivi
-  des incidents, ici) : un trou à explorer avec Bruno ; la story 1, déjà livrée, reste
-  sur la carte (on voit ce que Bruno a déjà) ; la carte ne remplace pas le backlog, chaque story
-  y garde sa place.
+  pas dit : on demande à Bruno quand il s'en sert, on ne le décide pas à sa place. Nuances, non
+  attendues, à apporter dans la correction : la carte montre ce que l'arbre de 4 ne montre pas,
+  une même vue sous plusieurs activités (vélos en panne, le matin et le soir) et une activité
+  vide (ici le suivi des incidents), trou à explorer avec Bruno ; la story 1, déjà livrée, reste sur la carte (on voit ce que Bruno a déjà) ; la
+  carte ne remplace pas le backlog, chaque story y garde sa place.
 - **Erreurs fréquentes** :
   - garder les vues en colonnes (« c'est plus clair ») : demander « à quel moment de sa journée
     Bruno s'en sert-il ? » ;
@@ -175,13 +174,19 @@ et le contenu de la tranche en 16c.
   trou n'est pas exploré avec Bruno. C'est lui qui dit si sa journée tient sans le suivi des
   incidents, pas le PO ; la tranche se confirme après. À côté de la tranche : un résultat visé
   que le PO propose et fait confirmer (par exemple, que Bruno envoie plus tôt les régulateurs
-  vers les stations qui se vident) et une mesure de succès, nommée sans cible : la mesure de
-  résultat de l'objectif produit en est une, avec ses points non fixés (concept 2) ; une mesure
-  plus proche de ce que fait Bruno se cherche avec lui. C'est l'idée de la tranche verticale (9)
-  à l'échelle d'une version : la version sert seule. La correction tient en un message : la tranche, qui dit
-  l'indispensable, le résultat visé et la mesure ; le trou du suivi des incidents et le lien avec
-  9 se disent en une ligne chacun, ou se renvoient au fichier à relire.
+  vers les stations qui se vident) et une mesure de succès, nommée sans cible : de préférence un
+  changement dans ce que fait Bruno, à chercher avec lui ; la mesure de résultat de l'objectif
+  produit en est une autre, plus lointaine, avec ses points non fixés (concept 2). C'est l'idée
+  de la tranche verticale (9) à l'échelle d'une version : la version sert seule. La correction
+  tient en un message : la tranche, qui dit l'indispensable, le résultat visé et la mesure ; le
+  trou du suivi des incidents et le lien avec 9 se disent en une ligne chacun, ou se renvoient
+  au fichier à relire.
 - **Erreurs fréquentes** :
+  - tranche juste, rien à côté : demander « et à côté de la ligne, qu'écris-tu pour savoir si
+    la version a réussi ? » ;
+  - suivre Yanis « parce que c'est le plus important pour Bruno » : même confusion qu'en 16a,
+    l'importance joue de haut en bas dans chaque colonne, la tranche traverse toutes les
+    colonnes ;
   - accepter « le point du matin d'abord » : demander « lundi, avec cette version seule, la
     journée de Bruno tient-elle ? » ;
   - penser la première version comme une couche (« d'abord toutes les données dans l'entrepôt,
@@ -232,12 +237,12 @@ et le contenu de la tranche en 16c.
   en fourchette (école de Mike Cohn) et se revoit à chaque sprint. Ce n'est pas un engagement.
   Le Scrum Guide cite des pratiques de prévision sans en imposer ; story points et vélocité en
   sont, choix d'école, sans les détailler ici.
-- **Situation** : Bruno, devant la première tranche : « Pour quand ? » Dans cet exercice,
-  Bruno a dit qu'il regarde les locations du jour au bilan du soir et les veut dans la
-  version ; Léa, Yanis et Nora prévoient trois à cinq sprints, d'après la taille des stories et leurs
-  derniers sprints, et la tranche retenue avec Bruno contient les locations du jour, qui
-  attendent l'accès à la table des locations. Le PO a commencé à répondre : « Fin du mois
-  prochain, promis. »
+- **Situation** : Bruno, devant la première tranche : « Pour quand ? » Dans cet exercice, Bruno
+  a dit qu'il regarde les locations du jour au bilan du soir et les veut dans la version ; Léa,
+  Yanis et Nora prévoient trois à cinq sprints, d'après la taille des stories et leurs derniers
+  sprints, et la tranche retenue avec Bruno contient les locations du jour, qui attendent
+  l'accès à la table des locations. Le PO a commencé à répondre : « Fin du mois prochain,
+  promis. »
 - **Question** : corrige la réponse du PO : que dis-tu à Bruno ?
 - **Réponse attendue** : pas de date promise : « fin du mois prochain » ne vient pas des
   Developers, et « promis » en fait un engagement. Le PO dit : d'après Léa, Yanis et Nora, trois
@@ -307,8 +312,10 @@ donne-t-elle la fourchette des Developers et ce qui la ferait bouger ? » Un non
 trois : le concept n'est pas appliqué.
 
 ## Schéma
-À montrer après la correction de 16a (le panneau 1 sans sa tranche), puis de 16b1 (la tranche) : il
-contient leurs réponses.
+Il contient les réponses de 16a et de 16b1 : le montrer après leur correction. Après 16a : le
+panneau 1 sans les bandes de version, sans la note « résultat visé ; mesure » et sans le cadre
+barré, la story dont le moment n'est pas dit posée hors de la carte (« moment à demander »).
+Après 16b1 : le panneau entier.
 Deux panneaux.
 1. **La carte (16a, 16b)** : en haut, quatre cartes côte à côte, « point du matin », « envoi des
    régulateurs », « suivi des incidents », « bilan du soir », sous une accolade « colonne
