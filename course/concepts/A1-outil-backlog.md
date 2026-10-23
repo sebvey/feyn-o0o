@@ -62,11 +62,12 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
    modifiables ; « fait » veut dire DoD remplie ; un état « prêt » reste un repère, pas une
    barrière (« Le tableau proposé par Yanis »).
 
-Déjà enseigné, à rappeler sans le réenseigner : le PO ordonne seul, qui veut changer l'ordre le
-convainc (1b) ; les niveaux, qu'aucun guide n'impose, et le niveau de trop (4a2, 4a3) ; la
-dépendance envers l'équipe appli et l'accord avec Inès (10b2) ; DoD et DoR (11a, 11b) ;
-l'escalade (14c). Nommés avec renvoi, sans les enseigner : la vie d'une story (refinement,
-Sprint Planning, revue : concept 15) ; le travail sans sprint (annexe A2).
+Déjà enseigné, à rappeler sans le réenseigner, selon le point où se propose le sous-concept :
+le PO ordonne seul, qui veut changer l'ordre le convainc (1b) ; les niveaux, qu'aucun guide
+n'impose, et le niveau de trop (4a2, 4a3), dès A1a ; la dépendance envers l'équipe appli et
+l'accord avec Inès (10b2), dès A1b ; DoD et DoR (11a, 11b), pour A1c. Nommés avec renvoi, sans
+les enseigner : l'escalade (14c) ; la vie d'une story (refinement, Sprint Planning, revue :
+concept 15) ; le travail sans sprint (annexe A2).
 
 ## Banque d'exemples
 
@@ -122,7 +123,7 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   DevOps « Predecessor / Successor », Linear « blocked / blocking ». Le lien peut relier des
   éléments de deux équipes, même dans deux espaces (Jira) ou deux projets (Azure DevOps)
   différents. Il rend la dépendance visible des deux équipes ; il ne remplace pas la
-  conversation avec l'autre PO (position du cours).
+  conversation avec l'autre PO (choix du cours).
 - **Situation** : dans cet exercice, les deux équipes travaillent dans le même Jira, chacune
   dans son espace. Pour la story de Julie (concept 10b2), Léa crée elle-même, dans l'espace de
   l'équipe appli, un élément « canal pour les abonnés sans l'appli », le relie à la story de

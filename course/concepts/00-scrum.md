@@ -22,8 +22,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   événements, les trois artefacts et leurs engagements ; l'incrément s'ajoute aux précédents ;
   un sprint peut produire plusieurs incréments, livrables avant sa fin ; la revue de sprint
   n'est pas une porte de mise en production.
-- **Déductions du cours** à partir du Scrum Guide (à présenter comme telles si l'apprenant
-  demande d'où elles viennent) : le test rapide ; une échéance propre à un sprint n'a pas sa
+- **Choix du cours** à partir du Scrum Guide (à présenter comme tels si l'apprenant
+  demande d'où ils viennent) : le test rapide ; une échéance propre à un sprint n'a pas sa
   place dans la DoD ; le pipeline fini mais inconsommable n'est pas un incrément.
 - **Choix d'école** : aucun dans ce concept. « User story », « ticket », « vision produit » et
   « Definition of Ready » ne figurent pas dans le Scrum Guide : ils viennent d'autres pratiques
@@ -96,8 +96,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - « L'incrément, c'est ce qu'on livre à la fin du sprint » : il en naît un dès qu'un élément
     remplit la DoD, plusieurs par sprint si besoin, et on peut le livrer avant la fin.
   - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog ».
-- **Ce qui marche** : la relance « une durée, ou un état du produit ? » quand l'apprenant hésite
-  entre sprint et incrément.
+- **Ce qui marche** : la formule « une durée, ou un état du produit ? » sert dans l'explication
+  de 0b, pas comme relance de la question de contrôle.
 
 ### Qui tranche dans l'équipe vélos (0a1)
 - **Explication** : une équipe Scrum, sans sous-équipe ni hiérarchie, en général dix personnes
@@ -118,10 +118,13 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   (concept 1b).
 - **Erreurs fréquentes** :
   - « Thomas est le chef de l'équipe, il peut » : il n'y a pas de hiérarchie dans l'équipe
-    Scrum ; le Scrum Master sert son efficacité.
+    Scrum ; le Scrum Master sert son efficacité. Relancer : « de quoi répond le Scrum
+    Master ? ».
   - « Thomas anime, donc il arbitre » : animer un événement ne donne pas l'ordre du backlog.
+    Relancer : « de quoi répond le Scrum Master ? ».
   - « Les Developers décident de l'ordre puisqu'ils font le travail » : ils décident comment
-    faire le travail ; l'ordre reste au PO (approfondi au concept 1b).
+    faire le travail ; l'ordre reste au PO (approfondi au concept 1b). Relancer : « de quoi
+    répondent les Developers, et de quoi répond le PO ? ».
 - **Ce qui marche** : pour chaque rôle, demander « de quoi répond-il ? ».
 
 ### Le sprint raconté par Yanis (0a2)
@@ -158,15 +161,16 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - Ne voir que la semaine de pause, et garder « le Scrum Master anime, donc il décide ».
   - Citer les trois questions (hier, aujourd'hui, obstacles) comme règle du Daily Scrum : elles
     ne sont plus dans le Scrum Guide depuis 2020 ; les Developers choisissent la structure du
-    point, dont le but est l'avancement vers l'objectif de sprint.
+    point, dont le but est l'avancement vers l'objectif de sprint. Relancer : « au Daily Scrum,
+    qui y décide quoi ? ».
   - Mettre le sprint au même rang que le Sprint Planning ou la revue : le sprint est lui-même
-    un événement, celui qui contient les quatre autres.
+    un événement, celui qui contient les quatre autres. Réexpliquer.
 - **Ce qui marche** : pour chaque événement, demander « qui y décide quoi ? ».
 
 ### Trois artefacts, trois engagements (0a3)
 - **Explication** : les artefacts représentent le travail ou la valeur ; chacun a un
   engagement, qui donne un repère pour juger l'avancement. Le backlog produit, liste ordonnée et
-  évolutive de ce qu'il faut pour améliorer le produit, seule source du travail (concept 3), a
+  émergente de ce qu'il faut pour améliorer le produit, seule source du travail (concept 3), a
   pour engagement l'objectif produit, l'état futur visé, à long terme (concept 2). Le backlog de
   sprint (objectif de sprint, éléments choisis, plan des Developers) a pour engagement
   l'objectif de sprint, l'objectif unique du sprint (concept 15). L'incrément a pour engagement
@@ -187,9 +191,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprint : la phrase n'y va pas.
 - **Erreurs fréquentes** :
   - Mettre la phrase dans l'objectif produit « parce que c'est important » : l'objectif produit
-    ne change pas à chaque sprint.
+    ne change pas à chaque sprint. Relancer : « est-ce que ça vaudra encore au prochain
+    sprint ? ».
   - Confondre artefact et engagement (« la DoD est un artefact ») : la DoD est l'engagement de
-    l'incrément.
+    l'incrément. Réexpliquer.
 - **Ce qui marche** : demander « est-ce que ça vaudra encore au prochain sprint ? » ; oui pour la
   DoD et l'objectif produit, non pour l'objectif de sprint.
 
@@ -212,9 +217,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   adaptent le backlog.
 - **Erreurs fréquentes** :
   - « Un sprint, une livraison » : le sprint est une durée, on peut livrer plusieurs fois, ou
-    pas du tout, pendant un sprint.
+    pas du tout, pendant un sprint. Relancer : « le sprint : une durée, ou un état du
+    produit ? ».
   - « Livrer avant la fin casse le sprint » : rien n'oblige à attendre ; pendant le sprint, la
-    règle est de ne pas compromettre l'objectif de sprint.
+    règle est de ne pas compromettre l'objectif de sprint. Réexpliquer.
 - **Ce qui marche** : distinguer le sprint et la livraison grâce à l'incrément (« une durée, ou
   un état du produit ? ») ; dessiner la frise et l'escalier du schéma, avec une marche le
   mercredi.
@@ -231,10 +237,13 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   DoD forme l'incrément.
 - **Erreurs fréquentes** :
   - « C'est un détail, on peut la montrer » : un élément qui ne remplit pas la DoD n'est pas
-    présenté à la revue.
+    présenté à la revue. Relancer : « si on la livrait maintenant, la DoD serait-elle
+    remplie ? ».
   - « Finie, donc livrée » : finie pour les Developers ne veut pas dire conforme à la DoD.
+    Relancer : « si on la livrait maintenant, la DoD serait-elle remplie ? ».
   - Laisser passer « le sprint est livré » comme une façon de parler : la formule entretient la
-    confusion entre la durée et l'incrément.
+    confusion entre la durée et l'incrément. Relancer : « Yanis dit « le sprint est livré » :
+    qu'est-ce qui se livre ? ».
 - **Ce qui marche** : le test rapide, appliqué à la vue.
 
 ## Pièges

@@ -79,7 +79,7 @@ fichier à l'apprenant.
 | Colonne vertébrale | backbone | Ligne des activités de l'utilisateur en haut de la story map, dans l'ordre de son récit ; elle ne s'ordonne pas (Patton) | 16 |
 | Tranche de version | release slice | Ensemble de stories de la carte qui forme une version utile | 16 |
 | MVP | minimum viable product | Au sens de Ries : version qui apporte le plus d'apprentissage pour le moindre effort ; l'usage courant en fait la première version | 16, 17 |
-| Prévision | forecast | Estimation de ce qui sera fait et quand, tirée de la taille et du rythme mesurés des Developers ; pas un engagement. À ne pas confondre avec la prévision des stations à risque, une fonction du produit (9, 17) | 16 |
+| Prévision | forecast | Estimation de ce qui sera fait et quand, tirée de la taille et du rythme mesurés des Developers ; pas une promesse. À ne pas confondre avec la prévision des stations à risque, une fonction du produit (9, 17) | 16 |
 | Story points, vélocité | story points, velocity | Unité d'estimation de la taille, et quantité finie par sprint dans cette unité : pratiques courantes, absentes du Scrum Guide, nommées sans être enseignées (choix d'école) | 16 |
 | Mesure de succès | success metric | Mesure qui dit si une version a réussi, de préférence un changement de comportement de l'utilisateur (Patton) ; distincte de la mesure de résultat de l'objectif produit | 2, 16 |
 | Hypothèse | assumption | Ce qu'on tient pour vrai sans l'avoir vérifié | 2, 17 |

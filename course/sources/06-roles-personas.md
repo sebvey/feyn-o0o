@@ -7,7 +7,7 @@ concept: 6
 Le Scrum Guide 2020 [S1] ne parle ni de rôle utilisateur, ni de persona, ni d'acteur : il dit
 seulement qu'un produit a des « well-defined users or customers ». Ce que le concept dit du
 choix de l'acteur relève donc de recommandations d'auteur (rôles utilisateurs, Cohn, d'après le
-« usage-centered design »), d'heuristiques du cours ou de choix d'école (personas, Cooper), pas du consensus Scrum. Les
+« usage-centered design »), de choix du cours ou de choix d'école (personas, Cooper), pas du consensus Scrum. Les
 faits du fil rouge (Hugo, Sophie, Julie, tournée de réparation, un tiers des abonnés avec un
 téléphone basique) sont inventés : ils n'ont pas de source. Les sections entre parenthèses sont
 celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour toute affirmation
@@ -24,7 +24,7 @@ qui n'est pas ici.
 | Écrire les stories pour plusieurs rôles, pas pour un seul « utilisateur » : supposer un seul type d'utilisateur fait manquer des stories (Consensus et choix d'école, 6a) | [S2] | Cohn, chapitre 3 « User Role Modeling », premier paragraphe : écrire comme s'il n'y avait qu'un type d'utilisateur « is a fallacy and can lead a team to miss stories for users who do not fit the general mold ». Recommandation de Cohn, ni Scrum Guide ni consensus démontré |
 | « En tant qu'utilisateur » suffit parfois ; une seule story pour deux rôles seulement s'ils ont la même action pour la même raison (Consensus et choix d'école, Pièges, banque « Une vue, deux acteurs ») | [S3] | Cohn : « Sometimes "user" is specific enough. If everyone who uses the product needs the same behavior for the same reason, a more detailed role may not add much. » Exemple faible cité : « As a user, I want reports so that I can see information. » |
 | Les rôles utilisateurs viennent du « usage-centered design » (Constantine et Lockwood) ; les personas, de l'« interaction design » (Cooper) (Consensus et choix d'école) | [S2] | Cohn, chapitre 3 : « The disciplines of usage-centered design (Constantine and Lockwood 1999) and interaction design (Cooper 1999) teach us the benefits of identifying user roles and personas prior to writing stories. » Livres de Constantine, Lockwood et Cooper non consultés |
-| L'acteur est celui qui agit et y gagne (L'essentiel, 6a, Le test rapide) | [S3], [S5] en partie | Cohn [S5] préfère le rôle « initiator of the action » quand deux formulations se valent ; Cohn [S3] : la story « names the person or role who benefits ». « Agit et y gagne » réunit les deux critères : c'est la formulation du cours. Nuance : Cohn écrit parfois une story pour celui qui gagne sans agir (« As the company owner, I want ads on the site so that I make money », [S5]) ; le fichier du concept ne doit pas présenter « agit et y gagne » comme une règle sans exception de Cohn |
+| L'acteur est celui qui agit et y gagne (L'essentiel, 6a, Le test rapide) | [S3], [S5] en partie | Cohn [S5] préfère le rôle « initiator of the action » quand deux formulations se valent ; Cohn [S3] : la story « names the person or role who benefits ». « Agit et y gagne » réunit les deux critères : c'est la formulation du cours (choix du cours). Nuance : Cohn écrit parfois une story pour celui qui gagne sans agir (« As the company owner, I want ads on the site so that I make money », [S5]) ; le fichier du concept ne doit pas présenter « agit et y gagne » comme une règle sans exception de Cohn |
 | Celui qui construit n'est pas l'acteur : pas de story « en tant que développeur » (Pièges, acteur technique) | [S5] | Cohn : « I don't necessarily mean we want a bunch of "programmer stories." Those are generally best avoided. » Un consommateur de données reste un utilisateur légitime (concept 1, sources 01 [S2], Dehghani) : le piège vise celui qui construit, pas celui qui consomme |
 | Le « afin de » porte le gain de l'acteur de la story, pas celui d'un autre rôle (Pièges, Le test rapide) | [S3] en partie | Cohn : la story nomme « the person or role who benefits » et donne « a reason ». Que la valeur d'un autre rôle dans le « afin de » soit un piège est une heuristique du cours (cohérente avec la ligne du plan « l'acteur qui agit et y gagne »), sans source qui la formule |
 | Le plus souvent, l'acteur est évident ; sinon, comparer les options (6a) | [S5] | Cohn : « most of the time the user is quite obvious. When it's not, spend a little time thinking about the options and choose the one that feels most natural and best conveys the desired action. » |
@@ -52,7 +52,7 @@ qui n'est pas ici.
 
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
-| Les consommateurs de données sont des utilisateurs (renvoi au concept 1) | sources 01 [S2] | Dehghani, déjà vérifié au concept 1 ; parti pris du cours appuyé sur un choix d'école, à nommer comme tel |
+| Les consommateurs de données sont des utilisateurs (renvoi au concept 1) | sources 01 [S2] | Dehghani, déjà vérifié au concept 1 ; choix du cours appuyé sur un choix d'école, à nommer comme tel |
 | Les trois parties de la story, les 3C, la solution hors du « je veux », le chiffre précis hors de la phrase (renvoi au concept 5) | sources 05 | Cohn, Jeffries, déjà vérifiés au concept 5 |
 | Un « je veux » par story, un besoin plus gros est un epic qui se découpe (renvoi au concept 4) | sources 04 | Déjà traité au concept 4 |
 

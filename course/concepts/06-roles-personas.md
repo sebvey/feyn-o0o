@@ -28,7 +28,7 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
   d'utilisateur fait manquer des stories. Cohn admet que « utilisateur » suffit quand tous ont
   besoin du même comportement pour la même raison ; il conseille un rôle plus précis quand il
   change la conversation (règles, données, moment, droits ou résultat différents).
-- **Heuristique du cours** : « l'acteur agit et y gagne ». Quand deux formulations se valent,
+- **Choix du cours** : « l'acteur agit et y gagne ». Quand deux formulations se valent,
   Cohn prend pour acteur celui qui lance l'action, et sa story nomme celui qui en profite ; il écrit pourtant parfois une story pour un rôle
   qui y gagne sans agir. À présenter comme une règle pratique, pas comme une règle sans
   exception.
@@ -50,8 +50,8 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
    d'utilisateurs réels ; Julie, persona des abonnés sans l'appli. Il ne remplace ni le rôle
    dans la story, ni les entretiens. Un message, avec « Julie, on lui fait dire ce qu'on veut ? »
-   (« Le trait que Nora veut ajouter » après une réponse fausse ; « En tant que Julie ? » en
-   rechange).
+   (« Le trait que Nora veut ajouter » après une réponse fausse, si la relance échoue ; « En
+   tant que Julie ? » en rechange).
 
 ## Banque d'exemples
 
@@ -62,7 +62,7 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 
 ### Hugo ou Sophie ? (6a)
 - **Explication** : l'acteur d'une story est désigné par son rôle (sa catégorie d'utilisateurs),
-  pas par un prénom. Heuristique du cours : il agit et y gagne. Il fait l'action du « je veux »,
+  pas par un prénom. Choix du cours : il agit et y gagne. Il fait l'action du « je veux »,
   et le « afin de » dit son gain à lui. Le Scrum Guide n'en dit rien ; écrire pour des rôles
   précis est une recommandation de Mike Cohn.
 - **Situation** : Hugo, technicien de maintenance, répare les vélos sur le terrain et prépare sa
@@ -97,7 +97,7 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 ### Yanis, acteur de sa story ? (6a)
 - **Explication** : le concept 5 l'a annoncé : l'acteur est celui qui agit et y gagne, pas
   celui qui construit. Les Developers construisent le produit ; un consommateur de données, lui,
-  est un utilisateur (parti pris du cours, concept 1).
+  est un utilisateur (choix du cours, concept 1).
 - **Situation** : Yanis, data engineer, propose : « En tant que data engineer, je veux une
   table des vélos signalés en panne, mise à jour toutes les 5 minutes, afin d'alimenter la vue de
   maintenance. »
@@ -112,10 +112,11 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   Si l'apprenant ne nomme pas l'acteur, relance : « alors, qui est l'acteur de ce besoin ? ».
 - **Erreurs fréquentes** :
   - corriger la table et les 5 minutes en gardant « en tant que data engineer » : rappeler que
-    la question porte d'abord sur l'acteur ;
+    la question porte d'abord sur l'acteur ; relancer : « si cette story n'est jamais livrée,
+    qui s'en plaint ? » ;
   - conclure qu'un data engineer n'est jamais un acteur : un consommateur de données, quel que
     soit son métier, peut être l'acteur, comme l'équipe appli au concept 1 ; ce qui compte,
-    c'est qu'il se serve du résultat pour son propre besoin.
+    c'est qu'il se serve du résultat pour son propre besoin ; réexpliquer.
 - **Ce qui marche** : « si cette story n'est jamais livrée, qui s'en plaint ? » Pas Yanis, mais
   Hugo, qui prépare sa tournée sans la liste.
 
@@ -138,9 +139,11 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   relance : « et que réponds-tu à Yanis ? ».
 - **Erreurs fréquentes** :
   - choisir l'un des deux « parce qu'il est le plus important » : c'est ordonner, pas choisir
-    l'acteur ;
+    l'acteur ; relancer : « une story ou deux ? » ;
   - écrire « en tant qu'utilisateur » pour couvrir les deux : on perd les deux raisons ;
-  - décider seul de ce que chacun en fera : le PO le demande, il ne l'invente pas.
+    relancer : « une story ou deux ? » ;
+  - décider seul de ce que chacun en fera : le PO le demande, il ne l'invente pas ; relancer :
+    « qui sait ce que Bruno et Hugo feront de cette vue ? ».
 - **Ce qui marche** : écrire les deux « afin de » côte à côte ; s'ils diffèrent, demander « une
   story ou deux ? ».
 
@@ -162,16 +165,17 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   peut s'en passer et parler du rôle.
 - **Erreurs fréquentes** :
   - « oui, c'est un outil de l'équipe » : le persona aide à penser l'utilisateur, il ne le
-    remplace pas ;
+    remplace pas ; relancer : « d'où vient chaque trait de Julie ? » ; sinon : rechange « Le
+    trait que Nora veut ajouter » ;
   - confondre persona et utilisateur réel : Hugo est un technicien qu'on interroge ; Julie
-    doit résumer des abonnés réels.
+    doit résumer des abonnés réels ; relancer : « d'où vient chaque trait de Julie ? ».
 - **Ce qui marche** : « d'où vient chaque trait de Julie ? » : s'il ne vient d'aucun abonné
   réel, il n'a rien à faire dans le portrait.
 
 ### Le trait que Nora veut ajouter (6b)
 - **Explication** : rechange après une réponse fausse à « Julie, on lui fait dire ce qu'on
-  veut ? ». Le prénom de Julie est inventé, ses traits viennent d'abonnés réels : chaque trait
-  doit pouvoir répondre à « d'où vient-il ? ».
+  veut ? », si la relance échoue. Le prénom de Julie est inventé, ses traits viennent
+  d'abonnés réels : chaque trait doit pouvoir répondre à « d'où vient-il ? ».
 - **Situation** : Nora veut ajouter au portrait de Julie : « elle se contente d'une
   disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
 - **Question** : que demandes-tu à Nora, et que fais-tu avant d'accepter ce trait ?
@@ -200,6 +204,8 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   possible, à condition que le persona vienne d'utilisateurs réels.
 - **Erreurs fréquentes** :
   - « oui, c'est plus concret » : plus concret, mais la story sert un rôle, pas un portrait ;
+    relancer : « le besoin de Julie est-il différent de celui des autres abonnés, ou seulement
+    la façon de le servir ? » ;
   - réécrire en « En tant qu'abonné sans téléphone » ou y nommer un canal : c'est le sujet du
     concept 7 ; ne pas le trancher ici.
 - **Ce qui marche** : « le besoin de Julie est-il différent de celui des autres abonnés, ou
@@ -208,7 +214,7 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 ## Pièges
 - **Acteur technique** (« en tant que data engineer, je veux une table… ») : l'acteur est celui
   qui agit et y gagne, pas celui qui construit. Un consommateur de données reste un utilisateur
-  (parti pris du cours, concept 1).
+  (choix du cours, concept 1).
 - **La valeur d'un autre rôle dans le « afin de »** (« en tant que responsable maintenance, …
   afin que mes techniciens préparent leur tournée ») : le « afin de » dit le gain de l'acteur ;
   sinon, changer d'acteur ou chercher sa propre raison (concept 5).
@@ -226,8 +232,8 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 
 ## Le test rapide
 Qui fait l'action du « je veux », et qui gagne ce que dit le « afin de » ? Si ce n'est pas le
-même rôle, ou si c'est celui qui construit, l'acteur est probablement à revoir (heuristique,
-pas règle absolue) ; dans tous les cas, le PO le vérifie auprès de l'utilisateur.
+même rôle, ou si c'est celui qui construit, l'acteur est probablement à revoir (choix du
+cours, pas règle absolue) ; dans tous les cas, le PO le vérifie auprès de l'utilisateur.
 
 ## Schéma
 Deux schémas, chacun au message de son sous-concept.

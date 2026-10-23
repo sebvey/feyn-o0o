@@ -216,7 +216,7 @@ ils ne deviennent pas des faits du fil rouge.
      il peut réunir Pascal et le PO, rendre l'obstacle visible.
   3. Si ça bloque toujours : Agnès, le sponsor, qui peut porter le désaccord au comité de
      direction, où siège Pascal et où se tranchent leurs désaccords.
-  Quand (repère du cours, pas une règle Scrum) : passer à la marche suivante quand la démarche
+  Quand (choix du cours, pas une règle Scrum) : passer à la marche suivante quand la démarche
   a eu lieu et que rien n'a changé à la fin du sprint en cours ; prévenir Thomas sans attendre
   dès que l'obstacle empêche de livrer ce que l'équipe a prévu au sprint. Une relance par
   message n'est pas une démarche nouvelle : ici, la conversation avec Pascal aurait dû venir à
@@ -224,7 +224,7 @@ ils ne deviennent pas des faits du fil rouge.
   déjà attendre. Nuances : on ne contourne pas
   Pascal, il sait que le sujet monte ; les colonnes autorisées relèvent de la DSI et des règles
   de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès, jamais sur l'ordre.
-  Équipe sans Scrum Master (lecture du cours) : la marche du milieu revient à qui répond du
+  Équipe sans Scrum Master (choix du cours) : la marche du milieu revient à qui répond du
   fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes avant d'en
   avoir besoin.
 - **Erreurs fréquentes** :
@@ -285,11 +285,13 @@ ils ne deviennent pas des faits du fil rouge.
   pas à Inès son ordre.
 - **Erreurs fréquentes** :
   - aller voir Agnès avant d'avoir parlé à Inès et à Thomas : on ne sait pas encore ce qui passe
-    avant chez Inès ;
+    avant chez Inès ; relancer : « sais-tu ce qui passe avant chez Inès, et pourquoi ? » ;
   - demander à Agnès d'imposer le canal à Inès : Agnès porte la dépendance, elle n'ordonne pas le
-    backlog de l'équipe appli ;
-  - inscrire soi-même le canal dans le backlog de l'équipe appli (10b2) ;
-  - laisser tomber la story de Julie sans le dire : la garder au backlog, visible.
+    backlog de l'équipe appli ; relancer : « est-ce mon backlog, ou celui d'un autre PO ? » ;
+  - inscrire soi-même le canal dans le backlog de l'équipe appli (10b2) ; relancer : « est-ce mon
+    backlog, ou celui d'un autre PO ? » ;
+  - laisser tomber la story de Julie sans le dire : la garder au backlog, visible ; relancer :
+    « et la story de Julie, que devient-elle en attendant ? ».
 - **Ce qui marche** : poser le test rapide à voix haute : « est-ce mon backlog, ou celui d'un
   autre PO ? ». Si l'apprenant demande qui est au-dessus d'Inès : le comité de direction tranche
   les désaccords entre les deux produits ; dans une vraie organisation, c'est à identifier avant

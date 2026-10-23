@@ -31,12 +31,12 @@ coche pas.
 - **S, deux repères à ne pas mêler** : chez Wake, une story représente au plus quelques
   semaines-personnes de travail ; certaines équipes visent quelques jours-personnes, et Wake le
   signale lui-même. Le repère du cours reste celui du concept 4 : une story tient dans un sprint.
-- **Choix d'école** :
-  - l'exploration bornée (spike), venue d'XP pour une question technique ou de conception et
-    pour fiabiliser une estimation ; certains l'emploient aussi pour une question métier
-    (concept 17) ;
-  - « chercher le mot flou dont dépendent plusieurs lettres » et « négociable ne veut pas dire
-    tout ouvert » : règles pratiques du cours, pas des textes de Wake.
+- **Choix d'école** : l'exploration bornée (spike), venue d'XP pour une question technique ou
+  de conception et pour fiabiliser une estimation ; certains l'emploient aussi pour une question
+  métier (concept 17).
+- **Choix du cours** (sans source externe, à présenter comme tel) : « chercher le mot flou dont
+  dépendent plusieurs lettres » et « négociable ne veut pas dire tout ouvert » : règles
+  pratiques, pas des textes de Wake.
 
 ## Sous-concepts
 1. **7a les six lettres et le mot flou**, en deux messages, chacun avec sa question :
@@ -87,15 +87,14 @@ deviennent pas des faits du fil rouge.
   E et S (rien de flou n'empêche d'estimer). Nuance : E et S, le PO ne les coche pas seul ; ce
   sont les Developers qui estiment, et ils diront si elle tient dans un sprint.
 - **Erreurs fréquentes** :
-  - tout cocher « OK » d'un coup : demander, lettre par lettre, « qu'est-ce qui te permet de le
-    dire ? » ;
+  - tout cocher « OK » d'un coup : relancer, lettre par lettre : « qu'est-ce qui te permet de
+    le dire ? » ; sinon : « qui livre l'information à Julie ? » ;
   - voir dans la dépendance une raison de rejeter la story : I se tient « autant que possible »,
     la dépendance s'écrit et se traite (concept 10) ;
   - donner S en jours (« quelques jours, donc OK ») : le repère est le sprint (7a1, « Huit jours,
     trop gros ? »).
 - **Ce qui marche** : faire suivre le chemin de l'information jusqu'à Julie : la plateforme
-  calcule, puis un canal qu'elle ne fait pas. Relance si l'apprenant ne trouve rien : « qui
-  livre l'information à Julie ? ».
+  calcule, puis un canal qu'elle ne fait pas.
 
 ### Huit jours, trop gros ? (7a1)
 - **Explication** : S chez Wake : une story représente au plus quelques semaines-personnes de
@@ -117,9 +116,10 @@ deviennent pas des faits du fil rouge.
   concept 9.
 - **Erreurs fréquentes** :
   - donner raison à Yanis parce que « une story, c'est quelques jours » : confondre une pratique
-    d'équipe avec la grille ;
+    d'équipe avec la grille ; relancer : « d'où vient “quelques jours” ? » ;
   - trancher soi-même « huit jours, ça tient » : la taille est l'estimation des Developers ; le
-    PO corrige la référence à INVEST, pas l'estimation.
+    PO corrige la référence à INVEST, pas l'estimation ; relancer : « qui dit combien de temps
+    prendra cette story ? ».
 - **Ce qui marche** : poser les trois repères côte à côte : quelques semaines-personnes (Wake),
   quelques jours-personnes (certaines équipes), un sprint (le cours, concept 4), et demander
   « d'où vient “quelques jours” ? ».
@@ -144,10 +144,13 @@ deviennent pas des faits du fil rouge.
   produit : la définition précisée avec Bruno doit valoir pour cette mesure, que portent les
   parties prenantes de l'objectif (Agnès) ; le PO ne laisse pas coexister deux définitions.
 - **Erreurs fréquentes** :
+  - donner raison à Nora (« E et S tiennent ») : relancer : « une station vide à 9 h 30, tu la
+    comptes ? » ;
   - proposer soi-même une plage (« 7 h à 9 h et 17 h à 19 h ») pour débloquer : c'est la décision
-    de l'utilisateur, le PO la fait prendre, il ne l'invente pas ;
+    de l'utilisateur, le PO la fait prendre, il ne l'invente pas ; relancer : « qui peut dire ce
+    que sont les heures de pointe pour cette vue ? » ;
   - laisser les Developers choisir la plage « pour avancer » : ils estiment, ils ne fixent pas le
-    besoin.
+    besoin ; relancer : « qui peut dire ce que sont les heures de pointe pour cette vue ? ».
 - **Ce qui marche** : demander à l'apprenant de jouer le testeur : « une station vide à 9 h 30,
   tu la comptes ? ». Puis relier les trois cases E, S, T au même mot (schéma). Relance si
   l'apprenant trouve le mot sans dire qui le fixe : « qui peut dire ce que sont les heures de
@@ -195,9 +198,11 @@ deviennent pas des faits du fil rouge.
   l'équipe appli.
 - **Erreurs fréquentes** :
   - garder le SMS « puisque c'est ce qu'on fera » : ce choix revient à la conversation avec
-    l'équipe appli, le critère ne le fige pas ;
+    l'équipe appli, le critère ne le fige pas ; relancer : « si l'équipe appli choisit un
+    serveur vocal, ton critère passe-t-il ? » ;
   - corriger le canal mais oublier la contrainte (téléphone basique, sans l'appli) : le critère
-    ne protège plus les abonnés concernés.
+    ne protège plus les abonnés concernés ; relancer : « si l'équipe appli ne livre que dans
+    l'appli, ton critère passe-t-il ? ».
 - **Ce qui marche** : « si l'équipe appli choisit un serveur vocal, ton critère passe-t-il ? ».
 
 ## Pièges

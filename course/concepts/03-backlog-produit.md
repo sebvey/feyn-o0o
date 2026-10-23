@@ -39,7 +39,7 @@ qui le sépare d'un cahier des charges.
     faits (Cohn, Rubin) : le Scrum Guide ne le dit pas, c'est une conséquence d'« émergente ».
   - Rubin : un backlog contient surtout des fonctions utiles aux utilisateurs, mais aussi des
     défauts à corriger, des améliorations techniques et du travail pour apprendre.
-- **Parti pris du cours** : ce concept vaut aussi pour une équipe sans sprint (annexe A2) ;
+- **Parti pris du cours** : ce concept vaut aussi pour une équipe sans sprint ;
   aucun guide consulté n'en fait un consensus.
 
 ## Sous-concepts
@@ -89,7 +89,8 @@ ne deviennent pas des faits du fil rouge.
     apporte par rapport aux priorités ; le « comment ordonner » vient au concept 13 ;
   - « l'ordre, c'est l'urgence ou qui crie le plus fort » : demander « qu'est-ce qui rapproche
     de l'objectif produit ? » ;
-  - garder les priorités et ajouter un sous-ordre : c'est revenir à un ordre, en plus lourd ;
+  - garder les priorités et ajouter un sous-ordre : c'est revenir à un ordre, en plus lourd.
+    Relancer : « avec ton sous-ordre, à quoi servent encore les trois niveaux ? » ;
   - proposer un ordre sans dire ce que les priorités ne règlent pas : relancer par « qu'est-ce
     que la proposition de Yanis ne règle pas ? » ;
   - proposer un ordre sans dire sur quoi il s'appuie : relancer par « sur quoi t'appuies-tu pour
@@ -120,10 +121,12 @@ ne deviennent pas des faits du fil rouge.
   éléments a un nom, vu au concept 15.
 - **Erreurs fréquentes** :
   - « un backlog bien écrit est détaillé partout » : réflexe de spécification complète, à
-    relier au piège du cahier des charges (3b) ;
+    relier au piège du cahier des charges (3b). Relancer : « quand cet élément sera pris, que
+    saura-t-on de plus qu'aujourd'hui ? » ; sinon, réexpliquer (voir « Ce qui marche ») ;
   - à l'inverse, « on ne détaille rien avant le Sprint Planning » : le haut est en général
     précisé avant ; l'équipe peut encore le préciser pendant le Sprint Planning (Scrum Guide),
-    mais si tout s'y découvre, la séance sert à découvrir la demande ;
+    mais si tout s'y découvre, la séance sert à découvrir la demande. Relancer : « que faut-il
+    savoir d'un élément pour que les Developers le choisissent au Sprint Planning ? » ;
   - répondre « non » sans dire quoi détailler : relancer par « que détailles-tu en premier ? ».
 - **Ce qui marche** : « quand cet élément sera pris, que saura-t-on de plus qu'aujourd'hui ? ».
   Pour réexpliquer après « détaillé partout » : la vue des locations du jour de Bruno attend elle
@@ -146,7 +149,8 @@ ne deviennent pas des faits du fil rouge.
   concept.
 - **Erreurs fréquentes** :
   - « c'est la sécurité, on la fait tout de suite » : peut-être en haut, mais c'est au PO d'en
-    décider, dans le backlog ;
+    décider, dans le backlog. Relancer : « si Yanis la fait, qu'est-ce qui ne sera pas fait à la
+    place, et qui l'a décidé ? » ;
   - « Sophie n'a pas à demander à Yanis » : elle a le droit de le dire à qui elle veut ; c'est
     au PO de faire entrer la demande au backlog ;
   - répondre à Yanis sans dire où va la demande : relancer par « et la demande de Sophie,
@@ -172,10 +176,12 @@ ne deviennent pas des faits du fil rouge.
   recueillir leurs besoins est utile ; ce qui en sort entre au backlog, dans l'ordre que décide
   le PO, et se reprendra.
 - **Erreurs fréquentes** :
-  - ne relever que « dépiler » et accepter le reste parce qu'Agnès porte le budget ;
-  - jeter toute l'idée : écouter les parties prenantes reste nécessaire ;
+  - ne relever que « dépiler » et accepter le reste parce qu'Agnès porte le budget : relancer
+    par « en mars, Bruno découvre un nouveau besoin : où va-t-il, dans le plan d'Agnès ? » ;
+  - jeter toute l'idée : écouter les parties prenantes reste nécessaire. Relancer : « dans la
+    proposition d'Agnès, qu'est-ce qui reste utile ? » ;
   - croire que « émergent » veut dire « sans plan » : le haut est précis, et l'objectif produit
-    donne la direction.
+    donne la direction. Réexpliquer.
 - **Ce qui marche** : demander « en mars, Bruno découvre un nouveau besoin : où va-t-il, dans le
   plan d'Agnès ? ».
 
@@ -203,7 +209,7 @@ ne deviennent pas des faits du fil rouge.
   - « le backlog, c'est la liste des tâches de l'équipe » : réflexe probable d'un développeur ou
     d'un profil data ; demander « qu'est-ce que Bruno voit de nouveau quand cet élément est
     fini ? » ;
-  - à l'inverse, « pas de technique au backlog » : le concept 1 a montré que la dette technique y
+  - à l'inverse, « pas de technique au backlog » : le concept 1 a montré qu'un travail technique y
     passe ;
   - dire « ticket » : terme d'outil ; le cours dit « élément du backlog » ;
   - « on garde "tableau de bord", c'est ce que Bruno voit » : juste en grande partie ; dire ce
@@ -230,9 +236,11 @@ ne deviennent pas des faits du fil rouge.
   trancher seul). S'il n'y a pas de besoin, il le retire ; retirer n'est pas définitif, l'élément
   reviendra si le besoin apparaît.
 - **Erreurs fréquentes** :
-  - « on le garde au cas où » : un bas du backlog qui s'allonge sans fin cache ce qui compte ;
+  - « on le garde au cas où » : un bas du backlog qui s'allonge sans fin cache ce qui compte.
+    Relancer : « si cet élément disparaissait, qui s'en plaindrait ? » ;
   - le retirer sans rien demander parce qu'il paraît inutile : la fraîcheur nécessaire est un
-    fait à obtenir de Bruno.
+    fait à obtenir de Bruno. Relancer : « avant de le retirer, que vérifies-tu, et auprès de
+    qui ? ».
 - **Ce qui marche** : demander « si cet élément disparaissait, qui s'en plaindrait ? ».
 
 ## Pièges

@@ -69,16 +69,19 @@ le Scrum Guide, la DoR non.
 
 Faits du fil rouge utilisés : les vues de Bruno (stations vides, vélos en panne, locations du
 jour) ; chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD de l'équipe) ;
-relevés en double, défaut connu des relevés des stations ; un vélo disponible est un vélo à
+relevés en double, défaut connu des relevés des stations, que la DoD fait détecter par un test
+automatique avant publication ; chaque indicateur publié a sa définition écrite (DoD, ajoutée
+en rétrospective : aparté « La DoD évolue ») ; un vélo disponible est un vélo à
 quai et louable ; un vélo retiré du service par un technicien n'est plus louable ; DoR de
 l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
 identifiées, accès aux données obtenu ; accès à la table des locations demandé à la DSI
 (Pascal), pas encore obtenu, la DSI demandant de justifier chaque colonne ; les locations
 rendues à la même station au bout de quelques minutes : les compter ou non n'est pas fixé
-pour les indicateurs ; la vue des locations du jour montre toutes les locations, courtes
-comprises ;
+pour les indicateurs ; la vue des locations du jour, pas encore construite, montrera toutes
+les locations, courtes comprises ;
 Developers : Léa, Yanis (data engineers), Nora (analyste) ; sprints de deux semaines. Les
-exigences proposées, les répliques des Developers et de Bruno, et les nombres de vélos sont des
+autres exigences proposées (l'exigence 2 de « DoD ou critère », les ajouts de Yanis à la DoR),
+les répliques des Developers et de Bruno, et les nombres de vélos sont des
 propositions d'exercice : ils ne deviennent pas des faits du fil rouge. Le seuil « presque
 vide », la définition d'une station vide et les heures de pointe ne sont pas fixés : aucun
 exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règle.
@@ -88,7 +91,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   l'incrément. Il n'y en a qu'une, pour toute story (et pour toutes les équipes d'un même
   produit) : on l'écrit une fois, on ne la recopie pas dans chaque story. Un critère
   d'acceptation est propre à une story (concept 8). Le Scrum Guide ne parle pas de critère :
-  cette distinction est une pratique établie (Mike Cohn), pas un texte de consensus. Le
+  cette distinction est un consensus (pratique établie, hors du Scrum Guide ; Mike Cohn). Le
   contenu de la DoD est propre au produit (ou à l'organisation) : le Scrum Guide ne le fixe pas.
 - **Situation** : Bruno, responsable d'exploitation, suit plusieurs vues (stations vides,
   vélos en panne, locations du jour). Trois exigences sont notées en vrac :
@@ -148,12 +151,13 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Explication** : la DoD change dans le temps, pour toutes les stories, quand l'équipe
   l'améliore ; elle ne change pas selon le contenu d'un sprint. La rétrospective l'inspecte
   (Scrum Guide). Rappel du concept 0, sans le réenseigner.
-- **Situation** : situation d'exercice. En préparant les stories de Claire (locations par
-  quartier), Bruno et Claire découvrent qu'ils n'entendent pas la même chose par « location » :
-  une location rendue à la même station au bout de quelques minutes compte-t-elle ? La règle
+- **Situation** : en préparant les stories de Claire (locations par quartier), Bruno et Claire
+  découvrent qu'ils n'entendent pas la même chose par « location » : une location rendue à la même station au bout de quelques minutes compte-t-elle ? La règle
   n'est pas fixée. En rétrospective, l'équipe propose d'ajouter à sa DoD : « chaque indicateur
   publié a sa définition écrite » (indicateur : valeur calculée par le produit pour ses
-  utilisateurs, comme les locations par quartier ; détail au concept 12a).
+  utilisateurs, comme les locations par quartier ; détail au concept 12a). C'est ainsi que la
+  règle est entrée dans la DoD de l'équipe (fait du fil rouge) ; la discussion entre Bruno et
+  Claire reste une situation d'exercice.
 - **Question** : pourquoi dans la DoD plutôt que dans les critères des stories de Claire ?
 - **Réponse attendue** : l'exigence vaut pour tout indicateur publié, pas pour une story ; la
   rétrospective est le lieu où l'équipe adapte sa DoD, pour toutes les stories à venir.
@@ -164,7 +168,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   - trancher la règle (« on ne les compte pas ») : ni l'apprenant ni le PO ne la fixent seuls ;
   - croire que la DoD fixe la règle : elle exige qu'elle soit écrite.
 - **Ce qui marche** : opposer « ce qu'on exige de tout travail » et « ce que vaut une
-  location », qui relève du métier.
+  location », que fixent les utilisateurs de l'indicateur.
 
 ### La story de Bruno sans accès aux locations (11b)
 - **Explication** : la DoR liste les conditions qu'une story remplit avant d'entrer dans un
@@ -199,14 +203,14 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   - décider seul que la story entre ou non : le PO propose, les Developers choisissent ;
   - si l'apprenant relève que la règle des locations très courtes n'est pas fixée : bon
     réflexe (DoR : règles fixées) ; ici la story n'en dépend pas, la vue des locations du jour
-    les montre toutes ; la règle concerne les indicateurs (concept 12a).
+    les montrera toutes ; la règle concerne les indicateurs (concept 12a).
 - **Ce qui marche** : comparer la DoD (quand une story est terminée) et la DoR (quand elle
   peut commencer) : les deux portes du sprint (schéma).
 
 ### Une DoR qui devient barrière (11b, en rechange)
 - **Explication** : une DoR trop stricte devient une barrière à franchir avant chaque sprint ;
-  c'est l'avis de Mike Cohn, qui y voit un retour au cycle en cascade (choix d'école). Image du
-  cours : la DoR tourne au mini cahier des charges.
+  c'est l'avis de Mike Cohn, qui y voit un retour au cycle en cascade (choix d'école). Image,
+  choix du cours : la DoR tourne au mini cahier des charges.
 - **Situation** : situation d'exercice. Après l'affaire de l'accès, Yanis propose d'ajouter à
   la DoR : « toutes les questions sur la story sont réglées, la maquette de la vue est validée
   par Bruno, le schéma des tables est écrit ».
@@ -224,7 +228,8 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   - « plus la DoR est complète, mieux c'est » : demander « combien de stories passeraient la
     porte au prochain planning ? » ;
   - garder la maquette « pour éviter les surprises » : la forme de la vue se discute avec les
-    Developers (concept 5).
+    Developers (concept 5) ; relancer : « sans la maquette validée, qu'est-ce que l'équipe ne
+    pourrait vraiment pas faire ? ».
 - **Ce qui marche** : demander ce que l'équipe ne pourrait vraiment pas faire sans chaque
   condition.
 

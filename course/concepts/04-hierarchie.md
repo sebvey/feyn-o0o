@@ -128,7 +128,7 @@ mois, puis comparaison au même mois de l'an dernier).
 
 ### Un niveau de trop ? (4a3)
 - **Explication** : un niveau coûte : chaque élément s'y écrit, s'y range et s'y suit. S'il
-  double presque toujours le niveau du dessous, il est de trop. C'est une règle pratique du
+  double presque toujours le niveau du dessous, il est de trop. C'est un choix du
   cours, pas un consensus.
 - **Situation** : Nora, analyste, a obtenu d'ajouter un niveau feature pour les vues de Bruno :
   l'équipe a quatre niveaux. Quelques sprints plus tard, le backlog des vues de Bruno compte un
@@ -142,7 +142,7 @@ mois, puis comparaison au même mois de l'an dernier).
   et on recompte. Sinon, proposer de retirer le niveau (epic > story > tâche) et d'y revenir si
   des besoins à plusieurs « je veux » reviennent. Une réponse qui propose de retirer le niveau
   sans cette vérification est juste : apporter la vérification dans la correction. Nuance : c'est
-  une règle pratique du cours, pas un consensus ; une feature isolée qui ne contient qu'une story
+  un choix du cours, pas un consensus ; une feature isolée qui ne contient qu'une story
   n'est pas un signal. Comment régler les niveaux dans l'outil :
   annexe A1a, à proposer quand l'apprenant en a besoin.
 - **Erreurs fréquentes** :
@@ -151,7 +151,7 @@ mois, puis comparaison au même mois de l'an dernier).
     sprints.
 - **Ce qui marche** : compter, feature par feature, les stories dessous, à voix haute. Après
   « au cas où, ça ne coûte rien » : montrer le coût dans l'outil (une feature à une seule story,
-  ce sont deux éléments et deux statuts à tenir pour un seul « je veux » de Bruno).
+  ce sont deux éléments et deux états à tenir pour un seul « je veux » de Bruno).
 
 ### Un seul « je veux » ? (4b)
 - **Explication** : écris les « je veux » de ce qu'il reste à livrer. Un seul, qui tient dans un
@@ -183,7 +183,7 @@ mois, puis comparaison au même mois de l'an dernier).
 - **Situation** : interrogé sur deux vues (propos d'exercice), Bruno dit :
   - vélos en panne : « je veux voir les vélos signalés en panne, station par station » et « je
     veux savoir, au bilan du soir, combien de vélos ont été signalés dans la journée » ;
-  - locations du jour : « je veux voir le nombre de locations depuis ce matin ».
+  - locations du jour : « je veux voir le nombre de locations depuis ce matin, par station ».
 - **Question** : chaque vue est-elle une feature ou une story ?
 - **Réponse attendue** : vélos en panne : deux « je veux », chacun utile seul (le premier sert à
   la journée, le second au bilan du soir) : feature, avec deux stories candidates. Locations du
@@ -192,8 +192,10 @@ mois, puis comparaison au même mois de l'an dernier).
   backlog évolue.
 - **Erreurs fréquentes** :
   - compter des « je veux » qui ne servent pas seuls (« je veux un filtre par station » sans rien
-    à filtrer) : ce sont des morceaux d'un même besoin, pas deux besoins ;
-  - classer les deux vues au même niveau parce qu'elles ont le même nom de « vue ».
+    à filtrer) : ce sont des morceaux d'un même besoin, pas deux besoins. Relancer : « ce « je
+    veux » sert-il à Bruno sans l'autre ? » ;
+  - classer les deux vues au même niveau parce qu'elles ont le même nom de « vue ». Relancer :
+    « combien de « je veux » Bruno a-t-il dits pour chaque vue ? ».
 - **Ce qui marche** : faire écrire les « je veux » par l'apprenant avant de trancher ; deux « je
   veux », chacun utile seul : signal de feature.
 
@@ -212,8 +214,8 @@ mois, puis comparaison au même mois de l'an dernier).
   (concept 8).
 - **Erreurs fréquentes** :
   - confondre le travail technique (« un nouveau calcul, c'est gros ») avec les « je veux » de
-    Bruno ;
-  - proposer soi-même un seuil pour débloquer la story.
+    Bruno. Relancer : « qu'est-ce que Bruno aura de plus, qu'il n'a pas déjà ? » ;
+  - proposer soi-même un seuil pour débloquer la story. Relancer : « qui fixe ce seuil ? ».
 - **Ce qui marche** : « qu'est-ce que Bruno aura de plus, qu'il n'a pas déjà ? ».
 
 ## Pièges
