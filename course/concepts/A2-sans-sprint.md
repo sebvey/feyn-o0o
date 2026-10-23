@@ -44,11 +44,15 @@ garde ses sprints et y ajoute des pratiques de flux suit le cours tel quel.
 
 ## Sous-concepts
 Annexe proposée hors de l'ordre, seulement à l'apprenant dont l'équipe travaille sans sprint :
-chaque sous-concept se donne seul, au moment où il est proposé. Le prof donne l'explication du
-sous-concept du cours en une ou deux lignes (ce que fait Scrum), puis l'annexe : l'apprenant
-choisit de répondre à la question du cours, à celle de l'annexe, ou aux deux ; une réponse juste
-à l'une valide le sous-concept du cours. Il s'ouvre par une ligne sur ce qui ne change pas (backlog ordonné par le PO, DoD, incrément,
-objectif produit). Si l'équipe de l'apprenant a un tableau de flux dans des sprints, c'est
+chaque sous-concept se donne seul, au moment où il est proposé, à la place de la banque du
+sous-concept du cours. Le message : une ou deux lignes sur ce que fait Scrum, une ligne sur ce
+qui ne change pas (backlog ordonné par le PO, DoD, incrément, objectif produit), puis
+l'explication, l'exemple et la question de l'annexe. Si l'apprenant demande aussi le cas en
+sprint, il vient au message suivant. Une réponse juste à la question de l'annexe valide le
+sous-concept du cours ; la suite est celle du cours (le sous-concept qui suit), et le fichier à
+relire est celui du concept, avec la partie de l'annexe. Les rechanges du cours qui supposent un
+sprint ne se donnent pas ; un aparté qui vaut aussi en flux (« Tout est en "Fait" », 15c) reste
+possible. Si l'équipe de l'apprenant a un tableau de flux dans des sprints, c'est
 Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
 
 1. **A2a, depuis 11b : tirer l'élément, la DoR au début du flux.** Pas de Sprint Planning :
@@ -145,8 +149,8 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   dit déjà que livrer n'attend pas la revue). Ce qui reste nécessaire : inspecter ce qui est
   livré avec les parties prenantes et adapter le backlog, à une cadence que l'équipe choisit
   (lecture du cours).
-- **Situation** : si l'équipe vélos travaillait sans sprint. La vue des vélos en panne de Bruno
-  est livrée un mardi, la tournée d'Hugo dix jours plus tard (dans cet exercice). Yanis :
+- **Situation** : si l'équipe vélos travaillait sans sprint. Dans cet exercice, la vue des vélos en
+  panne de Bruno est livrée un mardi, l'évolution de la tournée d'Hugo dix jours plus tard. Yanis :
   « Plus besoin de revue : chaque livraison part, Bruno et Sophie nous écriront s'il y a un
   souci. »
 - **Question** : que perd l'équipe avec la proposition de Yanis ?

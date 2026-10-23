@@ -13,18 +13,21 @@ pas su si la question en sprint devait être réussie avant l'annexe, ni ce qui 
 
 ## Décision
 `course/plan.md` (« Parti pris ») et `course/concepts/A2-sans-sprint.md` (« Sous-concepts ») :
-A2 se propose en 11b, 15b, 15c et 16c (A2a, A2b, A2c, A2d). Le prof donne l'explication du
-sous-concept du cours en une ou deux lignes, puis l'annexe ; l'apprenant répond à la question du
-cours, à celle de l'annexe, ou aux deux ; une réponse juste à l'une valide le sous-concept. Le
+A2 se propose en 11b, 15b, 15c et 16c (A2a, A2b, A2c, A2d), à la place de la banque du
+sous-concept du cours : une ou deux lignes sur ce que fait Scrum, puis l'exemple et la question
+de l'annexe, une seule question par message ; le cas en sprint vient au message suivant si
+l'apprenant le demande. Une réponse juste à la question de l'annexe valide le sous-concept. Le
 concept 0 annonce les quatre sous-concepts. Complète ADR-018.
 
 ## Options écartées
 - Réussir d'abord la question en sprint, puis donner l'annexe : l'apprenant en flux répond sur
-  une pratique qu'il n'a pas, et les deux messages dépassent la place d'un sous-concept.
+  une pratique qu'il n'a pas.
+- Laisser l'apprenant choisir entre les deux questions dans un même message (écrit, puis
+  retiré après un test) : deux situations et deux questions ne tiennent pas dans un message.
 - Garder A2 à trois sous-concepts et placer la prévision en flux après 15c : elle renvoie à 16c,
   pas encore vu.
 
 ## Conséquences
-Un apprenant en flux valide 11b, 15b, 15c et 16c sans avoir répondu sur la pratique Scrum ; le
-cours le lui annonce au concept 0. À surveiller à T-018h : que l'enchaînement tienne dans un
+Un apprenant en flux valide 11b, 15b, 15c et 16c sans avoir répondu sur la pratique Scrum (plan,
+« Parti pris »). À surveiller à T-018h : que l'enchaînement tienne dans un
 message de 15 lignes.
