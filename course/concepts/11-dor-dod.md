@@ -63,7 +63,7 @@ le Scrum Guide, la DoR non.
    story de Bruno sans accès aux locations ». En rechange, ou pour « exercice » : « Une DoR qui
    devient barrière ». La dépendance envers la DSI s'appuie sur le concept 10b, sans le
    réenseigner. 11b suppose des sprints : à l'apprenant qui travaille sans sprint,
-   proposer l'annexe A2 (à écrire).
+   proposer l'annexe A2a.
 
 ## Banque d'exemples
 
