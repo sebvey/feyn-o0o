@@ -5,7 +5,7 @@ concept: 5
 # Sources : La user story
 
 Le Scrum Guide 2020 [S1] ne parle pas de user story : ce que le concept en dit ne relève donc
-pas du consensus Scrum. Le format « en tant que / je veux / afin de » est un choix d'école devenu
+pas du Scrum Guide. Le format « en tant que / je veux / afin de » est un choix d'école devenu
 courant (Connextra, Rachel Davies, popularisé par Cohn) ; les 3C sont une pratique établie
 attribuée à Ron Jeffries (XP). Les faits du fil rouge (Sophie, signalements de pannes, nombre de
 techniciens en tournée, F12) sont inventés : ils n'ont pas de source. Les sections entre

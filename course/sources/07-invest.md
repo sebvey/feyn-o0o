@@ -5,9 +5,9 @@ concept: 7
 # Sources : INVEST
 
 INVEST est une grille de Bill Wake (2003, milieu XP) [S1], très reprise (Cohn la recommande dans
-*User Stories Applied*, 2004, selon [S3]) ; le Scrum Guide n'en parle pas [S2]. Ce n'est donc pas
-un consensus au sens du cours (le texte d'un guide) : c'est une pratique établie, attribuée à son
-auteur. Les faits du fil rouge (Julie, un tiers des abonnés sans l'appli, téléphone basique,
+*User Stories Applied*, 2004, selon [S3]) ; le Scrum Guide n'en parle pas [S2]. C'est donc un
+consensus au sens du cours sous la forme d'une pratique établie, hors du Scrum Guide, attribuée
+à son auteur. Les faits du fil rouge (Julie, un tiers des abonnés sans l'appli, téléphone basique,
 dépendance de l'équipe appli pour le canal, points non fixés comme le seuil « presque vide »)
 sont inventés : ils n'ont pas de source. Les sections entre parenthèses sont celles du modèle de
 fichier de concept ; le rédacteur ajoute une ligne pour toute affirmation qui n'est pas ici.

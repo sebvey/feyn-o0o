@@ -15,6 +15,10 @@
   - Même session, 8b1 : une relance sur un second défaut de la réponse est notée « rang 2 »
     alors que la relance 1, sur un autre défaut, avait réussi. « Deux relances sans succès »
     et « son rang (1 ou 2) » ne disent pas si une relance réussie compte.
+  - Test de contrôle du concept 7 : l'apprenant juge E et S « sur l'impression », ce que le
+    fichier range en piège, alors que la question porte sur I ; le prof corrige puis valide 7a1.
+    La règle traite la nuance absente, pas la nuance donnée de travers. Fusionné ici : même
+    paragraphe, même frontière entre nuance et erreur.
 - **À faire** : dans `CLAUDE.md`, « La boucle du cours » :
   - après « Une nuance de la réponse attendue que l'apprenant n'a pas donnée ne rend pas la
     réponse partielle : apporte-la dans ta correction. », ajouter : « Une réponse qui
