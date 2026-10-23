@@ -1,7 +1,7 @@
 # ADR-012 : Le prof ne modifie pas le fil rouge ; un fait improvisé va dans le support d'amélioration
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-032
 - **Ticket** : T-019
 
 ## Contexte

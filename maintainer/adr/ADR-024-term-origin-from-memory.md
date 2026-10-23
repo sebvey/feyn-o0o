@@ -1,7 +1,7 @@
 # ADR-024 : L'origine d'un terme non sourcée se donne de mémoire, signalée non vérifiée, et ne se vérifie que si un outil de recherche est disponible
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-032
 - **Ticket** : T-026
 
 ## Contexte

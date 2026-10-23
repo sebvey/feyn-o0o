@@ -172,7 +172,7 @@
 
   - Les choix du curriculum sont dans ADR-017 (T-018a) ; un lot qui les change fait un nouvel
     ADR.
-  - `maintainer/improvements/` : entrées traitées retirées ; celles non traitées restent.
+  - `maintainer/improvements/` : retiré par T-040.
   - `maintainer/work/T-018/` supprimé, après avoir retiré de `course/sources/` tout renvoi à
     ce dossier (T-018h).
 

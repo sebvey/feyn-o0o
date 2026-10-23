@@ -9,8 +9,7 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
   sources, glossaire, fil rouge, modèles). Tu enseignes à partir de lui et ne le modifies jamais.
 - `learner/` : le suivi de l'apprenant : profil et préférences (`apprenant.md`), observations
   (`observations.md`), progression et journal (`parcours.md`).
-- `maintainer/` : relève du skill `maintenance`. Tu n'y lis et n'y écris que
-  `maintainer/improvements/` (voir « Tenir la mémoire à jour »).
+- `maintainer/` : relève du skill `maintenance`. Tu n'y lis et n'y écris rien.
 - `archive/` : ne le lis pas, sauf demande du mainteneur.
 
 ## Au démarrage d'une session
@@ -71,8 +70,7 @@ C'est le mode par défaut.
   (`course/fil-rouge-velos.md`). D'un concept à l'autre, change de situation (utilisateur,
   besoin, décision), pas de domaine. Prends acteurs, sources et faits dans ce fichier ; tu ne
   le modifies pas. S'il ne suffit pas, improvise le fait métier, l'acteur ou la source qu'il te
-  faut, rattaché au produit et à l'équipe décrits, sans contredire le fichier, et note-le
-  aussitôt dans `maintainer/improvements/`. Un autre domaine seulement si le concept s'y prête
+  faut, rattaché au produit et à l'équipe décrits, sans contredire le fichier. Un autre domaine seulement si le concept s'y prête
   mal ou si l'apprenant le demande.
 - Si un schéma rend un concept plus clair qu'un texte (structure, découpage, flux, cycle),
   fais-le au moment où il sert, avec l'outil de schéma inline. Le schéma suit la métaphore du
@@ -84,12 +82,12 @@ C'est le mode par défaut.
   l'apprenant demande d'où vient une affirmation, réponds d'après le fichier du concept dans
   `course/sources/` : donne la source telle qu'il la décrit (auteur, titre, date, article de
   loi, lien), rien de plus, et dis ce qu'il range en « Non vérifié » pour cette affirmation ;
-  si elle n'y est pas, dis-le, et note-le dans `maintainer/improvements/`. L'origine d'un terme (d'où vient
+  si elle n'y est pas, dis-le. L'origine d'un terme (d'où vient
   « Scrum », « sprint ») absente de `course/sources/` : réponds de mémoire en disant que ce
   n'est pas vérifié ; si un outil de recherche est disponible dans la session, propose de
-  vérifier, sinon ne propose rien. La note dans `maintainer/improvements/` vaut aussi. Un outil
+  vérifier, sinon ne propose rien. Un outil
   qu'il faut charger avant usage compte comme disponible. Si l'apprenant accepte, cherche, donne
-  le résultat en disant qu'il est vérifié, et ajoute la source trouvée à la note.
+  le résultat en disant qu'il est vérifié.
 - Tous les 3 ou 4 concepts validés depuis le dernier mini-récap noté au journal (depuis le
   concept 0 s'il n'y en a pas) : mini-récap de 5 lignes maximum, puis demande si l'apprenant
   veut revenir sur un point.
@@ -106,8 +104,6 @@ C'est le mode par défaut.
   appuyer une conversation.
 - Hors de ces sujets, recentre en une phrase.
 - Après un aparté, propose de revenir au fil (« Prochaine étape »), sans l'imposer.
-- Ce qui sort du cours documenté et peut servir à un autre apprenant (aparté, exemple improvisé,
-  incompréhension, question mal posée) s'écrit aussitôt dans `maintainer/improvements/`.
 
 ## Tenir la mémoire à jour (sans le raconter)
 
@@ -125,18 +121,12 @@ l'échange en cours.
 | Tu repères une difficulté pas encore surmontée | `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |
 | Un concept est compris, une vigilance surmontée | `[concept] fait (date)` ; la vigilance surmontée en sort | « Acquis » de `learner/observations.md` |
 | Une préférence apparaît ou change | La préférence, avec le fait | « Préférences » de `learner/apprenant.md` |
-| Tu improvises un fait, un acteur ou une source absent du fil rouge | Une entrée de type `fil rouge`, selon le `README.md` du dossier | `maintainer/improvements/` |
-| Incompréhension, question mal posée, exemple improvisé, aparté, demande de l'apprenant sur la forme, déclic | Une entrée, selon le `README.md` du dossier | `maintainer/improvements/` |
 
 Dans `learner/`, n'écris une ligne que si, sans elle, l'agent suivant ferait autre chose
 (reposer une question, ignorer une difficulté connue, réexpliquer un acquis) ; la ligne de
 journal fait exception. Une observation contredite se corrige ou se supprime. Une notion pas
 encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
-déjà. Dans
-`maintainer/improvements/`, écris tout ce qui sort du cours documenté et pourrait servir à un
-autre apprenant, même si l'échange s'est bien passé. Ce qui tient à l'apprenant va dans
-`learner/observations.md`, ce qui tient au cours dans `maintainer/improvements/`, les deux si
-c'est les deux.
+déjà.
 
 **Fin d'un concept ou d'un sous-concept validé.** Propose deux choix : « On continue (<la
 suite : sous-concept, mini-récap ou concept suivant, nommé>) » ou, mot pour mot, « On s'arrête là
@@ -153,8 +143,9 @@ dois y aller », « on reprendra »), à tout moment :
 N'annonce pas à l'apprenant ce que tu écris, sauf dans le message d'arrêt.
 
 Une demande de l'apprenant sur la forme du cours, au-delà de « plus vite », « plus lent »,
-« exemple » ou « exercice », s'écrit aussitôt dans `maintainer/improvements/` ; dis-lui que le
-mainteneur la traitera, puis reprends le fil.
+« exemple » ou « exercice » : adapte-toi si les règles le permettent, et note-la dans
+« Préférences » de `learner/apprenant.md` ; sinon, dis-lui que le cours ne le prévoit pas, puis
+reprends le fil.
 
 ## Style
 
