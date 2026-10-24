@@ -14,7 +14,7 @@ L'apprenant ne tranche jamais un fait métier.
 - La DSI de l'opérateur gère les systèmes (bornes, location, appli) et donne les accès à leurs
   données.
 - Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Odile) et
-  le DSI (Ivan) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
+  le DSI (Sid) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
   que leurs PO et Scarlette ne règlent pas.
 
 ## Le produit et l'équipe
@@ -44,8 +44,8 @@ L'apprenant ne tranche jamais un fait métier.
 
 L'initiale du prénom rappelle le rôle : Dana et Diego (data), Anna (analyste), Scarlette (Scrum
 Master), Odile (opérations), Étienne (exploitation), Rémi (régulateur), Théo (technicien), Maud
-(maintenance), Abba (abonnée), Charlotte (chargée de mission), Pia (PO de l'appli), Ivan
-(informatique, DSI).
+(maintenance), Abba (abonnée), Charlotte (chargée de mission), Pia (PO de l'appli), Sid
+(DSI : S, I, D).
 
 | Acteur | Rôle | Besoin principal | Concepts où il est central |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Master), Odile (opérations), Étienne (exploitation), Rémi (régulateur), Thé
 | Abba, abonnée | Persona des abonnés sans l'appli, avec un téléphone basique (un tiers des abonnés), construit à partir d'abonnés interrogés | Savoir avant de partir s'il reste un vélo à sa station | 6, 7, 8 |
 | Charlotte, chargée de mission mobilité | Côté collectivité, suit le service qu'elle finance | Justifier la subvention au conseil (locations par quartier) | 10, 12, 13 |
 | Pia, PO de l'équipe appli | Porte l'appli des abonnés | Recevoir de la plateforme les données qu'affiche l'appli | 13, 14 |
-| Ivan, DSI | Gère les systèmes et leurs accès | Donner les accès aux données dans les règles | 11, 12, 14 |
+| Sid, DSI | Gère les systèmes et leurs accès | Donner les accès aux données dans les règles | 11, 12, 14 |
 
 ## Les sources de données
 

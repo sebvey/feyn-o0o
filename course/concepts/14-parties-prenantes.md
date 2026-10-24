@@ -77,10 +77,10 @@ du retard (13). Pas encore enseignés, nommés avec renvoi : Sprint Planning et 
 ## Banque d'exemples
 
 Faits du fil rouge utilisés : les acteurs (Étienne, Rémi, Théo, Maud, Abba, Charlotte, Odile,
-Pia, Ivan, Scarlette) et l'équipe vélos (Dana, Diego, Anna) ; Odile est sponsor de la plateforme,
+Pia, Sid, Scarlette) et l'équipe vélos (Dana, Diego, Anna) ; Odile est sponsor de la plateforme,
 dont elle porte le budget ; Scarlette est Scrum Master de l'équipe vélos et de l'équipe appli ; la
 collectivité finance le service, Charlotte la représente et présente un bilan au conseil, une fois
-par an ; le comité de direction réunit Odile et Ivan et tranche leurs désaccords, comme ceux
+par an ; le comité de direction réunit Odile et Sid et tranche leurs désaccords, comme ceux
 entre la plateforme et l'appli que leurs PO et Scarlette ne règlent pas ; les sources de données et
 leurs propriétaires (DSI pour les relevés et les locations, équipe appli pour les signalements
 et les abonnés, collectivité pour le référentiel des quartiers) ; l'accès à la table des
@@ -89,7 +89,7 @@ contient l'identifiant de l'abonné ; les stories d'Étienne (locations du jour)
 (locations par quartier, comparaison à l'an dernier) attendent cet accès ; Pia veut la
 disponibilité par station pour l'appli ; le canal d'Abba relève de l'équipe appli. N'est pas
 fixée : la date du bilan au conseil. L'ordre du backlog cité en 14b, la liste d'Anna, les
-propos de Charlotte, d'Odile et de Pia, et les relances à Ivan sont des situations d'exercice :
+propos de Charlotte, d'Odile et de Pia, et les relances à Sid sont des situations d'exercice :
 ils ne deviennent pas des faits du fil rouge.
 
 ### La liste d'Anna (14a)
@@ -109,7 +109,7 @@ ils ne deviennent pas des faits du fil rouge.
   - financeur : la collectivité, que représente Charlotte ;
   - sponsor : Odile, qui porte le budget de la plateforme ;
   - équipe voisine : l'équipe appli et sa PO, Pia, absente de la liste ;
-  - fournisseurs de données, tous absents : la DSI et Ivan (relevés des stations, table des
+  - fournisseurs de données, tous absents : la DSI et Sid (relevés des stations, table des
     locations, et les accès), l'équipe appli (signalements, abonnés), la collectivité
     (référentiel des quartiers).
   Scarlette sort de la liste : elle est dans l'équipe Scrum, comme Dana, Diego, Anna et le PO ; le
@@ -126,7 +126,7 @@ ils ne deviennent pas des faits du fil rouge.
   - ne mettre chaque acteur que dans une case (Charlotte seulement financeur) : demander « que
     reçoit Charlotte de la plateforme, et que lui fournit sa collectivité ? » ;
   - réciter les cinq catégories sans les remplir : faire nommer un acteur par catégorie ;
-  - classer Ivan en sponsor parce qu'il siège au comité de direction : le sponsor porte le
+  - classer Sid en sponsor parce qu'il siège au comité de direction : le sponsor porte le
     budget de la plateforme, c'est Odile.
 - **Ce qui marche** : suivre les données. Ce qui entre dans la plateforme (fournisseurs), ce qui
   en sort (utilisateurs), qui paie (financeur, sponsor), qui travaille à côté (équipe voisine).
@@ -203,32 +203,32 @@ ils ne deviennent pas des faits du fil rouge.
   Master, le sponsor ; dans quel ordre, et quand passer de l'une à l'autre, c'est la question.
   Parler à la personne concernée n'est pas escalader ; l'escalade, c'est la suite. Le sponsor
   n'ordonne pas le backlog.
-- **Situation** : situation d'exercice. Depuis trois sprints, tu relances Ivan par message ;
+- **Situation** : situation d'exercice. Depuis trois sprints, tu relances Sid par message ;
   l'accès à la table des locations n'est toujours pas donné. Les stories d'Étienne (locations du
   jour) et de Charlotte attendent. La DSI demande de justifier chaque colonne demandée.
 - **Question** : qui saisis-tu, dans quel ordre, et quand passes-tu au suivant ?
 - **Réponse attendue** :
-  1. Ivan, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
+  1. Sid, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
      Relancer n'est pas comprendre. Arriver avec les colonnes demandées et la finalité de
      chacune, sans l'identifiant de l'abonné s'il ne sert pas (concept 12c), et dire ce que le
      blocage coûte : deux demandes qui attendent (concept 13b, sans chiffrer).
   2. Si ça bloque encore, l'escalade : Scarlette, la Scrum Master, qui fait lever les obstacles ;
-     elle peut réunir Ivan et le PO, rendre l'obstacle visible.
+     elle peut réunir Sid et le PO, rendre l'obstacle visible.
   3. Si ça bloque toujours : Odile, le sponsor, qui peut porter le désaccord au comité de
-     direction, où siège Ivan et où se tranchent leurs désaccords.
+     direction, où siège Sid et où se tranchent leurs désaccords.
   Quand (choix du cours, pas une règle Scrum) : passer à la marche suivante quand la démarche
   a eu lieu et que rien n'a changé à la fin du sprint en cours ; prévenir Scarlette sans attendre
   dès que l'obstacle empêche de livrer ce que l'équipe a prévu au sprint. Une relance par
-  message n'est pas une démarche nouvelle : ici, la conversation avec Ivan aurait dû venir à
+  message n'est pas une démarche nouvelle : ici, la conversation avec Sid aurait dû venir à
   la fin du premier sprint sans réponse, et Scarlette à la fin du suivant ; trois sprints, c'est
   déjà attendre. Nuances : on ne contourne pas
-  Ivan, il sait que le sujet monte ; les colonnes autorisées relèvent de la DSI et des règles
+  Sid, il sait que le sujet monte ; les colonnes autorisées relèvent de la DSI et des règles
   de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès, jamais sur l'ordre.
   Équipe sans Scrum Master (choix du cours) : la marche du milieu revient à qui répond du
   fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes avant d'en
   avoir besoin.
 - **Erreurs fréquentes** :
-  - aller d'emblée voir Odile par-dessus Ivan : demander « sais-tu pourquoi Ivan bloque ? » ;
+  - aller d'emblée voir Odile par-dessus Sid : demander « sais-tu pourquoi Sid bloque ? » ;
   - continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et alors, au
     quatrième sprint, on fait quoi ? » ;
   - croire que Scarlette va obtenir l'accès à ta place, ou qu'elle ordonne quoi que ce soit (0a1) :
@@ -239,7 +239,7 @@ ils ne deviennent pas des faits du fil rouge.
   pour chaque marche deux questions :
   « qu'est-ce que je demande ? » et « qu'est-ce qui me fait passer à la suivante ? » (la
   démarche faite, rien de changé à la fin du sprint). Si la réponse s'arrête aux noms,
-  relancer : « et à Ivan, qu'apportes-tu ? ». Si la première réponse va d'emblée à Odile,
+  relancer : « et à Sid, qu'apportes-tu ? ». Si la première réponse va d'emblée à Odile,
   proposer ensuite le cas limite.
 
 ### Faire trancher Odile entre Pia et Charlotte ? (14c, cas limite)
@@ -326,7 +326,7 @@ est la demande.
 ## Schéma
 Trois panneaux.
 1. **Qui sont-elles (14a)** : la plateforme au centre, comme un tuyau de gauche à droite. À
-   gauche, en amont, les fournisseurs de données (DSI et Ivan, équipe appli, collectivité),
+   gauche, en amont, les fournisseurs de données (DSI et Sid, équipe appli, collectivité),
    reliés par des flèches de données entrantes. À droite, en aval, les utilisateurs (Étienne,
    Rémi, Théo, Maud, Abba, Charlotte, l'équipe appli). Au-dessus, ceux qui paient :
    financeur (la collectivité) et sponsor (Odile). À côté, l'équipe voisine (équipe appli,
@@ -335,7 +335,7 @@ Trois panneaux.
 2. **Dire non (14b)** : le backlog en colonne, visible ; la story de Charlotte à sa place, avec une
    bulle à trois cases : « pas maintenant », « pourquoi : objectif produit, ce qui est prêt »,
    « ce qui la ferait monter ».
-3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, Ivan
+3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, Sid
    (la personne concernée), puis l'escalade, Scarlette, Odile, puis un palier
    « comité de direction » ; sur chaque marche, « je passe à la suivante si rien n'a changé à la
    fin du sprint ». À côté, une porte barrée : « désaccord sur l'ordre de mon backlog : le PO

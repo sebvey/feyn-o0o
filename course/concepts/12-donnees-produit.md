@@ -62,7 +62,7 @@ l'accès ne s'obtient pas, ou s'obtient trop large.
 3. **12c accès et données personnelles** : demander les colonnes nécessaires à une finalité
    dite, au détail ou agrégées selon l'usage ; un identifiant d'abonné est une donnée
    personnelle. Le PO ne fait pas le droit : il sait quoi demander et pourquoi. Exemple
-   principal : « Quelles colonnes demander à Ivan ? ». En rechange, ou si l'apprenant dit
+   principal : « Quelles colonnes demander à Sid ? ». En rechange, ou si l'apprenant dit
    « ce n'est qu'un numéro » : « Prenons toute la table ».
 
 ## Banque d'exemples
@@ -73,7 +73,7 @@ station et, pour chacun, s'il est louable ; la plateforme se rafraîchit toutes 
 relevés en double) ; un vélo signalé en panne reste louable ; DoD de l'équipe vélos (heure de
 la dernière mise à jour sur chaque vue d'Étienne ; chaque indicateur publié a sa définition
 écrite ; test des relevés en double, concept 11a) ; table des locations (vélo, identifiant de
-l'abonné, stations de départ et d'arrivée, heures ; accès demandé à Ivan, pas obtenu ; la DSI
+l'abonné, stations de départ et d'arrivée, heures ; accès demandé à Sid, pas obtenu ; la DSI
 demande de justifier chaque colonne) ; référentiel des quartiers (quartier de chaque station,
 tenu par la collectivité) ; Charlotte veut le nombre de locations par quartier sur le mois, puis
 la comparaison au même mois de l'an dernier ; signalements de pannes saisis dans l'appli
@@ -247,17 +247,17 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
     conseil a besoin ; relancer : « qui sait ce dont le conseil a besoin ? ».
 - **Ce qui marche** : « quel chiffre, faux, te mettrait en difficulté devant le conseil ? ».
 
-### Quelles colonnes demander à Ivan ? (12c)
+### Quelles colonnes demander à Sid ? (12c)
 - **Explication** : le RGPD (texte de loi) demande des finalités déterminées et seulement les
   données nécessaires à ces finalités (minimisation). Un identifiant d'abonné est une donnée
   personnelle : il permet de retrouver la personne. Le PO ne fait pas le droit ; il sait dire,
   pour chaque colonne, à quoi elle sert, et s'il lui faut le détail ou un agrégat. S'il y a un
   délégué à la protection des données, c'est lui qui conseille sur la règle.
 - **Situation** : la table des locations contient, pour chaque location : le vélo, l'identifiant
-  de l'abonné, les stations de départ et d'arrivée, les heures. L'accès est demandé à Ivan,
+  de l'abonné, les stations de départ et d'arrivée, les heures. L'accès est demandé à Sid,
   DSI ; il demande de justifier chaque colonne. On prépare la demande pour les stories de
   Charlotte (locations par quartier sur le mois, puis comparaison au même mois de l'an dernier).
-- **Question** : que demandes-tu à Ivan pour les stories de Charlotte, et comment le
+- **Question** : que demandes-tu à Sid pour les stories de Charlotte, et comment le
   justifies-tu ? (Relances : si l'apprenant ne parle que des colonnes, « et quelles
   locations ? » ; s'il donne la liste sans raison, « à quoi sert chacune ? ».)
 - **Réponse attendue** : la finalité d'abord : compter les locations par quartier, sur le mois,
@@ -272,7 +272,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   du même mois de l'an dernier (story B), pas tout l'historique. Nuances, non attendues : la vue
   des locations du jour d'Étienne (concept 11b) attend le même accès ; c'est une autre finalité,
   justifiée colonne par colonne elle aussi (stations, heures, toujours sans l'abonné). La
-  demande d'Ivan n'est pas un frein, c'est la
+  demande de Sid n'est pas un frein, c'est la
   minimisation appliquée ; une demande justifiée colonne par colonne avance plus vite (renvoi
   11b).
 - **Erreurs fréquentes** :
@@ -281,7 +281,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   - oublier les heures : sans elles, pas de mois ;
   - demander tout l'historique : la finalité borne aussi les lignes ; demander « de quels mois
     Charlotte a-t-elle besoin ? » ;
-  - voir la question d'Ivan comme une mauvaise volonté à contourner : sa question est celle
+  - voir la question de Sid comme une mauvaise volonté à contourner : sa question est celle
     que le PO doit savoir poser d'abord ; si l'accès bloque sprint après sprint, l'escalade se
     voit au concept 14 ;
   - réponse juste sans la raison (« départ, arrivée, heures ») : demander « pourquoi pas

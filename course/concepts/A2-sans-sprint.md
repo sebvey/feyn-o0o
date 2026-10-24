@@ -104,7 +104,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   *Kanban Guide*, qui n'a pas de rôles). Ce qui change sans sprint :
   commencée sans accès, la story compterait dans le travail en cours, donc occuperait l'une des
   trois places sans avancer (choix du cours, déduit de la définition du travail en
-  cours). Le PO fait avancer l'accès (relancer Ivan, escalader si ça bloque : concept 14).
+  cours). Le PO fait avancer l'accès (relancer Sid, escalader si ça bloque : concept 14).
 - **Erreurs fréquentes** :
   - « oui, elle est en haut du backlog » : demander « que fait-elle dans sa place tant que
     l'accès n'est pas là ? » ;

@@ -75,7 +75,7 @@ en rétrospective : aparté « La DoD évolue ») ; un vélo disponible est un v
 quai et louable ; un vélo retiré du service par un technicien n'est plus louable ; DoR de
 l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
 identifiées, accès aux données obtenu ; accès à la table des locations demandé à la DSI
-(Ivan), pas encore obtenu, la DSI demandant de justifier chaque colonne ; les locations
+(Sid), pas encore obtenu, la DSI demandant de justifier chaque colonne ; les locations
 rendues à la même station au bout de quelques minutes : les compter ou non n'est pas fixé
 pour les indicateurs ; la vue des locations du jour, pas encore construite, montrera toutes
 les locations, courtes comprises ;
@@ -180,14 +180,14 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   métier fixées, des dépendances identifiées et un accès aux données obtenu. La story d'Étienne
   « voir les locations du jour par station » a ses critères écrits ; la dépendance à la DSI est
   identifiée (dépendance : concept 10b). Mais l'accès à la table des locations, demandé à
-  Ivan, n'est pas encore donné. Dana, data engineer : « Prenons-la quand même, on aura
+  Sid, n'est pas encore donné. Dana, data engineer : « Prenons-la quand même, on aura
   sûrement l'accès mercredi. »
 - **Question** : que proposes-tu au planning du sprint, et pourquoi ?
 - **Réponse attendue** : la story n'est pas prête, elle ne remplit pas la DoR : l'accès n'est
   pas obtenu, et sans
   lui les Developers ne peuvent pas la finir dans le sprint. Au planning, le PO propose à la
   place une story prête ; les Developers choisissent. Et il fait avancer l'accès : relancer
-  Ivan, et voir ce qui bloque (la DSI demande de justifier chaque colonne : quelles colonnes
+  Sid, et voir ce qui bloque (la DSI demande de justifier chaque colonne : quelles colonnes
   demander, concept 12c) ; si l'accès bloque sprint après sprint, escalader (concept 14).
   Nuance : Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
   envers une autre équipe est le cas où il admet qu'une règle stricte peut se justifier. Un
