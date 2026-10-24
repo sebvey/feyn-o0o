@@ -43,7 +43,7 @@ L'apprenant ne tranche jamais un fait métier.
 ## Les acteurs
 
 L'initiale du prénom rappelle le rôle : Dana et Diego (data), Anna (analyste), Scarlette (Scrum
-Master), Odile (opérations), Étienne (exploitation), Rémi (régulateur), Théo (technicien), Maud
+Master), Odile (opérations), Étienne (exploitation), Régis (régulateur), Théo (technicien), Maud
 (maintenance), Abba (abonnée), Charlotte (chargée de mission), Pia (PO de l'appli), Sid
 (DSI : S, I, D).
 
@@ -51,7 +51,7 @@ Master), Odile (opérations), Étienne (exploitation), Rémi (régulateur), Thé
 |---|---|---|---|
 | Odile, directrice des opérations | Encadre l'exploitation (Étienne) et la maintenance (Maud) ; sponsor de la plateforme, dont elle porte le budget | Que la plateforme améliore le service (objectif produit) | 2, 14 |
 | Scarlette, Scrum Master | Scrum Master de l'équipe vélos et de l'équipe appli | Lever les obstacles des deux équipes | 0, 14 |
-| Rémi, régulateur | Conduit une camionnette, redistribue les vélos entre stations | Savoir quelles stations vont se vider, pour y aller avant | 9, 17 |
+| Régis, régulateur | Conduit une camionnette, redistribue les vélos entre stations | Savoir quelles stations vont se vider, pour y aller avant | 9, 17 |
 | Étienne, responsable d'exploitation | Encadre les régulateurs, pilote la flotte au quotidien | Suivre l'état du réseau dans plusieurs vues (stations vides, vélos en panne, locations du jour) | 4, 11, 16 |
 | Théo, technicien de maintenance | Répare les vélos sur le terrain ; confirme ou infirme sur place une panne signalée | Préparer sa tournée de réparation à partir des vélos signalés | 6, 10, 15 |
 | Maud, responsable maintenance | Encadre les techniciens | Qu'un vélo signalé en panne ne soit plus louable | 5, 10, 13 |
@@ -97,7 +97,7 @@ Master), Odile (opérations), Étienne (exploitation), Rémi (régulateur), Thé
 - La vue des stations vides est livrée (concept 0b) ; elle doit servir à Étienne à envoyer les
   régulateurs plus tôt vers les stations qui se vident. Les autres vues d'Étienne ne sont pas
   livrées. La story de tournée de Théo est livrée (concept 10a2).
-- Étienne envoie les régulateurs vers les stations ; sur le terrain, un régulateur comme Rémi va
+- Étienne envoie les régulateurs vers les stations ; sur le terrain, un régulateur comme Régis va
   aussi de lui-même vers une station qu'il voit se vider.
 - La journée d'Étienne : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.

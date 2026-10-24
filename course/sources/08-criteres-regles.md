@@ -11,7 +11,7 @@ Cohn [S4]). La forme Given/When/Then est un choix d'école : Dan North et Chris 
 le cadre du BDD ; Gherkin [S6] en est le langage outillé (Cucumber). « Specification by
 Example » est un terme employé par Fowler dès 2004 [S9], popularisé par le livre de Gojko Adzic
 (2011) [S8]. Séparer règles et exemples suit l'Example Mapping de Matt Wynne [S7]. Les faits du
-fil rouge (Abba, Étienne, Rémi, vélo disponible, station favorite, fraîcheur de moins de
+fil rouge (Abba, Étienne, Régis, vélo disponible, station favorite, fraîcheur de moins de
 15 minutes, rafraîchissement toutes les 5 minutes, seuil « presque vide ») sont inventés : ils
 n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept (actuel ou
 à écrire) ; le rédacteur ajoute une ligne pour toute affirmation qui n'est pas ici.

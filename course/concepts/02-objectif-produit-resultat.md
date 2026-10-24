@@ -231,7 +231,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   conclure : comparer à des périodes comparables dans l'historique des relevés (environ un
   an) ; vérifier le signal
   de comportement (Étienne envoie-t-il les régulateurs plus tôt ?) ; en parler avec Étienne et
-  Rémi. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
+  Régis. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
   vient au concept 17.
 - **Erreurs fréquentes** :
   - annoncer la victoire sur un seul mois. Relancer : « quelle autre raison pourrait faire

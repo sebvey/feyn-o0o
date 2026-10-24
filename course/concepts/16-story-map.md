@@ -308,7 +308,7 @@ et le contenu de la tranche en 16c.
 - **Viser le bilan au conseil sans date** : sa date n'est pas fixée ; si une prévision doit le
   viser, la date se demande à Charlotte.
 - **Confondre la prévision du travail avec la prévision des stations à risque** (9, 17) : la
-  seconde est une fonction du produit, pour Rémi.
+  seconde est une fonction du produit, pour Régis.
 
 ## Le test rapide
 « Ta carte se lit-elle comme la journée de l'utilisateur ? Ta première tranche sert-elle chaque

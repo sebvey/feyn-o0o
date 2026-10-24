@@ -73,7 +73,7 @@ atteindre, par l'utilisateur qui en paie les erreurs.
   - le PO pose la question, les Developers explorent ;
   - deux seuils à ne pas mêler : le seuil qui juge l'exploration (« si la tendance repère assez
     de stations, on continue »), fixé avant, comme chez Torres, et que le PO fait dire par
-    Étienne et Rémi sans le chiffrer (17b1) ; le niveau qu'un critère
+    Étienne et Régis sans le chiffrer (17b1) ; le niveau qu'un critère
     d'acceptation exige de la fonction livrée, fixé après l'exploration qui montre ce qu'on
     peut atteindre. Appui, sans en faire un consensus : les guides de Google choisissent le
     seuil d'un modèle sur ses résultats mesurés, donc après la mesure.
@@ -82,14 +82,14 @@ atteindre, par l'utilisateur qui en paie les erreurs.
 1. **17a savoir ou supposer** : une affirmation qu'on n'a pas vérifiée est une hypothèse ; les
    quatre risques de Cagan nommés, le cours en retient deux (valeur, faisabilité, données
    comprises) ; la question type fait trier des affirmations (« Prévoir les stations à risque :
-   on sait ou on suppose ? »). En rechange : « De quoi dépend la story de Rémi ? ».
+   on sait ou on suppose ? »). En rechange : « De quoi dépend la story de Régis ? ».
 2. **17b explorer à moindre coût**, en deux messages :
    - **17b1** décider l'exploration avant : la question, la durée, ce qu'on décidera selon la
      réponse ; elle livre une réponse, pas une fonction ; elle s'ordonne au backlog ; le PO pose
      la question, Anna explore (« On verra ce qu'Anna trouve ») ;
    - **17b2** choisir la façon d'explorer selon l'hypothèse : analyse d'historique pour la
-     faisabilité, prototype sur données réelles pour la valeur ; la question à Rémi ne suffit
-     pas (« Rémi ira-t-il plus tôt ? »).
+     faisabilité, prototype sur données réelles pour la valeur ; la question à Régis ne suffit
+     pas (« Régis ira-t-il plus tôt ? »).
 3. **17c accepter un résultat incertain** : une prévision se trompe parfois ; le critère porte
    sur un niveau atteint, mesuré sur l'historique, fixé après l'exploration par l'utilisateur
    concerné, qui pèse fausses alertes et stations vides manquées ; le PO le fait fixer
@@ -97,7 +97,7 @@ atteindre, par l'utilisateur qui en paie les erreurs.
    du seuil « presque vide » ou pour « exercice », « Presque vide d'après l'historique ».
 
 Un mot, deux sens : la « prévision des stations à risque » est une fonction du produit pour
-Rémi ; la prévision au sens du glossaire (ce que les Developers pensent livrer, et quand) est
+Régis ; la prévision au sens du glossaire (ce que les Developers pensent livrer, et quand) est
 celle du concept 16c. Le dire si l'apprenant les mêle.
 
 Déjà enseigné, à rappeler sans le réenseigner : responsabilités, événements, artefacts (0) ; le
@@ -115,7 +115,7 @@ Sprint Planning (15), la première version, les deux sens du MVP et la prévisio
 
 ## Banque d'exemples
 
-Faits du fil rouge utilisés : Rémi, régulateur, conduit une camionnette et veut savoir quelles
+Faits du fil rouge utilisés : Régis, régulateur, conduit une camionnette et veut savoir quelles
 stations vont se vider, pour y aller avant ; Étienne encadre les régulateurs et doit pouvoir les
 envoyer plus tôt vers les stations qui se vident ; l'objectif produit (le moins longtemps
 possible vides, au centre-ville, aux heures de pointe) et sa mesure de résultat ; les relevés
@@ -125,7 +125,7 @@ source envisagée, pas encore collectée ; le centre-ville, premier périmètre 
 (Dana, Diego, Anna, analyste). Non fixés, et qu'aucun exemple ne fixe : ce qu'est une station
 vide, les heures de pointe, la cible et le calcul de la mesure de résultat, le seuil « presque
 vide » (3 vélos cité, pas décidé). Ne sont pas fixés non plus : si la tendance de la dernière
-heure suffit, si la pluie compte, si Rémi ira plus tôt. Les répliques des Developers, la durée
+heure suffit, si la pluie compte, si Régis ira plus tôt. Les répliques des Developers, la durée
 de l'exploration, les résultats chiffrés d'Anna et le prototype de 17b2 sont des situations
 d'exercice : ils ne deviennent pas des faits du fil rouge. Le prof ne demande jamais à
 l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vraie.
@@ -140,12 +140,12 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   product manager, il veut traiter ces risques avant de construire) va dans la correction, pas
   dans ce message. Si le message dépasse une quinzaine de lignes, le couper : l'explication,
   puis la situation et la question.
-- **Situation** : la prochaine tranche pour Rémi est la prévision des stations à risque
+- **Situation** : la prochaine tranche pour Régis est la prévision des stations à risque
   (concept 9b). Au refinement, quatre phrases circulent :
   1. « La plateforme garde l'historique des relevés depuis environ un an. »
   2. « La tendance de la dernière heure suffit pour voir quelles stations vont se vider. »
   3. « Quand il pleut, les stations se vident autrement. »
-  4. « Si Rémi voit les stations à risque, il ira plus tôt, et elles resteront moins
+  4. « Si Régis voit les stations à risque, il ira plus tôt, et elles resteront moins
      longtemps vides. »
 - **Question** : range ces quatre phrases en « on sait » et « on suppose », en disant pour
   chaque supposition si elle porte sur la valeur ou sur la faisabilité.
@@ -153,7 +153,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   vérifier la qualité, les relevés en double par exemple). 2 se suppose, faisabilité : personne
   n'a vérifié que la tendance prévoit assez tôt. 3 se suppose, faisabilité côté données, et plus
   que ça : la météo n'est pas collectée, on ne peut même pas le vérifier sur nos données
-  aujourd'hui. 4 se suppose, valeur, et contient deux hypothèses : que Rémi change sa tournée
+  aujourd'hui. 4 se suppose, valeur, et contient deux hypothèses : que Régis change sa tournée
   (comportement), et que cela réduit le temps vide (lien avec l'objectif produit, qui, pour
   Scrum.org, est lui-même une hypothèse, concept 2). Suite : on ne tranche aucune des trois,
   on cherche comment les vérifier au moindre coût (17b). Nuance : 4 dépend aussi de ce qu'est une station
@@ -163,7 +163,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
     « qui l'a vérifié, sur quelles données ? » ;
   - trancher 3 (« évidemment, la pluie compte ») : c'est plausible, et c'est encore une
     supposition ; le PO ne la tranche pas, il la fait vérifier ;
-  - voir dans 4 une seule hypothèse : demander « et si Rémi y va plus tôt, est-on sûr que la
+  - voir dans 4 une seule hypothèse : demander « et si Régis y va plus tôt, est-on sûr que la
     mesure de résultat baisse ? » ;
   - réponse juste sans la suite (le tri seul) : demander « et alors, on fait quoi des trois
     suppositions ? » ; réponse elliptique (« 1 sait, le reste non ») : faire préciser le risque
@@ -172,7 +172,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   c'est une hypothèse. Puis, pour ranger : « si c'est faux, on ne sait pas le construire
   (faisabilité), ou on le construit pour rien (valeur) ? ».
 
-### De quoi dépend la story de Rémi ? (17a, en rechange)
+### De quoi dépend la story de Régis ? (17a, en rechange)
 - **Explication** : à poser après une réponse fausse ou pour « exercice », sans rappeler les
   deux risques : la question les fait retrouver.
 - **Situation** : la story est écrite : « En tant que régulateur, je veux voir les stations du
@@ -181,7 +181,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 - **Question** : de quoi cette story suppose-t-elle la vérité pour apporter quelque chose,
   que personne n'a encore vérifié ?
 - **Réponse attendue** : la story peut être claire et reposer sur des suppositions. Valeur :
-  que Rémi ait le temps d'y aller et change sa tournée ; que des stations moins longtemps vides
+  que Régis ait le temps d'y aller et change sa tournée ; que des stations moins longtemps vides
   en résultent (objectif produit). Faisabilité : qu'on sache prévoir assez tôt avec les données
   qu'on a (les relevés ; la pluie, non collectée). Suite : nommer ces hypothèses avant le
   Sprint Planning (concept 15), et proposer de vérifier celle qui pèse le plus (17b). Clarté
@@ -189,7 +189,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 - **Erreurs fréquentes** :
   - répondre sur la forme de la story (« il manque des critères ») : juste, mais la question
     porte sur ce qu'elle suppose ;
-  - ne voir que la technique : demander « et si la prévision est parfaite, que fait Rémi ? ».
+  - ne voir que la technique : demander « et si la prévision est parfaite, que fait Régis ? ».
 - **Ce qui marche** : « si on la livre demain et qu'elle ne sert à rien, quelle phrase était
   fausse ? ».
 
@@ -213,9 +213,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   (dans cet exercice, deux jours) ; c'est elle qui dit ce qu'il lui faut, le PO ne l'estime pas.
   Ce qu'on décidera : si oui, on construit la prévision par la tendance (morceau c du concept
   9b) ; si non, on cherche d'autres données ou on revoit la tranche ; dans les deux cas, on ne
-  livre pas l'exploration à Rémi. Ce qui compte comme « oui » (combien de stations repérées,
+  livre pas l'exploration à Régis. Ce qui compte comme « oui » (combien de stations repérées,
   avec combien d'avance) se dit aussi avant : c'est le seuil qui juge l'exploration ; le PO ne
-  le chiffre pas, il le fait dire par Étienne et Rémi (« combien d'avance vous faut-il, pour
+  le chiffre pas, il le fait dire par Étienne et Régis (« combien d'avance vous faut-il, pour
   combien de stations, pour que ça vaille la peine ? »), comme toute règle métier (8a2). Il ne
   se confond pas avec le niveau exigé de la fonction livrée, fixé après (17c). Nuances : « se
   vider » suppose ce qu'est une station vide, non fixé (règle à faire fixer, 8a2) ; Anna peut le
@@ -228,14 +228,14 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   - « si oui, on construit » sans dire ce qu'est un « oui » : demander « oui à partir de quoi,
     et qui le sait ? » ; si l'apprenant chiffre lui-même le seuil, lui faire dire qui le fixe ;
   - fixer la durée seul (« deux jours, ça suffit ») : la durée se décide avec qui explore ;
-  - attendre de l'exploration une fonction (« et à la fin, Rémi a sa prévision ») : elle livre
+  - attendre de l'exploration une fonction (« et à la fin, Régis a sa prévision ») : elle livre
     une réponse ; la fonction est une autre story ;
   - écrire la question sans la décision : demander « et si la réponse est non, que fais-tu ? » ;
   - réponse elliptique (« il faut la borner ») : faire dire quoi borner, et comment.
 - **Ce qui marche** : faire écrire en trois lignes « question / durée / si oui, si non » ; si
   les deux branches donnent la même suite, montrer que l'exploration ne sert à rien.
 
-### Rémi ira-t-il plus tôt ? (17b2)
+### Régis ira-t-il plus tôt ? (17b2)
 - **Explication** : on choisit la façon d'explorer selon l'hypothèse, en pesant ce qu'elle
   coûte et ce qu'elle apprend (référentiel CSPO). Une analyse d'historique répond à une question de
   faisabilité sur des données qu'on a déjà. Pour la valeur, Cagan (choix d'école) distingue plusieurs
@@ -244,35 +244,35 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   montre si l'idée marche. Le MVP au sens de Ries est une autre manière d'apprendre au moindre
   coût (concept 16b).
 - **Situation** : Anna a commencé son exploration de l'historique. Dana : « Pour savoir si
-  Rémi ira plus tôt, Anna n'a qu'à regarder aussi dans l'historique. » Diego : « Demandons-lui
+  Régis ira plus tôt, Anna n'a qu'à regarder aussi dans l'historique. » Diego : « Demandons-lui
   simplement s'il s'en servirait. »
-- **Question** : l'historique ou la question à Rémi répondent-ils à « Rémi ira-t-il plus
+- **Question** : l'historique ou la question à Régis répondent-ils à « Régis ira-t-il plus
   tôt ? », et sinon, que proposes-tu ?
 - **Réponse attendue** : non, ni l'un ni l'autre ne suffit. L'historique montre les vélos, pas
-  ce que Rémi ferait avec une prévision qu'il n'a jamais eue. La question à Rémi apprend
+  ce que Régis ferait avec une prévision qu'il n'a jamais eue. La question à Régis apprend
   quelque chose (ce qu'il en attend, ce qui l'en empêcherait), mais un « oui » ne prouve pas
   qu'il changera sa tournée. Proposition : un prototype sur les vrais relevés, simple et
   jetable (dans cet exercice, une liste des stations à risque calculée par la tendance,
-  envoyée à Rémi pendant quelques jours), et regarder ce qu'il en fait, avec Étienne qui
+  envoyée à Régis pendant quelques jours), et regarder ce qu'il en fait, avec Étienne qui
   envoie les régulateurs. C'est le PO qui pose la question et organise l'essai avec Étienne et
-  Rémi ; les Developers construisent le prototype. Nuance : ce prototype suppose que la
+  Régis ; les Developers construisent le prototype. Nuance : ce prototype suppose que la
   tendance donne quelque chose (17b1) ; on peut attendre la réponse d'Anna, ou accepter qu'il
-  se trompe et observer quand même le comportement de Rémi. Ce prototype n'est pas le
+  se trompe et observer quand même le comportement de Régis. Ce prototype n'est pas le
   morceau c du concept 9b : il ne remplit pas la DoD et se jette ; il sert à savoir si le
-  morceau c vaut d'être construit. L'exploration de 17b1 ne se livre pas à Rémi ; le
+  morceau c vaut d'être construit. L'exploration de 17b1 ne se livre pas à Régis ; le
   prototype, lui, est fait pour qu'il s'en serve quelques jours.
 - **Erreurs fréquentes** :
-  - « Rémi a dit oui, donc c'est vérifié » : demander « et s'il dit oui puis ne s'en sert
+  - « Régis a dit oui, donc c'est vérifié » : demander « et s'il dit oui puis ne s'en sert
     pas ? » ;
   - construire la prévision complète pour voir : la façon la plus chère d'apprendre ;
-  - décider soi-même que Rémi ira plus tôt (« c'est son métier ») : c'est la valeur supposée,
+  - décider soi-même que Régis ira plus tôt (« c'est son métier ») : c'est la valeur supposée,
     à vérifier ;
   - réponse juste sans la suite (« il faut tester avec lui ») : demander « comment, et qui fait
     quoi ? » ;
   - « l'historique le dira », ou « je fais la requête moi-même » (profil data) : demander
-    « l'historique montre-t-il ce que Rémi ferait avec une prévision qu'il n'a jamais eue ? »,
+    « l'historique montre-t-il ce que Régis ferait avec une prévision qu'il n'a jamais eue ? »,
     puis rappeler que le PO pose la question, les Developers explorent (17b1).
-- **Ce qui marche** : « qu'est-ce qui te montrerait, sans le lui demander, que Rémi va plus
+- **Ce qui marche** : « qu'est-ce qui te montrerait, sans le lui demander, que Régis va plus
   tôt aux stations ? ».
 
 ### Le critère à 90 % (17c)
@@ -283,9 +283,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   qu'on peut atteindre, pas avant (choix du cours). Il se fait fixer par l'utilisateur
   concerné, qui pèse deux erreurs : une fausse alerte (une camionnette envoyée pour rien) et une
   station vide manquée. Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce
-  qui comptait comme « oui » pour l'exploration, dit avant par Étienne et Rémi pour savoir si on
+  qui comptait comme « oui » pour l'exploration, dit avant par Étienne et Régis pour savoir si on
   continue (17b1).
-- **Situation** : avant toute exploration, Dana propose pour la story de Rémi ce critère :
+- **Situation** : avant toute exploration, Dana propose pour la story de Régis ce critère :
   « Then la prévision annonce au moins 90 % des stations qui vont se vider. » Elle ajoute :
   « 90 %, c'est le standard. »
 - **Question** : qu'est-ce qui ne va pas dans ce critère, et que proposes-tu à la place ?
@@ -296,7 +296,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   de camionnettes envoyées pour rien ; il faut aussi les fausses alertes. Proposition : un
   critère de la forme « rejouée sur une part de l'historique mise de côté, la prévision repère à
   l'avance au moins N stations vides sur 10, avec au plus M fausses alertes », N et M fixés par
-  Étienne et Rémi après l'exploration d'Anna, qui montre ce qu'on peut atteindre. Nuances : «
+  Étienne et Régis après l'exploration d'Anna, qui montre ce qu'on peut atteindre. Nuances : «
   vont se vider » ne se teste pas tel quel (sur quoi le mesure-t-on ?), d'où la forme rejouée
   sur l'historique ; « station vide » et le temps d'avance utile sont aussi à faire fixer ; le
   PO apporte le compromis, il ne choisit pas N et M.
@@ -320,18 +320,18 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   avec 1 fausse alerte pour 5 alertes ; le second en repère 9 sur 10, avec 1 fausse alerte sur
   2. Dana : « Prenons le second, il en rate moins. »
 - **Question** : que fais-tu de ces chiffres avant le Sprint Planning ?
-- **Réponse attendue** : le PO ne choisit pas : il porte le compromis à Étienne et Rémi, dans
+- **Réponse attendue** : le PO ne choisit pas : il porte le compromis à Étienne et Régis, dans
   leurs mots (« avec le second, une tournée sur deux pour rien ; avec le premier, 4 stations
   vides sur 10 que vous ne verrez pas venir »), et leur fait fixer le niveau, qui devient le
   critère d'acceptation. Dana a raison sur un point : le second en rate moins ; mais il envoie
-  plus souvent la camionnette pour rien, et c'est à Étienne et Rémi de peser. Nuance : un niveau
+  plus souvent la camionnette pour rien, et c'est à Étienne et Régis de peser. Nuance : un niveau
   entre les deux réglages est peut-être possible, à demander à Anna ; aucun ne fixe ce qu'est
   une station vide, toujours à faire fixer.
 - **Erreurs fréquentes** :
   - choisir à la place d'Étienne (« le premier, les camionnettes coûtent cher ») : demander
     « qui le sait ? » ;
   - lire « 9 sur 10 » comme « juste 9 fois sur 10 » : ce n'est qu'un des deux chiffres.
-- **Ce qui marche** : faire traduire chaque réglage en une journée de Rémi.
+- **Ce qui marche** : faire traduire chaque réglage en une journée de Régis.
 
 ### Presque vide d'après l'historique (17c, en rechange)
 - **Explication** : le seuil « presque vide » suit la même logique : l'exploration l'éclaire,
@@ -373,7 +373,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   les fausses alertes et les cas manqués.
 - **Croire que l'exploration fixe une règle** (le seuil « presque vide ») : elle l'éclaire.
 - **Mêler les deux seuils** : ce qui compte comme « oui » pour l'exploration, dit avant par
-  Étienne et Rémi (17b1) ; le niveau exigé de la fonction, fixé après (17c). Le PO ne chiffre ni
+  Étienne et Régis (17b1) ; le niveau exigé de la fonction, fixé après (17c). Le PO ne chiffre ni
   l'un ni l'autre.
 
 ## Le test rapide
@@ -384,7 +384,7 @@ pas séparé ce qu'il sait de ce qu'il suppose.
 ## Schéma
 Trois panneaux.
 1. **Savoir ou supposer (17a)** : deux colonnes, « on sait » et « on suppose » ; la colonne de
-   droite coupée en deux bacs, « valeur » (Rémi s'en servira-t-il ? cela sert-il l'objectif
+   droite coupée en deux bacs, « valeur » (Régis s'en servira-t-il ? cela sert-il l'objectif
    produit ?) et « faisabilité » (peut-on le construire ? avec quelles données ?). Les quatre
    phrases de 17a posées en cartes. Légende : « qui l'a vérifié ? ».
 2. **L'exploration bornée (17b)** : une boîte dont la largeur est la durée, fixée avant ; une
@@ -392,7 +392,7 @@ Trois panneaux.
    non » vers deux décisions. Au-dessus, « le PO pose la question » ; dans la boîte, « Anna
    explore ». Légende : « une réponse, pas une fonction ».
 3. **Accepter l'incertain (17c)** : une balance ; sur un plateau, « camionnette envoyée pour
-   rien », sur l'autre, « station vide manquée » ; sous la balance, Étienne et Rémi qui fixent le
+   rien », sur l'autre, « station vide manquée » ; sous la balance, Étienne et Régis qui fixent le
    niveau ; à gauche, une flèche du temps avec « exploration » puis « niveau fixé », dans cet
    ordre. Légende : « l'exploration montre ce qu'on peut atteindre, l'utilisateur fixe ce qu'il
    exige ».

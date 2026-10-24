@@ -76,7 +76,7 @@ du retard (13). Pas encore enseignés, nommés avec renvoi : Sprint Planning et 
 
 ## Banque d'exemples
 
-Faits du fil rouge utilisés : les acteurs (Étienne, Rémi, Théo, Maud, Abba, Charlotte, Odile,
+Faits du fil rouge utilisés : les acteurs (Étienne, Régis, Théo, Maud, Abba, Charlotte, Odile,
 Pia, Sid, Scarlette) et l'équipe vélos (Dana, Diego, Anna) ; Odile est sponsor de la plateforme,
 dont elle porte le budget ; Scarlette est Scrum Master de l'équipe vélos et de l'équipe appli ; la
 collectivité finance le service, Charlotte la représente et présente un bilan au conseil, une fois
@@ -101,10 +101,10 @@ ils ne deviennent pas des faits du fil rouge.
   cumuler plusieurs. Choix d'école : la grille pouvoir et intérêt, souvent attribuée à Mendelow
   (attribution discordante), classe ensuite chacun selon son pouvoir et son intérêt.
 - **Situation** : un nouvel arrivant demande qui sont les parties prenantes de la plateforme.
-  Anna, analyste, répond : « Étienne, Rémi, Théo, Maud, Abba, Charlotte, Odile et Scarlette. »
+  Anna, analyste, répond : « Étienne, Régis, Théo, Maud, Abba, Charlotte, Odile et Scarlette. »
 - **Question** : corrige la liste d'Anna et range chacun dans une catégorie.
 - **Réponse attendue** :
-  - utilisateurs : Étienne, Rémi, Théo, Maud, Abba (servie par un canal de l'équipe appli) ;
+  - utilisateurs : Étienne, Régis, Théo, Maud, Abba (servie par un canal de l'équipe appli) ;
     Charlotte et l'équipe appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
   - financeur : la collectivité, que représente Charlotte ;
   - sponsor : Odile, qui porte le budget de la plateforme ;
@@ -328,7 +328,7 @@ Trois panneaux.
 1. **Qui sont-elles (14a)** : la plateforme au centre, comme un tuyau de gauche à droite. À
    gauche, en amont, les fournisseurs de données (DSI et Sid, équipe appli, collectivité),
    reliés par des flèches de données entrantes. À droite, en aval, les utilisateurs (Étienne,
-   Rémi, Théo, Maud, Abba, Charlotte, l'équipe appli). Au-dessus, ceux qui paient :
+   Régis, Théo, Maud, Abba, Charlotte, l'équipe appli). Au-dessus, ceux qui paient :
    financeur (la collectivité) et sponsor (Odile). À côté, l'équipe voisine (équipe appli,
    Pia). L'équipe appli et la collectivité apparaissent à plusieurs endroits, reliées par un
    pointillé. Légende : « en amont, ceux qu'on oublie ».
