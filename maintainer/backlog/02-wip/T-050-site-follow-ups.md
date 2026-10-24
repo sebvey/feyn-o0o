@@ -19,7 +19,7 @@
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (proposé) ;
   - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (proposé, dépend de T-050d) ;
-  - T-050h : écrire le cahier des charges de la relecture du cours (proposé) ;
+  - T-050h : écrire les contrôles de qualité du cours (proposé) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
 - **Fini quand** : les sous-tickets sont clos et T-049 est clos avec eux.
