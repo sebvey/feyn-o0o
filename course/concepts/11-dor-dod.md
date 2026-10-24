@@ -28,7 +28,8 @@ le Scrum Guide, la DoR non.
     Developers la respectent ; la rétrospective l'inspecte ;
   - le Scrum Guide ne parle ni de story, ni de critère d'acceptation, ni de DoR. Il dit qu'un
     élément que l'équipe peut finir en un sprint est prêt à être choisi au Sprint Planning, et
-    qu'il le devient en général après avoir été précisé.
+    qu'il le devient en général après avoir été précisé ; l'équipe peut encore le préciser
+    pendant le Sprint Planning.
 - **Consensus** (pratique établie, hors du Scrum Guide) : distinguer DoD et critère d'acceptation. Mike Cohn
   voit la DoD comme des critères ajoutés à chaque story ; les critères d'acceptation sont
   propres à une story.
@@ -38,7 +39,9 @@ le Scrum Guide, la DoR non.
     équipe d'entrepôt de données) : détection des erreurs de données, documentation à jour ;
   - écrire une DoR : pratique née chez des praticiens vers 2008-2009 ; son premier auteur est
     discuté, ne l'attribuer à personne. Le terme « ready-ready » (prêt pour de bon), face à
-    « done-done », est celui de l'entreprise Systematic ;
+    « done-done », est celui de l'entreprise Systematic. Mike Cohn en cite des conditions
+    typiques : critères d'acceptation identifiés, taille qui tient dans un sprint, dépendances
+    externes levées ;
   - le risque d'une DoR trop stricte, selon Mike Cohn : elle devient une barrière à franchir
     avant chaque sprint, qui ramène au cycle en cascade ; il conseille des repères plutôt que
     des règles, avec une exception possible : certaines dépendances envers une autre équipe ou
@@ -236,7 +239,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 ## Pièges
 - **Recopier la même exigence dans les critères de chaque story** (par exemple une relecture
   par un second Developer) : elle va dans la DoD.
-- **Mettre dans la DoD ce qui est propre à une story** : c'est un critère d'acceptation.
+- **Mettre dans la DoD ce qui est propre à une story** : c'est un critère d'acceptation (cas
+  inventé : « la liste des vélos signalés est triée du signalement le plus ancien au plus
+  récent »).
 - **Prendre une règle métier pour une exigence de la DoD** parce qu'elle vaut pour plusieurs
   stories : la règle dit une vérité du domaine (concept 8), la DoD une exigence de qualité sur
   le travail.

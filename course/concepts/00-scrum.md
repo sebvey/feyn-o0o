@@ -107,7 +107,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   et du backlog : objectif produit, éléments, ordre ; c'est une seule personne, pas un comité.
   Les Developers réalisent l'incrément : ils font le plan du sprint, l'adaptent chaque jour et
   respectent la Definition of Done (DoD), les exigences de qualité de l'équipe, vue en 0a3. Le Scrum Master répond de l'efficacité de l'équipe, et aide notamment à
-  lever les obstacles ; il n'est pas le chef de l'équipe.
+  lever les obstacles ; il n'est pas le chef de l'équipe. Dans l'équipe vélos, les Developers
+  sont Dana et Diego (data engineers) et Anna (analyste) ; Scarlette, la Scrum Master, l'est
+  aussi de l'équipe appli.
 - **Situation** : Étienne (responsable d'exploitation) relance Scarlette, la Scrum Master, sur la vue
   des vélos en panne. Scarlette, qui anime les événements de l'équipe, la remonte en tête du
   backlog.
@@ -130,7 +132,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Ce qui marche** : pour chaque rôle, demander « de quoi répond-il ? ».
 
 ### Le sprint raconté par Diego (0a2)
-- **Explication** : le sprint contient quatre événements, chacun avec son but. Sprint
+- **Explication** : un sprint a une durée fixe, d'un mois au plus ; un sprint plus court donne
+  plus de cycles d'apprentissage. L'équipe vélos travaille en sprints de deux semaines, ce qui
+  est conforme. Le sprint contient quatre événements, chacun avec son but. Sprint
   Planning : le PO propose comment le sprint peut augmenter la valeur, l'équipe fixe l'objectif
   de sprint, les Developers choisissent les éléments avec le PO et font leur plan. Daily Scrum,
   15 minutes : les Developers font le point sur l'avancement vers l'objectif de sprint. Revue de
@@ -177,6 +181,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprint (objectif de sprint, éléments choisis, plan des Developers) a pour engagement
   l'objectif de sprint, l'objectif unique du sprint (concept 15). L'incrément a pour engagement
   la Definition of Done, la description de l'état que doit atteindre l'incrément (concept 11).
+  Les engagements n'ont pas la même durée de vie : l'objectif produit et la DoD valent d'un
+  sprint à l'autre (la rétrospective peut faire évoluer la DoD), l'objectif de sprint ne vaut
+  que pour un sprint.
 - **Situation** : l'objectif produit de l'équipe vélos : « Que les stations du centre-ville
   restent le moins longtemps possible vides aux heures de pointe, grâce à des données à jour pour
   l'exploitation. » La DoD de l'équipe vélos exige notamment que chaque vue affiche l'heure de

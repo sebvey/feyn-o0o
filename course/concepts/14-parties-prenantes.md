@@ -44,7 +44,8 @@ ordre.
   - le sponsor comme voie d'escalade pour ce qui dépasse le responsable : pratique de gestion de
     projet (PMI), transposée par le cours au PO et au produit.
 - **Choix du cours** (sans source externe, à présenter comme tel) : les cinq catégories de 14a ;
-  la formule « dire non, c'est dire pas maintenant » ; l'ordre des démarches (d'abord la
+  la formule « dire non, c'est dire pas maintenant » ; revoir l'ordre sur un fait nouveau, qui
+  n'est pas céder mais ordonner ; l'ordre des démarches (d'abord la
   personne concernée, puis l'escalade : le Scrum Master, le sponsor) et le moment de passer à la
   suivante ; la dépendance bloquée chez une autre équipe traitée comme un obstacle.
 
@@ -52,7 +53,10 @@ ordre.
 1. **14a qui sont-elles** : élargir la définition de 1b sans la répéter. Cinq catégories :
    utilisateurs, financeur, sponsor, équipes voisines, fournisseurs de données ; un même acteur
    peut en cumuler plusieurs. L'équipe Scrum n'en fait pas
-   partie. La grille pouvoir et intérêt se nomme comme choix d'école, sans l'enseigner
+   partie. Un fournisseur n'est pas forcément interne à l'opérateur : la météo (pluie, par
+   heure), source envisagée et pas encore collectée, viendrait d'un service externe, dont le
+   produit dépendrait pour cette donnée sans que ce service lui demande rien. La grille pouvoir
+   et intérêt se nomme comme choix d'école, sans l'enseigner
    (« La liste d'Anna »).
 2. **14b arbitrer et dire non avec l'objectif produit** : la question porte sur la
    conversation, pas sur l'ordre, argumenté au concept 13 et qu'on ne refait pas (« Charlotte

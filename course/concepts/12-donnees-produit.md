@@ -55,7 +55,8 @@ l'accès ne s'obtient pas, ou s'obtient trop large.
    dimension ; elle va dans la DoD si elle vaut pour toute story (le test des relevés en double,
    concept 11a), dans un critère si elle est propre à une story, dans la définition de
    l'indicateur si elle le concerne (par exemple sa fraîcheur). Une limite de la source n'est
-   pas un défaut que la plateforme corrige : elle s'écrit et se montre. Exemple principal :
+   pas un défaut que la plateforme corrige : elle s'écrit et se montre. Un relevé en double
+   relève de l'unicité : on le mesure par un taux de relevés en double. Exemple principal :
    « Les signalements par téléphone ». En rechange, ou pour « exercice » : « Des chiffres
    fiables, dit Charlotte ».
 3. **12c accès et données personnelles** : demander les colonnes nécessaires à une finalité
@@ -320,14 +321,19 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 - **Mettre la définition dans les critères d'une story** : elle vaut partout où l'indicateur est
   publié ; deux stories qui le publient, chacune dans sa vue, doivent prendre la même.
 - **Une exigence de qualité vague** (« fiable », « propre ») : la traduire en règles mesurables,
-  par dimension, au niveau que l'utilisateur demande.
+  par dimension, au niveau que l'utilisateur demande. Pour y arriver, lui demander ce qui le
+  ferait douter d'un chiffre.
 - **Prendre une limite de la source pour un défaut à corriger** : la plateforme ne crée pas ce que la
-  source n'envoie pas ; elle écrit la limite et la montre.
+  source n'envoie pas ; elle écrit la limite et la montre. Si l'usage exige davantage, la
+  question va au propriétaire de la source (dépendance envers une autre équipe, concept 10b2).
 - **Tout ranger dans la DoD** : ce qui ne vaut que pour un indicateur va dans sa définition, ce
   qui ne vaut que pour une story dans ses critères.
-- **Demander toute la table « au cas où »** : sans finalité, pas de colonne.
+- **Demander toute la table « au cas où »** : sans finalité, pas de colonne. Une finalité se
+  dit avant d'utiliser les données, pas après ; une nouvelle finalité fait une nouvelle
+  demande. La finalité borne aussi les lignes : une période utile, pas tout l'historique.
 - **Croire qu'un identifiant n'est pas une donnée personnelle** : une donnée pseudonymisée
-  reste personnelle pour qui peut la rattacher à une personne.
+  reste personnelle pour qui peut la rattacher à une personne, par exemple parce qu'il détient
+  le fichier qui relie les identifiants aux personnes.
 - **Faire le juriste** : le PO sait quoi demander et pourquoi ; la règle de droit relève du
   délégué à la protection des données, s'il y en a un.
 

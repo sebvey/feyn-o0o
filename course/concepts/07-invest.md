@@ -45,16 +45,25 @@ coche pas.
      de Scrum. E et S se jugent avec les Developers. Pour S, dire lequel est lequel : quelques
      semaines-personnes (Wake), quelques jours-personnes (certaines équipes), un sprint (repère
      du cours, concept 4). En rechange, ou si l'apprenant donne S en jours : « Huit jours, trop gros ? ».
+     Pour V, Wake dit « le client » ; « l'utilisateur » est la lecture du cours. L'Agile Alliance
+     glose ce V par « valuable (or vertical) » : le découpage vertical vient au concept 9.
    - **7a2** Le mot flou (« Heures de pointe ») : quand E, S et T restent douteux ensemble, un
      même mot n'est pas fixé ; on ne coche pas « OK », on cherche ce mot. Ni le PO ni les
      Developers ne le fixent : le PO le fait préciser par l'utilisateur concerné avant le
-     sprint (concept 15), et la story attend (concept 4).
+     sprint (concept 15), et la story attend (concept 4). Mots flous typiques (exemples inventés) :
+     « rapidement », « récent », « important ». Un seul mot flou peut faire douter des trois
+     lettres. Pour le repérer : un testeur qui ne connaît que la story peut-il dire « fait » ou
+     « pas fait » sans rien demander ? Le mot qui l'oblige à poser une question est le mot flou.
 2. **7b N : besoin ou solution, une contrainte va dans un critère** : la story fixe le besoin ;
    les détails de la solution (la forme, l'outil) se construisent avec l'équipe, jusque pendant la
    réalisation. Négociable ne veut pas dire tout ouvert : une contrainte réelle ne se négocie
    pas, et elle s'écrit dans un critère d'acceptation, sans nommer de solution. L'écriture des
    critères vient au concept 8. Exemple éprouvé : « Le SMS d'Abba ». Si la réponse est juste
-   du premier coup : « Le canal dans le critère ».
+   du premier coup : « Le canal dans le critère ». Une contrainte est une exigence réelle de
+   l'usage ; elle n'est pas une solution, car plusieurs solutions peuvent la respecter. Exemple
+   inventé : un régulateur consulte une vue depuis sa camionnette, sur un petit écran. « Se lire sur
+   un petit écran » est une contrainte, qui va dans un critère ; un tableau, une liste ou une carte
+   sont des solutions, que l'équipe peut proposer.
 
 ## Banque d'exemples
 

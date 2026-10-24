@@ -55,10 +55,14 @@ L'**objectif produit** est la cible à long terme de l'équipe : un état futur 
    change chez l'utilisateur grâce à lui. Un livrable terminé rend la valeur possible, il ne la
    prouve pas. Un indicateur calculé par la plateforme est un livrable, même quand il sert de
    mesure. La satisfaction d'un utilisateur est une perception, utile en complément : elle ne
-   dit pas seule si le résultat est obtenu.
+   dit pas seule si le résultat est obtenu. Exemple : Maud fixe chaque semaine le nombre de
+   techniciens en tournée et demande le nombre de vélos en panne par semaine ; le calculer est
+   un livrable, et si Maud ajuste ses tournées à partir de ce chiffre, c'est un changement de
+   comportement, le début du résultat.
 2. **2b l'objectif produit** : état futur du produit, cible à long terme, un seul à la fois,
    dans le backlog, porté par le PO (consensus). Il vise un résultat, pas une liste de livrables
-   ni une caractéristique du livrable. Accoler un second objectif au premier disperse l'équipe. La vision, plus lointaine et
+   ni une caractéristique du livrable. Sans cible chiffrée, il est une direction : une mesure dit
+   si on s'en approche, pas qu'il est atteint. Accoler un second objectif au premier disperse l'équipe. La vision, plus lointaine et
    souvent aspirationnelle, est un choix d'école : le dire.
 3. **2c choisir une mesure de résultat** : partir de l'objectif, chercher le signal qui montre
    qu'on s'en approche, puis la mesure ; écarter ce qui mesure le livrable, l'usage seul ou un

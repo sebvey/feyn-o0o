@@ -44,7 +44,9 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
 1. **6a l'acteur de la story** : un rôle, pas un prénom ni « utilisateur » par défaut. Test :
    celui qui fait l'action du « je veux » est-il celui qui gagne le « afin de » ? Deux pièges :
    l'acteur technique (celui qui construit, annoncé au concept 5) et la valeur d'un autre rôle
-   dans le « afin de ». Le PO vérifie l'acteur auprès des utilisateurs.
+   dans le « afin de ». Le PO vérifie l'acteur auprès des utilisateurs. Exemple du fil rouge de
+   deux rôles aux actions différentes : Étienne, responsable d'exploitation, envoie les régulateurs
+   vers les stations ; Régis, régulateur, conduit la camionnette et redistribue les vélos.
    Un message, avec « Théo ou Maud ? ». Rechange : « Diego, acteur de sa story ? » (acteur
    technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
    sur la vérification.

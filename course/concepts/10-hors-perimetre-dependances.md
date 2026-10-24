@@ -37,7 +37,8 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
 - **Choix du cours** (sans source externe, à présenter comme tel) : ne mettre hors périmètre que
   les demandes plausibles ; quand la story dont l'autre dépend a une valeur seule, garder les
   deux et les ordonner plutôt que les fusionner ; entre deux produits, chacun avec son PO,
-  s'accorder entre PO sur l'ordre dans les deux backlogs (le Scrum Guide ne traite pas ce cas).
+  s'accorder entre PO sur l'ordre dans les deux backlogs (le Scrum Guide ne traite pas ce cas :
+  il fait partager le PO et le backlog aux équipes d'un même produit).
 
 ## Sous-concepts
 1. **10a hors périmètre**, en deux messages ; on ne passe à 10b qu'après les deux :
@@ -217,6 +218,8 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 - **Ne rien écrire hors périmètre** : chacun comble les silences avec ses attentes, et la revue
   tourne à la dispute sur ce qui était prévu.
 - **Lister des évidences ou des tâches** : le hors périmètre ne sert qu'aux demandes plausibles.
+  Cas inventé : « Hors périmètre : réécrire les systèmes sources » n'apprend rien à personne.
+  Une ligne vague (« le reste ») est aussi à éviter : on ne sait plus ce qui est exclu.
 - **Prendre le hors périmètre pour un refus** : chaque ligne reste une demande, qui va au
   backlog.
 - **Traiter aussitôt une demande sortie du hors périmètre** : elle entre au backlog et le PO
@@ -225,7 +228,8 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 - **Fusionner deux stories pour supprimer une dépendance saine** : on retarde la valeur de la
   première. La fusion se défend si la story fusionnée reste petite.
 - **Accepter deux stories dont aucune n'a de valeur seule** : ce sont souvent des tranches
-  horizontales ; on redécoupe en tranches verticales (concept 9).
+  horizontales ; on redécoupe en tranches verticales (concept 9). Cas inventé : « préparer les
+  relevés », puis « afficher les relevés ».
 - **Livrer sa part d'une dépendance envers une autre équipe et s'arrêter là** : l'utilisateur
   n'est pas servi ; s'accorder avec le PO de l'autre équipe.
 - **Ordonner le backlog d'une autre équipe à sa place**, ou escalader avant de lui parler : on

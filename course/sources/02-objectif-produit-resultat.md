@@ -71,7 +71,7 @@ pas de source. Les sections entre parenthèses sont celles du modèle de fichier
 | Une mesure mal définie trompe sans que personne la force ; la définition d'un indicateur se travaille au concept 12 (Pièges) | [S13] | Raisonnement du cours ; « vélo disponible » (à quai et louable) est une règle fixée du fil rouge ; la définition de « vide » dans la mesure ne l'est pas |
 | Qualité des données : respect de règles mesurables comme la complétude ou la fraîcheur (glose de Consensus et choix d'école) | glossaire du cours | Définition du glossaire (« Qualité des données », concept 12) |
 | Hypothèse : ce qu'on tient pour vrai sans l'avoir vérifié (glose de Consensus et choix d'école) | glossaire et plan du cours | Définition d'usage du cours, concept 17 ; pas une citation |
-| L'objectif produit retenu est une direction : sans cible chiffrée, une mesure dit si on s'en approche, pas qu'il est atteint (Banque d'exemples, Réponse attendue ; hors L'essentiel) | [S1], [S6] | SG : l'objectif produit est « a target for the Scrum Team to plan against » ; Scrum.org le veut « measurable » ; la cible chiffrée n'est pas fixée dans le fil rouge |
+| L'objectif produit retenu est une direction : sans cible chiffrée, une mesure dit si on s'en approche, pas qu'il est atteint (Sous-concepts 2b ; Banque d'exemples, Réponse attendue ; hors L'essentiel) | [S1], [S6] | SG : l'objectif produit est « a target for the Scrum Team to plan against » ; Scrum.org le veut « measurable » ; la cible chiffrée n'est pas fixée dans le fil rouge |
 
 ## Références
 

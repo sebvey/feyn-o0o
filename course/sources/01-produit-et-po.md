@@ -25,7 +25,8 @@ concept: 1
 | Le PO répond de la valeur et de l'ordre même quand le travail est délégué ; avec un vote ou deux PO, personne n'en répondrait (Banque, vote et deux PO) | [S1] | Conséquence de « one person, not a committee » et de « the Product Owner remains accountable » ; le raisonnement sur le vote et sur deux PO est celui du cours |
 | Plusieurs équipes sur un même produit partagent le même PO (Banque, deux PO) | [S1] | « each focused on the same product. Therefore, they should share the same Product Goal, Product Backlog, and Product Owner. » Section « Scrum Team ». Relu le 2026-10-22 |
 | Au Sprint Planning, le PO propose comment le sprint peut augmenter la valeur du produit (Banque, travail du sprint) | [S1] | « The Product Owner proposes how the product could increase its value and utility in the current Sprint. » Que l'équipe prenne « sans doute les quatre premiers » est une illustration du cours |
-| Partie prenante : terme défini en une ligne au concept 1, développé au concept 14 (1b) | [S1] | Le Scrum Guide emploie « stakeholders » sans le définir. La définition du glossaire (utilisateur, financeur, sponsor, équipe voisine) est celle du cours |
+| Partie prenante : terme défini en une ligne au concept 1, développé au concept 14 (1b) | [S1] | Le Scrum Guide emploie « stakeholders » sans le définir. La définition du glossaire (utilisateur, financeur, sponsor, équipe voisine, fournisseur de données) est celle du cours |
+| La valeur est ce que l'utilisateur ou l'organisation gagne (du temps, une meilleure décision, un risque évité) (Sous-concepts, 1a) | glossaire du cours | Définition du glossaire (« Valeur »), propre au cours ; le Scrum Guide parle de valeur sans la définir |
 
 ## Références
 | Réf. | Source (auteur, titre, date) | Lien | Type | Consultée le |

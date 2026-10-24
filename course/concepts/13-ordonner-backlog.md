@@ -50,10 +50,14 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
 
 ## Sous-concepts
 1. **13a ordonner, c'est décider**, en deux messages ; on ne passe à 13b qu'après les deux :
-   - **13a1** les quatre critères, face à l'objectif produit ; une demande sortie du hors
-     périmètre s'ordonne face au reste (« La story de blocage face à l'appli ») ;
-   - **13a2** ordonner quatre demandes et argumenter chaque place ; ce qui n'est pas prêt, ce
-     qui dépend d'autre chose, le risque de sécurité (« Les quatre demandes »).
+   - **13a1** les quatre critères, face à l'objectif produit : la valeur se mesure face à lui
+     (que les stations du centre-ville restent le moins longtemps possible vides aux heures de
+     pointe) ; une demande sortie du hors périmètre s'ordonne face au reste (« La story de
+     blocage face à l'appli ») ;
+   - **13a2** ordonner quatre demandes et argumenter chaque place ; ce qui n'est pas prêt (la
+     DoR de l'équipe vélos, 11b : critères d'acceptation écrits, règles métier fixées,
+     dépendances identifiées, accès aux données obtenu), ce qui dépend d'autre chose, le risque
+     de sécurité (« Les quatre demandes »).
 2. **13b valeur et coût du retard** (choix d'école) : comment le coût du retard évolue dans le
    temps (coût qui grandit chaque jour, valeur qui tombe après une échéance), sans chiffres
    inventés ; WSJF nommé (« Le blocage et le bilan au conseil »).
