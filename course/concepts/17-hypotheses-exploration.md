@@ -71,6 +71,7 @@ atteindre, par l'utilisateur qui en paie les erreurs.
   - une exploration se décide avant sur trois points : la question, la durée, ce qu'on décidera
     selon la réponse (la question et l'action viennent de Torres, la durée du spike) ;
   - le PO pose la question, les Developers explorent ;
+  - un prototype se jette : il n'est pas une story livrée et ne remplit pas la DoD (17b2) ;
   - deux seuils à ne pas mêler : le seuil qui juge l'exploration (ce qui compte comme « oui »), fixé avant, comme chez Torres, et que le PO fait dire par l'utilisateur concerné sans le chiffrer (17b1) ; le niveau qu'un critère
     d'acceptation exige de la fonction livrée, fixé après l'exploration qui montre ce qu'on
     peut atteindre. Appui, sans en faire un consensus : les guides de Google choisissent le
@@ -79,7 +80,13 @@ atteindre, par l'utilisateur qui en paie les erreurs.
 ## Sous-concepts
 1. **17a savoir ou supposer** : une affirmation qu'on n'a pas vérifiée est une hypothèse ; les
    quatre risques de Cagan nommés, le cours en retient deux (valeur, faisabilité, données
-   comprises) ; la question type fait trier des affirmations (« Prévoir les stations à risque :
+   comprises) ; pour ranger une supposition, se demander ce qui arrive si elle est fausse (on
+   ne sait pas le construire : faisabilité ; on le construit pour rien : valeur), et une même
+   phrase peut cacher les deux, par exemple (cas inventé, hors banque) « on enverra un SMS de
+   disponibilité, et les abonnés sans l'appli iront à une station où il reste des vélos »
+   (la disponibilité vient de la plateforme, le canal de l'équipe appli) : elle suppose
+   d'abord que le SMS arrive avec une disponibilité assez fraîche (faisabilité), puis que ces
+   abonnés changeront d'itinéraire (valeur) ; la question type fait trier des affirmations (« Prévoir les stations à risque :
    on sait ou on suppose ? »). En rechange : « De quoi dépend la story de Régis ? ».
 2. **17b explorer à moindre coût**, en deux messages :
    - **17b1** décider l'exploration avant : la question, la durée, ce qu'on décidera selon la

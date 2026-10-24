@@ -42,7 +42,13 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
    seul « je veux » ; s'il y en a plusieurs, ce n'est plus une story (feature ou epic,
    concept 4 ; un parcours, concept 16). Origine : XP, format de Connextra, absent du Scrum
    Guide. Les 3C : la carte (la phrase écrite) ne contient pas tout le besoin, la conversation
-   le précise, la confirmation dit comment vérifier.
+   le précise, la confirmation dit comment vérifier. La carte n'est donc pas à allonger : elle
+   reste courte, et le détail va dans la conversation et la confirmation.
+   Exemples du fil rouge : Régis, régulateur, veut savoir quelles stations vont se vider, pour y
+   aller avant : qui (le régulateur), quoi (connaître les stations qui vont se vider), pourquoi
+   (y aller avant). Abba veut savoir avant de partir s'il reste un vélo à sa station : la phrase
+   tient en une ligne ; ce qu'est « sa station » (celle qu'elle a choisie comme favorite) et la
+   fraîcheur visée (moins de 15 minutes) se précisent à côté, en conversation puis en critères.
    Découpe en deux messages : **5a1** les trois parties, avec « La demande de Maud » (« Une
    semaine de Maud » en rechange, ou si l'apprenant décrit un parcours) ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
    ligne. Chaque message a sa question.
@@ -51,7 +57,9 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
    solution. Le PO demande « pourquoi ? » à l'utilisateur, plusieurs fois, et s'arrête à une
    décision qu'il prend ou un gain qu'il reconnaît. Trop haut, la raison devient l'objectif
    produit ou une raison générale, commune à toutes les stories. Le PO n'invente pas la raison : il
-   la demande.
+   la demande. Exemple du fil rouge : pour la vue des stations vides, la raison qu'Étienne reconnaît
+   est d'envoyer les régulateurs plus tôt vers les stations qui se vident, une décision qu'il prend
+   chaque jour : c'est un bon point d'arrêt.
 
 ## Banque d'exemples
 

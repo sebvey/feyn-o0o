@@ -62,7 +62,9 @@ tranche qu'entre story et epic, pour un seul « je veux ».
    Cohn, une grosse story), qui se découpe (concept 9). Plusieurs, chacun utile seul : feature, et chaque « je veux » devient une story
    candidate. Plusieurs groupes (par exemple des moments différents de la journée d'un utilisateur), ou
    des « je veux » qu'on ne sait pas encore écrire : epic. Un « je veux » qui en contient
-   d'autres se déplie avant de compter.
+   d'autres se déplie avant de compter. Exemple du fil rouge : la journée d'Étienne (point du
+   matin, envoi des régulateurs, suivi des incidents, bilan du soir) compte plusieurs moments
+   distincts ; un besoin qui couvre toute sa journée est un epic, pas une story.
 
 ## Banque d'exemples
 
@@ -245,10 +247,15 @@ travail que l'utilisateur ne voit pas, pour réaliser une story : tâche, dans l
 Developers.
 
 ## Schéma
-Un arbre qui descend, sur un cas inventé pour l'illustration : à la racine, l'epic « Prévenir les
-vols » ; dessous, trois branches : « Alerter les agents » et « Retrouver les vélos » (features,
-chacune avec deux stories en feuilles), « Marquer un vélo volé » (story directement sous l'epic) ;
-sous une story, deux petites tâches grisées, légendées « plan des Developers, backlog de sprint ». Chaque
+Un arbre qui descend, sur un cas inventé pour l'illustration (des vols de vélos, qui ne sont pas
+un fait du fil rouge ni le cas d'un exercice) : à la racine, l'epic « Prévenir les vols » ;
+dessous, trois branches : « Alerter les agents » et « Retrouver les vélos » (features, chacune
+avec deux stories en feuilles), « Marquer un vélo volé » (story directement sous l'epic). Libellés
+fixés des cinq stories : « Détecter un vol probable » et « Alerter un agent » (sous « Alerter les
+agents ») ; « Localiser un vélo volé » et « Marquer un vélo retrouvé » (sous « Retrouver les
+vélos ») ; « Marquer un vélo volé » (sous l'epic). Sous la story « Détecter un vol probable »,
+deux petites tâches grisées, « Lire les positions » et « Écrire la règle », légendées « plan des
+Developers, backlog de sprint ». Chaque
 niveau a sa couleur. À droite, en face de chaque niveau, le compte de « je veux » qui le
 désigne (plusieurs groupes, plusieurs, un seul, aucun vu par l'utilisateur). En bandeau : « Scrum
 Guide : des éléments du backlog, sans niveau ; les noms des niveaux sont un choix d'équipe ».

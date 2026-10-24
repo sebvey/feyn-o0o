@@ -69,7 +69,8 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
    cadence que l'équipe choisit (choix du cours). Exemple : « Plus de revue, plus de
    retour ? ».
 4. **A2d, depuis 16c : prévoir en flux.** Sur l'historique du temps de cycle, une prévision en
-   durée et probabilité (l'attente de niveau de service), pas une promesse ; le débit est l'une
+   durée et probabilité (l'attente de niveau de service ; exemple du *Kanban Guide* : « 85 %
+   des éléments sont finis en huit jours ou moins »), pas une promesse ; le débit est l'une
    des mesures suivies, pas la base de cette prévision. La prévision vient des Developers, comme
    en 16c. Exemple : « Étienne demande pour quand ».
 

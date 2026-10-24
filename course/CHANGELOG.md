@@ -30,6 +30,10 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, concepts 0 à 2 : reprise de ce que les pages du site portaient seules (équipe vélos en 0a1, sprints plus courts en 0a2, durées de vie des engagements en 0a3, valeur et exemple d'Étienne en 1a, fournisseur de données en 1b, exemple de Maud en 2a, objectif sans cible chiffrée en 2b) ; fiches de sources alignées
+- MINOR, concepts 4 à 7 : exemples du fil rouge repris des pages du site (journée d'Étienne, Régis, Abba, Étienne et la vue des stations vides, régulateur sur un petit écran), libellés du schéma du concept 4 fixés (cas inventé), mots flous et gloses du V d'INVEST ajoutés ; fiches de sources alignées
+- MINOR, concepts 8, 10, 11, 12 : reprises du site (cas inventés dans 8a2 et les Pièges de 10, 11, 12 ; conditions typiques d'une DoR selon Cohn avec sa source ; précisions sur le Scrum Guide, la finalité des données et les limites de la source)
+- MINOR, concepts 13 à 17, A1, A2 : reprises du site (objectif produit et DoR en 13a ; météo comme fournisseur externe et dire non en 14 ; mots non fixés en 15a1 ; journée type et limite de la carte en 16a ; ranger une supposition en 17a, exemple du SMS en cas inventé ; rappel du cas d'Abba en A1b ; exemple du Kanban Guide en A2d)
 - MINOR, concept 3 : « retirer n'est pas définitif » attribué au cours (et non à Cohn et Rubin, qui attestent seulement le retrait) ; fiches de concept et de sources alignées
 - PATCH, concepts 12 et 13 : « relevé en double » à la place de « doublon » (fiches de concept 12 et 13, fiche de sources 12)
 - PATCH, sources/04-hierarchie : l'entrée « Non vérifié » sur « quelques jours » est rétablie (la ligne « Une story tient dans un sprint » y renvoyait)

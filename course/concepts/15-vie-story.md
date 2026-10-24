@@ -58,7 +58,9 @@ l'incrément et adapte le backlog. Les états de l'outil ne racontent pas cette 
    - **15a1** le refinement et le mot flou (« Vélo en panne : qui le précise ? ») : activité
      continue, sans événement imposé ; on y précise, découpe, et les Developers estiment la
      taille. Le mot flou se fait préciser par l'utilisateur concerné de chaque story, au
-     refinement ; chaque story dit le sens retenu. Le cours ne fixe aucun de ces sens.
+     refinement ; chaque story dit le sens retenu. Le cours ne fixe aucun de ces sens. Rappel de
+     7a2 : les mots que le fil rouge laisse non fixés, comme « heures de pointe », se précisent
+     de même, avec ceux qui s'en servent, pas à leur place.
    - **15a2** pas de story « définir X » (« La story "définir le seuil" », exemple éprouvé) :
      une story « définir X » dont une autre dépend n'apporte rien seule ; X se précise au
      refinement avec l'utilisateur concerné, et on livre d'abord ce dont les règles sont

@@ -41,7 +41,9 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
 ## Sous-concepts
 1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ;
    la règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage
-   (un moyen d'accès précis) va dans le Given d'un critère (concept 7b). Se déroule en deux messages :
+   (un moyen d'accès précis) va dans le Given d'un critère (concept 7b). La DoR de l'équipe
+   vélos demande des règles métier fixées avant qu'une story entre dans un sprint (concept 11).
+   Se déroule en deux messages :
    - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
@@ -99,7 +101,10 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Explication** : un critère qui s'appuie sur une règle non fixée la fixe en douce : le cas
   qu'il choisit tranche la règle, sans que personne l'ait décidée. On le repère en se demandant,
   pour chaque critère : « quelle règle ce cas suppose-t-il, et est-elle fixée ? ». Rappel, sans
-  le réenseigner : le PO fait fixer la règle, la story attend (concepts 4 et 7a2).
+  le réenseigner : le PO fait fixer la règle, la story attend (concepts 4 et 7a2). Cas
+  générique inventé pour l'illustration : le critère « Then la location de plus de 24 heures est
+  signalée » décide qu'une location est trop longue au-delà de 24 heures, alors que personne n'a
+  fixé la durée maximale.
 - **Situation** : Étienne demande de voir aussi les stations presque vides (demande d'exercice,
   concept 4). Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Dana, data
   engineer, propose ce critère : « Given une station compte 2 vélos disponibles, When Étienne

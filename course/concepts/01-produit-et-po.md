@@ -40,17 +40,23 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 1. **1a Le produit : problème, utilisateurs, valeur.** Décrire la plateforme par ce qu'elle
    change pour qui, pas par sa technique ; les consommateurs de données sont des
    utilisateurs. L'objectif produit et la mesure du résultat viennent au
-   concept 2 : ici, on s'arrête à « ce qui change pour une personne nommée ».
+   concept 2 : ici, on s'arrête à « ce qui change pour une personne nommée ». La valeur est ce
+   que l'utilisateur ou l'organisation gagne (du temps, une meilleure décision, un risque évité).
+   Exemple : Étienne fait chaque matin le point sur l'état du réseau avant d'envoyer les
+   régulateurs ; il est l'utilisateur, et ce que ce point change pour lui, le PO le précise avec
+   lui au lieu de le deviner.
 2. **1b Qui tranche quoi.** Le PO : quoi, ordre, pourquoi ; une seule personne, qui peut
    déléguer le travail sans déléguer la responsabilité. Les Developers : comment et coût ; ils
    choisissent le travail du sprint avec le PO. Les parties prenantes (toute personne ou équipe
-   concernée par le produit : utilisateurs, financeur, sponsor, équipe voisine) font valoir
+   concernée par le produit : utilisateurs, financeur, sponsor, équipe voisine, fournisseur de
+   données) font valoir
    leurs besoins et convainquent le PO ; le sponsor est le responsable qui porte le budget du
    produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog. Le concept 0 a situé les trois responsabilités de
    l'équipe Scrum ; ici, on dit qui décide. Arbitrer entre parties prenantes et escalader
    viennent au concept 14. En 15 lignes, s'en tenir au PO face aux Developers, avec la
    définition des parties prenantes en une ligne ; le comité et la délégation viennent par
-   l'exemple ou la relance.
+   l'exemple ou la relance. Exemple de fournisseur de données : Sid, le DSI, qui donne les
+   accès aux données des systèmes.
 
 ## Banque d'exemples
 

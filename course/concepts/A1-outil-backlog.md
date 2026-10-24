@@ -56,7 +56,10 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
    niveau de trop se règle dans l'outil, sans le retirer forcément (« Coincés avec le niveau
    Feature ? »).
 2. **A1b les liens de dépendance** (après 10b2) : le lien note une dépendance entre deux
-   éléments, aussi entre les backlogs de deux équipes ; il ne remplace pas la conversation
+   éléments, aussi entre les backlogs de deux équipes (rappel du cas de 10b2 : la story d'Abba,
+   abonnée sans l'appli, comme un tiers des abonnés, dépend de l'équipe appli, dont Pia est la
+   PO : la disponibilité par station vient de la plateforme, le canal relève de cette équipe) ;
+   il ne remplace pas la conversation
    avec l'autre PO (« Dana a tracé le canal d'Abba »).
 3. **A1c les états** (après 11, ou quand l'équipe règle son tableau) : choix d'équipe,
    modifiables ; « fait » veut dire DoD remplie ; un état « prêt » reste un repère, pas une

@@ -57,9 +57,10 @@ fourchette, revue à chaque sprint, pas une promesse.
   se voit en 17).
 
 ## Sous-concepts
-1. **16a la carte** : les activités de l'utilisateur en ligne (la colonne vertébrale), les
-   stories dessous, de haut en bas ; la carte n'est pas la hiérarchie (4) et ne remplace pas
-   le backlog ordonné (« La journée d'Étienne rangée par vues »). En rechange : « On peut
+1. **16a la carte** : les activités de l'utilisateur en ligne (la colonne vertébrale, dressée
+   à partir d'une journée type, Patton), les stories dessous, de haut en bas ; la carte sert à
+   voir le tout, pas à décrire un flux avec la précision d'un modèle de processus (Patton) ;
+   elle n'est pas la hiérarchie (4) et ne remplace pas le backlog ordonné (« La journée d'Étienne rangée par vues »). En rechange : « On peut
    supprimer le backlog ? ».
 2. **16b tranche de version**, en deux messages ; on ne passe à 16c qu'après les deux :
    - **16b1** la tranche qui traverse la carte, la première version utile, son résultat visé
