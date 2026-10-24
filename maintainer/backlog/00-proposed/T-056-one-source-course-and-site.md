@@ -2,6 +2,7 @@
 
 - **Créé le** : 2026-10-24
 - **Parent** : T-050
+- **Débloque** : T-050d (documentation du dépôt du site), T-050g (via T-050d), T-052 (doublon règles et contrôles), puis T-050h et T-050i (via T-052).
 - **Constat** : le cours « support de l'agent » (`course/` : fiches avec banque d'exemples, relances, test rapide) et le cours « contenu du site » (pages MDX du dépôt `../parcours-po-website`) sont deux textes écrits et maintenus séparément, reliés par une procédure de réalignement (T-050c : empreintes, `check-alignment`). Les divergences reviennent à chaque étape : le site racontait d'autres exemples que les fiches (T-050a, 125 passages), des sources décrivaient des passages disparus (T-051), le site porte du contenu absent du cours (T-054), des fiches se contredisent (T-053). Chaque correctif demande un ticket, des audits par sous-agents et un réalignement. Demande du mainteneur (2026-10-24) : maintenir au même endroit le cours comme support de l'agent et comme contenu du site, répartir leurs responsabilités pour réduire les divergences, voir si l'un peut générer l'autre, puis passer par une génération automatique des pages du site. Il écarte un mécanisme de demandes entre le site et le cours (trop de couplage).
 - **À faire** : étudier et décider, avec le mainteneur, avant toute mise en œuvre :
   1. ce dont chaque lecteur a besoin : l'agent (banque, relances, test rapide, schéma-source, consignes) et le lecteur du site (explication, schéma, pièges, école, sources) ; quelles parties d'une fiche sont publiques, lesquelles ne le seront jamais ;

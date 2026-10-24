@@ -21,8 +21,9 @@
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (clos) ;
-  - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (décidé, dépend de T-050d) ;
-  - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052) ;
-  - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
+  - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (décidé, dépend de T-050d, donc de T-056) ;
+  - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052, donc de T-056) ;
+  - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
+- **Dépendances à retenir** : T-056 (organisation du cours et du site) est le point de passage : il débloque T-050d, T-050g, T-052 (hors liste, rattaché à T-056), T-050h et T-050i. Tant qu'il n'est pas décidé, ces cinq tickets n'avancent pas. Faits : T-050a, T-051, T-050b, T-050c, T-050e, T-050f, T-053, T-054.
 - **Fini quand** : les sous-tickets sont clos et T-049 est clos avec eux.
