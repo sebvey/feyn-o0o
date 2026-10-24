@@ -113,7 +113,10 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    Hors de cette décision sur le comportement, n'interromps le traitement que pour un blocage
    que tu ne lèves pas (accès, outil en panne) : demande alors au mainteneur ce qui le lève.
 4. **Appliquer**, puis **tester** (§5), en commitant sur la branche (« T-000 : <ce qui
-   change> »).
+   change> »). Un ticket qui modifie `course/` inscrit chaque changement sous « Non publié » de
+   `course/CHANGELOG.md`, rangé en MAJOR, MINOR ou PATCH selon les définitions du fichier. Un
+   MAJOR se signale en tête de la description de la PR : il casse `learner/parcours.md` et les
+   adresses du site.
 5. **Clore**, sur la branche : le ticket passe de `02-wip/` dans `03-done/` avec sa ligne
    « Fait le » (résultat du test compris) ; pour un sous-ticket, mets à jour son état et sa
    prochaine étape dans le parent, et le parent passe aussi dans `03-done/` si c'était le
@@ -136,6 +139,9 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    fusionnée). Un « Fini quand » qui ne se
    vérifie qu'après le merge (la reprise de l'apprenant, par exemple) se vérifie alors ; note le
    résultat en commentaire de la PR (`gh pr comment`) et, s'il échoue, crée un ticket (§2).
+
+**Publier une version du cours**, seulement à la demande du mainteneur : renomme « Non publié »
+en `X.Y.Z, date`, commite sur `main`, pose le tag `course-vX.Y.Z` et pousse-le.
 
 ## 4. Décider d'un ADR
 
