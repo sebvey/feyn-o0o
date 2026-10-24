@@ -9,8 +9,7 @@ pas du Scrum Guide. Le format « en tant que / je veux / afin de » est un choix
 courant (Connextra, Rachel Davies, popularisé par Cohn) ; les 3C sont une pratique établie
 attribuée à Ron Jeffries (XP). Les faits du fil rouge (Maud, signalements de pannes, nombre de
 techniciens en tournée, F12) sont inventés : ils n'ont pas de source. Les sections entre
-parenthèses sont celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour
-toute affirmation qui n'est pas ici.
+parenthèses sont celles du modèle de fichier de concept.
 
 ## Affirmations
 

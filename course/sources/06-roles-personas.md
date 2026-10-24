@@ -10,8 +10,7 @@ choix de l'acteur relève donc de recommandations d'auteur (rôles utilisateurs,
 « usage-centered design »), de choix du cours ou de choix d'école (personas, Cooper), pas du consensus Scrum. Les
 faits du fil rouge (Théo, Maud, Abba, tournée de réparation, un tiers des abonnés avec un
 téléphone basique) sont inventés : ils n'ont pas de source. Les sections entre parenthèses sont
-celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour toute affirmation
-qui n'est pas ici.
+celles du modèle de fichier de concept.
 
 ## Affirmations
 

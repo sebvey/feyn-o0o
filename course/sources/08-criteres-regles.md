@@ -11,9 +11,9 @@ Cohn [S4]). La forme Given/When/Then est un choix d'école : Dan North et Chris 
 le cadre du BDD ; Gherkin [S6] en est le langage outillé (Cucumber). « Specification by
 Example » est un terme employé par Fowler dès 2004 [S9], popularisé par le livre de Gojko Adzic
 (2011) [S8]. Séparer règles et exemples suit l'Example Mapping de Matt Wynne [S7]. Les faits du
-fil rouge (Abba, Étienne, Régis, vélo disponible, station favorite, fraîcheur de moins de
+fil rouge (Abba, Étienne, vélo disponible, station favorite, fraîcheur de moins de
 15 minutes, rafraîchissement toutes les 5 minutes, seuil « presque vide ») sont inventés : ils
-n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept ; le rédacteur ajoute une ligne pour toute affirmation qui n'est pas ici.
+n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept.
 
 ## Affirmations
 
@@ -56,7 +56,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Le Then d'un critère de fraîcheur vérifie l'âge des données (moins de 15 minutes), pas la fréquence de rafraîchissement de la plateforme (toutes les 5 minutes, ce qui permet de tenir la fraîcheur) (banque ; Pièges : cas inventé, cache) | aucune | Raisonnement du cours sur des faits du fil rouge : vérifier un résultat observable [S6], pas un moyen choisi par l'équipe [S3] (N). Sans source externe. « Seul, le rafraîchissement ne garantit pas la fraîcheur (un rafraîchissement qui échoue) » : raisonnement du cours (banque « Fraîcheur : que vérifie le Then ? ») |
 | Un mot flou dans un critère oblige le testeur à poser une question (Pièges) | [S3] en partie | Découle du T de Wake ; formulation du cours |
 | Nommer la solution dans le Then (Pièges : « il reçoit un export CSV », cas inventé ; banque : SMS) fige ce que l'équipe pouvait négocier | [S3] | Wake, N (voir plus haut) ; renvoi au concept 7b |
-| Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles d'Étienne » ; Pièges : cas inventé) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
+| Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles d'Étienne » ; Pièges : même piège sur un autre cas inventé) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
 | « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère d'Abba à corriger ») | [S12] | Critique de la v1 en session (observation d'une session, un apprenant : sa première version d'un critère pour l'abonné sans appli) |
 | Given/When/Then n'est pas obligatoire : un critère écrit autrement convient s'il reste tranchable (Pièges) | [S10] en partie ; [S2], [S3] | Agile Alliance : la forme est une heuristique ; Jeffries et Wake demandent un test d'acceptation, sans imposer de forme. « S'il reste tranchable » : formulation du cours |
 
