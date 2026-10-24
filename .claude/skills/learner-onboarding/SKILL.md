@@ -14,8 +14,7 @@ réponse, style) s'appliquent.
    liste :
    1. comment il veut qu'on l'appelle ;
    2. son rôle aujourd'hui, et s'il est ou va être PO d'un produit ;
-   3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story) ;
-   4. le rythme qu'il préfère.
+   3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
 2. À sa réponse, lance `.claude/skills/learner-onboarding/init-learner.sh <surnom>` : il crée
    les fichiers de `learner/` depuis `course/templates/learner/`, surnom, tableau et ligne de
    journal compris. En même temps, lis `course/plan.md`, `course/fil-rouge-velos.md` et

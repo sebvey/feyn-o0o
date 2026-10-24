@@ -9,4 +9,4 @@ Surnom : **<surnom>** (le prof l'appelle ainsi).
 
 ## Préférences
 
-- Rythme : <ce qu'il a demandé>.
+Aucune.
