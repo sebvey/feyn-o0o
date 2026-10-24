@@ -31,6 +31,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+## 2.0.0, 2026-10-25
+
 - MAJOR, plan : les sept objectifs du cours, qui se recouvraient et laissaient le concept 3 sans objectif, sont remplacés par sept domaines contigus qui partitionnent les concepts (0 à 2, 3 à 8, 9 à 11, 12, 13 et 14, 15 et 16, 17)
 - MINOR, concepts 0 à 2 : reprise de ce que les pages du site portaient seules (équipe vélos en 0a1, sprints plus courts en 0a2, durées de vie des engagements en 0a3, valeur et exemple d'Étienne en 1a, fournisseur de données en 1b, exemple de Maud en 2a, objectif sans cible chiffrée en 2b) ; fiches de sources alignées
 - MINOR, concepts 4 à 7 : exemples du fil rouge repris des pages du site (journée d'Étienne, Régis, Abba, Étienne et la vue des stations vides, régulateur sur un petit écran), libellés du schéma du concept 4 fixés (cas inventé), mots flous et gloses du V d'INVEST ajoutés ; fiches de sources alignées
