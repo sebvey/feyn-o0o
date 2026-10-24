@@ -9,3 +9,5 @@
   trois questions ; `course/templates/learner/apprenant.md`, « Préférences » sans ligne
   « Rythme ».
 - **Fini quand** : l'accueil pose trois questions ; le modèle n'a plus de ligne « Rythme ».
+- **Fait le** : 2026-10-24, question du rythme retirée du skill d'accueil et du modèle
+  `apprenant.md` ; test par le mainteneur dans l'app. ADR-036.
