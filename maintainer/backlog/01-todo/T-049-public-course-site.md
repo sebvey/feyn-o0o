@@ -11,5 +11,6 @@
   4. rédiger les pages de concept, bloc par bloc (aucune question ni réponse d'exercice, rien d'un apprenant) ;
   5. pages transversales : Parcours, Glossaire, Fil rouge, Consensus ou école, Sources, Parcours de lecture, À propos ;
   6. mise en ligne, puis règle de renvoi du prof vers les pages (comportement : le mainteneur décide du texte de `CLAUDE.md`).
+- **État au 2026-10-24** : les étapes 1 à 5 sont construites en local dans `../parcours-po-website` (rien de publié). Les suites sont dans T-050 (proposé).
 - **Fini quand** : le site est en ligne, chaque concept a sa page avec adresse stable, la
   recherche fonctionne, et le mainteneur a relu les pages.
