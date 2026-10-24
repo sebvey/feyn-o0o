@@ -20,7 +20,7 @@
   - T-050c : versionnage et alignement côté site (clos) ;
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
-  - T-050f : publier l'aperçu `v0.1.0` (décidé) ;
+  - T-050f : publier l'aperçu `v0.1.0` (clos) ;
   - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (décidé, dépend de T-050d) ;
   - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
