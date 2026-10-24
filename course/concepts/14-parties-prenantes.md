@@ -12,7 +12,7 @@ obstacle au bon niveau, dans le bon ordre, et seulement un obstacle.
 
 ## L'essentiel
 Une **partie prenante** est concernée par le produit : elle s'en sert, le finance, le porte,
-travaille à côté, ou lui fournit ses données ; ces fournisseurs, qu'on oublie, peuvent le
+travaille à côté, ou lui fournit ses données ; ces fournisseurs, qu'on risque d'oublier, peuvent le
 bloquer. Le PO représente leurs besoins dans le backlog et tranche seul entre elles : dire non,
 c'est dire « pas maintenant », en montrant l'ordre et l'objectif produit. Un **obstacle**
 (l'équipe ne le lève pas seule) se traite d'abord avec la personne concernée, puis s'escalade :

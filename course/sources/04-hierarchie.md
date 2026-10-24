@@ -4,8 +4,9 @@ concept: 4
 
 # Sources : Hiérarchie du backlog
 
-Le consensus du concept tient en une phrase du Scrum Guide 2020 [S1] : il ne parle que
-d'« éléments du backlog » et ne définit aucun niveau. Les noms et le nombre des niveaux sont des
+Le consensus du concept vient du Scrum Guide 2020 [S1] : il ne parle que
+d'« éléments du backlog », ne définit aucun niveau et laisse aux Developers le découpage du travail
+choisi. Les noms et le nombre des niveaux sont des
 choix d'outil et d'équipe : Cohn [S2] pour le sens d'epic, de thème et de feature, Jira [S3],
 Azure DevOps [S4] et SAFe [S5] pour les niveaux par défaut. Les tests du cours (compter les
 « je veux », juger ce qu'il reste à livrer, le niveau de trop) sont des choix du cours, sans
@@ -62,16 +63,6 @@ source externe (voir « Non vérifié »).
 - Les noms de niveaux de Jira Server ou Data Center, et des modèles de projet Jira
   (Scrum, Kanban) au-delà de la page [S3] : non vérifiés. Le niveau 0 de Jira regroupe en
   pratique Story, Task et Bug ; [S3] ne nomme que « Story ».
-- « Story et tâche sont quasi universelles » (fiche actuelle) : aucune source ; contredit en
-  partie par [S3] (Subtask, pas Task) et [S4] (Product Backlog Item, Issue ou Requirement selon
-  le processus). Erreur relevée dans la fiche actuelle : retirer « quasi universel » ou le
-  reformuler.
-- « La plupart des équipes et des outils emploient quatre mots » (première rédaction, retirée
-  après revue) : aucune source ; contredit par [S3] (trois niveaux, sans feature) et [S4]
-  (processus Basic sans feature).
-- « Quelques jours » comme pratique courante pour la taille d'une story (relevé dans la
-  fiche actuelle) : aucune source ; [S7] dit « at most a few person-weeks ». Retiré du fichier
-  du concept.
 - Le sens de « thème » dans Jira (regroupement transversal) : lu seulement dans [S6], page qui
   affiche un avertissement de fiabilité ; absent de [S3]. Non cité dans le fichier du concept.
 - Les trois tests du cours (compter les « je veux », niveau de trop, juger ce qu'il reste à
