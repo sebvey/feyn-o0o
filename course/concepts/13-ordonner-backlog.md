@@ -150,8 +150,8 @@ du fil rouge.
   stations du centre-ville n'est pas établi ; qui en suppose un pose une hypothèse
   (concept 17), recevable s'il l'argumente. Autre valeur recevable : la comparaison de Charlotte
   sert à justifier la subvention qui finance le service ; le PO l'argumente sans la balayer.
-  Ce qui est prêt : seule la disponibilité pour l'appli n'attend rien de bloquant (les doublons
-  des relevés relèvent de la DoD, 11a). Les dépendances : la comparaison de Charlotte suppose les
+  Ce qui est prêt : seule la disponibilité pour l'appli n'attend rien de bloquant (les relevés en double
+  relèvent de la DoD, 11a). Les dépendances : la comparaison de Charlotte suppose les
   locations par quartier, absentes de la liste ; elles passent avant elle, et l'accès
   conditionne Étienne et Charlotte. Le risque pour les utilisateurs : le blocage peut passer devant
   l'objectif produit si Maud et Odile qualifient le risque de grave ; le PO ne le juge pas
