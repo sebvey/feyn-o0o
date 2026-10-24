@@ -8,8 +8,8 @@ Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `à revoir
 
 ## Concepts
 
-| # | Statut |
-|---|---|
+| # | Concept | Statut |
+|---|---|---|
 | <une ligne par concept de `course/plan.md`> | à faire |
 
 Annexes vues : aucune.

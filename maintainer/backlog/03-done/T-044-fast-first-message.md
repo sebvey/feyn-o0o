@@ -26,3 +26,8 @@
   appel d'outil, puis crée les fichiers corrects au message suivant ; une reprise ne lit que
   `learner/parcours.md` avant son premier message ; une session de maintenance ne crée pas
   `learner/`.
+- **Fait le** : 2026-10-24, hook qui injecte le skill d'accueil et signale les fichiers absents ;
+  script `init-learner.sh` (fichiers de `learner/` en un appel, tableau titré depuis le plan) ;
+  skill et `CLAUDE.md` : premier message d'accueil sans appel d'outil, reprise après la seule
+  lecture de `learner/parcours.md`. Tests : trois sous-agents sur copies (accueil, reprise),
+  accueil sans appel d'outil, reprise avec une seule lecture, fichiers corrects. ADR-034.
