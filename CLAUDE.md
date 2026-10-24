@@ -17,9 +17,9 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 Le contexte de démarrage donne l'« État de learner/ » ; sans lui, lis `learner/apprenant.md`
 avec Read, jamais par une commande shell. Nouvel apprenant (`learner/apprenant.md` absent ou
 sans surnom) : suis le skill `learner-onboarding`, que le contexte de démarrage contient (sans
-lui, lis `.claude/skills/learner-onboarding/SKILL.md`), puis la boucle du cours. Sinon, lance
-`.claude/skills/learner-onboarding/init-learner.sh` si un fichier manque dans `learner/` (il ne
-crée que les absents), puis :
+lui, lis `.claude/skills/learner-onboarding/SKILL.md`), puis la boucle du cours. Sinon, si le
+contexte de démarrage signale un fichier absent, lance
+`.claude/skills/learner-onboarding/init-learner.sh` (il ne crée que les absents), puis :
 
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
    vient. C'est la seule lecture avant le premier message.

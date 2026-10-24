@@ -10,7 +10,7 @@ for f in apprenant.md observations.md parcours.md; do
   [ -e "$dir/$f" ] && continue
   if [ "$f" = parcours.md ]; then
     awk -v day="$(date +%F)" '
-      FNR == NR { if ($0 ~ /^\| [0-9]+ \|/) { split($0, c, " "); rows = rows "| " c[2] " | à faire |\n" } next }
+      FNR == NR { if ($0 ~ /^\| [0-9]+ \|/) { split($0, c, / *\| */); rows = rows "| " c[2] " | " c[3] " | à faire |\n" } next }
       /^\| <une ligne par concept/ { printf "%s", rows; next }
       /^- <AAAA-MM-JJ>/ { print "- " day ", session 1 : accueil."; next }
       { print }' "$root/course/plan.md" "$tpl/$f"

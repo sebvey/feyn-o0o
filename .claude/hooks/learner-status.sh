@@ -3,6 +3,9 @@
 nick=$(sed -n 's/^Surnom : \*\*\(.*\)\*\*.*/\1/p' "$CLAUDE_PROJECT_DIR/learner/apprenant.md" 2>/dev/null)
 if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   echo "État de learner/ : apprenant connu, $nick."
+  for f in observations.md parcours.md; do
+    [ -e "$CLAUDE_PROJECT_DIR/learner/$f" ] || echo "Fichier absent : learner/$f."
+  done
 else
   echo "État de learner/ : nouvel apprenant (learner/apprenant.md absent ou sans surnom)."
   echo "En session de cours, suis le skill learner-onboarding ci-dessous, sans le recharger :"

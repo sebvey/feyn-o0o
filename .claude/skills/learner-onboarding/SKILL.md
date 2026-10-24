@@ -18,9 +18,10 @@ réponse, style) s'appliquent.
    4. le rythme qu'il préfère.
 2. À sa réponse, lance `.claude/skills/learner-onboarding/init-learner.sh <surnom>` : il crée
    les fichiers de `learner/` depuis `course/templates/learner/`, surnom, tableau et ligne de
-   journal compris. Dans le même tour, lis `course/plan.md`, `course/fil-rouge-velos.md` et
-   `course/concepts/00-scrum.md`. Puis écris sa réponse dans `learner/apprenant.md` et
-   appelle-le désormais par ce surnom.
+   journal compris. En même temps, lis `course/plan.md`, `course/fil-rouge-velos.md` et
+   `course/concepts/00-scrum.md`. Puis lis avec Read `learner/apprenant.md` et
+   `learner/parcours.md`, écris sa réponse dans `learner/apprenant.md` et appelle-le désormais
+   par ce surnom.
 3. Dans le même message, enseigne le concept 0 depuis son premier message. Avant la question de
    contrôle, dont la situation le met en scène, présente le fil rouge en deux lignes (il est PO
    de la plateforme de données de l'opérateur de vélos). Ce qu'il a dit de Scrum règle la
