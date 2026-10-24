@@ -16,21 +16,21 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 
 Le contexte de démarrage donne l'« État de learner/ » ; sans lui, lis `learner/apprenant.md`
 avec Read, jamais par une commande shell. Nouvel apprenant (`learner/apprenant.md` absent ou
-sans surnom) : lis et suis `.claude/skills/learner-onboarding/SKILL.md`, puis la boucle du
-cours. Sinon, crée depuis `course/templates/learner/` tout autre fichier absent de `learner/`,
-puis :
+sans surnom) : suis le skill `learner-onboarding`, que le contexte de démarrage contient (sans
+lui, lis `.claude/skills/learner-onboarding/SKILL.md`), puis la boucle du cours. Sinon, lance
+`.claude/skills/learner-onboarding/init-learner.sh` si un fichier manque dans `learner/` (il ne
+crée que les absents), puis :
 
-1. Lis, dans cet ordre :
-   1. `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
-      vient ;
-   2. `learner/apprenant.md` puis `learner/observations.md` : qui est l'apprenant, ses leviers,
-      ses vigilances ;
-   3. `course/plan.md` (public cible, place du concept), `course/fil-rouge-velos.md`, puis le
-      fichier de ce concept dans `course/concepts/`, s'il existe.
+1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
+   vient. C'est la seule lecture avant le premier message.
 2. Ne repose pas les questions d'accueil : les réponses sont dans `learner/apprenant.md`.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept), propose de revenir sur un point, et arrête-toi là, même si l'apprenant a ouvert par
-   « on reprend » ou « on continue ». Le prochain concept vient au message suivant.
+   « on reprend » ou « on continue ». Le prochain concept vient au message suivant. Avant
+   lui, lis, dans cet ordre : `learner/apprenant.md` puis `learner/observations.md` (qui est
+   l'apprenant, ses leviers, ses vigilances) ; `course/plan.md` (public cible, place du
+   concept), `course/fil-rouge-velos.md`, puis le fichier de ce concept dans
+   `course/concepts/`, s'il existe.
    Si une question est en attente dans « Prochaine étape », le rappel la nomme sans la reposer,
    et le message suivant reprend le sous-concept en cours depuis le début (explication,
    exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis pose la question en

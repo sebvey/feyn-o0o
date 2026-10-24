@@ -5,5 +5,7 @@ if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   echo "État de learner/ : apprenant connu, $nick."
 else
   echo "État de learner/ : nouvel apprenant (learner/apprenant.md absent ou sans surnom)."
+  echo "En session de cours, suis le skill learner-onboarding ci-dessous, sans le recharger :"
+  awk 'n >= 2; /^---$/ { n++ }' "$CLAUDE_PROJECT_DIR/.claude/skills/learner-onboarding/SKILL.md"
 fi
 exit 0
