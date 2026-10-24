@@ -10,3 +10,4 @@
   4. les limites : ce qui n'a pas été vérifié, et que le mainteneur n'a relu que le témoin ;
   5. une ligne et un lien depuis la page À propos.
 - **Fini quand** : `docs/construction.md` existe avec les diagrammes Mermaid qui s'affichent sur GitHub, chaque chiffre se retrouve dans la transcription, et la page À propos y renvoie.
+- **Fait le** : 2026-10-24, `docs/construction.md` écrit dans le dépôt du site (flux, agents, méthode de qualité, limites, 3 diagrammes Mermaid), lien depuis À propos, `astro check` et `npm run build` sans erreur, branche fusionnée dans `main` du site (local, sans remote). Chiffres recomptés sur le site (20 concepts, 90 termes, 199 positions, 141 documents, 28 pages indexées, 34 commits dont 7 fusions) ; ceux de l'audit sont recoupés avec la transcription. Écart relevé : le compte rendu annonçait 200 positions, le site en a 199 (45, 62, 92).

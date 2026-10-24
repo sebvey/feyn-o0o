@@ -15,7 +15,7 @@
   - T-050b : versionner le cours (proposé, dépend de T-050a) ;
   - T-050c : versionnage et alignement côté site (proposé, dépend de T-050b) ;
   - T-050d : documentation du dépôt pour un agent (proposé, dépend de T-050c) ;
-  - T-050e : documenter la fabrication du site (décidé) ;
+  - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (proposé) ;
   - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (proposé, dépend de T-050d).
 
