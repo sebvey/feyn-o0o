@@ -11,10 +11,9 @@ Cohn [S4]). La forme Given/When/Then est un choix d'école : Dan North et Chris 
 le cadre du BDD ; Gherkin [S6] en est le langage outillé (Cucumber). « Specification by
 Example » est un terme employé par Fowler dès 2004 [S9], popularisé par le livre de Gojko Adzic
 (2011) [S8]. Séparer règles et exemples suit l'Example Mapping de Matt Wynne [S7]. Les faits du
-fil rouge (Abba, Étienne, Régis, vélo disponible, station favorite, fraîcheur de moins de
+fil rouge (Abba, Étienne, vélo disponible, station favorite, fraîcheur de moins de
 15 minutes, rafraîchissement toutes les 5 minutes, seuil « presque vide ») sont inventés : ils
-n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept (actuel ou
-à écrire) ; le rédacteur ajoute une ligne pour toute affirmation qui n'est pas ici.
+n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept.
 
 ## Affirmations
 
@@ -24,8 +23,8 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 |---|---|---|
 | Le Scrum Guide ne parle pas de critère d'acceptation, de règle métier ni de story (Consensus et choix d'école) | [S1] | Texte web téléchargé et cherché le 2026-10-22 : « acceptance », « criteri », « business rule », « testable », « example » : 0 occurrence ; « story » : 0 (sources 05). Ce que le guide dit d'un élément prêt : « Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for selection in a Sprint Planning event » (renvoi aux concepts 4 et 11) |
 | Une story porte des critères d'acceptation : pratique établie, pas un texte de consensus Scrum (Consensus et choix d'école) | [S2], [S3], [S4] | Jeffries : la confirmation, « This component is the acceptance test » (sources 05) ; Wake : « I understand what I want well enough that I could write a test for it » ; Cohn : les conditions de satisfaction sont « specific to a given product backlog item » |
-| Critère d'acceptation et condition de satisfaction : presque synonymes (si le fichier le dit) | [S4] | « Acceptance criteria and conditions of satisfaction (CoS) are two terms that mean almost the same thing » |
-| C'est le PO qui écrit les critères d'acceptation, ou qui en est le premier responsable (si le fichier le dit) | [S4] | « product owners are the people primarily responsible for creating conditions of satisfaction » ; avis de Cohn, pas du Scrum Guide. Le cours y ajoute la conversation avec l'équipe (3C, concept 5) |
+| Critère d'acceptation et condition de satisfaction : presque synonymes | [S4] | « Acceptance criteria and conditions of satisfaction (CoS) are two terms that mean almost the same thing » |
+| C'est le PO qui écrit les critères d'acceptation, ou qui en est le premier responsable | [S4] | « product owners are the people primarily responsible for creating conditions of satisfaction » ; avis de Cohn, pas du Scrum Guide. Le cours y ajoute la conversation avec l'équipe (3C, concept 5) |
 | Given/When/Then : forme créée par Dan North et Chris Matts pour écrire les critères d'acceptation d'une story en scénarios (Consensus et choix d'école) | [S5] | « Matts and I » créent un modèle « to capture a story's acceptance criteria » : « Given some initial context (the givens), When an event occurs, Then ensure some outcomes ». Article paru dans *Better Software* en mars 2006 (colophon), en ligne daté du 20 septembre 2006 |
 | Le BDD (behaviour-driven development) vient de Dan North (Consensus et choix d'école) | [S5], [S10] | North : « I started to refer to TDD as BDD, or behaviour-driven development ». Agile Alliance : « BDD is a practice where members of the team discuss the expected behavior of a system » |
 | Given/When/Then reste utilisable sans outil (Consensus et choix d'école) | [S10] | Agile Alliance : modèle pour écrire les tests d'acceptation d'une story ; outils JBehave, RSpec, Cucumber ; « can also be used purely as a heuristic irrespective of any tool » |
@@ -39,11 +38,11 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Un critère d'acceptation est une condition vérifiable, propre à une story, qui dit quand elle est faite (L'essentiel) | [S4], [S11] | Cohn : « specific to a given product backlog item » ; « what needs to be true in order for you to consider this particular story done? ». Définition du glossaire du cours [S11] |
 | Les critères rendent la story testable, le T d'INVEST (L'essentiel) | [S3] | Wake, T : « I understand what I want well enough that I could write a test for it » ; « If a customer doesn't know how to test something, this may indicate that the story isn't clear enough ». INVEST est enseigné au concept 7 |
 | Une règle métier est une vérité du domaine, valable hors de la story et réutilisable (L'essentiel, 8a) | [S11] ; appui partiel [S6], [S7] | Définition du glossaire du cours, sans source externe. Gherkin : le mot-clé Rule représente « one business rule that should be implemented » (depuis Gherkin v6). « Valable hors de la story » est la formulation du cours |
-| Les critères sont souvent des exemples qui illustrent une règle (L'essentiel, Visuel) | [S7], [S6] | Wynne : règles sur cartes bleues, exemples sur cartes vertes, « For each rule, we may need one or more examples to illustrate it ». Gherkin : Rule regroupe des Example (« Scenario is a synonym of the keyword Example »). Chez Wynne, « rules » et « acceptance criteria » vont sur la même carte bleue : il ne sépare pas critère et règle comme le cours (voir « Non vérifié ») |
+| Les critères sont souvent des exemples qui illustrent une règle (L'essentiel, Schéma) | [S7], [S6] | Wynne : règles sur cartes bleues, exemples sur cartes vertes, « For each rule, we may need one or more examples to illustrate it ». Gherkin : Rule regroupe des Example (« Scenario is a synonym of the keyword Example »). Chez Wynne, « rules » et « acceptance criteria » vont sur la même carte bleue : il ne sépare pas critère et règle comme le cours (voir « Non vérifié ») |
 | Test rapide : « est-ce encore vrai si cette story n'existe pas ? » -> règle (Le test rapide) | aucune | Heuristique du cours, sans source |
 | Example Mapping : règles en bleu, exemples en vert, questions en rouge (Schéma) | [S7] | Wynne : cartes bleues pour les règles, vertes pour les exemples ; une question sans réponse va sur une carte rouge |
 | Test rapide : « un testeur peut-il dire OK ou KO sans me poser de question ? » -> critère (Le test rapide) | [S3] en partie | Découle du T de Wake (pouvoir écrire un test) ; la formulation est celle du cours |
-| Une contrainte d'usage (téléphone basique) s'écrit dans un critère ; l'équipe choisit la solution, le N d'INVEST (Sur un exemple, banque) | [S3] | Wake, N : « It is not an explicit contract for features; rather, details will be co-created by the customer and programmer » ; « A good story captures the essence, not the details ». Mettre la contrainte dans le critère est la lecture du cours (concept 7b ; amélioration de session (`07-invest.md`, historique git)) |
+| Une contrainte d'usage (téléphone basique) s'écrit dans un critère ; l'équipe choisit la solution, le N d'INVEST (8a, banque) | [S3] | Wake, N : « It is not an explicit contract for features; rather, details will be co-created by the customer and programmer » ; « A good story captures the essence, not the details ». Mettre la contrainte dans le critère est la lecture du cours (concept 7b ; amélioration de session (`07-invest.md`, historique git)) |
 | Une règle non fixée (banque : seuil « presque vide » ; Pièges : cas inventé, durée maximale) : le PO ne l'invente pas ni ne la tranche seul, il la fait fixer par l'utilisateur concerné avant que la story parte ; renvoi au concept 4, DoR au concept 11 (Pièges, banque) | [S7] en partie | Choix du cours (concept 4). Wynne : une question sans réponse va sur une carte rouge, « simply capture the question and move on » ; quelqu'un manque peut-être à la conversation. La DoR de l'équipe vélos (« règles métier fixées ») est un fait du fil rouge |
 
 ### 8b : Given/When/Then, une variable à la fois
@@ -57,7 +56,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Le Then d'un critère de fraîcheur vérifie l'âge des données (moins de 15 minutes), pas la fréquence de rafraîchissement de la plateforme (toutes les 5 minutes, ce qui permet de tenir la fraîcheur) (banque ; Pièges : cas inventé, cache) | aucune | Raisonnement du cours sur des faits du fil rouge : vérifier un résultat observable [S6], pas un moyen choisi par l'équipe [S3] (N). Sans source externe. « Seul, le rafraîchissement ne garantit pas la fraîcheur (un rafraîchissement qui échoue) » : raisonnement du cours (banque « Fraîcheur : que vérifie le Then ? ») |
 | Un mot flou dans un critère oblige le testeur à poser une question (Pièges) | [S3] en partie | Découle du T de Wake ; formulation du cours |
 | Nommer la solution dans le Then (Pièges : « il reçoit un export CSV », cas inventé ; banque : SMS) fige ce que l'équipe pouvait négocier | [S3] | Wake, N (voir plus haut) ; renvoi au concept 7b |
-| Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles d'Étienne » ; Pièges : cas inventé) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
+| Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles d'Étienne » ; Pièges : même piège sur un autre cas inventé) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
 | « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère d'Abba à corriger ») | [S12] | Critique de la v1 en session (observation d'une session, un apprenant : sa première version d'un critère pour l'abonné sans appli) |
 | Given/When/Then n'est pas obligatoire : un critère écrit autrement convient s'il reste tranchable (Pièges) | [S10] en partie ; [S2], [S3] | Agile Alliance : la forme est une heuristique ; Jeffries et Wake demandent un test d'acceptation, sans imposer de forme. « S'il reste tranchable » : formulation du cours |
 
@@ -65,11 +64,10 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
-| Une story tient dans un sprint ; un besoin plus gros est un epic qui se découpe (renvoi au concept 4) | `course/sources/04-hierarchie.md` | Déjà vérifié au concept 4 (Cohn, Wake, Scrum Guide « within one Sprint ») |
-| Les trois parties de la story, les 3C, la solution hors du « je veux », le chiffre précis hors de la phrase (renvoi au concept 5) | `course/sources/05-user-story.md` | Déjà vérifié au concept 5. Le concept 5 renvoie au concept 8 pour « un chiffre précis va dans les critères » : pratique du cours, appuyée ici par le T de Wake [S3] et le Then observable [S6] |
-| Ce qui vaut pour toutes les vues (banque : l'heure de la dernière mise à jour ; Pièges : cas inventé) relève de la DoD de l'équipe, pas des critères de chaque story ; la DoR de l'équipe vélos demande des règles métier fixées (renvoi au concept 11 ; banque, Pièges) | `course/fil-rouge-velos.md` ; `course/sources/11-dor-dod.md` (à écrire) | Faits du fil rouge (DoD et DoR de l'équipe vélos), inventés ; DoD et DoR s'enseignent et se sourcent au concept 11 |
-| Une story « définir le seuil » n'apporte rien seule (renvoi au concept 15 ; banque « Le seuil des stations presque vides ») | [S12] | Observation de session `[c15]` ; s'enseigne et se source au concept 15 |
-| Découpage (9), dépendances (10), DoR (11), refinement (15) : nommés avec renvoi | `course/plan.md` | Sources dans les fichiers de ces concepts ; SPIDR et patrons de Lawrence relèvent du concept 9 (voir « Non vérifié ») |
+| La story attend tant qu'une règle n'est pas fixée ; le PO la fait fixer (renvoi au concept 4) | `course/sources/04-hierarchie.md` | Déjà vérifié au concept 4 |
+| Les 3C : la confirmation est le critère d'acceptation (renvoi au concept 5) | `course/sources/05-user-story.md` | Déjà vérifié au concept 5. Le concept 5 renvoie au concept 8 pour « un chiffre précis va dans les critères » : pratique du cours, appuyée ici par le T de Wake [S3] et le Then observable [S6] |
+| Ce qui vaut pour toutes les vues (banque : l'heure de la dernière mise à jour ; Pièges : cas inventé) relève de la DoD de l'équipe, pas des critères de chaque story ; la DoR de l'équipe vélos demande des règles métier fixées (renvoi au concept 11 ; banque, Pièges) | `course/fil-rouge-velos.md` ; `course/sources/11-dor-dod.md` | Faits du fil rouge (DoD et DoR de l'équipe vélos), inventés ; DoD et DoR s'enseignent et se sourcent au concept 11 |
+| Dépendances (10) et DoR (11) : nommés avec renvoi (banque « Les vélos disponibles d'Étienne » ; Pièges) | `course/plan.md` | Sources dans les fichiers de ces concepts |
 
 ## Références
 
@@ -107,8 +105,8 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 - **« Une variable à la fois »** : heuristique du cours (observations de session), aucune source
   externe trouvée.
 - **« Une story porte des critères d'acceptation » étiqueté « Consensus »** : non confirmé par
-  le Scrum Guide [S1] ; pratique établie (XP, Wake, Cohn). Erreur relevée dans la fiche
-  actuelle : à étiqueter pratique établie, pas consensus.
+  le Scrum Guide [S1] ; pratique établie (XP, Wake, Cohn). La fiche l'étiquette « pratique
+  établie, hors du Scrum Guide ».
 - **SPIDR (Cohn) et patrons de Richard Lawrence** : cités au cadrage pour l'ancien concept 7,
   relèvent du découpage (concept 9) ; non cherchés ici, à vérifier au lot du concept 9. Le
   fichier du concept 8 ne doit pas les nommer.

@@ -9,8 +9,7 @@ pas du Scrum Guide. Le format « en tant que / je veux / afin de » est un choix
 courant (Connextra, Rachel Davies, popularisé par Cohn) ; les 3C sont une pratique établie
 attribuée à Ron Jeffries (XP). Les faits du fil rouge (Maud, signalements de pannes, nombre de
 techniciens en tournée, F12) sont inventés : ils n'ont pas de source. Les sections entre
-parenthèses sont celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour
-toute affirmation qui n'est pas ici.
+parenthèses sont celles du modèle de fichier de concept.
 
 ## Affirmations
 
@@ -21,7 +20,7 @@ toute affirmation qui n'est pas ici.
 | Le Scrum Guide ne parle pas de user story (Consensus et choix d'école) | [S1] | Texte web du guide téléchargé et cherché le 2026-10-22 : « story », « stories », « user story » : 0 occurrence |
 | Le Scrum Guide n'impose aucun format aux éléments du backlog : il cite seulement des attributs (Consensus et choix d'école) | [S1] | Refinement : « adding details, such as a description, order, and size. Attributes often vary with the domain of work ». Les éléments du backlog et le PO qui les crée sont enseignés aux concepts 0, 1 et 3 |
 | La user story vient d'Extreme Programming (XP), où Kent Beck a introduit le terme (Consensus et choix d'école) | [S4], [S5] | Fowler : « Kent Beck first introduced the term as part of Extreme Programming ». Wikipédia date l'introduction de 1997 (projet C3 de Chrysler) et le livre de Beck, *Extreme Programming Explained*, de 1999 ; dates non vérifiées à une source primaire (voir « Non vérifié ») |
-| Une story exprime un besoin vu de l'utilisateur, dans un style de recueil informel et conversationnel plutôt qu'une longue spécification (L'essentiel) | [S4], [S5] | Fowler : « a more informal and conversational style of requirements elicitation » ; Wikipédia : « an informal, natural language description of features of a software system », écrite du point de vue de l'utilisateur final |
+| Une story exprime un besoin vu de l'utilisateur, pas une spécification (L'essentiel) | [S4], [S5] | Fowler : « a more informal and conversational style of requirements elicitation » (glose de la source, absente de la fiche) ; Wikipédia : « an informal, natural language description of features of a software system », écrite du point de vue de l'utilisateur final |
 | Le format « en tant que / je veux / afin de » vient de Rachel Davies, chez Connextra (Londres), au début des années 2000 (Consensus et choix d'école) | [S2], [S5], [S6] | Cohn : « originated with agile coach Rachel Davies at a UK company, Connextra, in the early 2000s ». Wikipédia : équipe XP de Connextra à Londres, 2001. Scrum Alliance (Schiel) : modèle de Rachel Davies, 2002, sans nommer Connextra. Dates discordantes : écrire « au début des années 2000 » (cadrage T-018a §2.4) |
 | Ce format est un choix d'école devenu courant, pas une obligation (Consensus et choix d'école) | [S2], [S4], [S6] | Cohn : « the most popular way of writing user stories », « a recognized standard », mais « There is no magic formula » et il ne le juge pas « mandatory ». Fowler : « A common way to formulate stories is ». Schiel : « there is NO REQUIRED STRUCTURE » |
 | Les trois parties : qui (le rôle), quoi (ce qu'il veut faire), pourquoi (la raison) (L'essentiel, 5a) | [S2], [S6] | Cohn détaille qui, quoi, pourquoi ; Schiel : « Who is the user? », « What do they want to do? », « Why do they want to do it? » |
@@ -31,7 +30,7 @@ toute affirmation qui n'est pas ici.
 | Carte : la phrase écrite, qui représente le besoin et ne le contient pas en entier (5a) | [S3] | « The card is a token representing the requirement » ; « The card does not contain all the information that makes up the requirement » |
 | Conversation : les échanges qui précisent la story (5a) | [S3], [S6] | Jeffries : « The requirement itself is communicated from customer to programmers through conversation » ; Schiel : « a placeholder for a conversation about the work to be done » |
 | Confirmation : ce qui permet de vérifier que la story est faite (les critères d'acceptation, concept 8) (5a) | [S3] | Jeffries : « This component is the acceptance test » : des exemples, de préférence automatisés, définis par le client. Rapprocher la confirmation des critères d'acceptation est la lecture courante et celle du cours ; Jeffries dit « acceptance test » |
-| La phrase seule ne suffit pas (Consensus et choix d'école, 5a) | [S3] | Conséquence de « The card does not contain all the information that makes up the requirement » |
+| La phrase seule ne suffit pas (L'essentiel, 5a) | [S3] | Conséquence de « The card does not contain all the information that makes up the requirement » |
 | Une story, un seul « je veux » ; plusieurs, ce n'est plus une story (feature ou epic, concept 4 ; un parcours, concept 16) (5a, banque « Une semaine de Maud », Pièges) | aucune ici | Renvoi au concept 4 (4b : un « je veux », story ; plusieurs, feature ; plusieurs groupes, epic), dont le test « compter les “je veux” » vient des sessions du cours (amélioration de session (`off-course.md`, historique git) ; observation d'une session, un apprenant, [c4] : le test « je sais ce que voit l'utilisateur » ne parlait pas, compter les « je veux » a marché) ; choix du cours |
 | Cohn recommande le modèle tout en disant qu'il n'est pas obligatoire (Consensus et choix d'école) | [S2] | Article consacré à expliquer pourquoi le modèle « works so well » ; « There is no magic formula », modèle non « mandatory » |
 | La carte reste courte ; le détail va dans la conversation et la confirmation (banque « La carte suffit-elle ? ») | [S3] | Découle de la carte comme « token representing the requirement » ; la formulation est celle du cours |
@@ -52,7 +51,7 @@ toute affirmation qui n'est pas ici.
 |---|---|---|
 | Une story exprime un besoin, pas le parcours entier de l'utilisateur ; le parcours sert à organiser le backlog en story map (concept 16) (Pièges, L'essentiel) | [S9] | Patton : la story map organise les stories sous les étapes du parcours de l'utilisateur (sources 02 [S17]). Que l'erreur soit fréquente vient du profil de départ d'un apprenant observé en session (il voyait la story comme « la description du parcours de l'utilisateur » ; un apprenant : base faible), sans source externe |
 | Pas de solution dans le « je veux » (Pièges) | [S2] en partie | Cohn : la raison laisse l'équipe choisir comment faire ; « sans solution » est la ligne du plan du cours. Le fichier du concept renvoie au concept 7 (besoin ou solution, critère N d'INVEST) sans nommer INVEST, introduit au concept 7 |
-| Acteur technique : l'acteur est celui qui agit et y gagne ; renvoi au concept 6 (Pièges) | aucune ici | Renvoi au concept 6, qui en porte la source. Cohn propose d'autres formats quand un système a peu d'utilisateurs visibles [S2]. Attention : au concept 1, les consommateurs de données sont des utilisateurs (sources 01, Dehghani) ; erreur relevée dans la fiche actuelle : son piège « en tant que data engineer : ce n'est pas un utilisateur » contredisait ce parti pris |
+| Acteur technique : l'acteur est celui qui agit et y gagne ; renvoi au concept 6 (Pièges) | aucune ici | Renvoi au concept 6, qui en porte la source. Cohn propose d'autres formats quand un système a peu d'utilisateurs visibles [S2]. Attention : au concept 1, les consommateurs de données sont des utilisateurs (sources 01, Dehghani) ; la fiche dit qu'un data engineer qui consomme la plateforme peut être un utilisateur (Pièges) |
 | Un chiffre précis va dans les critères d'acceptation, pas dans la phrase ; renvoi au concept 8 (Pièges) | aucune ici | Pratique du cours ; le concept 8 en porte la source |
 | Contradiction interne dans la phrase (Pièges) | aucune | Exemple du cours, sans source |
 
@@ -87,7 +86,7 @@ toute affirmation qui n'est pas ici.
   qu'elle en crédite toute l'équipe (mention « citation needed ») ; Cohn [S2] ne lui attribue que
   le modèle. Ne lui attribuer que le modèle.
 - **Les cinq pourquoi** : origine (Ohno ou Sakichi Toyoda, Toyota) rapportée par des sources
-  secondaires discordantes, sans texte de Toyota ni d'Ohno consulté. Si le fichier du concept
-  nomme la technique, écrire « venue de Toyota », sans date, auteur ni citation.
+  secondaires discordantes, sans texte de Toyota ni d'Ohno consulté. La fiche écrit « venus de
+  Toyota », sans date, auteur ni citation.
 - **Cohn, *User Stories Applied* (2004)** : livre non lu (cadrage T-018a §8) ; rien du fichier
   du concept ne doit s'y appuyer.

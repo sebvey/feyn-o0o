@@ -4,8 +4,9 @@ concept: 4
 
 # Sources : Hiérarchie du backlog
 
-Le consensus du concept tient en une phrase du Scrum Guide 2020 [S1] : il ne parle que
-d'« éléments du backlog » et ne définit aucun niveau. Les noms et le nombre des niveaux sont des
+Le consensus du concept vient du Scrum Guide 2020 [S1] : il ne parle que
+d'« éléments du backlog », ne définit aucun niveau et laisse aux Developers le découpage du travail
+choisi. Les noms et le nombre des niveaux sont des
 choix d'outil et d'équipe : Cohn [S2] pour le sens d'epic, de thème et de feature, Jira [S3],
 Azure DevOps [S4] et SAFe [S5] pour les niveaux par défaut. Les tests du cours (compter les
 « je veux », juger ce qu'il reste à livrer, le niveau de trop) sont des choix du cours, sans
@@ -15,7 +16,7 @@ source externe (voir « Non vérifié »).
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
 | Le Scrum Guide ne définit aucun niveau : il parle d'« éléments du backlog » (Consensus, 4a) | [S1] | Texte téléchargé et cherché le 2026-10-22 : « epic », « feature », « story », « theme », « task » : 0 occurrence ; le texte dit « Product Backlog items » et, au Sprint Planning, « work items » |
-| Découper un élément en éléments plus petits fait partie du refinement (4a, si l'échange y mène) | [S1] | « Product Backlog refinement is the act of breaking down and further defining Product Backlog items into smaller more precise items » |
+| Découper un élément en éléments plus petits fait partie du refinement (Consensus et choix d'école) | [S1] | « Product Backlog refinement is the act of breaking down and further defining Product Backlog items into smaller more precise items » |
 | La tâche : les Developers planifient le travail de chaque élément choisi, souvent en le découpant en travail d'un jour ou moins ; la façon de le faire leur revient (L'essentiel, Consensus, 4a) | [S1] | « For each selected Product Backlog item, the Developers plan the work necessary… This is often done by decomposing Product Backlog items into smaller work items of one day or less. How this is done is at the sole discretion of the Developers. » Le « souvent » porte sur le découpage. Le mot « tâche » (task) n'y figure pas : c'est le terme d'usage (XP, outils). « Le PO n'écrit pas la tâche » : choix du cours, présenté comme tel |
 | La tâche est dans le plan des Developers, le backlog de sprint, pas au backlog produit (L'essentiel, 4a, Pièges, Le test rapide, Schéma) | [S1] ; `course/sources/00-scrum.md`, `course/sources/03-backlog-produit.md` | Backlog de sprint « composed of the Sprint Goal (why), the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how) » ; « a plan by and for the Developers » (vérifié pour le concept 0). Le concept 3 enseigne la même chose (3b) |
 | Le cours emploie quatre mots courants ; les outils ont trois ou quatre niveaux par défaut (L'essentiel) | [S3], [S4] | Jira : trois niveaux par défaut ; Azure DevOps : quatre (Agile, Scrum, CMMI) ou trois (Basic). « Quatre mots courants » est le choix du cours, pas un constat d'usage : aucune source ne dit que la plupart des équipes emploient ces quatre mots |
@@ -62,16 +63,6 @@ source externe (voir « Non vérifié »).
 - Les noms de niveaux de Jira Server ou Data Center, et des modèles de projet Jira
   (Scrum, Kanban) au-delà de la page [S3] : non vérifiés. Le niveau 0 de Jira regroupe en
   pratique Story, Task et Bug ; [S3] ne nomme que « Story ».
-- « Story et tâche sont quasi universelles » (fiche actuelle) : aucune source ; contredit en
-  partie par [S3] (Subtask, pas Task) et [S4] (Product Backlog Item, Issue ou Requirement selon
-  le processus). Erreur relevée dans la fiche actuelle : retirer « quasi universel » ou le
-  reformuler.
-- « La plupart des équipes et des outils emploient quatre mots » (première rédaction, retirée
-  après revue) : aucune source ; contredit par [S3] (trois niveaux, sans feature) et [S4]
-  (processus Basic sans feature).
-- « Quelques jours » comme pratique courante pour la taille d'une story (relevé dans la
-  fiche actuelle) : aucune source ; [S7] dit « at most a few person-weeks ». Retiré du fichier
-  du concept.
 - Le sens de « thème » dans Jira (regroupement transversal) : lu seulement dans [S6], page qui
   affiche un avertissement de fiabilité ; absent de [S3]. Non cité dans le fichier du concept.
 - Les trois tests du cours (compter les « je veux », niveau de trop, juger ce qu'il reste à
