@@ -8,7 +8,7 @@ concept: 1
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
 | Un produit est un moyen de livrer de la valeur, avec des utilisateurs et des parties prenantes connus (L'essentiel, 1a) | [S1] | « A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. » Le Scrum Guide ne parle pas de « problème » dans sa définition du produit ; il présente Scrum comme un cadre pour des « complex problems » |
-| Décrire un produit par problème, utilisateurs et valeur (L'essentiel, 1a, Le test rapide) | [S1] en partie | Utilisateurs et valeur : définition du produit du Scrum Guide. Le triplet problème, utilisateurs, valeur est une formulation du cours ; aucune source consultée ne le donne comme tel (voir « Non vérifié ») |
+| Décrire un produit par problème, utilisateurs et valeur, choix d'école de Pichler (L'essentiel, Consensus et choix d'école, 1a, Le test rapide) | [S5] ; appui [S1] | [S5] : le Product Vision Board décrit le produit par son groupe cible et ses « needs », qui sont « the problems and pain points the product removes, and the benefits or gains it creates for the users and the customers ». Pichler réunit problème et bénéfice sous « needs » ; le cours les sépare en problème et valeur, et ne dit pas « besoin », terme des stories (glossaire). Utilisateurs et valeur : aussi dans la définition du produit du Scrum Guide [S1]. Relu le 2026-10-24 |
 | Les consommateurs de données sont des utilisateurs du produit (Consensus et choix d'école, 1a, Banque, équipe appli) | [S2] en partie | Choix du cours, appuyé sur le choix d'école de Dehghani (data mesh) : « the consumers of that data should be treated as customers ». Le propriétaire d'un produit de données doit savoir qui sont les utilisateurs des données et comment ils s'en servent ; ses mesures : qualité, délai de consommation, satisfaction des utilisateurs. Dehghani dit « customers » ; le Scrum Guide dit « users or customers » |
 | Le PO répond de la valeur du produit (L'essentiel, 1b) | [S1] | « The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team. » La façon de faire varie selon les organisations, les équipes et les personnes |
 | Le PO répond du backlog : il développe et communique l'objectif produit, crée et communique les éléments du backlog, les ordonne, rend le backlog transparent (1b) | [S1] | Les quatre points de « effective Product Backlog management », objectif produit en premier |
@@ -37,11 +37,15 @@ concept: 1
 | S2 | Dehghani, « Data Mesh Principles and Logical Architecture », martinfowler.com, 3 décembre 2020 | https://martinfowler.com/articles/data-mesh-principles.html | primaire | 2026-10-22 |
 | S3 | Scrum Alliance, *CSPO Learning Objectives*, janvier 2022 | https://www.scrumalliance.org/media/certifications/los/cspo_learning_objectives_2022.pdf | primaire | 2026-10-22 (cadrage T-018a) |
 | S4 | Scrum.org, Professional Scrum Product Owner I | https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification | primaire (et marketing pour la certification) | 2026-10-22 (cadrage T-018a) |
+| S5 | Pichler, « Building a Product Users Want: From Idea to Backlog with the Vision Board », article invité sur le blog de Mike Cohn (Mountain Goat Software), mis à jour le 10 mars 2023 ; le Product Vision Board date de 2011 (romanpichler.com) | https://www.mountaingoatsoftware.com/agile/building-a-product-users-want-from-idea-to-backlog-with-the-vision-board | primaire (l'auteur du tableau) | 2026-10-24 |
 
 ## Non vérifié
-- **Le triplet problème, utilisateurs, valeur** comme façon admise de décrire un produit :
-  aucune source consultée ne le formule ainsi. Le Scrum Guide donne utilisateurs et valeur, pas
-  « problème ». À présenter comme la formulation du cours, pas comme un consensus.
+- **Le Lean Canvas de Maurya (2010)**, qui part aussi du problème (cases Problem, Customer
+  Segments, Unique Value Proposition) : vu seulement dans des guides de seconde main
+  (lucid.co, visible.vc, consultés le 2026-10-24), pas dans un texte de Maurya. Ne pas le citer
+  comme appui de la grille.
+- **Le gabarit PDF du Product Vision Board** (questions de la section « Needs ») : copie trouvée,
+  texte non lisible ; la citation de [S5] vient de l'article de Pichler, pas du gabarit.
 - **« On décrit un produit par son effet sur l'utilisateur, pas par son architecture »**, que la
   fiche actuelle donne comme consensus : aucune source consultée ne l'énonce. Il découle de la
   définition du Scrum Guide (le produit livre de la valeur à des utilisateurs) ; à présenter

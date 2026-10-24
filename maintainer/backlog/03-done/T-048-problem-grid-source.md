@@ -14,3 +14,6 @@
   mise à jour, « Non vérifié » réduit au Lean Canvas de Maurya (vu de seconde main).
 - **Fini quand** : le concept et ses sources attribuent la grille à Pichler, sans plus la
   présenter comme un ajout du cours.
+- **Fait le** : 2026-10-24, grille passée en choix d'école (Pichler) dans le concept 1 ;
+  sources : référence S5, ligne d'affirmation réécrite, « Non vérifié » limité au Lean Canvas et
+  au gabarit PDF illisible. Pas de test par sous-agent (contenu, deux puces). Pas d'ADR.
