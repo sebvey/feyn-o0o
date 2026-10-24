@@ -55,9 +55,9 @@ horizontales.
      qu'il suffit de traverser les couches : « Le compteur de relevés ingérés ».
    - **9a2** Où s'arrête le vertical (« Les tâches de Dana ») : « tranche » est une façon de
      découper, pas un niveau. Un epic se découpe en stories verticales ; au niveau du sprint,
-     une tranche est une story. La question fait trouver que ses tâches sont horizontales, et
-     que c'est normal : elles sont le plan des Developers (renvoi au concept 4, sans le
-     réenseigner). Après une réponse fausse : « Les tâches de la story d'Abba ».
+     une tranche est une story, et le vertical s'arrête là : le plan des Developers relève du
+     concept 4 (renvoi, sans le réenseigner). Après une réponse fausse : « Les tâches de la
+     story d'Abba ».
 2. **9b patrons de découpage**, en deux messages, une question par message :
    - **9b1** Couche ou tranche (« Prévoir les stations à risque : laquelle est une couche ? ») :
      une story trop grosse se découpe (concept 4) ; chaque morceau passe le même test qu'en 9a.
@@ -249,22 +249,22 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   Pour tenir en 15 lignes, ne pas réciter les catalogues : la réserve sert sur demande.
 
 ## Pièges
-- **Découper par couche** (préparer les données, entraîner le modèle, afficher) : rien pour
+- **Découper par couche** (collecter, transformer, restituer) : rien pour
   l'utilisateur avant la fin. Réflexe probable d'un profil technique.
-- **Croire que traverser les couches suffit** (le compteur de relevés ingérés) : la tranche
+- **Croire que traverser les couches suffit** : la tranche
   doit servir seule. Le walking skeleton (Cockburn) sert l'équipe, pas l'utilisateur.
 - **Appliquer le vertical aux tâches** : il s'arrête à la story ; les tâches sont horizontales
   et appartiennent aux Developers (concept 4).
 - **Légender une part « story »** : une tranche est une façon de découper ; elle n'est une
   story qu'au niveau du sprint.
-- **Nommer la forme dans la tranche** (« carte », « liste ») : la story dit ce que
+- **Nommer la forme dans la tranche** (un écran, un export) : la story dit ce que
   l'utilisateur obtient ; la forme reste aux Developers (concept 5). Une story qui ne nomme pas
   l'écran livre quand même quelque chose de visible.
-- **Fixer une règle en découpant** (« vide », « presque vide », « heures de pointe ») : règle
+- **Fixer une règle en découpant** (« presque vide », « heures de pointe ») : règle
   non fixée, le PO la fait fixer (concept 8a2).
-- **Collecter une source « pour plus tard »** (la météo) : une couche ; la raccrocher à un
-  usage.
-- **Trancher une hypothèse dans le découpage** (la tendance suffit, la pluie compte) : on la
+- **Préparer une couche « pour plus tard »** (une source de plus, une table sans usage) : c'est
+  une couche ; la raccrocher à un usage.
+- **Trancher une hypothèse dans le découpage** (« la liste non confirmée suffira ») : on la
   vérifie avant (concept 17).
 - **Mélanger les catalogues** : attribuer un patron de Lawrence à SPIDR, ou l'inverse.
 
@@ -273,15 +273,17 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
 
 ## Schéma
 **9a, le gâteau en couches.** Quatre couches empilées, de bas en haut : ingestion (relevés
-des stations), transformation, données prêtes, restitution (ce que voit Régis). Une couche
+des stations), transformation, données prêtes, restitution (ce que voit l'utilisateur). Une couche
 entière grisée, légendée « tranche horizontale : ne sert pas seule ». Trois parts verticales
 colorées qui traversent toutes les couches, légendées « tranche 1 », « tranche 2 »,
 « tranche 3 », avec la légende « tranche verticale : un peu de chaque couche, sert seule ».
 Pour 9a2, dans la correction (pas avant la question) : un zoom sur la tranche 1, coupée en
 lamelles horizontales en pointillé, « tâches », avec la mention « au niveau du sprint, la
 tranche est une story ».
-**9b, la part trop grosse.** La part « prévoir les stations à risque » recoupée : deux parts
-plus fines (a centre-ville, c tendance de la dernière heure) et, à côté, une lamelle
-horizontale « b collecte météo : une couche ». Sous chaque part fine, le patron et son
-catalogue (« D, SPIDR / Variations in Data, Lawrence » ; « Simple/Complex, Lawrence ; R de
-SPIDR défendable »).
+**9b, la part trop grosse (cas inventé, ni Régis ni son exercice).** La part « une vue des
+vélos en panne pour Étienne », trop grosse pour un sprint, recoupée : deux parts verticales
+(a les stations du centre-ville seulement, c les vélos signalés, confirmés ou non par un
+technicien) et, à côté, une lamelle horizontale « b une table des signalements prête, sans
+vue : une couche ». Sous chaque part verticale, le patron et son catalogue (« D, SPIDR /
+Variations in Data, Lawrence » ; « R, SPIDR (Business Rule Variations, Lawrence, diffère) »).
+Légende : « morceaux inventés pour l'illustration ».

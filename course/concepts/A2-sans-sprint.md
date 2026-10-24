@@ -210,9 +210,9 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   texte ne fait consensus pour travailler sans sprint.
 - **Croire que sans sprint tout s'en va** : backlog ordonné par le PO, DoD, incrément et
   objectif produit restent.
-- **Commencer un élément qui n'est pas prêt « pour qu'il soit en route »** : il prend une place
+- **Commencer un élément qui n'est pas prêt** : il prend une place
   sous la limite sans avancer.
-- **Laisser la dernière relance décider de l'élément tiré** : c'est l'ordre du backlog.
+- **Laisser la pression des demandeurs décider de l'élément tiré** : c'est l'ordre du backlog, que le PO tient à jour à mesure que les places se libèrent.
 - **Supprimer l'inspection avec les parties prenantes** parce qu'il n'y a plus de revue de
   sprint ; ou la confondre avec la revue de la livraison du service, qui porte sur la
   performance du service.
@@ -232,7 +232,6 @@ de cycle (les Developers).
 Un tableau de flux en colonnes, de gauche à droite : « Backlog ordonné (PO) », une ligne
 verticale « début du flux : DoR », une colonne « En cours » avec trois cases (la limite), puis
 « Fini (DoD) », qui mène à l'incrément livré. Des flèches tirent les cartes de gauche à droite
-quand une case se libère ; la carte d'Étienne attend avant la ligne, étiquetée « accès aux
-locations : en attente DSI ». Sous le tableau, une accolade du début du flux à « Fini » :
+quand une case se libère ; une carte pas prête (cas inventé) attend avant la ligne, grisée. Sous le tableau, une accolade du début du flux à « Fini » :
 « temps de cycle » ; un compteur sous « Fini » : « débit ». Légende : « on tire quand une place
 se libère ; la DoR garde le début du flux, la DoD la fin ».

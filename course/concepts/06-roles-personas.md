@@ -26,7 +26,8 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
   Lockwood ; répandue, mais ni Scrum Guide ni consensus démontré : le prof l'attribue à Cohn,
   sans l'appeler consensus) : écrire les stories pour plusieurs rôles précis, car supposer un seul type
   d'utilisateur fait manquer des stories. Cohn admet que « utilisateur » suffit quand tous ont
-  besoin du même comportement pour la même raison ; il conseille un rôle plus précis quand il
+  besoin du même comportement pour la même raison, et qu'une seule story ne couvre deux rôles que
+  dans ce cas ; il conseille un rôle plus précis quand il
   change la conversation (règles, données, moment, droits ou résultat différents).
 - **Choix du cours** : « l'acteur agit et y gagne ». Quand deux formulations se valent,
   Cohn prend pour acteur celui qui lance l'action, et sa story nomme celui qui en profite ; il écrit pourtant parfois une story pour un rôle
@@ -36,7 +37,7 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
   obligatoires ; discutés entre praticiens (on leur reproche des preuves surtout anecdotiques et
   un risque de stéréotype).
 - **Choix du cours** (sans source externe, à présenter comme tels) : le PO vérifie l'acteur
-  auprès des utilisateurs ; la story garde le rôle (« en tant qu'abonné ») même quand l'équipe a
+  auprès des utilisateurs ; la story garde le rôle (« en tant que <rôle> ») même quand l'équipe a
   un persona, qui sert à la conversation et aux exemples.
 
 ## Sous-concepts
@@ -48,7 +49,7 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
    technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
    sur la vérification.
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
-   d'utilisateurs réels ; Abba, persona des abonnés sans l'appli. Il ne remplace ni le rôle
+   d'utilisateurs réels. Il ne remplace ni le rôle
    dans la story, ni les entretiens. Un message, avec « Abba, on lui fait dire ce qu'on veut ? »
    (« Le trait qu'Anna veut ajouter » après une réponse fausse, si la relance échoue ; « En
    tant qu'Abba ? » en rechange).
@@ -174,8 +175,9 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 
 ### Le trait qu'Anna veut ajouter (6b)
 - **Explication** : rechange après une réponse fausse à « Abba, on lui fait dire ce qu'on
-  veut ? », si la relance échoue. Le prénom d'Abba est inventé, ses traits viennent
-  d'abonnés réels : chaque trait doit pouvoir répondre à « d'où vient-il ? ».
+  veut ? », si la relance échoue. Un persona (cas inventé : « Léa », cycliste du week-end) a
+  un prénom fictif ; chacun de ses traits vient d'une observation d'utilisateurs réels, et doit
+  pouvoir répondre à « d'où vient-il ? ».
 - **Situation** : Anna veut ajouter au portrait d'Abba : « elle se contente d'une
   disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
 - **Question** : que demandes-tu à Anna, et que fais-tu avant d'accepter ce trait ?
@@ -212,11 +214,11 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   seulement la façon de le servir ? »
 
 ## Pièges
-- **Acteur technique** (« en tant que data engineer, je veux une table… ») : l'acteur est celui
+- **Acteur technique** (un rôle qui se contente de construire le livrable) : l'acteur est celui
   qui agit et y gagne, pas celui qui construit. Un consommateur de données reste un utilisateur
   (choix du cours, concept 1).
-- **La valeur d'un autre rôle dans le « afin de »** (« en tant que responsable maintenance, …
-  afin que mes techniciens préparent leur tournée ») : le « afin de » dit le gain de l'acteur ;
+- **La valeur d'un autre rôle dans le « afin de »** (un responsable qui écrit « … afin que mes
+  équipes gagnent du temps », exemple inventé) : le « afin de » dit le gain de l'acteur ;
   sinon, changer d'acteur ou chercher sa propre raison (concept 5).
 - **Deviner l'acteur** : le PO ne choisit pas l'acteur sur le papier ; il le vérifie auprès des
   utilisateurs (qui fait l'action, qui y gagne).
@@ -224,7 +226,7 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   besoin est parfois celui de son équipe.
 - **« En tant qu'utilisateur » par défaut** : il fait manquer des stories quand les rôles ont
   des raisons différentes. Il suffit quand tous ont le même besoin pour la même raison.
-- **Un prénom à la place du rôle** (« en tant que Théo ») : la story sert un rôle ; la personne
+- **Un prénom à la place du rôle** (« en tant que Julie », exemple inventé) : la story sert un rôle ; la personne
   nommée est celle qu'on interroge.
 - **Un persona inventé** : un portrait tiré de l'imagination de l'équipe, sans abonnés
   interrogés, fait parler un utilisateur qui n'existe pas.
@@ -238,16 +240,16 @@ cours, pas règle absolue) ; dans tous les cas, le PO le vérifie auprès de l'u
 ## Schéma
 Deux schémas, chacun au message de son sous-concept.
 
-**6a, deux flèches vers l'acteur**, montré à la correction, pas avec la question : il donne la
-réponse. La phrase de la story en trois blocs (« En tant que », « je
-veux », « afin de »), la case « En tant que » vide. En dessous, Théo (technicien de maintenance)
-et Maud (responsable maintenance). Deux flèches partent de la phrase : du « je veux » (« voir
-les vélos signalés en panne ») vers celui qui agit, du « afin de » (« préparer ma tournée ») vers
-celui qui y gagne ; les deux arrivent sur Théo, et son rôle monte dans la case vide. Légende :
+**6a, deux flèches vers l'acteur**, sur un cas inventé pour l'illustration, qui n'est pas celui
+d'un exercice. La phrase de la story en trois blocs (« En tant que », « je
+veux », « afin de »), la case « En tant que » vide. En dessous, deux rôles : régulateur et agent
+d'accueil. Deux flèches partent de la phrase : du « je veux » (« savoir quelles stations vont se
+vider ») vers celui qui agit, du « afin de » (« y aller avant qu'elles soient vides ») vers celui
+qui y gagne ; les deux arrivent sur le régulateur, et son rôle monte dans la case vide. Légende :
 « les deux flèches sur le même rôle : c'est l'acteur ».
 
-**6b, le portrait tiré des abonnés.** Une carte portrait « Abba, persona des abonnés sans
-l'appli », posée sur un groupe de silhouettes d'abonnés (un tiers marqués d'un téléphone
-basique). Une flèche de la carte vers une bulle de conversation ; la case « En tant que » d'une
-story, à côté, garde « abonné ». Légende : « construit à partir d'abonnés réels (choix d'école,
+**6b, le portrait tiré des abonnés.** Une carte portrait « Léa, persona des cyclistes du
+week-end » (cas inventé pour l'illustration), posée sur un groupe de silhouettes de cyclistes
+réels. Une flèche de la carte vers une bulle de conversation ; la case « En tant que » d'une
+story, à côté, garde le rôle. Légende : « construit à partir d'utilisateurs réels (choix d'école,
 Cooper) ».

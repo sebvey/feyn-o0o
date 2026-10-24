@@ -271,6 +271,6 @@ Une frise de sprints : des blocs de temps de même longueur, collés les uns aux
 chaque bloc, le Sprint Planning au début, un petit trait par jour pour le Daily Scrum, la revue
 puis la rétrospective à la fin. Au-dessus, un escalier qui monte : chaque marche est un
 incrément qui s'ajoute aux précédents ; les marches tombent à des moments variés, plusieurs
-dans un même sprint, dont une le mercredi de la deuxième semaine. Légende : « sprint : une
+possibles dans un même sprint. Légende : « sprint : une
 durée », « marche : un incrément ». À côté, un tableau de trois lignes : backlog
 produit et objectif produit, backlog de sprint et objectif de sprint, incrément et DoD.

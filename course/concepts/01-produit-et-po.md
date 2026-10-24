@@ -33,13 +33,13 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Choix d'école** (Dehghani, data mesh) : traiter les consommateurs de données comme des
   clients.
 - **Choix du cours** (ni consensus ni choix d'école), appuyé sur le choix de Dehghani : les
-  consommateurs de données sont des utilisateurs du produit (l'équipe appli, qui reçoit les
-  données qu'affiche l'appli ; la collectivité, qui reçoit des indicateurs).
+  consommateurs de données sont des utilisateurs du produit (cas inventé : un service d'analyse
+  qui reçoit un jeu de données, un organisme qui reçoit des indicateurs).
 
 ## Sous-concepts
 1. **1a Le produit : problème, utilisateurs, valeur.** Décrire la plateforme par ce qu'elle
-   change pour qui, pas par sa technique ; les consommateurs de données (équipe appli,
-   collectivité) sont des utilisateurs. L'objectif produit et la mesure du résultat viennent au
+   change pour qui, pas par sa technique ; les consommateurs de données sont des
+   utilisateurs. L'objectif produit et la mesure du résultat viennent au
    concept 2 : ici, on s'arrête à « ce qui change pour une personne nommée ».
 2. **1b Qui tranche quoi.** Le PO : quoi, ordre, pourquoi ; une seule personne, qui peut
    déléguer le travail sans déléguer la responsabilité. Les Developers : comment et coût ; ils
@@ -78,8 +78,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   elle sert, la phrase parle encore de technique.
 
 ### L'équipe appli, utilisatrice de la plateforme ? (1a)
-- **Explication** : un utilisateur est une personne ou une équipe qui se sert du produit. Une
-  équipe qui consomme ses données en est une, même si elle n'ouvre aucun écran de la plateforme.
+- **Explication** : un utilisateur est une personne ou une équipe qui se sert du produit. On
+  se sert d'un produit par ses écrans ou par ses données.
 - **Situation** : l'équipe appli (sa PO : Pia) affiche dans l'appli des abonnés des données
   qu'elle reçoit de la plateforme. Diego dit : « Les utilisateurs de la plateforme, ce sont
   Étienne et ses régulateurs. L'équipe appli, c'est une équipe voisine, pas une utilisatrice. »
@@ -205,22 +205,22 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   avec le PO).
 
 ## Pièges
-- **Décrire le produit par sa technique** (entrepôt, rafraîchissement, alertes) : la phrase ne
+- **Décrire le produit par sa technique** (l'architecture, les composants, la fréquence de
+  mise à jour) : la phrase ne
   dit ni pour qui ni ce qui change. Signe : un abonné ne comprendrait pas à quoi sert la
   plateforme.
-- **Oublier la valeur** : « la plateforme montrera les vélos signalés en panne », et alors ?
+- **Oublier la valeur** : une phrase qui dit ce que le produit affiche ou calcule, et alors ?
   Tant que la phrase ne dit pas ce qui change pour une personne nommée, la valeur manque.
-- **Oublier les consommateurs de données** : l'équipe appli et la collectivité sont des
-  utilisatrices, pas seulement des équipes voisines ou des destinataires de rapports.
-- **Trancher seul un fait métier** : décider que les régulateurs ont besoin du temps réel, ou
-  combien de temps Théo gagne, au lieu de le demander à l'acteur concerné (Étienne, Théo, Maud,
-  Charlotte). Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
+- **Oublier les consommateurs de données** : un consommateur de données est un utilisateur,
+  pas seulement un destinataire de rapports.
+- **Trancher seul un fait métier** : décider de ce dont un utilisateur a besoin, ou du temps
+  qu'il gagnerait, au lieu de le demander à l'acteur concerné. Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
 - **Garder la casquette de développeur** : choisir la technique ou estimer à la place des
   Developers. Le comment et le coût sont à eux.
 - **Croire que le PO fixe seul le contenu du sprint** : il propose, les Developers choisissent
   avec lui.
-- **Partager le rôle** : un comité qui vote l'ordre, ou deux PO. Déléguer le travail est permis ;
-  la responsabilité reste au PO.
+- **Partager le rôle** : un comité qui vote l'ordre, ou deux PO qui
+  se le partagent. Déléguer le travail est permis ; la responsabilité reste à un seul PO.
 
 ## Le test rapide
 Ma phrase dit-elle **qui** a **quel problème**, et **ce qui change** pour lui une fois résolu ?
@@ -230,7 +230,7 @@ Pour une décision : est-ce un quoi, un ordre ou un pourquoi (PO), ou un comment
 ## Schéma
 À gauche, un triangle dont les sommets sont **Problème**, **Utilisateurs** et **Valeur**, avec
 **Produit** au centre. Sous « Utilisateurs », deux familles : ceux qui regardent les vues
-(Étienne, les régulateurs) et ceux qui consomment des données (équipe appli, collectivité).
+et ceux qui consomment des données.
 À droite, un tableau « qui tranche quoi » en trois colonnes : **PO** (quoi, ordre, pourquoi ;
 une seule personne), **Developers** (comment, coût ; choisissent le travail du sprint avec le
 PO), **Parties prenantes** (font valoir leurs besoins, convainquent le PO). Légende : le PO

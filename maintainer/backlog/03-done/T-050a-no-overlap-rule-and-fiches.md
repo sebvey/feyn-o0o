@@ -9,3 +9,4 @@
   3. trancher les passages que l'audit du site a laissés ouverts : cinq principes retirés des pages (par exemple « pourquoi une seule personne »), 14c, 16a2, 16c2, 9a2 et le libellé du parcours « J'ordonne mon backlog » ;
   4. Branche et PR, avec le test de reprise du cours (`maintenance`, §5).
 - **Fini quand** : aucune fiche n'explique avec le cas de son propre exercice, la règle est dans le gabarit et dans `course-lot`, et les passages ouverts sont tranchés dans la PR.
+- **Fait le** : 2026-10-24, règle de non-recoupement posée (gabarit, course-lot, ADR-037), 20 fiches et 6 fichiers de sources repris (environ 125 passages), passages ouverts tranchés ; deux relectures indépendantes ; écarts des fichiers de sources renvoyés à T-051.

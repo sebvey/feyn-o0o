@@ -160,6 +160,8 @@ question teste la compréhension (reformuler, corriger un exemple fautif, tranch
 jamais « as-tu compris ? » ; réponses attendues justes et nuancées ; erreurs fréquentes et pièges \
 réalistes pour le public cible ; conformité au modèle de fichier de concept et aux exigences de \
 la méthode sur la banque d'exemples ;
+- recoupement : aucune section qui explique n'emploie la situation d'une Question de la banque ni \
+n'en énonce le verdict (modèle de fichier de concept) ;
 - style : les règles de style.`
   return `${ROLE}
 
@@ -215,7 +217,9 @@ ${context(c)}
 ${sourcesSummary}). Écris ${c.concept_file} selon le modèle de fichier de concept, pour le public \
 cible du plan, à partir de la ligne du plan, des sources, de l'exemple fil rouge, du glossaire, \
 des entrées et du fichier actuel (garde ce qui y est juste et éprouvé). Respecte la méthode du \
-lot pour la banque d'exemples. Le fichier ne cite aucune référence : chaque affirmation que tu \
+lot pour la banque d'exemples. Les sections qui expliquent respectent la règle de recoupement du \
+modèle de fichier de concept : principes en termes généraux, ni la situation ni le verdict d'une \
+Question de la banque. Le fichier ne cite aucune référence : chaque affirmation que tu \
 ajoutes doit avoir sa ligne dans ${c.sources_file} ; ajoute-la, ou mets-la en « Non vérifié ». Ne \
 modifie ni l'exemple fil rouge ni le glossaire : un fait ou un terme nouveau dont tu as besoin va \
 dans ${WORK}${c.id}-needs.md (crée-le seulement s'il y en a), et ton texte reste cohérent avec \

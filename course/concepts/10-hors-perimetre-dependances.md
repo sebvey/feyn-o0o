@@ -43,15 +43,15 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
 1. **10a hors périmètre**, en deux messages ; on ne passe à 10b qu'après les deux :
    - **10a1** l'écrire : ce que la story ne fait pas alors qu'on pourrait l'attendre, écrit quand
      on précise la story avant le sprint (« Écrire le hors périmètre de la tournée ») ;
-   - **10a2** le montrer à la revue : la demande qui en sort entre au backlog et le PO l'ordonne
-     (comment : concept 13) (« Maud crie au bug », qui reprend le hors périmètre de 10a1).
+   - **10a2** le montrer à la revue : ce que devient une demande sortie du hors périmètre
+     (comment l'ordonner : concept 13) (« Maud crie au bug », qui reprend le hors périmètre de
+     10a1).
 2. **10b dépendances**, en deux messages :
    - **10b1** entre deux stories de l'équipe : fusionner ou ordonner (« Fusionner les deux
      stories de Charlotte ? ») ;
-   - **10b2** envers une autre équipe : l'écrire dans son backlog et demander à l'autre PO de
-     l'écrire dans le sien, s'accorder avec lui sur l'ordre (« Le canal d'Abba dépend de
-     l'équipe appli ») ; si l'accord ne se fait pas, escalade : renvoi au concept 14, sans
-     l'enseigner. L'accès à la table des locations, dépendance envers la DSI, est l'exemple du
+   - **10b2** envers une autre équipe : s'accorder avec le PO de cette équipe (« Le canal
+     d'Abba dépend de l'équipe appli ») ; si l'accord ne se fait pas, escalade : renvoi au
+     concept 14, sans l'enseigner. L'accès à la table des locations, dépendance envers la DSI, est l'exemple du
      concept 11b.
 
 Déjà enseigné, à rappeler sans le réenseigner : V et I d'INVEST, les Developers estiment la
@@ -215,14 +215,13 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 
 ## Pièges
 - **Ne rien écrire hors périmètre** : chacun comble les silences avec ses attentes, et la revue
-  tourne au « c'est un bug ».
+  tourne à la dispute sur ce qui était prévu.
 - **Lister des évidences ou des tâches** : le hors périmètre ne sert qu'aux demandes plausibles.
 - **Prendre le hors périmètre pour un refus** : chaque ligne reste une demande, qui va au
   backlog.
-- **Traiter aussitôt une demande sortie du hors périmètre** (« c'est le bon moment ») : elle
-  entre au backlog et le PO l'ordonne comme les autres (concept 13).
-- **Trancher en revue une règle que la demande soulève** (bloquer dès le signalement) : la faire
-  fixer (concept 8a2).
+- **Traiter aussitôt une demande sortie du hors périmètre** : elle entre au backlog et le PO
+  l'ordonne comme les autres (concept 13).
+- **Trancher en revue une règle que la demande soulève** : la faire fixer (concept 8a2).
 - **Fusionner deux stories pour supprimer une dépendance saine** : on retarde la valeur de la
   première. La fusion se défend si la story fusionnée reste petite.
 - **Accepter deux stories dont aucune n'a de valeur seule** : ce sont souvent des tranches
@@ -243,13 +242,12 @@ redécouper (concept 9). Envers une autre équipe :
 
 ## Schéma
 Deux panneaux.
-1. **Hors périmètre (10a)** : un cercle « la story de tournée », avec dedans « voir les vélos
-   signalés en panne ». Juste au bord, à l'extérieur, trois étiquettes : « bloquer à la
-   location », « diagnostiquer la panne », « signalements par téléphone ». De chacune part une
+1. **Hors périmètre (10a)** (cas inventé, à dire dans la légende) : un cercle « la story »,
+   avec dedans « voir l'indicateur sur le tableau de bord ». Juste au bord, à l'extérieur,
+   deux étiquettes : « l'export en fichier », « l'envoi par courriel ». De chacune part une
    flèche vers une boîte « backlog, à ordonner par le PO ». Légende : « au bord du cercle :
    ce qu'on pourrait croire inclus ».
-2. **Dépendances (10b)** : à gauche, un seul backlog, A au-dessus de B, une flèche « B dépend de
-   A » ; légende « même équipe : le PO ordonne ». À droite, deux backlogs côte à côte
-   (plateforme, équipe appli) ; « disponibilité par station » relié par un trait à « canal pour
-   les abonnés sans l'appli » ; entre les deux PO (le PO de la plateforme, Pia), une bulle « on
-   s'accorde sur l'ordre » ; en dessous, en pointillé, « si ça bloque : escalade (concept 14) ».
+2. **Dépendances (10b)** (cas inventé, à dire dans la légende) : à gauche, un seul backlog, une
+   story X au-dessus d'une story Y, une flèche « Y dépend de X » ; légende « même équipe : le PO
+   ordonne ». À droite, deux backlogs côte à côte (équipe A, équipe B) ; une story de A reliée
+   par un trait à un élément de B ; entre les deux PO, une bulle « chacun ordonne le sien ».

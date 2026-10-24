@@ -56,7 +56,7 @@ le Scrum Guide, la DoR non.
    critère : les trois exigences d'Étienne ». En rechange, ou si l'apprenant demande ce qui
    arrive à une story qui ne remplit pas la DoD : « L'exception demandée par Étienne » (la
    conséquence se renvoie au concept 0b). Aparté possible :
-   « La DoD évolue » (la rétrospective).
+   « La DoD évolue ».
 2. **11b DoR** : choix d'école ; ce que dit le Scrum Guide (prêt à être choisi au Sprint
    Planning) ; décider si une story est prête, et quoi faire sinon. Au planning, le PO propose,
    les Developers choisissent (concept 0 ; détail au concept 15b). Exemple principal : « La
@@ -234,24 +234,25 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   condition.
 
 ## Pièges
-- **Recopier la même exigence dans les critères de chaque story** (l'heure de la dernière mise
-  à jour) : elle va dans la DoD.
+- **Recopier la même exigence dans les critères de chaque story** (par exemple une relecture
+  par un second Developer) : elle va dans la DoD.
 - **Mettre dans la DoD ce qui est propre à une story** : c'est un critère d'acceptation.
 - **Prendre une règle métier pour une exigence de la DoD** parce qu'elle vaut pour plusieurs
   stories : la règle dit une vérité du domaine (concept 8), la DoD une exigence de qualité sur
   le travail.
 - **Croire à une DoD par incrément, par sprint ou par équipe d'un même produit** : une seule
   DoD, pour toute story ; elle change en rétrospective, pour tous.
-- **Lever la DoD pour une story pressée** : la DoD n'est plus commune ; la story n'est pas
+- **Lever la DoD pour une story donnée** : la DoD n'est plus commune ; la story n'est pas
   terminée et retourne au backlog (concept 0b).
 - **Présenter la DoR comme du Scrum** : le Scrum Guide parle d'éléments prêts à être choisis,
   pas de DoR.
-- **Prendre une story sur un « sûrement »** : une dépendance externe non levée la laisse au
-  backlog ; le PO fait avancer la dépendance.
+- **Prendre une story sur la simple confiance qu'une condition sera remplie en cours de
+  sprint** : une dépendance externe non levée la laisse au backlog ; le PO fait avancer la
+  dépendance.
 - **Une DoR en mini cahier des charges** : les stories attendent d'être entièrement
   spécifiées, et la conversation s'arrête avant le sprint.
-- **Fixer en douce une règle non fixée pour rendre une story prête** (seuil « presque vide »,
-  locations très courtes) : le PO la fait fixer (concept 8a2).
+- **Fixer en douce une règle non fixée pour rendre une story prête** (par exemple un
+  seuil ou une durée maximale) : le PO la fait fixer (concept 8a2).
 
 ## Le test rapide
 « Vaut-il pour toute story (du même type de travail), sans être recopié ? » : DoD.
@@ -261,7 +262,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 ## Schéma
 Un sprint dessiné comme une pièce à deux portes. À gauche, la porte d'entrée « DoR (choix
 d'école) », par où passent les cartes de story venues du backlog ; une carte bloquée devant,
-étiquetée « accès aux locations : en attente DSI ». À droite, la porte de sortie « DoD », qui
+étiquetée « critères à écrire » (cas inventé, à dire dans la légende). À droite, la porte de sortie « DoD », qui
 mène à l'incrément ; une carte refoulée repart vers le backlog. Sur chaque carte, ses propres
 critères d'acceptation ; la DoD est un seul cadre, le même pour toutes les cartes qui
 sortent. Légende : « DoR : quand une story peut commencer ; DoD : quand elle est terminée ».

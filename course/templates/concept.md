@@ -6,6 +6,15 @@ par le prof, qui enseigne à partir de lui. Rien de propre à un apprenant : ni 
 réponse, ni verdict. Les exemples prennent les acteurs et les faits de
 `course/fil-rouge-velos.md`, et les termes de `course/glossary.md`.
 
+Les sections qui expliquent (L'essentiel, Consensus et choix d'école, Sous-concepts, Pièges, Le
+test rapide, Schéma, et le champ Explication de chaque exemple) énoncent les principes en termes
+généraux. Elles n'emploient ni la situation d'une Question de la banque (ses acteurs et les
+faits du fil rouge qu'elle met en jeu), ni le verdict que cette Question appelle sur ce cas :
+leurs exemples sont des cas génériques du fil rouge, ou des cas inventés, signalés comme tels.
+Exception : un exemple résolu qui reprend un cas déjà enseigné, pour que la Question porte sur
+une autre partie du même cas. Les champs Situation, Question, Réponse attendue, Erreurs
+fréquentes et Ce qui marche, et l'intro de la banque, restent réservés à l'agent.
+
 Le fichier ne cite aucune référence : la source de chacune de ses affirmations est dans
 `course/sources/`, sous le même nom, selon `course/templates/sources.md`. Un consensus nomme
 son texte (le Scrum Guide), un choix d'école son auteur.

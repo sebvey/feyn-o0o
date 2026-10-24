@@ -41,7 +41,7 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
 ## Sous-concepts
 1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ;
    la règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage
-   (téléphone basique) va dans le Given d'un critère (concept 7b). Se déroule en deux messages :
+   (un moyen d'accès précis) va dans le Given d'un critère (concept 7b). Se déroule en deux messages :
    - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
@@ -208,28 +208,28 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Ce qui marche** : comparer A et B ligne à ligne et compter les faits qui changent.
 
 ## Pièges
-- **Confondre règle et critère** : recopier « un vélo disponible est à quai et louable » dans
-  les critères de chaque story, ou ériger un cas précis en règle. Le test rapide les sépare.
-- **Fixer une règle non fixée dans un critère** (le seuil « presque vide ») : le critère
+- **Confondre règle et critère** : recopier la même règle (cas inventé : « un abonné loue un seul vélo à la fois »)
+  dans les critères de chaque story, ou ériger un cas précis en règle. Le test rapide les sépare.
+- **Fixer une règle non fixée dans un critère** (cas inventé : une durée maximale de location, non fixée) : le critère
   décide en douce. Le PO ne l'invente pas et ne la tranche pas à la place de l'utilisateur
   concerné ; il la fait fixer avant que la story parte (concept 4 ; DoR, concept 11).
-- **Inventer une règle dans le Then** (« le vélo signalé en panne ne compte pas ») : vérifier
+- **Inventer une règle dans le Then** (cas inventé : « l'abonné suspendu ne peut pas louer », si aucune règle ne le dit) : vérifier
   chaque Then contre les règles fixées.
-- **Un mot flou** (« à jour », « rapidement ») : le testeur doit encore poser une question.
-  Écrire la valeur fixée (« à jour de moins de 15 minutes »). Un mot dont la règle n'est pas
-  fixée (« presque vide ») relève du piège précédent.
-- **Un Then vague** (« elle peut savoir ») : écrire ce que le testeur vérifie (un nombre, son
+- **Un mot flou** (« récent », « rapidement ») : le testeur doit encore poser une question.
+  Écrire la valeur fixée (cas inventé : « chargée en moins de 3 secondes »). Un mot dont la règle n'est pas
+  fixée (« location trop longue ») relève du piège précédent.
+- **Un Then vague** (« l'utilisateur est informé ») : écrire ce que le testeur vérifie (un nombre, son
   âge).
 - **Un When absent ou mal placé** : sans événement, on ne sait pas quand vérifier.
-- **Le moyen au lieu du résultat** (« rafraîchi toutes les 5 minutes ») : le Then vérifie
+- **Le moyen au lieu du résultat** (« la page est servie depuis un cache ») : le Then vérifie
   l'âge des données que l'utilisateur lit, pas la fréquence de rafraîchissement.
-- **La solution dans le critère** (« elle reçoit un SMS ») : on fige ce que l'équipe pouvait
+- **La solution dans le critère** (« il reçoit un export CSV ») : on fige ce que l'équipe pouvait
   négocier (concept 7b).
-- **Une contrainte reformulée trop large** (« pas de smartphone » pour « téléphone basique,
-  sans l'appli ») : reprendre la contrainte telle qu'elle est posée.
+- **Une contrainte reformulée trop large** (« hors ligne » pour « sans réseau pendant le trajet »,
+  exemple inventé) : reprendre la contrainte telle qu'elle est posée.
 - **Plusieurs variables changées à la fois** : on ne sait plus quelle règle on teste.
-- **Répéter dans chaque story ce qui vaut pour toutes** (l'heure de la dernière mise à jour
-  dans chaque vue) : c'est la DoD (concept 11).
+- **Répéter dans chaque story ce qui vaut pour toutes** (le même bandeau de version dans
+  chaque vue) : c'est la DoD (concept 11).
 - **Croire Given/When/Then obligatoire ou lié à un outil** : c'est un choix d'école ; un
   critère écrit autrement convient s'il reste tranchable.
 
@@ -238,10 +238,9 @@ Règle : « est-ce encore vrai si cette story n'existe pas ? ». Critère : « u
 dire OK ou KO sans me poser de question ? ». Et d'un exemple à l'autre, un seul fait change.
 
 ## Schéma
-Deux colonnes, sur la story d'Abba et la vue d'Étienne. À gauche, les règles métier sur des
-cartes bleues (« un vélo disponible est à quai et louable », « la station d'un abonné est sa
-favorite », « fraîcheur : moins de 15 minutes »). À droite, les exemples en Given/When/Then sur
+Deux colonnes, sur un cas inventé pour l'illustration. À gauche, la règle métier sur une
+carte bleue (« un abonné loue un seul vélo à la fois »). À droite, les exemples en Given/When/Then sur
 des cartes vertes, reliés par un trait à la règle qu'ils illustrent ; dans chaque paire
-d'exemples, le seul fait qui change est surligné. En bas, une carte rouge « seuil “presque
-vide” : à faire fixer avant le sprint », sans exemple dessous. Légende : « couleurs de
+d'exemples, le seul fait qui change est surligné. En bas, une carte rouge « durée maximale d'une
+location : à faire fixer avant le sprint », sans exemple dessous. Légende : « couleurs de
 l'Example Mapping (Matt Wynne) : règles en bleu, exemples en vert, questions en rouge ».

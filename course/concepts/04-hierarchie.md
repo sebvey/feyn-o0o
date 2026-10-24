@@ -33,7 +33,7 @@ tranche qu'entre story et epic, pour un seul « je veux ».
     User Story > Task ; Scrum : Epic > Feature > Product Backlog Item > Task ; Basic : Epic >
     Issue > Task.
   - SAFe, cadre pour plusieurs équipes, ajoute des niveaux (la capability, entre epic et
-    feature).
+    feature) ; le cours juge qu'une équipe seule n'en a pas besoin.
   - Le **thème** n'est pas un niveau du cours : son sens varie selon les auteurs et les outils
     (chez Mike Cohn, une collection de stories), et aucun des deux outils cités n'en a un niveau
     par défaut.
@@ -44,7 +44,8 @@ tranche qu'entre story et epic, pour un seul « je veux ».
   les « je veux » pour trancher ; juger d'après ce qu'il reste à livrer ; un seul « je veux » trop
   gros pour un sprint est un epic (au sens de Cohn, une grosse story), qui se découpe ; quand
   la taille et le compte divergent, le compte l'emporte ; un niveau est de trop quand la
-  plupart des features ne contiennent qu'une story.
+  plupart des features ne contiennent qu'une story ; avant de retirer un niveau, vérifier que ses
+  éléments ne sont pas mal classés.
 
 ## Sous-concepts
 1. **4a les niveaux, qu'aucun guide n'impose** : se déroule en trois messages, chacun avec son
@@ -59,7 +60,7 @@ tranche qu'entre story et epic, pour un seul « je veux ».
 2. **4b feature ou story : compter les « je veux »** : écrire les « je veux » de ce qu'il reste
    à livrer. Un seul, qui tient dans un sprint : story ; trop gros pour un sprint : un epic (au sens de
    Cohn, une grosse story), qui se découpe (concept 9). Plusieurs, chacun utile seul : feature, et chaque « je veux » devient une story
-   candidate. Plusieurs groupes (par exemple des moments différents de la journée d'Étienne), ou
+   candidate. Plusieurs groupes (par exemple des moments différents de la journée d'un utilisateur), ou
    des « je veux » qu'on ne sait pas encore écrire : epic. Un « je veux » qui en contient
    d'autres se déplie avant de compter.
 
@@ -220,10 +221,10 @@ mois, puis comparaison au même mois de l'an dernier).
 
 ## Pièges
 - Classer un epic en story : une phrase courte, ou au format d'une story, cache plusieurs
-  besoins (« suivre l'état du réseau »). Le repérer en dépliant le « je veux » : s'il en contient
+  besoins (« gérer toute la flotte », exemple inventé). Le repérer en dépliant le « je veux » : s'il en contient
   d'autres, ce n'est pas une story.
-- Mettre une tâche au backlog produit : le travail qui ne sert qu'à réaliser une story (lire
-  les signalements pour la vue des pannes) est une tâche, dans le plan des Developers (backlog
+- Mettre une tâche au backlog produit : le travail qui ne sert qu'à réaliser une story (cas
+  inventé : convertir un fichier en entrée pour un écran) est une tâche, dans le plan des Developers (backlog
   de sprint). Un travail technique qui porte sa propre raison (dédoublonner les relevés,
   concept 3) entre au backlog, et le PO l'ordonne.
 - Croire que Scrum impose des niveaux, ou copier ceux de l'outil sans les choisir.
@@ -231,8 +232,8 @@ mois, puis comparaison au même mois de l'an dernier).
   double le travail. Le régler dans l'outil : annexe A1.
 - Faire du thème un niveau : son sens varie selon l'outil et l'auteur.
 - Juger le niveau dans l'absolu : on juge les « je veux » qu'il reste à livrer, pas le travail
-  technique. La vue des stations vides existe : « voir les stations presque vides » est une
-  story, pas une feature.
+  technique. Ce qui existe déjà ne compte plus, et le travail technique n'est pas un « je veux »
+  de plus pour l'utilisateur.
 - Donner une taille en jours comme définition d'une story : elle tient dans un sprint ; aucune
   durée en jours n'en fait la définition.
 
@@ -244,9 +245,9 @@ travail que l'utilisateur ne voit pas, pour réaliser une story : tâche, dans l
 Developers.
 
 ## Schéma
-Un arbre qui descend, sur l'exemple d'Étienne : à la racine, l'epic « Suivre l'état du réseau » ;
-dessous, trois branches pour les vues : « Stations vides » et « Vélos en panne » (features,
-chacune avec deux stories en feuilles), « Locations du jour » (story directement sous l'epic) ;
+Un arbre qui descend, sur un cas inventé pour l'illustration : à la racine, l'epic « Prévenir les
+vols » ; dessous, trois branches : « Alerter les agents » et « Retrouver les vélos » (features,
+chacune avec deux stories en feuilles), « Marquer un vélo volé » (story directement sous l'epic) ;
 sous une story, deux petites tâches grisées, légendées « plan des Developers, backlog de sprint ». Chaque
 niveau a sa couleur. À droite, en face de chaque niveau, le compte de « je veux » qui le
 désigne (plusieurs groupes, plusieurs, un seul, aucun vu par l'utilisateur). En bandeau : « Scrum

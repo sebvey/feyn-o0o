@@ -54,11 +54,12 @@ L'**objectif produit** est la cible à long terme de l'équipe : un état futur 
 1. **2a livrable et résultat** : le livrable est ce que l'équipe produit ; le résultat, ce qui
    change chez l'utilisateur grâce à lui. Un livrable terminé rend la valeur possible, il ne la
    prouve pas. Un indicateur calculé par la plateforme est un livrable, même quand il sert de
-   mesure.
+   mesure. La satisfaction d'un utilisateur est une perception, utile en complément : elle ne
+   dit pas seule si le résultat est obtenu.
 2. **2b l'objectif produit** : état futur du produit, cible à long terme, un seul à la fois,
    dans le backlog, porté par le PO (consensus). Il vise un résultat, pas une liste de livrables
-   ni une caractéristique du livrable. La vision, plus lointaine et souvent aspirationnelle, est un choix
-   d'école : le dire.
+   ni une caractéristique du livrable. Accoler un second objectif au premier disperse l'équipe. La vision, plus lointaine et
+   souvent aspirationnelle, est un choix d'école : le dire.
 3. **2c choisir une mesure de résultat** : partir de l'objectif, chercher le signal qui montre
    qu'on s'en approche, puis la mesure ; écarter ce qui mesure le livrable, l'usage seul ou un
    comptage qui bouge pour d'autres raisons ; croiser la mesure avec d'autres sources avant de
@@ -247,24 +248,22 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   marché ».
 - Un objectif produit qui est une liste de livrables ou une feuille de route datée : on peut
   tout livrer sans l'atteindre.
-- Un objectif produit qui décrit le livrable ou un moyen (« passer en temps réel ») : il ne dit
-  pas ce qui change pour qui. Le besoin de fraîcheur est un fait à demander aux utilisateurs ;
-  la technique revient aux Developers.
+- Un objectif produit qui décrit le livrable ou un moyen : il ne dit pas ce qui change pour
+  qui. Le besoin d'un utilisateur est un fait à lui demander ; la technique revient aux
+  Developers.
 - Un objectif produit si vaste (une vision) qu'aucune mesure ne dit si l'équipe s'en approche.
 - Deux objectifs produits à la fois, souvent sous la forme « X et Y » : un seul à la fois.
 - Prendre l'usage du livrable (consultations, connexions) pour le résultat : utile comme signal,
   insuffisant comme preuve.
-- Un comptage brut qui monte avec la taille du réseau ou le nombre d'abonnés (le total des
-  locations du réseau) : le ramener à une base (par station, par heure de pointe) avant de le
-  lire. La mesure retenue n'y échappe pas : son calcul (par station ou cumulé) reste à fixer.
+- Un comptage brut qui monte avec la taille de la base d'utilisateurs (cas inventé : le
+  nombre total de visites d'un site) : le ramener à une base (par utilisateur, par période)
+  avant de le lire.
 - Une mesure qui devient la cible cesse d'être une bonne mesure (loi de Goodhart). Exemple
-  d'exercice : si l'exploitation était jugée sur le temps de stations vides, et si « vide » se
-  comptait en vélos à quai, laisser des vélos hors d'usage à quai ferait baisser la mesure sans
-  qu'un abonné trouve un vélo de plus. Retenir qu'on croise la mesure avec d'autres sources.
-- Une mesure mal définie trompe aussi, sans que personne la force : vélos à quai ou vélos
-  disponibles (à quai et louables) ? La définition d'un indicateur se travaille au concept 12.
-- Inventer la cible chiffrée ou la définition des heures de pointe à la place des parties
-  prenantes.
+  inventé : si un service d'assistance était jugé sur le nombre de tickets ouverts, il pourrait
+  faire baisser la mesure en décourageant les demandes, sans qu'un client soit mieux aidé. Retenir qu'on croise la mesure avec d'autres sources.
+- Une mesure mal définie trompe aussi, sans que personne la force (cas inventé : « client actif »
+  compté avec ou sans achat récent). La définition d'un indicateur se travaille au concept 12.
+- Inventer une cible chiffrée ou une définition à la place des parties prenantes.
 - Croire l'objectif produit gravé : Scrum.org le présente comme une hypothèse, qu'on reformule
   quand on apprend (choix d'école).
 
@@ -275,11 +274,11 @@ atteint ? » Si oui, c'est une liste de livrables, pas un objectif produit.
 mesure de résultat.
 
 ## Schéma
-Une chaîne horizontale de gauche à droite : une case « Livrable » (la vue des stations vides),
-seule sous l'accolade « ce que l'équipe maîtrise » ; une petite case grisée « Usage » (Étienne la
-consulte), légendée « signal, pas preuve » ; puis un grand cadre « Résultat » qui contient deux
-cases : « Changement de comportement » (il envoie les régulateurs plus tôt), puis « Effet visé »
-(stations du centre-ville moins longtemps vides aux heures de pointe). Sous l'usage et le
+Une chaîne horizontale de gauche à droite : une case « Livrable » (ce que l'équipe produit),
+seule sous l'accolade « ce que l'équipe maîtrise » ; une petite case grisée « Usage » (le livrable
+est consulté), légendée « signal, pas preuve » ; puis un grand cadre « Résultat » qui contient
+deux cases : « Changement de comportement » (l'utilisateur fait autre chose qu'avant), puis
+« Effet visé » (l'état futur du produit que l'objectif vise). Sous l'usage et le
 résultat, une accolade : « hors du contrôle de l'équipe, ce qui juge le produit ». Une jauge
 accrochée à « Effet visé » : « mesure de résultat ». Au-dessus de l'effet visé, un drapeau « Objectif produit » (consensus, Scrum Guide) ;
 plus haut et en pointillés, un horizon « Vision produit », légendé « choix d'école ».
