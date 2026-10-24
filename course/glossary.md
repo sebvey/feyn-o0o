@@ -102,7 +102,7 @@ fichier à l'apprenant.
 
 | À éviter | Dire plutôt | Pourquoi |
 |---|---|---|
-| « le métier » | l'acteur nommé (Bruno, Sophie), « les utilisateurs » ou « les parties prenantes » | Flou : on ne sait pas qui décide |
+| « le métier » | l'acteur nommé (Étienne, Maud), « les utilisateurs » ou « les parties prenantes » | Flou : on ne sait pas qui décide |
 | « prioriser » au sens d'ordonner | « ordonner » ; « priorité » seulement pour MoSCoW | Le Scrum Guide parle d'ordre ; « priorité » laisse croire à des ex aequo |
 | « équipe de développement » | « Developers » | Terme du Scrum Guide 2017, remplacé en 2020 |
 | « livrer un sprint » | « livrer un incrément » | Le sprint est une durée, l'incrément un état du produit |

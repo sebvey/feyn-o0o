@@ -7,7 +7,7 @@ concept: 5
 Le Scrum Guide 2020 [S1] ne parle pas de user story : ce que le concept en dit ne relève donc
 pas du Scrum Guide. Le format « en tant que / je veux / afin de » est un choix d'école devenu
 courant (Connextra, Rachel Davies, popularisé par Cohn) ; les 3C sont une pratique établie
-attribuée à Ron Jeffries (XP). Les faits du fil rouge (Sophie, signalements de pannes, nombre de
+attribuée à Ron Jeffries (XP). Les faits du fil rouge (Maud, signalements de pannes, nombre de
 techniciens en tournée, F12) sont inventés : ils n'ont pas de source. Les sections entre
 parenthèses sont celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour
 toute affirmation qui n'est pas ici.
@@ -32,7 +32,7 @@ toute affirmation qui n'est pas ici.
 | Conversation : les échanges qui précisent la story (5a) | [S3], [S6] | Jeffries : « The requirement itself is communicated from customer to programmers through conversation » ; Schiel : « a placeholder for a conversation about the work to be done » |
 | Confirmation : ce qui permet de vérifier que la story est faite (les critères d'acceptation, concept 8) (5a) | [S3] | Jeffries : « This component is the acceptance test » : des exemples, de préférence automatisés, définis par le client. Rapprocher la confirmation des critères d'acceptation est la lecture courante et celle du cours ; Jeffries dit « acceptance test » |
 | La phrase seule ne suffit pas (Consensus et choix d'école, 5a) | [S3] | Conséquence de « The card does not contain all the information that makes up the requirement » |
-| Une story, un seul « je veux » ; plusieurs, ce n'est plus une story (feature ou epic, concept 4 ; un parcours, concept 16) (5a, banque « Une semaine de Sophie », Pièges) | aucune ici | Renvoi au concept 4 (4b : un « je veux », story ; plusieurs, feature ; plusieurs groupes, epic), dont le test « compter les “je veux” » vient des sessions du cours (amélioration de session (`off-course.md`, historique git) ; observation d'une session, un apprenant, [c4] : le test « je sais ce que voit l'utilisateur » ne parlait pas, compter les « je veux » a marché) ; choix du cours |
+| Une story, un seul « je veux » ; plusieurs, ce n'est plus une story (feature ou epic, concept 4 ; un parcours, concept 16) (5a, banque « Une semaine de Maud », Pièges) | aucune ici | Renvoi au concept 4 (4b : un « je veux », story ; plusieurs, feature ; plusieurs groupes, epic), dont le test « compter les “je veux” » vient des sessions du cours (amélioration de session (`off-course.md`, historique git) ; observation d'une session, un apprenant, [c4] : le test « je sais ce que voit l'utilisateur » ne parlait pas, compter les « je veux » a marché) ; choix du cours |
 | Cohn recommande le modèle tout en disant qu'il n'est pas obligatoire (Consensus et choix d'école) | [S2] | Article consacré à expliquer pourquoi le modèle « works so well » ; « There is no magic formula », modèle non « mandatory » |
 | La carte reste courte ; le détail va dans la conversation et la confirmation (banque « La carte suffit-elle ? ») | [S3] | Découle de la carte comme « token representing the requirement » ; la formulation est celle du cours |
 

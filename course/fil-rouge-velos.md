@@ -13,9 +13,9 @@ L'apprenant ne tranche jamais un fait métier.
   par an ; la collectivité y présente un bilan.
 - La DSI de l'opérateur gère les systèmes (bornes, location, appli) et donne les accès à leurs
   données.
-- Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Agnès) et
-  le DSI (Pascal) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
-  que leurs PO et Thomas ne règlent pas.
+- Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Odile) et
+  le DSI (Sid) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
+  que leurs PO et Scarlette ne règlent pas.
 
 ## Le produit et l'équipe
 
@@ -30,30 +30,35 @@ L'apprenant ne tranche jamais un fait métier.
   calcul (par station ou cumulé sur le centre-ville) ne sont pas fixés.
 - **Le PO, c'est l'apprenant** : chaque question le place dans ce rôle (« que proposes-tu au
   planning ? »).
-- **L'équipe vélos** (l'équipe de la plateforme) : deux data engineers (Léa, Yanis) et une
-  analyste (Nora), en sprints de deux semaines. Son Scrum Master, Thomas, l'est aussi de
+- **L'équipe vélos** (l'équipe de la plateforme) : deux data engineers (Dana, Diego) et une
+  analyste (Anna), en sprints de deux semaines. Sa Scrum Master, Scarlette, l'est aussi de
   l'équipe appli.
 - **Ce que la plateforme ne fait pas** :
   - l'appli des abonnés et ses canaux (notifications, SMS) relèvent de l'**équipe appli**, qui a
-    sa propre PO (Inès) et consomme des données de la plateforme ;
+    sa propre PO (Pia) et consomme des données de la plateforme ;
   - les accès aux données des systèmes relèvent de la DSI.
 
   Ces deux frontières sont des dépendances naturelles (concepts 10, 11 et 14).
 
 ## Les acteurs
 
+L'initiale du prénom rappelle le rôle : Dana et Diego (data), Anna (analyste), Scarlette (Scrum
+Master), Odile (opérations), Étienne (exploitation), Régis (régulateur), Théo (technicien), Maud
+(maintenance), Abba (abonnée), Charlotte (chargée de mission), Pia (PO de l'appli), Sid
+(DSI : S, I, D).
+
 | Acteur | Rôle | Besoin principal | Concepts où il est central |
 |---|---|---|---|
-| Agnès, directrice des opérations | Encadre l'exploitation (Bruno) et la maintenance (Sophie) ; sponsor de la plateforme, dont elle porte le budget | Que la plateforme améliore le service (objectif produit) | 2, 14 |
-| Thomas, Scrum Master | Scrum Master de l'équipe vélos et de l'équipe appli | Lever les obstacles des deux équipes | 0, 14 |
-| Malik, régulateur | Conduit une camionnette, redistribue les vélos entre stations | Savoir quelles stations vont se vider, pour y aller avant | 9, 17 |
-| Bruno, responsable d'exploitation | Encadre les régulateurs, pilote la flotte au quotidien | Suivre l'état du réseau dans plusieurs vues (stations vides, vélos en panne, locations du jour) | 4, 11, 16 |
-| Hugo, technicien de maintenance | Répare les vélos sur le terrain ; confirme ou infirme sur place une panne signalée | Préparer sa tournée de réparation à partir des vélos signalés | 6, 10, 15 |
-| Sophie, responsable maintenance | Encadre les techniciens | Qu'un vélo signalé en panne ne soit plus louable | 5, 10, 13 |
-| Julie, abonnée | Persona des abonnés sans l'appli, avec un téléphone basique (un tiers des abonnés), construit à partir d'abonnés interrogés | Savoir avant de partir s'il reste un vélo à sa station | 6, 7, 8 |
-| Claire, chargée de mission mobilité | Côté collectivité, suit le service qu'elle finance | Justifier la subvention au conseil (locations par quartier) | 10, 12, 13 |
-| Inès, PO de l'équipe appli | Porte l'appli des abonnés | Recevoir de la plateforme les données qu'affiche l'appli | 13, 14 |
-| Pascal, DSI | Gère les systèmes et leurs accès | Donner les accès aux données dans les règles | 11, 12, 14 |
+| Odile, directrice des opérations | Encadre l'exploitation (Étienne) et la maintenance (Maud) ; sponsor de la plateforme, dont elle porte le budget | Que la plateforme améliore le service (objectif produit) | 2, 14 |
+| Scarlette, Scrum Master | Scrum Master de l'équipe vélos et de l'équipe appli | Lever les obstacles des deux équipes | 0, 14 |
+| Régis, régulateur | Conduit une camionnette, redistribue les vélos entre stations | Savoir quelles stations vont se vider, pour y aller avant | 9, 17 |
+| Étienne, responsable d'exploitation | Encadre les régulateurs, pilote la flotte au quotidien | Suivre l'état du réseau dans plusieurs vues (stations vides, vélos en panne, locations du jour) | 4, 11, 16 |
+| Théo, technicien de maintenance | Répare les vélos sur le terrain ; confirme ou infirme sur place une panne signalée | Préparer sa tournée de réparation à partir des vélos signalés | 6, 10, 15 |
+| Maud, responsable maintenance | Encadre les techniciens | Qu'un vélo signalé en panne ne soit plus louable | 5, 10, 13 |
+| Abba, abonnée | Persona des abonnés sans l'appli, avec un téléphone basique (un tiers des abonnés), construit à partir d'abonnés interrogés | Savoir avant de partir s'il reste un vélo à sa station | 6, 7, 8 |
+| Charlotte, chargée de mission mobilité | Côté collectivité, suit le service qu'elle finance | Justifier la subvention au conseil (locations par quartier) | 10, 12, 13 |
+| Pia, PO de l'équipe appli | Porte l'appli des abonnés | Recevoir de la plateforme les données qu'affiche l'appli | 13, 14 |
+| Sid, DSI | Gère les systèmes et leurs accès | Donner les accès aux données dans les règles | 11, 12, 14 |
 
 ## Les sources de données
 
@@ -73,32 +78,32 @@ L'apprenant ne tranche jamais un fait métier.
 - Le centre-ville sert de premier périmètre ; la météo (pluie) pourrait ajuster la prévision
   des stations à risque : à vérifier (concept 17).
 - Un vélo signalé en panne reste louable : son blocage à la location a été mis hors périmètre
-  de la story de tournée d'Hugo ; Sophie le réclame (concept 10). Le blocage se fait dans le
+  de la story de tournée de Théo ; Maud le réclame (concept 10). Le blocage se fait dans le
   système de location (DSI) ; la plateforme peut lui fournir la liste des vélos signalés : la
   story de blocage dépend de la DSI (concept 13).
 - Un vélo n'est plus louable quand un technicien l'a retiré du service après constat.
 - Règles fixées : un vélo disponible est un vélo à quai et louable ; la station d'un abonné est
   celle qu'il a choisie comme favorite. Fraîcheur visée : moins de 15 minutes.
-- La disponibilité par station vient de la plateforme ; la livrer à Julie par un canal (SMS,
+- La disponibilité par station vient de la plateforme ; la livrer à Abba par un canal (SMS,
   serveur vocal, appli) dépend de l'équipe appli.
 - La collectivité veut le nombre de locations par quartier sur le mois, puis la comparaison au
   même mois de l'an dernier (concept 10b).
-- Chaque vue de Bruno affiche l'heure de la dernière mise à jour (DoD, concept 11). La DoD
+- Chaque vue d'Étienne affiche l'heure de la dernière mise à jour (DoD, concept 11). La DoD
   exige aussi que chaque indicateur publié ait sa définition écrite (ajoutée en
   rétrospective, concepts 11a et 12a), et que les relevés en double soient détectés par un
   test automatique avant publication (concept 11a). DoR de
   l'équipe vélos : critères d'acceptation écrits, règles métier fixées, dépendances
   identifiées, accès aux données obtenu (concept 11b).
-- La vue des stations vides est livrée (concept 0b) ; elle doit servir à Bruno à envoyer les
-  régulateurs plus tôt vers les stations qui se vident. Les autres vues de Bruno ne sont pas
-  livrées. La story de tournée d'Hugo est livrée (concept 10a2).
-- Bruno envoie les régulateurs vers les stations ; sur le terrain, un régulateur comme Malik va
+- La vue des stations vides est livrée (concept 0b) ; elle doit servir à Étienne à envoyer les
+  régulateurs plus tôt vers les stations qui se vident. Les autres vues d'Étienne ne sont pas
+  livrées. La story de tournée de Théo est livrée (concept 10a2).
+- Étienne envoie les régulateurs vers les stations ; sur le terrain, un régulateur comme Régis va
   aussi de lui-même vers une station qu'il voit se vider.
-- La journée de Bruno : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
+- La journée d'Étienne : point du matin sur l'état du réseau, envoi des régulateurs, suivi des
   incidents, bilan du soir.
-- Sophie fixe chaque semaine le nombre de techniciens en tournée ; elle demande le nombre de
+- Maud fixe chaque semaine le nombre de techniciens en tournée ; elle demande le nombre de
   vélos en panne par semaine (concept 5).
 - Une location rendue à la même station au bout de quelques minutes est souvent un vélo
   défectueux rendu aussitôt ; les compter ou non comme locations n'est pas fixé pour les
-  indicateurs (concept 12a). La vue des locations du jour de Bruno, pas encore construite
+  indicateurs (concept 12a). La vue des locations du jour d'Étienne, pas encore construite
   (accès à la table des locations non obtenu), montrera toutes les locations, courtes comprises.

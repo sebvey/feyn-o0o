@@ -43,8 +43,8 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
    concept 4 ; un parcours, concept 16). Origine : XP, format de Connextra, absent du Scrum
    Guide. Les 3C : la carte (la phrase écrite) ne contient pas tout le besoin, la conversation
    le précise, la confirmation dit comment vérifier.
-   Découpe en deux messages : **5a1** les trois parties, avec « La demande de Sophie » (« Une
-   semaine de Sophie » en rechange, ou si l'apprenant décrit un parcours) ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
+   Découpe en deux messages : **5a1** les trois parties, avec « La demande de Maud » (« Une
+   semaine de Maud » en rechange, ou si l'apprenant décrit un parcours) ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
    ligne. Chaque message a sa question.
 2. **5b le « afin de » et les « pourquoi ? » successifs** : un « afin de » circulaire (il répète
    le « je veux ») ou de confort (« avoir une vue claire ») n'aide ni à ordonner ni à choisir une
@@ -55,37 +55,37 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
 
 ## Banque d'exemples
 
-Dans les exemples de 5b, le prof joue Sophie : il donne ses réponses d'après le fil rouge, et
-l'apprenant, en PO, pose les questions. « Trois “afin de” à juger » donne la raison de Sophie :
+Dans les exemples de 5b, le prof joue Maud : il donne ses réponses d'après le fil rouge, et
+l'apprenant, en PO, pose les questions. « Trois “afin de” à juger » donne la raison de Maud :
 ne le prendre qu'après « Remonter de la demande à la décision », ou avec un apprenant qui l'a
 déjà trouvée. Les brouillons de stories à corriger sont inventés pour
 l'exercice : ils ne deviennent pas des faits du fil rouge.
 
-### La demande de Sophie, en story (5a1)
+### La demande de Maud, en story (5a1)
 - **Explication** : une story dit qui, quoi, pourquoi. Le « je veux » décrit ce que
   l'utilisateur veut faire ou savoir, pas comment l'équipe le construit. Le Scrum Guide ne parle
   pas de story ; ce format est un choix d'école (son origine : 5a2).
-- **Situation** : Sophie, responsable maintenance, encadre les techniciens. Elle demande le
-  nombre de vélos en panne par semaine. Yanis, data engineer, a ajouté au backlog : « Créer une
+- **Situation** : Maud, responsable maintenance, encadre les techniciens. Elle demande le
+  nombre de vélos en panne par semaine. Diego, data engineer, a ajouté au backlog : « Créer une
   table hebdomadaire des signalements de pannes, alimentée par un traitement chaque nuit. »
 - **Question** : réécris cet élément en story.
 - **Réponse attendue** : il manque le qui et le pourquoi, et le quoi est une solution (une
   table, un traitement de nuit : c'est le comment des Developers). Par exemple : « En tant que
   responsable maintenance, je veux connaître le nombre de vélos en panne chaque semaine, afin
   de… ». Nuance : le « afin de » ne s'invente pas ; on le laisse ouvert et on le demande à
-  Sophie (5b). La table relève du plan des Developers : s'ils la retiennent, c'est une de leurs
+  Maud (5b). La table relève du plan des Developers : s'ils la retiennent, c'est une de leurs
   tâches (concept 4), pas un élément que le PO écrit.
 - **Erreurs fréquentes** :
   - garder la solution en la déplaçant (« je veux une table des pannes ») : demander « qu'est-ce
-    que Sophie veut savoir, sans parler de table ? » ; sinon : « quelles parties d'une story
-    manquaient à l'élément de Yanis ? » ;
+    que Maud veut savoir, sans parler de table ? » ; sinon : « quelles parties d'une story
+    manquaient à l'élément de Diego ? » ;
   - inventer un « afin de » plausible (« afin de réduire les pannes ») : rappeler que c'est à
-    Sophie de le dire ;
-  - écrire « en tant qu'utilisateur » : trop vague, Sophie a un rôle précis (concept 6).
-- **Ce qui marche** : faire lire la phrase à voix haute à la place de Sophie : « est-ce qu'elle
+    Maud de le dire ;
+  - écrire « en tant qu'utilisateur » : trop vague, Maud a un rôle précis (concept 6).
+- **Ce qui marche** : faire lire la phrase à voix haute à la place de Maud : « est-ce qu'elle
   dirait ça elle-même ? ». Une table, elle ne la demanderait pas.
 
-### Une semaine de Sophie : story ou parcours ? (5a1)
+### Une semaine de Maud : story ou parcours ? (5a1)
 - **Explication** : une story exprime un besoin, pas tout ce que fait l'utilisateur. Le parcours
   sert ailleurs : il organise le backlog en story map, une carte des stories rangées sous les
   étapes du parcours (concept 16).
@@ -96,9 +96,9 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
 - **Réponse attendue** : non, c'est un parcours : quatre actions, donc plusieurs besoins
   possibles, et aucun « je veux » ni « afin de ». La plateforme sert surtout l'étape « compter
   les vélos en panne » : « je veux connaître le nombre de vélos en panne chaque semaine, afin
-  de… ». Le « afin de » reste ouvert : on le demandera à Sophie (5b). Prévenir les techniciens
+  de… ». Le « afin de » reste ouvert : on le demandera à Maud (5b). Prévenir les techniciens
   ne relève pas forcément de la plateforme ; si c'était un besoin, ce serait une autre story.
-  Le prof ne révèle pas ici le lien entre le comptage et la décision de Sophie : 5b le fait
+  Le prof ne révèle pas ici le lien entre le comptage et la décision de Maud : 5b le fait
   trouver par les « pourquoi ? ».
 - **Erreurs fréquentes** :
   - « oui, c'est une story, elle décrit ce que fait l'utilisateur » : c'est la confusion la plus
@@ -114,25 +114,25 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   représente le besoin sans le contenir en entier ; la conversation le précise ; la confirmation
   dit comment vérifier que la story est faite. On la rapproche couramment des critères
   d'acceptation, conditions vérifiables qui disent quand la story est faite (concept 8).
-- **Situation** : la story de Sophie est écrite : « En tant que responsable maintenance, je veux
+- **Situation** : la story de Maud est écrite : « En tant que responsable maintenance, je veux
   connaître le nombre de vélos en panne chaque semaine, afin de… » (le « afin de » reste à
-  demander à Sophie, 5b). Nora, analyste, dit : « La carte est claire, je m'y mets. » Les
+  demander à Maud, 5b). Anna, analyste, dit : « La carte est claire, je m'y mets. » Les
   signalements de pannes viennent de l'appli ; ceux reçus par téléphone n'y sont pas saisis.
-- **Question** : que manque-t-il avant que Nora puisse s'y mettre et dire un jour que c'est fait ?
-- **Réponse attendue** : la conversation et la confirmation. La conversation, avec Sophie et
-  Nora : les signalements par téléphone manquent dans la source, le chiffre sera donc incomplet,
-  est-ce acceptable pour ce que Sophie en fera ? Qu'appelle-t-on une semaine ? Ce qui compte
-  comme « en panne » se précise aussi (concepts 12 et 15). La confirmation : comment Sophie et Nora
+- **Question** : que manque-t-il avant qu'Anna puisse s'y mettre et dire un jour que c'est fait ?
+- **Réponse attendue** : la conversation et la confirmation. La conversation, avec Maud et
+  Anna : les signalements par téléphone manquent dans la source, le chiffre sera donc incomplet,
+  est-ce acceptable pour ce que Maud en fera ? Qu'appelle-t-on une semaine ? Ce qui compte
+  comme « en panne » se précise aussi (concepts 12 et 15). La confirmation : comment Maud et Anna
   vérifieront que le chiffre est juste, écrit en critères d'acceptation (concept 8). Nuance : la
   carte n'est pas à allonger ; c'est la conversation qui porte le détail.
 - **Erreurs fréquentes** :
   - allonger la phrase pour tout y mettre (« … hors signalements par téléphone, du lundi au
     dimanche ») : la phrase reste courte, le détail va dans la conversation et la confirmation.
-    Relancer : « si Nora ne parle à personne, que risque-t-elle de livrer ? » ;
-  - trancher soi-même le cas des signalements par téléphone : c'est à voir avec Sophie.
+    Relancer : « si Anna ne parle à personne, que risque-t-elle de livrer ? » ;
+  - trancher soi-même le cas des signalements par téléphone : c'est à voir avec Maud.
     Relancer : « qui décide si un chiffre incomplet suffit ? ».
 - **Ce qui marche** : donner les trois mots anglais (Card, Conversation, Confirmation) et leur
-  origine XP, puis demander : « si Nora ne parle à personne, que risque-t-elle de livrer ? ».
+  origine XP, puis demander : « si Anna ne parle à personne, que risque-t-elle de livrer ? ».
 
 ### Trois « afin de » à juger (5b)
 - **Explication** : le « afin de » donne la raison du besoin. Il aide le PO à
@@ -145,11 +145,11 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   3. « … afin de fixer le nombre de techniciens en tournée. »
 - **Question** : lequel aide le PO à ordonner et l'équipe à choisir une solution ?
 - **Réponse attendue** : le 3. Le 1 est circulaire : il redit le « je veux ». Le 2 est de
-  confort : il ne dit pas ce que la clarté change pour Sophie. Le 3 nomme une décision que Sophie
+  confort : il ne dit pas ce que la clarté change pour Maud. Le 3 nomme une décision que Maud
   prend chaque semaine : on connaît la raison (des tournées bien dimensionnées), on peut
   comparer cette story à d'autres, et l'équipe peut proposer une autre réponse qui sert la même
   décision, parfois plus simple (le chiffre envoyé chaque semaine plutôt qu'une nouvelle vue,
-  par exemple). Nuance : le 3 n'est juste que si Sophie le confirme.
+  par exemple). Nuance : le 3 n'est juste que si Maud le confirme.
 - **Erreurs fréquentes** :
   - choisir le 2 « parce qu'une vue claire, c'est de la valeur » : demander « clair pour décider
     quoi ? » ;
@@ -163,45 +163,45 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
 - **Explication** : quand le « afin de » est faible, le PO demande « pourquoi ? » à l'utilisateur,
   plusieurs fois, jusqu'à une décision que celui-ci prend ou un gain qu'il reconnaît. La
   technique rappelle les « cinq pourquoi » venus de Toyota ; ici, le nombre importe peu.
-- **Situation** : tu as écrit « … afin de suivre les pannes ». Le prof joue Sophie, que
+- **Situation** : tu as écrit « … afin de suivre les pannes ». Le prof joue Maud, que
   l'apprenant peut interroger.
-- **Réponses de Sophie, à donner seulement quand l'apprenant pose la question** : au premier
+- **Réponses de Maud, à donner seulement quand l'apprenant pose la question** : au premier
   « pourquoi ? » : « Pour savoir combien de vélos mes techniciens auront à réparer. » Au second :
   « Parce que chaque semaine, je fixe le nombre de techniciens en tournée. »
-- **Question** : pose tes « pourquoi ? » à Sophie, puis réécris le « afin de ».
+- **Question** : pose tes « pourquoi ? » à Maud, puis réécris le « afin de ».
 - **Réponse attendue** : « … afin de fixer le nombre de techniciens en tournée ». On s'arrête là
-  parce que c'est une décision que Sophie prend elle-même, chaque semaine : elle reconnaît la
+  parce que c'est une décision que Maud prend elle-même, chaque semaine : elle reconnaît la
   raison, et la story sert cette décision. Un « pourquoi ? » de plus mènerait à une raison générale
   (des vélos réparés plus vite, un meilleur service) que partagent beaucoup de stories.
-  Nuance : la première réponse de Sophie (« combien de vélos à réparer ») est déjà meilleure que
+  Nuance : la première réponse de Maud (« combien de vélos à réparer ») est déjà meilleure que
   « suivre les pannes », mais elle ne dit pas encore ce qu'elle en fait.
 - **Erreurs fréquentes** :
-  - répondre à la place de Sophie au lieu de lui poser la question : le PO demande, il n'invente
+  - répondre à la place de Maud au lieu de lui poser la question : le PO demande, il n'invente
     pas la raison ;
   - s'arrêter au premier « pourquoi ? » : relancer par « et qu'en fait-elle ? ».
-- **Ce qui marche** : les « pourquoi ? » successifs, posés à voix haute ; puis « Sophie dirait-elle
+- **Ce qui marche** : les « pourquoi ? » successifs, posés à voix haute ; puis « Maud dirait-elle
   “oui, c'est exactement pour ça” ? ». Relance si l'apprenant ne justifie pas où il s'arrête :
   « pourquoi t'arrêter là ? ».
 
 ### Un « afin de » trop haut (5b)
 - **Explication** : trop de « pourquoi ? » mènent à une raison si générale qu'elle vaut pour
   toutes les stories : elle n'aide plus à les ordonner entre elles.
-- **Situation** : Yanis propose, pour la story de Sophie : « … afin que les stations du
+- **Situation** : Diego propose, pour la story de Maud : « … afin que les stations du
   centre-ville restent moins longtemps vides aux heures de pointe. » C'est l'objectif produit de
   la plateforme.
 - **Question** : ce « afin de » est-il meilleur que « afin de fixer le nombre de techniciens en
   tournée » ? Tranche et justifie.
 - **Réponse attendue** : non. C'est l'objectif produit (concept 2) : beaucoup de stories y
-  contribuent, il ne distingue pas celle-ci. Il n'est pas non plus le gain de Sophie : rien
-  dans le fil rouge ne relie le nombre de techniciens en tournée aux stations vides, et Sophie
-  ne le reconnaîtrait pas comme sa raison. Le bon « afin de » est la décision de Sophie ; le lien
+  contribuent, il ne distingue pas celle-ci. Il n'est pas non plus le gain de Maud : rien
+  dans le fil rouge ne relie le nombre de techniciens en tournée aux stations vides, et Maud
+  ne le reconnaîtrait pas comme sa raison. Le bon « afin de » est la décision de Maud ; le lien
   avec l'objectif produit, s'il existe, se discute quand le PO ordonne le backlog (concept 13).
 - **Erreurs fréquentes** :
   - « oui, il est plus ambitieux » : ambitieux ne veut pas dire utile pour décider. Relancer :
     « si toutes les stories du backlog avaient ce “afin de”, comment choisirais-tu laquelle faire
     d'abord ? » ;
   - forcer le lien (« des vélos réparés, donc des stations moins vides ») : c'est une hypothèse,
-    pas la raison de Sophie (concept 17). Relancer : « Sophie reconnaîtrait-elle cette raison
+    pas la raison de Maud (concept 17). Relancer : « Maud reconnaîtrait-elle cette raison
     comme la sienne ? ».
 - **Ce qui marche** : « si toutes les stories du backlog avaient ce “afin de”, comment
   choisirais-tu laquelle faire d'abord ? ».
@@ -211,7 +211,7 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   story. Une story est un besoin ; le parcours organise les stories en story map (concept 16).
   Le repérer quand la phrase enchaîne plusieurs actions.
 - **Une solution dans le « je veux »** (« je veux une table des pannes », « un graphique dans la
-  vue de Bruno ») : écrire le besoin et laisser l'équipe proposer la solution ; le concept 7 y
+  vue d'Étienne ») : écrire le besoin et laisser l'équipe proposer la solution ; le concept 7 y
   revient (besoin ou solution).
 - **« Afin de » circulaire ou de confort** (« afin de suivre les pannes », « afin d'avoir une
   vue claire ») : demander « pourquoi ? » à l'utilisateur jusqu'à une décision ou un gain qu'il
@@ -240,7 +240,7 @@ La phrase en trois blocs côte à côte : « En tant que » (qui), « je veux »
 solution), « afin de » (pourquoi), le troisième mis en avant. Au-dessus du troisième, une
 échelle de « pourquoi ? » qui monte : « suivre les pannes » (barré, circulaire) ; « savoir
 combien de vélos réparer » ; « fixer le nombre de techniciens en tournée » (encadré, « on
-s'arrête ici : la décision de Sophie ») ; plus haut, en pointillés et grisé, « que les stations
+s'arrête ici : la décision de Maud ») ; plus haut, en pointillés et grisé, « que les stations
 restent moins longtemps vides » (« trop haut : l'objectif produit »). À côté, la carte de la
 story, avec une bulle de dialogue (conversation) et une coche (confirmation), légendée « 3C,
 Jeffries, XP ».

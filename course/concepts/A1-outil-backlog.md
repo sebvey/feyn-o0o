@@ -57,15 +57,15 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
    Feature ? »).
 2. **A1b les liens de dépendance** (après 10b2) : le lien note une dépendance entre deux
    éléments, aussi entre les backlogs de deux équipes ; il ne remplace pas la conversation
-   avec l'autre PO (« Léa a tracé le canal de Julie »).
+   avec l'autre PO (« Dana a tracé le canal d'Abba »).
 3. **A1c les états** (après 11, ou quand l'équipe règle son tableau) : choix d'équipe,
    modifiables ; « fait » veut dire DoD remplie ; un état « prêt » reste un repère, pas une
-   barrière (« Le tableau proposé par Yanis »).
+   barrière (« Le tableau proposé par Diego »).
 
 Déjà enseigné, à rappeler sans le réenseigner, selon le point où se propose le sous-concept :
 le PO ordonne seul, qui veut changer l'ordre le convainc (1b) ; les niveaux, qu'aucun guide
 n'impose, et le niveau de trop (4a2, 4a3), dès A1a ; la dépendance envers l'équipe appli et
-l'accord avec Inès (10b2), dès A1b ; DoD et DoR (11a, 11b), pour A1c. Nommés avec renvoi, sans
+l'accord avec Pia (10b2), dès A1b ; DoD et DoR (11a, 11b), pour A1c. Nommés avec renvoi, sans
 les enseigner : l'escalade (14c) ; la vie d'une story (refinement, Sprint Planning, revue :
 concept 15) ; le travail sans sprint (annexe A2).
 
@@ -73,12 +73,12 @@ concept 15) ; le travail sans sprint (annexe A2).
 
 Le fil rouge ne dit pas quel outil emploie l'équipe vélos : chaque exemple pose l'outil en
 situation d'exercice (« dans cet exercice, … »), sans le fixer. Faits du fil rouge utilisés :
-les vues de Bruno ; la story de Julie, dont la disponibilité par station vient de la plateforme
-et le canal relève de l'équipe appli, dont Inès est la PO ; un tiers des abonnés n'a qu'un
+les vues d'Étienne ; la story d'Abba, dont la disponibilité par station vient de la plateforme
+et le canal relève de l'équipe appli, dont Pia est la PO ; un tiers des abonnés n'a qu'un
 téléphone basique ; la DoD de l'équipe vélos (heure de la dernière mise à jour sur chaque vue,
 définition écrite de chaque indicateur publié) ; sa DoR (critères d'acceptation écrits, règles
-métier fixées, dépendances identifiées, accès aux données obtenu). Les répliques de Léa et de
-Yanis, la répartition des features et le tableau proposé sont des propositions d'exercice.
+métier fixées, dépendances identifiées, accès aux données obtenu). Les répliques de Dana et de
+Diego, la répartition des features et le tableau proposé sont des propositions d'exercice.
 
 ### Coincés avec le niveau Feature ? (A1a)
 - **Explication** : les niveaux viennent de l'outil, pas de Scrum (concept 4a2). Jira a par
@@ -91,11 +91,11 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   changer casse les liens parent et enfant existants. Si l'apprenant est dans Jira, poser la
   situation dans Jira avec ces deux faits.
 - **Situation** : dans cet exercice, l'équipe vélos travaille dans Azure DevOps, en processus
-  Agile. Après quelques sprints, quatre des cinq features des vues de Bruno ne contiennent
-  qu'une story. Yanis : « Azure ne permet pas de supprimer le niveau Feature : on doit
+  Agile. Après quelques sprints, quatre des cinq features des vues d'Étienne ne contiennent
+  qu'une story. Diego : « Azure ne permet pas de supprimer le niveau Feature : on doit
   continuer à créer une feature au-dessus de chaque story. »
 - **Question** : que proposes-tu à l'équipe ?
-- **Réponse attendue** : Yanis a raison sur l'outil (un niveau hérité ne se supprime pas), pas
+- **Réponse attendue** : Diego a raison sur l'outil (un niveau hérité ne se supprime pas), pas
   sur la conclusion. Le signal du niveau de trop est là (4a3) : après avoir vérifié que ces
   features ne sont pas des stories mal classées, le PO propose que l'équipe n'affiche plus le
   niveau Feature et cesse d'en créer. Désactiver le type est un réglage du processus : il
@@ -104,7 +104,7 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   cliquer ; l'équipe décide de ses niveaux. Nuance : on y revient si des besoins à plusieurs
   « je veux » reviennent.
 - **Erreurs fréquentes** :
-  - donner raison à Yanis (« c'est l'outil qui l'impose ») : demander « l'outil interdit-il de
+  - donner raison à Diego (« c'est l'outil qui l'impose ») : demander « l'outil interdit-il de
     ne pas l'employer, ou le propose-t-il par défaut ? » ;
   - retirer le niveau User Story et garder les features : ce sont les stories qui entrent dans
     les sprints (4a3) ;
@@ -117,7 +117,7 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   niveau ; l'outil : des niveaux par défaut ; l'équipe : son choix), puis « ce que l'outil ne
   retire pas, l'équipe peut-elle cesser de l'employer ? ».
 
-### Léa a tracé le canal de Julie (A1b)
+### Dana a tracé le canal d'Abba (A1b)
 - **Explication** : une dépendance (concept 10b) se note par un lien entre deux éléments. Aucun
   des outils vérifiés n'a de lien « dépend de » : Jira dit « blocks / is blocked by », Azure
   DevOps « Predecessor / Successor », Linear « blocked / blocking ». Le lien peut relier des
@@ -125,39 +125,39 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
   différents. Il rend la dépendance visible des deux équipes ; il ne remplace pas la
   conversation avec l'autre PO (choix du cours).
 - **Situation** : dans cet exercice, les deux équipes travaillent dans le même Jira, chacune
-  dans son espace. Pour la story de Julie (concept 10b2), Léa crée elle-même, dans l'espace de
+  dans son espace. Pour la story d'Abba (concept 10b2), Dana crée elle-même, dans l'espace de
   l'équipe appli, un élément « canal pour les abonnés sans l'appli », le relie à la story de
-  Julie par « is blocked by », et conclut : « C'est tracé, Inès le verra. »
-- **Question** : que fais-tu de ce que Léa a tracé ?
+  Abba par « is blocked by », et conclut : « C'est tracé, Pia le verra. »
+- **Question** : que fais-tu de ce que Dana a tracé ?
 - **Réponse attendue** : le lien se garde : il rend la dépendance visible des deux équipes, et
-  dans le bon sens (la story de Julie est bloquée par le canal). Mais l'élément créé dans le
-  backlog de l'équipe appli n'est pas à Léa : c'est Inès qui inscrit le canal et lui donne sa
+  dans le bon sens (la story d'Abba est bloquée par le canal). Mais l'élément créé dans le
+  backlog de l'équipe appli n'est pas à Dana : c'est Pia qui inscrit le canal et lui donne sa
   place (10b2), on lui soumet l'élément, on ne le lui impose pas. Et un lien n'est pas un
-  accord : le PO va voir Inès, lui présente le besoin (un tiers des abonnés n'a qu'un téléphone
+  accord : le PO va voir Pia, lui présente le besoin (un tiers des abonnés n'a qu'un téléphone
   basique, sans l'appli) et s'accorde avec elle sur l'ordre ; le lien relie ensuite la story de
-  Julie à l'élément qu'Inès garde. Si l'accord ne se fait pas : escalade (14c), sans
+  Abba à l'élément que Pia garde. Si l'accord ne se fait pas : escalade (14c), sans
   l'enseigner ici.
 - **Erreurs fréquentes** :
-  - « c'est tracé, rien à faire » : demander « Inès sait-elle pourquoi ce besoin compte, et qui
+  - « c'est tracé, rien à faire » : demander « Pia sait-elle pourquoi ce besoin compte, et qui
     décide de sa place ? » ; si la réponse s'arrête là, « et alors, qui va voir qui ? » ;
   - supprimer le lien « puisqu'on va parler » : il sert, après l'accord, à suivre la
     dépendance ;
   - chercher un type de lien « dépend de », ou en faire créer un : « blocks / is blocked by »
     dit la même chose ;
-  - exiger une date à Inès, ou escalader d'emblée : on la convainc d'abord (10b2, 14c).
-- **Ce qui marche** : suivre le lien des deux côtés : « dans le backlog d'Inès, qui a écrit cet
+  - exiger une date à Pia, ou escalader d'emblée : on la convainc d'abord (10b2, 14c).
+- **Ce qui marche** : suivre le lien des deux côtés : « dans le backlog de Pia, qui a écrit cet
   élément, et qui l'a placé ? ».
 
-### Le tableau proposé par Yanis (A1c)
+### Le tableau proposé par Diego (A1c)
 - **Explication** : les états d'un élément (Jira dit « statuts ») disent où il en est : à
   faire, en cours, fait, par exemple. Le Scrum Guide n'en parle pas ; chaque outil en propose
   par défaut, et l'équipe les change. Atlassian conseille d'en garder peu (conseil d'éditeur).
   Deux règles du cours : « fait » veut dire DoD remplie (11a) ; un état « prêt » reste un
   repère, pas une barrière (11b).
-- **Situation** : dans cet exercice, Yanis propose à l'équipe vélos quatre états : À faire,
+- **Situation** : dans cet exercice, Diego propose à l'équipe vélos quatre états : À faire,
   Prêt, En cours, Fait. « Une story passe en Prêt quand toutes ses questions sont réglées, et
   en Fait quand son code est fusionné. »
-- **Question** : que proposes-tu de changer dans la proposition de Yanis, et pourquoi ?
+- **Question** : que proposes-tu de changer dans la proposition de Diego, et pourquoi ?
 - **Réponse attendue** : les quatre états peuvent rester, c'est le choix de l'équipe et ils sont
   peu nombreux. « Fait » se change : une story est faite quand elle remplit la DoD (l'heure de
   la dernière mise à jour affichée, la définition de l'indicateur écrite), pas quand son code
@@ -171,12 +171,12 @@ Yanis, la répartition des features et le tableau proposé sont des propositions
 - **Erreurs fréquentes** :
   - garder « Fait » au code fusionné, « la DoD se vérifie à part » : demander « à la revue, que
     dit le tableau d'une story fusionnée sans définition de l'indicateur ? » ;
-  - ajouter un état par étape (en recette, validé par Bruno…) : chaque état se tient à jour, et
+  - ajouter un état par étape (en recette, validé par Étienne…) : chaque état se tient à jour, et
     les états ne racontent pas la vie d'une story (refinement, planning, revue : concept 15) ;
   - supprimer « Prêt » parce que la DoR n'est pas dans le Scrum Guide : c'est un choix d'école,
     utile s'il reste un repère ;
   - ne corriger qu'un des deux états : demander « et l'autre ? ».
-- **Ce qui marche** : lire chaque état comme une promesse à quelqu'un : « quand Bruno voit
+- **Ce qui marche** : lire chaque état comme une promesse à quelqu'un : « quand Étienne voit
   "Fait", que peut-il en attendre ? ».
 
 ## Pièges
@@ -208,8 +208,8 @@ veut-il dire DoD remplie ?
 Un écran d'outil stylisé, en trois bandes. **Niveaux** : l'arbre Epic > Feature > User Story >
 Task, la ligne Feature grisée, légendée « pas affiché pour l'équipe : le niveau de trop ».
 **Liens** : deux colonnes (espace de l'équipe vélos, espace de l'équipe appli) ; la story de
-Julie reliée au canal par une flèche « is blocked by » ; au-dessus, une bulle entre le PO et
-Inès, « on s'accorde d'abord ». **États** : quatre colonnes de tableau, À faire, Prêt, En
+Abba reliée au canal par une flèche « is blocked by » ; au-dessus, une bulle entre le PO et
+Pia, « on s'accorde d'abord ». **États** : quatre colonnes de tableau, À faire, Prêt, En
 cours, Fait ; « Prêt » en pointillé, légendé « repère : la DoR » ; « Fait » encadré, légendé
 « DoD remplie ». En bandeau : « Scrum Guide : ni niveau, ni lien, ni état ; l'outil propose,
 l'équipe choisit ».
