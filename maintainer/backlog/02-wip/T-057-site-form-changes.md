@@ -5,5 +5,5 @@
 - **À faire** : en sous-tickets, créés au fil de la discussion (état tenu à jour ci-dessous). Tout changement du fond d'enseignement passe d'abord par le cours (décision de T-050) : le premier souci (parcours de lecture redondants) a conduit à changer le plan du cours, d'où un sous-ticket de cours avant celui du site.
 - **Sous-tickets** :
   - T-057a : remplacer les objectifs du cours par sept domaines qui le partitionnent (clos) ;
-  - T-057b : organiser le site par domaines, sans redondance entre accueil, carte et lectures (décidé, dépend de T-057a, débloqué).
+  - T-057b : organiser le site par domaines, sans redondance entre accueil, carte et lectures (en cours).
 - **Fini quand** : les sous-tickets sont clos.
