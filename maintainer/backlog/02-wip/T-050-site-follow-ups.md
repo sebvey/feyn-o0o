@@ -14,7 +14,7 @@
   - T-050a : règle de non-recoupement et reprise des fiches du cours (clos) ;
   - T-051 : resynchroniser les fiches de sources avec les fiches de concept (clos) ;
   - T-050b : versionner le cours (clos) ;
-  - T-053 : trancher les désaccords entre fiches et les sources perdues, puis réaligner le site (décidé) ;
+  - T-053 : trancher les désaccords entre fiches et les sources perdues, puis réaligner le site (en cours) ;
   - T-054 : remonter dans le cours le contenu d'enseignement propre au site (décidé, dépend de T-053) ;
   - T-056 : repenser l'organisation du cours et du site, une source et deux sorties (proposé) ;
   - T-050c : versionnage et alignement côté site (clos) ;
