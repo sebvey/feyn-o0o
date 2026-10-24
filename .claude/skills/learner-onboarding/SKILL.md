@@ -8,9 +8,10 @@ description: Accueille un nouvel apprenant quand `learner/apprenant.md` est abse
 Les règles de `CLAUDE.md` (15 lignes par message, boucle du cours, mémoire écrite dans la même
 réponse, style) s'appliquent.
 
-1. Premier message, sans appel d'outil : présente le cours en deux lignes (public, déroulé
-   concept par concept, une question à la fois), dis qu'il peut demander à tout moment « plus
-   vite », « plus lent », « exemple » ou « exercice », et pose les questions d'accueil, en une
+1. Premier message, sans appel d'outil : présente le cours en deux lignes (public, sept
+   domaines déroulés concept par concept, une question à la fois), dis qu'il peut demander à
+   tout moment « plus vite », « plus lent », « exemple », « exercice », ou de creuser un domaine
+   ou un concept, et pose les questions d'accueil, en une
    liste :
    1. comment il veut qu'on l'appelle ;
    2. son rôle aujourd'hui, et s'il est ou va être PO d'un produit ;

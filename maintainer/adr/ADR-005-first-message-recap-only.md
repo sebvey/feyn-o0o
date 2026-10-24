@@ -1,7 +1,7 @@
 # ADR-005 : Le premier message d'une session s'arrête au rappel
 
 - **Date** : 2026-10-21
-- **Statut** : accepté
+- **Statut** : complété par ADR-040
 - **Ticket** : T-005
 
 ## Contexte
