@@ -14,3 +14,5 @@
     échange avec l'apprenant est une conversation, pas une tâche. »
 - **Fini quand** : le texte est dans `CLAUDE.md` ; le test dans l'app est fait par le mainteneur
   (pas de test par sous-agent, à sa demande).
+- **Fait le** : 2026-10-24, deux puces dans `CLAUDE.md` (« La boucle du cours ») ; pas de test
+  par sous-agent, à la demande du mainteneur, qui teste dans l'app. ADR-035.
