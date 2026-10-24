@@ -16,9 +16,9 @@
   - T-050b : versionner le cours (clos) ;
   - T-053 : trancher les désaccords entre fiches et les sources perdues, puis réaligner le site (décidé) ;
   - T-054 : remonter dans le cours le contenu d'enseignement propre au site (décidé, dépend de T-053) ;
-  - T-055 : définir comment le site demande un ajout au cours, fil rouge compris (proposé) ;
+  - T-056 : repenser l'organisation du cours et du site, une source et deux sorties (proposé) ;
   - T-050c : versionnage et alignement côté site (clos) ;
-  - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-055) ;
+  - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (décidé) ;
   - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (décidé, dépend de T-050d) ;

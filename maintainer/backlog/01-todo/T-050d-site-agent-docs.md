@@ -2,7 +2,7 @@
 
 - **Créé le** : 2026-10-24
 - **Parent** : T-050
-- **Dépend de** : T-055
+- **Dépend de** : T-056
 - **Constat** : `../parcours-po-website` n'a ni `CLAUDE.md` ni documentation ; un agent neuf ne saurait ni réaligner le contenu, ni enrichir une page, ni retoucher la forme, ni maintenir le dépôt.
 - **À faire** : dans `../parcours-po-website`, en français (noms de fichiers et de dossiers en anglais), chaque règle à un seul endroit :
   1. `CLAUDE.md` court : ce qu'est le site, la règle de fond (le cours est la source, le site en est la projection, la banque d'exemples n'y va jamais), la règle de forme, les commandes (`mise exec -- …`), les renvois vers les guides ;
