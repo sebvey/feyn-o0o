@@ -12,12 +12,13 @@
   - dépôt `sebvey/parcours-po-website`, licence MIT pour le code, CC BY 4.0 pour le contenu.
 - **À faire** : en sous-tickets, dans l'ordre :
   - T-050a : règle de non-recoupement et reprise des fiches du cours (clos) ;
-  - T-050b : versionner le cours (proposé, dépend de T-050a) ;
+  - T-051 : resynchroniser les fiches de sources avec les fiches de concept (décidé) ;
+  - T-050b : versionner le cours (proposé, dépend de T-051) ;
   - T-050c : versionnage et alignement côté site (proposé, dépend de T-050b) ;
   - T-050d : documentation du dépôt pour un agent (proposé, dépend de T-050c) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (proposé) ;
   - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (proposé, dépend de T-050d).
 
-  Où : T-050a et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
+  Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
 - **Fini quand** : les sous-tickets sont clos et T-049 est clos avec eux.

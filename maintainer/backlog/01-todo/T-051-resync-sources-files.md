@@ -1,6 +1,7 @@
 # T-051 : Resynchroniser les fiches de sources avec les fiches de concept
 
 - **Créé le** : 2026-10-24
+- **Parent** : T-050
 - **Constat** : la relecture de T-050a (2026-10-24) a trouvé des lignes de `course/sources/` qui décrivent un passage que la fiche de concept ne contient plus, ou ne décrit plus fidèlement. Elles ne viennent pas toutes de T-050a (dérive antérieure) et T-050a ne les a pas corrigées. Relevés :
   - `08-criteres-regles.md` lignes 71 et 72 (concept 15 et renvois 9 et 15 absents de la fiche) ;
   - `07-invest.md` ligne 44 (« plus d'un mois » absent) ; `06-roles-personas.md` ligne 30 (« l'acteur est évident » absent) ;

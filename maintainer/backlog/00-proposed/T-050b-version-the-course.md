@@ -2,7 +2,7 @@
 
 - **Créé le** : 2026-10-24
 - **Parent** : T-050
-- **Dépend de** : T-050a
+- **Dépend de** : T-051
 - **Constat** : le cours n'a pas de version ; le site doit annoncer sur quelle version il est aligné, et le numéro de MAJOR du site est celui du cours (décision du 2026-10-24). Les numéros de concept sont l'identifiant commun : `learner/parcours.md` côté cours, `/concepts/09#9a1` côté site.
 - **À faire** :
   1. créer `course/CHANGELOG.md` et y définir : MAJOR = changement qui casse les identifiants (renumérotation, concept ajouté au milieu ou retiré, sous-concept renommé) ou les objectifs du cours ; MINOR = précision, nouvelle source, nouvel exemple ou sous-concept, correction de fond sans casse ;
