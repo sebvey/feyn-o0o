@@ -23,7 +23,7 @@ Statut : proposition, après un premier tour d'interview. Rien n'est figé.
 - **Lecteur** : les deux à la fois, le curieux qui découvre (le site doit se suffire) et
   l'apprenant qui révise (relecture rapide).
 
-- **Compléments au cours** : des parcours de lecture (chemins suggérés par objectif ou durée).
+- **Compléments au cours** : une lecture rapide par domaine (sections suggérées, dans l'ordre).
   Pas de fiches imprimables, de modèles ni de billets pour l'instant.
 - **Langue** : français, structure préparée pour une traduction anglaise plus tard.
 - **Techno** : Astro, recherche Pagefind, GitHub Pages.
@@ -58,11 +58,10 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 
 | Page | Rôle |
 |---|---|
-| Accueil | Promesse du cours, public cible, entrée vers le parcours |
-| **Parcours** | La carte du cours : concepts regroupés en blocs, prérequis visibles, filtre par objectif (1 à 7) |
+| Accueil | Promesse du cours, public cible, deux portes : commencer par le concept 0, voir les domaines |
+| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts, sa lecture rapide ; puis les annexes |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept, « termes à éviter » |
-| **Parcours de lecture** | Chemins suggérés (« en 30 minutes », par objectif du cours, « je prépare un refinement ») qui enchaînent des sections de concepts |
 | Fil rouge | L'opérateur de vélos, l'équipe, les acteurs, les sources de données |
 | Consensus ou école | Index transversal : toutes les positions d'école, par auteur |
 | Sources | Bibliographie dédoublonnée et « Non vérifié » |
@@ -76,23 +75,16 @@ par exercice).
 Lecteur double : chaque page doit se suffire (le curieux), et la ligne « L'essentiel » plus le
 schéma doivent permettre une relecture en deux minutes (l'apprenant).
 
-### Blocs du parcours (proposition)
+### Domaines
 
-| Bloc | Concepts | Question |
-|---|---|---|
-| 1. Le cadre | 0, 1, 2 | Qu'est-ce qu'on construit, pour qui, et qui décide ? |
-| 2. Le backlog | 3, 4 | Où vit le travail, sous quelle forme ? |
-| 3. La story | 5, 6, 7, 8 | Comment écrire un besoin qu'on peut tester ? |
-| 4. Découper | 9, 10 | Comment le rendre assez petit pour servir seul ? |
-| 5. Cadrer le travail | 11, 12 | Quand est-ce prêt, fini, et de quelles données parle-t-on ? |
-| 6. Décider | 13, 14 | Dans quel ordre, et avec qui ? |
-| 7. Conduire | 15, 16 | De l'idée à l'incrément, et « pour quand ? » |
-| 8. Explorer | 17 | Que sait-on, que suppose-t-on ? |
-| Annexes | A1, A2 | Outil de backlog ; travailler sans sprint |
+Les domaines viennent du cours (`course/plan.md`, « Domaines du cours », ADR-039) : le site ne
+les fixe pas. Chaque concept appartient à un seul domaine ; les annexes restent hors domaines.
+La lecture rapide d'un domaine enchaîne des sections de ses concepts, au moins une par concept,
+aucune d'un autre domaine.
 
 ## La page Concept
 
-En-tête : numéro, titre, objectif en une phrase, prérequis (liens), objectifs du cours servis,
+En-tête : numéro, titre, objectif en une phrase, prérequis (liens), domaine du concept,
 précédent / suivant. Corps sur **trois onglets**, pour que la lecture reste légère :
 
 | Onglet | Contenu |
@@ -119,7 +111,7 @@ renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
 
 Ces points sont tranchés (tour 4) :
 - **Nom** : descriptif (par exemple « Parcours PO »), à choisir ; le domaine reste à voir à la mise en ligne.
-- **Parcours de lecture** : par situation (« je prépare un refinement », « je défends un ordre », « je découpe une story »), pas par durée, objectif ni profil. Le filtre par objectif du Parcours reste une vue de la carte.
+- **Lectures** : une lecture rapide par domaine (T-057b), à la place des parcours de lecture par situation et du filtre par objectif.
 - **Cours guidé** : mentionné dans À propos, de façon factuelle, sans appel à l'action.
 - **Dépôt public** : sur le compte du mainteneur, au nom du site.
 

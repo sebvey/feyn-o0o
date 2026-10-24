@@ -12,3 +12,4 @@
   5. version : alignement sur la version du cours publiée par T-057a, site en `0.2.0` (aperçu) ; CHANGELOG du site, `docs/`, README et `maintainer/site/structure.md` mis à jour ;
   6. build, vérification dans un navigateur (bureau et téléphone), PR, merge et redéploiement de l'aperçu (demande du mainteneur, 2026-10-25).
 - **Fini quand** : l'aperçu en ligne montre la page « Domaines » sans blocs ni objectifs, l'accueil sans liste de lectures, chaque concept dans un seul domaine, et les anciennes adresses redirigent.
+- **Fait le** : 2026-10-25, page Domaines (carte et lectures rapides) à la place de Parcours et Lectures, accueil à deux portes, domaine en en-tête de concept, anciennes adresses redirigées ; site 0.2.0 aligné sur le cours 2.0.0 (sebvey/parcours-po-website#1, mergée) ; build sans erreur, ancres vérifiées, contrôle au navigateur au bureau et à 375 px ; aperçu redéployé.
