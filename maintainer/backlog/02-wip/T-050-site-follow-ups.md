@@ -21,7 +21,7 @@
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (clos) ;
-  - T-050g : mise en ligne `v1.0.0` et règle de renvoi du prof (décidé, dépend de T-050d, donc de T-056) ;
+  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (décidé, dépend de T-050d, donc de T-056) ;
   - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052, donc de T-056) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
@@ -31,6 +31,6 @@
   2. T-052 : éviter le doublon entre les règles du cours et leurs contrôles ;
   3. T-050h, puis T-050i : contrôles de qualité du cours, puis processus de relecture ;
   4. T-050d : documentation du dépôt du site pour un agent ;
-  5. T-050g : relecture du site par le mainteneur, `v1.0.0`, retrait de `noindex`, règle de renvoi du prof.
+  5. T-050g : relecture du site par le mainteneur, `v2.0.0`, retrait de `noindex`, règle de renvoi du prof.
   Non vérifié sur le site : Safari, Firefox, téléphone, lecteur d'écran, rendu Mermaid de `docs/construction.md` sur GitHub.
 - **Fini quand** : les sous-tickets sont clos et T-049 est clos avec eux.

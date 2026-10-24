@@ -6,6 +6,9 @@ if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   for f in observations.md parcours.md; do
     [ -e "$CLAUDE_PROJECT_DIR/learner/$f" ] || echo "Fichier absent : learner/$f."
   done
+  echo "Domaines du cours (course/plan.md) :"
+  awk '/^## /{ f = ($0 == "## Domaines du cours") } f' "$CLAUDE_PROJECT_DIR/course/plan.md" |
+    sed -n 's/^\([0-9]*\)\. \*\*\(.*\)\*\* (\([^)]*\)).*/\1. \2 (\3)/p'
 else
   echo "État de learner/ : nouvel apprenant (learner/apprenant.md absent ou sans surnom)."
   echo "En session de cours, suis le skill learner-onboarding ci-dessous, sans le recharger :"

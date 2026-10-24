@@ -19,25 +19,30 @@ fin du sprint, une revue de sprint) : à l'apprenant sans sprint, le prof le dit
 repère le cycle que l'équipe se donne (sa cadence de livraison ou de revue), sans ouvrir
 l'annexe.
 
-## Objectifs du cours
+## Domaines du cours
 
-À la fin, l'apprenant sait :
+Le cours se partitionne en sept domaines, dans l'ordre des concepts : chaque concept appartient
+à un seul domaine, et les sept domaines couvrent tous les concepts. Les annexes restent hors
+domaines. À la fin de chaque domaine, l'apprenant sait :
 
-1. décrire un produit data, son objectif produit et le résultat visé, par le problème, les
-   utilisateurs et la valeur, et dire qui tranche quoi entre PO, Developers et parties
-   prenantes (concepts 0, 1, 2, 14) ;
-2. écrire et juger une story : acteur, besoin, raison, critères d'acceptation qu'un testeur
-   tranche sans poser de question, règles métier qu'ils illustrent (concepts 4 à 8) ;
-3. découper un besoin data en tranches verticales qui servent seules, avec hors périmètre et
-   dépendances écrits (concepts 9, 10, 16) ;
-4. ordonner un backlog entre des demandes concurrentes en argumentant, et défendre cet ordre
-   devant les parties prenantes (concepts 13, 14) ;
-5. conduire une story de l'idée à l'incrément : refinement, Definition of Ready, Sprint
-   Planning et objectif de sprint, Definition of Done, revue de sprint (concepts 11, 15) ;
-6. définir un indicateur sans ambiguïté et placer les exigences de qualité et d'accès aux
-   données au bon endroit (concepts 8, 11, 12) ;
-7. distinguer livrable et résultat, repérer une hypothèse non vérifiée et proposer une
-   exploration bornée avant de s'engager (concepts 2, 17).
+1. **Le cadre** (concepts 0 à 2) : décrire un produit data par le problème, les utilisateurs et
+   la valeur, son objectif produit et le résultat visé, et dire qui tranche quoi entre PO et
+   Developers.
+2. **Le backlog et la story** (concepts 3 à 8) : tenir un backlog ordonné, et écrire et juger une
+   story : acteur, besoin, raison, critères d'acceptation qu'un testeur tranche sans poser de
+   question, règles métier qu'ils illustrent.
+3. **Découper et cadrer la story** (concepts 9 à 11) : découper un besoin data en tranches
+   verticales qui servent seules, avec hors périmètre et dépendances écrits, et dire quand une
+   story est prête et quand elle est finie.
+4. **Les données** (concept 12) : définir un indicateur sans ambiguïté et placer les exigences
+   de qualité et d'accès aux données au bon endroit.
+5. **Décider** (concepts 13 et 14) : ordonner un backlog entre des demandes concurrentes en
+   argumentant, et défendre cet ordre devant les parties prenantes.
+6. **Conduire** (concepts 15 et 16) : conduire une story de l'idée à l'incrément (refinement,
+   Sprint Planning et objectif de sprint, revue de sprint), tracer une première version utile
+   et répondre à « pour quand ? ».
+7. **Explorer** (concept 17) : séparer ce qu'on sait de ce qu'on suppose, proposer une
+   exploration bornée avant de s'engager, et accepter un résultat incertain.
 
 ## Concepts
 

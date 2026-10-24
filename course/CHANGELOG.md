@@ -8,12 +8,13 @@ laquelle ; son MAJOR est celui du cours.
 
 Les **identifiants du cours** sont : le numéro de chaque concept et annexe (0 à 17, A1, A2), le
 numéro de chaque sous-concept (0a1, 9b2, A2c…), le nom des fichiers de `course/concepts/` et
-`course/sources/`, et les sept objectifs de `course/plan.md`. Le suivi de l'apprenant
-(`learner/parcours.md`) et les adresses du site (`/concepts/09#9a1`) s'appuient dessus.
+`course/sources/`, et les sept domaines de `course/plan.md` (leur numéro et leurs concepts).
+Le suivi de l'apprenant (`learner/parcours.md`) et les adresses du site (`/concepts/09#9a1`)
+s'appuient dessus.
 
-- **MAJOR** : un changement qui casse un identifiant ou un objectif. Exemples : renuméroter un
-  concept, en insérer un entre deux autres, en retirer un, renommer ou déplacer un
-  sous-concept, changer un objectif du cours.
+- **MAJOR** : un changement qui casse un identifiant. Exemples : renuméroter un concept, en
+  insérer un entre deux autres, en retirer un, renommer ou déplacer un sous-concept, changer
+  les concepts d'un domaine.
 - **MINOR** : un changement de fond qui ne casse aucun identifiant. Exemples : une précision,
   une nouvelle source, un nouvel exemple, un sous-concept ajouté en fin de concept, la
   correction d'une affirmation.
@@ -30,6 +31,7 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MAJOR, plan : les sept objectifs du cours, qui se recouvraient et laissaient le concept 3 sans objectif, sont remplacés par sept domaines contigus qui partitionnent les concepts (0 à 2, 3 à 8, 9 à 11, 12, 13 et 14, 15 et 16, 17)
 - MINOR, concepts 0 à 2 : reprise de ce que les pages du site portaient seules (équipe vélos en 0a1, sprints plus courts en 0a2, durées de vie des engagements en 0a3, valeur et exemple d'Étienne en 1a, fournisseur de données en 1b, exemple de Maud en 2a, objectif sans cible chiffrée en 2b) ; fiches de sources alignées
 - MINOR, concepts 4 à 7 : exemples du fil rouge repris des pages du site (journée d'Étienne, Régis, Abba, Étienne et la vue des stations vides, régulateur sur un petit écran), libellés du schéma du concept 4 fixés (cas inventé), mots flous et gloses du V d'INVEST ajoutés ; fiches de sources alignées
 - MINOR, concepts 8, 10, 11, 12 : reprises du site (cas inventés dans 8a2 et les Pièges de 10, 11, 12 ; conditions typiques d'une DoR selon Cohn avec sa source ; précisions sur le Scrum Guide, la finalité des données et les limites de la source)
