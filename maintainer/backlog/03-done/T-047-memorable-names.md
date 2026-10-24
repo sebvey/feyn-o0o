@@ -11,3 +11,6 @@
   noms.
 - **Fini quand** : aucun ancien nom ne reste dans `course/` ni dans les tickets ouverts ; les
   accords (Scarlette remplace Thomas) et les élisions (« d'Étienne », « de Théo ») sont justes.
+- **Fait le** : 2026-10-24, treize acteurs renommés dans `course/` et T-043 (initiale du rôle,
+  rappel en tête des acteurs du fil rouge) ; élisions et accords de Scarlette corrigés ;
+  vérifié par recherche (aucun ancien nom, aucune élision fausse). Pas d'ADR.

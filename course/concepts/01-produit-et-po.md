@@ -63,7 +63,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Question** : Réécris cette présentation avec la grille problème, utilisateurs, valeur, en
   deux ou trois phrases, sans mot technique.
 - **Réponse attendue** : par exemple : « Aux heures de pointe, des stations du centre-ville se
-  vident et les abonnés n'y trouvent plus de vélo. La plateforme montre à l'exploitation (Bruno
+  vident et les abonnés n'y trouvent plus de vélo. La plateforme montre à l'exploitation (Étienne
   et ses régulateurs) quelles stations sont vides, pour qu'ils y apportent des vélos plus vite.
   Elle fournit aussi à la collectivité des indicateurs pour justifier sa subvention, et à
   l'équipe appli les données qu'affiche l'appli. » Attendu : un problème, des utilisateurs
@@ -80,16 +80,16 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 ### L'équipe appli, utilisatrice de la plateforme ? (1a)
 - **Explication** : un utilisateur est une personne ou une équipe qui se sert du produit. Une
   équipe qui consomme ses données en est une, même si elle n'ouvre aucun écran de la plateforme.
-- **Situation** : l'équipe appli (sa PO : Inès) affiche dans l'appli des abonnés des données
-  qu'elle reçoit de la plateforme. Yanis dit : « Les utilisateurs de la plateforme, ce sont
-  Bruno et ses régulateurs. L'équipe appli, c'est une équipe voisine, pas une utilisatrice. »
-- **Question** : Yanis a-t-il raison ? Justifie.
+- **Situation** : l'équipe appli (sa PO : Pia) affiche dans l'appli des abonnés des données
+  qu'elle reçoit de la plateforme. Diego dit : « Les utilisateurs de la plateforme, ce sont
+  Étienne et ses régulateurs. L'équipe appli, c'est une équipe voisine, pas une utilisatrice. »
+- **Question** : Diego a-t-il raison ? Justifie.
 - **Réponse attendue** : non. L'équipe appli se sert des données de la plateforme : c'est une
   utilisatrice, avec son besoin (recevoir les données qu'affiche l'appli) et sa valeur (montrer
   aux abonnés des données justes et à jour). À apporter dans la correction si l'apprenant ne le
   dit pas, ce que ça change pour le PO : les besoins de l'équipe appli entrent au backlog et
-  s'ordonnent avec ceux de Bruno ; la justesse et la fraîcheur (l'âge des données quand on les
-  lit) des données livrées comptent pour elle autant qu'un écran pour Bruno. Nuance : Yanis n'a
+  s'ordonnent avec ceux d'Étienne ; la justesse et la fraîcheur (l'âge des données quand on les
+  lit) des données livrées comptent pour elle autant qu'un écran pour Étienne. Nuance : Diego n'a
   pas tout faux, une même équipe peut être à la fois utilisatrice de la plateforme et équipe
   voisine dont dépend une partie du travail (concept 10) ; dans les deux cas, c'est une partie
   prenante. Faire des consommateurs de données des utilisateurs est un choix du cours,
@@ -102,61 +102,61 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   premier ? » : l'équipe appli, puis ses abonnés.
 
 ### « Et alors ? » (1a)
-- **Situation** : Hugo, technicien de maintenance, répare les vélos sur le terrain. Dans une
+- **Situation** : Théo, technicien de maintenance, répare les vélos sur le terrain. Dans une
   présentation de ce que la plateforme pourrait apporter à la maintenance, une phrase dit : « La
   plateforme montrera les vélos signalés en panne. »
 - **Question** : Que manque-t-il à cette phrase selon la grille ? Corrige-la.
 - **Réponse attendue** : il manque l'utilisateur et la valeur : « montrer », et alors ? Par
-  exemple : « Hugo, technicien de maintenance, prépare sa tournée de réparation à partir des
-  vélos signalés en panne. » La phrase dit ce que fait Hugo grâce à la plateforme, pas ce
-  qu'elle affiche. Nuance : ce que ça change par rapport à aujourd'hui, et combien de temps Hugo
-  y gagne, le PO ne le sait pas ; il le demande à Hugo ou à Sophie, il ne l'invente pas.
+  exemple : « Théo, technicien de maintenance, prépare sa tournée de réparation à partir des
+  vélos signalés en panne. » La phrase dit ce que fait Théo grâce à la plateforme, pas ce
+  qu'elle affiche. Nuance : ce que ça change par rapport à aujourd'hui, et combien de temps Théo
+  y gagne, le PO ne le sait pas ; il le demande à Théo ou à Maud, il ne l'invente pas.
 - **Erreurs fréquentes** : ajouter de la technique (« depuis la source des signalements »).
-  Relancer : « et alors ? ». Inventer la valeur (« Hugo gagne une heure par jour ») au lieu de
+  Relancer : « et alors ? ». Inventer la valeur (« Théo gagne une heure par jour ») au lieu de
   la demander. Relancer : « d'où vient ce chiffre ? ».
 - **Ce qui marche** : répéter « et alors ? » jusqu'à obtenir un changement pour une personne
   nommée.
 
-### Léa propose de passer au streaming (1b)
+### Dana propose de passer au streaming (1b)
 - **Explication** : le PO répond du quoi, de l'ordre et du pourquoi ; les Developers, du comment
   et du coût.
-- **Situation** : la plateforme se rafraîchit toutes les 5 minutes. Léa, data engineer,
-  propose de passer les relevés des stations en streaming. Yanis te demande : « Tu valides ? »
+- **Situation** : la plateforme se rafraîchit toutes les 5 minutes. Dana, data engineer,
+  propose de passer les relevés des stations en streaming. Diego te demande : « Tu valides ? »
 - **Question** : Dans cette proposition, qu'est-ce qui relève de toi, PO, et qu'est-ce qui
   relève des Developers ?
 - **Réponse attendue** : le streaming est un comment : le choix de la technique et son coût
   reviennent aux Developers ; le PO n'a pas à « valider » une technique. Ce qui relève du PO :
-  le besoin derrière. Des données plus fraîches changeraient-elles quelque chose pour Bruno ou
+  le besoin derrière. Des données plus fraîches changeraient-elles quelque chose pour Étienne ou
   les régulateurs ? Le PO le leur demande, sans le trancher seul. Si le besoin existe, il
   devient un élément du backlog que le PO crée, explique (le pourquoi) et ordonne face aux
   autres, une fois que les Developers en ont donné la taille. Nuance : même un travail purement
   technique passe par le backlog, seule source de travail de l'équipe Scrum ; le PO l'ordonne en
   écoutant l'argument des Developers. Si l'apprenant objecte qu'une cible de fraîcheur existe
   déjà (moins de 15 minutes, règle fixée) : la question du PO devient
-  « la cible est-elle tenue, et descendre en dessous changerait-il quelque chose pour Bruno ? » ;
+  « la cible est-elle tenue, et descendre en dessous changerait-il quelque chose pour Étienne ? » ;
   le moyen de la tenir (streaming ou autre) reste aux Developers.
 - **Erreurs fréquentes** : choisir ou refuser la technique (« le streaming, c'est trop lourd pour
   nous ») : réflexe d'ancien développeur ; c'est le comment, il revient aux Developers.
   Relancer : « comment on le fait, pour quel coût : qui répond à cette question ? ». À
   l'inverse, « c'est technique, ça ne me regarde pas » : le PO perd le pourquoi (qui y gagne ?)
   et l'ordre. Relancer : « qu'est-ce que ça change pour un utilisateur ? ». Décider seul que les
-  régulateurs « ont besoin du temps réel » : c'est un fait métier, à demander à Bruno. Relancer :
+  régulateurs « ont besoin du temps réel » : c'est un fait métier, à demander à Étienne. Relancer :
   « qui peut dire si les régulateurs en ont besoin ? ».
 - **Ce qui marche** : couper la proposition en deux questions : « qu'est-ce que ça change pour
   un utilisateur ? » (PO) et « comment on le fait, pour quel coût ? » (Developers).
 
 ### Un vote pour ordonner le backlog (1b)
-- **Situation** : les demandes arrivent de Bruno, de Sophie, de Claire et d'Inès. Pour éviter
-  les conflits, Agnès propose que ces quatre personnes votent l'ordre du backlog à chaque
+- **Situation** : les demandes arrivent d'Étienne, de Maud, de Colette et de Pia. Pour éviter
+  les conflits, Odile propose que ces quatre personnes votent l'ordre du backlog à chaque
   sprint.
-- **Question** : Que réponds-tu à Agnès ? Dis qui tranche l'ordre et quelle place gardent les
+- **Question** : Que réponds-tu à Odile ? Dis qui tranche l'ordre et quelle place gardent les
   quatre demandeurs.
 - **Réponse attendue** : l'ordre revient au PO, une seule personne, pas un comité (Scrum Guide).
-  Bruno, Sophie, Claire et Inès sont des parties prenantes : ils font valoir leurs besoins, et
+  Étienne, Maud, Colette et Pia sont des parties prenantes : ils font valoir leurs besoins, et
   qui veut changer l'ordre doit convaincre le PO. Le PO les écoute, représente leurs besoins
   dans le backlog et explique ses choix (le pourquoi). Avec un vote, personne ne répondrait de
-  la valeur. Claire et Inès sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
-  une partie prenante. Nuance : Agnès est le sponsor (elle porte le budget de la plateforme et
+  la valeur. Colette et Pia sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
+  une partie prenante. Nuance : Odile est le sponsor (elle porte le budget de la plateforme et
   porte plus haut les obstacles qui dépassent le PO) ; l'ordre, lui, reste au PO, et un obstacle
   qui le dépasse se porte plus haut (concept 14), ce qui n'a rien d'un vote à chaque sprint.
 - **Erreurs fréquentes** : accepter le vote « pour être juste ». Relancer : « si l'ordre se
@@ -168,19 +168,19 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   personne.
 
 ### Deux PO pour la plateforme ? (1b)
-- **Situation** : Inès, PO de l'équipe appli, connaît bien les données qu'affiche l'appli. Agnès
-  propose qu'Inès et toi teniez ensemble le backlog de la plateforme : chaque PO
+- **Situation** : Pia, PO de l'équipe appli, connaît bien les données qu'affiche l'appli. Odile
+  propose que Pia et toi teniez ensemble le backlog de la plateforme : chaque PO
   ordonnerait ses propres demandes.
-- **Question** : Que réponds-tu à Agnès ?
+- **Question** : Que réponds-tu à Odile ?
 - **Réponse attendue** : un produit a un seul PO, une seule personne ; plusieurs équipes sur un
-  même produit partagent le même PO (Scrum Guide). Inès est PO de l'appli ; pour la plateforme,
+  même produit partagent le même PO (Scrum Guide). Pia est PO de l'appli ; pour la plateforme,
   elle est utilisatrice et partie prenante : ses besoins entrent au backlog quand elle t'en
-  convainc, et tu les ordonnes face à ceux de Bruno, Sophie et Claire. Avec deux PO, deux
+  convainc, et tu les ordonnes face à ceux d'Étienne, Maud et Colette. Avec deux PO, deux
   ordres se contrediraient et personne ne répondrait de l'ensemble. Nuance : tu peux confier une
   partie du travail sur le backlog (écrire des éléments, par exemple), tu en restes responsable
   (vu au concept 0) ; le Scrum Guide ne parle pas de « proxy PO ».
-- **Erreurs fréquentes** : accepter « pour aller plus vite » ou parce qu'Inès connaît mieux les
-  données de l'appli : la connaissance d'Inès sert le backlog par la discussion, pas par le
+- **Erreurs fréquentes** : accepter « pour aller plus vite » ou parce que Pia connaît mieux les
+  données de l'appli : la connaissance de Pia sert le backlog par la discussion, pas par le
   partage du rôle. Confondre avec la délégation : confier du travail est permis, partager la
   responsabilité non. Pour l'une ou l'autre, relancer : « si les deux ordres se contredisent,
   qui tranche ? ».
@@ -189,9 +189,9 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 
 ### Qui choisit le travail du sprint ? (1b)
 - **Situation** : au Sprint Planning, tu arrives avec le backlog ordonné et annonces : « Ce
-  sprint, on fait les six premiers éléments. » Léa répond qu'au vu du travail, l'équipe peut en
+  sprint, on fait les six premiers éléments. » Dana répond qu'au vu du travail, l'équipe peut en
   prendre quatre.
-- **Question** : Qui décide de ce qui entre dans le sprint ? Tranche entre toi et Léa.
+- **Question** : Qui décide de ce qui entre dans le sprint ? Tranche entre toi et Dana.
 - **Réponse attendue** : ni l'un ni l'autre seul. Le PO propose comment le sprint peut augmenter
   la valeur du produit, et l'ordre du backlog dit ce qui vient en premier ; les Developers
   choisissent, en discussion avec le PO, les éléments qu'ils prennent, puisqu'ils savent ce
@@ -213,8 +213,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Oublier les consommateurs de données** : l'équipe appli et la collectivité sont des
   utilisatrices, pas seulement des équipes voisines ou des destinataires de rapports.
 - **Trancher seul un fait métier** : décider que les régulateurs ont besoin du temps réel, ou
-  combien de temps Hugo gagne, au lieu de le demander à l'acteur concerné (Bruno, Hugo, Sophie,
-  Claire). Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
+  combien de temps Théo gagne, au lieu de le demander à l'acteur concerné (Étienne, Théo, Maud,
+  Colette). Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
 - **Garder la casquette de développeur** : choisir la technique ou estimer à la place des
   Developers. Le comment et le coût sont à eux.
 - **Croire que le PO fixe seul le contenu du sprint** : il propose, les Developers choisissent
@@ -230,7 +230,7 @@ Pour une décision : est-ce un quoi, un ordre ou un pourquoi (PO), ou un comment
 ## Schéma
 À gauche, un triangle dont les sommets sont **Problème**, **Utilisateurs** et **Valeur**, avec
 **Produit** au centre. Sous « Utilisateurs », deux familles : ceux qui regardent les vues
-(Bruno, les régulateurs) et ceux qui consomment des données (équipe appli, collectivité).
+(Étienne, les régulateurs) et ceux qui consomment des données (équipe appli, collectivité).
 À droite, un tableau « qui tranche quoi » en trois colonnes : **PO** (quoi, ordre, pourquoi ;
 une seule personne), **Developers** (comment, coût ; choisissent le travail du sprint avec le
 PO), **Parties prenantes** (font valoir leurs besoins, convainquent le PO). Légende : le PO

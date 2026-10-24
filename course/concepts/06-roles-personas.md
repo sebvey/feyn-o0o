@@ -44,14 +44,14 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
    celui qui fait l'action du « je veux » est-il celui qui gagne le « afin de » ? Deux pièges :
    l'acteur technique (celui qui construit, annoncé au concept 5) et la valeur d'un autre rôle
    dans le « afin de ». Le PO vérifie l'acteur auprès des utilisateurs.
-   Un message, avec « Hugo ou Sophie ? ». Rechange : « Yanis, acteur de sa story ? » (acteur
+   Un message, avec « Théo ou Maud ? ». Rechange : « Diego, acteur de sa story ? » (acteur
    technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
    sur la vérification.
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
-   d'utilisateurs réels ; Julie, persona des abonnés sans l'appli. Il ne remplace ni le rôle
-   dans la story, ni les entretiens. Un message, avec « Julie, on lui fait dire ce qu'on veut ? »
-   (« Le trait que Nora veut ajouter » après une réponse fausse, si la relance échoue ; « En
-   tant que Julie ? » en rechange).
+   d'utilisateurs réels ; Véra, persona des abonnés sans l'appli. Il ne remplace ni le rôle
+   dans la story, ni les entretiens. Un message, avec « Véra, on lui fait dire ce qu'on veut ? »
+   (« Le trait qu'Anna veut ajouter » après une réponse fausse, si la relance échoue ; « En
+   tant que Véra ? » en rechange).
 
 ## Banque d'exemples
 
@@ -60,50 +60,50 @@ faits du fil rouge. Le concept ne réenseigne pas ce qui est acquis : consommate
 utilisateurs (concept 1) ; trois parties, 3C, solution hors du « je veux », chiffre précis hors
 de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 
-### Hugo ou Sophie ? (6a)
+### Théo ou Maud ? (6a)
 - **Explication** : l'acteur d'une story est désigné par son rôle (sa catégorie d'utilisateurs),
   pas par un prénom. Choix du cours : il agit et y gagne. Il fait l'action du « je veux »,
   et le « afin de » dit son gain à lui. Le Scrum Guide n'en dit rien ; écrire pour des rôles
   précis est une recommandation de Mike Cohn.
-- **Situation** : Hugo, technicien de maintenance, répare les vélos sur le terrain et prépare sa
-  tournée de réparation à partir des vélos signalés en panne. Sophie, responsable maintenance,
-  encadre les techniciens. Sophie a ajouté ce brouillon au backlog : « En tant que responsable
+- **Situation** : Théo, technicien de maintenance, répare les vélos sur le terrain et prépare sa
+  tournée de réparation à partir des vélos signalés en panne. Maud, responsable maintenance,
+  encadre les techniciens. Maud a ajouté ce brouillon au backlog : « En tant que responsable
   maintenance, je veux voir les vélos signalés en panne, afin que mes techniciens préparent leur
   tournée. »
 - **Question** : qui est l'acteur ? Réécris le début de la story.
 - **Réponse attendue** : le technicien de maintenance. C'est lui qui regarde les vélos signalés
   et prépare sa tournée ; le « afin de » du brouillon dit d'ailleurs le gain des techniciens, pas
-  celui de Sophie. Par exemple : « En tant que technicien de maintenance, je veux voir les vélos
-  signalés en panne, afin de préparer ma tournée de réparation. » Nuances : Sophie a son propre
+  celui de Maud. Par exemple : « En tant que technicien de maintenance, je veux voir les vélos
+  signalés en panne, afin de préparer ma tournée de réparation. » Nuances : Maud a son propre
   besoin, avec sa propre raison (fixer le nombre de techniciens en tournée, concept 5) : c'est
-  une autre story, dont elle est l'acteur. Le rôle, pas « Hugo » : la story vaut pour tous les
-  techniciens. Et le PO ne choisit pas l'acteur sur le papier : il vérifie auprès de Hugo que
+  une autre story, dont elle est l'acteur. Le rôle, pas « Théo » : la story vaut pour tous les
+  techniciens. Et le PO ne choisit pas l'acteur sur le papier : il vérifie auprès de Théo que
   c'est bien lui qui prépare sa tournée à partir des signalements. Si l'apprenant change
   l'acteur sans toucher au « afin de », relance : « et le « afin de », que devient-il ? ». S'il
-  garde Sophie et veut changer le « afin de », relance : « qui regardera la liste pour préparer
-  sa tournée, et qui y gagne ? » ; un « afin de » propre à Sophie ferait une autre story.
+  garde Maud et veut changer le « afin de », relance : « qui regardera la liste pour préparer
+  sa tournée, et qui y gagne ? » ; un « afin de » propre à Maud ferait une autre story.
 - **Erreurs fréquentes** :
-  - garder Sophie « parce que c'est elle qui a demandé » : celui qui demande n'est pas toujours
+  - garder Maud « parce que c'est elle qui a demandé » : celui qui demande n'est pas toujours
     celui qui agit ; demander « qui fera l'action, et qui y gagne ? » ;
-  - écrire « En tant que Hugo » : la story sert un rôle ; Hugo est un technicien parmi d'autres,
+  - écrire « En tant que Théo » : la story sert un rôle ; Théo est un technicien parmi d'autres,
     celui à qui le PO pose ses questions ;
   - écrire « En tant qu'utilisateur » : techniciens et responsable n'ont ni la même action ni la
     même raison, le rôle change la conversation.
 - **Ce qui marche** : tracer deux flèches, l'une du « je veux » vers celui qui agit, l'autre du
   « afin de » vers celui qui y gagne : si elles n'arrivent pas sur le même rôle, l'acteur est à
-  revoir. Si l'apprenant le demande, le prof joue Hugo, d'après le fil rouge : « Je prépare ma
+  revoir. Si l'apprenant le demande, le prof joue Théo, d'après le fil rouge : « Je prépare ma
   tournée à partir des vélos signalés ; sur place, je confirme ou j'infirme la panne. »
 
-### Yanis, acteur de sa story ? (6a)
+### Diego, acteur de sa story ? (6a)
 - **Explication** : le concept 5 l'a annoncé : l'acteur est celui qui agit et y gagne, pas
   celui qui construit. Les Developers construisent le produit ; un consommateur de données, lui,
   est un utilisateur (choix du cours, concept 1).
-- **Situation** : Yanis, data engineer, propose : « En tant que data engineer, je veux une
+- **Situation** : Diego, data engineer, propose : « En tant que data engineer, je veux une
   table des vélos signalés en panne, mise à jour toutes les 5 minutes, afin d'alimenter la vue de
   maintenance. »
-- **Question** : Yanis défend son brouillon : « Je suis bien un utilisateur de la plateforme,
-  non ? » Que réponds-tu à Yanis ?
-- **Réponse attendue** : ici, Yanis construit, il ne se sert pas du résultat : la table est une
+- **Question** : Diego défend son brouillon : « Je suis bien un utilisateur de la plateforme,
+  non ? » Que réponds-tu à Diego ?
+- **Réponse attendue** : ici, Diego construit, il ne se sert pas du résultat : la table est une
   part de son travail, le « afin de » est une étape technique, et aucun gain de l'utilisateur
   n'apparaît. L'acteur est le technicien de maintenance, qui prépare sa tournée. Nuance : un
   data engineer peut être un utilisateur quand il consomme les données pour son propre besoin
@@ -117,98 +117,98 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   - conclure qu'un data engineer n'est jamais un acteur : un consommateur de données, quel que
     soit son métier, peut être l'acteur, comme l'équipe appli au concept 1 ; ce qui compte,
     c'est qu'il se serve du résultat pour son propre besoin ; réexpliquer.
-- **Ce qui marche** : « si cette story n'est jamais livrée, qui s'en plaint ? » Pas Yanis, mais
-  Hugo, qui prépare sa tournée sans la liste.
+- **Ce qui marche** : « si cette story n'est jamais livrée, qui s'en plaint ? » Pas Diego, mais
+  Théo, qui prépare sa tournée sans la liste.
 
 ### Une vue, deux acteurs (6a)
 - **Explication** : le PO ne devine pas l'acteur : il le vérifie auprès des utilisateurs. Un
   rôle plus précis vaut la peine quand il change la conversation (Cohn) : une autre raison,
   d'autres données, un autre moment.
-- **Situation** : Bruno, responsable d'exploitation, veut suivre l'état du réseau dans plusieurs
-  vues, dont les vélos en panne. Hugo prépare sa tournée de réparation à partir des vélos
-  signalés en panne. Yanis demande : « Pour la vue des vélos en panne, on met Bruno ou Hugo comme
+- **Situation** : Étienne, responsable d'exploitation, veut suivre l'état du réseau dans plusieurs
+  vues, dont les vélos en panne. Théo prépare sa tournée de réparation à partir des vélos
+  signalés en panne. Diego demande : « Pour la vue des vélos en panne, on met Étienne ou Théo comme
   acteur ? »
 - **Question** : que fais-tu avant d'écrire la story ?
 - **Réponse attendue** : ce n'est pas un choix à faire au hasard : les deux rôles n'ont pas la
   même raison (suivre l'état du réseau, préparer une tournée). Il y a sans doute deux besoins,
   donc deux stories, chacune avec son acteur et son « afin de » (un « je veux » par story,
-  concept 4). Avant d'écrire, le PO demande à Bruno et à Hugo ce qu'ils feront de l'information
+  concept 4). Avant d'écrire, le PO demande à Étienne et à Théo ce qu'ils feront de l'information
   (quelles données, à quel moment). Une seule story ne conviendrait que s'ils avaient la même
   action pour la même raison (Cohn) : leurs raisons connues le rendent peu probable. Ordonner
   les deux stories viendra au concept 13. Si l'apprenant s'arrête à « je leur demande »,
-  relance : « et que réponds-tu à Yanis ? ».
+  relance : « et que réponds-tu à Diego ? ».
 - **Erreurs fréquentes** :
   - choisir l'un des deux « parce qu'il est le plus important » : c'est ordonner, pas choisir
     l'acteur ; relancer : « une story ou deux ? » ;
   - écrire « en tant qu'utilisateur » pour couvrir les deux : on perd les deux raisons ;
     relancer : « une story ou deux ? » ;
   - décider seul de ce que chacun en fera : le PO le demande, il ne l'invente pas ; relancer :
-    « qui sait ce que Bruno et Hugo feront de cette vue ? ».
+    « qui sait ce qu'Étienne et Théo feront de cette vue ? ».
 - **Ce qui marche** : écrire les deux « afin de » côte à côte ; s'ils diffèrent, demander « une
   story ou deux ? ».
 
-### Julie, on lui fait dire ce qu'on veut ? (6b)
+### Véra, on lui fait dire ce qu'on veut ? (6b)
 - **Explication** : un persona est un portrait fictif et réaliste d'un rôle : un prénom, des
   objectifs, des comportements. Choix d'école d'Alan Cooper, venu du design d'interaction, absent du
   Scrum Guide, discuté entre praticiens. Il se construit à partir d'utilisateurs réels
   interrogés ; il aide l'équipe à se représenter le rôle quand elle en parle.
 - **Situation** : un tiers des abonnés n'a pas l'appli, seulement un téléphone basique. L'équipe
-  parle d'eux à travers Julie, persona des abonnés sans l'appli : elle veut savoir avant de
-  partir s'il reste un vélo à sa station. Nora dit : « Julie n'existe pas, donc on peut lui
+  parle d'eux à travers Véra, persona des abonnés sans l'appli : elle veut savoir avant de
+  partir s'il reste un vélo à sa station. Anna dit : « Véra n'existe pas, donc on peut lui
   prêter les besoins qui nous arrangent. »
-- **Question** : que réponds-tu à Nora ?
-- **Réponse attendue** : Julie est fictive par son prénom, pas par ses traits : un persona se
+- **Question** : que réponds-tu à Anna ?
+- **Réponse attendue** : Véra est fictive par son prénom, pas par ses traits : un persona se
   construit à partir d'utilisateurs réels, donc chacun de ses traits doit venir d'abonnés sans
   l'appli (le téléphone basique, par exemple, est celui d'un tiers des abonnés). Lui prêter un
-  besoin que personne n'a exprimé, c'est inventer un utilisateur. Un nouveau besoin pour Julie se
+  besoin que personne n'a exprimé, c'est inventer un utilisateur. Un nouveau besoin pour Véra se
   vérifie auprès d'abonnés sans l'appli. Nuance : le persona reste un choix d'école ; une équipe
   peut s'en passer et parler du rôle.
 - **Erreurs fréquentes** :
   - « oui, c'est un outil de l'équipe » : le persona aide à penser l'utilisateur, il ne le
-    remplace pas ; relancer : « d'où vient chaque trait de Julie ? » ; sinon : rechange « Le
-    trait que Nora veut ajouter » ;
-  - confondre persona et utilisateur réel : Hugo est un technicien qu'on interroge ; Julie
-    doit résumer des abonnés réels ; relancer : « d'où vient chaque trait de Julie ? ».
-- **Ce qui marche** : « d'où vient chaque trait de Julie ? » : s'il ne vient d'aucun abonné
+    remplace pas ; relancer : « d'où vient chaque trait de Véra ? » ; sinon : rechange « Le
+    trait qu'Anna veut ajouter » ;
+  - confondre persona et utilisateur réel : Théo est un technicien qu'on interroge ; Véra
+    doit résumer des abonnés réels ; relancer : « d'où vient chaque trait de Véra ? ».
+- **Ce qui marche** : « d'où vient chaque trait de Véra ? » : s'il ne vient d'aucun abonné
   réel, il n'a rien à faire dans le portrait.
 
-### Le trait que Nora veut ajouter (6b)
-- **Explication** : rechange après une réponse fausse à « Julie, on lui fait dire ce qu'on
-  veut ? », si la relance échoue. Le prénom de Julie est inventé, ses traits viennent
+### Le trait qu'Anna veut ajouter (6b)
+- **Explication** : rechange après une réponse fausse à « Véra, on lui fait dire ce qu'on
+  veut ? », si la relance échoue. Le prénom de Véra est inventé, ses traits viennent
   d'abonnés réels : chaque trait doit pouvoir répondre à « d'où vient-il ? ».
-- **Situation** : Nora veut ajouter au portrait de Julie : « elle se contente d'une
+- **Situation** : Anna veut ajouter au portrait de Véra : « elle se contente d'une
   disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
-- **Question** : que demandes-tu à Nora, et que fais-tu avant d'accepter ce trait ?
+- **Question** : que demandes-tu à Anna, et que fais-tu avant d'accepter ce trait ?
 - **Réponse attendue** : demander d'où vient ce trait ; le vérifier auprès d'abonnés sans
   l'appli ; sans appui, il n'entre pas dans le portrait. Construire pour ce trait servirait une
   abonnée qui n'existe pas. Nuance : il heurte en plus la fraîcheur visée (moins de 15 minutes).
 - **Erreurs fréquentes** :
-  - accepter « puisque Julie est fictive » : c'est l'erreur de départ, revenir à « d'où vient
+  - accepter « puisque Véra est fictive » : c'est l'erreur de départ, revenir à « d'où vient
     ce trait ? » ;
   - trancher soi-même que les abonnés s'en contentent : le PO le vérifie, il ne le décide pas.
 - **Ce qui marche** : opposer le téléphone basique (un tiers des abonnés, trait appuyé) au
-  trait de Nora (appuyé sur rien).
+  trait d'Anna (appuyé sur rien).
 
-### En tant que Julie ? (6b)
+### En tant que Véra ? (6b)
 - **Explication** : le persona sert à la conversation et aux exemples ; la phrase de la story
   garde le rôle (choix du cours).
 - **Situation** : story au backlog : « En tant qu'abonné, je veux savoir avant de partir s'il
-  reste un vélo à ma station, afin de ne pas me déplacer pour rien. » Yanis propose de la
-  réécrire : « En tant que Julie, je veux… ».
-- **Question** : faut-il remplacer « abonné » par « Julie » ? Tranche et justifie.
+  reste un vélo à ma station, afin de ne pas me déplacer pour rien. » Diego propose de la
+  réécrire : « En tant que Véra, je veux… ».
+- **Question** : faut-il remplacer « abonné » par « Véra » ? Tranche et justifie.
 - **Réponse attendue** : non, dans ce cours. Le besoin et la raison valent pour tous les abonnés,
-  avec ou sans l'appli : « abonné » ne fait rien manquer. Julie sert ailleurs : dans la
-  conversation, et dans les exemples qui disent quand la story est faite (« Julie n'a qu'un
+  avec ou sans l'appli : « abonné » ne fait rien manquer. Véra sert ailleurs : dans la
+  conversation, et dans les exemples qui disent quand la story est faite (« Véra n'a qu'un
   téléphone basique… », concept 8). Ce que son téléphone change pour la story se travaille au
   concept 7. Nuance : certaines équipes écrivent leurs stories au nom d'un persona ; c'est
   possible, à condition que le persona vienne d'utilisateurs réels.
 - **Erreurs fréquentes** :
   - « oui, c'est plus concret » : plus concret, mais la story sert un rôle, pas un portrait ;
-    relancer : « le besoin de Julie est-il différent de celui des autres abonnés, ou seulement
+    relancer : « le besoin de Véra est-il différent de celui des autres abonnés, ou seulement
     la façon de le servir ? » ;
   - réécrire en « En tant qu'abonné sans téléphone » ou y nommer un canal : c'est le sujet du
     concept 7 ; ne pas le trancher ici.
-- **Ce qui marche** : « le besoin de Julie est-il différent de celui des autres abonnés, ou
+- **Ce qui marche** : « le besoin de Véra est-il différent de celui des autres abonnés, ou
   seulement la façon de le servir ? »
 
 ## Pièges
@@ -224,7 +224,7 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   besoin est parfois celui de son équipe.
 - **« En tant qu'utilisateur » par défaut** : il fait manquer des stories quand les rôles ont
   des raisons différentes. Il suffit quand tous ont le même besoin pour la même raison.
-- **Un prénom à la place du rôle** (« en tant que Hugo ») : la story sert un rôle ; la personne
+- **Un prénom à la place du rôle** (« en tant que Théo ») : la story sert un rôle ; la personne
   nommée est celle qu'on interroge.
 - **Un persona inventé** : un portrait tiré de l'imagination de l'équipe, sans abonnés
   interrogés, fait parler un utilisateur qui n'existe pas.
@@ -240,13 +240,13 @@ Deux schémas, chacun au message de son sous-concept.
 
 **6a, deux flèches vers l'acteur**, montré à la correction, pas avec la question : il donne la
 réponse. La phrase de la story en trois blocs (« En tant que », « je
-veux », « afin de »), la case « En tant que » vide. En dessous, Hugo (technicien de maintenance)
-et Sophie (responsable maintenance). Deux flèches partent de la phrase : du « je veux » (« voir
+veux », « afin de »), la case « En tant que » vide. En dessous, Théo (technicien de maintenance)
+et Maud (responsable maintenance). Deux flèches partent de la phrase : du « je veux » (« voir
 les vélos signalés en panne ») vers celui qui agit, du « afin de » (« préparer ma tournée ») vers
-celui qui y gagne ; les deux arrivent sur Hugo, et son rôle monte dans la case vide. Légende :
+celui qui y gagne ; les deux arrivent sur Théo, et son rôle monte dans la case vide. Légende :
 « les deux flèches sur le même rôle : c'est l'acteur ».
 
-**6b, le portrait tiré des abonnés.** Une carte portrait « Julie, persona des abonnés sans
+**6b, le portrait tiré des abonnés.** Une carte portrait « Véra, persona des abonnés sans
 l'appli », posée sur un groupe de silhouettes d'abonnés (un tiers marqués d'un téléphone
 basique). Une flèche de la carte vers une bulle de conversation ; la case « En tant que » d'une
 story, à côté, garde « abonné ». Légende : « construit à partir d'abonnés réels (choix d'école,

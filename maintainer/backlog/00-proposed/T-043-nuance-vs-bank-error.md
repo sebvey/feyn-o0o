@@ -2,13 +2,13 @@
 
 - **Créé le** : 2026-10-23
 - **Constat** : tests de bout en bout de T-018h (sessions simulées, prof neuf).
-  - Scénario de reprise sur question en attente (8a2) : l'apprenant répond « c'est Léa qui l'a
-    décidé » ; le prof répond « Oui, c'est ça », apporte lui-même « Léa non plus n'a rien
-    décidé » et valide 8a2. La banque range « répondre « Léa » sans voir que personne n'a
+  - Scénario de reprise sur question en attente (8a2) : l'apprenant répond « c'est Dana qui l'a
+    décidé » ; le prof répond « Oui, c'est ça », apporte lui-même « Dana non plus n'a rien
+    décidé » et valide 8a2. La banque range « répondre « Dana » sans voir que personne n'a
     décidé » dans « Erreurs fréquentes ». Le prof a lu ce manque comme une nuance, au sens de
     « Une nuance de la réponse attendue que l'apprenant n'a pas donnée ne rend pas la réponse
     partielle » (`CLAUDE.md`, « La boucle du cours »). Le fichier du concept a été précisé dans
-    T-018h (la réponse attendue dit que « Léa » seul est l'erreur fréquente) : au test de
+    T-018h (la réponse attendue dit que « Dana » seul est l'erreur fréquente) : au test de
     contrôle, le prof relance au lieu de valider. La règle reste muette sur la frontière entre
     nuance et erreur, pour les banques qui ne le disent pas ; le même test relève une réponse
     juste qui ajoute une erreur de la banque, traitée comme fausse par le prof, sans règle.
@@ -30,5 +30,5 @@
   Erreur évitée : valider un sous-concept sur une erreur que la banque prévoit ; réexpliquer
   après une seule relance manquée.
 - **Fini quand** : un prof neuf, sur le scénario de reprise en 8a2 avec la réponse « c'est
-  Léa », relance au lieu de valider, et note le rang 1 pour la première relance d'un second
+  Dana », relance au lieu de valider, et note le rang 1 pour la première relance d'un second
   défaut après une relance réussie.

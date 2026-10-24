@@ -8,7 +8,7 @@ Le Scrum Guide 2020 [S1] ne parle ni de rôle utilisateur, ni de persona, ni d'a
 seulement qu'un produit a des « well-defined users or customers ». Ce que le concept dit du
 choix de l'acteur relève donc de recommandations d'auteur (rôles utilisateurs, Cohn, d'après le
 « usage-centered design »), de choix du cours ou de choix d'école (personas, Cooper), pas du consensus Scrum. Les
-faits du fil rouge (Hugo, Sophie, Julie, tournée de réparation, un tiers des abonnés avec un
+faits du fil rouge (Théo, Maud, Véra, tournée de réparation, un tiers des abonnés avec un
 téléphone basique) sont inventés : ils n'ont pas de source. Les sections entre parenthèses sont
 celles du modèle de fichier de concept ; le rédacteur ajoute une ligne pour toute affirmation
 qui n'est pas ici.
@@ -30,7 +30,7 @@ qui n'est pas ici.
 | Le plus souvent, l'acteur est évident ; sinon, comparer les options (6a) | [S5] | Cohn : « most of the time the user is quite obvious. When it's not, spend a little time thinking about the options and choose the one that feels most natural and best conveys the desired action. » |
 | Le PO ne devine pas l'acteur : il le vérifie auprès des utilisateurs (Pièges, banque) | aucune | Choix du cours, cohérent avec le concept 1 (le PO obtient les faits du métier des utilisateurs, sources 01 « Non vérifié ») et le concept 5 (le PO demande le « afin de » à l'utilisateur). Cohn [S5] dit seulement de « réfléchir aux options » : la vérification auprès des utilisateurs n'est pas sourcée |
 | Un mauvais acteur donne une mauvaise raison, donc un mauvais ordre et une mauvaise solution (L'essentiel) | aucune | Déduction du cours : le « afin de » aide le PO à ordonner et laisse l'équipe choisir la solution (concept 5, sources 05) ; un « afin de » écrit pour le mauvais acteur porte une raison qui n'est pas la sienne. Pas de source qui le formule |
-| Celui qui demande n'est pas toujours l'acteur (dans « Hugo ou Sophie ? », Sophie a ajouté le brouillon : fait d'exercice, pas du fil rouge) ; l'acteur est désigné par son rôle, pas par le prénom d'une personne réelle (Pièges, banque « Hugo ou Sophie ? ») | aucune | Choix du cours, cohérent avec la notion de rôle (catégorie d'utilisateurs, [S3], [S4]) et avec le concept 5 (« qui : l'utilisateur, désigné par son rôle »). Aucune source consultée ne traite le cas d'une story écrite au nom d'une personne réelle |
+| Celui qui demande n'est pas toujours l'acteur (dans « Théo ou Maud ? », Maud a ajouté le brouillon : fait d'exercice, pas du fil rouge) ; l'acteur est désigné par son rôle, pas par le prénom d'une personne réelle (Pièges, banque « Théo ou Maud ? ») | aucune | Choix du cours, cohérent avec la notion de rôle (catégorie d'utilisateurs, [S3], [S4]) et avec le concept 5 (« qui : l'utilisateur, désigné par son rôle »). Aucune source consultée ne traite le cas d'une story écrite au nom d'une personne réelle |
 | Le choix de l'acteur change la story : rôle plus précis -> règles, données, moment ou résultat différents (6a, banque) | [S3] | « ask whether the role changes the conversation. Would this user care about different rules, different data, different timing, different permissions, or a different outcome? If so, name the more specific role. » |
 
 ### 6b : le persona (choix d'école)
@@ -44,9 +44,9 @@ qui n'est pas ici.
 | Cooper a publié les personas dans *The Inmates Are Running the Asylum* (Consensus et choix d'école) | [S6], [S2] | Cooper [S6] : « first published in 1998, introduced the use of personas ». Cohn [S2] date le livre de 1999. Discordance : ne pas donner d'année dans le fichier du concept (voir « Non vérifié ») |
 | Les personas sont utiles pour garder l'utilisateur en tête, pas obligatoires (Consensus et choix d'école) | [S1], [S6] en partie | Pas obligatoires : absents du Scrum Guide [S1] et choix d'école ; Cooper lui-même écrit « whether you hate or love this idea ». « Utiles pour garder l'utilisateur en tête » : lecture du cours, sans citation |
 | Les personas sont critiqués : peu de preuves empiriques, risque de stéréotype (Consensus et choix d'école, si le fichier le dit) | [S7] | Wikipédia, section « Criticism » : lien flou avec les données, stéréotypes, preuves surtout anecdotiques. Source secondaire ; à n'employer que pour dire « choix d'école discuté », sans détail |
-| Un persona est fictif par son identité, pas par ses traits : lui prêter un besoin qu'aucun utilisateur n'a exprimé, c'est inventer un utilisateur ; un utilisateur réel (Hugo) n'est pas un persona (6b, banque « Julie, on lui fait dire ce qu'on veut ? », Pièges) | [S6], [S7] en partie | Déduit de la définition (« hypothetical archetypes », Cooper [S6] ; construit à partir d'entretiens ou d'enquêtes, Wikipédia [S7], qui distingue le « proto-persona » fait d'hypothèses de l'équipe). La formulation est celle du cours |
-| Le trait que Nora veut ajouter (« une disponibilité vieille d'une heure ») : demander d'où vient chaque trait, le vérifier auprès d'abonnés sans l'appli (banque « Le trait que Nora veut ajouter », ajoutée après le test du lot) | [S7] en partie | Même appui que la ligne précédente (persona construit à partir d'entretiens ou d'enquêtes). Le trait est une proposition d'exercice, pas un fait du fil rouge ; la fraîcheur visée (moins de 15 minutes) est un fait fixé du fil rouge |
-| Une story peut garder un rôle (« en tant qu'abonné ») même quand l'équipe a un persona (6b, renvoi aux concepts 7 et 8) | aucune | Choix du cours : le persona aide à se représenter le rôle ; il ne remplace pas le rôle dans la phrase. Écrire la story au nom du persona (« En tant que Julie… ») est une pratique répandue que Cohn décrirait dans son livre (non lu) : voir « Non vérifié » |
+| Un persona est fictif par son identité, pas par ses traits : lui prêter un besoin qu'aucun utilisateur n'a exprimé, c'est inventer un utilisateur ; un utilisateur réel (Théo) n'est pas un persona (6b, banque « Véra, on lui fait dire ce qu'on veut ? », Pièges) | [S6], [S7] en partie | Déduit de la définition (« hypothetical archetypes », Cooper [S6] ; construit à partir d'entretiens ou d'enquêtes, Wikipédia [S7], qui distingue le « proto-persona » fait d'hypothèses de l'équipe). La formulation est celle du cours |
+| Le trait qu'Anna veut ajouter (« une disponibilité vieille d'une heure ») : demander d'où vient chaque trait, le vérifier auprès d'abonnés sans l'appli (banque « Le trait qu'Anna veut ajouter », ajoutée après le test du lot) | [S7] en partie | Même appui que la ligne précédente (persona construit à partir d'entretiens ou d'enquêtes). Le trait est une proposition d'exercice, pas un fait du fil rouge ; la fraîcheur visée (moins de 15 minutes) est un fait fixé du fil rouge |
+| Une story peut garder un rôle (« en tant qu'abonné ») même quand l'équipe a un persona (6b, renvoi aux concepts 7 et 8) | aucune | Choix du cours : le persona aide à se représenter le rôle ; il ne remplace pas le rôle dans la phrase. Écrire la story au nom du persona (« En tant que Véra… ») est une pratique répandue que Cohn décrirait dans son livre (non lu) : voir « Non vérifié » |
 
 ### Renvois
 
@@ -90,7 +90,7 @@ qui n'est pas ici.
 - **« Frustrations » comme composant d'un persona** (fiche actuelle) : aucune source consultée
   ne le cite ; Wikipédia et Cooper parlent d'objectifs (« goals ») et de comportements. Préférer
   « objectifs ».
-- **Écrire une story au nom d'un persona** (« En tant que Julie… ») : pratique répandue, que
+- **Écrire une story au nom d'un persona** (« En tant que Véra… ») : pratique répandue, que
   Cohn décrirait dans son livre ; non vérifiée. Si le fichier du concept l'évoque, la donner
   comme possibilité, sans attribution.
 - **« Quasi consensuel »** (fiche actuelle, rôles précis plutôt qu'« utilisateur ») : aucune

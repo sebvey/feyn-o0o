@@ -76,31 +76,31 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   la rend possible, il ne la prouve pas. Consensus des pratiques établies, absent du Scrum
   Guide.
 - **Situation** : l'équipe vélos livre la vue des stations vides le mercredi de la deuxième
-  semaine du sprint. À la revue de sprint, Bruno, responsable d'exploitation, la trouve claire.
-  Léa conclut : « Vue livrée, objectif atteint. »
-- **Question** : Léa a-t-elle raison ?
+  semaine du sprint. À la revue de sprint, Étienne, responsable d'exploitation, la trouve claire.
+  Dana conclut : « Vue livrée, objectif atteint. »
+- **Question** : Dana a-t-elle raison ?
 - **Réponse attendue** : non. Le livrable est livré ; le résultat n'est pas encore connu. La
-  vue sert si Bruno s'en sert pour envoyer les régulateurs plus tôt vers les stations qui se
+  vue sert si Étienne s'en sert pour envoyer les régulateurs plus tôt vers les stations qui se
   vident, et si, du coup, les stations du centre-ville restent moins longtemps vides aux heures
   de pointe (l'objectif produit). Cela se constate après, sur les relevés des stations des
   semaines suivantes, comparés à l'historique. Nuance : livrer reste nécessaire ; l'incrément
   est un pas vers l'objectif produit, pas sa preuve.
 - **Erreurs fréquentes** :
-  - « oui, la vue est terminée et Bruno est content » : terminée dit que c'est bien fait, pas que
-    ça change quelque chose ; la satisfaction de Bruno est utile en complément, elle ne dit pas
+  - « oui, la vue est terminée et Étienne est content » : terminée dit que c'est bien fait, pas que
+    ça change quelque chose ; la satisfaction d'Étienne est utile en complément, elle ne dit pas
     si les stations restent moins longtemps vides. Relancer : « si on éteignait la vue demain,
-    qu'est-ce qui changerait pour Bruno et pour les stations ? » ;
+    qu'est-ce qui changerait pour Étienne et pour les stations ? » ;
   - s'arrêter au « non » sans dire quoi observer : relancer par « que faudrait-il observer pour
     dire que la vue a servi, et quand ? ».
 - **Ce qui marche** : donner les mots anglais (output, outcome), puis demander : « Si on éteignait
-  la vue demain, qu'est-ce qui changerait pour Bruno et pour les stations ? »
+  la vue demain, qu'est-ce qui changerait pour Étienne et pour les stations ? »
 
 ### Livrable ou résultat ? (2a)
 - **Explication** : test simple : si l'équipe peut le faire seule, sans que personne ne change sa
   façon de travailler, c'est un livrable.
 - **Situation** : quatre phrases entendues autour de la plateforme.
   1. « La plateforme calcule chaque jour le temps pendant lequel chaque station est vide. »
-  2. « Bruno envoie un régulateur dès qu'une station du centre-ville se vide. »
+  2. « Étienne envoie un régulateur dès qu'une station du centre-ville se vide. »
   3. « Les données des stations sont rafraîchies toutes les 5 minutes. »
   4. « Les stations du centre-ville restent moins longtemps vides aux heures de pointe. »
 - **Question** : classe chaque phrase en livrable ou résultat.
@@ -114,7 +114,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   - classer 1 en résultat « parce qu'il parle des stations vides » : le calculer ne vide ni ne
     remplit aucune station. Relancer : « qui doit changer quoi pour que ce soit vrai ? » ;
   - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur est
-    une qualité du livrable ; la valeur vient de ce que Bruno en fait. Relancer : « qui doit
+    une qualité du livrable ; la valeur vient de ce qu'Étienne en fait. Relancer : « qui doit
     changer quoi pour que ce soit vrai ? ».
 - **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si la
   réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
@@ -126,7 +126,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   communique (Scrum Guide). Le Scrum Guide n'impose aucun format. La vision produit, plus
   lointaine, n'est plus dans le Scrum Guide 2020 : Scrum.org et Scrum Alliance la gardent, choix
   d'école ; pour Scrum.org, l'objectif produit en est un pas concret et mesurable.
-- **Situation** : l'apprenant, PO de la plateforme, prépare l'objectif produit avec Agnès,
+- **Situation** : l'apprenant, PO de la plateforme, prépare l'objectif produit avec Odile,
   directrice des opérations et sponsor de la plateforme (elle en porte le budget). Trois
   formulations circulent :
   - A : « Livrer d'ici l'été la vue des stations vides, l'alerte des stations presque vides et
@@ -139,7 +139,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
     livrables iront au backlog s'ils servent l'objectif ;
   - B décrit une caractéristique du livrable (une fraîcheur) ou un moyen : il ne dit pas ce
     qui change pour qui. Savoir si l'exploitation a besoin du temps réel est un fait à demander
-    à Bruno ; la technique pour y arriver revient aux Developers (concept 1) ;
+    à Étienne ; la technique pour y arriver revient aux Developers (concept 1) ;
   - C ressemble à une vision : aspirationnelle, elle dépend de bien d'autres choses que la
     plateforme ; aucune mesure ne dirait si le travail de l'équipe la rapproche du but.
   - Une fois les trois jugées, donner l'objectif retenu (fil rouge) en comparaison : « Que les
@@ -160,7 +160,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
     pour l'utilisateur. Relancer : « peut-on tout faire sans que rien ne change pour un
     utilisateur ? » ;
   - à l'inverse, décider seul que l'exploitation « n'a pas besoin du temps réel » : c'est un
-    fait métier, à demander à Bruno. Relancer : « qui peut dire si l'exploitation en a
+    fait métier, à demander à Étienne. Relancer : « qui peut dire si l'exploitation en a
     besoin ? ».
 - **Ce qui marche** : deux questions par formulation : « peut-on tout faire sans que rien ne
   change pour un utilisateur ? » et « une mesure dira-t-elle si on s'en approche ? ».
@@ -169,23 +169,23 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Explication** : le Scrum Guide demande un seul objectif produit à la fois : l'équipe
   l'atteint ou l'abandonne avant d'en prendre un autre. L'abandonner ou le reformuler quand on
   apprend n'est pas un échec (Scrum.org, choix d'école).
-- **Situation** : Agnès propose d'ajouter à l'objectif « et fournir à la collectivité les
-  indicateurs qui justifient la subvention ». Claire, chargée de mission mobilité, attend les
+- **Situation** : Odile propose d'ajouter à l'objectif « et fournir à la collectivité les
+  indicateurs qui justifient la subvention ». Colette, chargée de mission mobilité, attend les
   locations par quartier pour le bilan annuel au conseil.
-- **Question** : que réponds-tu à Agnès ?
+- **Question** : que réponds-tu à Odile ?
 - **Réponse attendue** : un seul objectif produit à la fois (Scrum Guide) : en accoler un second
   disperse l'équipe et rend l'ordre du backlog impossible à argumenter, puisque chaque demande
-  peut se réclamer de l'un ou de l'autre. Les demandes de Claire restent des demandes : le PO
+  peut se réclamer de l'un ou de l'autre. Les demandes de Colette restent des demandes : le PO
   décide de leur place dans le backlog (concept 13) et en parle avec elle (concept 14). Si le
   bilan au conseil devient la cible prioritaire, on change d'objectif produit, on ne les
   additionne pas.
 - **Erreurs fréquentes** :
-  - accepter l'ajout parce qu'Agnès porte le budget : le PO l'écoute, mais l'objectif produit
+  - accepter l'ajout parce qu'Odile porte le budget : le PO l'écoute, mais l'objectif produit
     reste un seul objectif ;
-  - répondre « hors objectif, donc on ne fait rien pour Claire » : l'objectif guide l'ordre et
+  - répondre « hors objectif, donc on ne fait rien pour Colette » : l'objectif guide l'ordre et
     les arbitrages, il ne fait pas disparaître une partie prenante.
 - **Ce qui marche** : si la réponse s'arrête au refus, demander « et alors, que deviennent les
-  demandes de Claire ? ».
+  demandes de Colette ? ».
 
 ### Quelle mesure pour l'objectif ? (2c)
 - **Explication** : une mesure n'est utile que si elle se rattache à un but. Démarche
@@ -193,7 +193,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   chercher le signal qui montre le succès, puis construire la mesure ; choisir un signal qui ne
   bouge que si le résultat s'améliore ou se dégrade.
 - **Situation** : l'objectif produit est fixé. Quatre mesures sont proposées :
-  1. le nombre de consultations de la vue des stations vides par l'équipe de Bruno ;
+  1. le nombre de consultations de la vue des stations vides par l'équipe d'Étienne ;
   2. le nombre d'éléments livrés par sprint ;
   3. le nombre total de locations sur le réseau ;
   4. le temps cumulé pendant lequel une station du centre-ville est vide aux heures de pointe,
@@ -225,13 +225,13 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   (entretiens, observation) avant de conclure (Rodden et ses collègues, choix d'école).
 - **Situation** : le mois qui suit la livraison de la vue, le temps cumulé de stations vides au
   centre-ville baisse. Ce mois-là, il a beaucoup plu (situation d'exercice).
-- **Question** : peux-tu annoncer à Agnès que la vue a produit le résultat ?
+- **Question** : peux-tu annoncer à Odile que la vue a produit le résultat ?
 - **Réponse attendue** : pas encore. La baisse peut venir d'une autre cause : la pluie peut
   réduire les locations, donc moins de stations se vident, sans rapport avec la vue. Avant de
   conclure : comparer à des périodes comparables dans l'historique des relevés (environ un
   an) ; vérifier le signal
-  de comportement (Bruno envoie-t-il les régulateurs plus tôt ?) ; en parler avec Bruno et
-  Malik. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
+  de comportement (Étienne envoie-t-il les régulateurs plus tôt ?) ; en parler avec Étienne et
+  Rémi. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
   vient au concept 17.
 - **Erreurs fréquentes** :
   - annoncer la victoire sur un seul mois. Relancer : « quelle autre raison pourrait faire
@@ -276,7 +276,7 @@ mesure de résultat.
 
 ## Schéma
 Une chaîne horizontale de gauche à droite : une case « Livrable » (la vue des stations vides),
-seule sous l'accolade « ce que l'équipe maîtrise » ; une petite case grisée « Usage » (Bruno la
+seule sous l'accolade « ce que l'équipe maîtrise » ; une petite case grisée « Usage » (Étienne la
 consulte), légendée « signal, pas preuve » ; puis un grand cadre « Résultat » qui contient deux
 cases : « Changement de comportement » (il envoie les régulateurs plus tôt), puis « Effet visé »
 (stations du centre-ville moins longtemps vides aux heures de pointe). Sous l'usage et le

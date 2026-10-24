@@ -59,7 +59,7 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
    l'équipe tire l'élément suivant quand une place se libère sous la limite du travail en cours
    (éléments commencés et pas finis). La Definition of Workflow dit où commence un élément ; la
    DoR devient la règle pour franchir ce début (choix du cours). Kanban University appelle ce
-   moment le point d'engagement (choix d'école). Exemple : « La place libérée par Nora ».
+   moment le point d'engagement (choix d'école). Exemple : « La place libérée par Anna ».
 2. **A2b, depuis 15b : sans objectif de sprint, ce qui donne la direction.** Rien ne regroupe
    deux semaines de travail : la direction vient de l'objectif produit et de l'ordre du backlog,
    que le PO tient. Le réapprovisionnement de la méthode Kanban, choix d'école, en une ligne.
@@ -71,20 +71,20 @@ Kanban dans Scrum : le dire en une ligne, et le cours s'applique sans A2.
 4. **A2d, depuis 16c : prévoir en flux.** Sur l'historique du temps de cycle, une prévision en
    durée et probabilité (l'attente de niveau de service), pas une promesse ; le débit est l'une
    des mesures suivies, pas la base de cette prévision. La prévision vient des Developers, comme
-   en 16c. Exemple : « Bruno demande pour quand ».
+   en 16c. Exemple : « Étienne demande pour quand ».
 
 ## Banque d'exemples
 
-Faits du fil rouge utilisés : l'équipe vélos (Léa, Yanis, data engineers ; Nora, analyste) en
+Faits du fil rouge utilisés : l'équipe vélos (Dana, Diego, data engineers ; Anna, analyste) en
 sprints de deux semaines ; DoR de l'équipe vélos (critères d'acceptation écrits, règles métier
-fixées, dépendances identifiées, accès aux données obtenu) ; la story de Bruno « voir les
+fixées, dépendances identifiées, accès aux données obtenu) ; la story d'Étienne « voir les
 locations du jour par station », dont l'accès à la table des locations n'est pas obtenu
-(concept 11b) ; les vues de Bruno ; la tournée d'Hugo ; Claire et Inès, qui demandent chacune
+(concept 11b) ; les vues d'Étienne ; la tournée de Théo ; Colette et Pia, qui demandent chacune
 un élément. Toute la banque est en situation d'exercice : « si l'équipe vélos travaillait sans
 sprint ». La limite du travail en cours, les durées, les dates et les répliques sont des
 propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en sprints.
 
-### La place libérée par Nora (A2a)
+### La place libérée par Anna (A2a)
 - **Explication** : sans sprint, pas de Sprint Planning qui choisit le travail de deux
   semaines. L'équipe tire un élément quand elle a de la place : elle fixe combien d'éléments
   peuvent être en cours à la fois (commencés et pas finis), et en commence un nouveau quand le
@@ -93,18 +93,18 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   équipe qui avait une DoR, c'est là qu'elle sert (choix du cours). Kanban University appelle
   ce moment le point d'engagement (choix d'école).
 - **Situation** : si l'équipe vélos travaillait sans sprint, avec une limite de trois éléments
-  en cours (dans cet exercice). Nora finit un élément : une place se libère. En haut du backlog,
-  la story de Bruno « voir les locations du jour par station » : critères écrits, mais l'accès
-  à la table des locations n'est pas obtenu. Juste après, une story qui remplit la DoR. Yanis :
-  « Commençons celle de Bruno, comme ça elle est en route. »
-- **Question** : que proposes-tu à Yanis, et pourquoi ?
-- **Réponse attendue** : la story de Bruno ne franchit pas le début du flux : elle ne remplit
+  en cours (dans cet exercice). Anna finit un élément : une place se libère. En haut du backlog,
+  la story d'Étienne « voir les locations du jour par station » : critères écrits, mais l'accès
+  à la table des locations n'est pas obtenu. Juste après, une story qui remplit la DoR. Diego :
+  « Commençons celle d'Étienne, comme ça elle est en route. »
+- **Question** : que proposes-tu à Diego, et pourquoi ?
+- **Réponse attendue** : la story d'Étienne ne franchit pas le début du flux : elle ne remplit
   pas la DoR (accès non obtenu), comme en 11b. L'équipe tire la suivante dans l'ordre, celle
   qui est prête ; les Developers tirent, le PO a ordonné (répartition du cours, pas du
   *Kanban Guide*, qui n'a pas de rôles). Ce qui change sans sprint :
   commencée sans accès, la story compterait dans le travail en cours, donc occuperait l'une des
   trois places sans avancer (choix du cours, déduit de la définition du travail en
-  cours). Le PO fait avancer l'accès (relancer Pascal, escalader si ça bloque : concept 14).
+  cours). Le PO fait avancer l'accès (relancer Ivan, escalader si ça bloque : concept 14).
 - **Erreurs fréquentes** :
   - « oui, elle est en haut du backlog » : demander « que fait-elle dans sa place tant que
     l'accès n'est pas là ? » ;
@@ -119,26 +119,26 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   semaines de travail. Reste à savoir ce qui décide, quand une place se libère, de l'élément
   qu'on commence. Le réapprovisionnement de la méthode Kanban (Anderson, choix d'école) se dit
   dans la correction, pas ici ; le cours n'en fixe ni la fréquence ni les participants.
-- **Situation** : si l'équipe vélos travaillait sans sprint. Claire a demandé un élément pour
-  son bilan, Inès un autre pour l'appli ; les deux sont prêts. Yanis : « Puisqu'il n'y a plus
+- **Situation** : si l'équipe vélos travaillait sans sprint. Colette a demandé un élément pour
+  son bilan, Pia un autre pour l'appli ; les deux sont prêts. Diego : « Puisqu'il n'y a plus
   d'objectif de sprint, quand une place se libère, chacun prend l'élément de la personne qui
   l'a relancé en dernier. »
-- **Question** : qu'est-ce qui cloche dans la proposition de Yanis ?
+- **Question** : qu'est-ce qui cloche dans la proposition de Diego ?
 - **Réponse attendue** : sans objectif de sprint, la direction ne disparaît pas : elle vient de
   l'objectif produit et de l'ordre du backlog. La place libérée va à l'élément prêt le plus
   haut ; c'est le PO qui ordonne, et qui veut changer l'ordre le convainc (concept 1b). Suivre
   le dernier qui relance, c'est laisser la pression ordonner à sa place. Le PO tient le haut du
   backlog à jour à mesure que les places se libèrent. Nuance, non attendue : une équipe peut se
   donner un moment régulier pour le revoir (le réapprovisionnement, choix d'école). L'ordre
-  entre Claire et Inès ne se tranche pas ici (concepts 13 et 14b).
+  entre Colette et Pia ne se tranche pas ici (concepts 13 et 14b).
 - **Erreurs fréquentes** :
-  - trancher entre Claire et Inès : recentrer sur ce qui décide, pas sur le gagnant ;
+  - trancher entre Colette et Pia : recentrer sur ce qui décide, pas sur le gagnant ;
   - « on se fixe un objectif de la semaine » : demander « qu'est-ce qui le relie déjà à
     l'objectif produit ? », puis montrer que l'ordre le fait ;
   - réponse juste sans la suite (ce qui remplace la proposition) : relancer par « et que
     mets-tu à la place : qui fait quoi quand une place se libère ? » ;
   - « il faut suivre l'ordre du backlog », sans dire qui le fait ni pourquoi la relance ne
-    compte pas : demander « qui fait cet ordre, et que fait Claire si elle veut passer
+    compte pas : demander « qui fait cet ordre, et que fait Colette si elle veut passer
     devant ? ».
 - **Ce qui marche** : « sans sprint, qu'est-ce qui dit encore pourquoi on fait ça plutôt
   qu'autre chose ? »
@@ -150,13 +150,13 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   livré avec les parties prenantes et adapter le backlog, à une cadence que l'équipe choisit
   (choix du cours).
 - **Situation** : si l'équipe vélos travaillait sans sprint. Dans cet exercice, la vue des vélos en
-  panne de Bruno est livrée un mardi, l'évolution de la tournée d'Hugo dix jours plus tard. Yanis :
-  « Plus besoin de revue : chaque livraison part, Bruno et Sophie nous écriront s'il y a un
+  panne d'Étienne est livrée un mardi, l'évolution de la tournée de Théo dix jours plus tard. Diego :
+  « Plus besoin de revue : chaque livraison part, Étienne et Maud nous écriront s'il y a un
   souci. »
-- **Question** : que perd l'équipe avec la proposition de Yanis ?
+- **Question** : que perd l'équipe avec la proposition de Diego ?
 - **Réponse attendue** : livrer au fil de l'eau, oui ; mais sans inspection, l'équipe n'apprend
-  que les problèmes, pas ce que l'incrément change pour Bruno et Sophie ni ce qu'il faut
-  adapter au backlog. Le PO propose un moment où Bruno et Sophie regardent ce qui a été livré
+  que les problèmes, pas ce que l'incrément change pour Étienne et Maud ni ce qu'il faut
+  adapter au backlog. Le PO propose un moment où Étienne et Maud regardent ce qui a été livré
   et où le backlog s'adapte ; sa cadence se décide en équipe (toutes les deux semaines, ou à
   chaque livraison qui compte), aucun guide ne la fixe. Une demande qui en naît entre au
   backlog et s'ordonne, sans se promettre en séance (concepts 10a2 et 13).
@@ -167,41 +167,41 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « ils nous écriront » : demander « qui écrit pour dire que la vue ne sert pas ? » ;
   - réponse juste sans la suite (ce que le PO propose) : relancer par « et que proposes-tu à
     la place ? » ;
-  - faire de ce moment une recette, où Bruno et Sophie valident avant que la livraison parte :
-    relancer : « si Sophie n'est pas disponible cette semaine-là, l'évolution de la tournée
+  - faire de ce moment une recette, où Étienne et Maud valident avant que la livraison parte :
+    relancer : « si Maud n'est pas disponible cette semaine-là, l'évolution de la tournée
     attend-elle pour partir ? » ;
   - proposer la revue de la livraison du service de la méthode Kanban (choix d'école) : elle
-    porte sur la performance du service, pas sur ce que la vue change pour Bruno ; ce n'est
+    porte sur la performance du service, pas sur ce que la vue change pour Étienne ; ce n'est
     pas une revue de sprint sans sprint (choix du cours).
 - **Ce qui marche** : séparer deux questions, « quand livre-t-on ? » et « quand regarde-t-on
   ensemble ce qu'on a livré ? ».
 
-### Bruno demande pour quand (A2d)
+### Étienne demande pour quand (A2d)
 - **Explication** : sans sprint, pas de prévision par sprint. Parmi les quatre mesures que le
   *Kanban Guide* fait suivre, le temps de cycle va du début d'un élément à sa fin. Sur son
   historique, l'équipe tire une prévision en deux parties, une durée et une probabilité : c'est
   son attente de niveau de service. Elle vient des Developers et de leurs mesures (concept 16c),
   pas d'une date que le PO invente.
 - **Situation** : si l'équipe vélos travaillait sans sprint. Dans cet exercice, ses mesures
-  disent : 9 éléments sur 10 sont finis en 12 jours ou moins après leur début. Bruno demande
+  disent : 9 éléments sur 10 sont finis en 12 jours ou moins après leur début. Étienne demande
   pour quand la vue des locations du jour ; la story n'est pas commencée (accès non obtenu),
   et deux éléments la précèdent dans l'ordre.
 - **Question** : un collègue propose de répondre « dans 12 jours ». Qu'est-ce qui
   cloche dans cette réponse ?
 - **Réponse attendue** : les 12 jours comptent à partir du début de la story, pas
   d'aujourd'hui ; elle n'a pas commencé et ne le peut pas sans l'accès. Et ce n'est pas une
-  promesse : 1 élément sur 10 prend plus longtemps. Le PO dit à Bruno ce dont dépend le
+  promesse : 1 élément sur 10 prend plus longtemps. Le PO dit à Étienne ce dont dépend le
   début (l'accès demandé à la DSI, les deux éléments devant) et, une fois la story commencée,
   ce que disent les mesures de l'équipe : « en général moins de 12 jours, pas toujours ». La
   prévision se revoit à mesure qu'on avance (concept 16c).
 - **Erreurs fréquentes** :
   - « dans 12 jours » : demander « 12 jours depuis quand ? » ;
-  - inventer une date pour rassurer Bruno : la prévision vient des mesures des Developers ;
+  - inventer une date pour rassurer Étienne : la prévision vient des mesures des Developers ;
   - « on ne peut rien dire » : la mesure dit déjà quelque chose, avec sa probabilité ;
-  - réponse juste sans la suite (ce que le PO dit à Bruno) : relancer par « et que réponds-tu
-    à Bruno ? ».
+  - réponse juste sans la suite (ce que le PO dit à Étienne) : relancer par « et que réponds-tu
+    à Étienne ? ».
 - **Ce qui marche** : dessiner le temps de cycle comme une flèche qui part du début du flux,
-  et poser la story de Bruno avant ce début.
+  et poser la story d'Étienne avant ce début.
 
 ## Pièges
 - **Confondre les deux cas** : un tableau de flux dans des sprints, c'est Kanban dans Scrum
@@ -232,7 +232,7 @@ de cycle (les Developers).
 Un tableau de flux en colonnes, de gauche à droite : « Backlog ordonné (PO) », une ligne
 verticale « début du flux : DoR », une colonne « En cours » avec trois cases (la limite), puis
 « Fini (DoD) », qui mène à l'incrément livré. Des flèches tirent les cartes de gauche à droite
-quand une case se libère ; la carte de Bruno attend avant la ligne, étiquetée « accès aux
+quand une case se libère ; la carte d'Étienne attend avant la ligne, étiquetée « accès aux
 locations : en attente DSI ». Sous le tableau, une accolade du début du flux à « Fini » :
 « temps de cycle » ; un compteur sous « Fini » : « débit ». Légende : « on tire quand une place
 se libère ; la DoR garde le début du flux, la DoD la fin ».

@@ -40,8 +40,8 @@ coche pas.
 
 ## Sous-concepts
 1. **7a les six lettres et le mot flou**, en deux messages, chacun avec sa question :
-   - **7a1** Les six lettres (« La story de Julie, lettre par lettre ») : une ligne par lettre,
-     puis la story de Julie jugée avec elles. INVEST est un aide-mémoire de Wake, pas une règle
+   - **7a1** Les six lettres (« La story de Véra, lettre par lettre ») : une ligne par lettre,
+     puis la story de Véra jugée avec elles. INVEST est un aide-mémoire de Wake, pas une règle
      de Scrum. E et S se jugent avec les Developers. Pour S, dire lequel est lequel : quelques
      semaines-personnes (Wake), quelques jours-personnes (certaines équipes), un sprint (repère
      du cours, concept 4). En rechange, ou si l'apprenant donne S en jours : « Huit jours, trop gros ? ».
@@ -53,21 +53,21 @@ coche pas.
    les détails de la solution (le canal) se construisent avec l'équipe, jusque pendant la
    réalisation. Négociable ne veut pas dire tout ouvert : une contrainte réelle ne se négocie
    pas, et elle s'écrit dans un critère d'acceptation, sans nommer de solution. L'écriture des
-   critères vient au concept 8. Exemple éprouvé : « Le SMS de Julie ». Si la réponse est juste
+   critères vient au concept 8. Exemple éprouvé : « Le SMS de Véra ». Si la réponse est juste
    du premier coup : « Le canal dans le critère ».
 
 ## Banque d'exemples
 
-Les faits viennent du fil rouge : la story de Julie et ses règles fixées (vélo disponible,
+Les faits viennent du fil rouge : la story de Véra et ses règles fixées (vélo disponible,
 station favorite, moins de 15 minutes) ; un tiers des abonnés n'a qu'un téléphone basique, sans
-l'appli ; le canal (SMS, serveur vocal, appli) dépend de l'équipe appli, dont Inès est la PO ;
+l'appli ; le canal (SMS, serveur vocal, appli) dépend de l'équipe appli, dont Pia est la PO ;
 ni les heures de pointe ni ce qu'est une station vide (vélos à quai ou disponibles) ne sont
-définis ; la vue des stations vides doit servir à Bruno à envoyer les régulateurs plus tôt. La
-story de Bruno en 7a2, l'estimation et les propos de Yanis en 7a1, les propos de Nora et de Léa,
+définis ; la vue des stations vides doit servir à Étienne à envoyer les régulateurs plus tôt. La
+story d'Étienne en 7a2, l'estimation et les propos de Diego en 7a1, les propos d'Anna et de Dana,
 et le brouillon « recevoir un SMS à 8 h » en 7b sont des propositions d'exercice : ils ne
 deviennent pas des faits du fil rouge.
 
-### La story de Julie, lettre par lettre (7a1)
+### La story de Véra, lettre par lettre (7a1)
 - **Explication** : INVEST, grille de Bill Wake (2003, XP), six lettres : I (ne dépend pas
   d'une autre story, autant que possible), N (le besoin, pas les détails de la solution), V (de
   la valeur pour l'utilisateur), E (les Developers peuvent l'estimer assez pour l'ordonner), S
@@ -77,23 +77,23 @@ deviennent pas des faits du fil rouge.
 - **Situation** : « En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma
   station, afin de ne pas me déplacer pour rien. » Règles fixées : un vélo disponible est à
   quai et louable ; la station est la favorite de l'abonné ; données à jour de moins de
-  15 minutes. La disponibilité vient de la plateforme ; la livrer à Julie par un canal dépend de
+  15 minutes. La disponibilité vient de la plateforme ; la livrer à Véra par un canal dépend de
   l'équipe appli.
 - **Question** : juge cette story lettre par lettre : laquelle pose question, et pourquoi ?
 - **Réponse attendue** : I. La story dépend de l'équipe appli pour le canal : elle ne sert pas
-  Julie tant que ce canal n'existe pas. Wake reconnaît qu'on n'y arrive pas toujours ; on écrit
+  Véra tant que ce canal n'existe pas. Wake reconnaît qu'on n'y arrive pas toujours ; on écrit
   la dépendance, et son traitement vient au concept 10. Les autres tiennent : N (aucun canal
-  nommé), V (Julie évite un déplacement pour rien), T (les règles fixées permettent de trancher),
+  nommé), V (Véra évite un déplacement pour rien), T (les règles fixées permettent de trancher),
   E et S (rien de flou n'empêche d'estimer). Nuance : E et S, le PO ne les coche pas seul ; ce
   sont les Developers qui estiment, et ils diront si elle tient dans un sprint.
 - **Erreurs fréquentes** :
   - tout cocher « OK » d'un coup : relancer, lettre par lettre : « qu'est-ce qui te permet de
-    le dire ? » ; sinon : « qui livre l'information à Julie ? » ;
+    le dire ? » ; sinon : « qui livre l'information à Véra ? » ;
   - voir dans la dépendance une raison de rejeter la story : I se tient « autant que possible »,
     la dépendance s'écrit et se traite (concept 10) ;
   - donner S en jours (« quelques jours, donc OK ») : le repère est le sprint (7a1, « Huit jours,
     trop gros ? »).
-- **Ce qui marche** : faire suivre le chemin de l'information jusqu'à Julie : la plateforme
+- **Ce qui marche** : faire suivre le chemin de l'information jusqu'à Véra : la plateforme
   calcule, puis un canal qu'elle ne fait pas.
 
 ### Huit jours, trop gros ? (7a1)
@@ -101,21 +101,21 @@ deviennent pas des faits du fil rouge.
   travail ; certaines équipes visent quelques jours-personnes, Wake le signale lui-même. Le
   repère du cours : une story tient dans un sprint (concept 4) ; les Developers en estiment la
   taille.
-- **Situation** : l'équipe vélos (Léa, Yanis, Nora) travaille en sprints de deux semaines. Pour
-  une story, Yanis estime environ huit jours de travail d'une personne. Il dit : « INVEST dit
+- **Situation** : l'équipe vélos (Dana, Diego, Anna) travaille en sprints de deux semaines. Pour
+  une story, Diego estime environ huit jours de travail d'une personne. Il dit : « INVEST dit
   qu'une story, c'est quelques jours. Huit, c'est trop gros, il faut la couper. »
 - **Question** : qu'est-ce qui est juste, et qu'est-ce qui ne l'est pas, dans la phrase de
-  Yanis ?
+  Diego ?
 - **Réponse attendue** : juste : l'estimation est la sienne, il est l'un des Developers ; et des
   stories plus petites s'estiment souvent mieux (Wake). Faux : INVEST ne dit pas « quelques
   jours ». Chez Wake, une story fait au plus quelques semaines-personnes ; « quelques
   jours-personnes » est le choix de certaines équipes. Le repère du cours est le sprint : la
-  question à poser est « tient-elle dans le sprint ? », et ce sont les Developers (Léa, Yanis,
-  Nora) qui y répondent. Nuance : une équipe qui s'est donné la règle des quelques jours la suit,
+  question à poser est « tient-elle dans le sprint ? », et ce sont les Developers (Dana, Diego,
+  Anna) qui y répondent. Nuance : une équipe qui s'est donné la règle des quelques jours la suit,
   c'est sa règle, pas celle d'INVEST. Couper une story qui ne tient pas dans un sprint :
   concept 9.
 - **Erreurs fréquentes** :
-  - donner raison à Yanis parce que « une story, c'est quelques jours » : confondre une pratique
+  - donner raison à Diego parce que « une story, c'est quelques jours » : confondre une pratique
     d'équipe avec la grille ; relancer : « d'où vient “quelques jours” ? » ;
   - trancher soi-même « huit jours, ça tient » : la taille est l'estimation des Developers ; le
     PO corrige la référence à INVEST, pas l'estimation ; relancer : « qui dit combien de temps
@@ -132,19 +132,19 @@ deviennent pas des faits du fil rouge.
 - **Situation** : brouillon d'exercice : « En tant que responsable d'exploitation, je veux voir,
   au point du matin, les stations du centre-ville restées vides aux heures de pointe la
   veille, afin d'envoyer les régulateurs plus tôt vers les stations qui se vident. »
-  Nora coche E et S « OK ». Les heures de pointe ne sont définies nulle part.
-- **Question** : que réponds-tu à Nora ?
+  Anna coche E et S « OK ». Les heures de pointe ne sont définies nulle part.
+- **Question** : que réponds-tu à Anna ?
 - **Réponse attendue** : « heures de pointe ». Tant qu'il n'est pas fixé, E est douteux (une
   plage fixe, ou une plage par jour de la semaine, ne demandent pas le même calcul), S aussi
   (selon la définition, la story tient ou non dans un sprint), et T (un testeur ne sait pas si
-  une station vide à 9 h 30 compte). Ni Nora ni le PO ne le fixent : le PO le fait préciser par
-  Bruno, qui utilisera la vue, avant le sprint (concept 15) ; la story attend (concept 4).
+  une station vide à 9 h 30 compte). Ni Anna ni le PO ne le fixent : le PO le fait préciser par
+  Étienne, qui utilisera la vue, avant le sprint (concept 15) ; la story attend (concept 4).
   Nuances : « vide » (vélos à quai ou disponibles) n'est pas fixé non plus ; l'apprenant qui le
   relève a raison, même traitement. « Heures de pointe » sert aussi à la mesure de l'objectif
-  produit : la définition précisée avec Bruno doit valoir pour cette mesure, que portent les
-  parties prenantes de l'objectif (Agnès) ; le PO ne laisse pas coexister deux définitions.
+  produit : la définition précisée avec Étienne doit valoir pour cette mesure, que portent les
+  parties prenantes de l'objectif (Odile) ; le PO ne laisse pas coexister deux définitions.
 - **Erreurs fréquentes** :
-  - donner raison à Nora (« E et S tiennent ») : relancer : « une station vide à 9 h 30, tu la
+  - donner raison à Anna (« E et S tiennent ») : relancer : « une station vide à 9 h 30, tu la
     comptes ? » ;
   - proposer soi-même une plage (« 7 h à 9 h et 17 h à 19 h ») pour débloquer : c'est la décision
     de l'utilisateur, le PO la fait prendre, il ne l'invente pas ; relancer : « qui peut dire ce
@@ -157,7 +157,7 @@ deviennent pas des faits du fil rouge.
   pointe pour cette vue ? » ; s'il ne relie pas le mot aux lettres : « lesquelles de E, S, T
   peux-tu vérifier sans lui ? ».
 
-### Le SMS de Julie (7b)
+### Le SMS de Véra (7b)
 - **Explication** : N (Negotiable) : la story n'est pas un contrat de fonctions ; elle porte
   l'essentiel, pas les détails. La solution se construit avec l'équipe, jusque pendant la
   réalisation (Wake). Ici le canal relève de l'équipe appli.
@@ -172,7 +172,7 @@ deviennent pas des faits du fil rouge.
 - **Réponse attendue** : le SMS reste une solution, donc négociable (un serveur vocal servirait
   aussi). Ce qui ne se négocie pas, c'est la contrainte : l'abonné sans l'appli, avec un
   téléphone basique, doit pouvoir savoir. Elle s'écrit dans un critère d'acceptation, sans
-  nommer de canal (par exemple : Julie, qui n'a qu'un téléphone basique sans l'appli, obtient
+  nommer de canal (par exemple : Véra, qui n'a qu'un téléphone basique sans l'appli, obtient
   avant de partir le nombre de vélos disponibles à sa station). Sa forme vient au concept 8.
   Nuance : négociable ne veut pas dire tout ouvert ; la phrase de la story ne change pas.
 - **Erreurs fréquentes** :
@@ -189,11 +189,11 @@ deviennent pas des faits du fil rouge.
 ### Le canal dans le critère (7b)
 - **Explication** : le critère d'acceptation dit quand la story est faite ; s'il nomme une
   solution, il la fige, comme la phrase l'aurait fait.
-- **Situation** : Léa propose ce critère pour la story de Julie : « Julie reçoit un SMS avec le
+- **Situation** : Dana propose ce critère pour la story de Véra : « Véra reçoit un SMS avec le
   nombre de vélos disponibles à sa station. »
 - **Question** : corrige ce critère.
 - **Réponse attendue** : il fige le SMS et perd la contrainte. Corrigé : le critère ne nomme
-  pas de canal et garde la contrainte (Julie n'a qu'un téléphone basique, sans l'appli). Sa
+  pas de canal et garde la contrainte (Véra n'a qu'un téléphone basique, sans l'appli). Sa
   rédaction complète vient au concept 8. Nuance : le canal se choisit dans la conversation avec
   l'équipe appli.
 - **Erreurs fréquentes** :
@@ -229,11 +229,11 @@ sans poser de question ? Les Developers peuvent-ils dire si elle tient dans un s
 des réponses est non, cherche le mot dont elles dépendent.
 
 ## Schéma
-Six cases alignées, une par lettre (I, N, V, E, S, T), au-dessus de la story de Bruno (7a2). Le
+Six cases alignées, une par lettre (I, N, V, E, S, T), au-dessus de la story d'Étienne (7a2). Le
 mot « heures de pointe » est surligné dans la phrase ; trois fils partent de lui vers les cases
 E, S et T, en rouge, comme trois branches sur une même racine ; I, N, V en vert. « vide » est
 souligné en pointillé, avec un fil vers T. Deuxième état, à droite : « heures de pointe » et
-« vide » précisés par Bruno, avant le sprint, dans une définition qui vaut aussi pour la mesure
+« vide » précisés par Étienne, avant le sprint, dans une définition qui vaut aussi pour la mesure
 de l'objectif produit ; alors seulement les trois cases passent au vert. Légende : « plusieurs
 lettres en rouge : cherche le mot dont elles dépendent ». En bandeau : « INVEST, Wake 2003 :
 un aide-mémoire, absent du Scrum Guide ».
