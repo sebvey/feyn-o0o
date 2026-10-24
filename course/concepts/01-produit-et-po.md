@@ -27,14 +27,14 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Consensus** (Scrum Guide) : le comment revient aux seuls Developers, qui estiment aussi la
   taille des éléments ; le PO les aide à comprendre les arbitrages. Le travail du sprint, les
   Developers le choisissent en discussion avec le PO : le PO ne le fixe pas seul.
+- **Choix d'école** (Pichler, Product Vision Board) : décrire un produit par ses utilisateurs,
+  les problèmes qu'il leur retire et les bénéfices qu'il leur apporte. Le cours en tire la grille
+  problème, utilisateurs, valeur ; le Scrum Guide nomme les utilisateurs et la valeur.
 - **Choix d'école** (Dehghani, data mesh) : traiter les consommateurs de données comme des
   clients.
-- **Choix du cours** (ni consensus ni choix d'école) : la grille problème, utilisateurs,
-  valeur. Le Scrum Guide nomme les utilisateurs et la valeur ; le « problème » est l'ajout du
-  cours, pour décrire le produit par son effet plutôt que par sa technique. Autre choix du cours,
-  appuyé sur le choix de Dehghani : les consommateurs de données sont des utilisateurs du
-  produit (l'équipe appli, qui reçoit les données qu'affiche l'appli ; la collectivité, qui
-  reçoit des indicateurs).
+- **Choix du cours** (ni consensus ni choix d'école), appuyé sur le choix de Dehghani : les
+  consommateurs de données sont des utilisateurs du produit (l'équipe appli, qui reçoit les
+  données qu'affiche l'appli ; la collectivité, qui reçoit des indicateurs).
 
 ## Sous-concepts
 1. **1a Le produit : problème, utilisateurs, valeur.** Décrire la plateforme par ce qu'elle
