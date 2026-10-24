@@ -65,7 +65,7 @@ fourchette, revue à chaque sprint, pas une promesse.
    - **16b1** la tranche qui traverse la carte, la première version utile, son résultat visé
      et sa mesure de succès, sans cible (« Le point du matin d'abord ») ;
    - **16b2** les deux sens de MVP, et dire lequel on emploie (« Un MVP, même bâclé »).
-3. **16c la prévision vient des Developers** : la fourchette, ce qui la fait bouger, pas un
+3. **16c la prévision vient des Developers** : la fourchette, ce qui la fait bouger, pas une
    promesse (« Pour quand ? »). En rechange : « Il me faut une date ». À l'apprenant qui
    travaille sans sprint : annexe A2d (prévoir en flux).
 
@@ -289,8 +289,8 @@ et le contenu de la tranche en 16c.
 - **Ce qui marche** : « qu'est-ce qui se passe à cette date ? ».
 
 ## Pièges
-- **Prendre la carte pour la hiérarchie** : des colonnes epic ou feature, des vues en haut de
-  la carte. En haut, les activités de l'utilisateur ; dessous, ses stories.
+- **Prendre la carte pour la hiérarchie** : des colonnes qui sont des niveaux du backlog
+  (epic, feature, composants du produit). En haut, les activités de l'utilisateur ; dessous, ses stories.
 - **Ordonner la colonne vertébrale par importance** : elle suit l'ordre du récit.
 - **Croire que la carte remplace le backlog**, ou que l'ordre de gauche à droite est l'ordre du
   travail : le backlog reste la liste ordonnée par le PO (choix du cours).
@@ -318,22 +318,23 @@ donne-t-elle la fourchette des Developers et ce qui la ferait bouger ? » Un non
 trois : le concept n'est pas appliqué.
 
 ## Schéma
-Il contient les réponses de 16a et de 16b1 : le montrer après leur correction. Après 16a : le
+Il illustre 16a et 16b1 sur un cas inventé, distinct de ceux de la banque : le montrer après leur correction. Après 16a : le
 panneau 1 sans les bandes de version, sans la note « résultat visé ; mesure » et sans le cadre
 barré, la story dont le moment n'est pas dit posée hors de la carte (« moment à demander »).
 Après 16b1 : le panneau entier.
 Deux panneaux.
-1. **La carte (16a, 16b)** : en haut, quatre cartes côte à côte, « point du matin », « envoi des
-   régulateurs », « suivi des incidents », « bilan du soir », sous une accolade « colonne
+1. **La carte (16a, 16b)**, sur un cas inventé (la journée d'un technicien de maintenance) : en
+   haut, quatre cartes côte à côte, « préparer la tournée », « se rendre sur place », « confirmer
+   la panne », « réparer ou retirer le vélo », sous une accolade « colonne
    vertébrale : l'ordre du récit » et une flèche de gauche à droite. Sous chaque activité, des
    cartes de stories empilées, avec une flèche vers le bas « de l'indispensable au moins
-   nécessaire » ; la vue des stations vides marquée « livrée » ; la colonne « suivi des
-   incidents » vide, marquée « trou à explorer ». Une bande de ruban horizontale traverse les
+   nécessaire » ; une story marquée « livrée » ; une colonne sans story, marquée « trou à
+   explorer ». Une bande de ruban horizontale traverse les
    quatre colonnes : « première version » ; à sa gauche, une note « résultat visé ; mesure, sans
    cible ». Plus bas, une seconde bande, « version suivante ». En surimpression grisée, un cadre
-   vertical autour de la seule colonne « point du matin », barré : « une colonne à la fois :
+   vertical autour de la seule première colonne, barré : « une colonne à la fois :
    non ». À droite de la carte, la colonne étroite du backlog ordonné, légendée « la liste
    reste : le PO l'ordonne ». Légende : « story map : Patton, choix d'école ».
-2. **Pour quand ? (16c)** : une barre horizontale « 3 à 5 sprints (exercice) », redessinée à
-   chaque revue de sprint, avec deux poids posés dessus : « l'ordre du backlog » et « l'accès à
-   la table des locations ». Légende : « une prévision des Developers, pas une promesse ».
+2. **Pour quand ? (16c)** : une barre horizontale « de N à M sprints » (cas inventé), redessinée à
+   chaque revue de sprint, avec deux poids posés dessus : « l'ordre du backlog » et « une
+   dépendance en attente ». Légende : « une prévision des Developers, pas une promesse ».

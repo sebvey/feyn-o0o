@@ -51,7 +51,7 @@ ordre.
 ## Sous-concepts
 1. **14a qui sont-elles** : élargir la définition de 1b sans la répéter. Cinq catégories :
    utilisateurs, financeur, sponsor, équipes voisines, fournisseurs de données ; un même acteur
-   peut en cumuler plusieurs. L'équipe Scrum (Dana, Diego, Anna, Scarlette, le PO) n'en fait pas
+   peut en cumuler plusieurs. L'équipe Scrum n'en fait pas
    partie. La grille pouvoir et intérêt se nomme comme choix d'école, sans l'enseigner
    (« La liste d'Anna »).
 2. **14b arbitrer et dire non avec l'objectif produit** : la question porte sur la
@@ -262,13 +262,10 @@ ils ne deviennent pas des faits du fil rouge.
 - **Ce qui marche** : le test rapide, obstacle ou désaccord, posé à voix haute.
 
 ### Pia refuse le canal d'Abba (14c, en rechange)
-- **Explication** : la suite annoncée au concept 10b2. Pia ordonne seule le backlog de l'équipe
-  appli : son refus est une décision de PO, comme ton ordre est le tien. Mais pour ton équipe, la
-  story d'Abba est bloquée par ce qu'elle ne lève pas seule : c'est un obstacle, et les mêmes
-  marches s'appliquent. Pia d'abord : on la convainc. Puis Scarlette, Scrum Master des deux équipes,
-  qui facilite la collaboration et lève les barrières (Scrum Guide). Puis Odile, sponsor de la
-  plateforme, qui porte la dépendance plus haut ; ni elle ni personne n'ordonne à la place
-  de Pia.
+- **Explication** : la suite annoncée au concept 10b2. Un autre PO ordonne seul son
+  backlog : son refus est une décision de PO, comme ton ordre est le tien. Pour ton équipe, une
+  story bloquée par ce qu'elle ne lève pas seule est pourtant un obstacle : on convainc d'abord
+  l'autre PO, et l'escalade ne lui retire pas son ordre.
 - **Situation** : situation d'exercice. Tu as présenté à Pia le besoin d'Abba (un tiers des
   abonnés n'a qu'un téléphone basique, sans l'appli). Elle refuse d'inscrire le canal dans son
   backlog pour l'instant : ses propres demandes passent avant.
@@ -298,9 +295,9 @@ ils ne deviennent pas des faits du fil rouge.
   d'en avoir besoin.
 
 ## Pièges
-- **Oublier les fournisseurs de données** : la DSI, l'équipe appli, la collectivité ne
+- **Oublier les fournisseurs de données** : ils ne
   « demandent » rien, mais peuvent bloquer ou dégrader le produit.
-- **Confondre équipe Scrum et parties prenantes** : Scarlette, Dana, Diego et Anna font le travail ;
+- **Confondre équipe Scrum et parties prenantes** : l'équipe Scrum fait le travail ;
   les parties prenantes le reçoivent ou le rendent possible.
 - **Dire oui à tout**, ou couper le sprint en deux pour contenter chacun : personne n'est servi.
 - **Dire non sans la suite** : « non » sans pourquoi ni place de la demande ressemble à un rejet.
@@ -313,8 +310,8 @@ ils ne deviennent pas des faits du fil rouge.
   retirer son ordre à l'autre PO.
 - **Attendre sans rien dire** : un obstacle qui dure sprint après sprint sans démarche nouvelle
   reste invisible.
-- **Trancher un fait d'une partie prenante** : la date du bilan, les attentes du conseil, les
-  colonnes autorisées se demandent à qui les détient.
+- **Trancher un fait d'une partie prenante** : la date d'une échéance, une règle, une
+  autorisation d'accès se demandent à qui les détient.
 
 ## Le test rapide
 « Quelque chose bloque-t-il l'équipe, qu'elle ne lève pas seule ? » Si oui, c'est un obstacle, y
@@ -324,19 +321,18 @@ l'ordre de mon backlog : je le tranche, et ma réponse dit « pas maintenant »,
 est la demande.
 
 ## Schéma
-Trois panneaux.
+Trois panneaux, sans acteur du fil rouge (rôles seulement).
 1. **Qui sont-elles (14a)** : la plateforme au centre, comme un tuyau de gauche à droite. À
-   gauche, en amont, les fournisseurs de données (DSI et Sid, équipe appli, collectivité),
-   reliés par des flèches de données entrantes. À droite, en aval, les utilisateurs (Étienne,
-   Régis, Théo, Maud, Abba, Charlotte, l'équipe appli). Au-dessus, ceux qui paient :
-   financeur (la collectivité) et sponsor (Odile). À côté, l'équipe voisine (équipe appli,
-   Pia). L'équipe appli et la collectivité apparaissent à plusieurs endroits, reliées par un
-   pointillé. Légende : « en amont, ceux qu'on oublie ».
-2. **Dire non (14b)** : le backlog en colonne, visible ; la story de Charlotte à sa place, avec une
-   bulle à trois cases : « pas maintenant », « pourquoi : objectif produit, ce qui est prêt »,
-   « ce qui la ferait monter ».
-3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, Sid
-   (la personne concernée), puis l'escalade, Scarlette, Odile, puis un palier
-   « comité de direction » ; sur chaque marche, « je passe à la suivante si rien n'a changé à la
-   fin du sprint ». À côté, une porte barrée : « désaccord sur l'ordre de mon backlog : le PO
-   tranche, on ne monte pas ».
+   gauche, en amont, les fournisseurs de données, propriétaires des sources, reliés par des
+   flèches de données entrantes. À droite, en aval, les utilisateurs. Au-dessus, ceux qui
+   paient : financeur et sponsor. À côté, l'équipe voisine. Un acteur qui cumule plusieurs
+   catégories apparaît à plusieurs endroits, relié par un pointillé. Légende : « en amont, ceux
+   qu'on risque d'oublier ».
+2. **Dire non (14b)** : le backlog en colonne, visible ; une story à sa place, avec une bulle à
+   trois cases : « pas maintenant », « pourquoi : objectif produit, ce qui est prêt », « où est
+   la demande ».
+3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, la personne
+   concernée, puis l'escalade, le Scrum Master, le sponsor, puis un palier « instance qui
+   tranche les désaccords entre services » ; sur chaque marche, « je passe à la suivante si
+   rien n'a changé à la fin du sprint ». À côté, une porte barrée : « désaccord sur l'ordre de
+   mon backlog : le PO tranche, on ne monte pas ».

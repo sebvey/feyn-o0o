@@ -11,7 +11,7 @@
   - publication en deux temps : `v0.1.0` en aperçu (`noindex`, sans lien), puis `v1.0.0` ;
   - dépôt `sebvey/parcours-po-website`, licence MIT pour le code, CC BY 4.0 pour le contenu.
 - **À faire** : en sous-tickets, dans l'ordre :
-  - T-050a : règle de non-recoupement et reprise des fiches du cours (en cours) ;
+  - T-050a : règle de non-recoupement et reprise des fiches du cours (clos) ;
   - T-050b : versionner le cours (proposé, dépend de T-050a) ;
   - T-050c : versionnage et alignement côté site (proposé, dépend de T-050b) ;
   - T-050d : documentation du dépôt pour un agent (proposé, dépend de T-050c) ;

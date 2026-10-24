@@ -58,7 +58,7 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
    temps (coût qui grandit chaque jour, valeur qui tombe après une échéance), sans chiffres
    inventés ; WSJF nommé (« Le blocage et le bilan au conseil »).
 3. **13c MoSCoW pour une échéance** (choix d'école) : Must, Should, Could, Won't (pas cette
-   fois) pour le bilan au conseil ; le Must relève de Charlotte, le PO l'aide à classer ; MoSCoW ne
+   fois) pour une échéance ; le Must relève de celui qui connaît l'échéance, le PO l'aide à classer ; MoSCoW ne
    remplace pas l'ordre (« Tout est Must pour le bilan »). En rechange : « Tout le backlog en
    MoSCoW ? ».
 
@@ -222,8 +222,8 @@ du fil rouge.
   qu'on lâche en premier si l'échéance est menacée), Won't (pas cette fois, pas « jamais »).
   Choix d'école de DSDM, attribué à Dai Clegg ; DSDM recommande de ne pas dépasser environ 60 %
   de l'effort en Must : au-delà, l'échéance devient risquée. Chez DSDM, c'est le représentant de
-  l'activité concernée (le Business Visionary) qui dit ce qui est Must : ici, Charlotte ; le PO
-  l'aide à classer, et tout en Must ne classe rien. MoSCoW classe pour une échéance, il ne
+  l'activité concernée (le Business Visionary) qui dit ce qui est Must ; le PO l'aide à
+  classer, la réponse revient à celui qui sait ce que l'échéance exige. MoSCoW classe pour une échéance, il ne
   remplace pas l'ordre du backlog.
 - **Situation** : pour le bilan au conseil, Charlotte te dit : « Tout est Must : les locations par
   quartier, la comparaison à l'an dernier, et une carte des quartiers. »
@@ -265,9 +265,8 @@ du fil rouge.
 - **Ce qui marche** : la question « Must pour quelle échéance ? ».
 
 ## Pièges
-- **Ordonner par l'ordre d'arrivée** (« c'est le bon moment », « on vient d'en parler ») : la
-  demande s'ordonne face au reste.
-- **Ordonner par la personne** (celle qui finance, celle qui insiste le plus) : on pèse la
+- **Ordonner par l'ordre d'arrivée** : la demande s'ordonne face au reste.
+- **Ordonner par la personne** qui porte la demande : on pèse la
   demande, pas son auteur ; qui veut changer l'ordre convainc le PO.
 - **Tout placer en tête** : on n'a rien ordonné.
 - **Estimer à la place des Developers** : le coût vient d'eux.
@@ -275,8 +274,7 @@ du fil rouge.
   échéance se demandent à qui les détient.
 - **Mettre en tête une story qui n'est pas prête sans rien faire pour la rendre prête** :
   l'équipe ne peut pas la prendre.
-- **Placer une demande avant celle qu'elle suppose** : la comparaison avant les locations par
-  quartier.
+- **Placer une demande avant celle dont elle dépend** : on ne peut pas la finir sans l'autre.
 - **Croire que le Scrum Guide donne les critères** : il confie l'ordre au PO sans dire comment ;
   les critères sont une pratique établie.
 - **Chiffrer le coût du retard avec des nombres inventés** : raisonner sur sa forme dans le
@@ -295,13 +293,13 @@ Trois panneaux.
    côte). À droite de chaque carte, quatre pastilles : valeur (face à l'objectif produit, en
    haut du panneau comme un cap), coût (« estimé par les Developers »), risque (deux moitiés :
    « pour le produit », « pour les utilisateurs, qualifié par qui en répond »), dépendances ;
-   et un cadenas sur les cartes pas prêtes (règle, DSI, accès), avec une petite flèche « ce qui
+   et un cadenas sur les cartes pas prêtes (cas inventé : une règle non fixée, un accès non obtenu), avec une petite flèche « ce qui
    la rend prête » vers une note à part. Légende : « une place par carte, un pourquoi par
    place ».
 2. **Coût du retard (13b)** : deux courbes à main levée, sans graduation, le temps en abscisse.
-   « Blocage » monte dès le départ ; « comparaison » reste plate, monte jusqu'à un trait vertical
-   « bilan au conseil », puis retombe. Légende : « la forme, pas les chiffres ».
-3. **MoSCoW (13c)** : une boîte « bilan au conseil » avec quatre bacs empilés, Must, Should,
+   « coût qui grandit dès aujourd'hui » monte dès le départ ; « coût lié à une échéance » reste
+   plat, monte jusqu'à un trait vertical « échéance », puis retombe. Légende : « la forme, pas les chiffres ».
+3. **MoSCoW (13c)** : une boîte « une échéance » avec quatre bacs empilés, Must, Should,
    Could, Won't ; le bac Must rempli au plus aux trois cinquièmes, marqué « environ 60 % de
    l'effort au plus (DSDM) » ; à côté de la boîte, la colonne ordonnée du backlog, qui continue
    d'exister. Légende : « MoSCoW pour une échéance ; l'ordre, toujours ».

@@ -50,7 +50,7 @@ coche pas.
      Developers ne le fixent : le PO le fait préciser par l'utilisateur concerné avant le
      sprint (concept 15), et la story attend (concept 4).
 2. **7b N : besoin ou solution, une contrainte va dans un critère** : la story fixe le besoin ;
-   les détails de la solution (le canal) se construisent avec l'équipe, jusque pendant la
+   les détails de la solution (la forme, l'outil) se construisent avec l'équipe, jusque pendant la
    réalisation. Négociable ne veut pas dire tout ouvert : une contrainte réelle ne se négocie
    pas, et elle s'écrit dans un critère d'acceptation, sans nommer de solution. L'écriture des
    critères vient au concept 8. Exemple éprouvé : « Le SMS d'Abba ». Si la réponse est juste
@@ -160,7 +160,7 @@ deviennent pas des faits du fil rouge.
 ### Le SMS d'Abba (7b)
 - **Explication** : N (Negotiable) : la story n'est pas un contrat de fonctions ; elle porte
   l'essentiel, pas les détails. La solution se construit avec l'équipe, jusque pendant la
-  réalisation (Wake). Ici le canal relève de l'équipe appli.
+  réalisation (Wake).
 - **Situation** :
   - brouillon : « En tant qu'abonné, je veux recevoir un SMS à 8 h avec le nombre de vélos de ma
     station… » (la solution est figée dans la story) ;
@@ -214,10 +214,10 @@ deviennent pas des faits du fil rouge.
 - **Donner S en jours** comme si c'était la grille : chez Wake, au plus quelques
   semaines-personnes ; quelques jours-personnes, c'est le choix de certaines équipes ; le repère
   du cours est le sprint.
-- **Écrire la solution dans la story ou dans le critère** (« recevoir un SMS ») : l'équipe ne
+- **Écrire la solution dans la story ou dans le critère** (« un export CSV chaque matin ») : l'équipe ne
   peut plus proposer mieux. Écrire le besoin ; la contrainte réelle va dans un critère.
-- **Croire que négociable veut dire tout ouvert** : la contrainte d'usage (téléphone basique,
-  sans l'appli) ne se négocie pas.
+- **Croire que négociable veut dire tout ouvert** : une contrainte d'usage (par exemple, se lire
+  sur un petit écran, exemple inventé) ne se négocie pas.
 - **Rejeter une story parce qu'elle dépend d'une autre équipe** : I se tient autant que possible ;
   la dépendance s'écrit et se traite (concept 10).
 - **Prendre INVEST pour une règle de Scrum** : c'est un aide-mémoire de Wake, absent du Scrum
@@ -229,11 +229,10 @@ sans poser de question ? Les Developers peuvent-ils dire si elle tient dans un s
 des réponses est non, cherche le mot dont elles dépendent.
 
 ## Schéma
-Six cases alignées, une par lettre (I, N, V, E, S, T), au-dessus de la story d'Étienne (7a2). Le
-mot « heures de pointe » est surligné dans la phrase ; trois fils partent de lui vers les cases
-E, S et T, en rouge, comme trois branches sur une même racine ; I, N, V en vert. « vide » est
-souligné en pointillé, avec un fil vers T. Deuxième état, à droite : « heures de pointe » et
-« vide » précisés par Étienne, avant le sprint, dans une définition qui vaut aussi pour la mesure
-de l'objectif produit ; alors seulement les trois cases passent au vert. Légende : « plusieurs
+Six cases alignées, une par lettre (I, N, V, E, S, T), au-dessus d'une phrase de story inventée pour l'illustration (« … je veux une vue qui s'affiche
+rapidement … »). Le mot « rapidement » est surligné dans la phrase ; trois fils partent de lui
+vers les cases E, S et T, en rouge, comme trois branches sur une même racine ; I, N, V en vert.
+Deuxième état, à droite : « rapidement » précisé par l'utilisateur concerné, avant le sprint ;
+alors seulement les trois cases passent au vert. Légende : « plusieurs
 lettres en rouge : cherche le mot dont elles dépendent ». En bandeau : « INVEST, Wake 2003 :
 un aide-mémoire, absent du Scrum Guide ».

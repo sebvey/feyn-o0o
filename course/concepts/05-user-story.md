@@ -47,7 +47,7 @@ comment répondre, parfois plus simplement. La phrase écrite, la **carte**, ne 
    semaine de Maud » en rechange, ou si l'apprenant décrit un parcours) ; **5a2** les 3C avec « La carte suffit-elle ? », l'origine réduite à une
    ligne. Chaque message a sa question.
 2. **5b le « afin de » et les « pourquoi ? » successifs** : un « afin de » circulaire (il répète
-   le « je veux ») ou de confort (« avoir une vue claire ») n'aide ni à ordonner ni à choisir une
+   le « je veux ») ou de confort (« être bien informé ») n'aide ni à ordonner ni à choisir une
    solution. Le PO demande « pourquoi ? » à l'utilisateur, plusieurs fois, et s'arrête à une
    décision qu'il prend ou un gain qu'il reconnaît. Trop haut, la raison devient l'objectif
    produit ou une raison générale, commune à toutes les stories. Le PO n'invente pas la raison : il
@@ -210,11 +210,11 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
 - **La story vue comme le parcours de l'utilisateur** : piège probable de qui n'a jamais lu de
   story. Une story est un besoin ; le parcours organise les stories en story map (concept 16).
   Le repérer quand la phrase enchaîne plusieurs actions.
-- **Une solution dans le « je veux »** (« je veux une table des pannes », « un graphique dans la
-  vue d'Étienne ») : écrire le besoin et laisser l'équipe proposer la solution ; le concept 7 y
+- **Une solution dans le « je veux »** (« je veux un export CSV de… », « un graphique dans la
+  vue ») : écrire le besoin et laisser l'équipe proposer la solution ; le concept 7 y
   revient (besoin ou solution).
-- **« Afin de » circulaire ou de confort** (« afin de suivre les pannes », « afin d'avoir une
-  vue claire ») : demander « pourquoi ? » à l'utilisateur jusqu'à une décision ou un gain qu'il
+- **« Afin de » circulaire ou de confort** (« je veux voir les locations, afin de suivre les
+  locations », « afin d'être bien informé ») : demander « pourquoi ? » à l'utilisateur jusqu'à une décision ou un gain qu'il
   reconnaît.
 - **« Afin de » trop haut** (l'objectif produit, « améliorer le service ») : il vaut pour
   toutes les stories et n'aide plus à ordonner.
@@ -238,9 +238,9 @@ sans table, vue ni traitement ?
 ## Schéma
 La phrase en trois blocs côte à côte : « En tant que » (qui), « je veux » (quoi, sans
 solution), « afin de » (pourquoi), le troisième mis en avant. Au-dessus du troisième, une
-échelle de « pourquoi ? » qui monte : « suivre les pannes » (barré, circulaire) ; « savoir
-combien de vélos réparer » ; « fixer le nombre de techniciens en tournée » (encadré, « on
-s'arrête ici : la décision de Maud ») ; plus haut, en pointillés et grisé, « que les stations
-restent moins longtemps vides » (« trop haut : l'objectif produit »). À côté, la carte de la
+échelle de « pourquoi ? » qui monte, sur un cas inventé pour l'illustration : « suivre les
+locations » (barré, circulaire) ; « savoir combien de vélos sont sortis » ; « décider combien de
+vélos redistribuer » (encadré, « on s'arrête ici : la décision de l'utilisateur ») ; plus haut, en
+pointillés et grisé, « que le réseau serve mieux la ville » (« trop haut : l'objectif produit »). À côté, la carte de la
 story, avec une bulle de dialogue (conversation) et une coche (confirmation), légendée « 3C,
 Jeffries, XP ».

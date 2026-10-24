@@ -71,9 +71,7 @@ atteindre, par l'utilisateur qui en paie les erreurs.
   - une exploration se décide avant sur trois points : la question, la durée, ce qu'on décidera
     selon la réponse (la question et l'action viennent de Torres, la durée du spike) ;
   - le PO pose la question, les Developers explorent ;
-  - deux seuils à ne pas mêler : le seuil qui juge l'exploration (« si la tendance repère assez
-    de stations, on continue »), fixé avant, comme chez Torres, et que le PO fait dire par
-    Étienne et Régis sans le chiffrer (17b1) ; le niveau qu'un critère
+  - deux seuils à ne pas mêler : le seuil qui juge l'exploration (ce qui compte comme « oui »), fixé avant, comme chez Torres, et que le PO fait dire par l'utilisateur concerné sans le chiffrer (17b1) ; le niveau qu'un critère
     d'acceptation exige de la fonction livrée, fixé après l'exploration qui montre ce qu'on
     peut atteindre. Appui, sans en faire un consensus : les guides de Google choisissent le
     seuil d'un modèle sur ses résultats mesurés, donc après la mesure.
@@ -86,13 +84,12 @@ atteindre, par l'utilisateur qui en paie les erreurs.
 2. **17b explorer à moindre coût**, en deux messages :
    - **17b1** décider l'exploration avant : la question, la durée, ce qu'on décidera selon la
      réponse ; elle livre une réponse, pas une fonction ; elle s'ordonne au backlog ; le PO pose
-     la question, Anna explore (« On verra ce qu'Anna trouve ») ;
+     la question, les Developers explorent (« On verra ce qu'Anna trouve ») ;
    - **17b2** choisir la façon d'explorer selon l'hypothèse : analyse d'historique pour la
-     faisabilité, prototype sur données réelles pour la valeur ; la question à Régis ne suffit
-     pas (« Régis ira-t-il plus tôt ? »).
+     faisabilité, prototype sur données réelles pour la valeur ; interroger l'utilisateur ne suffit pas (« Régis ira-t-il plus tôt ? »).
 3. **17c accepter un résultat incertain** : une prévision se trompe parfois ; le critère porte
    sur un niveau atteint, mesuré sur l'historique, fixé après l'exploration par l'utilisateur
-   concerné, qui pèse fausses alertes et stations vides manquées ; le PO le fait fixer
+   concerné, qui pèse les deux sortes d'erreur ; le PO le fait fixer
    (« Le critère à 90 % »). En rechange : « Les chiffres d'Anna », puis, si l'apprenant parle
    du seuil « presque vide » ou pour « exercice », « Presque vide d'après l'historique ».
 
@@ -105,8 +102,7 @@ PO seul ordonne (1b) ; livrable et résultat, l'objectif produit vu comme une hy
 mesure de résultat aux points non fixés, l'exploration rigoureuse annoncée en 2c (2) ; backlog
 émergent (3a2) ; les « pourquoi ? » successifs, dont le lien forcé avec l'objectif produit est
 une hypothèse (5b) ; le spike, venu d'XP, aussi pour une question métier (7) ; la règle non
-fixée que le PO fait fixer (8a2) ; la prévision des stations à risque découpée, la tendance de
-la dernière heure et la pluie laissées à vérifier, le S de SPIDR (9a, 9b) ; dépendances (10) ;
+fixée que le PO fait fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR (9a, 9b) ; dépendances (10) ;
 DoR (11b) ; définition d'un indicateur, qualité des données, fraîcheur (12) ; ordonner, le
 facteur « apprentissage » de Cohn, le lien non établi d'une demande avec l'objectif produit
 (13a, 13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner : refinement et
@@ -278,13 +274,11 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 ### Le critère à 90 % (17c)
 - **Explication** : une prévision n'est jamais sûre ; une story qui l'exige ne se finit jamais.
   Le critère d'acceptation porte donc sur un niveau atteint, mesuré sur des données mises de
-  côté (une part de l'historique des relevés, par exemple) : une pratique établie en analyse de
+  côté : une pratique établie en analyse de
   données (CRISP-DM, Google), hors Scrum. Ce niveau se fixe après l'exploration qui montre ce
   qu'on peut atteindre, pas avant (choix du cours). Il se fait fixer par l'utilisateur
-  concerné, qui pèse deux erreurs : une fausse alerte (une camionnette envoyée pour rien) et une
-  station vide manquée. Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce
-  qui comptait comme « oui » pour l'exploration, dit avant par Étienne et Régis pour savoir si on
-  continue (17b1).
+  concerné, qui pèse deux erreurs : une fausse alerte et un cas manqué. Le PO le fait fixer, il ne le tranche pas. À ne pas confondre avec ce
+  qui comptait comme « oui » pour l'exploration, dit avant par l'utilisateur concerné pour savoir si on continue (17b1).
 - **Situation** : avant toute exploration, Dana propose pour la story de Régis ce critère :
   « Then la prévision annonce au moins 90 % des stations qui vont se vider. » Elle ajoute :
   « 90 %, c'est le standard. »
@@ -334,8 +328,7 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 - **Ce qui marche** : faire traduire chaque réglage en une journée de Régis.
 
 ### Presque vide d'après l'historique (17c, en rechange)
-- **Explication** : le seuil « presque vide » suit la même logique : l'exploration l'éclaire,
-  l'utilisateur concerné le fixe. Le cours n'en donne pas la valeur.
+- **Explication** : cette logique vaut pour toute règle métier non fixée : une donnée ou une exploration l'éclaire, l'utilisateur concerné la fixe. Le cours n'en donne pas la valeur.
 - **Situation** : dans cet exercice, Anna a vu dans l'historique qu'une station du centre-ville
   qui descend à 3 vélos se vide souvent dans l'heure. Dana : « Voilà, c'est prouvé : presque
   vide, c'est 3 vélos. »
@@ -354,15 +347,15 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 - **Ce qui marche** : « l'historique te dit ce qui arrive ; qui te dit ce qu'on en fait ? ».
 
 ## Pièges
-- **Prendre une phrase répétée pour un fait** (« la pluie compte, évidemment ») : demander qui
+- **Prendre une phrase répétée pour un fait** (« tout le monde sait que… ») : demander qui
   l'a vérifié.
 - **Ne voir que la faisabilité** : un profil data vérifie volontiers que le modèle marche, plus
   rarement que l'utilisateur s'en servira.
 - **Trancher une hypothèse soi-même** : le PO la fait vérifier ; il ne dit pas si elle est
   vraie.
 - **Mener l'exploration à la place des Developers**, ou en fixer seul la durée : le PO pose la
-  question, Anna explore et dit le temps qu'il lui faut.
-- **Une exploration sans question ni décision** (« on verra ce qu'elle trouve ») : elle n'a pas
+  question, les Developers explorent et disent le temps qu'il leur faut.
+- **Une exploration sans question ni décision** (explorer sans l'avoir cadrée) : elle n'a pas
   de fin, et rien ne change à son terme.
 - **Attendre une fonction d'une exploration** : elle livre une réponse ; la fonction est une
   autre story.
@@ -371,9 +364,8 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   après, par l'utilisateur concerné.
 - **Exiger qu'une prévision ne se trompe pas**, ou ne compter qu'une sorte d'erreur : il faut
   les fausses alertes et les cas manqués.
-- **Croire que l'exploration fixe une règle** (le seuil « presque vide ») : elle l'éclaire.
-- **Mêler les deux seuils** : ce qui compte comme « oui » pour l'exploration, dit avant par
-  Étienne et Régis (17b1) ; le niveau exigé de la fonction, fixé après (17c). Le PO ne chiffre ni
+- **Croire qu'une donnée ou une exploration fixe une règle métier** : elle l'éclaire, l'utilisateur concerné la fixe.
+- **Mêler les deux seuils** : ce qui compte comme « oui » pour l'exploration, dit avant par l'utilisateur concerné (17b1) ; le niveau exigé de la fonction, fixé après (17c). Le PO ne chiffre ni
   l'un ni l'autre.
 
 ## Le test rapide
@@ -384,15 +376,11 @@ pas séparé ce qu'il sait de ce qu'il suppose.
 ## Schéma
 Trois panneaux.
 1. **Savoir ou supposer (17a)** : deux colonnes, « on sait » et « on suppose » ; la colonne de
-   droite coupée en deux bacs, « valeur » (Régis s'en servira-t-il ? cela sert-il l'objectif
-   produit ?) et « faisabilité » (peut-on le construire ? avec quelles données ?). Les quatre
-   phrases de 17a posées en cartes. Légende : « qui l'a vérifié ? ».
+   droite coupée en deux bacs, « valeur » (l'utilisateur s'en servira-t-il ? cela sert-il l'objectif
+   produit ?) et « faisabilité » (peut-on le construire ? avec quelles données ?). Des affirmations posées en cartes (cas inventé : « la livraison arrive toujours le mardi »). Légende : « qui l'a vérifié ? ».
 2. **L'exploration bornée (17b)** : une boîte dont la largeur est la durée, fixée avant ; une
    question entre à gauche, une réponse sort à droite, puis une bifurcation « si oui » / « si
-   non » vers deux décisions. Au-dessus, « le PO pose la question » ; dans la boîte, « Anna
-   explore ». Légende : « une réponse, pas une fonction ».
-3. **Accepter l'incertain (17c)** : une balance ; sur un plateau, « camionnette envoyée pour
-   rien », sur l'autre, « station vide manquée » ; sous la balance, Étienne et Régis qui fixent le
-   niveau ; à gauche, une flèche du temps avec « exploration » puis « niveau fixé », dans cet
+   non » vers deux décisions. Au-dessus, « le PO pose la question » ; dans la boîte, « les Developers explorent ». Légende : « une réponse, pas une fonction ».
+3. **Accepter l'incertain (17c)** : une balance ; sur un plateau, « fausse alerte », sur l'autre, « cas manqué » ; sous la balance, l'utilisateur concerné qui fixe le niveau ; à gauche, une flèche du temps avec « exploration » puis « niveau fixé », dans cet
    ordre. Légende : « l'exploration montre ce qu'on peut atteindre, l'utilisateur fixe ce qu'il
    exige ».

@@ -64,8 +64,7 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
 
 Déjà enseigné, à rappeler sans le réenseigner, selon le point où se propose le sous-concept :
 le PO ordonne seul, qui veut changer l'ordre le convainc (1b) ; les niveaux, qu'aucun guide
-n'impose, et le niveau de trop (4a2, 4a3), dès A1a ; la dépendance envers l'équipe appli et
-l'accord avec Pia (10b2), dès A1b ; DoD et DoR (11a, 11b), pour A1c. Nommés avec renvoi, sans
+n'impose, et le niveau de trop (4a2, 4a3), dès A1a ; la dépendance envers l'équipe appli et l'accord avec l'autre PO (10b2), dès A1b ; DoD et DoR (11a, 11b), pour A1c. Nommés avec renvoi, sans
 les enseigner : l'escalade (14c) ; la vie d'une story (refinement, Sprint Planning, revue :
 concept 15) ; le travail sans sprint (annexe A2).
 
@@ -180,8 +179,7 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   "Fait", que peut-il en attendre ? ».
 
 ## Pièges
-- **Copier les niveaux par défaut sans les choisir** (le niveau Feature du processus Agile
-  d'Azure DevOps) : l'équipe choisit les siens, peu suffisent (concept 4).
+- **Copier les niveaux par défaut sans les choisir** (par exemple un niveau intermédiaire hérité du processus) : l'équipe choisit les siens, peu suffisent (concept 4).
 - **Se croire coincé par un niveau que l'outil ne retire pas** : l'équipe peut ne pas
   l'afficher et cesser de l'employer. Ne pas affirmer que Jira interdit de retirer l'epic.
 - **Chercher un lien « dépend de »** : il s'appelle « blocks / is blocked by » (Jira),
@@ -205,11 +203,6 @@ d'habitude plus d'un élément ? L'autre PO connaît-il la dépendance que le li
 veut-il dire DoD remplie ?
 
 ## Schéma
-Un écran d'outil stylisé, en trois bandes. **Niveaux** : l'arbre Epic > Feature > User Story >
-Task, la ligne Feature grisée, légendée « pas affiché pour l'équipe : le niveau de trop ».
-**Liens** : deux colonnes (espace de l'équipe vélos, espace de l'équipe appli) ; la story de
-Abba reliée au canal par une flèche « is blocked by » ; au-dessus, une bulle entre le PO et
-Pia, « on s'accorde d'abord ». **États** : quatre colonnes de tableau, À faire, Prêt, En
-cours, Fait ; « Prêt » en pointillé, légendé « repère : la DoR » ; « Fait » encadré, légendé
-« DoD remplie ». En bandeau : « Scrum Guide : ni niveau, ni lien, ni état ; l'outil propose,
+Un écran d'outil stylisé, en trois bandes. **Niveaux** : l'arbre Epic > Feature > User Story > Task, la ligne Epic grisée (exemple inventé), légendée « pas affiché pour l'équipe : le niveau de trop ».
+**Liens** : deux colonnes (équipe A, équipe B) ; une story de A reliée à un élément de B par une flèche « is blocked by » ; au-dessus, une bulle entre les deux PO, « on s'accorde d'abord ». **États** (cas inventé, à dire dans la légende) : quatre colonnes de tableau, Idée, Cadrée, Réalisation, Terminée ; « Cadrée » en pointillé, légendée « repère : la DoR » ; « Terminée » encadrée, légendée « DoD remplie ». En bandeau : « Scrum Guide : ni niveau, ni lien, ni état ; l'outil propose,
 l'équipe choisit ».

@@ -54,16 +54,15 @@ l'accès ne s'obtient pas, ou s'obtient trop large.
 2. **12b qualité des données** : une exigence de qualité s'écrit en règle mesurable sur une
    dimension ; elle va dans la DoD si elle vaut pour toute story (le test des relevés en double,
    concept 11a), dans un critère si elle est propre à une story, dans la définition de
-   l'indicateur si elle le concerne (la fraîcheur des vélos disponibles : le critère d'Abba la
-   cite pour son cas, concept 8b1). Une limite de la source n'est
+   l'indicateur si elle le concerne (par exemple sa fraîcheur). Une limite de la source n'est
    pas un défaut que la plateforme corrige : elle s'écrit et se montre. Exemple principal :
    « Les signalements par téléphone ». En rechange, ou pour « exercice » : « Des chiffres
    fiables, dit Charlotte ».
 3. **12c accès et données personnelles** : demander les colonnes nécessaires à une finalité
-   dite, au détail ou agrégées selon l'usage ; un identifiant d'abonné est une donnée
-   personnelle. Le PO ne fait pas le droit : il sait quoi demander et pourquoi. Exemple
-   principal : « Quelles colonnes demander à Sid ? ». En rechange, ou si l'apprenant dit
-   « ce n'est qu'un numéro » : « Prenons toute la table ».
+   dite, au détail ou agrégées selon l'usage ; un identifiant qui permet de retrouver
+   une personne est une donnée personnelle. Le PO ne fait pas le droit : il sait quoi demander et pourquoi. Exemple
+   principal : « Quelles colonnes demander à Sid ? ». En rechange, ou si l'apprenant juge
+   un identifiant inoffensif : « Prenons toute la table ».
 
 ## Banque d'exemples
 
@@ -249,8 +248,8 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 
 ### Quelles colonnes demander à Sid ? (12c)
 - **Explication** : le RGPD (texte de loi) demande des finalités déterminées et seulement les
-  données nécessaires à ces finalités (minimisation). Un identifiant d'abonné est une donnée
-  personnelle : il permet de retrouver la personne. Le PO ne fait pas le droit ; il sait dire,
+  données nécessaires à ces finalités (minimisation). Un identifiant est une donnée
+  personnelle quand il permet de retrouver la personne. Le PO ne fait pas le droit ; il sait dire,
   pour chaque colonne, à quoi elle sert, et s'il lui faut le détail ou un agrégat. S'il y a un
   délégué à la protection des données, c'est lui qui conseille sur la règle.
 - **Situation** : la table des locations contient, pour chaque location : le vélo, l'identifiant
@@ -316,21 +315,19 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 ## Pièges
 - **Écrire le calcul au lieu de la définition** : une requête dit comment, pas ce qu'on compte ;
   le PO fait écrire ce que l'indicateur compte, sur quoi, quand.
-- **Combler une case vide par une règle inventée** (les locations très courtes, une station
-  vide, les heures de pointe) : le PO fait fixer la règle par celui qui utilise l'indicateur
-  (concept 8a2).
+- **Combler une case vide par une règle inventée** : le PO fait fixer la règle par celui qui
+  utilise l'indicateur (concept 8a2).
 - **Mettre la définition dans les critères d'une story** : elle vaut partout où l'indicateur est
-  publié ; deux stories qui le publient (le mois, la comparaison à l'an dernier) doivent
-  prendre la même.
+  publié ; deux stories qui le publient, chacune dans sa vue, doivent prendre la même.
 - **Une exigence de qualité vague** (« fiable », « propre ») : la traduire en règles mesurables,
   par dimension, au niveau que l'utilisateur demande.
-- **Prendre une limite de la source pour un défaut à corriger** : la plateforme ne crée pas les
-  signalements jamais saisis ; elle écrit la limite et la montre.
+- **Prendre une limite de la source pour un défaut à corriger** : la plateforme ne crée pas ce que la
+  source n'envoie pas ; elle écrit la limite et la montre.
 - **Tout ranger dans la DoD** : ce qui ne vaut que pour un indicateur va dans sa définition, ce
   qui ne vaut que pour une story dans ses critères.
 - **Demander toute la table « au cas où »** : sans finalité, pas de colonne.
-- **« Ce n'est qu'un identifiant, pas un nom »** : une donnée pseudonymisée reste personnelle
-  pour qui peut la rattacher à une personne.
+- **Croire qu'un identifiant n'est pas une donnée personnelle** : une donnée pseudonymisée
+  reste personnelle pour qui peut la rattacher à une personne.
 - **Faire le juriste** : le PO sait quoi demander et pourquoi ; la règle de droit relève du
   délégué à la protection des données, s'il y en a un.
 
@@ -341,14 +338,17 @@ Définition : « deux analystes qui la lisent calculent-ils le même nombre ? »
 
 ## Schéma
 Trois schémas, un par sous-concept, chacun montré dans la correction, jamais avant la réponse.
-1. **12a** : une fiche d'identité d'indicateur, « Locations par quartier », à cinq cases : règle
-   de calcul, grain, période, source, fraîcheur. Deux cases en rouge, « locations très courtes :
-   à faire fixer par Charlotte » et « quartier de départ ou d'arrivée : à faire fixer par
-   Charlotte ». La fiche est reliée à deux sorties : le bilan du mois et la comparaison à l'an
-   dernier (« une définition, partout où l'indicateur est publié »).
-2. **12b** : deux entrées dans la plateforme. Un relevé en double qui entre, marqué « reçu mal :
-   se corrige (unicité) » ; un signalement par téléphone qui reste dehors, marqué « jamais reçu :
-   limite de la source, s'écrit et se montre ».
-3. **12c** : la table des locations passe par un filtre : les colonnes stations et heures, et
-   les locations des deux mois utiles, passent ; « identifiant de l'abonné » s'arrête. Légende :
-   « une colonne, une raison (finalité, minimisation) ».
+Les cas sont inventés pour l'illustration (à dire sur le schéma : « cas inventé ») : ils ne
+fixent aucun fait du fil rouge.
+1. **12a** : une fiche d'identité d'indicateur, « Nouveaux abonnés » (cas inventé), à cinq
+   cases : règle de calcul, grain, période, source, fraîcheur. Une case en rouge : « un
+   renouvellement compte-t-il ? : à faire fixer par celui qui utilise l'indicateur ». La fiche
+   est reliée à deux sorties, deux vues qui publient l'indicateur (« une définition, partout où
+   l'indicateur est publié »).
+2. **12b** : deux entrées dans la plateforme (cas inventé). Un abonnement en double qui entre,
+   marqué « reçu mal : se corrige (unicité) » ; un champ que la source n'envoie jamais, qui
+   reste dehors, marqué « jamais reçu : limite de la source, s'écrit et se montre ».
+3. **12c** : une table d'abonnés (nom, coordonnées, abonnement, station favorite ; cas inventé)
+   passe par un filtre. Pour la finalité « compter les abonnés par station favorite », seule
+   la colonne station favorite passe ; nom et coordonnées s'arrêtent. Légende : « une
+   colonne, une raison (finalité, minimisation) ».

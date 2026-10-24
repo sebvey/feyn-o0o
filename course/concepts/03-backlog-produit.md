@@ -36,7 +36,7 @@ qui le sépare d'un cahier des charges.
     cours présente donc « le haut précis, le bas vague » comme le choix de Cohn et Pichler,
     partagé par Kenneth Rubin, pas comme texte du Scrum Guide.
   - Retirer les éléments qui ne serviront plus, donc accepter que certains ne soient jamais
-    faits (Cohn, Rubin) : le Scrum Guide ne le dit pas, c'est une conséquence d'« émergente ».
+    faits, sans que ce soit définitif (Cohn, Rubin) : le Scrum Guide ne le dit pas, c'est une conséquence d'« émergente ».
   - Rubin : un backlog contient surtout des fonctions utiles aux utilisateurs, mais aussi des
     défauts à corriger, des améliorations techniques et du travail pour apprendre.
 - **Parti pris du cours** : ce concept vaut aussi pour une équipe sans sprint ;
@@ -258,8 +258,8 @@ ne deviennent pas des faits du fil rouge.
   quoi faire ensuite. Le cours dit « ordonner », pas « prioriser ».
 - **Tout détailler d'avance** : du travail qui sera à refaire. Détailler le haut, garder le bas
   en une ligne qui dit le besoin.
-- **Travailler hors du backlog** : une demande prise en direct par un Developer. Elle entre au
-  backlog, à la place que décide le PO.
+- **Travailler hors du backlog** : ce qui n'y figure pas, l'équipe ne le fait pas ; la demande
+  entre au backlog, à la place que décide le PO.
 - **Dire que le backlog « appartient » au PO** : le PO en répond ; d'autres peuvent écrire des
   éléments, il reste responsable (concepts 0 et 1).
 - **Confondre « prêt à être choisi » avec la Definition of Ready** : le Scrum Guide dit
@@ -275,7 +275,7 @@ Chaque élément dit-il ce qu'il améliore, pour qui ?
 Une colonne verticale de cartes : en haut, de petites cartes nettes ; plus bas, des cartes de
 plus en plus grosses et floues (légende « le haut précis, le bas vague : choix d'école, DEEP »).
 Au-dessus de la colonne, un drapeau « Objectif produit », relié à la colonne par la légende
-« justifie l'ordre ». À gauche, des demandes en vrac (Étienne, Maud, Charlotte, Pia, Dana)
+« justifie l'ordre ». À gauche, des demandes en vrac (de plusieurs parties prenantes)
 entrent dans la colonne ; sur la flèche d'entrée, la légende « le PO décide de leur place ». À
 droite, quatre flèches courbes : ajouter,
 préciser et découper, réordonner, retirer. Au sommet, une sortie vers le Sprint Planning

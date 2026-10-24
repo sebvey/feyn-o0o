@@ -374,11 +374,11 @@ sprint a-t-il de la valeur ? » (si la réponse est une liste, ce n'est pas un o
 ## Schéma
 Une frise du sprint, de gauche à droite. Au-dessus, sur toute la longueur, une bande continue
 « refinement » (pas une boîte : activité continue), où une bulle relie une story du haut du
-backlog à l'utilisateur concerné (« en panne ? » : Maud, Étienne, Théo). Au début du sprint,
+backlog à l'utilisateur concerné (un mot flou, cas inventé : « rapide ? »). Au début du sprint,
 la porte « Sprint Planning » et ses trois questions empilées : pourquoi (l'objectif de sprint,
 en drapeau), quoi (les stories choisies), comment (les tâches des Developers). À la fin, la
-table « revue de sprint », où l'équipe et Étienne et Maud entourent l'incrément ; une flèche
-repart vers le backlog avec une nouvelle carte (« pannes confirmées par semaine »). En marge,
+table « revue de sprint », où l'équipe et les parties prenantes entourent l'incrément ; une flèche
+repart vers le backlog avec une nouvelle carte (« nouvelle demande »). En marge,
 grisée, une rangée de colonnes d'outil « à faire, en cours, fait », légendée « états de
 l'outil, pas la vie de la story ». Légende : « préciser avec l'utilisateur, choisir pour un
 pourquoi, inspecter pour adapter ».
