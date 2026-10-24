@@ -30,6 +30,13 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, concept 3 : « retirer n'est pas définitif » attribué au cours (et non à Cohn et Rubin, qui attestent seulement le retrait) ; fiches de concept et de sources alignées
+- PATCH, concepts 12 et 13 : « relevé en double » à la place de « doublon » (fiches de concept 12 et 13, fiche de sources 12)
+- PATCH, sources/04-hierarchie : l'entrée « Non vérifié » sur « quelques jours » est rétablie (la ligne « Une story tient dans un sprint » y renvoyait)
+- PATCH, sources/14-parties-prenantes : les cinq catégories de parties prenantes, choix du cours sans source (S2 ne fonde que la définition de Freeman)
+- PATCH, sources/17-hypotheses-exploration : découverte continue de Torres, « chaque semaine » comme la fiche de concept, et non « au moins hebdomadaires » (S9 dit « weekly »)
+- PATCH, sources/13-ordonner-backlog : référence S15 (Bellinson) retirée, plus citée par aucune ligne
+
 ## 1.0.0, 2026-10-24
 
 Première version étiquetée : 18 concepts (0 à 17) et 2 annexes (A1, A2), leurs fiches de

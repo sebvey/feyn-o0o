@@ -194,7 +194,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   unicité, cohérence, fraîcheur, validité) ; un relevé en double relève de l'unicité. Une
   exigence va dans la DoD si elle vaut pour toute story (11a), dans un critère si elle est
   propre à une story (8b1), dans la définition si elle concerne l'indicateur. Ce que la
-  plateforme reçoit mal se corrige (un doublon) ; ce qu'elle ne reçoit jamais est une limite de
+  plateforme reçoit mal se corrige (un relevé en double) ; ce qu'elle ne reçoit jamais est une limite de
   la source.
 - **Situation** (hypothèse d'exercice) : la plateforme publie le nombre de vélos signalés par
   semaine, que Maud regarde pour fixer le nombre de techniciens en tournée. Les signalements
@@ -222,7 +222,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
     demander « où Maud l'apprend-elle ? » ;
   - réponse juste sans la suite (« c'est une limite de la source ») : demander « et alors, on
     fait quoi ? ».
-- **Ce qui marche** : séparer ce que l'équipe peut corriger (un doublon dans ce qu'elle reçoit)
+- **Ce qui marche** : séparer ce que l'équipe peut corriger (un relevé en double dans ce qu'elle reçoit)
   de ce qu'elle ne reçoit pas (un signalement jamais saisi) ; et « si Maud fixe ses
   techniciens sur ce chiffre sans savoir qu'il manque des pannes, que se passe-t-il ? ».
 

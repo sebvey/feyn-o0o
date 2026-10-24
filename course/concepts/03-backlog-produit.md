@@ -36,7 +36,9 @@ qui le sépare d'un cahier des charges.
     cours présente donc « le haut précis, le bas vague » comme le choix de Cohn et Pichler,
     partagé par Kenneth Rubin, pas comme texte du Scrum Guide.
   - Retirer les éléments qui ne serviront plus, donc accepter que certains ne soient jamais
-    faits, sans que ce soit définitif (Cohn, Rubin) : le Scrum Guide ne le dit pas, c'est une conséquence d'« émergente ».
+    faits (Cohn, Rubin) : le Scrum Guide ne le dit pas, c'est une conséquence d'« émergente ».
+    Que ce retrait ne soit pas définitif (l'élément revient si le besoin apparaît) est un choix
+    du cours, que ni Cohn ni Rubin ne disent.
   - Rubin : un backlog contient surtout des fonctions utiles aux utilisateurs, mais aussi des
     défauts à corriger, des améliorations techniques et du travail pour apprendre.
 - **Parti pris du cours** : ce concept vaut aussi pour une équipe sans sprint ;
@@ -222,7 +224,8 @@ ne deviennent pas des faits du fil rouge.
 ### Au fond depuis des mois (3b)
 - **Explication** : un élément au backlog n'est pas une promesse. Retirer ce qui ne servira plus
   garde le backlog lisible ; le Scrum Guide ne le dit pas, c'est la pratique de Cohn et de
-  Rubin, conséquence d'un backlog émergent.
+  Rubin, conséquence d'un backlog émergent. Qu'un élément retiré puisse revenir est un choix du
+  cours.
 - **Situation** : situation d'exercice : au bas du backlog dort depuis des mois l'élément
   « passer les relevés des stations en streaming », créé quand Dana l'a proposé (concept 1),
   avant que personne ait vérifié le besoin. La plateforme se rafraîchit

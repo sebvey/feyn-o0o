@@ -65,6 +65,8 @@ source externe (voir « Non vérifié »).
   pratique Story, Task et Bug ; [S3] ne nomme que « Story ».
 - Le sens de « thème » dans Jira (regroupement transversal) : lu seulement dans [S6], page qui
   affiche un avertissement de fiabilité ; absent de [S3]. Non cité dans le fichier du concept.
+- « Quelques jours » comme pratique courante pour la taille d'une story : aucune source ;
+  Wake [S7] dit « at most a few person-weeks ». Le fichier du concept ne le dit pas.
 - Les trois tests du cours (compter les « je veux », niveau de trop, juger ce qu'il reste à
   livrer) : choix du cours [S8], observés sur un seul apprenant (base faible). À présenter
   comme des règles pratiques du cours, pas comme un consensus.
