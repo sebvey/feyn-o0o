@@ -58,7 +58,7 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
    temps (coût qui grandit chaque jour, valeur qui tombe après une échéance), sans chiffres
    inventés ; WSJF nommé (« Le blocage et le bilan au conseil »).
 3. **13c MoSCoW pour une échéance** (choix d'école) : Must, Should, Could, Won't (pas cette
-   fois) pour le bilan au conseil ; le Must relève de Colette, le PO l'aide à classer ; MoSCoW ne
+   fois) pour le bilan au conseil ; le Must relève de Charlotte, le PO l'aide à classer ; MoSCoW ne
    remplace pas l'ordre (« Tout est Must pour le bilan »). En rechange : « Tout le backlog en
    MoSCoW ? ».
 
@@ -83,11 +83,11 @@ blocage se fait dans le système de location (DSI), la plateforme peut lui fourn
 vélos signalés : la story de blocage dépend de la DSI ; aujourd'hui, un vélo n'est plus louable
 qu'après constat d'un technicien ; bloquer dès le signalement est une règle non fixée (10a2) ;
 Odile encadre la maintenance et est sponsor ; l'accès à la table des locations n'est pas obtenu
-(11b) ; Colette veut les locations par quartier sur le mois, puis la comparaison au même mois de
+(11b) ; Charlotte veut les locations par quartier sur le mois, puis la comparaison au même mois de
 l'an dernier, qui dépend de la première ; le conseil examine la subvention une fois par an, sur
 un bilan présenté par la collectivité, à une date non fixée ; Pia veut la disponibilité par
 station pour l'appli ; un vélo disponible est un vélo à quai et louable ; les relevés des
-stations sont déjà collectés. Les propos de Diego, d'Anna et de Colette, la date du bilan et la
+stations sont déjà collectés. Les propos de Diego, d'Anna et de Charlotte, la date du bilan et la
 « carte des quartiers » de 13c sont des situations d'exercice : ils ne deviennent pas des faits
 du fil rouge.
 
@@ -141,22 +141,22 @@ du fil rouge.
 - **Situation** : quatre demandes au backlog.
   - Maud : bloquer les vélos signalés (sécurité) ; règle non fixée ; dépend de la DSI.
   - Étienne : les locations du jour ; accès à la table des locations non obtenu.
-  - Colette : la comparaison à l'an dernier (bilan au conseil) ; suppose les locations par
+  - Charlotte : la comparaison à l'an dernier (bilan au conseil) ; suppose les locations par
     quartier et le même accès.
   - Pia : la disponibilité par station pour l'appli ; règle fixée, données collectées.
 - **Question** : propose un ordre pour ces quatre demandes et argumente chaque place.
 - **Réponse attendue** : il n'y a pas un seul ordre juste ; la réponse est bonne si elle pèse ce
   qui doit peser. L'objectif produit d'abord : le lien de chacune avec le temps vide des
   stations du centre-ville n'est pas établi ; qui en suppose un pose une hypothèse
-  (concept 17), recevable s'il l'argumente. Autre valeur recevable : la comparaison de Colette
+  (concept 17), recevable s'il l'argumente. Autre valeur recevable : la comparaison de Charlotte
   sert à justifier la subvention qui finance le service ; le PO l'argumente sans la balayer.
   Ce qui est prêt : seule la disponibilité pour l'appli n'attend rien de bloquant (les doublons
-  des relevés relèvent de la DoD, 11a). Les dépendances : la comparaison de Colette suppose les
+  des relevés relèvent de la DoD, 11a). Les dépendances : la comparaison de Charlotte suppose les
   locations par quartier, absentes de la liste ; elles passent avant elle, et l'accès
-  conditionne Étienne et Colette. Le risque pour les utilisateurs : le blocage peut passer devant
+  conditionne Étienne et Charlotte. Le risque pour les utilisateurs : le blocage peut passer devant
   l'objectif produit si Maud et Odile qualifient le risque de grave ; le PO ne le juge pas
   seul. Le coût : à demander à Dana, Diego et Anna, pour chacune. Un ordre qui se défend :
-  l'appli (prête), puis le blocage dès qu'il est prêt, puis Étienne ou Colette, l'un et l'autre
+  l'appli (prête), puis le blocage dès qu'il est prêt, puis Étienne ou Charlotte, l'un et l'autre
   derrière l'accès : l'un ou l'autre en troisième, à argumenter (l'exploitation au quotidien ou
   la subvention). Autre ordre défendable : le blocage en
   tête, l'appli prise au prochain sprint parce que le blocage n'est pas prêt. Dans tous les cas,
@@ -165,7 +165,7 @@ du fil rouge.
   insiste le plus, tout placer en tête, la comparaison avant les locations par quartier, Étienne
   au prochain sprint sans l'accès.
 - **Erreurs fréquentes** :
-  - ordonner par la personne (« Colette finance, elle passe d'abord ») : demander « qu'est-ce que
+  - ordonner par la personne (« Charlotte finance, elle passe d'abord ») : demander « qu'est-ce que
     sa demande apporte, et peut-on la faire maintenant ? » ; le sponsor ou le financeur
     convainc le PO comme les autres (1b) ;
   - ignorer ce qui est prêt et mettre en tête une story bloquée, sans rien faire pour la
@@ -188,9 +188,9 @@ du fil rouge.
   retard lié à une échéance, presque nul au début, qui monte à son approche ; après, la valeur
   est perdue (jusqu'à l'échéance suivante). SAFe divise le coût du retard par la durée (WSJF) :
   on le nomme, sans l'enseigner. Ici, on ne chiffre rien.
-- **Situation** : situation d'exercice : Colette annonce que le bilan au conseil a lieu dans
+- **Situation** : situation d'exercice : Charlotte annonce que le bilan au conseil a lieu dans
   deux mois. Deux demandes : le blocage des vélos signalés (Maud) et la comparaison au même
-  mois de l'an dernier (Colette).
+  mois de l'an dernier (Charlotte).
 - **Question** : du blocage et de la comparaison, laquelle coûte dès aujourd'hui, laquelle
   seulement plus tard, et que change cette forme à ton ordre ? (Si la réponse s'arrête à la
   forme, relancer sur l'effet sur l'ordre.)
@@ -202,7 +202,7 @@ du fil rouge.
   locations par quartier, l'accès), d'autant qu'il faut le temps de les faire ; le blocage
   garde une urgence propre, qui ne dépend pas d'une date. Nuances : le temps qu'il faut, ce sont
   les Developers qui l'estiment ; la gravité du risque reste à faire qualifier (13a) ; la date
-  du bilan se demande à Colette, le PO ne la fixe pas.
+  du bilan se demande à Charlotte, le PO ne la fixe pas.
 - **Erreurs fréquentes** :
   - inventer des chiffres (« un accident coûte tant ») : le fil rouge ne chiffre rien ;
     raisonner en forme (immédiat, échéance, coût qui grandit) ;
@@ -222,14 +222,14 @@ du fil rouge.
   qu'on lâche en premier si l'échéance est menacée), Won't (pas cette fois, pas « jamais »).
   Choix d'école de DSDM, attribué à Dai Clegg ; DSDM recommande de ne pas dépasser environ 60 %
   de l'effort en Must : au-delà, l'échéance devient risquée. Chez DSDM, c'est le représentant de
-  l'activité concernée (le Business Visionary) qui dit ce qui est Must : ici, Colette ; le PO
+  l'activité concernée (le Business Visionary) qui dit ce qui est Must : ici, Charlotte ; le PO
   l'aide à classer, et tout en Must ne classe rien. MoSCoW classe pour une échéance, il ne
   remplace pas l'ordre du backlog.
-- **Situation** : pour le bilan au conseil, Colette te dit : « Tout est Must : les locations par
+- **Situation** : pour le bilan au conseil, Charlotte te dit : « Tout est Must : les locations par
   quartier, la comparaison à l'an dernier, et une carte des quartiers. »
-- **Question** : que réponds-tu à Colette ?
+- **Question** : que réponds-tu à Charlotte ?
 - **Réponse attendue** : tout en Must, c'est ne rien classer : si l'échéance est menacée, on ne
-  sait plus quoi lâcher. Le PO aide Colette à classer par une question : « si le conseil n'avait
+  sait plus quoi lâcher. Le PO aide Charlotte à classer par une question : « si le conseil n'avait
   que ça, le bilan tiendrait-il ? ». C'est elle qui y répond, elle sait ce que le conseil
   attend ; le PO ne décide pas à sa place. Il apporte ce qu'il sait : la comparaison suppose les
   locations par quartier (elle ne peut pas être Must sans elles), et l'effort se demande aux
@@ -239,16 +239,16 @@ du fil rouge.
   carte, demander ce qu'elle montre avant de dire ce dont elle dépend. Un Must bloqué par
   l'accès est un obstacle à lever (concept 14).
 - **Erreurs fréquentes** :
-  - accepter tout en Must parce que Colette finance : demander « que lâches-tu si le temps
+  - accepter tout en Must parce que Charlotte finance : demander « que lâches-tu si le temps
     manque ? » ;
-  - classer à la place de Colette (« la carte, c'est du Could ») : le PO pose la question, elle
+  - classer à la place de Charlotte (« la carte, c'est du Could ») : le PO pose la question, elle
     répond ;
   - lire Won't comme un refus : c'est « pas cette fois » ;
   - classer la comparaison en Must et les locations par quartier en Should : la comparaison les
     suppose.
 - **Ce qui marche** : « si on n'avait le temps que d'une chose avant le bilan, laquelle ? »,
   puis « et d'une deuxième ? ». Si la réponse est « je lui dis non », relancer : « et alors,
-  que proposes-tu à Colette ? ».
+  que proposes-tu à Charlotte ? ».
 
 ### Tout le backlog en MoSCoW ? (13c, en rechange)
 - **Explication** : MoSCoW se rapporte à une échéance ou à un délai fixé ; le backlog, lui,

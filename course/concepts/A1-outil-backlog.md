@@ -57,7 +57,7 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
    Feature ? »).
 2. **A1b les liens de dépendance** (après 10b2) : le lien note une dépendance entre deux
    éléments, aussi entre les backlogs de deux équipes ; il ne remplace pas la conversation
-   avec l'autre PO (« Dana a tracé le canal de Véra »).
+   avec l'autre PO (« Dana a tracé le canal d'Abba »).
 3. **A1c les états** (après 11, ou quand l'équipe règle son tableau) : choix d'équipe,
    modifiables ; « fait » veut dire DoD remplie ; un état « prêt » reste un repère, pas une
    barrière (« Le tableau proposé par Diego »).
@@ -73,7 +73,7 @@ concept 15) ; le travail sans sprint (annexe A2).
 
 Le fil rouge ne dit pas quel outil emploie l'équipe vélos : chaque exemple pose l'outil en
 situation d'exercice (« dans cet exercice, … »), sans le fixer. Faits du fil rouge utilisés :
-les vues d'Étienne ; la story de Véra, dont la disponibilité par station vient de la plateforme
+les vues d'Étienne ; la story d'Abba, dont la disponibilité par station vient de la plateforme
 et le canal relève de l'équipe appli, dont Pia est la PO ; un tiers des abonnés n'a qu'un
 téléphone basique ; la DoD de l'équipe vélos (heure de la dernière mise à jour sur chaque vue,
 définition écrite de chaque indicateur publié) ; sa DoR (critères d'acceptation écrits, règles
@@ -117,7 +117,7 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   niveau ; l'outil : des niveaux par défaut ; l'équipe : son choix), puis « ce que l'outil ne
   retire pas, l'équipe peut-elle cesser de l'employer ? ».
 
-### Dana a tracé le canal de Véra (A1b)
+### Dana a tracé le canal d'Abba (A1b)
 - **Explication** : une dépendance (concept 10b) se note par un lien entre deux éléments. Aucun
   des outils vérifiés n'a de lien « dépend de » : Jira dit « blocks / is blocked by », Azure
   DevOps « Predecessor / Successor », Linear « blocked / blocking ». Le lien peut relier des
@@ -125,17 +125,17 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   différents. Il rend la dépendance visible des deux équipes ; il ne remplace pas la
   conversation avec l'autre PO (choix du cours).
 - **Situation** : dans cet exercice, les deux équipes travaillent dans le même Jira, chacune
-  dans son espace. Pour la story de Véra (concept 10b2), Dana crée elle-même, dans l'espace de
+  dans son espace. Pour la story d'Abba (concept 10b2), Dana crée elle-même, dans l'espace de
   l'équipe appli, un élément « canal pour les abonnés sans l'appli », le relie à la story de
-  Véra par « is blocked by », et conclut : « C'est tracé, Pia le verra. »
+  Abba par « is blocked by », et conclut : « C'est tracé, Pia le verra. »
 - **Question** : que fais-tu de ce que Dana a tracé ?
 - **Réponse attendue** : le lien se garde : il rend la dépendance visible des deux équipes, et
-  dans le bon sens (la story de Véra est bloquée par le canal). Mais l'élément créé dans le
+  dans le bon sens (la story d'Abba est bloquée par le canal). Mais l'élément créé dans le
   backlog de l'équipe appli n'est pas à Dana : c'est Pia qui inscrit le canal et lui donne sa
   place (10b2), on lui soumet l'élément, on ne le lui impose pas. Et un lien n'est pas un
   accord : le PO va voir Pia, lui présente le besoin (un tiers des abonnés n'a qu'un téléphone
   basique, sans l'appli) et s'accorde avec elle sur l'ordre ; le lien relie ensuite la story de
-  Véra à l'élément que Pia garde. Si l'accord ne se fait pas : escalade (14c), sans
+  Abba à l'élément que Pia garde. Si l'accord ne se fait pas : escalade (14c), sans
   l'enseigner ici.
 - **Erreurs fréquentes** :
   - « c'est tracé, rien à faire » : demander « Pia sait-elle pourquoi ce besoin compte, et qui
@@ -208,7 +208,7 @@ veut-il dire DoD remplie ?
 Un écran d'outil stylisé, en trois bandes. **Niveaux** : l'arbre Epic > Feature > User Story >
 Task, la ligne Feature grisée, légendée « pas affiché pour l'équipe : le niveau de trop ».
 **Liens** : deux colonnes (espace de l'équipe vélos, espace de l'équipe appli) ; la story de
-Véra reliée au canal par une flèche « is blocked by » ; au-dessus, une bulle entre le PO et
+Abba reliée au canal par une flèche « is blocked by » ; au-dessus, une bulle entre le PO et
 Pia, « on s'accorde d'abord ». **États** : quatre colonnes de tableau, À faire, Prêt, En
 cours, Fait ; « Prêt » en pointillé, légendé « repère : la DoR » ; « Fait » encadré, légendé
 « DoD remplie ». En bandeau : « Scrum Guide : ni niveau, ni lien, ni état ; l'outil propose,

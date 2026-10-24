@@ -48,10 +48,10 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
    technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
    sur la vérification.
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
-   d'utilisateurs réels ; Véra, persona des abonnés sans l'appli. Il ne remplace ni le rôle
-   dans la story, ni les entretiens. Un message, avec « Véra, on lui fait dire ce qu'on veut ? »
+   d'utilisateurs réels ; Abba, persona des abonnés sans l'appli. Il ne remplace ni le rôle
+   dans la story, ni les entretiens. Un message, avec « Abba, on lui fait dire ce qu'on veut ? »
    (« Le trait qu'Anna veut ajouter » après une réponse fausse, si la relance échoue ; « En
-   tant que Véra ? » en rechange).
+   tant qu'Abba ? » en rechange).
 
 ## Banque d'exemples
 
@@ -147,68 +147,68 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 - **Ce qui marche** : écrire les deux « afin de » côte à côte ; s'ils diffèrent, demander « une
   story ou deux ? ».
 
-### Véra, on lui fait dire ce qu'on veut ? (6b)
+### Abba, on lui fait dire ce qu'on veut ? (6b)
 - **Explication** : un persona est un portrait fictif et réaliste d'un rôle : un prénom, des
   objectifs, des comportements. Choix d'école d'Alan Cooper, venu du design d'interaction, absent du
   Scrum Guide, discuté entre praticiens. Il se construit à partir d'utilisateurs réels
   interrogés ; il aide l'équipe à se représenter le rôle quand elle en parle.
 - **Situation** : un tiers des abonnés n'a pas l'appli, seulement un téléphone basique. L'équipe
-  parle d'eux à travers Véra, persona des abonnés sans l'appli : elle veut savoir avant de
-  partir s'il reste un vélo à sa station. Anna dit : « Véra n'existe pas, donc on peut lui
+  parle d'eux à travers Abba, persona des abonnés sans l'appli : elle veut savoir avant de
+  partir s'il reste un vélo à sa station. Anna dit : « Abba n'existe pas, donc on peut lui
   prêter les besoins qui nous arrangent. »
 - **Question** : que réponds-tu à Anna ?
-- **Réponse attendue** : Véra est fictive par son prénom, pas par ses traits : un persona se
+- **Réponse attendue** : Abba est fictive par son prénom, pas par ses traits : un persona se
   construit à partir d'utilisateurs réels, donc chacun de ses traits doit venir d'abonnés sans
   l'appli (le téléphone basique, par exemple, est celui d'un tiers des abonnés). Lui prêter un
-  besoin que personne n'a exprimé, c'est inventer un utilisateur. Un nouveau besoin pour Véra se
+  besoin que personne n'a exprimé, c'est inventer un utilisateur. Un nouveau besoin pour Abba se
   vérifie auprès d'abonnés sans l'appli. Nuance : le persona reste un choix d'école ; une équipe
   peut s'en passer et parler du rôle.
 - **Erreurs fréquentes** :
   - « oui, c'est un outil de l'équipe » : le persona aide à penser l'utilisateur, il ne le
-    remplace pas ; relancer : « d'où vient chaque trait de Véra ? » ; sinon : rechange « Le
+    remplace pas ; relancer : « d'où vient chaque trait d'Abba ? » ; sinon : rechange « Le
     trait qu'Anna veut ajouter » ;
-  - confondre persona et utilisateur réel : Théo est un technicien qu'on interroge ; Véra
-    doit résumer des abonnés réels ; relancer : « d'où vient chaque trait de Véra ? ».
-- **Ce qui marche** : « d'où vient chaque trait de Véra ? » : s'il ne vient d'aucun abonné
+  - confondre persona et utilisateur réel : Théo est un technicien qu'on interroge ; Abba
+    doit résumer des abonnés réels ; relancer : « d'où vient chaque trait d'Abba ? ».
+- **Ce qui marche** : « d'où vient chaque trait d'Abba ? » : s'il ne vient d'aucun abonné
   réel, il n'a rien à faire dans le portrait.
 
 ### Le trait qu'Anna veut ajouter (6b)
-- **Explication** : rechange après une réponse fausse à « Véra, on lui fait dire ce qu'on
-  veut ? », si la relance échoue. Le prénom de Véra est inventé, ses traits viennent
+- **Explication** : rechange après une réponse fausse à « Abba, on lui fait dire ce qu'on
+  veut ? », si la relance échoue. Le prénom d'Abba est inventé, ses traits viennent
   d'abonnés réels : chaque trait doit pouvoir répondre à « d'où vient-il ? ».
-- **Situation** : Anna veut ajouter au portrait de Véra : « elle se contente d'une
+- **Situation** : Anna veut ajouter au portrait d'Abba : « elle se contente d'une
   disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
 - **Question** : que demandes-tu à Anna, et que fais-tu avant d'accepter ce trait ?
 - **Réponse attendue** : demander d'où vient ce trait ; le vérifier auprès d'abonnés sans
   l'appli ; sans appui, il n'entre pas dans le portrait. Construire pour ce trait servirait une
   abonnée qui n'existe pas. Nuance : il heurte en plus la fraîcheur visée (moins de 15 minutes).
 - **Erreurs fréquentes** :
-  - accepter « puisque Véra est fictive » : c'est l'erreur de départ, revenir à « d'où vient
+  - accepter « puisqu'Abba est fictive » : c'est l'erreur de départ, revenir à « d'où vient
     ce trait ? » ;
   - trancher soi-même que les abonnés s'en contentent : le PO le vérifie, il ne le décide pas.
 - **Ce qui marche** : opposer le téléphone basique (un tiers des abonnés, trait appuyé) au
   trait d'Anna (appuyé sur rien).
 
-### En tant que Véra ? (6b)
+### En tant qu'Abba ? (6b)
 - **Explication** : le persona sert à la conversation et aux exemples ; la phrase de la story
   garde le rôle (choix du cours).
 - **Situation** : story au backlog : « En tant qu'abonné, je veux savoir avant de partir s'il
   reste un vélo à ma station, afin de ne pas me déplacer pour rien. » Diego propose de la
-  réécrire : « En tant que Véra, je veux… ».
-- **Question** : faut-il remplacer « abonné » par « Véra » ? Tranche et justifie.
+  réécrire : « En tant qu'Abba, je veux… ».
+- **Question** : faut-il remplacer « abonné » par « Abba » ? Tranche et justifie.
 - **Réponse attendue** : non, dans ce cours. Le besoin et la raison valent pour tous les abonnés,
-  avec ou sans l'appli : « abonné » ne fait rien manquer. Véra sert ailleurs : dans la
-  conversation, et dans les exemples qui disent quand la story est faite (« Véra n'a qu'un
+  avec ou sans l'appli : « abonné » ne fait rien manquer. Abba sert ailleurs : dans la
+  conversation, et dans les exemples qui disent quand la story est faite (« Abba n'a qu'un
   téléphone basique… », concept 8). Ce que son téléphone change pour la story se travaille au
   concept 7. Nuance : certaines équipes écrivent leurs stories au nom d'un persona ; c'est
   possible, à condition que le persona vienne d'utilisateurs réels.
 - **Erreurs fréquentes** :
   - « oui, c'est plus concret » : plus concret, mais la story sert un rôle, pas un portrait ;
-    relancer : « le besoin de Véra est-il différent de celui des autres abonnés, ou seulement
+    relancer : « le besoin d'Abba est-il différent de celui des autres abonnés, ou seulement
     la façon de le servir ? » ;
   - réécrire en « En tant qu'abonné sans téléphone » ou y nommer un canal : c'est le sujet du
     concept 7 ; ne pas le trancher ici.
-- **Ce qui marche** : « le besoin de Véra est-il différent de celui des autres abonnés, ou
+- **Ce qui marche** : « le besoin d'Abba est-il différent de celui des autres abonnés, ou
   seulement la façon de le servir ? »
 
 ## Pièges
@@ -246,7 +246,7 @@ les vélos signalés en panne ») vers celui qui agit, du « afin de » (« pré
 celui qui y gagne ; les deux arrivent sur Théo, et son rôle monte dans la case vide. Légende :
 « les deux flèches sur le même rôle : c'est l'acteur ».
 
-**6b, le portrait tiré des abonnés.** Une carte portrait « Véra, persona des abonnés sans
+**6b, le portrait tiré des abonnés.** Une carte portrait « Abba, persona des abonnés sans
 l'appli », posée sur un groupe de silhouettes d'abonnés (un tiers marqués d'un téléphone
 basique). Une flèche de la carte vers une bulle de conversation ; la case « En tant que » d'une
 story, à côté, garde « abonné ». Légende : « construit à partir d'abonnés réels (choix d'école,

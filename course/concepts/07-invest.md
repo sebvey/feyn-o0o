@@ -40,8 +40,8 @@ coche pas.
 
 ## Sous-concepts
 1. **7a les six lettres et le mot flou**, en deux messages, chacun avec sa question :
-   - **7a1** Les six lettres (« La story de Véra, lettre par lettre ») : une ligne par lettre,
-     puis la story de Véra jugée avec elles. INVEST est un aide-mémoire de Wake, pas une règle
+   - **7a1** Les six lettres (« La story d'Abba, lettre par lettre ») : une ligne par lettre,
+     puis la story d'Abba jugée avec elles. INVEST est un aide-mémoire de Wake, pas une règle
      de Scrum. E et S se jugent avec les Developers. Pour S, dire lequel est lequel : quelques
      semaines-personnes (Wake), quelques jours-personnes (certaines équipes), un sprint (repère
      du cours, concept 4). En rechange, ou si l'apprenant donne S en jours : « Huit jours, trop gros ? ».
@@ -53,12 +53,12 @@ coche pas.
    les détails de la solution (le canal) se construisent avec l'équipe, jusque pendant la
    réalisation. Négociable ne veut pas dire tout ouvert : une contrainte réelle ne se négocie
    pas, et elle s'écrit dans un critère d'acceptation, sans nommer de solution. L'écriture des
-   critères vient au concept 8. Exemple éprouvé : « Le SMS de Véra ». Si la réponse est juste
+   critères vient au concept 8. Exemple éprouvé : « Le SMS d'Abba ». Si la réponse est juste
    du premier coup : « Le canal dans le critère ».
 
 ## Banque d'exemples
 
-Les faits viennent du fil rouge : la story de Véra et ses règles fixées (vélo disponible,
+Les faits viennent du fil rouge : la story d'Abba et ses règles fixées (vélo disponible,
 station favorite, moins de 15 minutes) ; un tiers des abonnés n'a qu'un téléphone basique, sans
 l'appli ; le canal (SMS, serveur vocal, appli) dépend de l'équipe appli, dont Pia est la PO ;
 ni les heures de pointe ni ce qu'est une station vide (vélos à quai ou disponibles) ne sont
@@ -67,7 +67,7 @@ story d'Étienne en 7a2, l'estimation et les propos de Diego en 7a1, les propos 
 et le brouillon « recevoir un SMS à 8 h » en 7b sont des propositions d'exercice : ils ne
 deviennent pas des faits du fil rouge.
 
-### La story de Véra, lettre par lettre (7a1)
+### La story d'Abba, lettre par lettre (7a1)
 - **Explication** : INVEST, grille de Bill Wake (2003, XP), six lettres : I (ne dépend pas
   d'une autre story, autant que possible), N (le besoin, pas les détails de la solution), V (de
   la valeur pour l'utilisateur), E (les Developers peuvent l'estimer assez pour l'ordonner), S
@@ -77,23 +77,23 @@ deviennent pas des faits du fil rouge.
 - **Situation** : « En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma
   station, afin de ne pas me déplacer pour rien. » Règles fixées : un vélo disponible est à
   quai et louable ; la station est la favorite de l'abonné ; données à jour de moins de
-  15 minutes. La disponibilité vient de la plateforme ; la livrer à Véra par un canal dépend de
+  15 minutes. La disponibilité vient de la plateforme ; la livrer à Abba par un canal dépend de
   l'équipe appli.
 - **Question** : juge cette story lettre par lettre : laquelle pose question, et pourquoi ?
 - **Réponse attendue** : I. La story dépend de l'équipe appli pour le canal : elle ne sert pas
-  Véra tant que ce canal n'existe pas. Wake reconnaît qu'on n'y arrive pas toujours ; on écrit
+  Abba tant que ce canal n'existe pas. Wake reconnaît qu'on n'y arrive pas toujours ; on écrit
   la dépendance, et son traitement vient au concept 10. Les autres tiennent : N (aucun canal
-  nommé), V (Véra évite un déplacement pour rien), T (les règles fixées permettent de trancher),
+  nommé), V (Abba évite un déplacement pour rien), T (les règles fixées permettent de trancher),
   E et S (rien de flou n'empêche d'estimer). Nuance : E et S, le PO ne les coche pas seul ; ce
   sont les Developers qui estiment, et ils diront si elle tient dans un sprint.
 - **Erreurs fréquentes** :
   - tout cocher « OK » d'un coup : relancer, lettre par lettre : « qu'est-ce qui te permet de
-    le dire ? » ; sinon : « qui livre l'information à Véra ? » ;
+    le dire ? » ; sinon : « qui livre l'information à Abba ? » ;
   - voir dans la dépendance une raison de rejeter la story : I se tient « autant que possible »,
     la dépendance s'écrit et se traite (concept 10) ;
   - donner S en jours (« quelques jours, donc OK ») : le repère est le sprint (7a1, « Huit jours,
     trop gros ? »).
-- **Ce qui marche** : faire suivre le chemin de l'information jusqu'à Véra : la plateforme
+- **Ce qui marche** : faire suivre le chemin de l'information jusqu'à Abba : la plateforme
   calcule, puis un canal qu'elle ne fait pas.
 
 ### Huit jours, trop gros ? (7a1)
@@ -157,7 +157,7 @@ deviennent pas des faits du fil rouge.
   pointe pour cette vue ? » ; s'il ne relie pas le mot aux lettres : « lesquelles de E, S, T
   peux-tu vérifier sans lui ? ».
 
-### Le SMS de Véra (7b)
+### Le SMS d'Abba (7b)
 - **Explication** : N (Negotiable) : la story n'est pas un contrat de fonctions ; elle porte
   l'essentiel, pas les détails. La solution se construit avec l'équipe, jusque pendant la
   réalisation (Wake). Ici le canal relève de l'équipe appli.
@@ -172,7 +172,7 @@ deviennent pas des faits du fil rouge.
 - **Réponse attendue** : le SMS reste une solution, donc négociable (un serveur vocal servirait
   aussi). Ce qui ne se négocie pas, c'est la contrainte : l'abonné sans l'appli, avec un
   téléphone basique, doit pouvoir savoir. Elle s'écrit dans un critère d'acceptation, sans
-  nommer de canal (par exemple : Véra, qui n'a qu'un téléphone basique sans l'appli, obtient
+  nommer de canal (par exemple : Abba, qui n'a qu'un téléphone basique sans l'appli, obtient
   avant de partir le nombre de vélos disponibles à sa station). Sa forme vient au concept 8.
   Nuance : négociable ne veut pas dire tout ouvert ; la phrase de la story ne change pas.
 - **Erreurs fréquentes** :
@@ -189,11 +189,11 @@ deviennent pas des faits du fil rouge.
 ### Le canal dans le critère (7b)
 - **Explication** : le critère d'acceptation dit quand la story est faite ; s'il nomme une
   solution, il la fige, comme la phrase l'aurait fait.
-- **Situation** : Dana propose ce critère pour la story de Véra : « Véra reçoit un SMS avec le
+- **Situation** : Dana propose ce critère pour la story d'Abba : « Abba reçoit un SMS avec le
   nombre de vélos disponibles à sa station. »
 - **Question** : corrige ce critère.
 - **Réponse attendue** : il fige le SMS et perd la contrainte. Corrigé : le critère ne nomme
-  pas de canal et garde la contrainte (Véra n'a qu'un téléphone basique, sans l'appli). Sa
+  pas de canal et garde la contrainte (Abba n'a qu'un téléphone basique, sans l'appli). Sa
   rédaction complète vient au concept 8. Nuance : le canal se choisit dans la conversation avec
   l'équipe appli.
 - **Erreurs fréquentes** :

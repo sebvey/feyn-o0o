@@ -49,16 +49,16 @@ l'accès ne s'obtient pas, ou s'obtient trop large.
    Se déroule en deux messages :
    - **12a1** le contenu d'une définition (« Compléter la définition des vélos disponibles »,
      corrigé tiré des règles fixées) ;
-   - **12a2** ce qui manque et qui le fixe (« Les locations par quartier de Colette »). En
+   - **12a2** ce qui manque et qui le fixe (« Les locations par quartier de Charlotte »). En
      rechange : « La mesure de résultat est aussi un indicateur » (sans réenseigner 2c).
 2. **12b qualité des données** : une exigence de qualité s'écrit en règle mesurable sur une
    dimension ; elle va dans la DoD si elle vaut pour toute story (le test des relevés en double,
    concept 11a), dans un critère si elle est propre à une story, dans la définition de
-   l'indicateur si elle le concerne (la fraîcheur des vélos disponibles : le critère de Véra la
+   l'indicateur si elle le concerne (la fraîcheur des vélos disponibles : le critère d'Abba la
    cite pour son cas, concept 8b1). Une limite de la source n'est
    pas un défaut que la plateforme corrige : elle s'écrit et se montre. Exemple principal :
    « Les signalements par téléphone ». En rechange, ou pour « exercice » : « Des chiffres
-   fiables, dit Colette ».
+   fiables, dit Charlotte ».
 3. **12c accès et données personnelles** : demander les colonnes nécessaires à une finalité
    dite, au détail ou agrégées selon l'usage ; un identifiant d'abonné est une donnée
    personnelle. Le PO ne fait pas le droit : il sait quoi demander et pourquoi. Exemple
@@ -75,13 +75,13 @@ la dernière mise à jour sur chaque vue d'Étienne ; chaque indicateur publié 
 écrite ; test des relevés en double, concept 11a) ; table des locations (vélo, identifiant de
 l'abonné, stations de départ et d'arrivée, heures ; accès demandé à Ivan, pas obtenu ; la DSI
 demande de justifier chaque colonne) ; référentiel des quartiers (quartier de chaque station,
-tenu par la collectivité) ; Colette veut le nombre de locations par quartier sur le mois, puis
+tenu par la collectivité) ; Charlotte veut le nombre de locations par quartier sur le mois, puis
 la comparaison au même mois de l'an dernier ; signalements de pannes saisis dans l'appli
 (équipe appli), ceux reçus par téléphone non saisis ; Maud fixe chaque semaine le nombre de
 techniciens en tournée ; la mesure de résultat de l'objectif produit. Non fixés, et qu'aucun
 exemple ne fixe : compter ou non les locations très courtes ; quartier de la station de départ
 ou d'arrivée ; station vide, heures de pointe, cible et calcul de la mesure de résultat ; seuil
-« presque vide ». Les brouillons de définition, les répliques des Developers et de Colette, et
+« presque vide ». Les brouillons de définition, les répliques des Developers et de Charlotte, et
 les règles de qualité proposées, l'indicateur des vélos signalés par semaine que regarde Maud
 (banque 12b) sont des propositions d'exercice : elles ne deviennent pas des
 faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle.
@@ -95,7 +95,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   données quand on lit le chiffre). Liste : choix du cours ; le grain vient de Kimball. La DoD
   exige une définition écrite pour chaque indicateur publié (11a) : le PO la fait écrire et
   fixer, les Developers font le calcul.
-- **Situation** : les vues d'Étienne et la story de Véra affichent les vélos disponibles de
+- **Situation** : les vues d'Étienne et la story d'Abba affichent les vélos disponibles de
   chaque station. Anna, analyste, écrit : « Vélos disponibles : nombre de vélos de chaque
   station, d'après les relevés. »
 - **Question** : complète cette définition pour que deux analystes qui la lisent calculent le
@@ -127,11 +127,11 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   de leur côté : trouvent-ils le même nombre pour la même station ? ». Puis passer les cinq
   cases une à une.
 
-### Les locations par quartier de Colette (12a2)
+### Les locations par quartier de Charlotte (12a2)
 - **Explication** : une définition vaut pour l'indicateur partout où il est publié (choix du
   cours) ; un critère d'acceptation est propre à une story (concept 8). Une case qu'on ne peut
   pas remplir signale une règle non fixée, ou une source qui manque.
-- **Situation** : Colette, chargée de mission mobilité, veut le nombre de locations par quartier
+- **Situation** : Charlotte, chargée de mission mobilité, veut le nombre de locations par quartier
   sur le mois, pour justifier la subvention au conseil (story A, concept 10b1). Anna écrit :
   « Locations par quartier : nombre de locations, par quartier, sur le mois, d'après la table
   des locations. » Une location rendue à la même station au bout de quelques minutes est
@@ -141,13 +141,13 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   l'apprenant s'arrête à ce qui manque.)
 - **Réponse attendue** : deux règles ne sont pas fixées. Compter ou non les locations très
   courtes ; rattacher la location au quartier de la station de départ ou d'arrivée. Toutes deux
-  changent le chiffre ; c'est Colette qui les fixe, pour ce qu'elle montre au conseil ; le PO lui
+  changent le chiffre ; c'est Charlotte qui les fixe, pour ce qu'elle montre au conseil ; le PO lui
   pose la question, il ne choisit pas. Étienne peut l'éclairer (il voit les vélos rendus
   aussitôt), il ne fixe pas : sa vue des locations du jour, pas encore construite, montrera
-  toutes les locations, et la règle concerne l'indicateur de Colette. La source est
+  toutes les locations, et la règle concerne l'indicateur de Charlotte. La source est
   incomplète : le quartier vient du référentiel des quartiers, tenu par la collectivité, à côté
   de la table des locations. La
-  fraîcheur manque aussi : le PO demande à Colette quand elle a besoin du mois. Nuances, non
+  fraîcheur manque aussi : le PO demande à Charlotte quand elle a besoin du mois. Nuances, non
   attendues : la table des locations n'est pas encore accessible (concept 11b) : la story ne
   remplit pas la DoR, même avec une définition complète. La comparaison au même mois de l'an
   dernier (story B) n'a de sens qu'avec la même définition, appliquée aux deux années : c'est
@@ -159,7 +159,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
     chiffre au conseil ? » ;
   - voir ce qui manque sans dire qui le fixe : demander « et alors, on fait quoi ? » ;
   - répondre « Étienne » : sa vue des locations du jour montrera toutes les locations, courtes
-    comprises ; c'est une autre vue ; pour l'indicateur de Colette, c'est Colette ;
+    comprises ; c'est une autre vue ; pour l'indicateur de Charlotte, c'est Charlotte ;
   - mettre la définition dans les critères de la story A : demander « et la story B, quelle
     définition prend-elle ? » ;
   - réponse elliptique (« départ ou arrivée ? ») : faire préciser (qui tranche ? pourquoi
@@ -227,23 +227,23 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   de ce qu'elle ne reçoit pas (un signalement jamais saisi) ; et « si Maud fixe ses
   techniciens sur ce chiffre sans savoir qu'il manque des pannes, que se passe-t-il ? ».
 
-### Des chiffres fiables, dit Colette (12b, en rechange)
+### Des chiffres fiables, dit Charlotte (12b, en rechange)
 - **Explication** : une exigence de qualité vague ne se teste pas ; on la traduit en règles
   mesurables, une dimension à la fois, et c'est l'utilisateur qui dit le niveau dont il a
   besoin (la qualité dépend de l'usage).
-- **Situation** : Colette, chargée de mission mobilité, à propos des locations par quartier :
+- **Situation** : Charlotte, chargée de mission mobilité, à propos des locations par quartier :
   « Je présente ces chiffres au conseil : il me faut des chiffres fiables. »
 - **Question** : comment transformes-tu « fiables » en exigences qu'on peut vérifier ?
-- **Réponse attendue** : « fiables » est un mot flou (concept 7a2) : on demande à Colette ce qui
+- **Réponse attendue** : « fiables » est un mot flou (concept 7a2) : on demande à Charlotte ce qui
   la ferait douter d'un chiffre, puis on écrit des règles mesurables, par dimension. Exemples
   d'exercice : chaque location est rattachée à un quartier (complétude) ; aucune location
   comptée deux fois (unicité) ; les locations des derniers jours du mois sont comptées quand
-  Colette lit le chiffre (fraîcheur). Ce qui vaut pour cet indicateur va dans sa
+  Charlotte lit le chiffre (fraîcheur). Ce qui vaut pour cet indicateur va dans sa
   définition ; ce qui vaut pour toute story va dans la DoD. Le niveau exigé (un taux, une date)
-  est à faire dire par Colette : le PO ne le fixe pas.
+  est à faire dire par Charlotte : le PO ne le fixe pas.
 - **Erreurs fréquentes** :
   - répondre « on testera tout » : demander « que vérifie le test, exactement ? » ;
-  - fixer soi-même un seuil (« moins de 1 % d'erreurs ») : c'est à Colette de dire ce dont le
+  - fixer soi-même un seuil (« moins de 1 % d'erreurs ») : c'est à Charlotte de dire ce dont le
     conseil a besoin ; relancer : « qui sait ce dont le conseil a besoin ? ».
 - **Ce qui marche** : « quel chiffre, faux, te mettrait en difficulté devant le conseil ? ».
 
@@ -256,16 +256,16 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
 - **Situation** : la table des locations contient, pour chaque location : le vélo, l'identifiant
   de l'abonné, les stations de départ et d'arrivée, les heures. L'accès est demandé à Ivan,
   DSI ; il demande de justifier chaque colonne. On prépare la demande pour les stories de
-  Colette (locations par quartier sur le mois, puis comparaison au même mois de l'an dernier).
-- **Question** : que demandes-tu à Ivan pour les stories de Colette, et comment le
+  Charlotte (locations par quartier sur le mois, puis comparaison au même mois de l'an dernier).
+- **Question** : que demandes-tu à Ivan pour les stories de Charlotte, et comment le
   justifies-tu ? (Relances : si l'apprenant ne parle que des colonnes, « et quelles
   locations ? » ; s'il donne la liste sans raison, « à quoi sert chacune ? ».)
 - **Réponse attendue** : la finalité d'abord : compter les locations par quartier, sur le mois,
-  pour Colette. Les stations de départ et d'arrivée (le quartier vient du référentiel, et la
-  règle départ ou arrivée n'est pas fixée) et les heures (la période, et la durée si Colette
+  pour Charlotte. Les stations de départ et d'arrivée (le quartier vient du référentiel, et la
+  règle départ ou arrivée n'est pas fixée) et les heures (la période, et la durée si Charlotte
   écarte les locations très courtes). Pas l'identifiant de l'abonné : il ne sert pas à compter
   les locations par quartier, et c'est une donnée personnelle. Pas le vélo non plus pour cette
-  finalité : si une règle à venir en a besoin, on le demande alors, avec sa finalité. Colette
+  finalité : si une règle à venir en a besoin, on le demande alors, avec sa finalité. Charlotte
   reçoit des comptes agrégés par quartier ; la plateforme a besoin des lignes de location pour
   les calculer, sans l'abonné : au détail, parce que la règle des locations très courtes n'est
   pas fixée et que le calcul en dépend. Les lignes aussi se bornent : les locations du mois et
@@ -280,14 +280,14 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
     compter par quartier ? » ;
   - oublier les heures : sans elles, pas de mois ;
   - demander tout l'historique : la finalité borne aussi les lignes ; demander « de quels mois
-    Colette a-t-elle besoin ? » ;
+    Charlotte a-t-elle besoin ? » ;
   - voir la question d'Ivan comme une mauvaise volonté à contourner : sa question est celle
     que le PO doit savoir poser d'abord ; si l'accès bloque sprint après sprint, l'escalade se
     voit au concept 14 ;
   - réponse juste sans la raison (« départ, arrivée, heures ») : demander « pourquoi pas
     l'abonné ? ».
 - **Ce qui marche** : écrire la demande en deux colonnes, « colonne » et « à quoi elle sert pour
-  Colette » ; une colonne sans raison ne se demande pas.
+  Charlotte » ; une colonne sans raison ne se demande pas.
 
 ### Prenons toute la table (12c, en rechange)
 - **Explication** : une donnée pseudonymisée (un identifiant à la place du nom) reste une donnée
@@ -343,8 +343,8 @@ Définition : « deux analystes qui la lisent calculent-ils le même nombre ? »
 Trois schémas, un par sous-concept, chacun montré dans la correction, jamais avant la réponse.
 1. **12a** : une fiche d'identité d'indicateur, « Locations par quartier », à cinq cases : règle
    de calcul, grain, période, source, fraîcheur. Deux cases en rouge, « locations très courtes :
-   à faire fixer par Colette » et « quartier de départ ou d'arrivée : à faire fixer par
-   Colette ». La fiche est reliée à deux sorties : le bilan du mois et la comparaison à l'an
+   à faire fixer par Charlotte » et « quartier de départ ou d'arrivée : à faire fixer par
+   Charlotte ». La fiche est reliée à deux sorties : le bilan du mois et la comparaison à l'an
    dernier (« une définition, partout où l'indicateur est publié »).
 2. **12b** : deux entrées dans la plateforme. Un relevé en double qui entre, marqué « reçu mal :
    se corrige (unicité) » ; un signalement par téléphone qui reste dehors, marqué « jamais reçu :

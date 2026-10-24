@@ -151,14 +151,14 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Explication** : la DoD change dans le temps, pour toutes les stories, quand l'équipe
   l'améliore ; elle ne change pas selon le contenu d'un sprint. La rétrospective l'inspecte
   (Scrum Guide). Rappel du concept 0, sans le réenseigner.
-- **Situation** : en préparant les stories de Colette (locations par quartier), Étienne et Colette
+- **Situation** : en préparant les stories de Charlotte (locations par quartier), Étienne et Charlotte
   découvrent qu'ils n'entendent pas la même chose par « location » : une location rendue à la même station au bout de quelques minutes compte-t-elle ? La règle
   n'est pas fixée. En rétrospective, l'équipe propose d'ajouter à sa DoD : « chaque indicateur
   publié a sa définition écrite » (indicateur : valeur calculée par le produit pour ses
   utilisateurs, comme les locations par quartier ; détail au concept 12a). C'est ainsi que la
   règle est entrée dans la DoD de l'équipe (fait du fil rouge) ; la discussion entre Étienne et
-  Colette reste une situation d'exercice.
-- **Question** : pourquoi dans la DoD plutôt que dans les critères des stories de Colette ?
+  Charlotte reste une situation d'exercice.
+- **Question** : pourquoi dans la DoD plutôt que dans les critères des stories de Charlotte ?
 - **Réponse attendue** : l'exigence vaut pour tout indicateur publié, pas pour une story ; la
   rétrospective est le lieu où l'équipe adapte sa DoD, pour toutes les stories à venir.
   Nuance : la DoD exige une définition écrite, elle ne fixe pas la règle des locations

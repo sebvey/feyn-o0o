@@ -10,7 +10,7 @@ portent déjà les sources du backlog comme artefact, de son engagement (l'objec
 PO qui ordonne et du backlog seule source de travail, travail technique compris
 (`course/sources/00-scrum.md`, `01-produit-et-po.md`, `02-objectif-produit-resultat.md`) : ce
 fichier les rappelle quand le concept 3 s'en sert, sans les refaire. Les faits du fil rouge
-(demandes d'Étienne, Maud, Colette, Pia ; F12) sont inventés : ils n'ont pas de source. Les
+(demandes d'Étienne, Maud, Charlotte, Pia ; F12) sont inventés : ils n'ont pas de source. Les
 sections entre parenthèses sont celles du modèle de fichier de concept, ou de la fiche
 actuelle (migrée de T-017) quand la ligne la vérifie ; le rédacteur ajoute une ligne pour toute
 affirmation qui n'est pas ici.

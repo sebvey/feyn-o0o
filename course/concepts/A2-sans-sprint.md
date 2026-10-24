@@ -79,7 +79,7 @@ Faits du fil rouge utilisés : l'équipe vélos (Dana, Diego, data engineers ; A
 sprints de deux semaines ; DoR de l'équipe vélos (critères d'acceptation écrits, règles métier
 fixées, dépendances identifiées, accès aux données obtenu) ; la story d'Étienne « voir les
 locations du jour par station », dont l'accès à la table des locations n'est pas obtenu
-(concept 11b) ; les vues d'Étienne ; la tournée de Théo ; Colette et Pia, qui demandent chacune
+(concept 11b) ; les vues d'Étienne ; la tournée de Théo ; Charlotte et Pia, qui demandent chacune
 un élément. Toute la banque est en situation d'exercice : « si l'équipe vélos travaillait sans
 sprint ». La limite du travail en cours, les durées, les dates et les répliques sont des
 propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en sprints.
@@ -119,7 +119,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   semaines de travail. Reste à savoir ce qui décide, quand une place se libère, de l'élément
   qu'on commence. Le réapprovisionnement de la méthode Kanban (Anderson, choix d'école) se dit
   dans la correction, pas ici ; le cours n'en fixe ni la fréquence ni les participants.
-- **Situation** : si l'équipe vélos travaillait sans sprint. Colette a demandé un élément pour
+- **Situation** : si l'équipe vélos travaillait sans sprint. Charlotte a demandé un élément pour
   son bilan, Pia un autre pour l'appli ; les deux sont prêts. Diego : « Puisqu'il n'y a plus
   d'objectif de sprint, quand une place se libère, chacun prend l'élément de la personne qui
   l'a relancé en dernier. »
@@ -130,15 +130,15 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   le dernier qui relance, c'est laisser la pression ordonner à sa place. Le PO tient le haut du
   backlog à jour à mesure que les places se libèrent. Nuance, non attendue : une équipe peut se
   donner un moment régulier pour le revoir (le réapprovisionnement, choix d'école). L'ordre
-  entre Colette et Pia ne se tranche pas ici (concepts 13 et 14b).
+  entre Charlotte et Pia ne se tranche pas ici (concepts 13 et 14b).
 - **Erreurs fréquentes** :
-  - trancher entre Colette et Pia : recentrer sur ce qui décide, pas sur le gagnant ;
+  - trancher entre Charlotte et Pia : recentrer sur ce qui décide, pas sur le gagnant ;
   - « on se fixe un objectif de la semaine » : demander « qu'est-ce qui le relie déjà à
     l'objectif produit ? », puis montrer que l'ordre le fait ;
   - réponse juste sans la suite (ce qui remplace la proposition) : relancer par « et que
     mets-tu à la place : qui fait quoi quand une place se libère ? » ;
   - « il faut suivre l'ordre du backlog », sans dire qui le fait ni pourquoi la relance ne
-    compte pas : demander « qui fait cet ordre, et que fait Colette si elle veut passer
+    compte pas : demander « qui fait cet ordre, et que fait Charlotte si elle veut passer
     devant ? ».
 - **Ce qui marche** : « sans sprint, qu'est-ce qui dit encore pourquoi on fait ça plutôt
   qu'autre chose ? »

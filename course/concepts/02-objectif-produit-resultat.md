@@ -170,22 +170,22 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   l'atteint ou l'abandonne avant d'en prendre un autre. L'abandonner ou le reformuler quand on
   apprend n'est pas un échec (Scrum.org, choix d'école).
 - **Situation** : Odile propose d'ajouter à l'objectif « et fournir à la collectivité les
-  indicateurs qui justifient la subvention ». Colette, chargée de mission mobilité, attend les
+  indicateurs qui justifient la subvention ». Charlotte, chargée de mission mobilité, attend les
   locations par quartier pour le bilan annuel au conseil.
 - **Question** : que réponds-tu à Odile ?
 - **Réponse attendue** : un seul objectif produit à la fois (Scrum Guide) : en accoler un second
   disperse l'équipe et rend l'ordre du backlog impossible à argumenter, puisque chaque demande
-  peut se réclamer de l'un ou de l'autre. Les demandes de Colette restent des demandes : le PO
+  peut se réclamer de l'un ou de l'autre. Les demandes de Charlotte restent des demandes : le PO
   décide de leur place dans le backlog (concept 13) et en parle avec elle (concept 14). Si le
   bilan au conseil devient la cible prioritaire, on change d'objectif produit, on ne les
   additionne pas.
 - **Erreurs fréquentes** :
   - accepter l'ajout parce qu'Odile porte le budget : le PO l'écoute, mais l'objectif produit
     reste un seul objectif ;
-  - répondre « hors objectif, donc on ne fait rien pour Colette » : l'objectif guide l'ordre et
+  - répondre « hors objectif, donc on ne fait rien pour Charlotte » : l'objectif guide l'ordre et
     les arbitrages, il ne fait pas disparaître une partie prenante.
 - **Ce qui marche** : si la réponse s'arrête au refus, demander « et alors, que deviennent les
-  demandes de Colette ? ».
+  demandes de Charlotte ? ».
 
 ### Quelle mesure pour l'objectif ? (2c)
 - **Explication** : une mesure n'est utile que si elle se rattache à un but. Démarche

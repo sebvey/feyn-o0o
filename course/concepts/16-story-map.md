@@ -306,7 +306,7 @@ et le contenu de la tranche en 16c.
 - **Inventer une date**, prendre la prévision pour une promesse, estimer à la place des
   Developers.
 - **Viser le bilan au conseil sans date** : sa date n'est pas fixée ; si une prévision doit le
-  viser, la date se demande à Colette.
+  viser, la date se demande à Charlotte.
 - **Confondre la prévision du travail avec la prévision des stations à risque** (9, 17) : la
   seconde est une fonction du produit, pour Rémi.
 

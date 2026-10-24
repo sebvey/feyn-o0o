@@ -71,7 +71,7 @@ viennent du fil rouge : Étienne veut suivre l'état du réseau dans plusieurs v
 vélos en panne, locations du jour) ; sa journée (point du matin, envoi des régulateurs, suivi
 des incidents, bilan du soir) ; la vue des stations vides, déjà livrée ; les relevés en double ;
 les signalements de pannes, faits par les abonnés dans l'appli ; le seuil des stations presque
-vides, pas encore fixé ; le bilan que Colette présente au conseil (locations par quartier sur le
+vides, pas encore fixé ; le bilan que Charlotte présente au conseil (locations par quartier sur le
 mois, puis comparaison au même mois de l'an dernier).
 
 ### Classer l'arbre d'Étienne (4a1)
@@ -160,23 +160,23 @@ mois, puis comparaison au même mois de l'an dernier).
   et chaque « je veux » devient une story candidate. Plusieurs groupes, ou des « je veux » qu'on
   ne sait pas encore écrire : epic. Un « je veux » qui en contient d'autres se déplie avant de
   compter.
-- **Situation** : Anna ajoute au backlog : « Colette : je veux justifier la subvention devant le
-  conseil. » Elle conclut : « Un seul je veux, donc une story. » Pour son bilan, Colette a déjà
+- **Situation** : Anna ajoute au backlog : « Charlotte : je veux justifier la subvention devant le
+  conseil. » Elle conclut : « Un seul je veux, donc une story. » Pour son bilan, Charlotte a déjà
   cité les locations par quartier sur le mois, puis la comparaison au même mois de l'an dernier ;
   elle n'a pas dit si le bilan contiendra autre chose.
 - **Question** : Anna a-t-elle raison ?
 - **Réponse attendue** : non. Ce « je veux » en contient d'autres : déplié, il donne au moins
   deux « je veux », chacun utile seul (voir les locations par quartier du mois ; les comparer au
-  même mois de l'an dernier), et peut-être d'autres que Colette n'a pas encore dits. Des « je
-  veux » qu'on ne sait pas encore écrire : epic. Si Colette confirme que le bilan s'arrête à ces
+  même mois de l'an dernier), et peut-être d'autres que Charlotte n'a pas encore dits. Des « je
+  veux » qu'on ne sait pas encore écrire : epic. Si Charlotte confirme que le bilan s'arrête à ces
   deux-là, c'est une feature. Nuance : une phrase au format d'une story peut cacher plusieurs
   besoins ; le format (concept 5) ne fait pas le niveau.
 - **Erreurs fréquentes** :
   - valider la story parce que la phrase a la bonne forme : c'est l'erreur « epic classé en
-    story ». Relancer : « qu'est-ce que Colette montrera au conseil ? » ;
+    story ». Relancer : « qu'est-ce que Charlotte montrera au conseil ? » ;
   - répondre « feature » sans réserve : juste pour les deux « je veux » connus, mais le bilan
-    n'est pas tout écrit. Relancer : « Colette a-t-elle dit tout ce que contiendra son bilan ? ».
-- **Ce qui marche** : faire écrire ce que Colette montrera au conseil, ligne par ligne ; le nombre
+    n'est pas tout écrit. Relancer : « Charlotte a-t-elle dit tout ce que contiendra son bilan ? ».
+- **Ce qui marche** : faire écrire ce que Charlotte montrera au conseil, ligne par ligne ; le nombre
   de « je veux » obtenus, et ceux qui manquent, tranchent seuls.
 
 ### Vélos en panne et locations du jour : feature ou story ? (4b)

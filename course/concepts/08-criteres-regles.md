@@ -42,21 +42,21 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
 1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ;
    la règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage
    (téléphone basique) va dans le Given d'un critère (concept 7b). Se déroule en deux messages :
-   - **8a1** critère ou règle (« Trier les phrases de la story de Véra ») ;
+   - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
      (renvoi aux concepts 4 et 7a2, sans le réenseigner).
 2. **8b Given/When/Then, une variable à la fois** : Given, le contexte de départ ; When,
    l'événement ou l'action ; Then, le résultat observable, ce que le testeur vérifie. D'un
    exemple à l'autre, un seul fait du Given change. Se déroule en deux messages :
-   - **8b1** la forme (« Le critère de Véra à corriger » ; « Fraîcheur : que vérifie le Then ? »
+   - **8b1** la forme (« Le critère d'Abba à corriger » ; « Fraîcheur : que vérifie le Then ? »
      en rechange, ou quand l'apprenant écrit le rafraîchissement dans le Then) ;
    - **8b2** une variable à la fois (« Les vélos disponibles d'Étienne »).
 
 ## Banque d'exemples
 
-Faits du fil rouge utilisés : la story de Véra (« En tant qu'abonné, je veux savoir avant de
-partir s'il reste un vélo à ma station, afin de ne pas me déplacer pour rien. ») ; Véra n'a
+Faits du fil rouge utilisés : la story d'Abba (« En tant qu'abonné, je veux savoir avant de
+partir s'il reste un vélo à ma station, afin de ne pas me déplacer pour rien. ») ; Abba n'a
 qu'un téléphone basique, sans l'appli ; règles fixées : un vélo disponible est un vélo à quai
 et louable, la station d'un abonné est celle qu'il a choisie comme favorite, fraîcheur visée de
 moins de 15 minutes ; la plateforme se rafraîchit toutes les 5 minutes ; un vélo signalé en
@@ -65,16 +65,16 @@ de l'équipe vélos : règles métier fixées. Les brouillons de critères, la s
 nombres de vélos sont des propositions d'exercice : ils ne deviennent pas des faits du fil
 rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, une définition).
 
-### Trier les phrases de la story de Véra (8a1)
+### Trier les phrases de la story d'Abba (8a1)
 - **Explication** : un critère d'acceptation est propre à une story et se tranche OK ou KO.
   Une règle métier est vraie hors de la story : d'autres stories s'en servent. Les critères
   illustrent souvent une règle par un cas précis. Test : « est-ce encore vrai si cette story
   n'existe pas ? ». Séparer ainsi critère et règle est un choix du cours.
-- **Situation** : pour la story de Véra, quatre phrases sont notées en vrac :
+- **Situation** : pour la story d'Abba, quatre phrases sont notées en vrac :
   1. Un vélo disponible est un vélo à quai et louable.
   2. La station d'un abonné est celle qu'il a choisie comme favorite.
-  3. Quand sa station favorite compte 4 vélos disponibles, Véra obtient « 4 » avant de partir.
-  4. Véra n'a qu'un téléphone basique, sans l'appli.
+  3. Quand sa station favorite compte 4 vélos disponibles, Abba obtient « 4 » avant de partir.
+  4. Abba n'a qu'un téléphone basique, sans l'appli.
 - **Question** : range chaque phrase : règle métier, critère d'acceptation, ou morceau d'un
   critère.
 - **Réponse attendue** : 1 et 2 sont des règles : elles restent vraies sans cette story, et
@@ -87,11 +87,11 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   minutes »).
 - **Erreurs fréquentes** :
   - classer 1 en critère parce que la story l'utilise : demander « si on supprime la story de
-    Véra, un vélo disponible change-t-il de définition ? » ;
+    Abba, un vélo disponible change-t-il de définition ? » ;
   - classer 3 en règle parce qu'il a l'air général : il porte un cas et un nombre, il se
     tranche ;
   - ne pas savoir où écrire 4 : le lien entre contrainte et critère n'est pas un réflexe ;
-    demander « qu'est-ce que le testeur doit savoir de Véra pour vérifier ? ».
+    demander « qu'est-ce que le testeur doit savoir d'Abba pour vérifier ? ».
 - **Ce qui marche** : le test rapide à voix haute, phrase par phrase ; puis relier chaque
   critère à la règle qu'il illustre (schéma ci-dessous).
 
@@ -126,20 +126,20 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Ce qui marche** : « si Étienne voit une station marquée presque vide avec 2 vélos, qui a
   décidé que c'était presque vide ? ».
 
-### Le critère de Véra à corriger (8b1)
+### Le critère d'Abba à corriger (8b1)
 - **Explication** : Given/When/Then (en français : étant donné, quand, alors). Given : le
   contexte de départ ; When : l'événement ou l'action ; Then : le résultat observable, ce que le
   testeur vérifie. Choix d'école : Dan North et Chris Matts, dans le BDD ; Cucumber et son
   langage Gherkin l'outillent, mais la forme s'écrit sans outil.
-- **Situation** : la contrainte de Véra (téléphone basique, sans l'appli) va dans un critère
-  (concept 7b). Un premier brouillon : « Given Véra n'a pas de smartphone quand elle quitte son
+- **Situation** : la contrainte d'Abba (téléphone basique, sans l'appli) va dans un critère
+  (concept 7b). Un premier brouillon : « Given Abba n'a pas de smartphone quand elle quitte son
   domicile, Then elle peut savoir le nombre de vélos à la station. »
 - **Question** : corrige ce critère.
 - **Réponse attendue** : ce qui est juste : aucun canal nommé, la contrainte est dans le Given.
   Trois défauts : le When manque (quel événement déclenche le résultat ?), et « quand elle
   quitte son domicile » arrive trop tard, elle veut savoir avant de partir ; le Then est vague
   (« elle peut savoir » : que vérifie le testeur ?) ; « pas de smartphone » est trop large, la
-  contrainte est un téléphone basique, sans l'appli. Corrigé : « Given Véra n'a qu'un
+  contrainte est un téléphone basique, sans l'appli. Corrigé : « Given Abba n'a qu'un
   téléphone basique, sans l'appli, et sa station favorite compte 4 vélos disponibles, When elle
   demande la disponibilité de sa station avant de partir, Then elle obtient « 4 ». » Nuances,
   non attendues : « vélos » devient « vélos disponibles », le terme de la règle fixée (à quai et
@@ -154,29 +154,29 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   - garder « elle peut savoir » : on ne sait pas quoi vérifier ; relancer : « qu'est-ce que le
     testeur regarde pour dire OK ? » ;
   - ajouter un When au mauvais moment (« quand elle arrive à la station ») : relancer : « à
-    quel moment Véra veut-elle savoir ? ».
+    quel moment Abba veut-elle savoir ? ».
 - **Ce qui marche** : « qu'est-ce que le testeur regarde pour dire OK ? ». Si un défaut reste
   après la réponse, dire ce qui est corrigé et relancer sur celui-là seul.
 
 ### Fraîcheur : que vérifie le Then ? (8b1)
 - **Explication** : le Then vérifie un résultat observable par l'utilisateur, pas un moyen
   choisi par l'équipe.
-- **Situation** : pour la story de Véra, Diego, data engineer, propose : « Then le nombre de
+- **Situation** : pour la story d'Abba, Diego, data engineer, propose : « Then le nombre de
   vélos disponibles est rafraîchi toutes les 5 minutes. » La plateforme se rafraîchit toutes
   les 5 minutes ; la fraîcheur visée est de moins de 15 minutes.
 - **Question** : ce Then convient-il ? Corrige-le si besoin.
-- **Réponse attendue** : non. Il vérifie un moyen de l'équipe, pas ce que Véra obtient. Le
-  Then vérifie l'âge des données quand Véra les lit : « elle obtient le nombre de vélos
+- **Réponse attendue** : non. Il vérifie un moyen de l'équipe, pas ce qu'Abba obtient. Le
+  Then vérifie l'âge des données quand Abba les lit : « elle obtient le nombre de vélos
   disponibles, à jour de moins de 15 minutes » (la règle fixée, que le critère cite). Le
   rafraîchissement toutes les 5 minutes permet de tenir cette fraîcheur, et peut changer sans
   que le critère change ; seul, il ne la garantit pas (un rafraîchissement qui échoue).
 - **Erreurs fréquentes** :
   - garder les deux « parce que 5 minutes, c'est plus exigeant » : le critère fige alors un
-    moyen que l'équipe pouvait changer ; relancer : « Véra voit-elle la fréquence de
+    moyen que l'équipe pouvait changer ; relancer : « Abba voit-elle la fréquence de
     rafraîchissement ? Que voit-elle ? » ;
   - écrire « en temps réel » : un mot flou, et une solution ; relancer : « comment le testeur
     vérifie-t-il « en temps réel » ? ».
-- **Ce qui marche** : « Véra voit-elle la fréquence de rafraîchissement ? Que voit-elle ? ».
+- **Ce qui marche** : « Abba voit-elle la fréquence de rafraîchissement ? Que voit-elle ? ».
 
 ### Les vélos disponibles d'Étienne (8b2)
 - **Explication** : d'un exemple à l'autre, ne changer qu'un fait du Given : si le Then change,
@@ -238,7 +238,7 @@ Règle : « est-ce encore vrai si cette story n'existe pas ? ». Critère : « u
 dire OK ou KO sans me poser de question ? ». Et d'un exemple à l'autre, un seul fait change.
 
 ## Schéma
-Deux colonnes, sur la story de Véra et la vue d'Étienne. À gauche, les règles métier sur des
+Deux colonnes, sur la story d'Abba et la vue d'Étienne. À gauche, les règles métier sur des
 cartes bleues (« un vélo disponible est à quai et louable », « la station d'un abonné est sa
 favorite », « fraîcheur : moins de 15 minutes »). À droite, les exemples en Given/When/Then sur
 des cartes vertes, reliés par un trait à la règle qu'ils illustrent ; dans chaque paire

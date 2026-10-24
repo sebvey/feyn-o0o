@@ -146,16 +146,16 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   un utilisateur ? » (PO) et « comment on le fait, pour quel coût ? » (Developers).
 
 ### Un vote pour ordonner le backlog (1b)
-- **Situation** : les demandes arrivent d'Étienne, de Maud, de Colette et de Pia. Pour éviter
+- **Situation** : les demandes arrivent d'Étienne, de Maud, de Charlotte et de Pia. Pour éviter
   les conflits, Odile propose que ces quatre personnes votent l'ordre du backlog à chaque
   sprint.
 - **Question** : Que réponds-tu à Odile ? Dis qui tranche l'ordre et quelle place gardent les
   quatre demandeurs.
 - **Réponse attendue** : l'ordre revient au PO, une seule personne, pas un comité (Scrum Guide).
-  Étienne, Maud, Colette et Pia sont des parties prenantes : ils font valoir leurs besoins, et
+  Étienne, Maud, Charlotte et Pia sont des parties prenantes : ils font valoir leurs besoins, et
   qui veut changer l'ordre doit convaincre le PO. Le PO les écoute, représente leurs besoins
   dans le backlog et explique ses choix (le pourquoi). Avec un vote, personne ne répondrait de
-  la valeur. Colette et Pia sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
+  la valeur. Charlotte et Pia sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
   une partie prenante. Nuance : Odile est le sponsor (elle porte le budget de la plateforme et
   porte plus haut les obstacles qui dépassent le PO) ; l'ordre, lui, reste au PO, et un obstacle
   qui le dépasse se porte plus haut (concept 14), ce qui n'a rien d'un vote à chaque sprint.
@@ -175,7 +175,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Réponse attendue** : un produit a un seul PO, une seule personne ; plusieurs équipes sur un
   même produit partagent le même PO (Scrum Guide). Pia est PO de l'appli ; pour la plateforme,
   elle est utilisatrice et partie prenante : ses besoins entrent au backlog quand elle t'en
-  convainc, et tu les ordonnes face à ceux d'Étienne, Maud et Colette. Avec deux PO, deux
+  convainc, et tu les ordonnes face à ceux d'Étienne, Maud et Charlotte. Avec deux PO, deux
   ordres se contrediraient et personne ne répondrait de l'ensemble. Nuance : tu peux confier une
   partie du travail sur le backlog (écrire des éléments, par exemple), tu en restes responsable
   (vu au concept 0) ; le Scrum Guide ne parle pas de « proxy PO ».
@@ -214,7 +214,7 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   utilisatrices, pas seulement des équipes voisines ou des destinataires de rapports.
 - **Trancher seul un fait métier** : décider que les régulateurs ont besoin du temps réel, ou
   combien de temps Théo gagne, au lieu de le demander à l'acteur concerné (Étienne, Théo, Maud,
-  Colette). Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
+  Charlotte). Le PO ordonne le backlog ; les faits du métier, il les obtient des utilisateurs.
 - **Garder la casquette de développeur** : choisir la technique ou estimer à la place des
   Developers. Le comment et le coût sont à eux.
 - **Croire que le PO fixe seul le contenu du sprint** : il propose, les Developers choisissent

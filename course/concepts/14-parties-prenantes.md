@@ -55,15 +55,15 @@ ordre.
    partie. La grille pouvoir et intérêt se nomme comme choix d'école, sans l'enseigner
    (« La liste d'Anna »).
 2. **14b arbitrer et dire non avec l'objectif produit** : la question porte sur la
-   conversation, pas sur l'ordre, argumenté au concept 13 et qu'on ne refait pas (« Colette
+   conversation, pas sur l'ordre, argumenté au concept 13 et qu'on ne refait pas (« Charlotte
    passe après l'appli »). En rechange, quand le sponsor s'en mêle : « Odile demande de passer
-   Colette en tête ».
+   Charlotte en tête ».
 3. **14c escalader un obstacle** : qui saisir et quand ; l'ordre des démarches ; le sponsor
    n'ordonne pas le backlog (« L'accès aux locations bloque depuis trois sprints »). Cas limite,
    à proposer quand la première réponse de 14c va d'emblée au sponsor, ou pour « exercice » :
-   « Faire trancher Odile entre Pia et Colette ? ». Le concept 14 se valide après 14c, et après le
+   « Faire trancher Odile entre Pia et Charlotte ? ». Le concept 14 se valide après 14c, et après le
    cas limite s'il a été proposé. En rechange, la suite annoncée en 10b2 : « Pia refuse le
-   canal de Véra ».
+   canal d'Abba ».
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
 n'ordonne pas le backlog (concept 0a1) ; partie prenante, sponsor, le PO seul ordonne, qui veut
@@ -76,20 +76,20 @@ du retard (13). Pas encore enseignés, nommés avec renvoi : Sprint Planning et 
 
 ## Banque d'exemples
 
-Faits du fil rouge utilisés : les acteurs (Étienne, Rémi, Théo, Maud, Véra, Colette, Odile,
+Faits du fil rouge utilisés : les acteurs (Étienne, Rémi, Théo, Maud, Abba, Charlotte, Odile,
 Pia, Ivan, Scarlette) et l'équipe vélos (Dana, Diego, Anna) ; Odile est sponsor de la plateforme,
 dont elle porte le budget ; Scarlette est Scrum Master de l'équipe vélos et de l'équipe appli ; la
-collectivité finance le service, Colette la représente et présente un bilan au conseil, une fois
+collectivité finance le service, Charlotte la représente et présente un bilan au conseil, une fois
 par an ; le comité de direction réunit Odile et Ivan et tranche leurs désaccords, comme ceux
 entre la plateforme et l'appli que leurs PO et Scarlette ne règlent pas ; les sources de données et
 leurs propriétaires (DSI pour les relevés et les locations, équipe appli pour les signalements
 et les abonnés, collectivité pour le référentiel des quartiers) ; l'accès à la table des
 locations, demandé, pas encore obtenu, la DSI demandant de justifier chaque colonne ; la table
-contient l'identifiant de l'abonné ; les stories d'Étienne (locations du jour) et de Colette
+contient l'identifiant de l'abonné ; les stories d'Étienne (locations du jour) et de Charlotte
 (locations par quartier, comparaison à l'an dernier) attendent cet accès ; Pia veut la
-disponibilité par station pour l'appli ; le canal de Véra relève de l'équipe appli. N'est pas
+disponibilité par station pour l'appli ; le canal d'Abba relève de l'équipe appli. N'est pas
 fixée : la date du bilan au conseil. L'ordre du backlog cité en 14b, la liste d'Anna, les
-propos de Colette, d'Odile et de Pia, et les relances à Ivan sont des situations d'exercice :
+propos de Charlotte, d'Odile et de Pia, et les relances à Ivan sont des situations d'exercice :
 ils ne deviennent pas des faits du fil rouge.
 
 ### La liste d'Anna (14a)
@@ -101,12 +101,12 @@ ils ne deviennent pas des faits du fil rouge.
   cumuler plusieurs. Choix d'école : la grille pouvoir et intérêt, souvent attribuée à Mendelow
   (attribution discordante), classe ensuite chacun selon son pouvoir et son intérêt.
 - **Situation** : un nouvel arrivant demande qui sont les parties prenantes de la plateforme.
-  Anna, analyste, répond : « Étienne, Rémi, Théo, Maud, Véra, Colette, Odile et Scarlette. »
+  Anna, analyste, répond : « Étienne, Rémi, Théo, Maud, Abba, Charlotte, Odile et Scarlette. »
 - **Question** : corrige la liste d'Anna et range chacun dans une catégorie.
 - **Réponse attendue** :
-  - utilisateurs : Étienne, Rémi, Théo, Maud, Véra (servie par un canal de l'équipe appli) ;
-    Colette et l'équipe appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
-  - financeur : la collectivité, que représente Colette ;
+  - utilisateurs : Étienne, Rémi, Théo, Maud, Abba (servie par un canal de l'équipe appli) ;
+    Charlotte et l'équipe appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
+  - financeur : la collectivité, que représente Charlotte ;
   - sponsor : Odile, qui porte le budget de la plateforme ;
   - équipe voisine : l'équipe appli et sa PO, Pia, absente de la liste ;
   - fournisseurs de données, tous absents : la DSI et Ivan (relevés des stations, table des
@@ -114,7 +114,7 @@ ils ne deviennent pas des faits du fil rouge.
     (référentiel des quartiers).
   Scarlette sort de la liste : elle est dans l'équipe Scrum, comme Dana, Diego, Anna et le PO ; le
   Scrum Guide distingue l'équipe et ses parties prenantes. Nuances : l'équipe appli et la
-  collectivité cumulent chacune trois catégories (la collectivité : utilisatrice par Colette,
+  collectivité cumulent chacune trois catégories (la collectivité : utilisatrice par Charlotte,
   financeur, fournisseur) ; c'est normal, et la conversation change selon la casquette (Pia
   cliente des données, ou Pia qui fournit les signalements). Un fournisseur
   oublié se rappelle quand il bloque : l'accès aux locations en est l'exemple (14c).
@@ -123,8 +123,8 @@ ils ne deviennent pas des faits du fil rouge.
     sources comme de la technique : demander « d'où viennent les données de la vue d'Étienne, et
     qui peut te les couper ? » ;
   - garder Scarlette, ou ajouter Dana et Diego : demander « qui présente le travail, et à qui ? » ;
-  - ne mettre chaque acteur que dans une case (Colette seulement financeur) : demander « que
-    reçoit Colette de la plateforme, et que lui fournit sa collectivité ? » ;
+  - ne mettre chaque acteur que dans une case (Charlotte seulement financeur) : demander « que
+    reçoit Charlotte de la plateforme, et que lui fournit sa collectivité ? » ;
   - réciter les cinq catégories sans les remplir : faire nommer un acteur par catégorie ;
   - classer Ivan en sponsor parce qu'il siège au comité de direction : le sponsor porte le
     budget de la plateforme, c'est Odile.
@@ -132,52 +132,52 @@ ils ne deviennent pas des faits du fil rouge.
   en sort (utilisateurs), qui paie (financeur, sponsor), qui travaille à côté (équipe voisine).
   Si l'apprenant demande d'où vient la grille, donner la discordance d'attribution franchement.
 
-### Colette passe après l'appli (14b)
+### Charlotte passe après l'appli (14b)
 - **Explication** : le PO tranche entre les parties prenantes et l'organisation respecte ses
   décisions, visibles dans l'ordre du backlog, qu'il rend transparent (Scrum Guide). Comment
   dire non est une pratique : Roman Pichler (choix d'école) dit d'écouter d'abord pourquoi la
   demande compte, de la ramener à l'objectif produit, de ne pas trancher dans la précipitation,
   et de chercher un terrain commun sans couper la poire en deux. Formule du cours : dire non,
   c'est dire « pas maintenant », en montrant où est la demande et pourquoi.
-- **Situation** : situation d'exercice. Pia et Colette veulent chacune leur élément au prochain
+- **Situation** : situation d'exercice. Pia et Charlotte veulent chacune leur élément au prochain
   sprint. Ton backlog place en tête la disponibilité par station pour l'appli, prête ; les
-  stories de Colette viennent après et attendent de toute façon l'accès aux locations. Colette
+  stories de Charlotte viennent après et attendent de toute façon l'accès aux locations. Charlotte
   t'appelle : « Le bilan au conseil approche. Pourquoi l'appli passerait-elle avant la
   collectivité qui finance le service ? »
-- **Question** : que réponds-tu à Colette ?
+- **Question** : que réponds-tu à Charlotte ?
 - **Réponse attendue** : on ne refait pas l'ordre ; on juge la conversation. Une bonne réponse :
-  écoute ce qui compte pour Colette et lui demande la date du bilan et ce que le conseil attend
+  écoute ce qui compte pour Charlotte et lui demande la date du bilan et ce que le conseil attend
   (des faits qu'elle détient, que le PO ne fixe pas) ; dit « pas maintenant », pas « jamais » :
   ses stories restent au backlog, à une place qu'elle peut voir ; donne le pourquoi (l'objectif
   produit, ce qui est prêt, l'accès qui manque) ; dit ce qui ferait monter ses stories (une
   échéance proche change le coût du retard, concept 13b). Nuances : dire ce que tu fais pour
-  l'accès qui manque aide Colette, mais c'est la question de 14c, non attendue ici ; si Colette
+  l'accès qui manque aide Charlotte, mais c'est la question de 14c, non attendue ici ; si Charlotte
   apporte un fait nouveau, revoir l'ordre n'est pas céder, c'est ordonner ; ce sont les
   Developers qui choisissent ce qui entre au sprint, avec le PO (concept 15). Une mauvaise
   réponse promet, cache l'ordre, ou s'abrite derrière « c'est moi qui décide ».
 - **Erreurs fréquentes** :
-  - promettre à Colette et à Pia le même sprint, ou « un peu de chaque » : la poire coupée en
+  - promettre à Charlotte et à Pia le même sprint, ou « un peu de chaque » : la poire coupée en
     deux ne sert ni l'une ni l'autre ; demander « que livres-tu à chacune à la fin ? » ;
-  - « c'est moi qui décide, point » : juste sur le fond (1b), mais sans le pourquoi Colette n'a
+  - « c'est moi qui décide, point » : juste sur le fond (1b), mais sans le pourquoi Charlotte n'a
     rien pour te convaincre ; demander « pourquoi ? », comme elle le ferait ;
   - « non » sans la suite : demander « et alors, que deviennent ses stories ? » ;
-  - fixer soi-même l'échéance (« le bilan est dans deux mois ») : la date se demande à Colette ;
-  - renvoyer Colette vers Odile pour qu'elle tranche : l'ordre est au PO (1b) ; pourquoi ce
+  - fixer soi-même l'échéance (« le bilan est dans deux mois ») : la date se demande à Charlotte ;
+  - renvoyer Charlotte vers Odile pour qu'elle tranche : l'ordre est au PO (1b) ; pourquoi ce
     n'est pas une escalade, on le voit en 14c.
 - **Réexplication** (réponse fausse, « oui aux deux ») : prendre Étienne, qui veut la vue des
   locations du jour au prochain sprint alors que l'accès manque. Lui dire oui, c'est promettre ce
   que l'équipe ne peut pas livrer ; « pas maintenant, voici pourquoi et voici sa place » lui
-  laisse de quoi agir. Puis reposer la question sur Colette.
+  laisse de quoi agir. Puis reposer la question sur Charlotte.
 - **Ce qui marche** : faire écrire la réponse au discours direct ; si elle est elliptique
   (« je lui explique l'ordre »), faire préciser avant de corriger : « que lui dis-tu, mot pour
   mot ? ». Puis la relire avec trois cases : pas maintenant, pourquoi, où est sa demande.
 
-### Odile demande de passer Colette en tête (14b, en rechange)
+### Odile demande de passer Charlotte en tête (14b, en rechange)
 - **Explication** : le sponsor porte le budget et se fait entendre ; il convainc le PO comme les
   autres parties prenantes. L'organisation entière, sponsor compris, respecte les décisions du PO
   sur l'ordre (Scrum Guide).
-- **Situation** : situation d'exercice. Colette a appelé Odile. Odile te dit : « La subvention
-  finance le service. Mets les stories de Colette en tête. »
+- **Situation** : situation d'exercice. Charlotte a appelé Odile. Odile te dit : « La subvention
+  finance le service. Mets les stories de Charlotte en tête. »
 - **Question** : que réponds-tu à Odile ?
 - **Réponse attendue** : écouter : l'argument est sérieux, la subvention pèse dans la valeur.
   Demander ce qu'Odile sait de plus (date du bilan, attentes du conseil) : si c'est un fait
@@ -205,7 +205,7 @@ ils ne deviennent pas des faits du fil rouge.
   n'ordonne pas le backlog.
 - **Situation** : situation d'exercice. Depuis trois sprints, tu relances Ivan par message ;
   l'accès à la table des locations n'est toujours pas donné. Les stories d'Étienne (locations du
-  jour) et de Colette attendent. La DSI demande de justifier chaque colonne demandée.
+  jour) et de Charlotte attendent. La DSI demande de justifier chaque colonne demandée.
 - **Question** : qui saisis-tu, dans quel ordre, et quand passes-tu au suivant ?
 - **Réponse attendue** :
   1. Ivan, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
@@ -242,46 +242,46 @@ ils ne deviennent pas des faits du fil rouge.
   relancer : « et à Ivan, qu'apportes-tu ? ». Si la première réponse va d'emblée à Odile,
   proposer ensuite le cas limite.
 
-### Faire trancher Odile entre Pia et Colette ? (14c, cas limite)
-- **Situation** : situation d'exercice. Pia et Colette te relancent chaque semaine pour le même
+### Faire trancher Odile entre Pia et Charlotte ? (14c, cas limite)
+- **Situation** : situation d'exercice. Pia et Charlotte te relancent chaque semaine pour le même
   sprint. Diego : « Remonte ça à Odile, c'est elle le sponsor, elle tranchera. »
 - **Question** : que réponds-tu à Diego, et pourquoi ?
 - **Réponse attendue** : ce n'est pas une escalade. Rien ne bloque l'équipe : c'est un désaccord
   sur l'ordre de ton propre backlog, et le PO le tranche seul ; l'organisation respecte cette
   décision (Scrum Guide). Le remonter à Odile, c'est lui rendre l'ordre et ne plus répondre de
-  la valeur. Le PO garde l'ordre, l'explique à Pia et à Colette (14b) et le laisse visible ;
-  Odile peut être tenue au courant, pas sollicitée pour décider. Nuance : si Colette va voir
+  la valeur. Le PO garde l'ordre, l'explique à Pia et à Charlotte (14b) et le laisse visible ;
+  Odile peut être tenue au courant, pas sollicitée pour décider. Nuance : si Charlotte va voir
   Odile d'elle-même, c'est son droit ; le PO montre alors son pourquoi (rechange 14b).
 - **Erreurs fréquentes** :
   - « oui, le sponsor porte plus haut les obstacles qui dépassent le PO » : un obstacle, pas
     l'ordre de son backlog ; demander « qu'est-ce qui bloque l'équipe, ici ? » ;
-  - faire voter Pia et Colette : pas de vote (concept 1b).
+  - faire voter Pia et Charlotte : pas de vote (concept 1b).
 - **Réexplication** (réponse fausse, « elle tranchera ») : Maud et Étienne se disputent la tête
   du backlog. Appeler Odile, c'est lui demander d'ordonner à ta place ; rien ne bloque l'équipe,
   donc le PO tranche et explique. Puis reposer la question sur Diego.
 - **Ce qui marche** : le test rapide, obstacle ou désaccord, posé à voix haute.
 
-### Pia refuse le canal de Véra (14c, en rechange)
+### Pia refuse le canal d'Abba (14c, en rechange)
 - **Explication** : la suite annoncée au concept 10b2. Pia ordonne seule le backlog de l'équipe
   appli : son refus est une décision de PO, comme ton ordre est le tien. Mais pour ton équipe, la
-  story de Véra est bloquée par ce qu'elle ne lève pas seule : c'est un obstacle, et les mêmes
+  story d'Abba est bloquée par ce qu'elle ne lève pas seule : c'est un obstacle, et les mêmes
   marches s'appliquent. Pia d'abord : on la convainc. Puis Scarlette, Scrum Master des deux équipes,
   qui facilite la collaboration et lève les barrières (Scrum Guide). Puis Odile, sponsor de la
   plateforme, qui porte la dépendance plus haut ; ni elle ni personne n'ordonne à la place
   de Pia.
-- **Situation** : situation d'exercice. Tu as présenté à Pia le besoin de Véra (un tiers des
+- **Situation** : situation d'exercice. Tu as présenté à Pia le besoin d'Abba (un tiers des
   abonnés n'a qu'un téléphone basique, sans l'appli). Elle refuse d'inscrire le canal dans son
   backlog pour l'instant : ses propres demandes passent avant.
 - **Question** : qui saisis-tu, et quand ?
 - **Réponse attendue** : d'abord Pia encore : comprendre ce qui passe avant, apporter ce qui
-  pèse pour Véra, et ce que la plateforme lui donne aussi (la disponibilité par station pour
+  pèse pour Abba, et ce que la plateforme lui donne aussi (la disponibilité par station pour
   l'appli). Ensuite, si rien ne change à la fin du sprint, Scarlette, qui réunit les deux PO.
   Ensuite, Odile, sponsor de la plateforme : elle porte la dépendance au comité de direction,
   où se tranchent les désaccords entre la plateforme et l'appli. Elle n'impose rien à Pia et ne
-  décide pas de l'ordre de l'équipe appli. En attendant, la story de Véra reste au backlog, la
+  décide pas de l'ordre de l'équipe appli. En attendant, la story d'Abba reste au backlog, la
   dépendance écrite et visible ; la part de la plateforme peut sortir, elle sert l'appli.
   Nuance : c'est bien un obstacle pour ton équipe, mais on ne le force pas : l'escalade fait
-  peser la valeur perdue pour Véra là où se décide ce que chaque produit sert, elle ne retire
+  peser la valeur perdue pour Abba là où se décide ce que chaque produit sert, elle ne retire
   pas à Pia son ordre.
 - **Erreurs fréquentes** :
   - aller voir Odile avant d'avoir parlé à Pia et à Scarlette : on ne sait pas encore ce qui passe
@@ -290,8 +290,8 @@ ils ne deviennent pas des faits du fil rouge.
     backlog de l'équipe appli ; relancer : « est-ce mon backlog, ou celui d'un autre PO ? » ;
   - inscrire soi-même le canal dans le backlog de l'équipe appli (10b2) ; relancer : « est-ce mon
     backlog, ou celui d'un autre PO ? » ;
-  - laisser tomber la story de Véra sans le dire : la garder au backlog, visible ; relancer :
-    « et la story de Véra, que devient-elle en attendant ? ».
+  - laisser tomber la story d'Abba sans le dire : la garder au backlog, visible ; relancer :
+    « et la story d'Abba, que devient-elle en attendant ? ».
 - **Ce qui marche** : poser le test rapide à voix haute : « est-ce mon backlog, ou celui d'un
   autre PO ? ». Si l'apprenant demande qui est au-dessus de Pia : le comité de direction tranche
   les désaccords entre les deux produits ; dans une vraie organisation, c'est à identifier avant
@@ -328,11 +328,11 @@ Trois panneaux.
 1. **Qui sont-elles (14a)** : la plateforme au centre, comme un tuyau de gauche à droite. À
    gauche, en amont, les fournisseurs de données (DSI et Ivan, équipe appli, collectivité),
    reliés par des flèches de données entrantes. À droite, en aval, les utilisateurs (Étienne,
-   Rémi, Théo, Maud, Véra, Colette, l'équipe appli). Au-dessus, ceux qui paient :
+   Rémi, Théo, Maud, Abba, Charlotte, l'équipe appli). Au-dessus, ceux qui paient :
    financeur (la collectivité) et sponsor (Odile). À côté, l'équipe voisine (équipe appli,
    Pia). L'équipe appli et la collectivité apparaissent à plusieurs endroits, reliées par un
    pointillé. Légende : « en amont, ceux qu'on oublie ».
-2. **Dire non (14b)** : le backlog en colonne, visible ; la story de Colette à sa place, avec une
+2. **Dire non (14b)** : le backlog en colonne, visible ; la story de Charlotte à sa place, avec une
    bulle à trois cases : « pas maintenant », « pourquoi : objectif produit, ce qui est prêt »,
    « ce qui la ferait monter ».
 3. **Escalader (14c)**, montré dans la correction : un escalier à trois marches, Ivan

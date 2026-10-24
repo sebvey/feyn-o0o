@@ -47,9 +47,9 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
      (comment : concept 13) (« Maud crie au bug », qui reprend le hors périmètre de 10a1).
 2. **10b dépendances**, en deux messages :
    - **10b1** entre deux stories de l'équipe : fusionner ou ordonner (« Fusionner les deux
-     stories de Colette ? ») ;
+     stories de Charlotte ? ») ;
    - **10b2** envers une autre équipe : l'écrire dans son backlog et demander à l'autre PO de
-     l'écrire dans le sien, s'accorder avec lui sur l'ordre (« Le canal de Véra dépend de
+     l'écrire dans le sien, s'accorder avec lui sur l'ordre (« Le canal d'Abba dépend de
      l'équipe appli ») ; si l'accord ne se fait pas, escalade : renvoi au concept 14, sans
      l'enseigner. L'accès à la table des locations, dépendance envers la DSI, est l'exemple du
      concept 11b.
@@ -67,10 +67,10 @@ Faits du fil rouge utilisés : la story de tournée (concept 6) ; Théo confirme
 place une panne signalée ; un vélo signalé en panne reste louable, son blocage à la location a
 été mis hors périmètre de la story de tournée et Maud le réclame ; un vélo n'est plus louable
 quand un technicien l'a retiré du service après constat ; les signalements par téléphone ne sont
-pas saisis dans l'appli ; Colette veut le nombre de locations par quartier sur le mois, puis la
+pas saisis dans l'appli ; Charlotte veut le nombre de locations par quartier sur le mois, puis la
 comparaison au même mois de l'an dernier ; l'accès à la table des locations n'est pas obtenu
-(concept 11b) ; la story de Véra (concept 7) ; la disponibilité par station vient de la
-plateforme, la livrer à Véra par un canal dépend de l'équipe appli, dont Pia est la PO ; Pia
+(concept 11b) ; la story d'Abba (concept 7) ; la disponibilité par station vient de la
+plateforme, la livrer à Abba par un canal dépend de l'équipe appli, dont Pia est la PO ; Pia
 veut aussi la disponibilité par station pour l'appli ; Scarlette est Scrum Master des deux équipes ;
 Odile est sponsor. Les propos de Maud à la revue, de Dana et de Diego, et l'état du backlog de
 l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des faits du fil rouge.
@@ -138,13 +138,13 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   la ligne écrite, dire où va la demande et qui la place. Si la réponse est elliptique (« hors
   périmètre »), faire préciser avant de corriger : « que dis-tu à Maud, mot pour mot ? ».
 
-### Fusionner les deux stories de Colette ? (10b1)
+### Fusionner les deux stories de Charlotte ? (10b1)
 - **Explication** : une story dépend d'une autre quand elle ne peut pas être livrée, ou n'a pas
   de sens, avant elle. On les réduit (I d'INVEST, concept 7). Pour lever une dépendance entre
   deux stories, Mike Cohn donne deux voies : les fusionner, si la story fusionnée reste petite,
   ou les découper autrement. Une dépendance qui reste s'écrit, et le PO ordonne : l'élément dont
   l'autre dépend passe avant.
-- **Situation** : Colette, chargée de mission mobilité à la collectivité.
+- **Situation** : Charlotte, chargée de mission mobilité à la collectivité.
   - A : « En tant que chargée de mission mobilité, je veux voir le nombre de locations par
     quartier sur le mois, afin de justifier la subvention au conseil. »
   - B : « En tant que chargée de mission mobilité, je veux comparer ce mois au même mois de l'an
@@ -153,7 +153,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   B n'a pas de sens sans A. Diego, data engineer, propose de fusionner A et B en une seule story
   « pour supprimer la dépendance ».
 - **Question** : que réponds-tu à Diego ?
-- **Réponse attendue** : plutôt non, ici. A a une valeur seule : Colette peut justifier la
+- **Réponse attendue** : plutôt non, ici. A a une valeur seule : Charlotte peut justifier la
   subvention avec les chiffres du mois ; B l'enrichit. Fusionner grossit la story et retarde la
   valeur de A jusqu'à ce que B soit prête. La dépendance est saine : on garde les deux stories,
   on l'écrit dans B, et le PO ordonne A avant B (comment ordonner : concept 13). Nuances :
@@ -166,32 +166,32 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 - **Erreurs fréquentes** :
   - s'arrêter au « non » : demander « et alors, on fait quoi de la dépendance ? » ;
   - accepter la fusion parce qu'une dépendance serait toujours un défaut : le I se tient autant
-    que possible (concept 7) ; relancer : « si l'équipe s'arrête après A, Colette s'en
+    que possible (concept 7) ; relancer : « si l'équipe s'arrête après A, Charlotte s'en
     sert-elle ? » ;
   - répondre « fusionner, jamais » : Cohn la retient quand le résultat reste petit ; relancer :
     « dans quel cas Cohn fusionne-t-il deux stories ? » ;
   - placer B avant A, ou les laisser sans ordre : B n'a pas de sens sans A ; relancer : « si
-    l'équipe livre B seule, que voit Colette ? ».
-- **Ce qui marche** : « si l'équipe s'arrête après A, Colette s'en sert-elle ? », puis « et si
+    l'équipe livre B seule, que voit Charlotte ? ».
+- **Ce qui marche** : « si l'équipe s'arrête après A, Charlotte s'en sert-elle ? », puis « et si
   elle s'arrête après la story fusionnée, qu'a-t-elle eu en attendant ? ».
 
-### Le canal de Véra dépend de l'équipe appli (10b2)
+### Le canal d'Abba dépend de l'équipe appli (10b2)
 - **Explication** : une dépendance envers une autre équipe ne se règle pas dans son seul
   backlog. Le PO l'écrit dans son backlog, demande à l'autre PO de l'écrire dans le sien, et
   s'accorde avec lui sur l'ordre dans les deux backlogs, pour que les deux parts arrivent à
   temps. Chaque PO ordonne seul son backlog : pour changer sa place, on le convainc. Choix du
   cours : le Scrum Guide ne traite pas deux produits ayant chacun son PO.
-- **Situation** : la story de Véra (concept 7) : « En tant qu'abonné, je veux savoir avant de
+- **Situation** : la story d'Abba (concept 7) : « En tant qu'abonné, je veux savoir avant de
   partir s'il reste un vélo à ma station, afin de ne pas me déplacer pour rien. » La
-  disponibilité par station vient de la plateforme ; la livrer à Véra par un canal (SMS, serveur
+  disponibilité par station vient de la plateforme ; la livrer à Abba par un canal (SMS, serveur
   vocal, appli) relève de l'équipe appli, dont Pia est la PO. Pia veut aussi la disponibilité
   par station pour l'appli. Le canal pour les abonnés sans l'appli n'est pas au backlog de
   l'équipe appli. Dana : « Notre part sera prête à la fin du sprint. Le canal, c'est l'affaire de
   l'équipe appli. »
 - **Question** : en tant que PO de la plateforme, que fais-tu de cette dépendance ?
 - **Réponse attendue** : Dana a raison sur la frontière : le canal relève de l'équipe appli.
-  Mais la part de la plateforme, livrée seule, ne sert pas Véra tant que le canal n'existe pas.
-  Le PO écrit la dépendance dans la story de Véra et demande qu'elle soit écrite aussi côté
+  Mais la part de la plateforme, livrée seule, ne sert pas Abba tant que le canal n'existe pas.
+  Le PO écrit la dépendance dans la story d'Abba et demande qu'elle soit écrite aussi côté
   appli (un lien entre les deux éléments : annexe A1). Il va voir Pia, lui présente le besoin
   (un tiers des abonnés n'a qu'un téléphone basique, sans l'appli) et s'accorde avec elle sur
   l'ordre dans les deux backlogs : c'est Pia qui inscrit et place le canal dans le sien. Nuances :
@@ -199,7 +199,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   disponibilité pour l'appli ; si l'accord ne se fait pas, ou si la dépendance bloque, c'est une
   escalade (Scarlette, Scrum Master des deux équipes ; Odile, sponsor) : concept 14.
 - **Erreurs fréquentes** :
-  - livrer sa part et tenir la story pour faite : demander « Véra obtient-elle l'information ? » ;
+  - livrer sa part et tenir la story pour faite : demander « Abba obtient-elle l'information ? » ;
   - demander à Dana de faire le canal : l'appli et ses canaux relèvent de l'équipe appli ;
   - inscrire soi-même le canal dans le backlog de l'équipe appli, ou exiger une date : Pia
     ordonne son backlog ; pour y placer le canal, on la convainc ;
@@ -209,7 +209,7 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
     et quand, sans le trancher ici ;
   - écarter la story parce qu'elle dépend d'une autre équipe : le I se tient autant que possible
     (concept 7).
-- **Ce qui marche** : suivre le chemin de l'information jusqu'à Véra, comme au concept 7, et
+- **Ce qui marche** : suivre le chemin de l'information jusqu'à Abba, comme au concept 7, et
   demander à chaque étape « qui la fait, et dans quel backlog ? ». Si la réponse s'arrête à
   « écrire la dépendance », relancer : « et alors, qui va voir qui ? ».
 

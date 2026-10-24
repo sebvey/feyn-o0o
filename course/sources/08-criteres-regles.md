@@ -11,7 +11,7 @@ Cohn [S4]). La forme Given/When/Then est un choix d'école : Dan North et Chris 
 le cadre du BDD ; Gherkin [S6] en est le langage outillé (Cucumber). « Specification by
 Example » est un terme employé par Fowler dès 2004 [S9], popularisé par le livre de Gojko Adzic
 (2011) [S8]. Séparer règles et exemples suit l'Example Mapping de Matt Wynne [S7]. Les faits du
-fil rouge (Véra, Étienne, Rémi, vélo disponible, station favorite, fraîcheur de moins de
+fil rouge (Abba, Étienne, Rémi, vélo disponible, station favorite, fraîcheur de moins de
 15 minutes, rafraîchissement toutes les 5 minutes, seuil « presque vide ») sont inventés : ils
 n'ont pas de source. Les sections entre parenthèses sont celles du fichier du concept (actuel ou
 à écrire) ; le rédacteur ajoute une ligne pour toute affirmation qui n'est pas ici.
@@ -51,14 +51,14 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
 | Given : le contexte de départ ; When : l'événement ou l'action ; Then : le résultat attendu, observable (8b) | [S5], [S6], [S10] | North : « Given some initial context […] When an event occurs, Then ensure some outcomes ». Gherkin : Given « describe the initial context », When « describe an event, or an action », Then « describe an expected outcome » ; « An outcome should be on an observable output ». Agile Alliance : « a particular set of observable consequences » |
-| Un Then vague (« elle peut savoir ») ne se teste pas : le Then dit ce que le testeur vérifie (Pièges, banque « critère de Véra ») | [S6] ; [S12] | Gherkin : le résultat doit être observable. L'erreur vient d'une session (observation d'une session, un apprenant, [c8] : premier Given/When/Then avec un Then vague, « she can know ») |
-| Un critère sans When : le Then n'a pas d'événement qui le déclenche (banque « critère de Véra ») | [S5], [S6] | La forme de North et de Gherkin a trois parties ; l'erreur vient d'une session [S12] |
+| Un Then vague (« elle peut savoir ») ne se teste pas : le Then dit ce que le testeur vérifie (Pièges, banque « critère d'Abba ») | [S6] ; [S12] | Gherkin : le résultat doit être observable. L'erreur vient d'une session (observation d'une session, un apprenant, [c8] : premier Given/When/Then avec un Then vague, « she can know ») |
+| Un critère sans When : le Then n'a pas d'événement qui le déclenche (banque « critère d'Abba ») | [S5], [S6] | La forme de North et de Gherkin a trois parties ; l'erreur vient d'une session [S12] |
 | Changer une seule variable d'un exemple à l'autre, pour savoir quelle règle on teste (8b, Pièges) | [S12] | Heuristique du cours, sans source externe trouvée ; réussie 3/3 en session (observation d'une session, un apprenant, [c8]). L'exemple du distributeur de North [S5] fait varier l'état du compte entre deux scénarios, sans en faire une règle. Gherkin recommande seulement « 3-5 steps per example » |
 | Le Then d'un critère de fraîcheur vérifie l'âge des données (moins de 15 minutes), pas la fréquence de rafraîchissement de la plateforme (toutes les 5 minutes, ce qui permet de tenir la fraîcheur) (Pièges, banque) | aucune | Raisonnement du cours sur des faits du fil rouge : vérifier un résultat observable [S6], pas un moyen choisi par l'équipe [S3] (N). Sans source externe. « Seul, le rafraîchissement ne garantit pas la fraîcheur (un rafraîchissement qui échoue) » : raisonnement du cours (banque « Fraîcheur : que vérifie le Then ? ») |
 | Un mot flou dans un critère oblige le testeur à poser une question (Pièges) | [S3] en partie | Découle du T de Wake ; formulation du cours |
 | Nommer la solution dans le Then (« elle reçoit un SMS ») fige ce que l'équipe pouvait négocier (Pièges) | [S3] | Wake, N (voir plus haut) ; renvoi au concept 7b |
 | Un Then qui exclut le vélo signalé en panne invente une règle : d'après le fil rouge, ce vélo reste louable, donc disponible (banque « Les vélos disponibles d'Étienne », Pièges) | aucune | Raisonnement sur deux faits fixés du fil rouge (vélo disponible = à quai et louable ; un vélo signalé en panne reste louable), inventés, sans source |
-| « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère de Véra à corriger ») | [S12] | Critique de la v1 en session (observation d'une session, un apprenant : sa première version d'un critère pour l'abonné sans appli) |
+| « Pas de smartphone » est trop large pour « téléphone basique, sans l'appli » ; « quand elle quitte son domicile » arrive trop tard pour le When (banque « Le critère d'Abba à corriger ») | [S12] | Critique de la v1 en session (observation d'une session, un apprenant : sa première version d'un critère pour l'abonné sans appli) |
 | Given/When/Then n'est pas obligatoire : un critère écrit autrement convient s'il reste tranchable (Pièges) | [S10] en partie ; [S2], [S3] | Agile Alliance : la forme est une heuristique ; Jeffries et Wake demandent un test d'acceptation, sans imposer de forme. « S'il reste tranchable » : formulation du cours |
 
 ### Renvois sans enseignement

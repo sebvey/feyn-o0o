@@ -57,7 +57,7 @@ horizontales.
      découper, pas un niveau. Un epic se découpe en stories verticales ; au niveau du sprint,
      une tranche est une story. La question fait trouver que ses tâches sont horizontales, et
      que c'est normal : elles sont le plan des Developers (renvoi au concept 4, sans le
-     réenseigner). Après une réponse fausse : « Les tâches de la story de Véra ».
+     réenseigner). Après une réponse fausse : « Les tâches de la story d'Abba ».
 2. **9b patrons de découpage**, en deux messages, une question par message :
    - **9b1** Couche ou tranche (« Prévoir les stations à risque : laquelle est une couche ? ») :
      une story trop grosse se découpe (concept 4) ; chaque morceau passe le même test qu'en 9a.
@@ -168,20 +168,20 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   sur le schéma, zoomer sur la tranche 1 et la couper en lamelles horizontales en pointillé,
   légendées « tâches ».
 
-### Les tâches de la story de Véra (9a2, rechange)
+### Les tâches de la story d'Abba (9a2, rechange)
 - **Explication** : pour réexpliquer après une réponse fausse à « Les tâches de Dana » : le test
   « l'utilisateur s'en sert-il si on s'arrête là ? » s'applique à ce qu'on lui livre, la story ;
   les tâches ne sont jamais livrées seules.
-- **Situation** : la story de Véra (concept 8) : connaître le nombre de vélos disponibles à sa
+- **Situation** : la story d'Abba (concept 8) : connaître le nombre de vélos disponibles à sa
   station favorite. Diego la découpe en trois tâches : « lire les relevés de la station »,
   « compter les vélos à quai et louables », « transmettre le chiffre à l'équipe appli ».
-- **Question** : faut-il que chacune de ces trois tâches serve seule à Véra ? Pourquoi ?
-- **Réponse attendue** : non. Véra se sert de la story livrée, pas d'une tâche : les tâches
+- **Question** : faut-il que chacune de ces trois tâches serve seule à Abba ? Pourquoi ?
+- **Réponse attendue** : non. Abba se sert de la story livrée, pas d'une tâche : les tâches
   sont le plan des Developers pour finir la story (concept 4), souvent une par couche. Seule la
   story doit servir seule.
-- **Erreurs fréquentes** : « oui, sinon c'est horizontal » : demander « Véra verra-t-elle un
+- **Erreurs fréquentes** : « oui, sinon c'est horizontal » : demander « Abba verra-t-elle un
   jour la tâche « lire les relevés » toute seule ? ».
-- **Ce qui marche** : opposer ce que Véra reçoit (le nombre de vélos disponibles) et ce que
+- **Ce qui marche** : opposer ce qu'Abba reçoit (le nombre de vélos disponibles) et ce que
   l'équipe fait pour le produire (les trois tâches).
 
 ### Prévoir les stations à risque : laquelle est une couche ? (9b1)

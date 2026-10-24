@@ -63,7 +63,7 @@ qui le sépare d'un cahier des charges.
 
 ## Banque d'exemples
 
-Les demandes d'Étienne, Maud, Colette et Pia sont celles du fil rouge. Les circonstances des
+Les demandes d'Étienne, Maud, Charlotte et Pia sont celles du fil rouge. Les circonstances des
 exemples (qui propose quoi, par quel canal, depuis quand) sont des situations d'exercice : elles
 ne deviennent pas des faits du fil rouge.
 
@@ -72,7 +72,7 @@ ne deviennent pas des faits du fil rouge.
   dit ce que l'équipe fera ensuite. Le Scrum Guide dit « ordonné » plutôt que « priorisé » :
   une priorité laisse des ex aequo, un ordre non. L'ordre se justifie par l'objectif produit.
 - **Situation** : les demandes arrivent en vrac : Étienne veut une vue des vélos en panne, Maud
-  veut qu'un vélo signalé en panne ne soit plus louable, Colette veut comparer les locations par
+  veut qu'un vélo signalé en panne ne soit plus louable, Charlotte veut comparer les locations par
   quartier au même mois de l'an dernier, Pia veut la disponibilité par station pour l'appli.
   Diego propose de leur donner à chacune une priorité, haute, moyenne ou basse. Trois sont
   « haute ».
@@ -108,7 +108,7 @@ ne deviennent pas des faits du fil rouge.
   escient), choix d'école de Cohn et Pichler. Rappel en une ligne (concept 1) : le backlog reste
   la seule source de travail de l'équipe.
 - **Situation** : Anna propose de consacrer les deux prochains jours à écrire en détail tous
-  les éléments du backlog, jusqu'à la comparaison au même mois de l'an dernier pour Colette. Or
+  les éléments du backlog, jusqu'à la comparaison au même mois de l'an dernier pour Charlotte. Or
   cette comparaison suppose les locations par quartier, qui supposent l'accès à la table des
   locations, que la DSI n'a pas encore donné.
 - **Question** : Anna a-t-elle raison de tout détailler maintenant ?
@@ -116,7 +116,7 @@ ne deviennent pas des faits du fil rouge.
   l'accès, les colonnes accordées, la façon de compter les locations, peut-être la demande
   elle-même. Le détail écrit aujourd'hui serait à refaire. On détaille d'abord le haut, ce que
   l'équipe prendra aux prochains Sprint Planning ; le bas reste une ligne qui dit le besoin
-  (Colette veut comparer à l'an dernier). Nuance : « vague » ne veut pas dire vide ; on garde
+  (Charlotte veut comparer à l'an dernier). Nuance : « vague » ne veut pas dire vide ; on garde
   assez pour comprendre la demande et la placer dans l'ordre. Le travail qui précise les
   éléments a un nom, vu au concept 15.
 - **Erreurs fréquentes** :
@@ -162,7 +162,7 @@ ne deviennent pas des faits du fil rouge.
 - **Explication** : le backlog n'est ni un cahier des charges découpé (rempli et validé au
   début, puis figé) ni une liste à dépiler (traitée jusqu'au bout dans un ordre fixé). On n'en
   remplit qu'une partie au début ; l'ordre change ; certains éléments ne seront jamais faits.
-- **Situation** : Odile propose : « Réunissons Étienne, Maud, Colette et Pia un après-midi.
+- **Situation** : Odile propose : « Réunissons Étienne, Maud, Charlotte et Pia un après-midi.
   On écrit tous les éléments de l'année, je les valide, et l'équipe les dépile dans l'ordre
   jusqu'en décembre. »
 - **Question** : Corrige la proposition d'Odile.
@@ -198,7 +198,7 @@ ne deviennent pas des faits du fil rouge.
   produit, l'élément dit ce qui change pour qui : Étienne voit les vélos signalés en panne.
   « Tableau de bord » est le plus proche de la demande d'Étienne, mais il nomme une solution (un
   écran), pas ce qui change pour lui : c'est lui qu'on réécrit ainsi. Le PO
-  ne peut ordonner « modèle de données » face aux demandes de Maud ou de Colette : il ne sait
+  ne peut ordonner « modèle de données » face aux demandes de Maud ou de Charlotte : il ne sait
   pas ce qu'il apporte. Le dédoublonnage des relevés en double, lui, peut avoir sa place, mais
   pas dans cette vue : les relevés comptent les vélos à quai, pas les pannes. C'est un défaut
   connu des données, qui peut fausser les vues tirées des relevés, comme celle des stations
@@ -275,7 +275,7 @@ Chaque élément dit-il ce qu'il améliore, pour qui ?
 Une colonne verticale de cartes : en haut, de petites cartes nettes ; plus bas, des cartes de
 plus en plus grosses et floues (légende « le haut précis, le bas vague : choix d'école, DEEP »).
 Au-dessus de la colonne, un drapeau « Objectif produit », relié à la colonne par la légende
-« justifie l'ordre ». À gauche, des demandes en vrac (Étienne, Maud, Colette, Pia, Dana)
+« justifie l'ordre ». À gauche, des demandes en vrac (Étienne, Maud, Charlotte, Pia, Dana)
 entrent dans la colonne ; sur la flèche d'entrée, la légende « le PO décide de leur place ». À
 droite, quatre flèches courbes : ajouter,
 préciser et découper, réordonner, retirer. Au sommet, une sortie vers le Sprint Planning
