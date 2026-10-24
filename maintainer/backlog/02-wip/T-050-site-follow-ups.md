@@ -14,7 +14,7 @@
   - T-050a : règle de non-recoupement et reprise des fiches du cours (clos) ;
   - T-051 : resynchroniser les fiches de sources avec les fiches de concept (clos) ;
   - T-050b : versionner le cours (clos) ;
-  - T-050c : versionnage et alignement côté site (en cours) ;
+  - T-050c : versionnage et alignement côté site (clos) ;
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-050c) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (décidé) ;
