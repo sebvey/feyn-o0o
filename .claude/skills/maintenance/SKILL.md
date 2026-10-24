@@ -78,7 +78,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    une branche `maint/<slug>`.
 
    Sur `main`, ne commite directement que les fichiers d'une session de cours, le backlog créé
-   ou trié hors du traitement d'un ticket (§2) et le passage en `02-wip/`. Un ticket créé ou
+   ou trié hors du traitement d'un ticket (§2), le passage en `02-wip/` et la publication d'une
+   version du cours (ci-dessous). Un ticket créé ou
    complété pendant le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
    branche et une PR.
 2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas

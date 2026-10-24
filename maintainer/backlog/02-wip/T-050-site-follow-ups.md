@@ -13,7 +13,7 @@
 - **À faire** : en sous-tickets, dans l'ordre :
   - T-050a : règle de non-recoupement et reprise des fiches du cours (clos) ;
   - T-051 : resynchroniser les fiches de sources avec les fiches de concept (clos) ;
-  - T-050b : versionner le cours (en cours, dépend de T-051) ;
+  - T-050b : versionner le cours (clos) ;
   - T-050c : versionnage et alignement côté site (décidé, dépend de T-050b) ;
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-050c) ;
   - T-050e : documenter la fabrication du site (fait) ;
