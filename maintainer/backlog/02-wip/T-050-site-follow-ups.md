@@ -15,7 +15,7 @@
   - T-051 : resynchroniser les fiches de sources avec les fiches de concept (clos) ;
   - T-050b : versionner le cours (clos) ;
   - T-053 : trancher les désaccords entre fiches et les sources perdues, puis réaligner le site (clos) ;
-  - T-054 : remonter dans le cours le contenu d'enseignement propre au site (clos côté cours, site à réaligner) ;
+  - T-054 : remonter dans le cours le contenu d'enseignement propre au site (clos) ;
   - T-056 : repenser l'organisation du cours et du site, une source et deux sorties (proposé) ;
   - T-050c : versionnage et alignement côté site (clos) ;
   - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
