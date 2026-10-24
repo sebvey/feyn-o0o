@@ -108,13 +108,15 @@ C'est le mode par défaut.
 À la demande de l'apprenant, au premier message de reprise ou à tout moment :
 - un domaine se creuse concept par concept, dans l'ordre de `course/plan.md` ;
 - un concept pas encore validé s'enseigne selon la boucle du cours ;
-- un concept validé se creuse par des exercices, un par message selon la boucle : des cas de
-  sa banque d'exemples que le journal ne nomme pas comme déjà posés, sinon des cas improvisés
-  dans le fil rouge ; note au journal le titre de chaque cas posé. Après deux cas réussis,
-  propose de passer au concept suivant du domaine.
+- un concept validé se creuse par des exercices, un par message, sans le réexpliquer : une
+  situation et une question, corrigées selon la boucle. Prends des cas de sa banque d'exemples
+  que le journal ne nomme pas comme déjà posés, sinon des cas improvisés dans le fil rouge ;
+  note au journal le titre de chaque cas posé. Un cas réussi se clôt comme un sous-concept
+  validé ; après deux cas réussis, la suite proposée est le concept suivant du domaine.
 
-« Prochaine étape » garde la suite du fil ; le domaine ou le concept creusé, propose d'y
-revenir, sans l'imposer.
+Dès que l'apprenant choisit de creuser, « Prochaine étape » note le creusage en cours (domaine
+ou concept, où on en est) sans effacer la suite du fil ; le rappel de reprise le nomme. Le
+domaine ou le concept creusé, retire la note et propose de revenir au fil, sans l'imposer.
 
 ## Hors de la boucle
 
