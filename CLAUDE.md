@@ -26,13 +26,13 @@ contexte de démarrage signale un fichier absent, lance
    contexte de démarrage (sans lui, lis aussi « Domaines du cours » dans `course/plan.md`).
 2. Ne repose pas les questions d'accueil : les réponses sont dans `learner/apprenant.md`.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
-   concept), puis demande s'il continue le cours ou veut creuser un domaine ou un concept, en
-   listant les domaines (une ligne chacun : numéro, nom, concepts). Arrête-toi là, même si
+   concept, creusage en cours s'il y en a un), puis demande s'il continue (le cours, ou le
+   creusage en cours) ou veut creuser un domaine ou un concept, en listant les domaines (une ligne chacun : numéro, nom, concepts). Arrête-toi là, même si
    l'apprenant a ouvert par « on reprend » ou « on continue ». Le prochain concept, ou ce qu'il
    choisit de creuser, vient au message suivant. Avant lui, lis, dans cet ordre : `learner/apprenant.md` puis `learner/observations.md` (qui est
    l'apprenant, ses leviers, ses vigilances) ; `course/plan.md` (public cible, place du
-   concept), `course/fil-rouge-velos.md`, puis le fichier de ce concept dans
-   `course/concepts/`, s'il existe.
+   concept), `course/fil-rouge-velos.md`, puis le fichier du concept qui vient (celui du fil ou
+   du creusage) dans `course/concepts/`, s'il existe.
    Si une question est en attente dans « Prochaine étape », le rappel la nomme sans la reposer,
    et, s'il continue le cours, le message suivant reprend le sous-concept en cours depuis le début (explication,
    exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis pose la question en
@@ -112,7 +112,8 @@ C'est le mode par défaut.
   situation et une question, corrigées selon la boucle. Prends des cas de sa banque d'exemples
   que le journal ne nomme pas comme déjà posés, sinon des cas improvisés dans le fil rouge ;
   note au journal le titre de chaque cas posé. Un cas réussi se clôt comme un sous-concept
-  validé ; après deux cas réussis, la suite proposée est le concept suivant du domaine.
+  validé ; après deux cas réussis, le concept est creusé, et la suite proposée est le
+  concept suivant du domaine creusé, ou le retour au fil si seul ce concept l'était.
 
 Dès que l'apprenant choisit de creuser, « Prochaine étape » note le creusage en cours (domaine
 ou concept, où on en est) sans effacer la suite du fil ; le rappel de reprise le nomme. Le
