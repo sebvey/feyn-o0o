@@ -9,3 +9,4 @@
   2. y inscrire la version `1.0.0` (état après T-050a et T-051) et poser le tag git `course-v1.0.0` après le merge de T-051 ;
   3. écrire dans `maintenance` la règle : un changement du cours se range en MAJOR ou MINOR et s'inscrit au `CHANGELOG` (comportement : le mainteneur décide du texte).
 - **Fini quand** : `course/CHANGELOG.md` existe avec les définitions et la version `1.0.0`, le tag est posé, et la règle de `maintenance` est validée.
+- **Fait le** : 2026-10-24, `course/CHANGELOG.md` (définitions MAJOR, MINOR, PATCH, entrée 1.0.0), règles de versionnage dans `maintenance`, ADR-038 ; testé par un sous-agent neuf sur une copie ; le tag `course-v1.0.0` se pose après le merge, sur demande du mainteneur
