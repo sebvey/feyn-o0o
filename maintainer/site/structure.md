@@ -125,6 +125,8 @@ renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
   discrets de la marge (pied de page, surtitre « tous les domaines », ligne des prérequis). Ce
   qu'on propose d'ouvrir (une suite de lecture, une liste de concepts, une action) prend un
   composant : carte, tuile, pastille ou bouton. Jamais une liste ni une série de liens soulignés.
+- **Ouvrir une page** depuis une carte ou une tuile : une flèche, la même partout, au bord droit
+  (pas de bouton « Lire » ni « Ouvrir »).
 - Chaque page marche au bureau et à 375 px, en clair et en sombre.
 - Le cours est « donné par un agent IA » (jamais « agent d'IA »).
 
