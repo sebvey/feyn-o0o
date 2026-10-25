@@ -7,5 +7,5 @@
   - T-057a : remplacer les objectifs du cours par sept domaines qui le partitionnent (clos) ;
   - T-057b : organiser le site par domaines, sans redondance entre accueil, carte et lectures (clos) ;
   - T-057c : refaire l'accueil autour de deux portes (clos) ;
-  - T-057d : donner au fil rouge et au glossaire une porte sur l'accueil (en cours).
+  - T-057d : donner au fil rouge et au glossaire une porte sur l'accueil (clos).
 - **Fini quand** : les sous-tickets sont clos.
