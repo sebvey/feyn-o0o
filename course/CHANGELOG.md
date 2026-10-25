@@ -32,6 +32,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+## 2.1.0, 2026-10-25
+
 - MINOR, domaines : une fiche de présentation par domaine dans `course/domains/` (le problème du PO, le fil des concepts, d'où l'on vient et où l'on va, un cas du fil rouge), selon le nouveau modèle `templates/domain.md` ; renvoi depuis le plan
 - PATCH, templates/sources : le type « marketing » est défini par ce qu'il vaut (la source vend aussi ce dont elle parle ; fiable pour décrire son offre, ce qu'elle recommande est à prendre avec recul), sans changer de nom ni de règle
 - PATCH, fil rouge : la section « L'entreprise » devient « L'opérateur » et « La collectivité », sans fait nouveau (la collectivité était déjà extérieure à l'opérateur) ; renvoi de sources/14-parties-prenantes mis à jour
