@@ -34,7 +34,8 @@ Pièges du navigateur intégré :
 
 - Version du site dans `package.json` et son `CHANGELOG.md`, selon « Versions » du README du
   site ; README à jour si la structure change ; `structure.md` à jour si une page change de rôle.
-- PR sur `sebvey/parcours-po-website` (squash), en plus de la PR du ticket sur ce dépôt.
+- PR sur `sebvey/parcours-po-website` (squash), en plus de la PR du ticket sur ce dépôt ; la
+  description du skill (§3, étape 6) va dans celle-ci, celle du site y renvoie.
 - Redéploie seulement si le mainteneur l'a demandé, après le merge :
   `gh workflow run deploy.yml --ref main -R sebvey/parcours-po-website`, puis
   `gh run watch <id> --exit-status -R sebvey/parcours-po-website`. Vérifie en ligne

@@ -19,8 +19,8 @@ façon de traiter un ticket du site, dans `procedure.md`.
 - **Schémas** : SVG statiques soignés, un par concept.
 - **Fil rouge** : visible, avec une page dédiée (opérateur, équipe, acteurs, sources) ; les
   schémas s'y appuient.
-- **Rédaction** : l'agent rédige chaque page, le mainteneur relit la PR ; un texte propre au
-  site (accueil, À propos, chapeau) lui est d'abord proposé (`procedure.md`).
+- **Rédaction** : l'agent rédige chaque page, le mainteneur relit la PR (textes propres au site :
+  `procedure.md`).
 - **Lecteur** : les deux à la fois, le curieux qui découvre (le site doit se suffire) et
   l'apprenant qui révise (relecture rapide).
 

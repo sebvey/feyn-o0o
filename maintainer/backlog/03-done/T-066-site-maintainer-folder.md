@@ -9,3 +9,4 @@
   4. skill `maintenance` : renvoi vers `procedure.md` pour un ticket du site, ADR du site dans `maintainer/site/adr/` (comportement : texte exact validé par le mainteneur) ; `maintainer/adr/adr-template.md` en conséquence ;
   5. T-050d : noter que sa documentation reprend `maintainer/site/`.
 - **Fini quand** : plus rien de propre au site hors de `maintainer/site/` dans `maintainer/` et le skill `maintenance` (hors renvois) ; un sous-agent neuf, sur une copie du dépôt, sait dire où lire et quoi vérifier pour un ticket du site, et où écrire un ADR du site.
+- **Fait le** : 2026-10-25, `maintainer/site/` réunit `procedure.md` (nouveau), `adr/` (ADR-041 à 043) et `structure.md` corrigé ; skill `maintenance` et modèle d'ADR y renvoient ; T-050d annoté ; ADR-044 ; test par sous-agent neuf : il trouve la procédure, remonte au cours, place l'ADR du site (ADR-044) ; deux ambiguïtés corrigées (PR qui porte la description, sort des ADR du site au déménagement).
