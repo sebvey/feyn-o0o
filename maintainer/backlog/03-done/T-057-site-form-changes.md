@@ -9,3 +9,4 @@
   - T-057c : refaire l'accueil autour de deux portes (clos) ;
   - T-057d : donner au fil rouge et au glossaire une porte sur l'accueil (clos).
 - **Fini quand** : les sous-tickets sont clos.
+- **Fait le** : 2026-10-25, quatre sous-tickets clos : domaines du cours (T-057a, cours 2.0.0), site organisé par domaines (T-057b), accueil en portes (T-057c, T-057d) ; aperçu en ligne en 0.2.2.
