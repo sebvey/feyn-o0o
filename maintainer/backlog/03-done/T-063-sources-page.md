@@ -10,3 +10,4 @@
   5. un champ de filtre (auteur, titre, adresse, « concept 9 ») qui cherche dans toutes les sources, déplie les concepts qui ont un résultat et masque les autres ; la barre de lettres A–Z et la liste alphabétique disparaissent ;
   6. site 0.6.0, CHANGELOG ; `maintainer/site/structure.md` (ligne Sources) ; build, vérification au bureau et à 375 px, PR, merge, redéploiement.
 - **Fini quand** : l'aperçu en ligne montre la page Sources en trois sections avec le sommaire collant, les 7 sources piliers, la légende, les 20 concepts dépliables avec leurs sources et leurs points non vérifiés, et le filtre qui fonctionne.
+- **Fait le** : 2026-10-25, page Sources en trois sections avec le sommaire collant (7 sources piliers, légende, 20 concepts dépliables par domaine avec références et non vérifié, filtre) ; liste alphabétique et barre de lettres retirées ; site 0.6.0 (sebvey/parcours-po-website#9, mergée) ; vérifié au bureau et à 375 px ; aperçu redéployé.
