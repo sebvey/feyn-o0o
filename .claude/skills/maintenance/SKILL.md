@@ -23,6 +23,9 @@ jamais rien.
   (un parent y reste entre deux sous-tickets) ; `03-done/` : appliqué. Tu l'édites en autonomie.
 - **`maintainer/adr/`** : les décisions qui passent la règle ADR (§4), au format
   d'`adr-template.md`. Tu l'édites en autonomie.
+- **`maintainer/site/`** : ce qui est propre au site (`../parcours-po-website`) : plan et
+  principes (`structure.md`), traitement d'un ticket du site (`procedure.md`), ADR du site seul
+  (`adr/`). Un ticket qui touche le site suit aussi `procedure.md`. Tu l'édites en autonomie.
 - **`archive/`** : tu ne le lis que sur demande du mainteneur.
 - **`learner/`** : tu le lis pour diagnostiquer. Tu n'y écris que pour corriger un chemin après
   un déplacement ou une suppression de fichier, ou par exception écrite dans un ticket, et
@@ -82,7 +85,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    version du cours (ci-dessous). Un ticket créé ou
    complété pendant le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
    branche et une PR.
-2. **Lire** le ticket et les ADR de `maintainer/adr/` qui touchent le même sujet : ne défais pas
+2. **Lire** le ticket et les ADR de `maintainer/adr/` et, pour le site, de
+   `maintainer/site/adr/` qui touchent le même sujet : ne défais pas
    une décision sans le dire. Un ticket « à affiner » : complète d'abord toi-même « À faire » et
    « Fini quand ».
 3. **Décider** : sur le contenu, sans attendre de validation ; sur le comportement, présente
@@ -155,7 +159,8 @@ Après chaque ticket appliqué ou proposition refusée, juge chaque décision qu
    règle que la décision remplace compte comme option écartée. N'imagine pas d'option que
    personne n'a nommée.
 
-Deux oui pour une décision du ticket : écris un ADR dans `maintainer/adr/`, selon
+Deux oui pour une décision du ticket : écris un ADR dans `maintainer/adr/`, ou dans `maintainer/site/adr/` s'il ne concerne que le
+site, selon
 `maintainer/adr/adr-template.md`, et dis-le dans la PR. Une décision qui annule, remplace ou
 contredit ce qu'un ADR décide fait aussi un nouvel ADR ; ajouter un cas ou préciser ne compte
 pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
