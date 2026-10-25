@@ -1,0 +1,13 @@
+# T-058 : Refaire la page Domaines avec un sommaire collant et des concepts dépliables
+
+- **Créé le** : 2026-10-25
+- **Constat** : discussion du 2026-10-25 avec le mainteneur sur la page Domaines du site (aperçu 0.2.2, après T-057b). Le chapeau enfonce des portes ouvertes, sauf « pour aller droit à l'essentiel ». Les liens vers les domaines, sous le chapeau, ne sont pas jolis et se perdent de vue au défilement. Les « lectures rapides » citent 44 des 51 sous-concepts (manquent 3b, 4a, 6b, A1a à A1c) : c'est une table des matières mal rangée.
+- **À faire** (dépôt `../parcours-po-website`) :
+  1. chapeau réduit à : « Le cours se lit dans l'ordre, domaine après domaine. Déployez un concept pour voir ses sections et aller droit à celle qui vous sert. » ;
+  2. sommaire collant à la place des liens sous le chapeau : au bureau, une colonne à gauche (les 7 domaines et les annexes, numéro et nom), le contenu à droite (chaque domaine : titre, « À la fin, vous savez… », puis ses concepts) ; sur téléphone, une barre fine collée en haut, les domaines en pastilles qui défilent horizontalement ; dans les deux cas, le domaine en cours de lecture est mis en évidence (et sa pastille ramenée en vue sur téléphone) ; la page reste lisible sans JavaScript (sommaire statique) ;
+  3. chaque concept devient dépliable (`details`), replié par défaut : résumé « Concept N · Titre » ; dépliée, la liste de ses sous-concepts (numéro, titre, promesse), chacun lié à son ancre (`/concepts/NN/#9a`), puis un lien « Lire le concept » ; pas de bouton « Tout déplier » ;
+  4. les sous-concepts et leurs promesses sont extraits au build des pages de concept (composants `<Sous id titre promesse>` des fichiers `src/content/concepts/fr/*.mdx`), sans recopie : `src/data/lectures.ts` et les lectures rapides disparaissent ;
+  5. anciennes adresses : `#domaine-N-lecture` mène à `#domaine-N` (et `#annexes-lecture` à `#annexes`), y compris depuis la redirection de `/lectures/` ;
+  6. CHANGELOG (MINOR, 0.3.0), README (`lectures.ts` retiré, extraction des sous-concepts décrite), `maintainer/site/structure.md` (lectures rapides remplacées par les concepts dépliables) ;
+  7. build, vérification au bureau et à 375 px (sommaire collant, mise en évidence au défilement, dépliage, ancres des sous-concepts, pas de débordement, clavier), PR, merge et redéploiement de l'aperçu.
+- **Fini quand** : l'aperçu en ligne montre la page Domaines avec le chapeau d'une phrase, le sommaire collant qui suit le défilement au bureau et sur téléphone, les 20 concepts dépliables listant tous leurs sous-concepts (51), et plus de lecture rapide.
