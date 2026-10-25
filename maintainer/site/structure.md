@@ -62,7 +62,7 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts dépliables (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept, « termes à éviter » |
-| Fil rouge | L'opérateur de vélos, l'équipe, les acteurs, les sources de données |
+| Fil rouge | L'opérateur, la collectivité, le produit et l'équipe, les acteurs, les sources de données ; même sommaire collant que Domaines |
 | Consensus ou école | Index transversal : toutes les positions d'école, par auteur |
 | Sources | Bibliographie dédoublonnée et « Non vérifié » |
 | À propos | Pour qui, comment c'est fait, comment lire les pastilles, lien avec le cours accompagné par un prof |
