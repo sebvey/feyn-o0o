@@ -4,18 +4,25 @@ Sert d'exemple au cours, concept après concept, en changeant de situation (util
 décision) plutôt que de domaine. Le mainteneur tient ce fichier. Le prof ne le modifie pas.
 L'apprenant ne tranche jamais un fait métier.
 
-## L'entreprise
+## L'opérateur
 
 - Un opérateur exploite le service de vélos en libre-service d'une métropole : environ 300
-  stations, 3 000 vélos et 40 000 abonnés.
-- La métropole (la collectivité) finance le service par une subvention et attend des
-  indicateurs pour la justifier devant son conseil. Le conseil examine la subvention une fois
-  par an ; la collectivité y présente un bilan.
+  stations, 3 000 vélos et 40 000 abonnés. C'est l'entreprise du cours.
 - La DSI de l'opérateur gère les systèmes (bornes, location, appli) et donne les accès à leurs
   données.
 - Le comité de direction de l'opérateur réunit notamment la directrice des opérations (Odile) et
   le DSI (Sid) : leurs désaccords s'y tranchent, comme ceux entre la plateforme et l'appli
   que leurs PO et Scarlette ne règlent pas.
+
+## La collectivité
+
+La métropole, appelée la collectivité, est extérieure à l'opérateur.
+
+- Elle finance le service par une subvention et attend des indicateurs pour la justifier devant
+  son conseil. Le conseil examine la subvention une fois par an ; la collectivité y présente un
+  bilan.
+- Charlotte, chargée de mission mobilité, la représente (voir les acteurs).
+- Elle tient le référentiel des quartiers (voir les sources de données).
 
 ## Le produit et l'équipe
 
