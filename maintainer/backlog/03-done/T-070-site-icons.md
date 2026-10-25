@@ -17,3 +17,4 @@
 - **Fini quand** : aucune icône n'est écrite en SVG dans une page ou un layout ; `/dev/composants/`
   montre toutes les icônes côte à côte ; la marque suit les règles de style ; la page construite
   garde des SVG inline ; `npm run verify` passe ; clair et sombre vérifiés.
+- **Fait le** : 2026-10-25, icônes dans `src/icons/` avec leurs règles, marque « backlog en cartes » et favicon assorti, rubrique Icônes sur `/dev/composants/`, site 0.9.1 ; `npm run verify` passe, navigateur vérifié au bureau et à 375 px, clair et sombre.
