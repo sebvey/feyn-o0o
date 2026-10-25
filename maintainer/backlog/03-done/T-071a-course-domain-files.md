@@ -9,3 +9,4 @@
   3. `course/plan.md`, « Domaines du cours » : renvoi aux fiches ; `course/CHANGELOG.md` : MINOR sous « Non publié », et les noms de fichiers de `course/domains/` parmi les identifiants ;
   4. PR, merge, puis publication de `course-v2.1.0` (demande du mainteneur, 2026-10-25).
 - **Fini quand** : `course/domains/` a sept fiches selon le modèle, sans affirmation absente des fiches de concept ni contradiction avec le fil rouge, la PR est mergée et le tag `course-v2.1.0` poussé.
+- **Fait le** : 2026-10-25, modèle `course/templates/domain.md` et sept fiches `course/domains/`, écrites par sept sous-agents puis corrigées après une relecture croisée (cas qui reprenaient des Questions de banque, statuts manquants, situations en double) ; renvoi depuis le plan, MINOR au CHANGELOG ; ADR-048.

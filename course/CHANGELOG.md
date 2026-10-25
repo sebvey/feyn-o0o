@@ -7,8 +7,9 @@ laquelle ; son MAJOR est celui du cours.
 ## Ce que chaque numéro signifie
 
 Les **identifiants du cours** sont : le numéro de chaque concept et annexe (0 à 17, A1, A2), le
-numéro de chaque sous-concept (0a1, 9b2, A2c…), le nom des fichiers de `course/concepts/` et
-`course/sources/`, et les sept domaines de `course/plan.md` (leur numéro et leurs concepts).
+numéro de chaque sous-concept (0a1, 9b2, A2c…), le nom des fichiers de `course/concepts/`,
+`course/sources/` et `course/domains/`, et les sept domaines de `course/plan.md` (leur numéro
+et leurs concepts).
 Le suivi de l'apprenant (`learner/parcours.md`) et les adresses du site (`/concepts/09#9a1`)
 s'appuient dessus.
 
@@ -31,6 +32,7 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, domaines : une fiche de présentation par domaine dans `course/domains/` (le problème du PO, le fil des concepts, d'où l'on vient et où l'on va, un cas du fil rouge), selon le nouveau modèle `templates/domain.md` ; renvoi depuis le plan
 - PATCH, templates/sources : le type « marketing » est défini par ce qu'il vaut (la source vend aussi ce dont elle parle ; fiable pour décrire son offre, ce qu'elle recommande est à prendre avec recul), sans changer de nom ni de règle
 - PATCH, fil rouge : la section « L'entreprise » devient « L'opérateur » et « La collectivité », sans fait nouveau (la collectivité était déjà extérieure à l'opérateur) ; renvoi de sources/14-parties-prenantes mis à jour
 
