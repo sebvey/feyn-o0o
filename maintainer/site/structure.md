@@ -66,8 +66,8 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Fil rouge | L'opérateur, la collectivité, le produit et l'équipe, les acteurs, les sources de données ; même sommaire collant que Domaines |
 | Consensus ou école | Index transversal des positions par nature ; consensus et choix du cours en groupes dépliables, choix d'école à plat par auteur ; sommaire collant |
 | Sources | Les sources piliers (citées par au moins 3 concepts), la légende des types de source, puis concept par concept (groupés par domaine, dépliables) les références et le « Non vérifié », avec un filtre ; sommaire collant |
-| À propos | Le cours donné par un agent IA, la fabrication du site, les versions, la licence |
-| Recherche | Plein texte, accessible de partout |
+| À propos | Le cours donné par un agent IA, la fabrication du site, les versions, la licence ; lien du pied de page |
+| Recherche | Plein texte, accessible de partout (bouton à loupe de l'en-tête) |
 | Composants (`/dev/composants/`) | Pour les développeurs : chaque composant rendu avec son code d'usage ; hors menu, hors index |
 
 La page **Fil rouge** (décidée) présente l'opérateur, l'équipe, les acteurs et les sources de

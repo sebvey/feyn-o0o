@@ -19,3 +19,4 @@
   une ligne ; à 375 px, loupe, thème et Menu sont visibles ; la loupe mène à la recherche avec
   le champ actif ; À propos est atteint depuis le pied de page ; `npm run verify` passe ; clair
   et sombre vérifiés.
+- **Fait le** : 2026-10-25, en-tête sur une ligne dès 58rem (loupe ronde, favicon devant le nom, À propos au pied de page), focus du champ de recherche réparé, site 0.9.0 ; `npm run verify` passe, navigateur testé à 1400, 928, 927, 600 et 375 px, clair et sombre.
