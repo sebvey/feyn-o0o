@@ -174,7 +174,7 @@ pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
 
 Après un changement qui modifie une procédure ou déplace des fichiers, lance un sous-agent neuf
 sur un scénario qui met le changement à l'épreuve, dans une copie du dépôt (dossier de
-travail temporaire), avec un `learner/` fictif si besoin : il ne modifie jamais le dépôt. Demande-lui de relire
+travail temporaire), avec un `learner/` fictif si besoin : il ne modifie jamais le dépôt. Le sous-agent tourne sur Sonnet. Demande-lui de relire
 `CLAUDE.md` sur disque : la version de son contexte peut être périmée. Il ne reçoit pas le
 contexte des hooks de démarrage : donne-lui la sortie de `.claude/hooks/learner-status.sh` dans
 son brief.
