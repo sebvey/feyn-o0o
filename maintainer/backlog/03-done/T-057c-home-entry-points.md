@@ -8,3 +8,4 @@
   2. « Comment lire une page » vient ensuite ; sa première phrase devient « Chaque concept suit la même forme, en trois onglets : **Comprendre** (…), **Consensus ou école** (…) et **Sources** (…). », parenthèses inchangées ;
   3. CHANGELOG du site (PATCH, 0.2.1), build, vérification au bureau et à 375 px, PR, merge et redéploiement de l'aperçu.
 - **Fini quand** : l'aperçu en ligne montre l'accueil dans l'ordre chapeau, « Par où commencer » (deux portes), « Comment lire une page » (phrase corrigée), sans boutons en haut de page.
+- **Fait le** : 2026-10-25, accueil en deux portes dans « Par où commencer », placé avant « Comment lire une page » dont la première phrase est simplifiée ; site 0.2.1 (sebvey/parcours-po-website#2, mergée) ; build sans erreur, contrôle au navigateur au bureau et à 375 px ; aperçu redéployé.

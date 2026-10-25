@@ -6,5 +6,5 @@
 - **Sous-tickets** :
   - T-057a : remplacer les objectifs du cours par sept domaines qui le partitionnent (clos) ;
   - T-057b : organiser le site par domaines, sans redondance entre accueil, carte et lectures (clos) ;
-  - T-057c : refaire l'accueil autour de deux portes (en cours).
+  - T-057c : refaire l'accueil autour de deux portes (clos).
 - **Fini quand** : les sous-tickets sont clos.
