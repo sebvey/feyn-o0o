@@ -1,0 +1,11 @@
+# T-066 : Regrouper dans maintainer/site/ ce qui est propre au site
+
+- **Créé le** : 2026-10-25
+- **Constat** : bilan de la session de maintenance du 2026-10-25 (T-057 à T-065). Ce qui est propre au site est éparpillé : ADR-041 à 043 parmi les ADR du cours, rien dans le cadre sur la façon de tester et de déployer un ticket du site (routine suivie à chaque ticket : build, aperçu local, navigateur au bureau et à 375 px, clair et sombre, déploiement, vérification en ligne ; pièges du navigateur intégré), et `maintainer/site/structure.md` dit encore « contenu propre au site, pas de lien automatique » alors que domaines et sous-concepts sont lus dans le cours au build. Deux fois le mainteneur a dû demander si le cours était juste avant qu'on corrige un texte du site (opérateur et collectivité, T-061 ; « marketing », T-064). Demande du mainteneur : séparer dès maintenant ce qui est propre au site, pour le déplacer plus tard dans le dépôt du site.
+- **À faire** :
+  1. `maintainer/site/procedure.md` (nouveau) : traiter un ticket du site (remonter au cours quand une remarque touche au fond ; textes publics propres au site proposés avant d'être appliqués ; build, aperçu, vérification navigateur, pièges, déploiement, vérification en ligne, limites connues) ;
+  2. `maintainer/site/adr/` (nouveau) : y déplacer ADR-041, 042 et 043, numéros inchangés ;
+  3. `maintainer/site/structure.md` : retirer ce qui est faux, ajouter les principes appliqués en T-057 à T-065 (projection du cours, pas de redondance, sommaire collant, dépliables et « Tout déplier », pas de boîte pour un élément seul, « agent IA ») ;
+  4. skill `maintenance` : renvoi vers `procedure.md` pour un ticket du site, ADR du site dans `maintainer/site/adr/` (comportement : texte exact validé par le mainteneur) ; `maintainer/adr/adr-template.md` en conséquence ;
+  5. T-050d : noter que sa documentation reprend `maintainer/site/`.
+- **Fini quand** : plus rien de propre au site hors de `maintainer/site/` dans `maintainer/` et le skill `maintenance` (hors renvois) ; un sous-agent neuf, sur une copie du dépôt, sait dire où lire et quoi vérifier pour un ticket du site, et où écrire un ADR du site.
