@@ -1,16 +1,16 @@
-# Site support du cours : structure du contenu (brouillon)
+# Site support du cours : structure du contenu
 
-Statut : proposition, après un premier tour d'interview. Rien n'est figé.
+Le plan du site et ses principes. Les décisions qui passent la règle ADR sont dans `adr/` ; la
+façon de traiter un ticket du site, dans `procedure.md`.
 
 ## Décisions du mainteneur (interview, tour 1 et 2)
 
 - **Vitrine publique.** Local d'abord, mise en ligne rapidement (piste : GitHub Pages).
 - **Support indirect.** Le site est « le contenu du cours, sur le web » : un lieu pour réviser et
   comprendre visuellement. **Ni question, ni réponse, ni exercice** : cela reste côté agent.
-- **Pas d'exemples du fil rouge** : les concepts seuls. (Les schémas peuvent s'appuyer sur un
-  cas, à décider.)
-- **Contenu propre au site.** Génération initiale manuelle depuis `course/`, puis le site évolue
-  en parallèle, en complément du cours. Pas de lien automatique.
+- **Projection du cours** (T-050) : même fond que `course/`, mêmes exemples du fil rouge,
+  banque d'exemples exclue ; la forme est au site. Règles dans le README du site, « Le site et
+  le cours ».
 - **Dépôt séparé et public** (ce dépôt contient `learner/` et `maintainer/`).
 - **Style éditorial sobre.**
 - **Fonctions** : recherche plein texte ; sources et vérifications visibles. Pas d'infobulles
@@ -19,7 +19,8 @@ Statut : proposition, après un premier tour d'interview. Rien n'est figé.
 - **Schémas** : SVG statiques soignés, un par concept.
 - **Fil rouge** : visible, avec une page dédiée (opérateur, équipe, acteurs, sources) ; les
   schémas s'y appuient.
-- **Rédaction** : l'agent rédige chaque page, le mainteneur relit la PR.
+- **Rédaction** : l'agent rédige chaque page, le mainteneur relit la PR ; un texte propre au
+  site (accueil, À propos, chapeau) lui est d'abord proposé (`procedure.md`).
 - **Lecteur** : les deux à la fois, le curieux qui découvre (le site doit se suffire) et
   l'apprenant qui révise (relecture rapide).
 
@@ -34,7 +35,7 @@ Statut : proposition, après un premier tour d'interview. Rien n'est figé.
 - 20 fichiers de concept (18 concepts + 2 annexes), sur les mêmes 8 sections : Objectif,
   L'essentiel, Consensus et choix d'école, Sous-concepts, Banque d'exemples, Pièges, Le test
   rapide, Schéma.
-- Un fichier de sources par concept ; un plan ; un glossaire (110 termes, + termes à éviter) ;
+- Un fichier de sources par concept ; un plan ; un glossaire (90 termes, + 6 termes à éviter) ;
   un fil rouge.
 
 ## Ce qui va sur le site, section par section
@@ -107,6 +108,12 @@ renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
 - Même forme pour chaque concept : on apprend la page une fois.
 - Rien de propre à un apprenant, aucune réponse d'exercice (le dépôt du site est public).
 - Contenu à rédiger pour un lecteur autonome, pas pour une conversation.
+- Pas de redondance : une information vit sur une seule page, les autres y renvoient.
+- Une page longue a le sommaire collant commun (`Sommaire`) ; ses blocs longs sont dépliables,
+  avec l'option « Tout déplier » qui garde la section lue en place.
+- Un groupe d'un seul élément ne fait pas de boîte : liste à plat.
+- Chaque page marche au bureau et à 375 px, en clair et en sombre.
+- Le cours est « donné par un agent IA » (jamais « agent d'IA »).
 
 ## Points ouverts
 
@@ -116,4 +123,4 @@ Ces points sont tranchés (tour 4) :
 - **Cours guidé** : mentionné dans À propos, de façon factuelle, sans appel à l'action.
 - **Dépôt public** : sur le compte du mainteneur, au nom du site.
 
-Reste à définir : la liste des situations, et le nom exact.
+Reste à définir : le nom exact.

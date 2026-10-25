@@ -11,4 +11,5 @@
   4. `docs/alignment.md` : procédure de réalignement avec `check-alignment`, quoi reprendre, quoi contrôler, règle de version ;
   5. `docs/maintenance.md` : build, `astro check`, Pagefind, déploiement, checklist qualité avant publication ;
   6. skill `.claude/skills/align-with-course/` : la procédure d'alignement.
+- **Note** (T-066, 2026-10-25) : ce qui est propre au site est réuni dans `maintainer/site/` (`structure.md`, `procedure.md`, `adr/`) ; ce ticket le reprend dans le dépôt du site (`docs/maintenance.md` reprend `procedure.md`) et `maintainer/site/` disparaît.
 - **Fini quand** : un sous-agent neuf, dans une copie du dépôt, réaligne une page après une modification d'une fiche du cours et ajoute un schéma en suivant seulement ces documents, sans autre consigne, et le build passe.
