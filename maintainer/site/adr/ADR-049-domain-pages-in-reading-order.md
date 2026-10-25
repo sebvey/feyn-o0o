@@ -12,14 +12,15 @@ concept 0 », et donné à une seule page Domaines la carte et le détail des co
 désormais une fiche par domaine (ADR-048).
 
 ## Décision
-- Une page par domaine, `/domaines/N/`, projection de `course/domains/N-slug.md` : en-tête
-  (numéro, titre, « à la fin, vous savez »), présentation, puis concepts dépliables sur leurs
-  sous-concepts ; empreinte de la fiche contrôlée par `check-alignment`.
+- Une page par domaine, `/domaines/N/`, courte : en-tête (numéro, titre, « à la fin, vous
+  savez »), « Le problème » et « D'où l'on vient, où l'on va » de `course/domains/N-slug.md`,
+  puis les concepts en tuiles dépliables, chacune avec une accroche d'une ligne récrite depuis
+  « Le fil des concepts » ; empreinte de la fiche contrôlée par `check-alignment`.
 - L'ordre de lecture (`src/lib/lecture.ts`) insère chaque page de domaine avant ses concepts ;
   les cartes et flèches précédent / suivant le suivent. Le concept 17 n'a pas de suivant ; les
   annexes restent hors de l'ordre.
-- `/domaines/` devient la carte : par domaine, « on sait faire », concepts et lien vers sa page ;
-  seules les annexes y gardent leurs dépliables. Les ancres `#domaine-N` y restent valides.
+- `/domaines/` devient la carte : chaque domaine en carte cliquable (« on sait faire ») qui mène
+  à sa page, puis ses concepts en tuiles dépliables. Les ancres `#domaine-N` y restent valides.
 - L'accueil fait commencer par le domaine 1.
 Écrit dans `maintainer/site/structure.md`, le README et `docs/data-map.md` du site.
 
@@ -30,8 +31,12 @@ désormais une fiche par domaine (ADR-048).
 - Faire mener les ancres `#domaine-N` de `/domaines/` vers `/domaines/N/` (prévu au ticket) : le
   sommaire collant de la carte s'appuie sur ces ancres, et une ancienne adresse y trouve la
   carte du domaine, à un clic de sa page.
-- Garder la liste des sous-concepts sur la carte en plus des pages de domaine : une information
-  sur deux pages.
+- Reprendre toute la fiche sur la page de domaine (fil des concepts en prose, cas du fil rouge) :
+  trop long pour donner envie d'ouvrir un concept ; le cas sert au cours, pas au lecteur du site
+  (remarque du mainteneur sur la PR).
+- Sur la carte, un bouton « Lire le domaine N » et les concepts en liens soulignés : peu naturel,
+  et contraire à la règle « Lien souligné » de `structure.md`. Les tuiles reviennent donc sur la
+  carte ; ce n'est pas une information à tenir en double, la liste est lue au build.
 
 ## Conséquences
 Un nouveau domaine dans le cours demande une fiche, puis une page projetée et estampillée.

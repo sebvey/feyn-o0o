@@ -60,8 +60,8 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Page | Rôle |
 |---|---|
 | Accueil | Promesse du cours, public cible, portes : commencer par le domaine 1, voir les domaines, le fil rouge, le glossaire |
-| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts et un lien vers sa page ; puis les annexes, dépliables sur leurs sous-concepts ; sommaire collant |
-| **Domaine** (×7, `/domaines/N/`) | La présentation du domaine (projection de `course/domains/N-slug.md`), puis ses concepts dépliables (sous-concepts et promesses, lus au build dans les pages) ; précédent et suivant dans l'ordre de lecture |
+| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, chacun en carte (ce qu'on sait faire à la fin) qui mène à sa page, puis ses concepts en tuiles dépliables (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
+| **Domaine** (×7, `/domaines/N/`) | « Le problème » et « D'où l'on vient, où l'on va » de `course/domains/N-slug.md`, puis ses concepts en tuiles dépliables, chacun avec une accroche d'une ligne (récrite depuis « Le fil des concepts ») ; précédent et suivant dans l'ordre de lecture. Le cas du fil rouge de la fiche n'est pas repris |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept (groupé par domaine), « termes à éviter » ; sommaire collant des lettres |
 | Fil rouge | L'opérateur, la collectivité, le produit et l'équipe, les acteurs, les sources de données ; même sommaire collant que Domaines |
@@ -86,8 +86,9 @@ présentation de `course/domains/` (ADR-048) : le site ne les fixe pas. Chaque c
 
 L'ordre de lecture passe par les domaines : domaine 1, concepts 0 à 2, domaine 2, concepts 3 à
 8…, jusqu'au concept 17 ; les annexes restent hors de cet ordre. Les cartes précédent / suivant
-des pages de domaine et de concept le suivent (ADR-049). La page Domaines est la carte ; la page
-d'un domaine déplie ses concepts sur leurs sous-concepts, lus au build dans les pages de concept.
+des pages de domaine et de concept le suivent (ADR-049). La page Domaines est la carte ; elle et
+la page d'un domaine déplient les concepts sur leurs sous-concepts, lus au build dans les pages
+de concept.
 
 ## La page Concept
 
@@ -119,6 +120,11 @@ renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
 - Une page longue a le sommaire collant commun (`Sommaire`) ; ses blocs longs sont dépliables,
   avec l'option « Tout déplier » qui garde la section lue en place.
 - Un groupe d'un seul élément ne fait pas de boîte : liste à plat.
+- **Lien souligné** : réservé au lien qui se lit dans le flux sans couper la lecture : un renvoi
+  dans une phrase (« le concept 1 fait décrire le besoin »), une référence citée, et les liens
+  discrets de la marge (pied de page, surtitre « tous les domaines », ligne des prérequis). Ce
+  qu'on propose d'ouvrir (une suite de lecture, une liste de concepts, une action) prend un
+  composant : carte, tuile, pastille ou bouton. Jamais une liste ni une série de liens soulignés.
 - Chaque page marche au bureau et à 375 px, en clair et en sombre.
 - Le cours est « donné par un agent IA » (jamais « agent d'IA »).
 
