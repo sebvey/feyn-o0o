@@ -1,6 +1,6 @@
 ---
 name: learner-onboarding
-description: Accueille un nouvel apprenant quand `learner/apprenant.md` est absent ou n'a pas de surnom : pose les questions d'accueil, crée les fichiers de `learner/`, puis lance le concept 0. Ne pas charger pour un apprenant connu.
+description: Accueille un nouvel apprenant quand `learner/apprenant.md` est absent ou n'a pas de surnom : pose les questions d'accueil, crée les fichiers de `learner/`, puis présente le domaine 1. Ne pas charger pour un apprenant connu.
 ---
 
 # Accueillir un nouvel apprenant
@@ -18,11 +18,11 @@ réponse, style) s'appliquent.
    3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
 2. À sa réponse, lance `.claude/skills/learner-onboarding/init-learner.sh <surnom>` : il crée
    les fichiers de `learner/` depuis `course/templates/learner/`, surnom, tableau et ligne de
-   journal compris. En même temps, lis `course/plan.md`, `course/fil-rouge-velos.md` et
-   `course/concepts/00-scrum.md`. Puis lis avec Read `learner/apprenant.md` et
-   `learner/parcours.md`, écris sa réponse dans `learner/apprenant.md` et appelle-le désormais
+   journal compris. En même temps, lis `course/plan.md`, `course/fil-rouge-velos.md`,
+   `course/domains/1-frame.md` et `course/concepts/00-scrum.md`. Puis lis avec Read
+   `learner/apprenant.md` et `learner/parcours.md`, écris sa réponse dans `learner/apprenant.md` et appelle-le désormais
    par ce surnom.
-3. Dans le même message, enseigne le concept 0 depuis son premier message. Avant la question de
-   contrôle, dont la situation le met en scène, présente le fil rouge en deux lignes (il est PO
-   de la plateforme de données de l'opérateur de vélos). Ce qu'il a dit de Scrum règle la
-   profondeur ; la question de contrôle du concept 0 reste posée.
+3. Dans le même message, présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
+   d'un domaine »), précédé du fil rouge en deux lignes (il est PO de la plateforme de données
+   de l'opérateur de vélos). Le concept 0 vient au message suivant : ce qu'il a dit de Scrum en
+   règle la profondeur, et sa question de contrôle reste posée.
