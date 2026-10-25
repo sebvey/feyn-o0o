@@ -6,5 +6,5 @@
 - **Sous-tickets** :
   - T-071a : écrire une fiche de présentation par domaine dans le cours (clos) ;
   - T-071b : insérer une page par domaine dans la lecture du site (clos) ;
-  - T-071c : faire présenter le domaine par le prof à son premier concept (en cours).
+  - T-071c : faire présenter le domaine par le prof à son premier concept (à faire, affiné, traité à part).
 - **Fini quand** : les sous-tickets sont clos.
