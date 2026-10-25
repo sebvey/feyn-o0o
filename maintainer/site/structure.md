@@ -64,7 +64,7 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Glossaire | Recherche, filtre par concept, « termes à éviter » |
 | Fil rouge | L'opérateur, la collectivité, le produit et l'équipe, les acteurs, les sources de données ; même sommaire collant que Domaines |
 | Consensus ou école | Index transversal : toutes les positions d'école, par auteur |
-| Sources | Bibliographie dédoublonnée et « Non vérifié » |
+| Sources | Les sources piliers (citées par au moins 3 concepts), la légende des types de source, puis concept par concept (groupés par domaine, dépliables) les références et le « Non vérifié », avec un filtre ; sommaire collant |
 | À propos | Pour qui, comment c'est fait, comment lire les pastilles, lien avec le cours accompagné par un prof |
 | Recherche | Plein texte, accessible de partout |
 
