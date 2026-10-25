@@ -84,8 +84,9 @@ dans les pages de concept ; un sommaire collant suit le domaine en cours de lect
 
 ## La page Concept
 
-En-tête : numéro, titre, objectif en une phrase, prérequis (liens), domaine du concept,
-précédent / suivant. Corps sur **trois onglets**, pour que la lecture reste légère :
+En-tête : numéro, domaine du concept, titre, objectif en une phrase, prérequis (liens).
+Précédent / suivant : deux cartes en bas de page et, au bureau, deux flèches dans la barre
+d'onglets collante (T-062). Corps sur **trois onglets**, pour que la lecture reste légère :
 
 | Onglet | Contenu |
 |---|---|
