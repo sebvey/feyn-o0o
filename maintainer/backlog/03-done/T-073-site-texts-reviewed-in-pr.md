@@ -8,3 +8,4 @@
   « Un texte public propre au site (accueil, À propos, chapeau de page, accroche) : écris-le, puis liste-le mot pour mot dans la PR ; le mainteneur le juge sur l'aperçu local, que tu laisses ouvert, et ses remarques se traitent sur la branche. »
   Vérifier qu'aucune autre règle (skill `maintenance`, `structure.md`, docs du site) ne demande encore la validation préalable ; ADR selon §4 (l'ancienne règle est l'option écartée).
 - **Fini quand** : `procedure.md` porte le nouveau texte, l'ancien n'existe plus nulle part, et l'ADR est écrit.
+- **Fait le** : 2026-10-26, nouveau texte dans « Avant de changer » de `maintainer/site/procedure.md`, ancien texte absent ailleurs (skill `maintenance`, `structure.md`, docs du site) ; ADR-050 ; test par agent neuf (récrire un chapeau et des accroches) : il écrit les textes sans validation préalable, les liste dans la PR, laisse l'aperçu ouvert et traite les remarques sur la branche.

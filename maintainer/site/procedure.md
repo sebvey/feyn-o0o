@@ -10,8 +10,10 @@ Commandes du site : `mise -C ../parcours-po-website exec -- <commande>`.
 - Une remarque sur un texte du site qui porte sur le fond (fait du fil rouge, définition,
   exemple, source) : trouve sa source dans `course/` et vérifie-la. Si le cours pèche, corrige-le
   dans le même ticket, puis le site.
-- Un texte public propre au site (accueil, À propos, chapeau de page) : propose-le mot pour mot
-  au mainteneur et attends sa validation. La mise en page et les composants se décident seuls.
+- Un texte public propre au site (accueil, À propos, chapeau de page, accroche) : écris-le, puis
+  liste-le mot pour mot dans la PR ; le mainteneur le juge sur l'aperçu local, que tu laisses
+  ouvert, et ses remarques se traitent sur la branche. La mise en page et les composants se
+  décident seuls.
 
 ## Tester
 
