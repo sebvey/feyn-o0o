@@ -27,11 +27,10 @@
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
 - **Dépendances à retenir** : T-056 (organisation du cours et du site) est le point de passage : il débloque T-050d, T-052 (hors liste, rattaché à T-056), T-050h et T-050i. Tant qu'il n'est pas décidé, ces quatre tickets n'avancent pas. T-050g n'attend que T-050j. Faits : T-050a, T-051, T-050b, T-050c, T-050e, T-050f, T-053, T-054.
-- **Suite, reste à faire** (2026-10-25) : l'aperçu `v0.1.0` est en ligne (https://sebvey.github.io/parcours-po-website/, `noindex`). Reste, dans l'ordre :
+- **Suite, reste à faire** (2026-10-25) : l'aperçu `v0.1.0` est en ligne (https://sebvey.github.io/parcours-po-website/, `noindex`). Reste : T-050j puis T-050g, sans attendre T-056 ; et, dans l'ordre :
   1. T-056 : étudier avec le mainteneur l'organisation du cours et du site (une source, deux sorties) ;
   2. T-052 : éviter le doublon entre les règles du cours et leurs contrôles ;
   3. T-050h, puis T-050i : contrôles de qualité du cours, puis processus de relecture ;
-  4. T-050d : documentation du dépôt du site pour un agent ;
-  5. T-050g : relecture du site par le mainteneur, `v2.0.0`, retrait de `noindex`, règle de renvoi du prof.
+  4. T-050d : réalignement documenté et skill `align-with-course`.
   Non vérifié sur le site : Safari, Firefox, téléphone, lecteur d'écran, rendu Mermaid de `docs/construction.md` sur GitHub.
 - **Fini quand** : les sous-tickets sont clos et T-049 est clos avec eux.
