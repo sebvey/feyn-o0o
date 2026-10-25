@@ -5,6 +5,6 @@
 - **À faire** : en sous-tickets. Décisions de la discussion : une fiche par domaine dans `course/domains/` (le rattachement concept -> domaine reste dans `course/plan.md` seul : ni en-tête de domaine dans les fiches de concept, ni dossier par domaine) ; sur le site, une page par domaine insérée dans la suite linéaire (domaine 1, concepts 0 à 2, domaine 2…), `/domaines/` allégé en carte ; pas de message de transition à part chez le prof.
 - **Sous-tickets** :
   - T-071a : écrire une fiche de présentation par domaine dans le cours (clos) ;
-  - T-071b : insérer une page par domaine dans la lecture du site (en cours) ;
+  - T-071b : insérer une page par domaine dans la lecture du site (clos) ;
   - T-071c : faire présenter le domaine par le prof à son premier concept (à faire).
 - **Fini quand** : les sous-tickets sont clos.
