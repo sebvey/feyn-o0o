@@ -18,14 +18,15 @@
   - T-054 : remonter dans le cours le contenu d'enseignement propre au site (clos) ;
   - T-056 : repenser l'organisation du cours et du site, une source et deux sorties (proposé) ;
   - T-050c : versionnage et alignement côté site (clos) ;
-  - T-050d : documentation du dépôt pour un agent (décidé, dépend de T-056) ;
+  - T-050d : réalignement documenté et skill `align-with-course` (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (clos) ;
-  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (décidé, dépend de T-050d, donc de T-056) ;
+  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (décidé, dépend de T-050j) ;
   - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052, donc de T-056) ;
+  - T-050j : outiller et documenter le dépôt du site, hors réalignement (décidé) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
-- **Dépendances à retenir** : T-056 (organisation du cours et du site) est le point de passage : il débloque T-050d, T-050g, T-052 (hors liste, rattaché à T-056), T-050h et T-050i. Tant qu'il n'est pas décidé, ces cinq tickets n'avancent pas. Faits : T-050a, T-051, T-050b, T-050c, T-050e, T-050f, T-053, T-054.
+- **Dépendances à retenir** : T-056 (organisation du cours et du site) est le point de passage : il débloque T-050d, T-052 (hors liste, rattaché à T-056), T-050h et T-050i. Tant qu'il n'est pas décidé, ces quatre tickets n'avancent pas. T-050g n'attend que T-050j. Faits : T-050a, T-051, T-050b, T-050c, T-050e, T-050f, T-053, T-054.
 - **Suite, reste à faire** (2026-10-25) : l'aperçu `v0.1.0` est en ligne (https://sebvey.github.io/parcours-po-website/, `noindex`). Reste, dans l'ordre :
   1. T-056 : étudier avec le mainteneur l'organisation du cours et du site (une source, deux sorties) ;
   2. T-052 : éviter le doublon entre les règles du cours et leurs contrôles ;

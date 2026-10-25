@@ -1,0 +1,17 @@
+# T-050j : Outiller et documenter le dépôt du site, hors réalignement
+
+- **Créé le** : 2026-10-25
+- **Parent** : T-050
+- **Constat** : remarque du mainteneur du 2026-10-25 : la doc de `../parcours-po-website` est légère pour un développeur, humain ou agent. Le README décrit les dossiers, `docs/construction.md` raconte l'histoire ; rien ne dit comment faire une tâche ni où elle casse. La vérification (build, navigateur au bureau et à 375 px, clair et sombre) est manuelle (`maintainer/site/procedure.md`). T-050d attendait T-056 en entier, alors que seul le réalignement en dépend. Décision du mainteneur : scinder T-050d ; ce ticket prend tout ce que T-056 ne change pas.
+- **À faire**, dans `../parcours-po-website`, en français (noms de fichiers en anglais), chaque règle à un seul endroit :
+  1. `npm run verify` : build ; liens et ancres internes du site construit ; captures headless (Playwright, dépendance de développement) de chaque page au bureau et à 375 px, en clair et en sombre, avec échec sur un défilement horizontal ; contrôle du style dans le texte rendu (pas de tiret long ni de flèche en prose) ; `check-alignment` en avertissement. Captures dans un dossier ignoré par git ;
+  2. page `/dev/composants/` : chaque composant (Sommaire et ses options, Sous, Position et `court`, Pastille, Renvoi, Figure, Reflexe, Erreurs, Refs) rendu avec son code d'usage ; `noindex`, hors navigation, hors index Pagefind ; `verify` la capture aussi ;
+  3. en-tête de commentaire court dans chaque composant et chaque fichier de `src/lib/` et `src/data/` : rôle, props, invariant (ex. Sommaire : cache les liens des sections masquées, « Tout déplier » garde la section lue en place) ;
+  4. `docs/data-map.md` : d'où vient chaque information affichée (source dans `course/`, copie à la main, donnée dérivée au build), avec un schéma du flux ; c'est aussi une entrée de T-056 ;
+  5. `docs/recipes.md` : ajouter un sous-concept, créer une page longue (sommaire, dépliables), ajouter un schéma, corriger un texte (fond : le cours d'abord), publier (version, CHANGELOG, déploiement) ; pour chacune : fichiers, commandes, vérification ;
+  6. `docs/pitfalls.md` : espaces insécables et middleware typographique, ordre CSS de l'en-tête sur téléphone, `BASE_PATH`, Pagefind absent en `dev`, `overflow-anchor`, collisions de classes des schémas ;
+  7. `CLAUDE.md` court : ce qu'est le site, fond au cours et forme au site, commandes (`mise exec -- …`), `npm run verify` avant toute PR, renvois vers README et `docs/` ;
+  8. README allégé : renvoie à `docs/` au lieu de doubler ;
+  9. site 0.8.0 (MINOR), CHANGELOG ; dans ce dépôt, `maintainer/site/procedure.md` (« Tester ») renvoie à `npm run verify` et ne garde du navigateur que ce que le script ne voit pas (interactions).
+  Hors ticket : réalignement et skill `align-with-course` (T-050d, après T-056) ; déménagement de `maintainer/site/` dans le dépôt du site (touche le skill `maintenance`, à proposer à part).
+- **Fini quand** : `npm run verify` passe sur `main` et échoue sur un défilement horizontal provoqué exprès ; un sous-agent neuf, sur une copie du dépôt du site et avec seulement ses documents, ajoute un sous-concept fictif et une page longue avec sommaire, puis `verify` passe ; PR du site et PR du ticket mergées.

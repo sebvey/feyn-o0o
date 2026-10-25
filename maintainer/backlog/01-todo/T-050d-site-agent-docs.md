@@ -12,4 +12,5 @@
   5. `docs/maintenance.md` : build, `astro check`, Pagefind, déploiement, checklist qualité avant publication ;
   6. skill `.claude/skills/align-with-course/` : la procédure d'alignement.
 - **Note** (T-066, 2026-10-25) : ce qui est propre au site est réuni dans `maintainer/site/` (`structure.md`, `procedure.md`, `adr/`) ; ce ticket le reprend dans le dépôt du site (`docs/maintenance.md` reprend `procedure.md`, les ADR du site y vont aussi) et `maintainer/site/` disparaît.
+- **Scindé** (2026-10-25) : tout ce que T-056 ne change pas passe dans T-050j (contrôles, composants, carte des données, recettes, pièges, `CLAUDE.md`, README). Reste ici : `docs/alignment.md`, sa recette et le skill `align-with-course`.
 - **Fini quand** : un sous-agent neuf, dans une copie du dépôt, réaligne une page après une modification d'une fiche du cours et ajoute un schéma en suivant seulement ces documents, sans autre consigne, et le build passe.
