@@ -23,7 +23,7 @@ Statut : proposition, après un premier tour d'interview. Rien n'est figé.
 - **Lecteur** : les deux à la fois, le curieux qui découvre (le site doit se suffire) et
   l'apprenant qui révise (relecture rapide).
 
-- **Compléments au cours** : une lecture rapide par domaine (sections suggérées, dans l'ordre).
+- **Compléments au cours** : la page Domaines, où chaque concept se déplie sur ses sous-concepts.
   Pas de fiches imprimables, de modèles ni de billets pour l'instant.
 - **Langue** : français, structure préparée pour une traduction anglaise plus tard.
 - **Techno** : Astro, recherche Pagefind, GitHub Pages.
@@ -59,7 +59,7 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Page | Rôle |
 |---|---|
 | Accueil | Promesse du cours, public cible, deux portes : commencer par le concept 0, voir les domaines |
-| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts, sa lecture rapide ; puis les annexes |
+| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts dépliables (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept, « termes à éviter » |
 | Fil rouge | L'opérateur de vélos, l'équipe, les acteurs, les sources de données |
@@ -79,8 +79,8 @@ schéma doivent permettre une relecture en deux minutes (l'apprenant).
 
 Les domaines viennent du cours (`course/plan.md`, « Domaines du cours », ADR-039) : le site ne
 les fixe pas. Chaque concept appartient à un seul domaine ; les annexes restent hors domaines.
-La lecture rapide d'un domaine enchaîne des sections de ses concepts, au moins une par concept,
-aucune d'un autre domaine.
+Sur la page Domaines, chaque concept se déplie sur la liste de ses sous-concepts, lue au build
+dans les pages de concept ; un sommaire collant suit le domaine en cours de lecture (T-058).
 
 ## La page Concept
 
@@ -111,7 +111,7 @@ renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
 
 Ces points sont tranchés (tour 4) :
 - **Nom** : descriptif (par exemple « Parcours PO »), à choisir ; le domaine reste à voir à la mise en ligne.
-- **Lectures** : une lecture rapide par domaine (T-057b), à la place des parcours de lecture par situation et du filtre par objectif.
+- **Lectures** : plus de parcours de lecture ; la page Domaines liste les sous-concepts de chaque concept (T-058).
 - **Cours guidé** : mentionné dans À propos, de façon factuelle, sans appel à l'action.
 - **Dépôt public** : sur le compte du mainteneur, au nom du site.
 
