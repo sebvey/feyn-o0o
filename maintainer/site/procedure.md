@@ -15,29 +15,20 @@ Commandes du site : `mise -C ../parcours-po-website exec -- <commande>`.
 
 ## Tester
 
-1. `npm run build` : types, pages, index Pagefind.
-2. Sers `dist/` en tâche de fond : `npx astro preview --port <port libre>`. Un aperçu déjà lancé
-   sert peut-être un ancien build : arrête-le.
-3. Dans le navigateur intégré, chaque page touchée, au bureau puis à 375 px, en clair puis en
-   sombre : rendu, aucun défilement horizontal, interactions (sommaire, dépliables, filtres,
-   ancres, bouton de thème).
-4. Remets le navigateur au bureau, arrête l'aperçu.
-
-Pièges du navigateur intégré :
-- panneau masqué : `requestAnimationFrame` ne tourne pas, un code qui en dépend paraît cassé ;
-  teste panneau affiché, ou appelle la fonction par script ;
-- cache : après un nouveau build, ajoute `?v=N` à l'adresse ;
-- clic par `ref` : l'outil fait d'abord défiler l'élément ; pour mesurer une position après un
-  clic, clique par coordonnées ou par script.
+1. `npm run verify` (README du site, « Vérifier ») : il doit passer. Regarde les captures des pages
+   touchées dans `.verify/captures/`.
+2. Si le ticket touche une interaction (sommaire, dépliables, filtres, ancres, onglets, bouton de
+   thème), que `verify` ne teste pas : `npm run build`, sers `dist/` en tâche de fond
+   (`npx astro preview --port <port libre>`), et teste-la dans le navigateur intégré au bureau
+   puis à 375 px, selon « Tester dans le navigateur intégré d'un agent » de `docs/pitfalls.md` du
+   site. Remets ensuite le navigateur au bureau et arrête l'aperçu.
 
 ## Clore et publier
 
 - Version du site dans `package.json` et son `CHANGELOG.md`, selon « Versions » du README du
-  site ; README à jour si la structure change ; `structure.md` à jour si une page change de rôle.
+  site ; README et `docs/` du site à jour si la structure, une recette ou un piège change ; `structure.md` à jour si une page change de rôle.
 - PR sur `sebvey/parcours-po-website` (squash), en plus de la PR du ticket sur ce dépôt ; la
   description du skill (§3, étape 6) va dans celle-ci, celle du site y renvoie.
-- Redéploie seulement si le mainteneur l'a demandé, après le merge :
-  `gh workflow run deploy.yml --ref main -R sebvey/parcours-po-website`, puis
-  `gh run watch <id> --exit-status -R sebvey/parcours-po-website`. Vérifie en ligne
-  (https://sebvey.github.io/parcours-po-website/) la version du pied de page et le changement.
+- Redéploie seulement si le mainteneur l'a demandé, après le merge, selon « Publier une
+  version » de `docs/recipes.md` du site.
 - Dans la PR, « non vérifié » nomme au moins Safari, Firefox et les lecteurs d'écran.

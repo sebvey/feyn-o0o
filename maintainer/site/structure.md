@@ -68,6 +68,7 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Sources | Les sources piliers (citées par au moins 3 concepts), la légende des types de source, puis concept par concept (groupés par domaine, dépliables) les références et le « Non vérifié », avec un filtre ; sommaire collant |
 | À propos | Le cours donné par un agent IA, la fabrication du site, les versions, la licence |
 | Recherche | Plein texte, accessible de partout |
+| Composants (`/dev/composants/`) | Pour les développeurs : chaque composant rendu avec son code d'usage ; hors menu, hors index |
 
 La page **Fil rouge** (décidée) présente l'opérateur, l'équipe, les acteurs et les sources de
 données ; les schémas y renvoient. Elle ne porte pas les « faits fixés » (règles à trancher
