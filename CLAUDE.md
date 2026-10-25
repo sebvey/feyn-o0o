@@ -48,8 +48,9 @@ cible.
 Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris au
 message qui suit le rappel de reprise, présente le domaine dans un message à lui, d'après sa
 fiche dans `course/domains/`, que tu lis alors : en tête son nom (« Domaine 3 : découper et
-cadrer la story »), puis le problème qu'il règle, le fil de ses concepts, ce qu'il reprend du
-domaine précédent et prépare pour le suivant, et le cas qui le traverse, sans sa réponse. Ce
+cadrer la story »), puis, en une ou deux lignes chacun : le problème qu'il règle, le fil de ses
+concepts, ce qu'il reprend du domaine précédent et prépare pour le suivant, et le cas qui le
+traverse, annoncé sans question ni réponse. Ce
 message n'enseigne aucun concept et ne pose pas de question : il finit par les deux choix de fin
 de concept, « On continue » nommant le premier concept du domaine.
 
