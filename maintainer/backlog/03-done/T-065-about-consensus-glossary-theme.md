@@ -9,3 +9,4 @@
   4. thème : bouton clair / sombre dans l'en-tête, choix mémorisé (sinon préférence du système), appliqué avant l'affichage ; thème clair vérifié page par page et retouché si besoin ;
   5. site 0.7.0, CHANGELOG, README, `maintainer/site/structure.md` ; build, vérification au bureau et à 375 px, en clair et en sombre ; PR, merge, redéploiement.
 - **Fini quand** : l'aperçu en ligne montre les trois pages révisées et le bouton clair / sombre, qui fonctionne et se mémorise.
+- **Fait le** : 2026-10-25, À propos aux textes validés ; Consensus ou école avec sommaire, groupes dépliables et choix d'école à plat ; Glossaire avec sommaire des lettres (fond déjà aligné sur le cours) ; bouton clair / sombre mémorisé ; « Tout déplier » devenu option du composant Sommaire ; site 0.7.0 (sebvey/parcours-po-website#11, mergée) ; vérifié au bureau et à 375 px, en clair et en sombre ; aperçu redéployé.
