@@ -53,6 +53,11 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 - **Créer** : une demande du mainteneur devient un ticket selon `ticket-template.md`, dans
   `01-todo/` s'il l'a décidé, dans `00-proposed/` sinon. Un défaut hors du ticket en cours ne se
   corrige pas au passage.
+- **Session de remarques** : quand le mainteneur décrit ses remarques une à une pour en
+  discuter, ne traite pas une remarque avant d'en avoir discuté : donne ton avis et une
+  proposition ; une fois d'accord, crée un ticket par remarque (sous-ticket du ticket parent de
+  la session s'il en a fait ouvrir un), puis traite-le jusqu'où il l'a autorisé (PR, merge,
+  redéploiement).
 - **Trier un constat** (défaut relevé par un test, un diagnostic ou une revue) avant d'en faire
   un ticket, en autonomie :
   1. vérifie-le toi-même contre les règles, en lisant toute la règle concernée, pas une
