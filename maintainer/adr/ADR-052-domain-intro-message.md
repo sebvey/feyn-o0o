@@ -15,11 +15,12 @@ se tasserait.
 
 ## Décision
 - Avant le premier concept d'un domaine (au fil, au creusage d'un domaine, au message qui suit
-  le rappel de reprise), un message présente le domaine d'après sa fiche : nom, problème, fil
-  des concepts, ce qu'il reprend et prépare, cas qui le traverse, annoncé sans question ni réponse, chaque élément en une ou deux lignes. Il n'enseigne
-  aucun concept, ne pose pas de question et finit par les deux choix de fin de concept. La
-  limite générale d'une quinzaine de lignes s'y applique. Écrit dans `CLAUDE.md`, « Au démarrage
-  d'une session » et « Fin d'un concept ou d'un sous-concept validé ».
+  le rappel de reprise), un message présente le domaine d'après sa fiche, chaque élément en une
+  ou deux lignes : nom, problème, fil des concepts, ce qu'il reprend et prépare, cas qui le
+  traverse, annoncé sans question ni réponse. Il n'enseigne aucun concept, ne pose pas de
+  question et finit par les deux choix de fin de concept. La limite générale d'une quinzaine de
+  lignes s'y applique. Écrit dans `CLAUDE.md`, « Au démarrage d'une session » et « Fin d'un
+  concept ou d'un sous-concept validé ».
 - À l'accueil d'un nouvel apprenant, le skill `learner-onboarding` présente le domaine 1, avec
   le fil rouge, à la place du concept 0, qui vient au message suivant.
 
@@ -27,6 +28,8 @@ se tasserait.
 - Nommer le domaine en tête du premier concept (ancienne règle) : rien sur le problème ni le fil.
 - Ouvrir le premier sous-concept par le nom et deux lignes de la fiche : la limite des quinze
   lignes ferait tasser le sous-concept.
+- Présenter le cas « sans sa réponse » seulement : au test, le prof a repris les questions de la
+  fiche, auxquelles l'apprenant aurait répondu, et recopié la fiche sur une vingtaine de lignes.
 - Exempter le domaine 1 à l'accueil d'un nouvel apprenant : il ne serait jamais présenté.
 
 ## Conséquences
