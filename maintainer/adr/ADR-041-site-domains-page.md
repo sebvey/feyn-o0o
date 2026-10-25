@@ -1,7 +1,7 @@
 # ADR-041 : Le site n'a qu'une entrée par domaines, sans parcours de lecture à part
 
 - **Date** : 2026-10-25
-- **Statut** : accepté
+- **Statut** : complété par ADR-042
 - **Ticket** : T-057b
 
 ## Contexte
