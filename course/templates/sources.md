@@ -6,8 +6,9 @@ consensus, choix d'école et son auteur, date, chiffre, citation), y compris dan
 d'exemples. Le prof ne le lit que si l'apprenant demande d'où vient une affirmation.
 
 Types de source : **primaire** (texte de l'auteur ou de l'organisme), **secondaire** (reprise
-par un tiers sérieux), **marketing** (éditeur ou organisme qui vend un outil ou une formation :
-une allégation). Les faits du fil rouge vélos sont inventés : ils n'ont pas de source.
+par un tiers sérieux), **marketing** (la source vend aussi ce dont elle parle : outil, formation,
+certification ; fiable pour décrire son offre, ce qu'elle recommande est à prendre avec recul).
+Les faits du fil rouge vélos sont inventés : ils n'ont pas de source.
 
 ```markdown
 ---
