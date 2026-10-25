@@ -60,7 +60,7 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 | Page | Rôle |
 |---|---|
 | Accueil | Promesse du cours, public cible, portes : commencer par le domaine 1, voir les domaines, le fil rouge, le glossaire |
-| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, chacun en carte (ce qu'on sait faire à la fin) qui mène à sa page, puis ses concepts en tuiles dépliables (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
+| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, chacun en un bloc : un en-tête cliquable (ce qu'on sait faire à la fin) qui mène à sa page, et ses concepts en tuiles dépliables à l'intérieur (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
 | **Domaine** (×7, `/domaines/N/`) | « Le problème » et « D'où l'on vient, où l'on va » de `course/domains/N-slug.md`, puis ses concepts en tuiles dépliables, chacun avec une accroche d'une ligne (récrite depuis « Le fil des concepts ») ; précédent et suivant dans l'ordre de lecture. Le cas du fil rouge de la fiche n'est pas repris |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept (groupé par domaine), « termes à éviter » ; sommaire collant des lettres |
