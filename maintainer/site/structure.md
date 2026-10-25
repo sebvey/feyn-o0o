@@ -59,8 +59,9 @@ ses exemples et ses schémas. Il y a une vraie rédaction à faire, pas un simpl
 
 | Page | Rôle |
 |---|---|
-| Accueil | Promesse du cours, public cible, deux portes : commencer par le concept 0, voir les domaines |
-| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts dépliables (sous-concepts et promesses, lus au build dans les pages) ; puis les annexes ; sommaire collant |
+| Accueil | Promesse du cours, public cible, portes : commencer par le domaine 1, voir les domaines, le fil rouge, le glossaire |
+| **Domaines** | La carte du cours : les sept domaines de `course/plan.md` dans l'ordre, ce qu'on sait faire à la fin de chacun, ses concepts et un lien vers sa page ; puis les annexes, dépliables sur leurs sous-concepts ; sommaire collant |
+| **Domaine** (×7, `/domaines/N/`) | La présentation du domaine (projection de `course/domains/N-slug.md`), puis ses concepts dépliables (sous-concepts et promesses, lus au build dans les pages) ; précédent et suivant dans l'ordre de lecture |
 | **Concept** (×18 + 2 annexes) | Page de lecture, voir ci-dessous |
 | Glossaire | Recherche, filtre par concept (groupé par domaine), « termes à éviter » ; sommaire collant des lettres |
 | Fil rouge | L'opérateur, la collectivité, le produit et l'équipe, les acteurs, les sources de données ; même sommaire collant que Domaines |
@@ -79,16 +80,21 @@ schéma doivent permettre une relecture en deux minutes (l'apprenant).
 
 ### Domaines
 
-Les domaines viennent du cours (`course/plan.md`, « Domaines du cours », ADR-039) : le site ne
-les fixe pas. Chaque concept appartient à un seul domaine ; les annexes restent hors domaines.
-Sur la page Domaines, chaque concept se déplie sur la liste de ses sous-concepts, lue au build
-dans les pages de concept ; un sommaire collant suit le domaine en cours de lecture (T-058).
+Les domaines viennent du cours (`course/plan.md`, « Domaines du cours », ADR-039) et leur
+présentation de `course/domains/` (ADR-048) : le site ne les fixe pas. Chaque concept appartient
+à un seul domaine ; les annexes restent hors domaines.
+
+L'ordre de lecture passe par les domaines : domaine 1, concepts 0 à 2, domaine 2, concepts 3 à
+8…, jusqu'au concept 17 ; les annexes restent hors de cet ordre. Les cartes précédent / suivant
+des pages de domaine et de concept le suivent (ADR-049). La page Domaines est la carte ; la page
+d'un domaine déplie ses concepts sur leurs sous-concepts, lus au build dans les pages de concept.
 
 ## La page Concept
 
 En-tête : numéro, domaine du concept, titre, objectif en une phrase, prérequis (liens).
-Précédent / suivant : deux cartes en bas de page et, au bureau, deux flèches dans la barre
-d'onglets collante (T-062). Corps sur **trois onglets**, pour que la lecture reste légère :
+Précédent / suivant, dans l'ordre de lecture (une page de domaine avant le premier concept du
+domaine) : deux cartes en bas de page et, au bureau, deux flèches dans la barre d'onglets
+collante (T-062, T-071b). Corps sur **trois onglets**, pour que la lecture reste légère :
 
 | Onglet | Contenu |
 |---|---|
@@ -100,7 +106,7 @@ Pastilles : *consensus*, *choix d'école*, *choix du cours*, utilisées partout 
 
 ## Adresses stables
 
-`/concepts/09` · `/concepts/09#9a1` · `/glossaire#valeur`. C'est ce que le prof donnera en
+`/concepts/09` · `/concepts/09#9a1` · `/domaines/3/` · `/glossaire#valeur`. C'est ce que le prof donnera en
 renvoi. Les renvois internes (« concept 8a2 ») deviennent des liens.
 
 ## Principes
