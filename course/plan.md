@@ -23,7 +23,8 @@ l'annexe.
 
 Le cours se partitionne en sept domaines, dans l'ordre des concepts : chaque concept appartient
 à un seul domaine, et les sept domaines couvrent tous les concepts. Les annexes restent hors
-domaines. À la fin de chaque domaine, l'apprenant sait :
+domaines. Chaque domaine a sa fiche de présentation dans `course/domains/`, selon
+`course/templates/domain.md`. À la fin de chaque domaine, l'apprenant sait :
 
 1. **Le cadre** (concepts 0 à 2) : décrire un produit data par le problème, les utilisateurs et
    la valeur, son objectif produit et le résultat visé, et dire qui tranche quoi entre PO et

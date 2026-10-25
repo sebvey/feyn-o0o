@@ -1,7 +1,7 @@
 # ADR-039 : Sept domaines contigus partitionnent le cours, à la place des objectifs
 
 - **Date** : 2026-10-25
-- **Statut** : accepté
+- **Statut** : complété par ADR-048
 - **Ticket** : T-057a
 
 ## Contexte
