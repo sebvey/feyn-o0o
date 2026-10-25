@@ -1,7 +1,7 @@
 # ADR-042 : La page Domaines déplie chaque concept sur ses sous-concepts, sans lecture rapide
 
 - **Date** : 2026-10-25
-- **Statut** : accepté
+- **Statut** : complété par ADR-043
 - **Ticket** : T-058
 
 ## Contexte
