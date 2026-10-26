@@ -36,6 +36,7 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - MINOR, concept 0 : 0a1 en quatre messages (l'équipe en bref, le PO, les Developers, le Scrum Master), chacun avec son exemple et sa question ; sources ajoutées
 - MINOR, concept 0 : 0a2 en cinq messages (le sprint en bref, Sprint Planning, Daily Scrum, revue de sprint, rétrospective) ; le récit de Diego devient un cas de creusage ; sources ajoutées
 - MINOR, templates/learner : statut `sauté` d'un concept
+- MINOR, concept 1 : la question de « Qui choisit le travail du sprint ? » (1b) porte sur la quantité, pour ne pas refaire le Sprint Planning de 0a2
 
 ## 2.1.0, 2026-10-25
 

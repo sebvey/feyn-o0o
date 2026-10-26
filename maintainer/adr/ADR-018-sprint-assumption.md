@@ -1,7 +1,7 @@
 # ADR-018 : Le cours assume une équipe Scrum en sprints, et l'annexe A2 dit ce qui change sans sprint
 
 - **Date** : 2026-10-22
-- **Statut** : complété par ADR-031, ADR-033
+- **Statut** : complété par ADR-031, ADR-033, ADR-061
 - **Ticket** : T-021
 
 ## Contexte

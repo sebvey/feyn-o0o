@@ -24,7 +24,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   n'est pas une porte de mise en production.
 - **Choix du cours** à partir du Scrum Guide (à présenter comme tels si l'apprenant
   demande d'où ils viennent) : le test rapide ; une échéance propre à un sprint n'a pas sa
-  place dans la DoD ; le pipeline fini mais inconsommable n'est pas un incrément.
+  place dans la DoD ; le pipeline fini mais inconsommable n'est pas un incrément ; la
+  rétrospective réunit l'équipe Scrum, sans les parties prenantes (le Guide ne nomme que
+  l'équipe Scrum).
 - **Choix d'école** : aucun dans ce concept. « User story », « ticket », « vision produit » et
   « Definition of Ready » ne figurent pas dans le Scrum Guide : ils viennent d'autres pratiques
   (concepts 2, 5 et 11).
@@ -98,8 +100,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   répond de la valeur du produit et du backlog ; les **Developers** réalisent l'incrément ; le
   **Scrum Master** répond de l'efficacité de l'équipe. Une responsabilité dit de quoi chacun
   répond, pas qui commande.
-- **Situation** : un collègue de la DSI croise l'apprenant : « Alors, qui est le chef de l'équipe
-  vélos ? Scarlette, j'imagine, c'est elle qui organise les réunions. »
+- **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
+  Scarlette Scrum Master, et l'apprenant est le PO. Un collègue de la DSI le croise : « Alors,
+  qui est le chef de l'équipe vélos ? Scarlette, j'imagine, c'est elle qui organise les
+  réunions. »
 - **Question** : « Que lui réponds-tu ? Dis qui porte quelle responsabilité dans l'équipe
   vélos. »
 - **Réponse attendue** : il n'y a pas de chef : l'équipe Scrum n'a pas de hiérarchie, elle
@@ -124,22 +128,27 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   engineer) écrit lui-même deux éléments du backlog sur les vélos signalés en panne. Odile
   (directrice des opérations) s'en étonne : « Ce n'est pas son rôle, c'est le PO qui écrit le
   backlog. Et puisqu'il les a écrits, Diego va les mettre en tête. »
-- **Question** : « Odile a-t-elle raison sur les deux points ? Dis de quoi le PO répond ici. »
-- **Réponse attendue** : non sur les deux. Le PO répond de la création des éléments, pas
-  forcément de leur rédaction : il peut la confier, et Diego peut écrire des éléments. Le PO en
-  reste responsable : il s'assure qu'ils sont clairs et compris. L'ordre, lui, reste au PO :
-  avoir écrit un élément ne donne pas sa place dans le backlog ; Diego, comme Odile, peut
-  convaincre le PO de le placer haut.
+- **Question** : « Odile a-t-elle raison sur les deux points ? » (deux parties : se pose en
+  deux temps, l'écriture puis l'ordre).
+- **Réponse attendue** : non sur les deux.
+  1. Diego peut-il écrire des éléments ? Oui : le PO répond de la création des éléments, pas
+     forcément de leur rédaction ; il peut la confier, et en reste responsable : il s'assure
+     qu'ils sont clairs et compris.
+  2. Diego peut-il les mettre en tête ? Non : l'ordre reste au PO ; avoir écrit un élément ne
+     donne pas sa place dans le backlog ; Diego, comme Odile, peut convaincre le PO de le
+     placer haut.
 - **Erreurs fréquentes** :
-  - « Oui, seul le PO écrit le backlog » : il en répond, il peut confier le travail. Relancer :
-    « de quoi le PO répond-il : d'écrire, ou de ce que contient le backlog ? ».
-  - « Diego a écrit, Diego ordonne » : relancer : « qui répond de l'ordre du backlog ? ».
+  - Partie 1, « oui, seul le PO écrit le backlog » : il en répond, il peut confier le travail.
+    Relancer : « de quoi le PO répond-il : d'écrire, ou de ce que contient le backlog ? ».
+  - Partie 2, « Diego a écrit, Diego ordonne » : relancer : « qui répond de l'ordre du
+    backlog ? ».
 - **Ce qui marche** : séparer « faire le travail » (confiable) et « en répondre » (le PO seul).
 
 ### Anna est-elle une Developer ? (0a1, les Developers)
 - **Explication** : les Developers sont les membres de l'équipe qui réalisent l'incrément, quel
-  que soit leur métier : le mot « developers » n'exclut personne, ni analyste ni data engineer.
-  Ils répondent de quatre choses : faire le plan du sprint (le backlog de sprint, détaillé en 0a3) ;
+  que soit leur métier : le mot « developers » n'exclut aucune compétence.
+  Ils répondent de quatre choses : créer le backlog de sprint, leur plan pour le sprint (détaillé
+  en 0a3) ;
   la qualité, en respectant la Definition of Done (DoD), les exigences de qualité de l'équipe
   (détaillée en 0a3) ; adapter leur plan chaque jour vers l'objectif de sprint ; se tenir
   responsables les uns envers les autres. Comment transformer un élément du backlog en
@@ -147,17 +156,18 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Situation** : Odile (directrice des opérations) prépare un schéma de l'équipe vélos pour le
   comité de direction : « Developers : Dana et Diego. À part : Anna, analyste, puisqu'elle ne
   construit pas les pipelines. »
-- **Question** : « Corrige le schéma d'Odile, et dis de quoi Anna répond avec Dana et Diego. »
+- **Question** : « Corrige le schéma d'Odile. »
 - **Réponse attendue** : Anna est une Developer : elle réalise une partie de l'incrément (les
   indicateurs, les analyses publiées dans les vues). Les Developers ne se définissent pas par
-  leur métier mais par ce qu'ils réalisent. Avec Dana et Diego, elle répond du plan du sprint,
-  de la qualité selon la DoD, de l'adaptation du plan chaque jour, et chacun se tient
-  responsable envers les autres. Dans une équipe Scrum, il n'y a pas de sous-équipe.
+  leur métier mais par ce qu'ils réalisent. Dans une équipe Scrum, il n'y a pas de sous-équipe.
+  Nuance à apporter si la réponse ne la donne pas : avec Dana et Diego, elle répond du backlog
+  de sprint, de la qualité selon la DoD, de l'adaptation du plan chaque jour, et chacun se tient
+  responsable envers les autres.
 - **Erreurs fréquentes** :
   - « Developer veut dire développeur » : relancer : « qui réalise l'incrément de la
     plateforme ? ».
-  - Ne citer que « ils codent » : demander de quoi les Developers répondent ensemble.
-    Relancer : « qui fait le plan du sprint, et qui l'adapte ? ».
+  - « Anna est à part, mais elle aide les Developers » : il n'y a pas de sous-équipe. Relancer :
+    « dans une équipe Scrum, peut-il y avoir un groupe à part ? ».
 - **Ce qui marche** : « qui réalise l'incrément ? » plutôt que « qui code ? ».
 
 ### Qui tranche dans l'équipe vélos (0a1, le Scrum Master)
@@ -166,9 +176,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   elle-même, à se concentrer sur des incréments qui remplissent la DoD, fait lever les
   obstacles à son avancement, et veille à ce que les événements aient lieu, soient utiles et
   tiennent leur durée. Il sert le PO : il l'aide à trouver des techniques pour l'objectif
-  produit et le backlog, et facilite la collaboration avec les parties prenantes. Il sert
-  l'organisation, en l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe : il ne décide
-  ni de l'ordre du backlog ni de la façon de faire le travail.
+  produit et le backlog, et facilite la collaboration avec les parties prenantes (toute
+  personne ou équipe concernée par le produit, vues au concept 1). Il sert l'organisation, en
+  l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe.
 - **Situation** : Étienne (responsable d'exploitation) relance Scarlette, la Scrum Master, sur la
   vue des vélos en panne. Scarlette, qui anime les événements de l'équipe, la remonte en tête du
   backlog.
@@ -177,8 +187,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Réponse attendue** : non. L'ordre du backlog relève du PO, qui en répond seul ; Scarlette répond
   de l'efficacité de l'équipe et aide à lever les obstacles. Étienne, ou Scarlette pour lui, porte la
   demande au PO et cherche à le convaincre ; le PO décide de la place de la vue. Scarlette peut
-  aussi faciliter l'échange entre Étienne et le PO. Si l'apprenant soulève la délégation : le PO
-  peut confier le travail d'ordonner et en reste responsable (concept 1b).
+  aussi faciliter l'échange entre Étienne et le PO. Si l'apprenant soulève la délégation : vue au
+  message sur le PO, le PO peut confier le travail d'ordonner et en reste responsable.
 - **Erreurs fréquentes** :
   - « Scarlette est la cheffe de l'équipe, elle peut » : il n'y a pas de hiérarchie dans l'équipe
     Scrum ; le Scrum Master sert son efficacité. Relancer : « de quoi répond le Scrum
@@ -215,13 +225,13 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Ce qui marche** : la frise, des blocs collés les uns aux autres.
 
 ### Scarlette choisit le travail du sprint (0a2, Sprint Planning)
-- **Explication** : le Sprint Planning ouvre le sprint ; toute l'équipe Scrum y fait le plan du
+- **Explication** : le Sprint Planning ouvre le sprint ; toute l'équipe Scrum y prépare le
   sprint, en trois sujets. Pourquoi ce sprint a-t-il de la valeur : le PO propose comment le
   produit peut gagner en valeur pendant le sprint, puis toute l'équipe fixe l'objectif de
   sprint. Quoi : les Developers choisissent, en discutant avec le PO, les éléments du backlog
   qu'ils prennent. Comment : les Developers planifient le travail de chaque élément, et eux
   seuls en décident. L'objectif, les éléments et le plan forment le backlog de sprint (0a3).
-  Durée : 8 heures au plus pour un sprint d'un mois, moins pour un sprint plus court.
+  Durée : 8 heures au plus pour un sprint d'un mois, en général moins pour un sprint plus court.
 - **Situation** : Diego (data engineer) décrit le Sprint Planning de l'équipe vélos à un
   collègue de l'équipe appli : « Scarlette, la Scrum Master, arrive avec la liste de ce qu'on
   fait ce sprint, et on se répartit les éléments. »
@@ -248,7 +258,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   adapter leur plan à tout moment de la journée, pas seulement au Daily Scrum.
 - **Situation** : Diego (data engineer) poursuit : « Chaque matin, au Daily Scrum, chacun dit à
   Scarlette ce qu'il a fait la veille, et elle note qui est en retard. »
-- **Question** : « Corrige Diego : à quoi sert le Daily Scrum, et pour qui est-il ? »
+- **Question** : « Corrige Diego. »
 - **Réponse attendue** : le Daily Scrum n'est pas un compte rendu à Scarlette. C'est le point
   des Developers entre eux, sur l'avancement vers l'objectif de sprint ; ils y adaptent leur
   plan. Scarlette n'en est pas la destinataire ; elle peut aider à lever les obstacles que le
@@ -263,23 +273,21 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### Des diapositives pour Étienne (0a2, revue de sprint)
 - **Explication** : la revue de sprint est l'avant-dernier événement du sprint. L'équipe Scrum
-  y présente le résultat de son travail aux parties prenantes clés, et l'avancement vers
+  y présente son travail aux parties prenantes clés, et l'avancement vers
   l'objectif produit est discuté. Ensemble, ils regardent ce que le sprint a produit et ce qui a
   changé autour du produit, puis décident de la suite : le backlog peut être adapté. C'est une
   séance de travail, pas une simple présentation. Durée : 4 heures au plus pour un sprint d'un
   mois. Ce que le PO y mène vient au concept 15c.
 - **Situation** : Diego (data engineer) termine : « Le dernier jour, à la revue, on présente à
-  Étienne, le responsable d'exploitation, des diapositives de ce qui est fini, et il valide. »
+  Étienne, le responsable d'exploitation, des diapositives de ce qui est fini. »
 - **Question** : « Corrige Diego : que se passe-t-il vraiment à la revue de sprint ? »
 - **Réponse attendue** : la revue est une séance de travail : l'équipe montre son travail, puis
   l'équipe et les parties prenantes, dont Étienne, inspectent ce que le sprint a produit et ce
-  qui a changé, et adaptent le backlog. Des diapositives seules n'y suffisent pas : on regarde
-  le produit lui-même. Étienne ne « valide » pas : il donne son avis, et le backlog s'adapte (la
-  revue n'est pas une porte de mise en production, vu en 0b).
+  qui a changé, et adaptent le backlog. Des diapositives seules n'y suffisent pas.
 - **Erreurs fréquentes** :
   - « On rend des comptes à Étienne » ou « c'est un tour de table » : relancer : « à la sortie
     de la revue, qu'est-ce qui a changé ? » (le backlog).
-  - « La revue valide la livraison » : réservé à 0b ; le dire en une ligne, sans réenseigner.
+  - « La revue valide la livraison » : vient en 0b ; le dire en une ligne, sans réenseigner.
 - **Ce qui marche** : demander « à la sortie de la revue, qu'est-ce qui a changé ? ».
 
 ### Odile veut assister à la rétrospective (0a2, rétrospective)
@@ -292,13 +300,15 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Situation** : la vue des vélos en panne a pris du retard. Odile (directrice des opérations)
   demande à venir à la rétrospective de l'équipe vélos « pour comprendre ce qui a coincé, et en
   profiter pour revoir l'ordre du backlog ».
-- **Question** : « À quoi sert la rétrospective, et que réponds-tu à Odile ? »
-- **Réponse attendue** : la rétrospective est le moment où l'équipe Scrum inspecte sa propre
-  façon de travailler et choisit des améliorations ; elle réunit l'équipe Scrum, pas les
-  parties prenantes (lecture du Scrum Guide, qui la confie à l'équipe Scrum). L'ordre du backlog
-  n'y a pas sa place : le PO le tient en continu, et c'est à la revue que les parties prenantes
-  inspectent le travail et que le backlog s'adapte. Odile peut y donner son avis sur le retard,
-  et faire valoir ses demandes auprès du PO.
+- **Question** : « Que réponds-tu à Odile ? »
+- **Réponse attendue** : le point testé : la rétrospective est le moment où l'équipe Scrum
+  inspecte sa propre façon de travailler et choisit des améliorations ; l'ordre du backlog ne
+  s'y revoit pas : le PO le tient en continu, et c'est à la revue que les parties prenantes
+  inspectent le travail et que le backlog s'adapte. Sur la présence d'Odile, le Guide ne nomme
+  que l'équipe Scrum ; le cours en tire qu'elle n'y vient pas (choix du cours, à dire comme
+  tel). Une réponse qui la laisse écouter sans toucher à l'ordre n'est pas fausse : apporter la
+  nuance. Odile peut donner son avis sur le retard à la revue de sprint, et faire valoir ses
+  demandes auprès du PO.
 - **Erreurs fréquentes** :
   - « La rétrospective, c'est faire le bilan du produit » : c'est la façon de travailler qui
     s'inspecte, le produit s'inspecte à la revue. Relancer : « à la rétrospective, qu'est-ce
@@ -308,30 +318,31 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Ce qui marche** : « produit à la revue, façon de travailler à la rétrospective ».
 
 ### Le sprint raconté par Diego (0a2, creusage)
-- **Usage** : après les cinq messages de 0a2, pour « exercice » ou au creusage du concept 0 ; il
-  reprend les erreurs des quatre exemples précédents, dans un seul récit.
-- **Situation** : Diego (data engineer) décrit le sprint de l'équipe vélos à un collègue de
-  l'équipe appli : « Au Sprint Planning, Scarlette choisit ce qu'on fait. Chaque matin, au Daily
-  Scrum, chacun dit à Scarlette ce qu'il a fait la veille. Le dernier jour, à la revue de
-  sprint, on présente à Étienne des diapositives de ce qui est fini. Puis la rétrospective, et
-  on souffle une semaine avant le sprint suivant. »
-- **Question** : « Corrige la description de Diego : relève chaque erreur et dis ce qui se passe
+- **Usage** : après les cinq messages de 0a2, pour « exercice » ou au creusage du concept 0 ; un
+  récit neuf, qui mêle des erreurs sur les quatre événements.
+- **Situation** : Diego (data engineer) raconte le sprint de l'équipe appli, qu'il a observé :
+  « Au Sprint Planning, le PO arrive avec l'objectif de sprint déjà écrit et la liste des
+  éléments. Le Daily Scrum dure une heure, et Odile, la directrice des opérations, y vient chaque
+  matin. À la revue, Scarlette présente seule le travail. La rétrospective, on la saute quand le
+  sprint s'est bien passé. »
+- **Question** : « Corrige le récit de Diego : relève chaque erreur et dis ce qui se passe
   vraiment. »
 - **Réponse attendue** : quatre erreurs.
-  1. Au Sprint Planning, le PO propose comment le sprint peut augmenter la valeur, l'équipe
-     fixe l'objectif de sprint, les Developers choisissent les éléments avec le PO et font leur
-     plan ; Scarlette ne choisit rien.
-  2. Le Daily Scrum est le point des Developers entre eux sur l'avancement vers l'objectif de
-     sprint, où ils adaptent leur plan ; Scarlette n'en est pas la destinataire.
-  3. La revue est une séance de travail : l'équipe montre son travail, puis l'équipe et les
-     parties prenantes, dont Étienne, inspectent ce que le sprint a produit et adaptent le
-     backlog ; des diapositives seules n'y suffisent pas.
-  4. Le sprint suivant commence dès la fin du précédent, sans pause ; c'est la rétrospective
-     qui clôt le sprint.
+  1. Au Sprint Planning, le PO propose comment le sprint peut augmenter la valeur, mais c'est
+     toute l'équipe qui fixe l'objectif de sprint, et les Developers choisissent les éléments
+     avec le PO.
+  2. Le Daily Scrum dure 15 minutes et sert aux Developers ; Odile n'y a pas sa place, il ne
+     sert pas à suivre l'équipe.
+  3. La revue est une séance de travail entre l'équipe Scrum et les parties prenantes, pas la
+     présentation d'une seule personne ; le Scrum Master ne répond pas du travail présenté.
+  4. La rétrospective fait partie de chaque sprint, qu'il se soit bien passé ou non : c'est elle
+     qui le clôt, et l'équipe y cherche toujours comment s'améliorer.
 
-  Trois erreurs sur quatre : réponse partielle, relancer sur celle qui manque (ex. « Et entre
-  la rétrospective et le sprint suivant ? »).
-- **Erreurs fréquentes** : celles des quatre exemples précédents.
+  Trois erreurs sur quatre : réponse partielle, relancer sur celle qui manque (ex. « Et la
+  rétrospective sautée ? »).
+- **Erreurs fréquentes** : celles des exemples « Une semaine pour souffler », « Scarlette
+  choisit le travail du sprint », « Le compte rendu du matin », « Des diapositives pour
+  Étienne » et « Odile veut assister à la rétrospective ».
 
 ### Trois artefacts, trois engagements (0a3)
 - **Explication** : les artefacts représentent le travail ou la valeur ; chacun a un
