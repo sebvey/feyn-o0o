@@ -14,7 +14,7 @@ for f in apprenant.md observations.md parcours.md; do
       FNR == NR { if ($0 ~ /^\| [0-9]+ \|/) { split($0, c, / *\| */); rows = rows "| " c[2] " | " c[3] " | à faire |\n" } next }
       /^\| <une ligne par concept/ { printf "%s", rows; next }
       /^<Le prochain concept/ && ENVIRON["ROLE"] != "" {
-        print "Concept 0, premier message : annonce du parti pris des sprints, puis question de niveau."; next }
+        print "Concept 0, premier message : annonce du parti pris des sprints, puis 0a1 (l\047équipe en bref)."; next }
       /^- <AAAA-MM-JJ>/ { print "- " day ", session 1 : accueil."; next }
       { print }' "$root/course/plan.md" "$tpl/$f"
   else

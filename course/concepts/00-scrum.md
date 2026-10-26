@@ -34,15 +34,16 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprints. Voir « Sous-concepts ».
 
 ## Sous-concepts
-1. **Annonce du parti pris** (premier message du concept, toujours) : le cours suppose une
-   équipe Scrum en sprints ; si l'équipe de l'apprenant travaille sans sprint, il le signale, et
-   l'annexe A2 lui sera proposée aux sous-concepts 11b, 15b, 15c et 16c (le reste du cours vaut
-   sans sprint). L'annonce invite l'apprenant à signaler son cas ; la question du message est la
-   question de niveau. S'il dit travailler sans sprint, note dans « Points annoncés pour plus
-   tard » : annexe A2 à proposer en 11b, 15b, 15c et 16c.
-2. **Question de niveau** (première partie dans le même message) : elle situe ce que l'apprenant sait déjà de Scrum. Elle
-   ne valide ni ne fait sauter aucun sous-concept : tout le concept s'enseigne ensuite. Voir la
-   banque.
+1. **Annonce du parti pris** (en tête du premier message du concept, celui de 0a1 l'équipe en
+   bref, toujours) : le cours suppose une équipe Scrum en sprints ; si l'équipe de l'apprenant
+   travaille sans sprint, il le signale, et l'annexe A2 lui sera proposée aux sous-concepts 11b,
+   15b, 15c et 16c (le reste du cours vaut sans sprint). L'annonce invite l'apprenant à signaler
+   son cas, en deux ou trois lignes ; la question du message est celle de 0a1. S'il dit
+   travailler sans sprint, note dans « Points annoncés pour plus tard » : annexe A2 à proposer en
+   11b, 15b, 15c et 16c.
+2. **Ce que l'apprenant sait déjà** : ce qu'il a dit de Scrum à l'accueil (« Avant le parcours »
+   de `learner/apprenant.md`) ne fait sauter aucun message ; l'explication du sous-concept qui le
+   traite le rappelle (« tu l'as dit : … »), plus court.
 3. **0a le cadre**, en trois parties :
    - **0a1 les responsabilités**, en quatre messages, chacun avec son explication, son exemple
      et sa question, dans cet ordre : l'équipe en bref, le PO, les Developers, le Scrum Master.
@@ -60,49 +61,15 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ## Banque d'exemples
 
-### La question de niveau (avant 0a)
-- **Explication** : annoncer le parti pris en deux ou trois lignes, puis : « Pour savoir d'où
-  tu pars, deux questions. Quelles que soient tes réponses, on voit tout le concept : ce que tu
-  sais déjà ira plus vite. Voici la première : »
-- **Situation** : l'équipe vélos (Dana et Diego, data engineers ; Anna, analyste ; Scarlette, Scrum
-  Master ; l'apprenant, PO) travaille en sprints de deux semaines.
-- **Question**, en deux parties : « Qui décide de l'ordre du backlog ? », puis « Quelle
-  différence fais-tu entre un sprint et un incrément ? »
-- **Pose et correction** : la question ne teste pas, elle situe. Elle se pose en deux temps
-  (« Une question par message » de `CLAUDE.md`), sans relance. Chaque réponse se corrige en une
-  ligne : « Juste : … ; on verra : … », sans nuance détaillée (les nuances viennent avec les
-  sous-concepts). La correction de la première partie pose la seconde ; celle de la seconde
-  enchaîne, dans le même message, sur le premier message de 0a1 (l'équipe en bref). Ce que la réponse a
-  montré de juste, l'explication du sous-concept qui le traite le rappelle (« tu l'as dit : … »),
-  plus court, sans sauter le message.
-- **Ce qu'une réponse juste contient** : le PO décide de l'ordre du backlog (une hésitation
-  compte comme juste) ; le sprint est une durée fixe (une durée donnée, « deux semaines »,
-  compte comme juste) ; l'incrément est le produit dans un état utilisable, qui remplit la
-  Definition of Done (DoD), les exigences de qualité de l'équipe, sans lien obligé avec la fin
-  du sprint.
-- **Mémoire** : une erreur fréquente commise dans la réponse (ci-dessous) se note en vigilance
-  du sous-concept qui la traite ; une notion que l'apprenant ignore ne se note pas (« Prochaine
-  étape » la porte). Une fois ses deux parties répondues, la question est close : on ne la
-  repose pas. Si l'apprenant s'arrête avant une correction, « Prochaine étape » note la partie
-  posée et sa réponse en une ligne ; la session suivante fait d'abord le rappel en deux lignes
-  du démarrage, puis, au message suivant, la ligne de correction et la suite (la seconde
-  partie, ou le premier message de 0a1).
-- **Erreurs fréquentes** :
-  - « L'équipe décide ensemble de l'ordre » ou « c'est le Scrum Master » : vigilance pour 0a1
-    (le PO, le Scrum Master).
-  - « Le PO décide seul de ce qui entre dans le sprint » : vigilance pour 0a2 (Sprint Planning).
-  - « L'incrément, c'est ce qu'on livre à la fin du sprint » : vigilance pour 0b.
-  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog » (toute
-    entrée du backlog, quelle que soit sa taille).
-    Le dire dans la ligne de correction, sans vigilance.
-
 ### Qui est le chef de l'équipe vélos ? (0a1, l'équipe en bref)
 - **Explication** : une équipe Scrum est petite (en général dix personnes au plus), sans
   sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit (l'état
   futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
   fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
-  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog ; les
-  **Developers** réalisent l'incrément ; le **Scrum Master** répond de l'efficacité de l'équipe.
+  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog (la
+  liste ordonnée de ce qu'il faut pour améliorer le produit, vue en 0a3) ; les **Developers**
+  réalisent l'incrément (le produit dans un nouvel état utilisable, vu en 0b) ; le **Scrum
+  Master** répond de l'efficacité de l'équipe.
   Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
   Scarlette Scrum Master, et l'apprenant est le PO. Un collègue de la DSI le croise : « Alors,
@@ -116,8 +83,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   l'efficacité de l'équipe. Organiser les réunions ne fait pas d'elle une cheffe.
 - **Erreurs fréquentes** :
   - « Scarlette, puisqu'elle organise » : relancer : « de quoi répond le Scrum Master ? ».
-  - « Le PO, puisqu'il décide de ce qu'on fait » : le PO répond du quoi et de l'ordre, pas des
-    personnes ni de leur façon de travailler. Relancer : « de quoi répond le PO, et qui décide
+  - « Le PO, puisqu'il décide de ce qu'on fait » : le PO répond de la valeur du produit et du
+    backlog, pas des personnes ni de leur façon de travailler : l'équipe décide en interne qui
+    fait quoi, quand et comment. Relancer : « de quoi répond le PO, et qui décide
     comment faire le travail ? ».
 - **Ce qui marche** : pour chaque rôle, demander « de quoi répond-il ? ».
 
@@ -148,6 +116,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
     Relancer : « de quoi le PO répond-il : d'écrire, ou de ce que contient le backlog ? ».
   - Partie 2, « Diego a écrit, Diego ordonne » : relancer : « qui répond de l'ordre du
     backlog ? ».
+  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog ». Le
+    dire dans la correction, sans vigilance.
 - **Ce qui marche** : séparer « faire le travail » (confiable) et « en répondre » (le PO seul).
 
 ### Anna est-elle une Developer ? (0a1, les Developers)

@@ -46,6 +46,7 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - PATCH, concept 3 : l'Explication de « Tout détailler d'avance ? » (3a2) garde « prêt à être choisi » dans le Scrum Guide 2020 ; seule la phrase sur le bas vague a disparu
 - PATCH, concept 6 : « Le trait qu'Anna veut ajouter » (6b) porte sa consigne de rechange dans un champ Usage, hors de l'Explication
 - PATCH, concepts 8 et 9 : la DoR, nommée avant le concept 11 (8a, 8a2, 9a2), est définie en passant ; en 8a1, la règle de la station favorite se justifie sans un fait de l'appli que l'apprenant n'a pas reçu
+- MINOR, concept 0 : la question de niveau est retirée ; l'annonce du parti pris ouvre 0a1 (l'équipe en bref), et ce que l'apprenant a dit de Scrum à l'accueil y est rappelé ; « ticket » passe dans les erreurs fréquentes de « Diego écrit des éléments du backlog » ; « Qui est le chef de l'équipe vélos ? » définit en passant le backlog et l'incrément, et sa correction ne parle plus de l'ordre, enseigné au message suivant ; plan et sources alignés
 
 ## 2.1.0, 2026-10-25
 

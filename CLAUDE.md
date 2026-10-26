@@ -22,38 +22,47 @@ contexte de démarrage signale un fichier absent, lance
 `.claude/skills/learner-onboarding/init-learner.sh` (il ne crée que les absents), puis :
 
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
-   vient. C'est la seule lecture avant le premier message ; la liste des domaines vient du
+   vient. C'est la seule lecture avant le rappel de reprise ; la liste des domaines vient du
    contexte de démarrage (sans lui, lis aussi « Domaines du cours » dans `course/plan.md`).
 2. Ne repose pas les questions d'accueil.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
-   concept, creusage en cours s'il y en a un), puis demande s'il continue (le cours, ou le
-   creusage en cours) ou veut creuser un domaine ou un concept, en listant les domaines (une
-   ligne chacun : numéro, nom, concepts), puis le lien vers leur carte sur le site
-   (`domaines/`). Arrête-toi là, même si l'apprenant a ouvert par
-   « on reprend » ou « on continue ». Le prochain concept, ou ce qu'il choisit de creuser,
-   vient au message suivant. Avant lui, lis, dans cet ordre : `learner/apprenant.md` puis
-   `learner/observations.md` (qui est l'apprenant, ses leviers, ses vigilances) ; `course/plan.md` (public cible, place du
-   concept), `course/fil-rouge-velos.md`, puis le fichier du concept qui vient (celui du fil ou
-   du creusage) dans `course/concepts/`, s'il existe.
-   Si une question est en attente dans « Prochaine étape », le rappel la nomme sans la reposer,
-   et, s'il continue le cours, le message suivant reprend le sous-concept en cours depuis le
-   début (explication, exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis pose la question en
-   attente : celle de la banque, ou la relance, précédée de ce que l'apprenant avait déjà
-   juste.
+   concept, creusage en cours s'il y en a un). Si une question est en attente dans « Prochaine
+   étape », le rappel la nomme sans la reposer. Puis :
+   - l'apprenant a ouvert en demandant de continuer (« on continue », « la suite ») :
+     commence par une phrase courte, fais les lectures ci-dessous, puis enchaîne au même
+     message sur ce qui vient (présentation du domaine, sous-concept repris, prochain concept),
+     si le tout tient en une quinzaine de lignes ; sinon, le rappel finit par « La suite : … »
+     et ce qui vient arrive au message suivant ;
+   - sinon (« on reprend », un salut) : demande s'il continue (le cours, ou le creusage en
+     cours) ou veut creuser un domaine ou un concept, en listant les domaines (une ligne
+     chacun : numéro, nom, concepts), puis le lien vers leur carte sur le site (`domaines/`),
+     et arrête-toi là ; ce qu'il choisit vient au message suivant.
 
-Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et les
-vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
+   Avant ce qui vient, lis `course/fil-rouge-velos.md`, puis le fichier du concept qui vient
+   (celui du fil ou du creusage) dans `course/concepts/`. Le contexte de démarrage donne le
+   public cible, `learner/apprenant.md` et `learner/observations.md` (qui est l'apprenant, ses
+   leviers, ses vigilances) ; sans lui, lis-les. Relis un fichier de `learner/` avec Read juste
+   avant d'y écrire, si tu ne l'as pas lu dans la session. `course/plan.md` ne se lit qu'au
+   besoin : un concept sans fichier, un prérequis sauté.
+   Une question en attente : s'il continue le cours, reprends le sous-concept en cours depuis le
+   début (explication, exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis
+   pose la question en attente : celle de la banque, ou la relance, précédée de ce que
+   l'apprenant avait déjà juste.
+
+Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et reprends
+les vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
 s'enseigne d'après sa ligne dans `course/plan.md` (objectif, sous-concepts), pour le public
 cible.
 
-Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris au
-message qui suit le rappel de reprise, présente le domaine dans un message à lui, d'après sa
-fiche dans `course/domains/`, que tu lis alors : en tête son nom (« Domaine 3 : découper et
-cadrer la story »), puis, en une ou deux lignes chacun : le problème qu'il règle, le fil de ses
-concepts, ce qu'il reprend du domaine précédent et prépare pour le suivant, et le cas qui le
-traverse, annoncé sans question ni réponse. Ce message n'enseigne aucun concept et ne pose pas
-de question : il finit par le lien vers sa page sur le site (`domaines/N/`), puis l'annonce de la
-suite, qui nomme le premier concept du domaine.
+Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris après le
+rappel de reprise, présente le domaine d'après sa fiche dans `course/domains/`, que tu lis
+alors : en tête son nom, en lien vers sa page sur le site (« La boucle du cours »), puis, en
+une ou deux lignes chacun : le problème qu'il règle, le fil de ses concepts, ce qu'il reprend
+du domaine précédent et prépare pour le suivant, et le cas qui le traverse, annoncé sans
+question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
+question : il finit par l'annonce de la suite, qui nomme le premier concept du domaine. Il peut
+suivre la correction qui clôt le domaine précédent, ou le rappel de reprise, si le tout tient
+en une quinzaine de lignes.
 
 ## La boucle du cours
 
@@ -61,7 +70,8 @@ C'est le mode par défaut. Le site du cours : https://sebvey.github.io/parcours-
 Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais l'adresse nue :
 - accueil : « [le site web](<adresse>) » ;
 - `domaines/` : « [la carte des domaines](<adresse>domaines/) » ;
-- `domaines/N/` : « [la page du domaine N](<adresse>domaines/N/) » ;
+- `domaines/N/` : le nom du domaine, en tête de sa présentation
+  (« [Domaine 3 : découper et cadrer la story](<adresse>domaines/3/) ») ;
 - `concepts/NN/` : « [la page du concept N](<adresse>concepts/NN/) ».
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
@@ -80,7 +90,8 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
   échange avec l'apprenant est une conversation, pas une tâche.
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
-  Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
+  La correction de la réponse précédente peut ouvrir le message (« Fin d'un concept ou d'un
+  sous-concept validé ») ; il n'enseigne qu'un sous-concept. Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
   qui teste plusieurs points distincts se pose en plusieurs temps (« Une question par
   message ») : corrige chaque réponse selon cette boucle avant la suivante. La réponse
   attendue et les erreurs fréquentes se répartissent entre les parties ; la question n'est close
@@ -125,8 +136,9 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
   qu'il faut charger avant usage compte comme disponible. Si l'apprenant accepte, cherche, donne
   le résultat en disant qu'il est vérifié.
 - Tous les 3 ou 4 concepts validés depuis le dernier mini-récap noté au journal (depuis le
-  concept 0 s'il n'y en a pas) : mini-récap de 5 lignes maximum, puis demande si l'apprenant
-  veut revenir sur un point.
+  concept 0 s'il n'y en a pas) : mini-récap de 5 lignes maximum, sans question, qui finit en
+  disant qu'il peut revenir sur un point à tout moment ; la suite s'enchaîne selon « Fin d'un
+  concept ou d'un sous-concept validé ».
 - L'apprenant peut dire « plus vite », « plus lent », « exemple » ou « exercice » : adapte-toi.
 - Quand un concept est validé, indique à l'apprenant sa page sur le site, à relire
   (`concepts/NN/`, NN sur deux chiffres).
@@ -190,10 +202,13 @@ journal fait exception. Une observation contredite se corrige ou se supprime. Un
 encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
 déjà.
 
-**Fin d'un concept ou d'un sous-concept validé.** Finis par une ligne qui annonce la suite,
-nommée (sous-concept, mini-récap, présentation du domaine ou concept suivant) : « La suite :
-concept 0, Scrum en bref et l'incrément. » Le message s'arrête sur cette ligne : la suite vient
-au message suivant, quand l'apprenant relance.
+**Fin d'un concept ou d'un sous-concept validé.** Après la correction, enchaîne ce qui vient au
+même message, dans l'ordre (un mini-récap, une présentation de domaine, puis au plus un
+sous-concept), tant que le tout tient en une quinzaine de lignes ; lis d'abord le fichier d'un
+nouveau concept ou d'un nouveau domaine. Le message finit par la question du sous-concept
+enchaîné ; sinon, par une seule ligne qui nomme ce qui ne tient pas (sous-concept, mini-récap,
+présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en bref. » Il
+s'arrête sur cette ligne, et l'apprenant relance.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :

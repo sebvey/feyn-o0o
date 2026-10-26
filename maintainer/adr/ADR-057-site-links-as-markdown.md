@@ -1,7 +1,7 @@
 # ADR-057 : Le prof donne les liens du site en liens Markdown à texte descriptif
 
 - **Date** : 2026-10-26
-- **Statut** : accepté
+- **Statut** : complété par ADR-068
 - **Ticket** : T-076b
 
 ## Contexte
