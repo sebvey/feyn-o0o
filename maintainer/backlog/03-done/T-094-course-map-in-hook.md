@@ -26,3 +26,4 @@
   apprenant connu ; un sous-agent neuf sur Sonnet, apprenant connu, qui demande de passer à un
   autre domaine, marque les concepts sautés, signale le prérequis sauté et présente le domaine
   sans lire `course/plan.md` ni lister `course/domains/`.
+- **Fait le** : 2026-10-26, le hook imprime la carte du cours (domaines, concepts, prérequis, chemins) tirée de `course/plan.md`, `CLAUDE.md` et `learner-onboarding` y renvoient, ADR-071 ; test Sonnet (apprenant connu, « on reprend » puis demande d'aller au domaine 3) : fiche du domaine 3 lue par son chemin dans la carte, ni `plan.md` ni listing de `course/domains/` ; le prof a lu la demande comme un creusage (aucun `sauté`), constat porté par T-095.

@@ -1,7 +1,7 @@
 # ADR-040 : Le premier message de reprise propose de continuer ou de creuser un domaine ou un concept
 
 - **Date** : 2026-10-25
-- **Statut** : complété par ADR-068
+- **Statut** : complété par ADR-068, ADR-071
 - **Ticket** : T-057a
 
 ## Contexte
