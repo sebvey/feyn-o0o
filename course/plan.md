@@ -9,8 +9,7 @@ proche. Le public cible guide la profondeur, le choix des exemples et ce qu'on �
 
 ## Parti pris : une équipe en sprints
 
-Le cours suppose une équipe Scrum qui travaille en sprints. Le concept 0 l'annonce, même quand
-la question de contrôle fait passer le concept, et invite l'apprenant à dire si son équipe
+Le cours suppose une équipe Scrum qui travaille en sprints. Le concept 0 l'annonce dès son premier message, et invite l'apprenant à dire si son équipe
 travaille sans sprint. Hors du concept 0, les concepts valent sans sprint, sauf 11b, 15b, 15c et 16c :
 leur équivalent en flux continu est l'annexe A2, à proposer à ces sous-concepts quand l'apprenant
 travaille sans sprint ; une réponse juste à la question de l'annexe valide le sous-concept.
@@ -53,7 +52,7 @@ dans `course/concepts/`, selon `course/templates/concept.md`, et ses sources dan
 
 | # | Concept | À la fin, l'apprenant sait… | Prérequis | Sous-concepts | Fichier |
 |---|---|---|---|---|---|
-| 0 | Scrum en bref et l'incrément | situer PO, Scrum Master et Developers, les événements et les trois artefacts ; distinguer sprint et incrément | aucun | une question de contrôle permet de le passer si l'apprenant connaît Scrum ; 0a le cadre, en trois messages : 0a1 les responsabilités, 0a2 le sprint et ses quatre événements, 0a3 les artefacts et leurs engagements ; 0b sprint et incrément | `00-scrum.md` |
+| 0 | Scrum en bref et l'incrément | situer PO, Scrum Master et Developers, les événements et les trois artefacts ; distinguer sprint et incrément | aucun | une question de niveau situe l'apprenant, sans rien faire sauter ; 0a le cadre, en trois parties : 0a1 les responsabilités, en quatre messages (l'équipe en bref, le PO, les Developers, le Scrum Master), 0a2 le sprint et ses quatre événements, en cinq messages (le sprint en bref, Sprint Planning, Daily Scrum, revue de sprint, rétrospective), 0a3 les artefacts et leurs engagements ; 0b sprint et incrément | `00-scrum.md` |
 | 1 | Le produit et le rôle du PO | décrire un produit par problème, utilisateurs, valeur ; dire qui tranche quoi | 0 | 1a le produit : problème, utilisateurs, valeur (les consommateurs de données sont des utilisateurs) ; 1b le PO (quoi, ordre, pourquoi ; une seule personne) face aux Developers (comment, coût) et aux parties prenantes | `01-produit-et-po.md` |
 | 2 | Objectif produit et résultat | distinguer livrable et résultat ; formuler un objectif produit ; choisir une mesure de résultat | 1 | 2a livrable et résultat ; 2b l'objectif produit (la vision : choix d'école) ; 2c choisir une mesure de résultat | `02-objectif-produit-resultat.md` |
 | 3 | Le backlog produit | dire ce qu'est un backlog et ce qu'il n'est pas | 2 | 3a liste ordonnée, émergente, seule source de travail, en deux messages : 3a1 ordonnée, 3a2 émergente (et le rappel : seule source de travail) ; 3b ce qu'il n'est pas (cahier des charges découpé, liste à dépiler, découpage technique de la solution) | `03-backlog-produit.md` |

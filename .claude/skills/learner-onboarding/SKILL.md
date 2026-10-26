@@ -12,7 +12,7 @@ réponse, style) s'appliquent.
    domaines déroulés concept par concept, une question à la fois), donne le lien de la racine
    du site du cours (adresse en tête de « La boucle du cours » de `CLAUDE.md`), dis qu'il peut demander à
    tout moment « plus vite », « plus lent », « exemple », « exercice », ou de creuser un domaine
-   ou un concept, et pose les questions d'accueil, en une
+   ou un concept, ou d'en sauter un (on y reviendra si besoin), et pose les questions d'accueil, en une
    liste :
    1. comment il veut qu'on l'appelle ;
    2. son rôle aujourd'hui, et s'il est ou va être PO d'un produit ;
@@ -26,4 +26,4 @@ réponse, style) s'appliquent.
 3. Dans le même message, présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
    d'un domaine »), précédé du fil rouge en deux lignes (il est PO de la plateforme de données
    de l'opérateur de vélos). Le concept 0 vient au message suivant : ce qu'il a dit de Scrum en
-   règle la profondeur, et sa question de contrôle reste posée.
+   règle la profondeur, et sa question de niveau reste posée.
