@@ -66,8 +66,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit (l'état
   futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
   fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
-  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog ; les
-  **Developers** réalisent l'incrément ; le **Scrum Master** répond de l'efficacité de l'équipe.
+  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog (la
+  liste ordonnée de ce qu'il faut pour améliorer le produit, vue en 0a3) ; les **Developers**
+  réalisent l'incrément (le produit dans un nouvel état utilisable, vu en 0b) ; le **Scrum
+  Master** répond de l'efficacité de l'équipe.
   Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
   Scarlette Scrum Master, et l'apprenant est le PO. Un collègue de la DSI le croise : « Alors,
@@ -81,8 +83,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   l'efficacité de l'équipe. Organiser les réunions ne fait pas d'elle une cheffe.
 - **Erreurs fréquentes** :
   - « Scarlette, puisqu'elle organise » : relancer : « de quoi répond le Scrum Master ? ».
-  - « Le PO, puisqu'il décide de ce qu'on fait » : le PO répond du quoi et de l'ordre, pas des
-    personnes ni de leur façon de travailler. Relancer : « de quoi répond le PO, et qui décide
+  - « Le PO, puisqu'il décide de ce qu'on fait » : le PO répond de la valeur du produit et du
+    backlog, pas des personnes ni de leur façon de travailler : l'équipe décide en interne qui
+    fait quoi, quand et comment. Relancer : « de quoi répond le PO, et qui décide
     comment faire le travail ? ».
 - **Ce qui marche** : pour chaque rôle, demander « de quoi répond-il ? ».
 
