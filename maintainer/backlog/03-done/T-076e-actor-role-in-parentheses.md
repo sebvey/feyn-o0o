@@ -14,3 +14,4 @@
 - **Fini quand** : un sous-agent prof neuf sur Sonnet nomme chaque acteur avec son rôle entre
   parenthèses dans les messages du concept 0, et à sa première mention dans un concept
   suivant.
+- **Fait le** : 2026-10-26, `CLAUDE.md`, puce du fil rouge : rôle entre parenthèses pendant le domaine 1, puis à la première mention dans un concept ; ADR-060 ; test Sonnet (accueil, concept 0 jusqu'aux Developers) : rôle donné à Étienne, Odile, Théo, Scarlette, Anna, Dana et Diego, sauf une correction qui reprend sans rôle des acteurs nommés par l'apprenant.
