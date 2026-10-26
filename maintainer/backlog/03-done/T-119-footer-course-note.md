@@ -10,3 +10,4 @@
   du site sort du pied de page ; les deux zones s'empilent sur mobile.
 - **Fini quand** : `npm run verify` passe, le pied de page s'affiche ainsi au bureau et à
   375 px, et la phrase n'apparaît plus en bas des pages de domaine et de concept.
+- **Fait le** : 2026-10-27, pied de page réorganisé et phrase de fin retirée (sebvey/parcours-po-website#26) ; `npm run verify` passe, vérifié au bureau et à 375 px.
