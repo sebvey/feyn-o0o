@@ -126,36 +126,39 @@ tâches).
   Théo confirme ou infirme la panne sur place. Au refinement, Anna, analyste : « En panne, c'est
   signalé : c'est ce qu'on a dans les données. On l'écrit pour les trois et on passe au
   planning. »
-- **Question** : que réponds-tu à Anna : qui précise ce que veut dire « en panne », quand, et
-  où l'écrit-on ?
-- **Réponse attendue** : ni Anna ni le PO ne le fixent. Chaque utilisateur concerné le précise
-  pour sa story : Maud pour son indicateur, Étienne pour sa vue, Théo pour sa tournée. Nuance,
-  non attendue, à apporter dans la correction : le sens peut différer d'une story à l'autre : chaque story dit le sien, sous un nom qui ne prête pas à
-  confusion (par exemple « vélos signalés » ou « pannes confirmées »). Mais quand un même
-  chiffre sert à plusieurs utilisateurs, ou à la mesure de l'objectif produit, le PO ne laisse
-  pas deux définitions sous un même nom (concept 7a2). Quand : au refinement, avant que la story
-  soit choisie ; tant que le sens n'est pas précisé, la story attend (concepts 7a2 et 8a2). Où :
-  dans la règle ou les critères d'acceptation de chaque story, dès le refinement (concept 8) ;
-  pour Maud, aussi dans la définition écrite de son indicateur, que la DoD exige (concept 12a).
-  Nuances, non attendues : la tournée livrée part déjà des vélos signalés ; reste à voir avec
-  Théo ce que son évolution fait, par exemple, d'un vélo dont il a infirmé la panne. Ce que la
-  source contient ne dit pas ce dont l'utilisateur a besoin ; si un utilisateur retient les
-  pannes constatées, les Developers diront si la donnée existe. Les signalements par téléphone
-  manquent dans la source (concept 12b).
+- **Question**, en deux parties : « Que réponds-tu à Anna : qui précise ce que veut dire « en
+  panne » ? », puis « Quand le précise-t-on, et où l'écrit-on ? »
+- **Réponse attendue** :
+  1. Qui : ni Anna ni le PO ne le fixent. Chaque utilisateur concerné le précise pour sa
+     story : Maud pour son indicateur, Étienne pour sa vue, Théo pour sa tournée. Nuance, non
+     attendue, à apporter dans la correction : le sens peut différer d'une story à l'autre :
+     chaque story dit le sien, sous un nom qui ne prête pas à confusion (par exemple « vélos
+     signalés » ou « pannes confirmées »). Mais quand un même chiffre sert à plusieurs
+     utilisateurs, ou à la mesure de l'objectif produit, le PO ne laisse pas deux définitions
+     sous un même nom (concept 7a2). Nuances, non attendues : la tournée livrée part déjà des
+     vélos signalés ; reste à voir avec Théo ce que son évolution fait, par exemple, d'un vélo
+     dont il a infirmé la panne. Ce que la source contient ne dit pas ce dont l'utilisateur a
+     besoin ; si un utilisateur retient les pannes constatées, les Developers diront si la
+     donnée existe. Les signalements par téléphone manquent dans la source (concept 12b).
+  2. Quand et où : au refinement, avant que la story soit choisie ; tant que le sens n'est pas
+     précisé, la story attend (concepts 7a2 et 8a2). On l'écrit dans la règle ou les critères
+     d'acceptation de chaque story, dès le refinement (concept 8) ; pour Maud, aussi dans la
+     définition écrite de son indicateur, que la DoD exige (concept 12a).
 - **Erreurs fréquentes** :
-  - donner raison à Anna parce que « c'est ce qu'on a » : demander « Maud compte-t-elle les
-    vélos signalés ou les vélos à réparer, et qui le sait ? » ;
-  - trancher soi-même (« signalé, c'est plus simple ») : le PO fait préciser, il ne fixe pas ;
-  - imposer d'office un seul sens aux trois stories, sans demander à chacun : demander
+  - Partie 1, donner raison à Anna parce que « c'est ce qu'on a » : demander « Maud compte-t-elle
+    les vélos signalés ou les vélos à réparer, et qui le sait ? » ;
+  - Partie 1, trancher soi-même (« signalé, c'est plus simple ») : le PO fait préciser, il ne
+    fixe pas ;
+  - Partie 1, imposer d'office un seul sens aux trois stories, sans demander à chacun : demander
     « Maud, Étienne et Théo décident-ils la même chose avec ce mot ? » ;
-  - tenir le refinement en réunion d'équipe, sans Maud, Étienne ni Théo : demander « qui, dans
-    la pièce, sait ce que compte Maud ? » ;
-  - proposer une story « définir "en panne" » : c'est l'objet de 15a2 ;
-  - réponse juste sans le « où » : demander « et alors, où l'écrit-on ? » ;
-  - citer « 10 % de la capacité » pour le refinement : repère du Scrum Guide 2017, retiré en
-    2020 ;
-  - réponse elliptique (« on demande à chacun ») : faire préciser avant de corriger (qui,
-    quand, où).
+  - Partie 2, tenir le refinement en réunion d'équipe, sans Maud, Étienne ni Théo : demander
+    « qui, dans la pièce, sait ce que compte Maud ? » ;
+  - Partie 2, proposer une story « définir "en panne" » : c'est l'objet de 15a2 ;
+  - Partie 2, citer « 10 % de la capacité » pour le refinement : repère du Scrum Guide 2017,
+    retiré en 2020 ;
+  - Partie 2, réponse juste sans le « où » : demander « et alors, où l'écrit-on ? » ;
+  - Partie 1 ou 2, réponse elliptique (« on demande à chacun ») : faire préciser avant de
+    corriger (en partie 1 : qui, pour quelle story ; en partie 2 : quand, où).
 - **Ce qui marche** : « qui se sert de ce chiffre, et pour décider quoi ? » : Maud fixe
   chaque semaine le nombre de techniciens en tournée ; Étienne pilote la flotte ; Théo prépare sa
   tournée. Trois décisions, peut-être trois sens.
@@ -171,25 +174,26 @@ tâches).
   1. « Définir le seuil "presque vide". »
   2. « En tant que responsable d'exploitation, je veux voir les stations presque vides, afin
      d'envoyer les régulateurs plus tôt vers les stations qui se vident. » Elle dépend de la 1.
-- **Question** : que penses-tu de la story 1, que proposes-tu à la place, et que livres-tu à
-  Étienne en attendant ?
-- **Réponse attendue** : la story 1 n'apporte rien seule : une fois finie, Étienne ne voit rien
-  de plus (V d'INVEST), et la 2 en dépend (I, concept 7). Le seuil n'est pas du travail de
-  sprint : c'est une règle métier que le PO fait fixer, au refinement, par l'utilisateur
-  concerné, ici Étienne (concept 8a2) ; le cours n'en donne pas la valeur. La story 2 attend : sans
-  seuil fixé, elle ne remplit pas la DoR. En attendant, on livre d'abord ce dont les règles
-  sont connues : par exemple, les vélos disponibles de chaque station (règle fixée : à quai et
-  louable). Nuance, non attendue : si Étienne a besoin de données pour fixer le seuil, une
-  exploration bornée peut l'éclairer ; elle livre une réponse, pas le seuil, qu'Étienne fixe
-  (concept 17).
+- **Question**, en deux parties : « Que penses-tu de la story 1, et que proposes-tu à la
+  place ? », puis « Que livres-tu à Étienne en attendant ? »
+- **Réponse attendue** :
+  1. La story 1 : elle n'apporte rien seule : une fois finie, Étienne ne voit rien de plus (V
+     d'INVEST), et la 2 en dépend (I, concept 7). Le seuil n'est pas du travail de sprint :
+     c'est une règle métier que le PO fait fixer, au refinement, par l'utilisateur concerné,
+     ici Étienne (concept 8a2) ; le cours n'en donne pas la valeur. La story 2 attend : sans
+     seuil fixé, elle ne remplit pas la DoR. Nuance, non attendue : si Étienne a besoin de
+     données pour fixer le seuil, une exploration bornée peut l'éclairer ; elle livre une
+     réponse, pas le seuil, qu'Étienne fixe (concept 17).
+  2. En attendant : on livre d'abord ce dont les règles sont connues : par exemple, les vélos
+     disponibles de chaque station (règle fixée : à quai et louable).
 - **Erreurs fréquentes** :
-  - garder la story 1 « pour ne pas l'oublier » : demander « une fois finie, que peut faire
-    Étienne de plus ? » ;
-  - en faire une tâche des Developers : le seuil n'est pas un « comment », c'est une règle du
-    domaine ;
-  - proposer soi-même 3 vélos pour débloquer : renvoyer à 8a2, sans réexpliquer ;
-  - « la story 1 n'a pas de valeur » et s'arrêter là : demander « et alors, on fait quoi ? »
-    (où se précise le seuil, et ce qu'on livre en attendant).
+  - Partie 1, garder la story 1 « pour ne pas l'oublier » : demander « une fois finie, que peut
+    faire Étienne de plus ? » ;
+  - Partie 1, en faire une tâche des Developers : le seuil n'est pas un « comment », c'est une
+    règle du domaine ;
+  - Partie 1, proposer soi-même 3 vélos pour débloquer : renvoyer à 8a2, sans réexpliquer ;
+  - Partie 1, « la story 1 n'a pas de valeur » et s'arrêter là : demander « et alors, on fait
+    quoi ? » (où se précise le seuil).
 - **Ce qui marche** : l'apprenant voit souvent seul que la story 1 n'apporte rien ; partir de
   là et montrer où va le travail : au refinement avec Étienne, et une story dont les règles sont
   connues en attendant.
@@ -238,18 +242,19 @@ tâches).
   vélos signalés, pour le blocage ; le blocage lui-même se fait à la DSI. La règle n'est pas
   fixée : bloquer dès le signalement, et débloquer si Théo infirme la panne ? (concept 10a2).
   Maud, responsable maintenance, insiste : « Elle doit entrer dans ce sprint. »
-- **Question** : que proposes-tu au Sprint Planning, et que dis-tu à Maud ?
-- **Réponse attendue** : la story n'est pas prête : la règle de blocage n'est pas fixée, elle
-  ne remplit pas la DoR (règles métier fixées). Le PO ne la propose pas pour ce sprint ; les
-  Developers choisissent parmi les stories prêtes. À Maud, il dit pourquoi, et ce qu'il fait :
-  il fait fixer la règle (concept 8a2) et suit la dépendance envers la DSI (concept 10b2) ; la
-  story garde sa place dans l'ordre (concept 13). Nuance : il ne tranche pas la règle pour la
-  rendre prête.
+- **Question**, en deux parties : « Que proposes-tu au Sprint Planning ? », puis « Que dis-tu
+  à Maud ? »
+- **Réponse attendue** :
+  1. Au Sprint Planning : la story n'est pas prête : la règle de blocage n'est pas fixée, elle
+     ne remplit pas la DoR (règles métier fixées). Le PO ne la propose pas pour ce sprint ;
+     les Developers choisissent parmi les stories prêtes.
+  2. À Maud : il dit pourquoi, et ce qu'il fait : il fait fixer la règle (concept 8a2) et suit
+     la dépendance envers la DSI (concept 10b2) ; la story garde sa place dans l'ordre
+     (concept 13). Nuance : il ne tranche pas la règle pour la rendre prête.
 - **Erreurs fréquentes** :
-  - « on la prend, la règle se décidera pendant le sprint » : demander « que construisent les
-    Developers lundi ? » ;
-  - trancher la règle soi-même : à faire fixer, pas à décider en planning ;
-  - « non » sans la suite : demander « et alors, on fait quoi pour Maud ? ».
+  - Partie 1, « on la prend, la règle se décidera pendant le sprint » : demander « que
+    construisent les Developers lundi ? » ;
+  - Partie 1 ou 2, trancher la règle soi-même : à faire fixer, pas à décider en planning.
 - **Ce qui marche** : relire la DoR de l'équipe à voix haute, ligne par ligne, devant la story.
 
 ### La story qui ne passe pas (15b, en rechange)
@@ -338,13 +343,16 @@ tâches).
 - **Situation** : en fin de sprint (sans sprint : à la fin du cycle que l'équipe se donne),
   toutes les cartes du tableau de l'équipe sont dans la colonne « Fait ». Dana : « La vie de ces
   stories est finie. »
-- **Question** : qu'est-ce que la colonne « Fait » te dit, et que lui manque-t-il ?
-- **Réponse attendue** : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » :
-  l'outil ne connaît pas la DoD. Et la vie d'une story ne s'arrête pas à l'état : la revue (sans
-  sprint, le moment d'inspection de A2c) l'inspecte avec les parties prenantes, et ce qu'on y
-  apprend adapte le backlog.
-- **Erreurs fréquentes** : prendre les états de l'outil pour les étapes de Scrum : demander
-  « où, dans ces colonnes, sont le refinement et la revue ? ».
+- **Question**, en deux parties : « Qu'est-ce que la colonne « Fait » te dit ? », puis « Que
+  lui manque-t-il pour dire, comme Dana, que la vie de ces stories est finie ? »
+- **Réponse attendue** :
+  1. Ce que dit « Fait » : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » :
+     l'outil ne connaît pas la DoD.
+  2. Ce qui manque : la vie d'une story ne s'arrête pas à l'état : la revue (sans sprint, le
+     moment d'inspection de A2c) l'inspecte avec les parties prenantes, et ce qu'on y apprend
+     adapte le backlog.
+- **Erreurs fréquentes** : Partie 2, prendre les états de l'outil pour les étapes de Scrum :
+  demander « où, dans ces colonnes, sont le refinement et la revue ? ».
 - **Ce qui marche** : demander à l'équipe ce que veut dire « Fait » chez elle.
 
 ## Pièges

@@ -106,33 +106,41 @@ ils ne deviennent pas des faits du fil rouge.
   (attribution discordante), classe ensuite chacun selon son pouvoir et son intérêt.
 - **Situation** : un nouvel arrivant demande qui sont les parties prenantes de la plateforme.
   Anna, analyste, répond : « Étienne, Régis, Théo, Maud, Abba, Charlotte, Odile et Scarlette. »
-- **Question** : corrige la liste d'Anna et range chacun dans une catégorie.
+- **Question**, en deux parties : « Corrige la liste d'Anna : qui n'y a pas sa place, et qui y
+  manque ? », puis « Range chacun, dans la liste corrigée, par catégorie. »
 - **Réponse attendue** :
-  - utilisateurs : Étienne, Régis, Théo, Maud, Abba (servie par un canal de l'équipe appli) ;
-    Charlotte et l'équipe appli sont aussi des utilisatrices, qui consomment des données (concept 1a) ;
-  - financeur : la collectivité, que représente Charlotte ;
-  - sponsor : Odile, qui porte le budget de la plateforme ;
-  - équipe voisine : l'équipe appli et sa PO, Pia, absente de la liste ;
-  - fournisseurs de données, tous absents : la DSI et Sid (table des locations et ses accès),
-    l'équipe appli (signalements), la collectivité (référentiel des quartiers). Nuance, à donner
-    dans la correction : la DSI tient aussi les relevés des stations, et l'équipe appli les
-    données des abonnés.
-  Scarlette sort de la liste : elle est dans l'équipe Scrum, comme Dana, Diego, Anna et le PO ; le
-  Scrum Guide distingue l'équipe et ses parties prenantes. Nuances : l'équipe appli et la
-  collectivité cumulent chacune trois catégories (la collectivité : utilisatrice par Charlotte,
-  financeur, fournisseur) ; c'est normal, et la conversation change selon la casquette (Pia
-  cliente des données, ou Pia qui fournit les signalements). Un fournisseur
-  oublié se rappelle quand il bloque : l'accès aux locations en est l'exemple (14c).
+  1. Corriger : Scarlette sort de la liste : elle est dans l'équipe Scrum, comme Dana, Diego,
+     Anna et le PO ; le Scrum Guide distingue l'équipe et ses parties prenantes. Y manquent
+     l'équipe appli et sa PO, Pia, et les fournisseurs de données : la DSI et Sid, la
+     collectivité.
+  2. Ranger :
+     - utilisateurs : Étienne, Régis, Théo, Maud, Abba (servie par un canal de l'équipe appli) ;
+       Charlotte et l'équipe appli sont aussi des utilisatrices, qui consomment des données
+       (concept 1a) ;
+     - financeur : la collectivité, que représente Charlotte ;
+     - sponsor : Odile, qui porte le budget de la plateforme ;
+     - équipe voisine : l'équipe appli et sa PO, Pia ;
+     - fournisseurs de données : la DSI et Sid (table des locations et ses accès), l'équipe
+       appli (signalements), la collectivité (référentiel des quartiers). Nuance, à donner dans
+       la correction : la DSI tient aussi les relevés des stations, et l'équipe appli les
+       données des abonnés.
+     Nuances : l'équipe appli et la collectivité cumulent chacune trois catégories (la
+     collectivité : utilisatrice par Charlotte, financeur, fournisseur) ; c'est normal, et la
+     conversation change selon la casquette (Pia cliente des données, ou Pia qui fournit les
+     signalements). Un fournisseur oublié se rappelle quand il bloque : l'accès aux locations en
+     est l'exemple (14c).
 - **Erreurs fréquentes** :
-  - oublier les fournisseurs de données, erreur plausible chez un profil data qui voit les
-    sources comme de la technique : demander « d'où viennent les locations que veut Charlotte,
-    et qui peut te les couper ? » ;
-  - garder Scarlette, ou ajouter Dana et Diego : demander « qui présente le travail, et à qui ? » ;
-  - ne mettre chaque acteur que dans une case (Charlotte seulement financeur) : demander « que
-    reçoit Charlotte de la plateforme, et que lui fournit sa collectivité ? » ;
-  - réciter les cinq catégories sans les remplir : faire nommer un acteur par catégorie ;
-  - classer Sid en sponsor parce qu'il siège au comité de direction : le sponsor porte le
-    budget de la plateforme, c'est Odile.
+  - Partie 1, oublier les fournisseurs de données, erreur plausible chez un profil data qui
+    voit les sources comme de la technique : demander « d'où viennent les locations que veut
+    Charlotte, et qui peut te les couper ? » ;
+  - Partie 1, garder Scarlette, ou ajouter Dana et Diego : demander « qui présente le travail,
+    et à qui ? » ;
+  - Partie 2, ne mettre chaque acteur que dans une case (Charlotte seulement financeur) :
+    demander « que reçoit Charlotte de la plateforme, et que lui fournit sa collectivité ? » ;
+  - Partie 2, réciter les cinq catégories sans les remplir : faire nommer un acteur par
+    catégorie ;
+  - Partie 2, classer Sid en sponsor parce qu'il siège au comité de direction : le sponsor
+    porte le budget de la plateforme, c'est Odile.
 - **Ce qui marche** : suivre les données. Ce qui entre dans la plateforme (fournisseurs), ce qui
   en sort (utilisateurs), qui paie (financeur, sponsor), qui travaille à côté (équipe voisine).
   Si l'apprenant demande d'où vient la grille, donner la discordance d'attribution franchement.
@@ -211,37 +219,43 @@ ils ne deviennent pas des faits du fil rouge.
 - **Situation** : situation d'exercice. Depuis trois sprints, tu relances Sid par message ;
   l'accès à la table des locations n'est toujours pas donné. Les stories d'Étienne (locations du
   jour) et de Charlotte attendent. La DSI demande de justifier chaque colonne demandée.
-- **Question** : qui saisis-tu, dans quel ordre, et quand passes-tu au suivant ?
+- **Question**, en deux parties : « Qui saisis-tu, et dans quel ordre ? », puis « Quand
+  passes-tu de l'un au suivant ? »
 - **Réponse attendue** :
-  1. Sid, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
-     Relancer n'est pas comprendre. Arriver avec les colonnes demandées et la finalité de
-     chacune, sans l'identifiant de l'abonné s'il ne sert pas (concept 12c), et dire ce que le
-     blocage coûte : deux demandes qui attendent (concept 13b, sans chiffrer).
-  2. Si ça bloque encore, l'escalade : Scarlette, la Scrum Master, qui fait lever les obstacles ;
-     elle peut réunir Sid et le PO, rendre l'obstacle visible.
-  3. Si ça bloque toujours : Odile, le sponsor, qui porte l'obstacle plus haut (nuance, à donner
-     dans la correction : au comité de direction, où siègent Odile et Sid et où se tranchent
-     leurs désaccords).
-  Quand : est juste toute réponse qui passe à la marche suivante après une démarche restée sans
-  effet, dans un délai borné ; le repère du cours (choix du cours, pas une règle Scrum) se donne
-  dans la correction : passer à la marche suivante quand la démarche a eu lieu et que rien n'a
-  changé à la fin du sprint en cours ; prévenir Scarlette sans attendre dès que l'obstacle
-  empêche de livrer ce que l'équipe a prévu au sprint. Une relance par message n'est pas une
-  démarche nouvelle : ici, la conversation avec Sid aurait dû venir à la fin du premier sprint
-  sans réponse, et Scarlette à la fin du suivant ; trois sprints, c'est déjà attendre. Nuances :
-  on ne contourne pas Sid, il sait que le sujet monte ; les colonnes autorisées relèvent de la
-  DSI et des règles de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès,
-  jamais sur l'ordre. Équipe sans Scrum Master (choix du cours) : la marche du milieu revient à
-  qui répond du fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes
-  avant d'en avoir besoin.
+  1. Qui, dans quel ordre :
+     - d'abord Sid, de vive voix (ce n'est pas encore une escalade) : comprendre ce qui bloque.
+       Relancer n'est pas comprendre. Arriver avec les colonnes demandées et la finalité de
+       chacune, sans l'identifiant de l'abonné s'il ne sert pas (concept 12c), et dire ce que
+       le blocage coûte : deux demandes qui attendent (concept 13b, sans chiffrer) ;
+     - si ça bloque encore, l'escalade : Scarlette, la Scrum Master, qui fait lever les
+       obstacles ; elle peut réunir Sid et le PO, rendre l'obstacle visible ;
+     - si ça bloque toujours : Odile, le sponsor, qui porte l'obstacle plus haut (nuance, à
+       donner dans la correction : au comité de direction, où siègent Odile et Sid et où se
+       tranchent leurs désaccords).
+     Nuances : on ne contourne pas Sid, il sait que le sujet monte ; les colonnes autorisées
+     relèvent de la DSI et des règles de protection des données, pas du PO (12c) ; l'escalade
+     porte sur l'accès, jamais sur l'ordre. Équipe sans Scrum Master (choix du cours) : la
+     marche du milieu revient à qui répond du fonctionnement de l'équipe (son manager, par
+     exemple) ; repérer ces personnes avant d'en avoir besoin.
+  2. Quand : est juste toute réponse qui passe à la marche suivante après une démarche restée
+     sans effet, dans un délai borné ; le repère du cours (choix du cours, pas une règle Scrum)
+     se donne dans la correction : passer à la marche suivante quand la démarche a eu lieu et
+     que rien n'a changé à la fin du sprint en cours ; prévenir Scarlette sans attendre dès que
+     l'obstacle empêche de livrer ce que l'équipe a prévu au sprint. Une relance par message
+     n'est pas une démarche nouvelle : ici, la conversation avec Sid aurait dû venir à la fin
+     du premier sprint sans réponse, et Scarlette à la fin du suivant ; trois sprints, c'est
+     déjà attendre.
 - **Erreurs fréquentes** :
-  - aller d'emblée voir Odile par-dessus Sid : demander « sais-tu pourquoi Sid bloque ? » ;
-  - continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et alors, au
-    quatrième sprint, on fait quoi ? » ;
-  - croire que Scarlette va obtenir l'accès à ta place, ou qu'elle ordonne quoi que ce soit (0a1) :
-    elle fait lever l'obstacle, le PO reste en première ligne sur le besoin ;
-  - demander toute la table « pour être tranquille » : c'est souvent la cause du blocage (12c) ;
-  - attendre d'Odile qu'elle réordonne le backlog au passage : elle porte l'obstacle, pas l'ordre.
+  - Partie 1, aller d'emblée voir Odile par-dessus Sid : demander « sais-tu pourquoi Sid
+    bloque ? » ;
+  - Partie 1, croire que Scarlette va obtenir l'accès à ta place, ou qu'elle ordonne quoi que
+    ce soit (0a1) : elle fait lever l'obstacle, le PO reste en première ligne sur le besoin ;
+  - Partie 1, demander toute la table « pour être tranquille » : c'est souvent la cause du
+    blocage (12c) ;
+  - Partie 1, attendre d'Odile qu'elle réordonne le backlog au passage : elle porte l'obstacle,
+    pas l'ordre ;
+  - Partie 1 ou 2, continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et
+    alors, au quatrième sprint, on fait quoi ? ».
 - **Ce qui marche** : dans la correction, pas avant, un escalier à trois marches (schéma), et
   pour chaque marche deux questions :
   « qu'est-ce que je demande ? » et « qu'est-ce qui me fait passer à la suivante ? » (la
@@ -276,7 +290,7 @@ ils ne deviennent pas des faits du fil rouge.
 - **Situation** : situation d'exercice. Tu as présenté à Pia le besoin d'Abba (un tiers des
   abonnés n'a qu'un téléphone basique, sans l'appli). Elle refuse d'inscrire le canal dans son
   backlog pour l'instant : ses propres demandes passent avant.
-- **Question** : qui saisis-tu, et quand ?
+- **Question** : « Qui saisis-tu, et dans quel ordre ? »
 - **Réponse attendue** : d'abord Pia encore : comprendre ce qui passe avant, apporter ce qui
   pèse pour Abba, et ce que la plateforme lui donne aussi (la disponibilité par station pour
   l'appli). Ensuite, si rien ne change (repère du cours, à donner dans la correction : à la fin

@@ -19,3 +19,4 @@
     teste plusieurs points est écrite en parties, selon le modèle de fichier de concept ».
 - **Fini quand** : le modèle porte le format ; un second passage de l'audit ne relève plus de
   question double hors format ; la revue « forme » de `course-lot` porte le critère.
+- **Fait le** : 2026-10-26, format en parties au modèle de concept et critère dans la revue « forme » de `course-lot` ; audit des 122 questions : 18 passées en parties, 2 réduites à une question, 3 limites gardées ; relecture indépendante (2 bloquants corrigés) et second passage d'audit sans reste ; test de 14a en session conforme ; ADR-066.

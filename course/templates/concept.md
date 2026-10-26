@@ -45,7 +45,9 @@ titre: <titre court>
 ### <Titre de l'exemple> (<sous-concept>)
 - **Explication** : <ce que le prof dit avant l'exemple, si besoin>
 - **Situation** : <acteurs et faits du fil rouge>
-- **Question** : <la question qui teste la compréhension>
+- **Question** : <la question qui teste la compréhension ; si elle teste plusieurs points
+  distincts : « **Question**, en deux parties : « … », puis « … » », et la réponse attendue et
+  les erreurs fréquentes réparties entre les parties>
 - **Réponse attendue** : <la réponse juste, avec ses nuances>
 - **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger ; pour
   une réponse fausse, sa relance (« Relancer : <question ciblée> ») ou, sans relance,

@@ -1,7 +1,7 @@
 # ADR-058 : Une question de la banque qui teste plusieurs points se pose en plusieurs temps
 
 - **Date** : 2026-10-26
-- **Statut** : complété par ADR-065
+- **Statut** : complété par ADR-065, ADR-066
 - **Ticket** : T-076c
 
 ## Contexte

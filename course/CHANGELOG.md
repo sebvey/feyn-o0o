@@ -39,6 +39,8 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - MINOR, concept 1 : la question de « Qui choisit le travail du sprint ? » (1b) porte sur la quantité, pour ne pas refaire le Sprint Planning de 0a2
 - MINOR, concepts 0 à 17, annexes A1 et A2 : chaque cas ne demande plus que ce que l'apprenant a reçu à ce point du cours (50 corrections : explications et situations complétées, réponses attendues allégées en nuances, renvois corrigés)
 - MINOR, concept 0 : la question de niveau se pose en deux temps, chaque partie corrigée en une ligne
+- MINOR, modèle de concept : une question qui teste plusieurs points s'écrit « en deux parties », réponse attendue et erreurs fréquentes réparties
+- MINOR, concepts 0, 3, 4, 7, 10, 12, 13, 14, 15, 16 et 17 : 18 questions de la banque qui testaient plusieurs points passent au format en parties ; deux se réduisent à une question (0b « La vue des stations vides livrée un mercredi », 14c « Pia refuse le canal d'Abba »), la partie retirée devenant une nuance de la correction
 - PATCH, concept 3 : « Maud passe par Diego » (3a2) demande la liste des vélos signalés pour la DSI, qui bloque elle-même la location, comme le dit le fil rouge
 - PATCH, concept 3 : l'Explication de « Tout détailler d'avance ? » (3a2) garde « prêt à être choisi » dans le Scrum Guide 2020 ; seule la phrase sur le bas vague a disparu
 - PATCH, concept 6 : « Le trait qu'Anna veut ajouter » (6b) porte sa consigne de rechange dans un champ Usage, hors de l'Explication
