@@ -157,7 +157,8 @@ justes vers les autres concepts, pas de doublon avec un autre fichier de concept
     : `la FORME :
 - pédagogie : chaque sous-concept tient dans un message selon les règles d'enseignement ; chaque \
 question teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite), \
-jamais « as-tu compris ? » ; réponses attendues justes et nuancées ; erreurs fréquentes et pièges \
+jamais « as-tu compris ? » ; une question qui teste plusieurs points est écrite en parties, \
+selon le modèle de fichier de concept ; réponses attendues justes et nuancées ; erreurs fréquentes et pièges \
 réalistes pour le public cible ; conformité au modèle de fichier de concept et aux exigences de \
 la méthode sur la banque d'exemples ;
 - recoupement : aucune section qui explique n'emploie la situation d'une Question de la banque ni \
