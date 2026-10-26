@@ -18,3 +18,4 @@
      de déploiement sans sa demande.
 - **Fini quand** : `check-alignment` ne signale aucun écart, `verify` passe, le mainteneur a
   l'aperçu local.
+- **Fait le** : 2026-10-26, site 2.1.0 aligné sur le cours 2.2.0 (sebvey/parcours-po-website#19) : 20 pages de concept reportées par cinq agents (brief commun), 7 pages de domaine restampées, glossaire, journal (2.0.0 daté) ; relecture par un agent neuf : deux reprises de la banque dans la page 00, retirées ; `check-alignment` sans écart, `verify` passe ; aperçu local laissé ouvert pour le mainteneur ; non mergé, non déployé.
