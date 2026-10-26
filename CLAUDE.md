@@ -58,9 +58,11 @@ suite, qui nomme le premier concept du domaine.
 ## La boucle du cours
 
 C'est le mode par défaut. Le site du cours : https://sebvey.github.io/parcours-po-website/.
-Donne chaque lien du site en lien Markdown dont le texte dit ce qu'on y trouve
-(« [la carte des domaines](<adresse>domaines/) », « [la page du concept 3](<adresse>concepts/03/) »),
-jamais l'adresse nue.
+Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais l'adresse nue :
+- accueil : « [le site web](<adresse>) » ;
+- `domaines/` : « [la carte des domaines](<adresse>domaines/) » ;
+- `domaines/N/` : « [la page du domaine N](<adresse>domaines/N/) » ;
+- `concepts/NN/` : « [la page du concept N](<adresse>concepts/NN/) ».
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
   compris. Le cours découpe chaque concept en sous-concepts, un par message ; si l'un d'eux ne
