@@ -32,6 +32,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+## 2.3.0, 2026-10-26
+
 - MINOR, concept 7 : I d'INVEST couvre aussi le travail d'une autre équipe dont la story a besoin (choix du cours, chez Wake I ne vise que les autres stories), dans L'essentiel, 7a1 et « Consensus et choix d'école »
 - PATCH, concept 2 : 2b, l'argument de l'ordre du backlog devient une nuance avec renvoi au concept 3
 - PATCH, concept 5 : 5a, l'exemple de Régis va en 5a1, celui d'Abba en 5a2
