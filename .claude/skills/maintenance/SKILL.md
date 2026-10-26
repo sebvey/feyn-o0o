@@ -37,10 +37,21 @@ jamais rien.
 - Noms de skills, de dossiers et de nouveaux fichiers en anglais.
 - Une règle vit à un seul endroit : avant d'en écrire une, cherche si elle existe déjà.
 
+## Partir d'un `main` propre
+
+Avant toute écriture (ticket, backlog, cadre, site), au début de la session comme en cours de
+conversation :
+1. Sur une branche `test_…` : demande au mainteneur la confirmation de la purger ; à son accord,
+   jette ce que la session de test a laissé (`git restore .`, `git clean -fd learner/`), passe
+   sur `main` et supprime la branche (`git branch -D`).
+2. Sur la branche d'un ticket : restes-y si l'écriture relève de ce ticket ; sinon, demande.
+3. Sur `main` : `git pull --ff-only`. Des fichiers de `learner/` laissés par une session de cours
+   hors test : commite-les sur `main`, pousse, et dis-le dans la PR suivante.
+
 ## 1. Faire le point sur le backlog
 
-Au début de la session, sauf si le mainteneur arrive avec une demande précise : mets `main` à
-jour depuis le remote (§3, étape 1), puis liste `00-proposed/`, `01-todo/` et `02-wip/`, et
+Au début de la session, sauf si le mainteneur arrive avec une demande précise : pars d'un
+`main` propre (« Partir d'un `main` propre »), puis liste `00-proposed/`, `01-todo/` et `02-wip/`, et
 propose un ordre. Un ticket de `02-wip/` se propose
 en premier : vérifie d'abord sa PR (`gh pr list`) ; si elle attend la revue, il attend le
 merge ; sinon, on reprend sa branche, ou, pour un parent, son prochain sous-ticket dont la
@@ -74,10 +85,7 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 
 ## 3. Traiter un ticket
 
-1. **Démarrer** : mets `main` à jour depuis le remote (`git switch main`,
-   `git pull --ff-only`). Si l'arbre de travail n'est pas propre (fichiers de `learner/` laissés par
-   une session de cours), commite-les sur `main`, pousse,
-   et dis-le dans la PR. Un ticket de `00-proposed/` que le mainteneur demande de traiter est
+1. **Démarrer** : pars d'un `main` propre (section ci-dessus). Un ticket de `00-proposed/` que le mainteneur demande de traiter est
    décidé : il va directement dans `02-wip/`. Déplace le ticket vers
    `02-wip/` (`git mv`), avec son parent s'il n'y est pas déjà ; pour un sous-ticket, passe son
    état à « en cours » dans le parent. Commite le tout sur `main` (« T-000 : en cours ») et
@@ -189,6 +197,15 @@ reprise à l'arrêt).
 
 Le résultat va dans la PR. Les défauts que le test révèle hors du ticket passent le tri des
 constats (§2).
+
+## Préparer un test du cours
+
+Quand le mainteneur demande de préparer un test du cours : pars d'un `main` propre, puis crée la
+branche `test_<AAMMJJ>-<HHMM>`. `learner/` ne garde que `.gitkeep` (nouvel apprenant), sauf si
+le mainteneur donne un point de départ (« depuis le concept 9 ») : écris alors un `learner/`
+fictif, concepts précédents validés, au format de `course/templates/learner/`. Ne commite rien.
+Réponds en deux lignes : la branche, puis « Ouvre une nouvelle conversation dans ce dossier pour
+le test, et reviens ici ensuite ».
 
 ## Cas particulier : diagnostiquer une session de cours
 
