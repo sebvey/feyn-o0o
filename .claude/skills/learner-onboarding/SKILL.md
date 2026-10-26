@@ -1,6 +1,6 @@
 ---
 name: learner-onboarding
-description: Accueille un nouvel apprenant quand `learner/apprenant.md` est absent ou n'a pas de surnom : pose les questions d'accueil, crée les fichiers de `learner/`, puis présente le domaine 1. Ne pas charger pour un apprenant connu.
+description: Accueille un nouvel apprenant quand `learner/apprenant.md` est absent ou que son surnom est encore `<surnom>` : pose les questions d'accueil, remplit les fichiers de `learner/`, puis présente le domaine 1. Ne pas charger pour un apprenant connu.
 ---
 
 # Accueillir un nouvel apprenant
@@ -8,7 +8,7 @@ description: Accueille un nouvel apprenant quand `learner/apprenant.md` est abse
 Les règles de `CLAUDE.md` (15 lignes par message, boucle du cours, mémoire écrite aux points
 de sauvegarde, style) s'appliquent.
 
-1. Premier message, sans appel d'outil : présente le cours en deux lignes (public, sept
+1. Premier message, sans autre appel d'outil : présente le cours en deux lignes (public, sept
    domaines déroulés concept par concept, une question à la fois), dis que tout le cours est
    aussi sur [le site web](<adresse>), pour réviser (adresse en tête de « La boucle du cours » de
    `CLAUDE.md`), dis qu'il peut demander à
@@ -21,12 +21,17 @@ de sauvegarde, style) s'appliquent.
    3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
 2. À chaque réponse, appelle-le par son surnom dès qu'il l'a donné et pose la question suivante,
    sans rien écrire.
-3. À la réponse à la troisième, lance
-   `.claude/skills/learner-onboarding/init-learner.sh <surnom> <rôle> <connaissances>` (les deux
-   dernières réponses entre guillemets, avec ses mots) : il crée `learner/` avec les trois
-   réponses, le tableau, « Prochaine étape » et la ligne de journal. En même temps, lis
-   `course/fil-rouge-velos.md`, la fiche du domaine 1 et le fichier du concept 0 (le public
-   cible et leurs chemins sont dans le contexte de démarrage). Puis présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
+3. À la réponse à la troisième, remplis `learner/`, chaque fichier en une seule écriture,
+   après l'avoir lu avec Read (s'il manque, pars de son modèle dans `course/templates/learner/`),
+   sans commande shell :
+   - `apprenant.md` : `<surnom>` devient son surnom, « Rôle » et « Avant le parcours » prennent
+     ses deux réponses, avec ses mots ;
+   - `observations.md` : `<surnom>` devient son surnom ;
+   - `parcours.md` : `<surnom>` devient son surnom, et le journal reçoit la ligne
+     `- <date du jour, AAAA-MM-JJ>, session 1 : accueil.`
+
+   En même temps, lis `course/fil-rouge-velos.md`, la fiche du domaine 1 et le fichier du
+   concept 0 (le public cible et leurs chemins sont dans le contexte de démarrage). Puis présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
    d'un domaine »), précédé du fil rouge en deux lignes (il est PO de la plateforme de données
    de l'opérateur de vélos). Le concept 0 vient au message suivant : ce qu'il a dit de Scrum en
    règle la profondeur.

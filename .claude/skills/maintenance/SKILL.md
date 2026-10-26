@@ -28,7 +28,9 @@ jamais rien.
   (`adr/`). Un ticket qui touche le site suit aussi `procedure.md`. Tu l'édites en autonomie.
 - **`archive/`** : tu ne le lis que sur demande du mainteneur.
 - **`learner/`** : tu le lis pour diagnostiquer. Tu n'y écris que pour corriger un chemin après
-  un déplacement ou une suppression de fichier, ou par exception écrite dans un ticket, et
+  un déplacement ou une suppression de fichier, pour y recopier les modèles de
+  `course/templates/learner/` quand un ticket les change (sur `main`, `learner/` en est la
+  copie : un apprenant neuf, vérifié par la CI), ou par exception écrite dans un ticket, et
   jamais dans le journal de `learner/parcours.md`, réservé aux sessions de cours.
 
 ## Règles d'écriture du cadre
@@ -44,9 +46,15 @@ conversation :
 1. Sur une branche `test_…` : demande au mainteneur la confirmation de la purger ; à son accord,
    jette ce que la session de test a laissé (`git restore .`, `git clean -fd learner/`), passe
    sur `main` et supprime la branche (`git branch -D`).
-2. Sur la branche d'un ticket : restes-y si l'écriture relève de ce ticket ; sinon, demande.
-3. Sur `main` : `git pull --ff-only`. Des fichiers de `learner/` laissés par une session de cours
-   hors test : commite-les sur `main`, pousse, et dis-le dans la PR suivante.
+2. Sur la branche `learner/<surnom>`, où le mainteneur suit le cours : commite les fichiers de
+   `learner/` modifiés (« <surnom> : progression »), pousse, puis passe sur `main`. À sa
+   demande, la branche se met à jour depuis `main` (`git merge main`) ; un conflit dans
+   `learner/` garde la version de la branche.
+3. Sur la branche d'un ticket : restes-y si l'écriture relève de ce ticket ; sinon, demande.
+4. Sur `main` : `git pull --ff-only`. Des fichiers de `learner/` modifiés : une session de cours
+   a tourné sur `main` ; demande au mainteneur s'ils vont sur sa branche `learner/<surnom>`
+   (créée depuis `main` si elle n'existe pas) ou se jettent (`git restore learner/`). Ils ne se
+   commitent jamais sur `main`.
 
 ## 1. Faire le point sur le backlog
 
@@ -93,7 +101,7 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    ticket demandé par le mainteneur suit les mêmes étapes, sans les déplacements du ticket, sur
    une branche `maint/<slug>`.
 
-   Sur `main`, ne commite directement que les fichiers d'une session de cours, le backlog créé
+   Sur `main`, ne commite directement que le backlog créé
    ou trié hors du traitement d'un ticket (§2), le passage en `02-wip/` et la publication d'une
    version du cours (ci-dessous). Un ticket créé ou
    complété pendant le traitement d'un autre se commite sur la branche de celui-ci ; tout le reste passe par une
@@ -134,7 +142,8 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
    change> »). Un ticket qui modifie `course/` inscrit chaque changement sous « Non publié » de
    `course/CHANGELOG.md`, rangé en MAJOR, MINOR ou PATCH selon les définitions du fichier. Un
    MAJOR se signale en tête de la description de la PR : il casse `learner/parcours.md` et les
-   adresses du site.
+   adresses du site. Un ticket qui modifie `course/plan.md` ou `course/domains/` régénère
+   `course/map.md` (`sh maintainer/scripts/build-map.sh`) et le commite ; la CI le vérifie.
 5. **Clore**, sur la branche : le ticket passe de `02-wip/` dans `03-done/` avec sa ligne
    « Fait le » (résultat du test compris) ; pour un sous-ticket, mets à jour son état et sa
    prochaine étape dans le parent, et le parent passe aussi dans `03-done/` si c'était le
@@ -183,9 +192,8 @@ pas. Sinon, rien : le ticket de `03-done/` et l'historique git suffisent.
 Après un changement qui modifie une procédure ou déplace des fichiers, lance un sous-agent neuf
 sur un scénario qui met le changement à l'épreuve, dans une copie du dépôt (dossier de
 travail temporaire), avec un `learner/` fictif si besoin : il ne modifie jamais le dépôt. Le sous-agent tourne sur Sonnet. Demande-lui de relire
-`CLAUDE.md` sur disque : la version de son contexte peut être périmée. Il ne reçoit pas le
-contexte des hooks de démarrage : donne-lui la sortie de `.claude/hooks/learner-status.sh` dans
-son brief.
+`CLAUDE.md` sur disque, puis les fichiers qu'il importe (`@…`) dans la copie : il ne reçoit
+pas le contexte de démarrage de la copie, et la version de son contexte peut être périmée.
 
 Pour un changement du cours, le scénario par défaut est « on reprend », puis « on continue »,
 puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce le bon concept,
@@ -206,7 +214,7 @@ constats (§2).
 ## Préparer un test du cours
 
 Quand le mainteneur demande de préparer un test du cours : pars d'un `main` propre, puis crée la
-branche `test_<AAMMJJ>-<HHMM>`. `learner/` ne garde que `.gitkeep` (nouvel apprenant), sauf si
+branche `test_<AAMMJJ>-<HHMM>`. `learner/` reste celui de `main` (nouvel apprenant), sauf si
 le mainteneur donne un point de départ (« depuis le concept 9 ») : écris alors un `learner/`
 fictif, concepts précédents validés, au format de `course/templates/learner/`. Ne commite rien.
 Réponds en deux lignes : la branche, puis « Ouvre une nouvelle conversation dans ce dossier pour
