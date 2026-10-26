@@ -16,3 +16,4 @@
   en 8a1, donner le fait comme information de la correction, ou prendre un autre exemple.
 - **Fini quand** : `course-taught-check` sur les concepts 8 et 9 ne relève plus ces trois
   constats.
+- **Fait le** : 2026-10-26, DoR définie en passant en 8a et 8a2 (sa Definition of Ready : les conditions qu'elle écrit pour qu'un élément soit prêt à être choisi), 9a2 s'appuie sur « prêt à être choisi » (3a2) ; en 8a1, la règle 2 se justifie par « vaut pour tout abonné, quelle que soit la story ». Test : `course-taught-check` depuis le concept 8 (12 concepts et annexes, 5 agents, environ 750 000 jetons) : aucun bloquant, les trois constats du ticket ne reviennent pas ; quinze constats mineurs hors ticket proposés en T-084.
