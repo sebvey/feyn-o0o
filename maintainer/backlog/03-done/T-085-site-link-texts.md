@@ -24,3 +24,4 @@
 - **Fini quand** : un test d'accueil d'un nouvel apprenant donne le lien de l'accueil sous la
   forme « tout le cours est aussi sur [le site web](…), pour réviser », et les liens de
   reprise, de domaine et de concept suivent la liste de `CLAUDE.md`.
+- **Fait le** : 2026-10-26, liste fermée des textes de lien dans `CLAUDE.md` et « tout le cours est aussi sur [le site web](…), pour réviser » à l'accueil ; test : accueil et présentation du domaine 1 conformes, aucune adresse nue.
