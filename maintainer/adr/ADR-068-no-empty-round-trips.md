@@ -1,7 +1,7 @@
 # ADR-068 : Le cours enchaîne ce qui vient au lieu d'attendre une relance sans contenu
 
 - **Date** : 2026-10-26
-- **Statut** : accepté
+- **Statut** : complété par ADR-070
 - **Ticket** : T-090
 
 ## Contexte
