@@ -10,3 +10,4 @@
   `npm run verify` ; aperçu local laissé ouvert.
 - **Fini quand** : `check-alignment` ne signale aucun écart, `verify` passe, le mainteneur a
   l'aperçu local.
+- **Fait le** : 2026-10-26, site 2.2.0 aligné sur le cours 2.3.0 (sebvey/parcours-po-website#21) : page 7 (I d'INVEST, 7a1 et position du cours), autres pages inchangées ; empreintes ; `check-alignment` sans écart, `verify` passe ; aperçu local laissé ouvert ; non mergé, non déployé.
