@@ -52,8 +52,8 @@ fiche dans `course/domains/`, que tu lis alors : en tête son nom (« Domaine 3 
 cadrer la story »), puis, en une ou deux lignes chacun : le problème qu'il règle, le fil de ses
 concepts, ce qu'il reprend du domaine précédent et prépare pour le suivant, et le cas qui le
 traverse, annoncé sans question ni réponse. Ce message n'enseigne aucun concept et ne pose pas
-de question : il finit par le lien vers sa page sur le site (`domaines/N/`), puis les deux choix
-de fin de concept, « On continue » nommant le premier concept du domaine.
+de question : il finit par le lien vers sa page sur le site (`domaines/N/`), puis l'annonce de la
+suite, qui nomme le premier concept du domaine.
 
 ## La boucle du cours
 
@@ -173,9 +173,9 @@ journal fait exception. Une observation contredite se corrige ou se supprime. Un
 encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
 déjà.
 
-**Fin d'un concept ou d'un sous-concept validé.** Propose deux choix : « On continue (<la
-suite : sous-concept, mini-récap, présentation du domaine ou concept suivant, nommée>) » ou, mot pour mot, « On s'arrête là
-(ta progression est enregistrée, tu peux fermer) ».
+**Fin d'un concept ou d'un sous-concept validé.** Finis par une ligne qui annonce la suite,
+nommée (sous-concept, mini-récap, présentation du domaine ou concept suivant) : « La suite :
+concept 0, Scrum en bref et l'incrément. »
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :
