@@ -95,7 +95,7 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   - ne pas savoir où écrire 4 : le lien entre contrainte et critère n'est pas un réflexe ;
     demander « qu'est-ce que le testeur doit savoir d'Abba pour vérifier ? ».
 - **Ce qui marche** : le test rapide à voix haute, phrase par phrase ; puis relier chaque
-  critère à la règle qu'il illustre (schéma ci-dessous).
+  critère à la règle qu'il illustre.
 
 ### Le seuil des stations presque vides (8a2)
 - **Explication** : un critère qui s'appuie sur une règle non fixée la fixe en douce : le cas

@@ -22,3 +22,4 @@
   montrer un schéma hors des sections « Schéma » ; la règle de `CLAUDE.md` est revenue à sa
   forme courte ; `course-taught-check` lancé depuis le premier concept touché, sans constat
   causé par le ticket.
+- **Fait le** : 2026-10-26, consignes de schéma retirées ou dites en mots dans les concepts 0, 4, 6, 7, 8, 9, 11, 13, 14, 17 et A2, moment du schéma de 13b dans sa section « Schéma », modèle de concept ; partie `CLAUDE.md` détachée en T-105 (comportement, à valider). `course-taught-check` depuis le concept 0 : aucun constat causé par le ticket ; six constats mineurs antérieurs, en T-106.

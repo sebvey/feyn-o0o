@@ -243,7 +243,7 @@ même rôle, ou si c'est celui qui construit, l'acteur est probablement à revoi
 cours, pas règle absolue) ; dans tous les cas, le PO le vérifie auprès de l'utilisateur.
 
 ## Schéma
-Deux schémas, chacun au message de son sous-concept.
+Deux schémas, un par sous-concept.
 
 **6a, deux flèches vers l'acteur**, sur un cas inventé pour l'illustration, qui n'est pas celui
 d'un exercice. La phrase de la story en trois blocs (« En tant que », « je

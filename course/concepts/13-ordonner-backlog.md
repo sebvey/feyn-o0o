@@ -221,8 +221,7 @@ du fil rouge.
     elle ne met pas en tête d'office ; et la comparaison ne peut pas venir avant les locations
     par quartier.
 - **Ce qui marche** : faire décrire en mots la forme des deux coûts dans le temps (dès le
-  départ, ou plat puis qui monte jusqu'au bilan) ; montrer le schéma dans la correction, pas
-  avant la réponse.
+  départ, ou plat puis qui monte jusqu'au bilan).
 
 ### Tout est Must pour le bilan (13c)
 - **Explication** : pour une échéance, MoSCoW classe ce qui doit y être : Must (le minimum
@@ -304,7 +303,7 @@ Trois panneaux.
    et un cadenas sur les cartes pas prêtes (cas inventé : une règle non fixée, un accès non obtenu), avec une petite flèche « ce qui
    la rend prête » vers une note à part. Légende : « une place par carte, un pourquoi par
    place ».
-2. **Coût du retard (13b)** : deux courbes à main levée, sans graduation, le temps en abscisse.
+2. **Coût du retard (13b)**, montré dans la correction, pas avant la réponse : deux courbes à main levée, sans graduation, le temps en abscisse.
    « coût qui grandit dès aujourd'hui » monte dès le départ ; « coût lié à une échéance » reste
    plat, monte jusqu'à un trait vertical « échéance », puis retombe. Légende : « la forme, pas les chiffres ».
 3. **MoSCoW (13c)** : une boîte « une échéance » avec quatre bacs empilés, Must, Should,

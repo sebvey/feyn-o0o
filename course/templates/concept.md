@@ -52,7 +52,7 @@ titre: <titre court>
 - **Erreurs fréquentes** : <ce que répond souvent l'apprenant, et comment le corriger ; pour
   une réponse fausse, sa relance (« Relancer : <question ciblée> ») ou, sans relance,
   « réexpliquer » ; une question de « Ce qui marche » n'est une relance que si l'erreur y renvoie>
-- **Ce qui marche** : <formulation, schéma ou relance qui a fait déclic>
+- **Ce qui marche** : <formulation ou relance qui a fait déclic>
 
 ## Pièges
 <Les erreurs typiques du public cible, et comment les repérer.>

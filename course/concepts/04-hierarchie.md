@@ -112,8 +112,8 @@ mois, puis comparaison au même mois de l'an dernier).
     et le PO l'ordonne ;
   - Partie 2, trancher 2 et 5 sur leur libellé (« une vue, c'est une feature ») : le mot « vue » ne
     fait pas le niveau, les besoins d'Étienne le font.
-- **Ce qui marche** : partir du haut et demander ce que chaque élément contient, puis dessiner
-  l'arbre (schéma ci-dessous) avec les éléments placés.
+- **Ce qui marche** : partir du haut et demander ce que chaque élément contient, puis placer
+  les éléments dans l'arbre, niveau par niveau.
 
 ### « Scrum impose trois niveaux » (4a2)
 - **Explication** : les noms et le nombre de niveaux viennent des outils et des équipes, pas du

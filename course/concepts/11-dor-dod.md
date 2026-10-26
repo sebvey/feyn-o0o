@@ -211,7 +211,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
     réflexe (DoR : règles fixées) ; ici la story n'en dépend pas, la vue des locations du jour
     les montrera toutes ; la règle concerne les indicateurs (concept 12a).
 - **Ce qui marche** : comparer la DoD (quand une story est terminée) et la DoR (quand elle
-  peut commencer) : les deux portes du sprint (schéma).
+  peut commencer) : les deux portes du sprint.
 
 ### Une DoR qui devient barrière (11b, en rechange)
 - **Explication** : une DoR trop stricte devient une barrière à franchir avant chaque sprint ;

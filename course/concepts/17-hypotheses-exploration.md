@@ -314,7 +314,8 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   - réponse elliptique (« 90 % sorti de nulle part ») : faire dire ce qu'on met à la place, et
     qui le fixe.
 - **Ce qui marche** : « une camionnette envoyée pour rien, une station vide manquée : qui sait
-  laquelle coûte le plus ? ». Puis le schéma de la balance.
+  laquelle coûte le plus ? ». Puis l'image d'une balance : la fausse alerte sur un plateau, le
+  cas manqué sur l'autre.
 
 ### Les chiffres d'Anna (17c, en rechange)
 - **Explication** : à poser après « Le critère à 90 % » si l'apprenant a besoin d'un cas

@@ -259,7 +259,7 @@ ils ne deviennent pas des faits du fil rouge.
     pas l'ordre ;
   - Partie 1 ou 2, continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et
     alors, au quatrième sprint, on fait quoi ? ».
-- **Ce qui marche** : dans la correction, pas avant, un escalier à trois marches (schéma), et
+- **Ce qui marche** : dans la correction, pas avant, l'image d'un escalier à trois marches, et
   pour chaque marche deux questions :
   « qu'est-ce que je demande ? » et « qu'est-ce qui me fait passer à la suivante ? » (la
   démarche faite, rien de changé à la fin du sprint). Si la réponse s'arrête aux noms,
