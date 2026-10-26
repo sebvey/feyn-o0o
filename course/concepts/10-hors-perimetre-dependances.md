@@ -117,26 +117,28 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
 
   La story est livrée. À la revue de sprint, Maud, responsable maintenance, s'agace : « Un
   vélo signalé reste louable, c'est un bug ! »
-- **Question** : que réponds-tu à Maud, en tant que PO, et que devient sa demande ?
-- **Réponse attendue** : la story fait ce qu'elle dit : le blocage était écrit hors périmètre,
-  convenu avant le sprint ; le PO montre la ligne, ce qui désamorce le « bug ». Le ton reste
-  posé : la demande de Maud est légitime, un vélo signalé en panne qu'on peut louer est un vrai
-  problème. Elle entre au backlog comme une nouvelle story (la revue sert aussi à adapter le
-  backlog), et le PO l'ordonne face au reste. Il ne promet pas le prochain sprint sur le moment
-  et ne la refuse pas : comment l'ordonner, et ce que pèse l'argument de sécurité, vient au
-  concept 13. Nuance : la nouvelle story touche une règle. Aujourd'hui, un vélo n'est plus
-  louable qu'après constat d'un technicien ; bloquer dès le signalement, et débloquer si la panne
-  est infirmée, est une règle à faire fixer (concept 8a2), pas à trancher en revue.
+- **Question**, en deux parties : « Que réponds-tu à Maud, en tant que PO ? », puis « Que
+  devient sa demande ? »
+- **Réponse attendue** :
+  1. La réponse à Maud : la story fait ce qu'elle dit : le blocage était écrit hors périmètre,
+     convenu avant le sprint ; le PO montre la ligne, ce qui désamorce le « bug ». Le ton reste
+     posé : la demande de Maud est légitime, un vélo signalé en panne qu'on peut louer est un
+     vrai problème.
+  2. Sa demande : elle entre au backlog comme une nouvelle story (la revue sert aussi à adapter
+     le backlog), et le PO l'ordonne face au reste. Il ne promet pas le prochain sprint sur le
+     moment et ne la refuse pas : comment l'ordonner, et ce que pèse l'argument de sécurité,
+     vient au concept 13. Nuance : la nouvelle story touche une règle. Aujourd'hui, un vélo
+     n'est plus louable qu'après constat d'un technicien ; bloquer dès le signalement, et
+     débloquer si la panne est infirmée, est une règle à faire fixer (concept 8a2), pas à
+     trancher en revue.
 - **Erreurs fréquentes** :
-  - promettre le blocage pour le prochain sprint (« c'est le bon moment ») : la demande entre au
-    backlog et s'ordonne comme les autres ; demander « face aux autres demandes, qui décide de sa
-    place ? » (concept 13, sans l'enseigner) ;
-  - répondre « c'était hors périmètre » et s'arrêter là : la demande doit aller quelque part ;
-    demander « et alors, on fait quoi de sa demande ? » ;
-  - reconnaître un bug et s'excuser : la story fait ce qui était convenu ; demander « qu'est-ce
-    qui était écrit avant le sprint ? » ;
-  - décider sur place la règle de blocage (« on bloque dès le signalement ») : règle à faire
-    fixer (concept 8a2).
+  - Partie 1, reconnaître un bug et s'excuser : la story fait ce qui était convenu ; demander
+    « qu'est-ce qui était écrit avant le sprint ? » ;
+  - Partie 2, promettre le blocage pour le prochain sprint (« c'est le bon moment ») : la
+    demande entre au backlog et s'ordonne comme les autres ; demander « face aux autres
+    demandes, qui décide de sa place ? » (concept 13, sans l'enseigner) ;
+  - Partie 2, décider sur place la règle de blocage (« on bloque dès le signalement ») : règle à
+    faire fixer (concept 8a2).
 - **Ce qui marche** : une réponse au ton de PO, en trois temps : reconnaître le problème, montrer
   la ligne écrite, dire où va la demande et qui la place. Si la réponse est elliptique (« hors
   périmètre »), faire préciser avant de corriger : « que dis-tu à Maud, mot pour mot ? ».

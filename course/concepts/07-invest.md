@@ -179,24 +179,26 @@ deviennent pas des faits du fil rouge.
   - négociable : « En tant qu'abonné, je veux savoir avant de partir s'il reste un vélo à ma
     station, afin de ne pas me déplacer pour rien. » (SMS, serveur vocal, appli : le canal se
     discute avec l'équipe appli.)
-- **Question** : on t'apprend qu'un tiers des abonnés n'a pas l'appli, seulement un téléphone
-  basique. Qu'est-ce qui devient non négociable, et où l'écris-tu ?
-- **Réponse attendue** : le SMS reste une solution, donc négociable (un serveur vocal servirait
-  aussi). Ce qui ne se négocie pas, c'est la contrainte : l'abonné sans l'appli, avec un
-  téléphone basique, doit pouvoir savoir. Elle s'écrit dans un critère d'acceptation, sans
-  nommer de canal (par exemple : Abba, qui n'a qu'un téléphone basique sans l'appli, obtient
-  avant de partir le nombre de vélos disponibles à sa station). Sa forme vient au concept 8.
-  Nuance : la phrase de la story ne change pas.
+- **Question**, en deux parties : « On t'apprend qu'un tiers des abonnés n'a pas l'appli,
+  seulement un téléphone basique. Qu'est-ce qui devient non négociable ? », puis « Où
+  écris-tu cette contrainte ? »
+- **Réponse attendue** :
+  1. Non négociable : le SMS reste une solution, donc négociable (un serveur vocal servirait
+     aussi). Ce qui ne se négocie pas, c'est la contrainte : l'abonné sans l'appli, avec un
+     téléphone basique, doit pouvoir savoir.
+  2. Où l'écrire : dans un critère d'acceptation, sans nommer de canal (par exemple : Abba, qui
+     n'a qu'un téléphone basique sans l'appli, obtient avant de partir le nombre de vélos
+     disponibles à sa station). Sa forme vient au concept 8. Nuance : la phrase de la story ne
+     change pas.
 - **Erreurs fréquentes** :
-  - « le SMS devient obligatoire » : il répond à la contrainte, il n'est pas la contrainte ;
-    demander « un serveur vocal la respecterait-il ? » ;
-  - ajouter la contrainte dans le « je veux » (« … depuis un téléphone basique ») : la phrase
-    reste le besoin, la contrainte va dans un critère ;
-  - ne pas savoir où écrire la contrainte : c'est le lien à faire travailler, le demander
-    explicitement.
+  - Partie 1, « le SMS devient obligatoire » : il répond à la contrainte, il n'est pas la
+    contrainte ; demander « un serveur vocal la respecterait-il ? » ;
+  - Partie 2, ajouter la contrainte dans le « je veux » (« … depuis un téléphone basique ») : la
+    phrase reste le besoin, la contrainte va dans un critère ;
+  - Partie 2, ne pas savoir où écrire la contrainte : c'est le lien à faire travailler.
+    Relancer : « où un testeur la lira-t-il ? ».
 - **Ce qui marche** : demander « qu'est-ce qui devient non négociable ? » plutôt que « le SMS
-  devient-il obligatoire ? », qui oriente vers une mauvaise réponse. Relance si la contrainte est
-  trouvée sans sa place : « où un testeur la lira-t-il ? ».
+  devient-il obligatoire ? », qui oriente vers une mauvaise réponse.
 
 ### Le canal dans le critère (7b)
 - **Explication** : le critère d'acceptation dit quand la story est faite ; s'il nomme une

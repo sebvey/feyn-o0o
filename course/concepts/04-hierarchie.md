@@ -89,26 +89,29 @@ mois, puis comparaison au même mois de l'an dernier).
   3. « Voir, station par station, les vélos signalés en panne. »
   4. (note de Dana) « Écrire la requête qui lit les signalements de pannes pour la vue. »
   5. « Les locations du jour. »
-- **Question** : classe 1, 3 et 4 en epic, feature, story ou tâche. Pour 2 et 5, que te
-  manque-t-il pour trancher ?
-- **Réponse attendue** : 1 est un epic : il contient plusieurs vues, chacune faite de besoins
-  qu'on ne connaît pas encore tous. 3 est une story : un seul besoin, qui tient dans un sprint.
-  4 est une tâche : du travail des Developers pour réaliser 3, qu'Étienne ne voit pas ; il va dans
-  leur plan (le backlog de sprint, concept 3), pas au backlog produit. 2 et 5 : le libellé ne
-  suffit pas ; il manque ce qu'Étienne veut y voir, ses « je veux » (4b). 2 contient au moins 3 :
-  si Étienne n'a pas d'autre besoin sur les pannes, 2 et 3 ne font qu'une story. Nuance : ces mots
-  sont un vocabulaire courant, pas une règle de Scrum.
+- **Question**, en deux parties : « Classe 1, 3 et 4 en epic, feature, story ou tâche. », puis
+  « Pour 2 et 5, que te manque-t-il pour trancher ? »
+- **Réponse attendue** :
+  1. Classer 1, 3 et 4 : 1 est un epic : il contient plusieurs vues, chacune faite de besoins
+     qu'on ne connaît pas encore tous. 3 est une story : un seul besoin, qui tient dans un
+     sprint. 4 est une tâche : du travail des Developers pour réaliser 3, qu'Étienne ne voit
+     pas ; il va dans leur plan (le backlog de sprint, concept 3), pas au backlog produit.
+     Nuance : ces mots sont un vocabulaire courant, pas une règle de Scrum. Dans la correction,
+     ne pas dire encore ce qui manque pour 2 et 5 : c'est la partie 2.
+  2. 2 et 5 : le libellé ne suffit pas ; il manque ce qu'Étienne veut y voir, ses « je veux »
+     (4b). 2 contient au moins 3 : si Étienne n'a pas d'autre besoin sur les pannes, 2 et 3 ne
+     font qu'une story.
 - **Erreurs fréquentes** :
-  - classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente (un
-    epic classé en story). Relancer : « qu'est-ce que 1 contient ? » ; la liste nomme déjà deux
+  - Partie 1, classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente
+    (un epic classé en story). Relancer : « qu'est-ce que 1 contient ? » ; la liste nomme déjà deux
     vues (2 et 5), en plus de la vue des stations vides, déjà livrée ;
-  - mettre 4 au backlog produit parce que le travail est nécessaire : il ne sert qu'à réaliser
-    3, c'est une tâche du plan des Developers. Un travail technique qui porte sa propre raison
-    (par exemple dédoublonner les relevés des stations, qui contiennent des doublons, défaut
-    connu des données : ce travail sert plusieurs vues, pas une seule story) entre, lui, au
-    backlog, et le PO l'ordonne ;
-  - trancher 2 et 5 sur leur libellé (« une vue, c'est une feature ») : le mot « vue » ne fait pas
-    le niveau, les besoins d'Étienne le font.
+  - Partie 1, mettre 4 au backlog produit parce que le travail est nécessaire : il ne sert qu'à
+    réaliser 3, c'est une tâche du plan des Developers. Un travail technique qui porte sa propre
+    raison (par exemple dédoublonner les relevés des stations, qui contiennent des doublons, défaut
+    connu des données : ce travail sert plusieurs vues, pas une seule story) entre, lui, au backlog,
+    et le PO l'ordonne ;
+  - Partie 2, trancher 2 et 5 sur leur libellé (« une vue, c'est une feature ») : le mot « vue » ne
+    fait pas le niveau, les besoins d'Étienne le font.
 - **Ce qui marche** : partir du haut et demander ce que chaque élément contient, puis dessiner
   l'arbre (schéma ci-dessous) avec les éléments placés.
 

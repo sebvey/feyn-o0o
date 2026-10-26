@@ -196,27 +196,29 @@ du fil rouge.
 - **Situation** : situation d'exercice : Charlotte annonce que le bilan au conseil a lieu dans
   deux mois ; le conseil examine la subvention une fois par an. Deux demandes : le blocage des
   vélos signalés (Maud) et la comparaison au même mois de l'an dernier (Charlotte).
-- **Question** : du blocage et de la comparaison, laquelle coûte dès aujourd'hui, laquelle
-  seulement plus tard, et que change cette forme à ton ordre ? (Si la réponse s'arrête à la
-  forme, relancer sur l'effet sur l'ordre.)
-- **Réponse attendue** : le blocage coûte dès aujourd'hui, et chaque jour qu'un vélo signalé
-  reste louable s'ajoute aux autres : urgence immédiate, qui pousse à rendre la story prête vite
-  (règle, DSI). La comparaison coûte peu tant que le bilan est loin, puis de plus en plus à son
-  approche ; après le bilan, sa valeur tombe jusqu'au bilan suivant, un an plus tard. Effet sur
-  l'ordre : l'échéance fait monter la comparaison, et avec elle ce dont elle dépend (les
-  locations par quartier, l'accès), d'autant qu'il faut le temps de les faire ; le blocage
-  garde une urgence propre, qui ne dépend pas d'une date. Nuances : le temps qu'il faut, ce sont
-  les Developers qui l'estiment ; la gravité du risque reste à faire qualifier (13a) ; la date
-  du bilan se demande à Charlotte, le PO ne la fixe pas.
+- **Question**, en deux parties : « Du blocage et de la comparaison, laquelle coûte dès
+  aujourd'hui, laquelle seulement plus tard ? », puis « Que change, à ton ordre, la forme de
+  ces deux coûts dans le temps ? »
+- **Réponse attendue** :
+  1. La forme : le blocage coûte dès aujourd'hui, et chaque jour qu'un vélo signalé reste
+     louable s'ajoute aux autres : urgence immédiate, qui pousse à rendre la story prête vite
+     (règle, DSI). La comparaison coûte peu tant que le bilan est loin, puis de plus en plus à
+     son approche ; après le bilan, sa valeur tombe jusqu'au bilan suivant, un an plus tard.
+  2. L'effet sur l'ordre : l'échéance fait monter la comparaison, et avec elle ce dont elle
+     dépend (les locations par quartier, l'accès), d'autant qu'il faut le temps de les faire ;
+     le blocage garde une urgence propre, qui ne dépend pas d'une date. Nuances : le temps
+     qu'il faut, ce sont les Developers qui l'estiment ; la gravité du risque reste à faire
+     qualifier (13a) ; la date du bilan se demande à Charlotte, le PO ne la fixe pas.
 - **Erreurs fréquentes** :
-  - inventer des chiffres (« un accident coûte tant ») : le fil rouge ne chiffre rien ;
-    raisonner en forme (immédiat, échéance, coût qui grandit) ;
-  - « la comparaison a une date, donc elle passe d'abord » : l'échéance fait monter, elle ne
-    met pas en tête d'office ; et la comparaison ne peut pas venir avant les locations par
-    quartier ;
-  - confondre coût du retard et coût de la demande : l'un se perd en attendant, l'autre se
-    dépense en faisant ;
-  - dire « urgent » sans dire pourquoi : demander « que perd-on, et à partir de quand ? ».
+  - Partie 1, inventer des chiffres (« un accident coûte tant ») : le fil rouge ne chiffre
+    rien ; raisonner en forme (immédiat, échéance, coût qui grandit) ;
+  - Partie 1, confondre coût du retard et coût de la demande : l'un se perd en attendant,
+    l'autre se dépense en faisant ;
+  - Partie 1, dire « urgent » sans dire pourquoi : demander « que perd-on, et à partir de
+    quand ? » ;
+  - Partie 2, « la comparaison a une date, donc elle passe d'abord » : l'échéance fait monter,
+    elle ne met pas en tête d'office ; et la comparaison ne peut pas venir avant les locations
+    par quartier.
 - **Ce qui marche** : faire décrire en mots la forme des deux coûts dans le temps (dès le
   départ, ou plat puis qui monte jusqu'au bilan) ; montrer le schéma dans la correction, pas
   avant la réponse.

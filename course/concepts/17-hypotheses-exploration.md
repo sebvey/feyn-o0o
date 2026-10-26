@@ -249,32 +249,35 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 - **Situation** : Anna a commencé son exploration de l'historique. Dana : « Pour savoir si
   Régis ira plus tôt, Anna n'a qu'à regarder aussi dans l'historique. » Diego : « Demandons-lui
   simplement s'il s'en servirait. »
-- **Question** : l'historique ou la question à Régis répondent-ils à « Régis ira-t-il plus
-  tôt ? », et sinon, que proposes-tu ?
-- **Réponse attendue** : non, ni l'un ni l'autre ne suffit. L'historique montre les vélos, pas
-  ce que Régis ferait avec une prévision qu'il n'a jamais eue. La question à Régis apprend
-  quelque chose (ce qu'il en attend, ce qui l'en empêcherait), mais un « oui » ne prouve pas
-  qu'il changera sa tournée. Proposition : un prototype sur les vrais relevés, simple et
-  jetable (dans cet exercice, une liste des stations à risque calculée par la tendance,
-  envoyée à Régis pendant quelques jours), et regarder ce qu'il en fait, avec Étienne qui
-  envoie les régulateurs. C'est le PO qui pose la question et organise l'essai avec Étienne et
-  Régis ; les Developers construisent le prototype. Nuance : ce prototype suppose que la
-  tendance donne quelque chose (17b1) ; on peut attendre la réponse d'Anna, ou accepter qu'il
-  se trompe et observer quand même le comportement de Régis. Ce prototype n'est pas le
-  morceau c du concept 9b : il ne remplit pas la DoD et se jette ; il sert à savoir si le
-  morceau c vaut d'être construit. L'exploration de 17b1 ne se livre pas à Régis ; le
-  prototype, lui, est fait pour qu'il s'en serve quelques jours.
+- **Question**, en deux parties : « L'historique ou la question à Régis disent-ils si Régis ira
+  plus tôt ? », puis « Que proposes-tu pour le savoir ? »
+- **Réponse attendue** :
+  1. L'historique, la question : non, ni l'un ni l'autre ne suffit. L'historique montre les
+     vélos, pas ce que Régis ferait avec une prévision qu'il n'a jamais eue. La question à
+     Régis apprend quelque chose (ce qu'il en attend, ce qui l'en empêcherait), mais un « oui »
+     ne prouve pas qu'il changera sa tournée.
+  2. Proposition : un prototype sur les vrais relevés, simple et jetable (dans cet exercice,
+     une liste des stations à risque calculée par la tendance, envoyée à Régis pendant
+     quelques jours), et regarder ce qu'il en fait, avec Étienne qui envoie les régulateurs.
+     C'est le PO qui pose la question et organise l'essai avec Étienne et Régis ; les
+     Developers construisent le prototype. Nuance : ce prototype suppose que la tendance donne
+     quelque chose (17b1) ; on peut attendre la réponse d'Anna, ou accepter qu'il se trompe et
+     observer quand même le comportement de Régis. Ce prototype n'est pas le morceau c du
+     concept 9b : il ne remplit pas la DoD et se jette ; il sert à savoir si le morceau c vaut
+     d'être construit. L'exploration de 17b1 ne se livre pas à Régis ; le prototype, lui, est
+     fait pour qu'il s'en serve quelques jours.
 - **Erreurs fréquentes** :
-  - « Régis a dit oui, donc c'est vérifié » : demander « et s'il dit oui puis ne s'en sert
-    pas ? » ;
-  - construire la prévision complète pour voir : la façon la plus chère d'apprendre ;
-  - décider soi-même que Régis ira plus tôt (« c'est son métier ») : c'est la valeur supposée,
-    à vérifier ;
-  - réponse juste sans la suite (« il faut tester avec lui ») : demander « comment, et qui fait
-    quoi ? » ;
-  - « l'historique le dira », ou « je fais la requête moi-même » (profil data) : demander
-    « l'historique montre-t-il ce que Régis ferait avec une prévision qu'il n'a jamais eue ? »,
-    puis rappeler que le PO pose la question, les Developers explorent (17b1).
+  - Partie 1, « Régis a dit oui, donc c'est vérifié » : demander « et s'il dit oui puis ne s'en
+    sert pas ? » ;
+  - Partie 1, décider soi-même que Régis ira plus tôt (« c'est son métier ») : c'est la valeur
+    supposée, à vérifier ;
+  - Partie 1, « l'historique le dira » : demander « l'historique montre-t-il ce que Régis
+    ferait avec une prévision qu'il n'a jamais eue ? » ;
+  - Partie 2, « je fais la requête moi-même » (profil data) : rappeler que le PO pose la
+    question, les Developers explorent (17b1) ;
+  - Partie 2, construire la prévision complète pour voir : la façon la plus chère d'apprendre ;
+  - Partie 2, s'arrêter à « il faut tester avec lui » : demander « comment, et qui fait
+    quoi ? ».
 - **Ce qui marche** : « qu'est-ce qui te montrerait, sans le lui demander, que Régis va plus
   tôt aux stations ? ».
 

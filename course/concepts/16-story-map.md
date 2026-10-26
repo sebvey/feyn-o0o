@@ -109,30 +109,33 @@ et le contenu de la tranche en 16c.
   2. « au point du matin, voir les vélos signalés en panne, station par station » ;
   3. « au bilan du soir, savoir combien de vélos ont été signalés dans la journée » ;
   4. « voir le nombre de locations depuis ce matin, par station ».
-- **Question** : corrige la carte d'Anna : que mets-tu en haut, et où ranges-tu ces quatre
-  stories ?
-- **Réponse attendue** : les colonnes d'Anna sont des vues, des éléments de la hiérarchie
-  (concept 4) qui découpent le produit, pas des moments de la journée d'Étienne. En haut, ses
-  quatre activités, dans l'ordre de sa journée : point du matin, envoi des régulateurs, suivi
-  des incidents, bilan du soir. Chaque story va sous l'activité qu'elle sert : 1 sous l'envoi
-  des régulateurs, 2 sous le point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est
-  pas dit : on demande à Étienne quand il s'en sert, on ne le décide pas à sa place. Nuances, non
-  attendues, à apporter dans la correction : la carte montre ce que l'arbre de 4 ne montre pas,
-  une même vue sous plusieurs activités (vélos en panne, le matin et le soir) et une activité
-  vide (ici le suivi des incidents), trou à explorer avec Étienne ; la story 1, déjà livrée, reste sur la carte (on voit ce qu'Étienne a déjà) ; la
-  carte ne remplace pas le backlog, chaque story y garde sa place.
+- **Question**, en deux parties : « Corrige la carte d'Anna : que mets-tu en haut ? », puis
+  « Où ranges-tu ces quatre stories ? »
+- **Réponse attendue** :
+  1. En haut : les colonnes d'Anna sont des vues, des éléments de la hiérarchie (concept 4) qui
+     découpent le produit, pas des moments de la journée d'Étienne. En haut, ses quatre
+     activités, dans l'ordre de sa journée : point du matin, envoi des régulateurs, suivi des
+     incidents, bilan du soir.
+  2. Les quatre stories : chacune va sous l'activité qu'elle sert : 1 sous l'envoi des
+     régulateurs, 2 sous le point du matin, 3 sous le bilan du soir. Pour 4, le moment n'est
+     pas dit : on demande à Étienne quand il s'en sert, on ne le décide pas à sa place.
+     Nuances, non attendues, à apporter dans la correction : la carte montre ce que l'arbre de
+     4 ne montre pas, une même vue sous plusieurs activités (vélos en panne, le matin et le
+     soir) et une activité vide (ici le suivi des incidents), trou à explorer avec Étienne ; la
+     story 1, déjà livrée, reste sur la carte (on voit ce qu'Étienne a déjà) ; la carte ne
+     remplace pas le backlog, chaque story y garde sa place.
 - **Erreurs fréquentes** :
-  - garder les vues en colonnes (« c'est plus clair ») : demander « à quel moment de sa journée
-    Étienne s'en sert-il ? » ;
-  - mettre epic, feature et story en lignes : la carte n'est pas la hiérarchie ; ses lignes
-    vont de l'indispensable au moins nécessaire ;
-  - ranger les activités par importance : la colonne vertébrale suit l'ordre du récit, elle ne
-    s'ordonne pas ;
-  - placer la story 4 soi-même : demander « qu'est-ce qui te dit à quel moment Étienne s'en
-    sert ? » ;
-  - placer une story « parce que c'est le plus important pour Étienne » : l'importance joue de
-    haut en bas ; de gauche à droite, c'est le moment, que seul Étienne sait ; demander « et
-    s'il la regarde au bilan du soir ? ».
+  - Partie 1, garder les vues en colonnes (« c'est plus clair ») : demander « à quel moment de
+    sa journée Étienne s'en sert-il ? » ;
+  - Partie 1, ranger les activités par importance : la colonne vertébrale suit l'ordre du
+    récit, elle ne s'ordonne pas ;
+  - Partie 2, mettre epic, feature et story en lignes : la carte n'est pas la hiérarchie ; ses
+    lignes vont de l'indispensable au moins nécessaire ;
+  - Partie 2, placer la story 4 soi-même : demander « qu'est-ce qui te dit à quel moment
+    Étienne s'en sert ? » ;
+  - Partie 2, placer une story « parce que c'est le plus important pour Étienne » :
+    l'importance joue de haut en bas ; de gauche à droite, c'est le moment, que seul Étienne
+    sait ; demander « et s'il la regarde au bilan du soir ? ».
 - **Ce qui marche** : faire raconter la journée d'Étienne à voix haute (« d'abord…, puis… »),
   puis poser chaque story sous le moment où il la lit. Lien avec le format (5), chez Patton :
   la tâche de l'utilisateur va après « je veux », l'activité après « afin de ».
@@ -165,45 +168,47 @@ et le contenu de la tranche en 16c.
 - **Situation** : la carte de la journée d'Étienne est faite. Diego : « Première version : le
   point du matin, en entier, avec tout ce qu'Étienne voudrait y voir. Ensuite l'envoi des
   régulateurs, puis le reste. »
-- **Question** : que proposes-tu à Diego à la place, et qu'écris-tu à côté de la tranche ?
-- **Réponse attendue** : finir une activité avant la suivante, c'est construire une colonne à la
-  fois : Étienne aurait un point du matin complet et rien pour le reste de sa journée. La première
-  tranche prend, sous chaque activité, le minimum qui permet à Étienne de mener sa journée : par
-  exemple, les vélos signalés au point du matin (story 2), la vue des stations vides (story 1,
-  déjà livrée) pour l'envoi des régulateurs, les vélos signalés dans la journée au bilan du soir
-  (story 3). La story 4 (locations du jour) attend qu'Étienne dise quand il s'en sert, et son
-  accès n'est pas obtenu (11b). Ce qui est indispensable, c'est Étienne qui le dit ; le PO le lui
-  fait dire (« sans quoi ta journée ne tient pas ? »). Le suivi des incidents n'a pas encore de
-  story : la tranche couvre ce que la carte contient, et elle n'est pas complète tant que ce
-  trou n'est pas exploré avec Étienne. C'est lui qui dit si sa journée tient sans le suivi des
-  incidents, pas le PO ; la tranche se confirme après. À côté de la tranche : un résultat visé
-  que le PO propose et fait confirmer (par exemple, qu'Étienne envoie plus tôt les régulateurs
-  vers les stations qui se vident) et une mesure de succès, nommée sans cible : de préférence un
-  changement dans ce que fait Étienne, à chercher avec lui ; la mesure de résultat de l'objectif
-  produit en est une autre, plus lointaine, avec ses points non fixés (concept 2). C'est l'idée
-  de la tranche verticale (9) à l'échelle d'une version : la version sert seule. La correction
-  tient en un message : la tranche, qui dit l'indispensable, le résultat visé et la mesure ; le
-  trou du suivi des incidents et le lien avec 9 se disent en une ligne chacun, ou se renvoient
-  au fichier à relire.
+- **Question**, en deux parties : « Que proposes-tu à Diego à la place ? », puis « Qu'écris-tu
+  à côté de la tranche ? »
+- **Réponse attendue** : chaque partie se corrige en un message : la première, la tranche, qui
+  dit l'indispensable, avec le trou du suivi des incidents et le lien avec 9 en une ligne
+  chacun, ou renvoyés au fichier à relire ; la seconde, le résultat visé et la mesure.
+  1. À la place : finir une activité avant la suivante, c'est construire une colonne à la
+     fois : Étienne aurait un point du matin complet et rien pour le reste de sa journée. La
+     première tranche prend, sous chaque activité, le minimum qui permet à Étienne de mener sa
+     journée : par exemple, les vélos signalés au point du matin (story 2), la vue des stations
+     vides (story 1, déjà livrée) pour l'envoi des régulateurs, les vélos signalés dans la
+     journée au bilan du soir (story 3). La story 4 (locations du jour) attend qu'Étienne dise
+     quand il s'en sert, et son accès n'est pas obtenu (11b). Ce qui est indispensable, c'est
+     Étienne qui le dit ; le PO le lui fait dire (« sans quoi ta journée ne tient pas ? »). Le
+     suivi des incidents n'a pas encore de story : la tranche couvre ce que la carte contient,
+     et elle n'est pas complète tant que ce trou n'est pas exploré avec Étienne. C'est lui qui
+     dit si sa journée tient sans le suivi des incidents, pas le PO ; la tranche se confirme
+     après. C'est l'idée de la tranche verticale (9) à l'échelle d'une version : la version
+     sert seule.
+  2. À côté de la tranche : un résultat visé que le PO propose et fait confirmer (par exemple,
+     qu'Étienne envoie plus tôt les régulateurs vers les stations qui se vident) et une mesure
+     de succès, nommée sans cible : de préférence un changement dans ce que fait Étienne, à
+     chercher avec lui ; la mesure de résultat de l'objectif produit en est une autre, plus
+     lointaine, avec ses points non fixés (concept 2).
 - **Erreurs fréquentes** :
-  - tranche juste, rien à côté : demander « et à côté de la ligne, qu'écris-tu pour savoir si
-    la version a réussi ? » ;
-  - suivre Diego « parce que c'est le plus important pour Étienne » : même confusion qu'en 16a,
-    l'importance joue de haut en bas dans chaque colonne, la tranche traverse toutes les
+  - Partie 1, suivre Diego « parce que c'est le plus important pour Étienne » : même confusion qu'en
+    16a, l'importance joue de haut en bas dans chaque colonne, la tranche traverse toutes les
     colonnes ;
-  - accepter « le point du matin d'abord » : demander « lundi, avec cette version seule, la
-    journée d'Étienne tient-elle ? » ;
-  - penser la première version comme une couche (« d'abord toutes les données dans l'entrepôt,
-    les vues après ») : elle ne sert pas seule (9) ;
-  - croire que la tranche de version est une tranche horizontale (9) parce que sa ligne traverse
-    la carte : la carte range les moments de la journée d'Étienne, pas les couches du produit ; la
-    tranche de version traverse toute la journée et sert seule ; relancer : « que contient cette
-    tranche : une couche du produit, ou un peu de chaque moment de la journée d'Étienne ? » ;
-  - choisir soi-même ce qui est indispensable : c'est Étienne qui le dit ;
-  - fixer une cible (« moins 20 % de temps vide ») : la cible n'est pas fixée, le PO la fait
-    fixer ;
-  - mettre au-dessus de la ligne tout ce qui est en haut de chaque colonne « parce que tout
-    compte » : la tranche n'est plus la plus petite.
+  - Partie 1, accepter « le point du matin d'abord » : demander « lundi, avec cette version seule,
+    la journée d'Étienne tient-elle ? » ;
+  - Partie 1, penser la première version comme une couche (« d'abord toutes les données dans
+    l'entrepôt, les vues après ») : elle ne sert pas seule (9) ;
+  - Partie 1, croire que la tranche de version est une tranche horizontale (9) parce que sa ligne
+    traverse la carte : la carte range les moments de la journée d'Étienne, pas les couches du
+    produit ; la tranche de version traverse toute la journée et sert seule ; relancer : « que
+    contient cette tranche : une couche du produit, ou un peu de chaque moment de la journée
+    d'Étienne ? » ;
+  - Partie 1, choisir soi-même ce qui est indispensable : c'est Étienne qui le dit ;
+  - Partie 1, mettre au-dessus de la ligne tout ce qui est en haut de chaque colonne « parce que
+    tout compte » : la tranche n'est plus la plus petite ;
+  - Partie 2, fixer une cible (« moins 20 % de temps vide ») : la cible n'est pas fixée, le PO la
+    fait fixer.
 - **Ce qui marche** : l'image de Patton : on ne livre pas une voiture sans freins ; une version
   petite, mais qui marche d'un bout à l'autre de la journée. Si l'apprenant cite le « walking
   skeleton » de Patton pour cette première version : c'est un autre usage du mot : le cours le

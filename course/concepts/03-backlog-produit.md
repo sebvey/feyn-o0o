@@ -235,19 +235,22 @@ ne deviennent pas des faits du fil rouge.
   avant que personne ait vérifié le besoin. La plateforme se rafraîchit
   toutes les 5 minutes, sous la cible de fraîcheur de 15 minutes, et personne n'a redemandé de
   données plus fraîches. Diego : « Il est au backlog, il faudra bien le faire un jour. »
-- **Question** : Diego a-t-il raison ? Que fais-tu de cet élément ?
-- **Réponse attendue** : non. Être au backlog ne crée aucune obligation : le backlog émerge, et
-  ce qui y figure peut en sortir ; le PO peut retirer un élément qui ne sert plus l'objectif
-  produit. Avant de le retirer, le PO vérifie que le besoin n'existe pas : il demande à Étienne si
-  des données plus fraîches changeraient quelque chose pour l'exploitation (fait métier, pas à
-  trancher seul). S'il n'y a pas de besoin, il le retire ; retirer n'est pas définitif, l'élément
-  reviendra si le besoin apparaît.
+- **Question**, en deux parties : « Diego a-t-il raison ? », puis « Que fais-tu de cet
+  élément ? »
+- **Réponse attendue** :
+  1. Diego a-t-il raison : non. Être au backlog ne crée aucune obligation : le backlog émerge,
+     et ce qui y figure peut en sortir ; le PO peut retirer un élément qui ne sert plus
+     l'objectif produit.
+  2. Que faire de l'élément : avant de le retirer, le PO vérifie que le besoin n'existe pas : il
+     demande à Étienne si des données plus fraîches changeraient quelque chose pour
+     l'exploitation (fait métier, pas à trancher seul). S'il n'y a pas de besoin, il le
+     retire ; retirer n'est pas définitif, l'élément reviendra si le besoin apparaît.
 - **Erreurs fréquentes** :
-  - « on le garde au cas où » : un bas du backlog qui s'allonge sans fin cache ce qui compte.
-    Relancer : « si cet élément disparaissait, qui s'en plaindrait ? » ;
-  - le retirer sans rien demander parce qu'il paraît inutile : la fraîcheur nécessaire est un
-    fait à obtenir d'Étienne. Relancer : « avant de le retirer, que vérifies-tu, et auprès de
-    qui ? ».
+  - Partie 1 ou 2, « on le garde au cas où » : un bas du backlog qui s'allonge sans fin cache ce qui
+    compte. Relancer : « si cet élément disparaissait, qui s'en plaindrait ? » ;
+  - Partie 2, le retirer sans rien demander parce qu'il paraît inutile : la fraîcheur nécessaire
+    est un fait à obtenir d'Étienne. Relancer : « avant de le retirer, que vérifies-tu, et
+    auprès de qui ? ».
 - **Ce qui marche** : demander « si cet élément disparaissait, qui s'en plaindrait ? ».
 
 ## Pièges

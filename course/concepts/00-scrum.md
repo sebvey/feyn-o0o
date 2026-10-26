@@ -130,8 +130,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   engineer) écrit lui-même deux éléments du backlog sur les vélos signalés en panne. Odile
   (directrice des opérations) s'en étonne : « Ce n'est pas son rôle, c'est le PO qui écrit le
   backlog. Et puisqu'il les a écrits, Diego va les mettre en tête. »
-- **Question** : « Odile a-t-elle raison sur les deux points ? » (deux parties : se pose en
-  deux temps, l'écriture puis l'ordre).
+- **Question**, en deux parties : « Odile a-t-elle raison de dire que ce n'est pas le rôle de
+  Diego d'écrire ces éléments ? », puis « A-t-elle raison de dire que Diego va les mettre en
+  tête ? »
 - **Réponse attendue** : non sur les deux.
   1. Diego peut-il écrire des éléments ? Oui : le PO répond de la création des éléments, pas
      forcément de leur rédaction ; il peut la confier, et en reste responsable : il s'assure
@@ -363,21 +364,23 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   l'exploitation. » La DoD de l'équipe vélos exige notamment que chaque vue affiche l'heure de
   sa dernière mise à jour. Ce sprint, la vue des stations vides est dans le backlog de sprint.
   Anna propose d'ajouter à la DoD : « La vue des stations vides est livrée à Étienne avant mercredi. »
-- **Question** : « Cette phrase a-t-elle sa place dans la DoD ? Pourquoi, et où irait-elle
-  sinon ? »
-- **Réponse attendue** : non. La DoD vaut pour tout ce qui entre dans l'incrément, sprint après
-  sprint (comme l'heure de dernière mise à jour) ; une échéance propre à un élément et à ce
-  sprint n'y a pas sa place. Elle relève du backlog de sprint : de l'objectif de sprint si elle
-  exprime ce que le sprint vise (qu'Étienne voie les stations vides), du plan des Developers si
-  elle organise le travail (livrer la vue avant mercredi). Les deux réponses sont justes si
-  elles sont justifiées. L'objectif produit est la cible à long terme et ne change pas à chaque
-  sprint : la phrase n'y va pas.
+- **Question**, en deux parties : « Cette phrase a-t-elle sa place dans la DoD ? Pourquoi ? »,
+  puis « Où irait-elle sinon ? »
+- **Réponse attendue** :
+  1. Sa place dans la DoD : non. La DoD vaut pour tout ce qui entre dans l'incrément, sprint
+     après sprint (comme l'heure de dernière mise à jour) ; une échéance propre à un élément et
+     à ce sprint n'y a pas sa place.
+  2. Où irait-elle : dans le backlog de sprint : dans l'objectif de sprint si elle exprime ce
+     que le sprint vise (qu'Étienne voie les stations vides), dans le plan des Developers si
+     elle organise le travail (livrer la vue avant mercredi). Les deux réponses sont justes si
+     elles sont justifiées. L'objectif produit est la cible à long terme et ne change pas à
+     chaque sprint : la phrase n'y va pas.
 - **Erreurs fréquentes** :
-  - Mettre la phrase dans l'objectif produit « parce que c'est important » : l'objectif produit
-    ne change pas à chaque sprint. Relancer : « est-ce que ça vaudra encore au prochain
-    sprint ? ».
-  - Confondre artefact et engagement (« la DoD est un artefact ») : la DoD est l'engagement de
-    l'incrément. Réexpliquer.
+  - Partie 1, confondre artefact et engagement (« la DoD est un artefact ») : la DoD est
+    l'engagement de l'incrément. Réexpliquer.
+  - Partie 2, mettre la phrase dans l'objectif produit « parce que c'est important » :
+    l'objectif produit ne change pas à chaque sprint. Relancer : « est-ce que ça vaudra encore
+    au prochain sprint ? ».
 - **Ce qui marche** : demander « est-ce que ça vaudra encore au prochain sprint ? » ; oui pour la
   DoD et l'objectif produit, non pour l'objectif de sprint.
 
@@ -390,14 +393,13 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   la vue des stations vides remplit la DoD (elle affiche l'heure de sa dernière mise à jour) et
   elle est livrée : Étienne peut s'en servir. Dana objecte : « On aurait dû attendre la revue de
   sprint, c'est elle qui valide la livraison. »
-- **Question** : « Dana a-t-elle raison ? Qu'est-ce qui a été livré mercredi, et que reste-t-il à
-  faire à la revue ? »
+- **Question** : « Dana a-t-elle raison ? Qu'est-ce qui a été livré mercredi ? »
 - **Réponse attendue** : non. Mercredi, c'est un incrément qui a été livré : la plateforme dans
   un nouvel état utilisable, avec la vue, conforme à la DoD ; pas le sprint, qui continue
   jusqu'à son terme et peut produire d'autres incréments. On peut livrer avant la fin du
-  sprint ; la revue n'est pas une porte de mise en production. À la revue, l'équipe et les
-  parties prenantes, dont Étienne, inspectent ce que le sprint a produit, la vue comprise, et
-  adaptent le backlog.
+  sprint ; la revue n'est pas une porte de mise en production. Nuance à apporter dans la
+  correction : à la revue, l'équipe et les parties prenantes, dont Étienne, inspectent ce que
+  le sprint a produit, la vue comprise, et adaptent le backlog.
 - **Erreurs fréquentes** :
   - « Un sprint, une livraison » : le sprint est une durée, on peut livrer plusieurs fois, ou
     pas du tout, pendant un sprint. Relancer : « le sprint : une durée, ou un état du
