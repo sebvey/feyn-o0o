@@ -1,4 +1,4 @@
-# T-100 : Aligner les fiches de sources sur les renvois corrigés des fiches de concept
+# T-104 : Aligner les fiches de sources sur les renvois corrigés des fiches de concept
 
 - **Créé le** : 2026-10-26
 - **Constat** : réalignement du site sur le cours 2.2.0 (T-099, 2026-10-26) : les agents qui ont
