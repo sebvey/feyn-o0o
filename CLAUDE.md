@@ -59,9 +59,8 @@ Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y co
 rappel de reprise, présente le domaine d'après sa fiche dans `course/domains/`, que tu lis
 alors : en tête son nom, en lien vers sa page sur le site (« La boucle du cours »), puis, en
 une ou deux lignes chacun : le problème qu'il règle, le fil de ses concepts (les noms dans
-l'ordre, sans numéro), ce qu'il reprend
-du domaine précédent et prépare pour le suivant, et le cas qui le traverse, annoncé sans
-question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
+l'ordre, sans numéro), ce qu'il reprend du domaine précédent et prépare pour le suivant, et le
+cas qui le traverse, annoncé sans question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
 question : il finit par l'annonce de la suite, qui nomme le premier concept du domaine. Il peut
 suivre la correction qui clôt le domaine précédent, ou le rappel de reprise, si le tout tient
 en une quinzaine de lignes.
