@@ -182,16 +182,17 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   locations par quartier pour le bilan annuel au conseil.
 - **Question** : que réponds-tu à Odile ?
 - **Réponse attendue** : un seul objectif produit à la fois (Scrum Guide) : en accoler un second
-  disperse l'équipe et rend l'ordre du backlog impossible à argumenter, puisque chaque demande
-  peut se réclamer de l'un ou de l'autre. Les demandes de Charlotte restent des demandes : le PO
+  disperse l'équipe. Nuance à apporter : l'objectif produit sert aussi à argumenter l'ordre du
+  backlog (concept 3) ; avec deux objectifs, chaque demande pourrait se réclamer de l'un ou de
+  l'autre. Les demandes de Charlotte restent des demandes : le PO
   décide de leur place dans le backlog (concept 13) et en parle avec elle (concept 14). Si le
   bilan au conseil devient la cible prioritaire, on change d'objectif produit, on ne les
   additionne pas.
 - **Erreurs fréquentes** :
   - accepter l'ajout parce qu'Odile porte le budget : le PO l'écoute, mais l'objectif produit
     reste un seul objectif ;
-  - répondre « hors objectif, donc on ne fait rien pour Charlotte » : l'objectif guide l'ordre et
-    les arbitrages, il ne fait pas disparaître une partie prenante.
+  - répondre « hors objectif, donc on ne fait rien pour Charlotte » : l'objectif guidera l'ordre
+    (concept 3), il ne fait pas disparaître une partie prenante.
 - **Ce qui marche** : si la réponse s'arrête au refus, demander « et alors, que deviennent les
   demandes de Charlotte ? ».
 
@@ -239,8 +240,8 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   conclure : comparer à des périodes comparables dans l'historique des relevés (environ un an) ;
   vérifier le signal de comportement (Étienne envoie-t-il les régulateurs plus tôt ?) ; en
   parler avec Étienne (responsable d'exploitation) et un régulateur, Régis par exemple, qui
-  redistribue les vélos entre stations. On réduit le doute, on ne l'élimine pas ; l'exploration
-  rigoureuse d'une hypothèse vient au concept 17.
+  redistribue les vélos entre stations. On réduit le doute, on ne l'élimine pas ; vérifier
+  rigoureusement ce qu'on suppose vient au concept 17.
 - **Erreurs fréquentes** :
   - annoncer la victoire sur un seul mois. Relancer : « quelle autre raison pourrait faire
     baisser ce chiffre ? » ;

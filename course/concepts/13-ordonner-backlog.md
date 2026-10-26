@@ -68,7 +68,7 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
 n'ordonne pas le backlog (concept 0a1) ; partie prenante, le PO seul ordonne, qui veut changer l'ordre le
-convainc, pas de vote (1b) ; Sprint Planning et revue de sprint, leur but et qui y décide quoi
+convainc, une seule personne, pas un comité (0a1, 1b) ; Sprint Planning et revue de sprint, leur but et qui y décide quoi
 (0a2) ; l'objectif produit, un seul à la fois, et sa mesure de résultat aux
 points non fixés (2) ; liste ordonnée et non priorités, une demande ne se traite pas en direct
 (3) ; les Developers estiment la taille (7) ; la règle non fixée que le PO fait fixer (8a2) ;

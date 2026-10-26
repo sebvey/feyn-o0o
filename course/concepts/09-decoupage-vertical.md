@@ -148,7 +148,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   en stories verticales ; au niveau du sprint, une tranche est une story. Ne pas dire ici ce
   que deviennent les tâches : la question le fait trouver.
 - **Situation** : la première tranche de Régis (l'état actuel des stations vides) devient une
-  story. Au Sprint Planning (concept 15), Dana, data engineer, la découpe en trois tâches :
+  story. Au Sprint Planning (concept 0 ; détail au concept 15b), Dana, data engineer, la découpe en trois tâches :
   « lire l'état courant dans l'entrepôt », « calculer les stations vides », « restituer le
   résultat à Régis ». Anna dit : « On refait un découpage horizontal. »
 - **Question** : Anna a-t-elle raison ? Pourquoi ?

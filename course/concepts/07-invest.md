@@ -13,7 +13,8 @@ d'acceptation).
 
 ## L'essentiel
 INVEST donne six critères pour juger une story : **I**ndependent (elle ne dépend pas d'une
-autre, autant que possible), **N**egotiable (elle porte le besoin, pas les détails de la
+autre story, autant que possible ; le cours y range aussi le travail d'une autre équipe dont elle
+a besoin), **N**egotiable (elle porte le besoin, pas les détails de la
 solution), **V**aluable (elle a de la valeur pour l'utilisateur), **E**stimable (les Developers
 peuvent l'estimer assez pour l'ordonner et la planifier), **S**mall (elle est petite : chez
 Wake, au plus quelques semaines-personnes ; repère du cours : elle tient dans un sprint,
@@ -36,7 +37,8 @@ coche pas.
   métier (concept 17).
 - **Choix du cours** (sans source externe, à présenter comme tel) : « chercher le mot flou dont
   dépendent plusieurs lettres » et « négociable ne veut pas dire tout ouvert » : règles
-  pratiques, pas des textes de Wake.
+  pratiques, pas des textes de Wake. Ranger sous I la dépendance envers le travail d'une autre
+  équipe : chez Wake, I ne vise que les autres stories.
 
 ## Sous-concepts
 1. **7a les six lettres et le mot flou**, en deux messages, chacun avec sa question :
@@ -78,7 +80,7 @@ deviennent pas des faits du fil rouge.
 
 ### La story d'Abba, lettre par lettre (7a1)
 - **Explication** : INVEST, grille de Bill Wake (2003, XP), six lettres : I (ne dépend pas
-  d'une autre story, autant que possible), N (le besoin, pas les détails de la solution), V (de
+  d'une autre story ni du travail d'une autre équipe, autant que possible), N (le besoin, pas les détails de la solution), V (de
   la valeur pour l'utilisateur), E (les Developers peuvent l'estimer assez pour l'ordonner), S
   (petite : chez Wake, au plus quelques semaines-personnes ; repère du cours : elle tient dans
   un sprint, concept 4), T (on saurait écrire un test qui dit si elle est faite).
