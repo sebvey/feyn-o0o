@@ -6,6 +6,10 @@ if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   for f in observations.md parcours.md; do
     [ -e "$CLAUDE_PROJECT_DIR/learner/$f" ] || echo "Fichier absent : learner/$f."
   done
+  a="$CLAUDE_PROJECT_DIR/learner/apprenant.md"
+  grep -q '^- Rôle : <' "$a" && echo "Question d'accueil sans réponse : rôle."
+  grep -q '^- Avant le parcours : <' "$a" &&
+    echo "Question d'accueil sans réponse : ce qu'il connaît de Scrum et de la gestion de produit."
   echo "Domaines du cours (course/plan.md) :"
   awk '/^## /{ f = ($0 == "## Domaines du cours") } f' "$CLAUDE_PROJECT_DIR/course/plan.md" |
     sed -n 's/^\([0-9]*\)\. \*\*\(.*\)\*\* (\([^)]*\)).*/\1. \2 (\3)/p'

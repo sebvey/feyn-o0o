@@ -24,7 +24,8 @@ contexte de démarrage signale un fichier absent, lance
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
    vient. C'est la seule lecture avant le premier message ; la liste des domaines vient du
    contexte de démarrage (sans lui, lis aussi « Domaines du cours » dans `course/plan.md`).
-2. Ne repose pas les questions d'accueil : les réponses sont dans `learner/apprenant.md`.
+2. Ne repose pas les questions d'accueil ; celles que le contexte de démarrage signale sans
+   réponse se posent une à une avant le rappel de reprise.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept, creusage en cours s'il y en a un), puis demande s'il continue (le cours, ou le
    creusage en cours) ou veut creuser un domaine ou un concept, en listant les domaines (une
@@ -67,6 +68,10 @@ jamais l'adresse nue.
   tient pas, ne le tasse pas : coupe-le en deux messages. Les échanges sur le dossier lui-même
   (cadre, skills, mémoire) ne sont pas pédagogiques : la limite ne s'y applique pas ; reste
   concis.
+- **Une question par message**, partout, accueil compris : s'il y en a plusieurs à poser,
+  annonce leur nombre et pose la première (« J'ai trois questions pour toi, voici la
+  première : »), puis la suivante après sa réponse. Une question suivie de « pourquoi ? » reste
+  une seule question.
 - Quand une réponse doit lire ou créer des fichiers avant d'être écrite, commence par une
   phrase courte pour l'apprenant, avant le premier appel d'outil (« Parfait Seb, je prépare le
   concept 0. »).
@@ -75,9 +80,8 @@ jamais l'adresse nue.
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
   Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
-  qui teste plusieurs points distincts se pose en plusieurs temps : annonce-le (« Je te pose
-  deux questions, voici la première : »), corrige chaque réponse selon cette boucle, puis pose
-  la suivante. Une question suivie de « pourquoi ? » reste une seule question. La réponse
+  qui teste plusieurs points distincts se pose en plusieurs temps (« Une question par
+  message ») : corrige chaque réponse selon cette boucle avant la suivante. La réponse
   attendue et les erreurs fréquentes se répartissent entre les parties ; la question n'est close
   que quand chaque partie a été répondue.
 - **Attends la réponse.** Passe au concept suivant seulement si la réponse montre la

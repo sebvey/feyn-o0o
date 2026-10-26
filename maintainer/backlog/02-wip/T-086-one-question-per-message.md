@@ -22,8 +22,11 @@
     > suivante.
   - `CLAUDE.md`, « Au démarrage d'une session », remplacer « 2. Ne repose pas les questions
     d'accueil : les réponses sont dans `learner/apprenant.md`. » par :
-    > 2. Ne repose pas les questions d'accueil dont la réponse est dans `learner/apprenant.md` ;
-    >    s'il en manque, pose-les une à une avant le rappel de reprise.
+    > 2. Ne repose pas les questions d'accueil ; celles que le contexte de démarrage signale sans
+    >    réponse se posent une à une avant le rappel de reprise.
+  - `.claude/hooks/learner-status.sh`, apprenant connu : signaler chaque champ du profil resté
+    au modèle (« Question d'accueil sans réponse : rôle. »), pour que la seule lecture de
+    `learner/parcours.md` avant le rappel de reprise (ADR-034) reste vraie.
   - `.claude/skills/learner-onboarding/SKILL.md` :
     - étape 1 : « et pose les questions d'accueil, en une liste : » devient « et pose les
       questions d'accueil une à une, en annonçant qu'il y en a trois (« Une question par
