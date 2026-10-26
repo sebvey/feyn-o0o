@@ -40,7 +40,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
    sans sprint). L'annonce invite l'apprenant à signaler son cas ; la question du message est la
    question de niveau. S'il dit travailler sans sprint, note dans « Points annoncés pour plus
    tard » : annexe A2 à proposer en 11b, 15b, 15c et 16c.
-2. **Question de niveau** (même message) : elle situe ce que l'apprenant sait déjà de Scrum. Elle
+2. **Question de niveau** (première partie dans le même message) : elle situe ce que l'apprenant sait déjà de Scrum. Elle
    ne valide ni ne fait sauter aucun sous-concept : tout le concept s'enseigne ensuite. Voir la
    banque.
 3. **0a le cadre**, en trois parties :
@@ -62,16 +62,17 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### La question de niveau (avant 0a)
 - **Explication** : annoncer le parti pris en deux ou trois lignes, puis : « Pour savoir d'où
-  tu pars, une question. Quelle que soit ta réponse, on voit tout le concept : ce que tu sais
-  déjà ira plus vite. »
+  tu pars, deux questions. Quelles que soient tes réponses, on voit tout le concept : ce que tu
+  sais déjà ira plus vite. Voici la première : »
 - **Situation** : l'équipe vélos (Dana et Diego, data engineers ; Anna, analyste ; Scarlette, Scrum
   Master ; l'apprenant, PO) travaille en sprints de deux semaines.
-- **Question** : « Qui décide de l'ordre du backlog, et quelle différence fais-tu entre un
-  sprint et un incrément ? »
-- **Pose et correction** : la question ne teste pas, elle situe. Elle se pose d'un bloc, sans
-  la découper en deux temps, et sans relance. La correction tient en une ligne : « Juste : … ;
-  on verra : … », sans nuance détaillée (les nuances viennent avec les sous-concepts). Le
-  même message enchaîne sur le premier message de 0a1 (l'équipe en bref). Ce que la réponse a
+- **Question**, en deux parties : « Qui décide de l'ordre du backlog ? », puis « Quelle
+  différence fais-tu entre un sprint et un incrément ? »
+- **Pose et correction** : la question ne teste pas, elle situe. Elle se pose en deux temps
+  (« Une question par message » de `CLAUDE.md`), sans relance. Chaque réponse se corrige en une
+  ligne : « Juste : … ; on verra : … », sans nuance détaillée (les nuances viennent avec les
+  sous-concepts). La correction de la première partie pose la seconde ; celle de la seconde
+  enchaîne, dans le même message, sur le premier message de 0a1 (l'équipe en bref). Ce que la réponse a
   montré de juste, l'explication du sous-concept qui le traite le rappelle (« tu l'as dit : … »),
   plus court, sans sauter le message.
 - **Ce qu'une réponse juste contient** : le PO décide de l'ordre du backlog (une hésitation
@@ -80,10 +81,11 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sans lien obligé avec la fin du sprint.
 - **Mémoire** : une erreur fréquente commise dans la réponse (ci-dessous) se note en vigilance
   du sous-concept qui la traite ; une notion que l'apprenant ignore ne se note pas (« Prochaine
-  étape » la porte). Une fois répondue, la question est close : on ne la repose pas. Si
-  l'apprenant s'arrête avant la correction, « Prochaine étape » note sa réponse en une ligne ;
-  la session suivante fait d'abord le rappel en deux lignes du démarrage, puis, au message
-  suivant, la ligne de correction et le premier message de 0a1.
+  étape » la porte). Une fois ses deux parties répondues, la question est close : on ne la
+  repose pas. Si l'apprenant s'arrête avant une correction, « Prochaine étape » note la partie
+  posée et sa réponse en une ligne ; la session suivante fait d'abord le rappel en deux lignes
+  du démarrage, puis, au message suivant, la ligne de correction et la suite (la seconde
+  partie, ou le premier message de 0a1).
 - **Erreurs fréquentes** :
   - « L'équipe décide ensemble de l'ordre » ou « c'est le Scrum Master » : vigilance pour 0a1
     (le PO, le Scrum Master).

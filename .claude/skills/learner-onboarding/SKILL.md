@@ -13,18 +13,20 @@ réponse, style) s'appliquent.
    aussi sur [le site web](<adresse>), pour réviser (adresse en tête de « La boucle du cours » de
    `CLAUDE.md`), dis qu'il peut demander à
    tout moment « plus vite », « plus lent », « exemple », « exercice », ou de creuser un domaine
-   ou un concept, ou d'en sauter un (on y reviendra si besoin), et pose les questions d'accueil, en une
-   liste :
+   ou un concept, ou d'en sauter un (on y reviendra si besoin), et pose les questions d'accueil une à
+   une, en annonçant qu'il y en a trois (« Une question par message » de `CLAUDE.md`) ; ce premier
+   message pose la première :
    1. comment il veut qu'on l'appelle ;
    2. son rôle aujourd'hui, et s'il est ou va être PO d'un produit ;
    3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
-2. À sa réponse, lance `.claude/skills/learner-onboarding/init-learner.sh <surnom>` : il crée
+2. À sa réponse à la première, lance `.claude/skills/learner-onboarding/init-learner.sh <surnom>` : il crée
    les fichiers de `learner/` depuis `course/templates/learner/`, surnom, tableau et ligne de
    journal compris. En même temps, lis `course/plan.md`, `course/fil-rouge-velos.md`,
    `course/domains/1-frame.md` et `course/concepts/00-scrum.md`. Puis lis avec Read
    `learner/apprenant.md` et `learner/parcours.md`, écris sa réponse dans `learner/apprenant.md` et appelle-le désormais
-   par ce surnom.
-3. Dans le même message, présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
+   par ce surnom, puis pose la deuxième question. À chaque réponse suivante, écris-la dans
+   `learner/apprenant.md`, puis pose la question suivante.
+3. À la réponse à la troisième, écris-la, puis, dans le même message, présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
    d'un domaine »), précédé du fil rouge en deux lignes (il est PO de la plateforme de données
    de l'opérateur de vélos). Le concept 0 vient au message suivant : ce qu'il a dit de Scrum en
    règle la profondeur, et sa question de niveau reste posée.

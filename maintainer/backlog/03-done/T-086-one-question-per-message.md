@@ -22,8 +22,11 @@
     > suivante.
   - `CLAUDE.md`, « Au démarrage d'une session », remplacer « 2. Ne repose pas les questions
     d'accueil : les réponses sont dans `learner/apprenant.md`. » par :
-    > 2. Ne repose pas les questions d'accueil dont la réponse est dans `learner/apprenant.md` ;
-    >    s'il en manque, pose-les une à une avant le rappel de reprise.
+    > 2. Ne repose pas les questions d'accueil ; celles que le contexte de démarrage signale sans
+    >    réponse se posent une à une avant le rappel de reprise.
+  - `.claude/hooks/learner-status.sh`, apprenant connu : signaler chaque champ du profil resté
+    au modèle (« Question d'accueil sans réponse : rôle. »), pour que la seule lecture de
+    `learner/parcours.md` avant le rappel de reprise (ADR-034) reste vraie.
   - `.claude/skills/learner-onboarding/SKILL.md` :
     - étape 1 : « et pose les questions d'accueil, en une liste : » devient « et pose les
       questions d'accueil une à une, en annonçant qu'il y en a trois (« Une question par
@@ -34,7 +37,11 @@
     - étape 3 : « Dans le même message » devient « À la réponse à la troisième, dans le même
       message ».
     Le premier message reste sans appel d'outil (ADR-034).
+  - `course/concepts/00-scrum.md` : la question de niveau, double, se pose en deux temps
+    (annoncée, chaque partie corrigée en une ligne, sans relance ; la seconde correction enchaîne
+    sur 0a1) ; entrée MINOR au CHANGELOG. Décidé avec le mainteneur après le test.
 - **Fini quand** : un test d'accueil pose les trois questions dans trois messages, le premier
   annonçant leur nombre, et présente le domaine 1 après la troisième ; un test de reprise avec un
   `learner/apprenant.md` qui n'a que le surnom pose les deux questions manquantes, une à une,
   avant le rappel de reprise.
+- **Fait le** : 2026-10-26, règle « Une question par message » dans `CLAUDE.md`, accueil une question à la fois, questions d'accueil manquantes signalées par le hook et posées à la reprise, question de niveau du concept 0 en deux temps ; ADR-065 ; tests (accueil, reprise sans réponses, entrée dans le concept 0) conformes ; `course-taught-check` sur le concept 0 : deux constats mineurs antérieurs, ticket T-087.
