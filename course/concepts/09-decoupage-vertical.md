@@ -157,7 +157,8 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   Developers, dans le backlog de sprint (concept 4). La story, elle, reste verticale : elle
   sert seule à Régis. Le PO juge la story sur ses critères d'acceptation, pas sur ses tâches.
   Nuance : « calculer les stations vides » suppose que la règle « station vide » est fixée ;
-  sinon la story n'était pas prête (concept 8a2 ; Definition of Ready, concept 11).
+  sinon la story n'était pas prête à être choisie (3a2, 8a2 ; l'équipe l'écrit dans sa
+  Definition of Ready, concept 11).
 - **Erreurs fréquentes** :
   - donner raison à Anna, parce que « chaque découpage doit être vertical » : demander « à quel
     niveau Régis se sert-il de quelque chose : la story ou la tâche ? » ;
