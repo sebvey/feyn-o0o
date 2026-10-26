@@ -11,3 +11,4 @@
   validation (« [la page du concept N](<adresse>concepts/NN/) »).
 - **Fini quand** : au test du mainteneur, le premier message d'un concept porte son titre en lien
   vers sa page.
+- **Fait le** : 2026-10-26, `CLAUDE.md` : titre du premier message d'un concept en lien vers sa page ; test manuel du mainteneur à venir.

@@ -9,3 +9,4 @@
   devient « puis la suivante après sa réponse, sans rappeler son rang ».
 - **Fini quand** : au test du mainteneur, les deuxième et troisième questions d'accueil se posent
   sans « deuxième », « troisième » ni « sur trois ».
+- **Fait le** : 2026-10-26, `CLAUDE.md` : « sans rappeler son rang » ; test manuel du mainteneur à venir.

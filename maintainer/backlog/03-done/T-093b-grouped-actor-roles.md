@@ -14,3 +14,4 @@
   parenthèses est celui du fil rouge, jamais la responsabilité Scrum qu'une question teste.
 - **Fini quand** : au test du mainteneur, en 0a1, « Dana et Diego (data engineers) » et aucune
   responsabilité Scrum testée n'apparaît entre parenthèses dans la question.
+- **Fait le** : 2026-10-26, `CLAUDE.md` : acteurs de même rôle groupés, rôle du fil rouge et jamais la responsabilité Scrum testée ; test manuel du mainteneur à venir.
