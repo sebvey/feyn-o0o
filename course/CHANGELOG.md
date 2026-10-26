@@ -32,6 +32,11 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, concept 12 : 12a1, la situation donne le propriétaire des relevés (système des bornes, via la DSI) ; la réponse attendue juge la source à moitié juste sans lui, et le corrigé le cite
+- PATCH, concept 3 : 3b, l'élément « streaming » ne renvoie plus au concept 1 pour sa création
+- PATCH, concept 7 : 7a1 (rechange), « des stories plus petites s'estiment mieux » passe en nuance
+- PATCH, concept 10 : 10b2, « escalade » dit en passant, et Scarlette dite aussi Scrum Master de l'équipe appli
+
 ## 2.3.1, 2026-10-26
 
 - PATCH, sources des concepts 7 et 8 : la règle non fixée que le PO fait fixer renvoie à 7a2, plus au concept 4

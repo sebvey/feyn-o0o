@@ -202,7 +202,8 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   l'ordre dans les deux backlogs : c'est Pia qui inscrit et place le canal dans le sien. Nuances :
   la part de la plateforme n'est pas perdue si elle sort avant, car Pia veut aussi la
   disponibilité pour l'appli ; si l'accord ne se fait pas, ou si la dépendance bloque, c'est une
-  escalade (Scarlette, Scrum Master des deux équipes ; Odile, sponsor) : concept 14.
+  escalade (porter le blocage au niveau qui peut le lever : Scarlette, qui est aussi Scrum Master
+  de l'équipe appli ; Odile, sponsor) : concept 14.
 - **Erreurs fréquentes** :
   - livrer sa part et tenir la story pour faite : demander « Abba obtient-elle l'information ? » ;
   - demander à Dana de faire le canal : l'appli et ses canaux relèvent de l'équipe appli ;
