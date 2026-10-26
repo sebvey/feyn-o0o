@@ -1,6 +1,8 @@
 #!/bin/sh
 # SessionStart : donne au prof l'état de learner/ (CLAUDE.md, « Au démarrage d'une session »).
 nick=$(sed -n 's/^Surnom : \*\*\(.*\)\*\*.*/\1/p' "$CLAUDE_PROJECT_DIR/learner/apprenant.md" 2>/dev/null)
+echo "Public cible du cours (course/plan.md) :"
+awk '/^## /{ f = ($0 == "## Public cible") ; next } f && NF' "$CLAUDE_PROJECT_DIR/course/plan.md"
 if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   echo "État de learner/ : apprenant connu, $nick."
   for f in observations.md parcours.md; do
@@ -9,6 +11,11 @@ if [ -n "$nick" ] && [ "$nick" != "<surnom>" ]; then
   echo "Domaines du cours (course/plan.md) :"
   awk '/^## /{ f = ($0 == "## Domaines du cours") } f' "$CLAUDE_PROJECT_DIR/course/plan.md" |
     sed -n 's/^\([0-9]*\)\. \*\*\(.*\)\*\* (\([^)]*\)).*/\1. \2 (\3)/p'
+  for f in apprenant.md observations.md; do
+    [ -e "$CLAUDE_PROJECT_DIR/learner/$f" ] || continue
+    echo "Contenu de learner/$f :"
+    cat "$CLAUDE_PROJECT_DIR/learner/$f"
+  done
 else
   echo "État de learner/ : nouvel apprenant (learner/apprenant.md absent ou sans surnom)."
   echo "En session de cours, suis le skill learner-onboarding ci-dessous, sans le recharger :"
