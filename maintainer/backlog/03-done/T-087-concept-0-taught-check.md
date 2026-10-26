@@ -15,4 +15,10 @@
   niveau, vue au concept 3), et aligner la colonne concept du glossaire si elle l'exige ; dans
   la situation du récit de Diego, dire que Scarlette est aussi la Scrum Master de l'équipe
   appli. Entrées au CHANGELOG.
+- **Constats fusionnés** (même règle, relevés par `course-taught-check` au traitement) :
+  « objectif produit », « objectif de sprint » et « événements » employés en 0a1 avant d'être
+  définis ; la DoD dans la correction de la question de niveau ; la rétrospective comme lieu du
+  rythme de travail dans « Une semaine pour souffler » (0a2), avant son but ; le test rapide
+  nommé sans être formulé dans « Le sprint est livré » (0b).
 - **Fini quand** : `course-taught-check` sur le concept 0 ne relève plus ces deux constats.
+- **Fait le** : 2026-10-26, « élément du backlog », « objectif produit », « objectif de sprint », « événements » et la DoD définis au passage à leur première mention ; rôle de Scarlette dans l'équipe appli ; nuance de la rétrospective ; test rapide formulé ; `course-taught-check` sur le concept 0, second passage : seul le test rapide restait, corrigé ensuite sans nouveau passage.

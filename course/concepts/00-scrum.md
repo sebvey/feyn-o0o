@@ -77,8 +77,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   plus court, sans sauter le message.
 - **Ce qu'une réponse juste contient** : le PO décide de l'ordre du backlog (une hésitation
   compte comme juste) ; le sprint est une durée fixe (une durée donnée, « deux semaines »,
-  compte comme juste) ; l'incrément est le produit dans un état utilisable, qui remplit la DoD,
-  sans lien obligé avec la fin du sprint.
+  compte comme juste) ; l'incrément est le produit dans un état utilisable, qui remplit la
+  Definition of Done (DoD), les exigences de qualité de l'équipe, sans lien obligé avec la fin
+  du sprint.
 - **Mémoire** : une erreur fréquente commise dans la réponse (ci-dessous) se note en vigilance
   du sous-concept qui la traite ; une notion que l'apprenant ignore ne se note pas (« Prochaine
   étape » la porte). Une fois ses deux parties répondues, la question est close : on ne la
@@ -91,17 +92,18 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
     (le PO, le Scrum Master).
   - « Le PO décide seul de ce qui entre dans le sprint » : vigilance pour 0a2 (Sprint Planning).
   - « L'incrément, c'est ce qu'on livre à la fin du sprint » : vigilance pour 0b.
-  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog ».
+  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog » (toute
+    entrée du backlog, quelle que soit sa taille).
     Le dire dans la ligne de correction, sans vigilance.
 
 ### Qui est le chef de l'équipe vélos ? (0a1, l'équipe en bref)
 - **Explication** : une équipe Scrum est petite (en général dix personnes au plus), sans
-  sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit. Elle
-  s'organise elle-même : elle décide en interne qui fait quoi, quand et comment. Elle porte trois
-  responsabilités, chacune vue en détail dans un message à elle : le **Product Owner** (PO)
-  répond de la valeur du produit et du backlog ; les **Developers** réalisent l'incrément ; le
-  **Scrum Master** répond de l'efficacité de l'équipe. Une responsabilité dit de quoi chacun
-  répond, pas qui commande.
+  sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit (l'état
+  futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
+  fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
+  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog ; les
+  **Developers** réalisent l'incrément ; le **Scrum Master** répond de l'efficacité de l'équipe.
+  Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
   Scarlette Scrum Master, et l'apprenant est le PO. Un collègue de la DSI le croise : « Alors,
   qui est le chef de l'équipe vélos ? Scarlette, j'imagine, c'est elle qui organise les
@@ -121,11 +123,12 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### Diego écrit des éléments du backlog (0a1, le PO)
 - **Explication** : le PO répond de la valeur du produit. Il répond aussi du backlog produit :
-  formuler l'objectif produit et le faire connaître ; créer les éléments du backlog et les
-  rendre clairs ; les ordonner ; veiller à ce que le backlog soit transparent, visible et
-  compris. Il peut faire ce travail ou le confier à d'autres ; il en reste responsable. C'est
-  une seule personne, pas un comité. Qui veut changer le backlog doit convaincre le PO, et
-  l'organisation respecte ses décisions, visibles dans le contenu et l'ordre du backlog.
+  formuler l'objectif produit et le faire connaître ; créer les éléments du backlog (toute entrée
+  du backlog, quelle que soit sa taille ; détaillés au concept 3) et les rendre clairs ; les
+  ordonner ; veiller à ce que le backlog soit transparent, visible et compris. Il peut faire ce
+  travail ou le confier à d'autres ; il en reste responsable. C'est une seule personne, pas un
+  comité. Qui veut changer le backlog doit convaincre le PO, et l'organisation respecte ses
+  décisions, visibles dans le contenu et l'ordre du backlog.
 - **Situation** : après une tournée avec Théo (technicien de maintenance), Diego (data
   engineer) écrit lui-même deux éléments du backlog sur les vélos signalés en panne. Odile
   (directrice des opérations) s'en étonne : « Ce n'est pas son rôle, c'est le PO qui écrit le
@@ -149,12 +152,12 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### Anna est-elle une Developer ? (0a1, les Developers)
 - **Explication** : les Developers sont les membres de l'équipe qui réalisent l'incrément, quel
-  que soit leur métier : le mot « developers » n'exclut aucune compétence. Ils répondent de
-  quatre choses : créer le backlog de sprint, leur plan pour le sprint (détaillé en 0a3) ; la
-  qualité, en respectant la Definition of Done (DoD), les exigences de qualité de l'équipe
-  (reprise en 0a3, détaillée au concept 11) ; adapter leur plan chaque jour vers l'objectif de
-  sprint ; se tenir responsables les uns envers les autres. Comment transformer un élément du
-  backlog en incrément, eux seuls le décident.
+  que soit leur métier : le mot « developers » n'exclut aucune compétence. Ils répondent de quatre
+  choses : créer le backlog de sprint, leur plan pour le sprint (détaillé en 0a3) ; la qualité, en
+  respectant la Definition of Done (DoD), les exigences de qualité de l'équipe (reprise en 0a3,
+  détaillée au concept 11) ; adapter leur plan chaque jour vers l'objectif de sprint (ce que le
+  sprint vise, fixé à son début, détaillé en 0a3) ; se tenir responsables les uns envers les
+  autres. Comment transformer un élément du backlog en incrément, eux seuls le décident.
 - **Situation** : dans l'équipe vélos, Dana et Diego (data engineers) construisent les
   pipelines ; Anna (analyste) calcule les indicateurs et les analyses publiés dans les vues de
   la plateforme. Odile (directrice des opérations) prépare un schéma de l'équipe pour le comité
@@ -177,12 +180,12 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 ### Qui tranche dans l'équipe vélos (0a1, le Scrum Master)
 - **Explication** : le Scrum Master répond de l'efficacité de l'équipe Scrum, et de la mise en
   place de Scrum tel que le décrit le Scrum Guide. Il sert l'équipe : il l'aide à s'organiser
-  elle-même, à se concentrer sur des incréments qui remplissent la DoD, fait lever les
-  obstacles à son avancement, et veille à ce que les événements aient lieu, soient utiles et
-  tiennent leur durée. Il sert le PO : il l'aide à trouver des techniques pour l'objectif
-  produit et le backlog, et facilite la collaboration avec les parties prenantes (toute
-  personne ou équipe concernée par le produit, vues au concept 1). Il sert l'organisation, en
-  l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe.
+  elle-même, à se concentrer sur des incréments qui remplissent la DoD, fait lever les obstacles à
+  son avancement, et veille à ce que les événements (les rendez-vous fixes du sprint, vus en 0a2)
+  aient lieu, soient utiles et tiennent leur durée. Il sert le PO : il l'aide à trouver des
+  techniques pour l'objectif produit et le backlog, et facilite la collaboration avec les parties
+  prenantes (toute personne ou équipe concernée par le produit, vues au concept 1). Il sert
+  l'organisation, en l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe.
 - **Situation** : Étienne (responsable d'exploitation) relance Scarlette, la Scrum Master, sur la
   vue des vélos en panne. Scarlette, qui anime les événements de l'équipe, la remonte en tête du
   backlog.
@@ -218,8 +221,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Question** : « Que réponds-tu à Diego ? Dis ce qui ne va pas dans sa proposition. »
 - **Réponse attendue** : deux choses. Le sprint suivant commence dès la fin du précédent : une
   semaine hors sprint n'existe pas en Scrum. La rétrospective fait partie du sprint et le
-  clôt : elle ne vient pas après. Si l'équipe a besoin de souffler, c'est un sujet pour la
-  rétrospective (le rythme de travail), pas une pause entre deux sprints. Les deux semaines de
+  clôt : elle ne vient pas après. Nuance, à apporter dans la correction : si l'équipe a besoin
+  de souffler, c'est un sujet pour la rétrospective (le rythme de travail ; son but vient au
+  message sur la rétrospective), pas une pause entre deux sprints. Les deux semaines de
   l'équipe vélos sont conformes (un mois au plus).
 - **Erreurs fréquentes** :
   - Ne relever que la pause : relancer : « et la rétrospective, à quel moment du sprint
@@ -327,8 +331,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Situation** : Diego (data engineer) raconte le sprint de l'équipe appli, qu'il a observé :
   « Au Sprint Planning, le PO arrive avec l'objectif de sprint déjà écrit et la liste des
   éléments. Le Daily Scrum dure une heure, et Odile, la directrice des opérations, y vient chaque
-  matin. À la revue, Scarlette présente seule le travail. La rétrospective, on la saute quand le
-  sprint s'est bien passé. »
+  matin. À la revue, Scarlette, qui est aussi la Scrum Master de l'équipe appli, présente seule
+  le travail. La rétrospective, on la saute quand le sprint s'est bien passé. »
 - **Question** : « Corrige le récit de Diego : relève chaque erreur et dis ce qui se passe
   vraiment. »
 - **Réponse attendue** : quatre erreurs.
@@ -432,7 +436,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - Laisser passer « le sprint est livré » comme une façon de parler : la formule entretient la
     confusion entre la durée et l'incrément. Relancer : « Diego dit « le sprint est livré » :
     qu'est-ce qui se livre ? ».
-- **Ce qui marche** : le test rapide, appliqué à la vue.
+- **Ce qui marche** : poser le test rapide en le formulant, appliqué à la vue : « Si on la livrait
+  maintenant, un utilisateur pourrait-il s'en servir, et la DoD serait-elle remplie ? »
 
 ## Pièges
 - « On livre un sprint » : erreur fréquente en formation. On livre des incréments ; le sprint
