@@ -19,3 +19,4 @@
 - **Fini quand** : un test « on continue » montre l'exemple et la question dans une même
   citation, avec les titres en gras suivis d'un retour à la ligne, et le message tient
   toujours en quinze lignes.
+- **Fait le** : 2026-10-26, forme citation pour exemple et question inscrite dans `CLAUDE.md` (« Un seul concept par message ») ; pas de test par sous-agent, changement de mise en forme.

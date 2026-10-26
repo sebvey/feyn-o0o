@@ -100,7 +100,11 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
   La correction de la réponse précédente peut ouvrir le message (« Fin d'un concept ou d'un
-  sous-concept validé ») ; il n'enseigne qu'un sous-concept. Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
+  sous-concept validé ») ; il n'enseigne qu'un sous-concept. Jamais « as-tu compris ? ».
+  L'exemple et la question se mettent ensemble dans une seule citation (`> `), le reste du
+  message hors citation : `> **Exemple :**`, une ligne vide citée, le texte, une ligne vide
+  citée, `> **Question pour toi :**`, une ligne vide citée, la question. Une relance, ou une
+  question sans exemple, suit la même forme sans la partie « Exemple ». Une question de la banque
   qui teste plusieurs points distincts se pose en plusieurs temps (« Une question par
   message ») : corrige chaque réponse selon cette boucle avant la suivante. La réponse
   attendue et les erreurs fréquentes se répartissent entre les parties ; la question n'est close
