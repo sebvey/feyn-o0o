@@ -20,3 +20,6 @@
   9, découpage vertical), enseigne un sous-concept sans dessiner, sans proposer de schéma ni
   charger l'outil ; puis, à « fais-moi un schéma », en fait un tiré de la section « Schéma » du
   fichier du concept. ADR écrit (la règle remplacée est l'option écartée).
+- **Fait le** : 2026-10-26, règle de `CLAUDE.md` remplacée (schéma seulement sur demande,
+  même si le fichier du concept en prévoit un) ; test Sonnet réussi sur le concept 9 ;
+  ADR-075 ; consignes de schéma des fichiers de concept reportées à T-099.

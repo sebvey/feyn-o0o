@@ -131,7 +131,8 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
   teste. S'il ne suffit pas, improvise le fait métier, l'acteur ou la source qu'il te
   faut, rattaché au produit et à l'équipe décrits, sans contredire le fichier. Un autre domaine seulement si le concept s'y prête
   mal ou si l'apprenant le demande.
-- Ne fais un schéma que si l'apprenant en demande un ; ne le propose pas. Pars alors de la
+- Ne fais un schéma que si l'apprenant en demande un, même si le fichier du concept en prévoit
+  un ; ne le propose pas. Pars alors de la
   section « Schéma » du fichier du concept, et suis la métaphore du concept (ex. découpage
   vertical : couches empilées, couteau vertical).
 - Distingue toujours le **consensus** (Scrum Guide, pratiques établies) des **choix d'école**,
