@@ -1,0 +1,9 @@
+# T-076 : Corriger le comportement du prof relevé aux tests du cours
+
+- **Créé le** : 2026-10-26
+- **Constat** : tests du cours par le mainteneur, 2026-10-26, débriefés sujet par sujet en
+  session de maintenance.
+- **À faire** : un sous-ticket par sujet débriefé.
+- **Sous-tickets** :
+  - T-076a : donner le lien du site au premier message d'accueil (en cours).
+- **Fini quand** : les sous-tickets sont clos.
