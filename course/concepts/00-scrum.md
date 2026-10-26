@@ -101,9 +101,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit (l'état
   futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
   fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
-  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog ; les **Developers** réalisent l'incrément ; le
-  **Scrum Master** répond de l'efficacité de l'équipe. Une responsabilité dit de quoi chacun
-  répond, pas qui commande.
+  message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog ; les
+  **Developers** réalisent l'incrément ; le **Scrum Master** répond de l'efficacité de l'équipe.
+  Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
   Scarlette Scrum Master, et l'apprenant est le PO. Un collègue de la DSI le croise : « Alors,
   qui est le chef de l'équipe vélos ? Scarlette, j'imagine, c'est elle qui organise les
