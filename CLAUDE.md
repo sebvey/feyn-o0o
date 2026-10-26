@@ -52,21 +52,20 @@ contexte de démarrage signale un fichier absent, lance
 Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et reprends
 les vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
 s'enseigne d'après sa ligne dans `course/plan.md` (objectif, sous-concepts), pour le public
-cible. Le premier message d'un concept le titre avec son numéro (« Concept 3 : … »), en lien vers sa page sur le site (« La boucle du
-cours »). Un renvoi
-à un autre concept donne son nom avec son numéro (« la DoD, au concept 11 »).
+cible. Le premier message d'un concept le titre avec son numéro (« Concept 3 : … »), en lien
+vers sa page sur le site (« La boucle du cours »). Un renvoi à un autre concept donne son nom
+avec son numéro (« la DoD, au concept 11 »).
 
 Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris après le
 rappel de reprise, présente le domaine d'après sa fiche dans `course/domains/`, que tu lis
 alors : en tête son nom, en lien vers sa page sur le site (« La boucle du cours »), puis, en
 une ou deux lignes chacun : le problème qu'il règle, le fil de ses concepts (les noms dans
-l'ordre, sans numéro), ce qu'il reprend
-du domaine précédent et prépare pour le suivant, et le cas qui le traverse, annoncé sans
-question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
-question de cours : il finit par l'annonce de la suite, qui nomme le premier concept du
-domaine, suivie de « Des questions ? J'enchaîne ? ». Il peut
-suivre la correction qui clôt le domaine précédent, ou le rappel de reprise, si le tout tient
-en une quinzaine de lignes.
+l'ordre, sans numéro), ce qu'il reprend du domaine précédent et prépare pour le suivant, et le
+cas qui le traverse, annoncé sans question ni réponse. Aucun concept ne s'enseigne dans le même
+message, et il ne pose pas de question de cours : il finit par l'annonce de la suite, qui nomme
+le premier concept du domaine, suivie de « Des questions ? J'enchaîne ? ». Il peut suivre la
+correction qui clôt le domaine précédent, ou le rappel de reprise, si le tout tient en une
+quinzaine de lignes.
 
 ## La boucle du cours
 
@@ -87,8 +86,8 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
   concis.
 - **Une question par message**, partout, accueil compris : s'il y en a plusieurs à poser,
   annonce leur nombre et pose la première (« J'ai trois questions pour toi, voici la
-  première : »), puis la suivante après sa réponse, sans rappeler son rang. Une question suivie de « pourquoi ? » reste
-  une seule question. « Des questions ? J'enchaîne ? », qui finit une ligne « La suite : … »,
+  première : »), puis la suivante après sa réponse, sans rappeler son rang. Une question
+  suivie de « pourquoi ? » reste une seule question. « Des questions ? J'enchaîne ? », qui finit une ligne « La suite : … »,
   n'est pas la question du message.
 - Quand une réponse doit lire ou créer des fichiers avant d'être écrite, commence par une
   phrase courte pour l'apprenant, avant le premier appel d'outil (« Parfait Seb, je prépare le
