@@ -28,3 +28,4 @@
   suivant sans relance vide, ouvre le concept 0 sans question de niveau, reprend sur « on
   continue » sans menu et sans lire `course/plan.md`, et présente un domaine avec son nom en
   lien ; `course-taught-check` sur le concept 0 ne relève rien que le ticket ait causé.
+- **Fait le** : 2026-10-26, enchaînement après validation, reprise directe sur « on continue », question de niveau retirée, lectures du démarrage par le hook, mini-récap sans question, nom du domaine en lien ; ADR-068 (ADR-063 supprimé). Tests par sous-agents Sonnet : accueil puis concept 0 sans question de niveau, domaine en lien, 0a1 validé enchaîné sur 0a1 le PO ; reprise sur « on continue » sans menu ni lecture du plan, menu sur « on reprend » ; course-taught-check sur le concept 0 : deux constats mineurs causés par le ticket, corrigés.
