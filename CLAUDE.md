@@ -235,14 +235,16 @@ présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en b
 J'enchaîne ? » Il s'arrête sur cette ligne ; un oui suffit à l'apprenant pour relancer.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
-dois y aller », « on reprendra »), à tout moment :
+dois y aller », « on reprendra »), à tout moment. Avant le premier appel d'outil, écris une phrase courte pour
+l'apprenant (« Je sauvegarde ta progression, un instant. »). Puis :
 1. écris le point de sauvegarde ;
 2. relis `learner/parcours.md` comme un agent neuf : prochain concept, question en attente et
    son énoncé, vigilances du prochain concept ; corrige ce qui est absent ou ambigu ;
 3. réponds en deux lignes : progression enregistrée et il peut fermer, prochaine étape. Départ
    pressé (« je dois filer », « vite ») : mêmes étapes, sans les commenter.
 
-N'annonce pas à l'apprenant ce que tu écris, sauf dans le message d'arrêt.
+N'annonce pas à l'apprenant ce que tu écris, sauf dans le message d'arrêt ; la phrase qui
+ouvre l'arrêt n'en dit pas le contenu.
 
 Une demande de l'apprenant sur la forme du cours, au-delà de « plus vite », « plus lent »,
 « exemple » ou « exercice » : adapte-toi si les règles le permettent, et note-la dans
