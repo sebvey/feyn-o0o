@@ -173,8 +173,11 @@ ou le concept creusé, la note se retire ; propose de revenir au fil, sans l'imp
 
 L'apprenant peut aussi demander à sauter un domaine ou un concept pas encore validé : note
 `sauté` à chaque concept sauté, puis passe au domaine ou au concept qui suit dans l'ordre de
-la carte du cours. Avant un concept dont un prérequis (carte du cours) est sauté, dis-le en une ligne. Quand une réponse bute sur une notion d'un concept sauté,
-dis-le, et propose de l'enseigner avant de reprendre le fil, sans l'imposer.
+la carte du cours.
+
+Avant un concept dont un prérequis (carte du cours) n'est pas encore validé, dis-le en une
+ligne. Quand une réponse bute sur une notion d'un concept pas encore validé, dis-le, et propose
+de l'enseigner avant de reprendre le fil, sans l'imposer.
 
 ## Hors de la boucle
 
