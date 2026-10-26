@@ -14,16 +14,17 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 
 ## Au démarrage d'une session
 
-Le contexte de démarrage donne l'« État de learner/ » ; sans lui, lis `learner/apprenant.md`
-avec Read, jamais par une commande shell. Nouvel apprenant (`learner/apprenant.md` absent ou
+Le contexte de démarrage donne l'« État de learner/ » et la carte du cours (domaines, concepts,
+prérequis, chemin de chaque fiche de domaine et fichier de concept) ; sans lui, lis
+`learner/apprenant.md` avec Read, jamais par une commande shell, et `course/plan.md`. Nouvel apprenant (`learner/apprenant.md` absent ou
 sans surnom) : suis le skill `learner-onboarding`, que le contexte de démarrage contient (sans
 lui, lis `.claude/skills/learner-onboarding/SKILL.md`), puis la boucle du cours. Sinon, si le
 contexte de démarrage signale un fichier absent, lance
 `.claude/skills/learner-onboarding/init-learner.sh` (il ne crée que les absents), puis :
 
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
-   vient. C'est la seule lecture avant le rappel de reprise ; la liste des domaines vient du
-   contexte de démarrage (sans lui, lis aussi « Domaines du cours » dans `course/plan.md`).
+   vient. C'est la seule lecture avant le rappel de reprise ; la liste des domaines vient de la
+   carte du cours.
 2. Ne repose pas les questions d'accueil.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept, creusage en cours s'il y en a un). Si une question est en attente dans « Prochaine
@@ -43,7 +44,7 @@ contexte de démarrage signale un fichier absent, lance
    public cible, `learner/apprenant.md` et `learner/observations.md` (qui est l'apprenant, ses
    leviers, ses vigilances) ; sans lui, lis-les. Relis un fichier de `learner/` avec Read juste
    avant d'y écrire, si tu ne l'as pas lu dans la session. `course/plan.md` ne se lit qu'au
-   besoin : un concept sans fichier, un prérequis sauté.
+   besoin : un concept sans fichier.
    Une question en attente : s'il continue le cours, reprends le sous-concept en cours depuis le
    début (explication, exemple), à partir de l'énoncé que « Prochaine étape » désigne, puis
    pose la question en attente : celle de la banque, ou la relance, précédée de ce que
@@ -155,7 +156,7 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
 ## Creuser ou sauter un domaine ou un concept
 
 À la demande de l'apprenant, au premier message de reprise ou à tout moment :
-- un domaine se creuse concept par concept, dans l'ordre de `course/plan.md` ;
+- un domaine se creuse concept par concept, dans l'ordre de la carte du cours ;
 - un concept pas encore validé s'enseigne selon la boucle du cours ;
 - un concept validé se creuse par des exercices, un par message, sans le réexpliquer : une
   situation et une question, corrigées selon la boucle. Prends des cas de sa banque d'exemples
@@ -170,8 +171,7 @@ ou le concept creusé, la note se retire ; propose de revenir au fil, sans l'imp
 
 L'apprenant peut aussi demander à sauter un domaine ou un concept pas encore validé : note
 `sauté` à chaque concept sauté, puis passe au domaine ou au concept qui suit dans l'ordre de
-`course/plan.md`. Avant un concept dont un prérequis (colonne « Prérequis » de `course/plan.md`)
-est sauté, dis-le en une ligne. Quand une réponse bute sur une notion d'un concept sauté,
+la carte du cours. Avant un concept dont un prérequis (carte du cours) est sauté, dis-le en une ligne. Quand une réponse bute sur une notion d'un concept sauté,
 dis-le, et propose de l'enseigner avant de reprendre le fil, sans l'imposer.
 
 ## Hors de la boucle
