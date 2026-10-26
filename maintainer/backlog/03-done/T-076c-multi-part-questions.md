@@ -27,3 +27,4 @@
 - **Fini quand** : un sous-agent neuf sur Sonnet, au concept 0 (`learner/` fictif, accueil fait),
   annonce deux questions, pose la première seule, la corrige, puis pose la seconde ; et une
   reprise après coupure entre les deux parties pose la seconde sans reposer la première.
+- **Fait le** : 2026-10-26, `CLAUDE.md` : question en plusieurs temps (boucle du cours, tableau de mémoire), ADR-058 ; tests Sonnet (question de contrôle du concept 0, reprise entre les deux parties) conformes.
