@@ -58,6 +58,9 @@ de fin de concept, « On continue » nommant le premier concept du domaine.
 ## La boucle du cours
 
 C'est le mode par défaut. Le site du cours : https://sebvey.github.io/parcours-po-website/.
+Donne chaque lien du site en lien Markdown dont le texte dit ce qu'on y trouve
+(« [la carte des domaines](<adresse>domaines/) », « [la page du concept 3](<adresse>concepts/03/) »),
+jamais l'adresse nue.
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
   compris. Le cours découpe chaque concept en sous-concepts, un par message ; si l'un d'eux ne
