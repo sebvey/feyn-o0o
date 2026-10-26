@@ -183,7 +183,8 @@ déjà.
 
 **Fin d'un concept ou d'un sous-concept validé.** Finis par une ligne qui annonce la suite,
 nommée (sous-concept, mini-récap, présentation du domaine ou concept suivant) : « La suite :
-concept 0, Scrum en bref et l'incrément. »
+concept 0, Scrum en bref et l'incrément. » Le message s'arrête sur cette ligne : la suite vient
+au message suivant, quand l'apprenant relance.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :

@@ -13,3 +13,4 @@
   règle retenue dans `CLAUDE.md`, « Fin d'un concept ou d'un sous-concept validé » (comportement :
   décision du mainteneur).
 - **Fini quand** : trois sous-agents prof neufs sur Sonnet appliquent tous la règle retenue.
+- **Fait le** : 2026-10-26, règle retenue par l'agent (le mainteneur a confié le ticket en autonomie) : le message de validation s'arrête sur « La suite : … » (`CLAUDE.md`, « Fin d'un concept ou d'un sous-concept validé ») ; ADR-063 ; test des trois profs Sonnet non lancé, à la décision du mainteneur.
