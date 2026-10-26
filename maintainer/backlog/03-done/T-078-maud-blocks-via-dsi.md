@@ -10,3 +10,4 @@
   fournir chaque matin la liste des vélos signalés, pour que la DSI les bloque), sans changer
   le point testé (la demande entre au backlog, le PO l'ordonne).
 - **Fini quand** : le cas ne prête plus à la plateforme ce que le fil rouge confie à la DSI.
+- **Fait le** : 2026-10-26, Maud demande à Diego d'envoyer chaque matin à la DSI la liste des vélos signalés, que la DSI bloque à la location ; réponse attendue inchangée ; relu, sans test de session (cas de rechange, point testé inchangé).

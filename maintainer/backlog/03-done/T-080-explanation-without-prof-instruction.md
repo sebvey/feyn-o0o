@@ -8,3 +8,4 @@
 - **À faire** : déplacer la consigne dans le titre ou un champ « Usage », comme le cas de
   creusage du concept 0.
 - **Fini quand** : l'Explication ne contient que ce que le prof dit.
+- **Fait le** : 2026-10-26, consigne déplacée dans un champ « Usage », titre suffixé « rechange » comme les autres cas de rechange ; relu, sans test de session.

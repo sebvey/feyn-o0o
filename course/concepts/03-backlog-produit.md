@@ -106,8 +106,9 @@ ne deviennent pas des faits du fil rouge.
 - **Explication** : le backlog est émergent : il change à mesure que l'équipe apprend. Un
   élément se précise quand il approche du haut ; le bas reste vague. Le haut doit être assez
   précis pour que les Developers puissent le choisir au Sprint Planning et le finir en un
-  sprint. Le Scrum Guide 2017 le disait ; aujourd'hui, c'est le D de DEEP (détaillé à bon
-  escient), choix d'école de Cohn et Pichler. Rappel en une ligne (concept 1) : le backlog reste
+  sprint : le Scrum Guide dit alors qu'il est « prêt à être choisi » (consensus). Que le bas
+  reste vague, le Scrum Guide 2017 le disait et la version 2020 ne le dit plus ; c'est le D de
+  DEEP (détaillé à bon escient), choix d'école de Cohn et Pichler. Rappel en une ligne (concept 1) : le backlog reste
   la seule source de travail de l'équipe.
 - **Situation** : Anna propose de consacrer les deux prochains jours à écrire en détail tous
   les éléments du backlog, jusqu'à la comparaison au même mois de l'an dernier pour Charlotte. Or
@@ -140,8 +141,9 @@ ne deviennent pas des faits du fil rouge.
 - **Explication** : le backlog est la seule source de travail de l'équipe (concept 1) : ce qui
   n'y est pas, l'équipe ne le fait pas ; sinon le backlog ne dit plus ce que fait l'équipe ni
   pourquoi.
-- **Situation** : Maud va voir Diego directement : « Bloque à la location les vélos signalés
-  en panne, c'est une question de sécurité. » Diego te demande s'il peut s'y mettre dès demain.
+- **Situation** : Maud va voir Diego directement : « Envoie à la DSI, chaque matin, la liste
+  des vélos signalés en panne, pour qu'elle les bloque à la location ; c'est une question de
+  sécurité. » Diego te demande s'il peut s'y mettre dès demain.
 - **Question** : Que réponds-tu à Diego ?
 - **Réponse attendue** : Diego ne la prend pas en direct : la demande entre au backlog, et le PO
   décide de sa place parmi les autres. Le motif de Maud (la sécurité) est un argument pour la

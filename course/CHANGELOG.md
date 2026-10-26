@@ -38,6 +38,9 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - MINOR, templates/learner : statut `sauté` d'un concept
 - MINOR, concept 1 : la question de « Qui choisit le travail du sprint ? » (1b) porte sur la quantité, pour ne pas refaire le Sprint Planning de 0a2
 - MINOR, concepts 0 à 17, annexes A1 et A2 : chaque cas ne demande plus que ce que l'apprenant a reçu à ce point du cours (50 corrections : explications et situations complétées, réponses attendues allégées en nuances, renvois corrigés)
+- PATCH, concept 3 : « Maud passe par Diego » (3a2) demande la liste des vélos signalés pour la DSI, qui bloque elle-même la location, comme le dit le fil rouge
+- PATCH, concept 3 : l'Explication de « Tout détailler d'avance ? » (3a2) garde « prêt à être choisi » dans le Scrum Guide 2020 ; seule la phrase sur le bas vague a disparu
+- PATCH, concept 6 : « Le trait qu'Anna veut ajouter » (6b) porte sa consigne de rechange dans un champ Usage, hors de l'Explication
 
 ## 2.1.0, 2026-10-25
 

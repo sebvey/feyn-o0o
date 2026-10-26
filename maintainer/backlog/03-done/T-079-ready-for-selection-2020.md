@@ -10,3 +10,4 @@
 - **À faire** : dire que le Guide 2020 garde « prêt à être choisi » après refinement, et que
   c'est la phrase sur le bas moins détaillé qu'il a retirée ; vérifier `course/sources/03-*.md`.
 - **Fini quand** : l'Explication de 3a2 et les sources s'accordent avec le Guide 2020.
+- **Fait le** : 2026-10-26, l'Explication de « Tout détailler d'avance ? » dit que le Scrum Guide appelle « prêt à être choisi » le haut finissable en un sprint (consensus), et que seule la phrase sur le bas vague a disparu en 2020 ; la ligne de sources correspondante renvoie au cas ; les autres lignes de sources étaient déjà justes ; relu, sans test de session.

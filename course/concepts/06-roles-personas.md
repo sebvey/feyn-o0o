@@ -175,11 +175,12 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 - **Ce qui marche** : « d'où vient chaque trait d'Abba ? » : s'il ne vient d'aucun abonné
   réel, il n'a rien à faire dans le portrait.
 
-### Le trait qu'Anna veut ajouter (6b)
-- **Explication** : rechange après une réponse fausse à « Abba, on lui fait dire ce qu'on
-  veut ? », si la relance échoue. Un persona (cas inventé : « Léa », cycliste du week-end) a
-  un prénom fictif ; chacun de ses traits vient d'une observation d'utilisateurs réels, et doit
-  pouvoir répondre à « d'où vient-il ? ».
+### Le trait qu'Anna veut ajouter (6b, rechange)
+- **Usage** : après une réponse fausse à « Abba, on lui fait dire ce qu'on veut ? », si la
+  relance échoue.
+- **Explication** : un persona (cas inventé : « Léa », cycliste du week-end) a un prénom
+  fictif ; chacun de ses traits vient d'une observation d'utilisateurs réels, et doit pouvoir
+  répondre à « d'où vient-il ? ».
 - **Situation** : Anna veut ajouter au portrait d'Abba : « elle se contente d'une
   disponibilité vieille d'une heure ». Cela arrangerait l'équipe ; aucun abonné ne l'a dit.
 - **Question** : que demandes-tu à Anna, et que fais-tu avant d'accepter ce trait ?
