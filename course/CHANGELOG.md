@@ -35,6 +35,7 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - PATCH, concept 8 : 8a1, la règle 1 s'appuie sur la disponibilité par station que Pia veut pour l'appli, plus sur les vues d'Étienne
 - PATCH, concept 9 : 9b1, « un besoin trop gros pour un sprint est un epic (concept 4) » remplace « une story trop grosse »
 - PATCH, concept 14 : « Déjà enseigné » attribue le sponsor à 2b (repris en 10b2)
+- PATCH, concept 17 : 17a, la durée de l'historique est donnée comme fait du fil rouge, plus comme un rappel
 
 ## 2.4.0, 2026-10-26
 
