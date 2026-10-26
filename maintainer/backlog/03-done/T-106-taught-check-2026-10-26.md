@@ -18,3 +18,4 @@
   ou nuance avec renvoi au concept qui l'enseigne) ; `course/CHANGELOG.md`.
 - **Fini quand** : `course-taught-check` relancé depuis le concept 2 ne relève plus ces six
   constats.
+- **Fait le** : 2026-10-26, six constats corrigés (concept 7 en MINOR : I couvre le travail d'une autre équipe, choix du cours) ; boucle d'ADR-078, deux tours depuis le concept 2 : tour 1, les six constats ne reviennent pas, cinq nouveaux constats mineurs corrigés (concepts 2, 4, 5, A1) ; tour 2, deux nouveaux constats, laissés au tri en T-109.
