@@ -23,12 +23,13 @@ de sauvegarde, style) s'appliquent.
    1. comment il veut qu'on l'appelle ;
    2. son rôle aujourd'hui, et s'il est ou va être PO d'un produit ;
    3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
-2. À chaque réponse, appelle-le par son surnom dès qu'il l'a donné et pose la question suivante,
-   sans rien écrire.
-3. À la réponse à la troisième, écris d'abord, avant tout appel d'outil : « Merci <surnom>, je
-   mets en place le cours. » Puis remplis `learner/`, chaque fichier en une seule écriture,
-   après l'avoir lu avec Read (s'il manque, pars de son modèle dans `course/templates/learner/`),
-   sans commande shell :
+2. À chaque réponse, appelle-le par son surnom dès qu'il l'a donné, réagis à sa réponse en une
+   phrase, puis pose la question suivante. N'écris rien dans `learner/` avant l'étape 3.
+3. À la réponse à la troisième, écris d'abord, avant tout appel d'outil, une ou deux phrases :
+   ce que ses réponses changent pour le cours (rythme, profondeur, ce qu'il pourra sauter),
+   puis « Je mets en place le cours. » Puis remplis `learner/`, chaque fichier en une seule
+   écriture, après l'avoir lu avec Read (s'il manque, pars de son modèle dans
+   `course/templates/learner/`), sans commande shell :
    - `apprenant.md` : `<surnom>` devient son surnom, « Rôle » et « Avant le parcours » prennent
      ses deux réponses, avec ses mots ;
    - `observations.md` : `<surnom>` devient son surnom ;
