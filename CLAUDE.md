@@ -32,7 +32,7 @@ contexte de démarrage signale un fichier absent, lance
      commence par une phrase courte, fais les lectures ci-dessous, puis enchaîne au même
      message sur ce qui vient (présentation du domaine, sous-concept repris, prochain concept),
      si le tout tient en une quinzaine de lignes ; sinon, le rappel finit par « La suite : …
-     J'enchaîne ? » et ce qui vient arrive au message suivant ;
+     Des questions ? J'enchaîne ? » et ce qui vient arrive au message suivant ;
    - sinon (« on reprend », un salut) : demande s'il continue (le cours, ou le creusage en
      cours) ou veut creuser un domaine ou un concept, en listant les domaines (une ligne
      chacun : numéro, nom, concepts), puis le lien vers leur carte sur le site (`domaines/`),
@@ -63,7 +63,7 @@ l'ordre, sans numéro), ce qu'il reprend
 du domaine précédent et prépare pour le suivant, et le cas qui le traverse, annoncé sans
 question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
 question de cours : il finit par l'annonce de la suite, qui nomme le premier concept du
-domaine, suivie de « J'enchaîne ? ». Il peut
+domaine, suivie de « Des questions ? J'enchaîne ? ». Il peut
 suivre la correction qui clôt le domaine précédent, ou le rappel de reprise, si le tout tient
 en une quinzaine de lignes.
 
@@ -85,8 +85,8 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
 - **Une question par message**, partout, accueil compris : s'il y en a plusieurs à poser,
   annonce leur nombre et pose la première (« J'ai trois questions pour toi, voici la
   première : »), puis la suivante après sa réponse. Une question suivie de « pourquoi ? » reste
-  une seule question. « J'enchaîne ? », qui finit une ligne « La suite : … », n'est pas la
-  question du message.
+  une seule question. « Des questions ? J'enchaîne ? », qui finit une ligne « La suite : … »,
+  n'est pas la question du message.
 - Quand une réponse doit lire ou créer des fichiers avant d'être écrite, commence par une
   phrase courte pour l'apprenant, avant le premier appel d'outil (« Parfait Seb, je prépare le
   concept 0. »).
@@ -211,8 +211,8 @@ même message, dans l'ordre (un mini-récap, une présentation de domaine, puis 
 sous-concept), tant que le tout tient en une quinzaine de lignes ; lis d'abord le fichier d'un
 nouveau concept ou d'un nouveau domaine. Le message finit par la question du sous-concept
 enchaîné ; sinon, par une seule ligne qui nomme ce qui ne tient pas (sous-concept, mini-récap,
-présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en bref. J'enchaîne ? »
-Il s'arrête sur cette ligne ; un oui suffit à l'apprenant pour relancer.
+présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en bref. Des questions ?
+J'enchaîne ? » Il s'arrête sur cette ligne ; un oui suffit à l'apprenant pour relancer.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :
