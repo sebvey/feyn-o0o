@@ -42,8 +42,9 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
 1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ; la
    règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage (un
    moyen d'accès précis) va dans un critère (concept 7b), dans son Given (8b1). La DoR de
-   l'équipe vélos demande des règles métier fixées avant qu'une story entre dans un sprint
-   (concept 11). Se déroule en deux messages :
+   l'équipe vélos (sa Definition of Ready : les conditions qu'elle écrit pour qu'un élément soit
+   prêt à être choisi, concept 11) demande des règles métier fixées avant qu'une story entre dans
+   un sprint ; le cas 8a2 la définit ainsi en passant. Se déroule en deux messages :
    - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
@@ -80,8 +81,8 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Question** : range chaque phrase : règle métier, critère d'acceptation, ou morceau d'un
   critère.
 - **Réponse attendue** : 1 et 2 sont des règles : elles restent vraies sans cette story, et
-  d'autres s'en servent (1 sert aussi aux vues d'Étienne ; 2, aux données que l'appli de Pia
-  affiche). 3 est un critère : un cas précis, propre à la story, qu'un testeur tranche ; il
+  d'autres s'en servent (1 sert aussi aux vues d'Étienne ; 2 vaut pour tout abonné, quelle
+  que soit la story). 3 est un critère : un cas précis, propre à la story, qu'un testeur tranche ; il
   illustre 1 et 2. 4 est un morceau de critère : la contrainte (concept 7b) va dans son contexte
   de départ (le Given, qui vient en 8b1), pour que le testeur vérifie depuis un téléphone
   basique. Nuance : la fraîcheur visée (moins de 15 minutes) est aussi une règle fixée ; le
@@ -115,8 +116,9 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   de ce que « tout le monde dit », et un avis répandu n'est pas une décision. Répondre « Dana »
   sans dire que personne n'a décidé est l'erreur fréquente ci-dessous, pas une réponse
   partielle. Un critère illustre une règle, il ne la remplace pas. Suite, en renvoi : le PO la
-  fait fixer, la story attend (7a2) ; la DoR de l'équipe vélos demande des règles métier fixées
-  (concept 11). Nuance : la règle devra aussi dire si une station au seuil compte comme presque
+  fait fixer, la story attend (7a2) ; la DoR de l'équipe vélos (sa Definition of Ready : les
+  conditions qu'elle écrit pour qu'un élément soit prêt à être choisi, concept 11) demande des
+  règles métier fixées. Nuance : la règle devra aussi dire si une station au seuil compte comme presque
   vide. Une fois fixée, elle s'écrit comme règle métier, et les critères l'illustrent par des
   cas autour du seuil, une variable à la fois (8b).
 - **Erreurs fréquentes** :
