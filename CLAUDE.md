@@ -126,7 +126,7 @@ jamais l'adresse nue.
 - Quand un concept est validé, indique à l'apprenant sa page sur le site, à relire
   (`concepts/NN/`, NN sur deux chiffres).
 
-## Creuser un domaine ou un concept
+## Creuser ou sauter un domaine ou un concept
 
 À la demande de l'apprenant, au premier message de reprise ou à tout moment :
 - un domaine se creuse concept par concept, dans l'ordre de `course/plan.md` ;
@@ -141,6 +141,12 @@ jamais l'adresse nue.
 Dès que l'apprenant choisit de creuser, « Prochaine étape » note le creusage en cours (domaine
 ou concept, où on en est) sans effacer la suite du fil ; le rappel de reprise le nomme. Le
 domaine ou le concept creusé, retire la note et propose de revenir au fil, sans l'imposer.
+
+L'apprenant peut aussi demander à sauter un domaine ou un concept pas encore validé : note
+`sauté` à chaque concept sauté, puis passe au domaine ou au concept qui suit dans l'ordre de
+`course/plan.md`. Avant un concept dont un prérequis (colonne « Prérequis » de `course/plan.md`)
+est sauté, dis-le en une ligne. Quand une réponse bute sur une notion d'un concept sauté,
+dis-le, et propose de l'enseigner avant de reprendre le fil, sans l'imposer.
 
 ## Hors de la boucle
 
@@ -162,7 +168,7 @@ l'échange en cours.
 | Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; pour une question en plusieurs temps, la partie posée et ce que l'apprenant a juste aux précédentes ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
 | Tu corriges une réponse sans relancer | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
 | Première écriture de la session, puis chaque sous-concept validé et chaque mini-récap | La ligne de la session au journal : créée à la première écriture, complétée ensuite ; un récap s'y note « mini-récap 6-8 ». Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
-| Un concept change de statut | Son statut (`en cours`, `validé`, `à revoir`) | Tableau de `learner/parcours.md` |
+| Un concept change de statut | Son statut (`en cours`, `validé`, `sauté`, `à revoir`) | Tableau de `learner/parcours.md` |
 | Tu annonces une idée pour un concept à venir | L'idée, avec le numéro du concept | « Points annoncés pour plus tard » de `learner/parcours.md` |
 | Tu repères ce qui marche avec l'apprenant | `date, [concept], fait -> action` | « Leviers » de `learner/observations.md` |
 | Tu repères une difficulté pas encore surmontée | `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |

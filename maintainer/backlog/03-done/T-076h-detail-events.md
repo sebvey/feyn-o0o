@@ -14,3 +14,4 @@
   cas de creusage. Identifiant 0a2 gardé (MINOR). Sources alignées.
 - **Fini quand** : un sous-agent prof neuf sur Sonnet enseigne 0a2 en cinq messages de 15
   lignes au plus, chacun avec une question, sans empiéter sur 15b et 15c.
+- **Fait le** : 2026-10-26, 0a2 en cinq messages (sprint en bref, Sprint Planning, Daily Scrum, revue, rétrospective), récit de creusage neuf ; 1b recentré sur la quantité pour ne pas refaire le Sprint Planning ; présence à la rétrospective en choix du cours ; ADR-062 ; relecture neuve appliquée ; test Sonnet (reprise à 0a2, cinq messages, réponses justes et erreur « le PO choisit », arrêt) : cinq messages de 9 lignes au plus, chacun sur son exemple de la banque et avec sa question, relances de la banque posées.

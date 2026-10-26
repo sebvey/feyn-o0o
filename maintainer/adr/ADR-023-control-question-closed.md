@@ -1,7 +1,7 @@
 # ADR-023 : La question de contrôle du concept 0 est close dès qu'elle est répondue, et une notion pas encore vue n'est pas une vigilance
 
 - **Date** : 2026-10-22
-- **Statut** : accepté
+- **Statut** : complété par ADR-061
 - **Ticket** : T-027
 
 ## Contexte

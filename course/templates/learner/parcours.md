@@ -1,6 +1,6 @@
 # Parcours de <surnom>
 
-Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `à revoir`, `à faire`.
+Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `sauté`, `à revoir`, `à faire`.
 
 ## Prochaine étape
 

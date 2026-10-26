@@ -53,7 +53,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
    leurs besoins et convainquent le PO ; le sponsor est le responsable qui porte le budget du
    produit et porte plus haut les obstacles qui dépassent le PO, sans ordonner le backlog. Le concept 0 a situé les trois responsabilités de
    l'équipe Scrum ; ici, on dit qui décide. Arbitrer entre parties prenantes et escalader
-   viennent au concept 14. En 15 lignes, s'en tenir au PO face aux Developers, avec la
+   viennent au concept 14. Rappel de 0a2 : les Developers choisissent les éléments avec le
+   PO ; 1b y ajoute la quantité. En 15 lignes, s'en tenir au PO face aux Developers, avec la
    définition des parties prenantes en une ligne ; le comité et la délégation viennent par
    l'exemple ou la relance. Exemple de fournisseur de données : Sid, le DSI, qui donne les
    accès aux données des systèmes.
@@ -197,7 +198,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
 - **Situation** : au Sprint Planning, tu arrives avec le backlog ordonné et annonces : « Ce
   sprint, on fait les six premiers éléments. » Dana répond qu'au vu du travail, l'équipe peut en
   prendre quatre.
-- **Question** : Qui décide de ce qui entre dans le sprint ? Tranche entre toi et Dana.
+- **Question** : Tu dis six, Dana dit quatre : qui tranche combien d'éléments entrent, et que
+  gardes-tu, toi ?
 - **Réponse attendue** : ni l'un ni l'autre seul. Le PO propose comment le sprint peut augmenter
   la valeur du produit, et l'ordre du backlog dit ce qui vient en premier ; les Developers
   choisissent, en discussion avec le PO, les éléments qu'ils prennent, puisqu'ils savent ce
