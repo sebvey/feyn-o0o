@@ -195,6 +195,11 @@ que chaque fait, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observati
 section, journal et contrôle de
 reprise à l'arrêt).
 
+Après un ticket qui modifie ce qu'un concept enseigne (explication, situation ou ordre de ses
+sous-concepts), lot compris, lance le workflow `course-taught-check` avec `from` au premier
+concept touché : il signale les cas qui demandent ce que l'apprenant n'a pas encore reçu, sans
+rien modifier. Un constat que le ticket a causé se corrige sur sa branche.
+
 Le résultat va dans la PR. Les défauts que le test révèle hors du ticket passent le tri des
 constats (§2).
 
