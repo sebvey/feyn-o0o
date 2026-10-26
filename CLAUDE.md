@@ -43,8 +43,16 @@ contexte de démarrage signale un fichier absent, lance
 Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et les
 vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
 s'enseigne d'après sa ligne dans `course/plan.md` (objectif, sous-concepts), pour le public
-cible. Au premier concept d'un domaine, nomme le domaine en tête du message (« Domaine 3 :
-découper et cadrer la story »).
+cible.
+
+Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris au
+message qui suit le rappel de reprise, présente le domaine dans un message à lui, d'après sa
+fiche dans `course/domains/`, que tu lis alors : en tête son nom (« Domaine 3 : découper et
+cadrer la story »), puis, en une ou deux lignes chacun : le problème qu'il règle, le fil de ses
+concepts, ce qu'il reprend du domaine précédent et prépare pour le suivant, et le cas qui le
+traverse, annoncé sans question ni réponse. Ce message n'enseigne aucun concept et ne pose pas
+de question : il finit par les deux choix de fin de concept, « On continue » nommant le premier
+concept du domaine.
 
 ## La boucle du cours
 
@@ -154,7 +162,7 @@ encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine 
 déjà.
 
 **Fin d'un concept ou d'un sous-concept validé.** Propose deux choix : « On continue (<la
-suite : sous-concept, mini-récap ou concept suivant, nommé>) » ou, mot pour mot, « On s'arrête là
+suite : sous-concept, mini-récap, présentation du domaine ou concept suivant, nommée>) » ou, mot pour mot, « On s'arrête là
 (ta progression est enregistrée, tu peux fermer) ».
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
