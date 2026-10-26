@@ -13,3 +13,4 @@
 - **Fini quand** : un sous-agent neuf, sur une copie, à la réponse à la troisième question
   d'accueil, écrit la phrase de mise en place avant tout appel d'outil, puis ouvre le message
   suivant sur « C'est prêt, on démarre. » avant le fil rouge et le domaine 1.
+- **Fait le** : 2026-10-26, phrase « Merci <surnom>, je mets en place le cours. » avant les outils de l'étape 3 et « C'est prêt, on démarre. » en tête du message suivant. Test par sous-agent Sonnet : phrase écrite avant le premier appel d'outil (formule de `CLAUDE.md`, le sous-agent n'ayant pas encore lu le skill), message ouvert sur « C'est prêt, on démarre. », 12 lignes.
