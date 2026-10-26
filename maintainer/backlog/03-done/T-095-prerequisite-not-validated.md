@@ -20,3 +20,4 @@
 - **Fini quand** : un sous-agent neuf sur Sonnet, apprenant au concept 0 qui demande de creuser
   le domaine 3 (sans parler de sauter), signale avant le concept 9 que le concept 8 n'a pas été
   vu.
+- **Fait le** : 2026-10-26, `CLAUDE.md` : avertissement de prérequis et proposition d'enseigner étendus à un concept pas encore validé, en paragraphe à part (saut et creusage) ; ADR-073 ; pas de test, à la demande du mainteneur (changement mineur).
