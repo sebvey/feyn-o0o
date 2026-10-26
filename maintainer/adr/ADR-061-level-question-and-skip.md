@@ -1,7 +1,7 @@
 # ADR-061 : La question du concept 0 situe le niveau sans rien faire sauter, et seul l'apprenant demande à sauter un concept ou un domaine
 
 - **Date** : 2026-10-26
-- **Statut** : accepté
+- **Statut** : complété par ADR-065
 - **Ticket** : T-076f
 
 ## Contexte

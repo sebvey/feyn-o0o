@@ -1,7 +1,7 @@
 # ADR-034 : Le premier message du prof part sans appel d'outil (accueil) ou après la seule lecture de `learner/parcours.md` (reprise)
 
 - **Date** : 2026-10-24
-- **Statut** : complété par ADR-035
+- **Statut** : complété par ADR-035, ADR-065
 - **Ticket** : T-044
 
 ## Contexte

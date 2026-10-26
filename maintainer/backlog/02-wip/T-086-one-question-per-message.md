@@ -37,6 +37,9 @@
     - étape 3 : « Dans le même message » devient « À la réponse à la troisième, dans le même
       message ».
     Le premier message reste sans appel d'outil (ADR-034).
+  - `course/concepts/00-scrum.md` : la question de niveau, double, se pose en deux temps
+    (annoncée, chaque partie corrigée en une ligne, sans relance ; la seconde correction enchaîne
+    sur 0a1) ; entrée MINOR au CHANGELOG. Décidé avec le mainteneur après le test.
 - **Fini quand** : un test d'accueil pose les trois questions dans trois messages, le premier
   annonçant leur nombre, et présente le domaine 1 après la troisième ; un test de reprise avec un
   `learner/apprenant.md` qui n'a que le surnom pose les deux questions manquantes, une à une,
