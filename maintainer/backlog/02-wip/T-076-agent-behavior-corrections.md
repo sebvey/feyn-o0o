@@ -5,5 +5,5 @@
   session de maintenance.
 - **À faire** : un sous-ticket par sujet débriefé.
 - **Sous-tickets** :
-  - T-076a : donner le lien du site au premier message d'accueil (en cours).
+  - T-076a : donner le lien du site au premier message d'accueil (clos).
 - **Fini quand** : les sous-tickets sont clos.

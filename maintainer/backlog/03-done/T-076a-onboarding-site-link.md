@@ -16,3 +16,4 @@
 - **Fini quand** : un sous-agent neuf sur Sonnet, lancé avec un `learner/` vide, donne le lien
   racine du site dans son premier message, qui reste dans les 15 lignes et pose toujours les trois
   questions d'accueil.
+- **Fait le** : 2026-10-26, lien racine du site ajouté à l'étape 1 de `learner-onboarding` ; test Sonnet sur un `learner/` vide : lien donné, 11 lignes, trois questions d'accueil posées.
