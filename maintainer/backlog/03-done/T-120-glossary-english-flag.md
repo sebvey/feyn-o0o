@@ -11,3 +11,4 @@
   « En anglais » gardé pour les lecteurs d'écran.
 - **Fini quand** : `npm run verify` passe, le drapeau s'affiche devant chaque terme anglais au
   bureau et à 375 px, en clair et en sombre.
+- **Fait le** : 2026-10-27, drapeau rond en couleurs vives devant le terme anglais du glossaire ; `npm run verify` passe, vérifié au bureau en clair et à 375 px en sombre.
