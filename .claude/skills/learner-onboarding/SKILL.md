@@ -21,8 +21,9 @@ de sauvegarde, style) s'appliquent.
    3. ce qu'il connaît déjà de Scrum et de la gestion de produit (backlog, user story).
 2. À chaque réponse, appelle-le par son surnom dès qu'il l'a donné et pose la question suivante,
    sans rien écrire.
-3. À la réponse à la troisième, remplis `learner/`, un fichier de `course/templates/learner/`
-   recopié à l'identique s'il manque, chaque fichier en une seule écriture (lis-le avant) :
+3. À la réponse à la troisième, remplis `learner/`, chaque fichier en une seule écriture,
+   après l'avoir lu avec Read (s'il manque, pars de son modèle dans `course/templates/learner/`),
+   sans commande shell :
    - `apprenant.md` : `<surnom>` devient son surnom, « Rôle » et « Avant le parcours » prennent
      ses deux réponses, avec ses mots ;
    - `observations.md` : `<surnom>` devient son surnom ;

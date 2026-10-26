@@ -1,7 +1,7 @@
 # ADR-034 : Le premier message du prof part sans appel d'outil (accueil) ou après la seule lecture de `learner/parcours.md` (reprise)
 
 - **Date** : 2026-10-24
-- **Statut** : complété par ADR-035, ADR-065, ADR-068
+- **Statut** : complété par ADR-035, ADR-065, ADR-068, ADR-072
 - **Ticket** : T-044
 
 ## Contexte
@@ -23,7 +23,7 @@ six fichiers avant un rappel de deux lignes qui ne dépend que de `learner/parco
 - `CLAUDE.md`, démarrage : seule `learner/parcours.md` se lit avant le premier message de
   reprise ; les autres lectures, dans le même ordre, passent avant le message suivant.
 
-Complète ADR-021 (l'ordre de l'accueil : questions avant création des fichiers) et ADR-022 (le
+Complète ADR-021 (l'ordre de l'accueil : questions avant création des fichiers) et ADR-022, remplacé depuis par ADR-072 (le
 hook ne fait plus seulement donner l'état).
 
 ## Options écartées
