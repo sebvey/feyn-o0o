@@ -233,8 +233,8 @@ ne deviennent pas des faits du fil rouge.
   Rubin, conséquence d'un backlog émergent. Qu'un élément retiré puisse revenir est un choix du
   cours.
 - **Situation** : situation d'exercice : au bas du backlog dort depuis des mois l'élément
-  « passer les relevés des stations en streaming », créé quand Dana l'a proposé (concept 1),
-  avant que personne ait vérifié le besoin. La plateforme se rafraîchit
+  « passer les relevés des stations en streaming », créé il y a des mois sur une proposition de
+  Dana, avant que personne ait vérifié le besoin. La plateforme se rafraîchit
   toutes les 5 minutes, sous la cible de fraîcheur (l'âge des données quand on les lit) de 15 minutes, et personne n'a redemandé de
   données plus fraîches. Diego : « Il est au backlog, il faudra bien le faire un jour. »
 - **Question**, en deux parties : « Diego a-t-il raison ? », puis « Que fais-tu de cet

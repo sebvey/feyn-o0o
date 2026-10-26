@@ -97,17 +97,18 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   le PO la fait écrire et fixer, les Developers font le calcul.
 - **Situation** : les vues d'Étienne et la story d'Abba affichent les vélos disponibles de
   chaque station. Anna, analyste, écrit : « Vélos disponibles : nombre de vélos de chaque
-  station, d'après les relevés. »
+  station, d'après les relevés. » Les relevés des stations viennent du système des bornes, dont
+  la DSI donne l'accès.
 - **Question** : complète cette définition pour que deux analystes qui la lisent calculent le
   même nombre.
-- **Réponse attendue** : ce qui est juste : le grain (par station) et la source (les relevés des
-  stations). À compléter : la règle de calcul, « vélos » seul laisse compter les vélos à quai ;
+- **Réponse attendue** : ce qui est juste : le grain (par station) ; la source à moitié (les
+  relevés, sans leur propriétaire : le système des bornes, via la DSI). À compléter : la règle de calcul, « vélos » seul laisse compter les vélos à quai ;
   la règle fixée dit : un vélo à quai et louable. La période : au dernier relevé (un état à un
   instant, pas un cumul sur la journée). La fraîcheur : moins de 15 minutes, la règle fixée. Les
   deux ne se confondent pas : la période dit à quel moment le nombre est vrai, la fraîcheur de
   combien ce moment peut dater quand on lit le chiffre. Corrigé : « Vélos disponibles : nombre
-  de vélos à quai et louables, par station, au dernier relevé, d'après les relevés des stations,
-  à jour de moins de 15 minutes. » Nuances, non attendues : les relevés en double relèvent de la
+  de vélos à quai et louables, par station, au dernier relevé, d'après les relevés des stations
+  (système des bornes, via la DSI), à jour de moins de 15 minutes. » Nuances, non attendues : les relevés en double relèvent de la
   qualité (12b) et de la DoD, pas de la définition ; la définition cite les règles fixées, elle
   ne les invente pas.
 - **Erreurs fréquentes** :

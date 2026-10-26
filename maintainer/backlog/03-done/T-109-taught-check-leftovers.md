@@ -15,3 +15,4 @@
   relevés des stations, tenus par la DSI ») et dans le corrigé, ou juger la source à moitié
   juste. `course/CHANGELOG.md`.
 - **Fini quand** : `course-taught-check` sur les concepts 3 et 12 ne relève plus ces constats.
+- **Fait le** : 2026-10-26, concept 3 (3b) : plus de renvoi au concept 1 pour la création de l'élément ; concept 12 (12a1) : propriétaire des relevés donné dans la situation (fait du fil rouge), source jugée à moitié juste sans lui, corrigé complété. Sans `course-taught-check`, à la demande du mainteneur (les checks seront retravaillés à part) : « Fini quand » non vérifié.
