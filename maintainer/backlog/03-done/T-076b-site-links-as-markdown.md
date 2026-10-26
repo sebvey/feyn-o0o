@@ -14,3 +14,4 @@
 - **Fini quand** : un sous-agent neuf sur Sonnet donne en liens Markdown à texte descriptif, sans
   adresse nue, le lien de l'accueil (`learner/` vide) et ceux du rappel de reprise
   (`learner/` fictif).
+- **Fait le** : 2026-10-26, règle des liens Markdown ajoutée en tête de « La boucle du cours » de `CLAUDE.md` ; test par sous-agent non fait, à la demande du mainteneur.

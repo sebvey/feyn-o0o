@@ -6,5 +6,5 @@
 - **À faire** : un sous-ticket par sujet débriefé.
 - **Sous-tickets** :
   - T-076a : donner le lien du site au premier message d'accueil (clos) ;
-  - T-076b : donner les liens du site en liens Markdown, sans adresse nue (en cours).
+  - T-076b : donner les liens du site en liens Markdown, sans adresse nue (clos).
 - **Fini quand** : les sous-tickets sont clos.
