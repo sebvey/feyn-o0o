@@ -110,7 +110,7 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   - donner raison à Diego (« c'est l'outil qui l'impose ») : demander « l'outil interdit-il de
     ne pas l'employer, ou le propose-t-il par défaut ? » ;
   - retirer le niveau User Story et garder les features : ce sont les stories qui entrent dans
-    les sprints (4a3) ;
+    les sprints (4a1) ;
   - décider seul du réglage (« je le supprime moi-même »), ou le décrire clic par clic : donner
     le fait de l'outil (le réglage touche d'autres projets ou espaces), puis demander « qui
     décide de ne plus employer le niveau, et qui fait le réglage ? » ; le PO propose, l'équipe
@@ -156,7 +156,8 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   faire, en cours, fait, par exemple. Le Scrum Guide n'en parle pas ; chaque outil en propose
   par défaut, et l'équipe les change. Atlassian conseille d'en garder peu (conseil d'éditeur).
   Deux règles du cours : « fait » veut dire DoD remplie (11a) ; un état « prêt » reste un
-  repère, pas une barrière (11b).
+  repère, pas une barrière (11b). Comme pour les niveaux, le PO dit ce qu'il veut et pourquoi,
+  l'équipe choisit, l'administrateur de l'outil fait le réglage.
 - **Situation** : la DoD de l'équipe vélos exige l'heure de la dernière mise à jour sur chaque
   vue et la définition écrite de chaque indicateur publié (sa règle de calcul, détaillée au
   concept 12). Dans cet exercice, Diego propose à

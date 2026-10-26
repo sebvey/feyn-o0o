@@ -37,6 +37,8 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - PATCH, concept 5 : 5a, l'exemple de Régis va en 5a1, celui d'Abba en 5a2
 - PATCH, concept 9 : 9a2, le Sprint Planning renvoie au concept 0 (détail en 15b)
 - PATCH, concepts 13 et 14 : « pas de vote (1b) » devient « une seule personne, pas un comité (0a1, 1b) »
+- PATCH, concepts 2, 4 et 5 : formulations qui supposaient une notion pas encore reçue (« hypothèse », « état » d'un élément) dites sans elle
+- PATCH, annexe A1 : A1a renvoie à 4a1 pour les stories qui entrent dans les sprints ; l'explication de A1c dit qui propose, choisit et règle les états
 
 ## 2.2.1, 2026-10-26
 

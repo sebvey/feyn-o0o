@@ -160,7 +160,7 @@ mois, puis comparaison au même mois de l'an dernier).
     sprints.
 - **Ce qui marche** : compter, feature par feature, les stories dessous, à voix haute. Après
   « au cas où, ça ne coûte rien » : montrer le coût dans l'outil (une feature à une seule story,
-  ce sont deux éléments et deux états à tenir pour un seul « je veux » d'Étienne).
+  ce sont deux éléments à écrire, ranger et suivre pour un seul « je veux » d'Étienne).
 
 ### Un seul « je veux » ? (4b)
 - **Explication** : un « je veux », c'est un besoin que l'utilisateur dit lui-même, à la

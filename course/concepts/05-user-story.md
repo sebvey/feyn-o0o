@@ -209,8 +209,8 @@ l'exercice : ils ne deviennent pas des faits du fil rouge.
   - « oui, il est plus ambitieux » : ambitieux ne veut pas dire utile pour décider. Relancer :
     « si toutes les stories du backlog avaient ce “afin de”, comment choisirais-tu laquelle faire
     d'abord ? » ;
-  - forcer le lien (« des vélos réparés, donc des stations moins vides ») : c'est une hypothèse,
-    pas la raison de Maud (concept 17). Relancer : « Maud reconnaîtrait-elle cette raison
+  - forcer le lien (« des vélos réparés, donc des stations moins vides ») : c'est un lien supposé,
+    pas vérifié, et ce n'est pas la raison de Maud (concept 17). Relancer : « Maud reconnaîtrait-elle cette raison
     comme la sienne ? ».
 - **Ce qui marche** : « si toutes les stories du backlog avaient ce “afin de”, comment
   choisirais-tu laquelle faire d'abord ? ».
