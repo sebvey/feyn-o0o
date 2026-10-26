@@ -25,8 +25,8 @@ de sauvegarde, style) s'appliquent.
    `.claude/skills/learner-onboarding/init-learner.sh <surnom> <rôle> <connaissances>` (les deux
    dernières réponses entre guillemets, avec ses mots) : il crée `learner/` avec les trois
    réponses, le tableau, « Prochaine étape » et la ligne de journal. En même temps, lis
-   `course/fil-rouge-velos.md`, `course/domains/1-frame.md` et `course/concepts/00-scrum.md`
-   (le public cible est dans le contexte de démarrage). Puis présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
+   `course/fil-rouge-velos.md`, la fiche du domaine 1 et le fichier du concept 0 (le public
+   cible et leurs chemins sont dans le contexte de démarrage). Puis présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
    d'un domaine »), précédé du fil rouge en deux lignes (il est PO de la plateforme de données
    de l'opérateur de vélos). Le concept 0 vient au message suivant : ce qu'il a dit de Scrum en
    règle la profondeur.

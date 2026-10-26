@@ -1,7 +1,7 @@
 # ADR-022 : Un hook `SessionStart` donne au prof l'état de `learner/` ; pas de premier message sans saisie
 
 - **Date** : 2026-10-22
-- **Statut** : complété par ADR-034
+- **Statut** : complété par ADR-034, ADR-071
 - **Ticket** : T-028
 
 ## Contexte
