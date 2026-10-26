@@ -99,9 +99,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 ### Qui est le chef de l'équipe vélos ? (0a1, l'équipe en bref)
 - **Explication** : une équipe Scrum est petite (en général dix personnes au plus), sans
   sous-équipe ni hiérarchie, tournée vers un seul objectif à la fois, l'objectif produit (l'état
-  futur visé du produit, détaillé en 0a3). Elle
-  s'organise elle-même : elle décide en interne qui fait quoi, quand et comment. Elle porte trois
-  responsabilités, chacune vue en détail dans un message à elle : le **Product Owner** (PO)
+  futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
+  fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un message à elle : le **Product Owner** (PO)
   répond de la valeur du produit et du backlog ; les **Developers** réalisent l'incrément ; le
   **Scrum Master** répond de l'efficacité de l'équipe. Une responsabilité dit de quoi chacun
   répond, pas qui commande.
