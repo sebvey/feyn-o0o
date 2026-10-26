@@ -1,7 +1,7 @@
 # ADR-065 : Une question par message, accueil compris ; le hook signale une question d'accueil restée sans réponse
 
 - **Date** : 2026-10-26
-- **Statut** : accepté
+- **Statut** : complété par ADR-066
 - **Ticket** : T-086
 
 ## Contexte
