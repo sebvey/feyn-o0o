@@ -32,6 +32,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, `course/domains/` et `course/templates/domain.md` : chaque fiche porte `duree`, la durée indicative de conversation avec l'agent (minutes, estimation basse)
+
 ## 2.4.1, 2026-10-26
 
 - PATCH, concept 8 : 8a1, la règle 1 s'appuie sur la disponibilité par station que Pia veut pour l'appli, plus sur les vues d'Étienne

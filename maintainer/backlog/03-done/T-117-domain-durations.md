@@ -10,3 +10,4 @@
   changement en MINOR sous « Non publié » de `course/CHANGELOG.md`.
 - **Fini quand** : les sept fiches portent `duree`, le modèle la décrit, `course/map.md`
   inchangé après `build-map.sh`.
+- **Fait le** : 2026-10-26, `duree` ajoutée aux sept fiches et au modèle, CHANGELOG en MINOR ; `course/map.md` inchangé.

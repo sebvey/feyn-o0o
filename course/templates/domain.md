@@ -20,6 +20,7 @@ Une quarantaine de lignes au plus : elle se lit en deux minutes.
 ---
 domaine: <numéro, 1 à 7>
 titre: <titre du domaine, tel que dans course/plan.md>
+duree: <minutes de conversation avec l'agent, estimation basse, sans les apartés ; le site l'affiche>
 ---
 
 # <Titre>

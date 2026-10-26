@@ -1,6 +1,7 @@
 ---
 domaine: 3
 titre: Découper et cadrer la story
+duree: 55
 ---
 
 # Découper et cadrer la story

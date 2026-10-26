@@ -1,6 +1,7 @@
 ---
 domaine: 7
 titre: Explorer
+duree: 25
 ---
 
 # Explorer

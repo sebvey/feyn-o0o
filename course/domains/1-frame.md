@@ -1,6 +1,7 @@
 ---
 domaine: 1
 titre: Le cadre
+duree: 90
 ---
 
 # Le cadre
