@@ -71,7 +71,7 @@ ticket qui dépend d'un autre passe après lui ; un ticket qui semble déjà app
 
 - **Créer** : une demande du mainteneur devient un ticket selon `ticket-template.md`, dans
   `01-todo/` s'il l'a décidé, dans `00-proposed/` sinon. Un défaut hors du ticket en cours ne se
-  corrige pas au passage.
+  corrige pas au passage, sauf un constat de `course-taught-check` (§5).
 - **Session de remarques** : quand le mainteneur décrit ses remarques une à une pour en
   discuter, ne traite pas une remarque avant d'en avoir discuté : donne ton avis et une
   proposition ; une fois d'accord, crée un ticket par remarque (sous-ticket du ticket parent de
@@ -210,7 +210,12 @@ reprise à l'arrêt).
 Après un ticket qui modifie ce qu'un concept enseigne (explication, situation ou ordre de ses
 sous-concepts), lot compris, lance le workflow `course-taught-check` avec `from` au premier
 concept touché : il signale les cas qui demandent ce que l'apprenant n'a pas encore reçu, sans
-rien modifier. Un constat que le ticket a causé se corrige sur sa branche.
+rien modifier. Ses constats se corrigent sur la branche du ticket, qu'il les ait causés ou non,
+quand le correctif ne change pas ce qu'un concept enseigne (renvoi, attribution d'un exemple à
+son sous-concept, formulation qui suppose une notion pas encore reçue) ; relance alors le
+workflow depuis le premier concept corrigé, deux tours au plus. Un constat dont le correctif
+change ce qu'un concept enseigne, ou qui revient après le deuxième tour, passe le tri des
+constats (§2). La PR liste chaque constat corrigé.
 
 Le résultat va dans la PR. Les défauts que le test révèle hors du ticket passent le tri des
 constats (§2).
