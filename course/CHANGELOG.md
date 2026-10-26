@@ -37,6 +37,7 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - MINOR, concept 0 : 0a2 en cinq messages (le sprint en bref, Sprint Planning, Daily Scrum, revue de sprint, rétrospective) ; le récit de Diego devient un cas de creusage ; sources ajoutées
 - MINOR, templates/learner : statut `sauté` d'un concept
 - MINOR, concept 1 : la question de « Qui choisit le travail du sprint ? » (1b) porte sur la quantité, pour ne pas refaire le Sprint Planning de 0a2
+- MINOR, concepts 0 à 17, annexes A1 et A2 : chaque cas ne demande plus que ce que l'apprenant a reçu à ce point du cours (50 corrections : explications et situations complétées, réponses attendues allégées en nuances, renvois corrigés)
 
 ## 2.1.0, 2026-10-25
 

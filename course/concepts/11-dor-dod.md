@@ -90,9 +90,11 @@ vide », la définition d'une station vide et les heures de pointe ne sont pas f
 exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règle.
 
 ### DoD ou critère : les trois exigences d'Étienne (11a)
-- **Explication** : la DoD, vue au concept 0 (0a3), dit quand un élément entre dans
-  l'incrément. Il n'y en a qu'une, pour toute story (et pour toutes les équipes d'un même
-  produit) : on l'écrit une fois, on ne la recopie pas dans chaque story. Un critère
+- **Explication** : la DoD, vue au concept 0 (0a3), dit quand un élément entre dans l'incrément.
+  Il n'y en a qu'une, pour toute story (et pour toutes les équipes d'un même produit) : on
+  l'écrit une fois, on ne la recopie pas dans chaque story. Une exigence de la DoD peut ne viser
+  qu'une sorte de travail (cas inventé : toute story qui change un calcul est relue par un
+  second Developer) : elle reste la même pour toute story de cette sorte. Un critère
   d'acceptation est propre à une story (concept 8). Le Scrum Guide ne parle pas de critère :
   cette distinction est un consensus (pratique établie, hors du Scrum Guide ; Mike Cohn). Le
   contenu de la DoD est propre au produit (ou à l'organisation) : le Scrum Guide ne le fixe pas.
@@ -127,8 +129,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 
 ### L'exception demandée par Étienne (11a, en rechange)
 - **Explication** : critères et DoD s'ajoutent : une story terminée passe ses propres critères
-  et toute la DoD. La DoD est commune : on ne la lève pas pour une story. Ce qui arrive à une
-  story qui ne la remplit pas est vu au concept 0 (0b) : on y renvoie.
+  et toute la DoD. La DoD est commune : on ne la lève pas pour une story. Une story qui ne la
+  remplit pas ne fait pas partie de l'incrément : elle n'est ni livrée ni présentée à la revue,
+  et retourne au backlog (concept 0, 0b).
 - **Situation** : situation d'exercice. La vue des stations vides est livrée et Étienne s'en
   sert. Une story la fait évoluer : afficher les vélos disponibles de chaque station (le
   critère 2 de l'exemple précédent). Fin d'un sprint : cette story passe tous ses critères
@@ -138,11 +141,11 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Question** : que réponds-tu à Étienne ?
 - **Réponse attendue** : pas d'exception : la story n'est pas terminée, elle ne remplit pas la
   DoD. Passer ses critères ne suffit pas, critères et DoD s'ajoutent. Une DoD qu'on lève story
-  par story n'est plus commune ; la changer se décide pour tous, en rétrospective (aparté « La
-  DoD évolue »). Conséquence, sans la réenseigner : la story retourne au backlog (concept 0b),
-  où le PO lui donne sa place (ordonner : concept 13) ; la vue déjà livrée reste en service,
-  sans l'évolution. Le PO dit à Étienne pourquoi : sans le test, un relevé en double peut fausser
-  le nombre de vélos disponibles qu'il lit.
+  par story n'est plus commune ; la changer se décide pour tous, en rétrospective (concept 0,
+  0a3). Conséquence, sans la réenseigner : la story retourne au backlog (concept 0, 0b), où le
+  PO lui donne sa place (ordonner : concept 13) ; la vue déjà livrée reste en service, sans
+  l'évolution. Le PO dit à Étienne pourquoi : sans le test, un relevé en double peut fausser le
+  nombre de vélos disponibles qu'il lit.
 - **Erreurs fréquentes** :
   - « oui, ce n'est qu'un test » : demander « et à la prochaine story pressée ? » ;
   - « non » sans la suite : demander « et alors, on fait quoi ? » ;
@@ -182,8 +185,8 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Situation** : la DoR de l'équipe vélos exige des critères d'acceptation écrits, des règles
   métier fixées, des dépendances identifiées et un accès aux données obtenu. La story d'Étienne
   « voir les locations du jour par station » a ses critères écrits ; la dépendance à la DSI est
-  identifiée (dépendance : concept 10b). Mais l'accès à la table des locations, demandé à
-  Sid, n'est pas encore donné. Dana, data engineer : « Prenons-la quand même, on aura
+  identifiée (dépendance : concept 10b). Mais l'accès à la table des locations, demandé à Sid,
+  le DSI, n'est pas encore donné. Dana, data engineer : « Prenons-la quand même, on aura
   sûrement l'accès mercredi. »
 - **Question** : que proposes-tu au planning du sprint, et pourquoi ?
 - **Réponse attendue** : la story n'est pas prête, elle ne remplit pas la DoR : l'accès n'est

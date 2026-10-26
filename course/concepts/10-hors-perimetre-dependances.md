@@ -82,10 +82,12 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   sprint. On n'y met que les demandes plausibles, celles qu'on pourrait croire incluses : une
   évidence que personne n'attend n'y a pas sa place (choix du cours). La rubrique est un choix
   d'école : le Scrum Guide n'en parle pas.
-- **Situation** : la story de tournée, avant le sprint, sans hors périmètre. On sait que Maud
-  veut qu'un vélo signalé en panne ne soit plus louable, que le technicien confirme ou infirme la
-  panne sur place, et que les signalements reçus par téléphone ne sont pas saisis dans l'appli.
-  Dana, data engineer, propose une seule ligne : « Hors périmètre : réparer les vélos. »
+- **Situation** : la story de tournée, avant le sprint, sans hors périmètre : « En tant que
+  technicien de maintenance, je veux voir les vélos signalés en panne, afin de préparer ma
+  tournée de réparation. » On sait que Maud veut qu'un vélo signalé en panne ne soit plus
+  louable, que le technicien confirme ou infirme la panne sur place, et que les signalements
+  reçus par téléphone ne sont pas saisis dans l'appli. Dana, data engineer, propose une seule
+  ligne : « Hors périmètre : réparer les vélos. »
 - **Question** : écris le hors périmètre de cette story, en partant de la ligne de Dana.
 - **Réponse attendue** : la ligne de Dana est une évidence : personne ne croit qu'une liste
   répare un vélo ; on la retire. Trois lignes : bloquer le vélo à la location (Maud peut le
@@ -161,9 +163,8 @@ l'équipe appli sont des propositions d'exercice : ils ne deviennent pas des fai
   fusionner se défend si la story fusionnée reste petite, et ce sont les Developers qui estiment
   la taille (concept 7), Diego compris. Une dépendance pose problème quand aucune des deux
   stories n'a de valeur seule : ce sont souvent des tranches horizontales (concept 9) ; on
-  vérifie, et on redécoupe en tranches verticales. A et B
-  attendent aussi l'accès à la table des locations : dépendance envers la DSI, vue au
-  concept 11b.
+  vérifie, et on redécoupe en tranches verticales. A et B attendent aussi l'accès à la table des
+  locations : dépendance envers la DSI, traitée au concept 11b.
 - **Erreurs fréquentes** :
   - s'arrêter au « non » : demander « et alors, on fait quoi de la dépendance ? » ;
   - accepter la fusion parce qu'une dépendance serait toujours un défaut : le I se tient autant

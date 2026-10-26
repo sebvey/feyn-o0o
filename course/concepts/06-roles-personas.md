@@ -43,13 +43,12 @@ construit à partir d'utilisateurs réels : il aide à se représenter le rôle,
 ## Sous-concepts
 1. **6a l'acteur de la story** : un rôle, pas un prénom ni « utilisateur » par défaut. Test :
    celui qui fait l'action du « je veux » est-il celui qui gagne le « afin de » ? Deux pièges :
-   l'acteur technique (celui qui construit, annoncé au concept 5) et la valeur d'un autre rôle
-   dans le « afin de ». Le PO vérifie l'acteur auprès des utilisateurs. Exemple du fil rouge de
-   deux rôles aux actions différentes : Étienne, responsable d'exploitation, envoie les régulateurs
-   vers les stations ; Régis, régulateur, conduit la camionnette et redistribue les vélos.
-   Un message, avec « Théo ou Maud ? ». Rechange : « Diego, acteur de sa story ? » (acteur
-   technique), ou « Une vue, deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser
-   sur la vérification.
+   l'acteur technique (celui qui construit) et la valeur d'un autre rôle dans le « afin de ». Le
+   PO vérifie l'acteur auprès des utilisateurs. Exemple du fil rouge de deux rôles aux actions
+   différentes : Étienne, responsable d'exploitation, envoie les régulateurs vers les stations ;
+   Régis, régulateur, conduit la camionnette et redistribue les vélos. Un message, avec « Théo
+   ou Maud ? ». Rechange : « Diego, acteur de sa story ? » (acteur technique), ou « Une vue,
+   deux acteurs » si l'apprenant a déjà le test et qu'il faut le pousser sur la vérification.
 2. **6b le persona (choix d'école)** : court. Un portrait fictif d'un rôle, construit à partir
    d'utilisateurs réels. Il ne remplace ni le rôle
    dans la story, ni les entretiens. Un message, avec « Abba, on lui fait dire ce qu'on veut ? »
@@ -98,12 +97,13 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   tournée à partir des vélos signalés ; sur place, je confirme ou j'infirme la panne. »
 
 ### Diego, acteur de sa story ? (6a)
-- **Explication** : le concept 5 l'a annoncé : l'acteur est celui qui agit et y gagne, pas
-  celui qui construit. Les Developers construisent le produit ; un consommateur de données, lui,
-  est un utilisateur (choix du cours, concept 1).
-- **Situation** : Diego, data engineer, propose : « En tant que data engineer, je veux une
-  table des vélos signalés en panne, mise à jour toutes les 5 minutes, afin d'alimenter la vue de
-  maintenance. »
+- **Explication** : l'acteur est celui qui agit et y gagne, pas celui qui construit. Les
+  Developers construisent le produit ; un consommateur de données, lui, est un utilisateur
+  (choix du cours, concept 1).
+- **Situation** : Diego, data engineer, propose : « En tant que data engineer, je veux une table
+  des vélos signalés en panne, mise à jour toutes les 5 minutes, afin d'alimenter la vue de
+  maintenance. » Les techniciens de maintenance préparent leur tournée de réparation à partir
+  des vélos signalés en panne.
 - **Question** : Diego défend son brouillon : « Je suis bien un utilisateur de la plateforme,
   non ? » Que réponds-tu à Diego ?
 - **Réponse attendue** : ici, Diego construit, il ne se sert pas du résultat : la table est une
@@ -194,8 +194,9 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
   trait d'Anna (appuyé sur rien).
 
 ### En tant qu'Abba ? (6b)
-- **Explication** : le persona sert à la conversation et aux exemples ; la phrase de la story
-  garde le rôle (choix du cours).
+- **Explication** : un persona est un portrait fictif d'un rôle (prénom, objectifs,
+  comportements), construit à partir d'utilisateurs réels (choix d'école d'Alan Cooper) ; il
+  sert à la conversation et aux exemples ; la phrase de la story garde le rôle (choix du cours).
 - **Situation** : story au backlog : « En tant qu'abonné, je veux savoir avant de partir s'il
   reste un vélo à ma station, afin de ne pas me déplacer pour rien. » Diego propose de la
   réécrire : « En tant qu'Abba, je veux… ».

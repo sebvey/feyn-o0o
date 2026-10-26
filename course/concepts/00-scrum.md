@@ -146,16 +146,17 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### Anna est-elle une Developer ? (0a1, les Developers)
 - **Explication** : les Developers sont les membres de l'équipe qui réalisent l'incrément, quel
-  que soit leur métier : le mot « developers » n'exclut aucune compétence.
-  Ils répondent de quatre choses : créer le backlog de sprint, leur plan pour le sprint (détaillé
-  en 0a3) ;
-  la qualité, en respectant la Definition of Done (DoD), les exigences de qualité de l'équipe
-  (détaillée en 0a3) ; adapter leur plan chaque jour vers l'objectif de sprint ; se tenir
-  responsables les uns envers les autres. Comment transformer un élément du backlog en
-  incrément, eux seuls le décident.
-- **Situation** : Odile (directrice des opérations) prépare un schéma de l'équipe vélos pour le
-  comité de direction : « Developers : Dana et Diego. À part : Anna, analyste, puisqu'elle ne
-  construit pas les pipelines. »
+  que soit leur métier : le mot « developers » n'exclut aucune compétence. Ils répondent de
+  quatre choses : créer le backlog de sprint, leur plan pour le sprint (détaillé en 0a3) ; la
+  qualité, en respectant la Definition of Done (DoD), les exigences de qualité de l'équipe
+  (reprise en 0a3, détaillée au concept 11) ; adapter leur plan chaque jour vers l'objectif de
+  sprint ; se tenir responsables les uns envers les autres. Comment transformer un élément du
+  backlog en incrément, eux seuls le décident.
+- **Situation** : dans l'équipe vélos, Dana et Diego (data engineers) construisent les
+  pipelines ; Anna (analyste) calcule les indicateurs et les analyses publiés dans les vues de
+  la plateforme. Odile (directrice des opérations) prépare un schéma de l'équipe pour le comité
+  de direction : « Developers : Dana et Diego. À part : Anna, analyste, puisqu'elle ne construit
+  pas les pipelines. »
 - **Question** : « Corrige le schéma d'Odile. »
 - **Réponse attendue** : Anna est une Developer : elle réalise une partie de l'incrément (les
   indicateurs, les analyses publiées dans les vues). Les Developers ne se définissent pas par
@@ -406,6 +407,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   mercredi.
 
 ### « Le sprint est livré » (0b)
+- **Explication** : un élément qui ne remplit pas la DoD ne fait pas partie de l'incrément : il
+  n'est ni livré ni présenté à la revue de sprint, et retourne au backlog produit, où le PO
+  l'ordonne avec le reste.
 - **Situation** : dernier jour d'un autre sprint. La vue des vélos en panne est finie, mais elle
   n'affiche pas encore l'heure de sa dernière mise à jour. Diego annonce : « Le sprint est livré.
   On montre la vue en revue et on la met en service ; l'heure, on l'ajoutera au prochain

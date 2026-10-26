@@ -72,11 +72,11 @@ convainc, pas de vote (1b) ; l'objectif produit, un seul à la fois, et sa mesur
 points non fixés (2) ; liste ordonnée et non priorités, une demande ne se traite pas en direct
 (3) ; les Developers estiment la taille (7) ; la règle non fixée que le PO fait fixer (8a2) ;
 reporter un morceau de faible valeur (9b2) ; la demande de Maud entre au backlog à la revue
-(10a2) ; dépendance entre deux stories, s'accorder avec l'autre équipe (10b) ; la DoR et
-l'accès obtenu (11b). Pas encore enseignés, nommés avec renvoi : données du produit (12),
-parties prenantes, dire non et escalade (14), préciser une story avant le sprint, Sprint
-Planning et revue de sprint (15), première version et prévision « pour quand ? » (16),
-hypothèses et exploration (17), outil du backlog (annexe A1).
+(10a2) ; dépendance entre deux stories, s'accorder avec l'autre équipe (10b) ; la DoR et l'accès
+obtenu (11b) ; définition d'un indicateur et accès aux données (12). Pas encore enseignés,
+nommés avec renvoi : parties prenantes, dire non et escalade (14), préciser une story avant le
+sprint, Sprint Planning et revue de sprint (15), première version et prévision « pour quand ? »
+(16), hypothèses et exploration (17), outil du backlog (annexe A1).
 
 ## Banque d'exemples
 
@@ -115,15 +115,16 @@ du fil rouge.
 - **Réponse attendue** : plusieurs ordres se défendent ; ce qui compte, c'est l'argument.
   D'abord, « c'est le bon moment » n'est pas un critère : c'est l'ordre d'arrivée. Puis les
   quatre critères. Valeur : le blocage évite qu'on loue un vélo en panne (sécurité des
-  abonnés) ; l'appli sert les abonnés qui l'ont. Leur lien avec le temps vide des stations n'est pas
-  établi : qui en suppose un pose une hypothèse (concept 17), à argumenter ; l'objectif produit
-  ne départage donc pas seul ici, et le PO le dit. Coût : à demander aux Developers. Risque :
-  ici, le risque pour les utilisateurs ; il pèse lourd, mais sa gravité se fait qualifier par
-  Maud, voire Odile, pas par le PO seul. Dépendances : le blocage dépend de la DSI et d'une
-  règle à faire fixer (8a2) ; la disponibilité, non (son affichage relève de l'équipe appli).
-  Deux réponses justes : l'appli d'abord, parce que rien ne la bloque ; ou le blocage en tête si
-  sa gravité est jugée haute. Ce qu'on fait d'une story qui n'est pas prête vient en 13a2. Dans
-  les deux cas, la place se décide face au reste, pas parce qu'on vient d'en parler.
+  abonnés) ; l'appli sert les abonnés qui l'ont. Leur lien avec le temps vide des stations n'est
+  pas établi : qui en suppose un pose une hypothèse (concept 17), à argumenter ; l'objectif
+  produit ne départage donc pas seul ici, et le PO le dit. Coût : à demander aux Developers.
+  Risque : ici, le risque pour les utilisateurs ; il pèse lourd, mais sa gravité se fait
+  qualifier par Maud, voire Odile (directrice des opérations, qui encadre la maintenance), pas
+  par le PO seul. Dépendances : le blocage dépend de la DSI et d'une règle à faire fixer (8a2) ;
+  la disponibilité, non (son affichage relève de l'équipe appli). Deux réponses justes : l'appli
+  d'abord, parce que rien ne la bloque ; ou le blocage en tête si sa gravité est jugée haute. Ce
+  qu'on fait d'une story qui n'est pas prête vient en 13a2. Dans les deux cas, la place se
+  décide face au reste, pas parce qu'on vient d'en parler.
 - **Erreurs fréquentes** :
   - « oui, c'est le bon moment, on la prend » : demander « qu'est-ce qui ne sera pas fait à la
     place, et sur quoi as-tu décidé ? » ;
@@ -193,8 +194,8 @@ du fil rouge.
   est perdue (jusqu'à l'échéance suivante). SAFe divise le coût du retard par la durée (WSJF) :
   on le nomme, sans l'enseigner. Ici, on ne chiffre rien.
 - **Situation** : situation d'exercice : Charlotte annonce que le bilan au conseil a lieu dans
-  deux mois. Deux demandes : le blocage des vélos signalés (Maud) et la comparaison au même
-  mois de l'an dernier (Charlotte).
+  deux mois ; le conseil examine la subvention une fois par an. Deux demandes : le blocage des
+  vélos signalés (Maud) et la comparaison au même mois de l'an dernier (Charlotte).
 - **Question** : du blocage et de la comparaison, laquelle coûte dès aujourd'hui, laquelle
   seulement plus tard, et que change cette forme à ton ordre ? (Si la réponse s'arrête à la
   forme, relancer sur l'effet sur l'ordre.)

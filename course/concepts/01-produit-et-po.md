@@ -78,9 +78,11 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   pour qui demande comment c'est fait.
 - **Erreurs fréquentes** : reformuler la technique (« elle centralise les données ») : demander
   « qui s'en sert, et qu'est-ce qui change pour lui ? ». Lister des fonctions (vues, alertes,
-  indicateurs) sans utilisateur. Oublier l'équipe appli et la collectivité (voir l'exemple
-  suivant). Donner pour valeur un livrable (« avoir une vue des stations vides ») : demander
-  « et alors ? » ; le concept 2 reprend cette distinction.
+  indicateurs) sans utilisateur. Ne citer que l'exploitation n'est pas une erreur : apporter
+  dans la correction la collectivité (qui finance le service et reçoit des indicateurs) et
+  l'équipe appli (qui reçoit des données), que l'apprenant ne connaît pas encore comme
+  utilisatrices (voir l'exemple suivant). Donner pour valeur un livrable (« avoir une vue des
+  stations vides ») : demander « et alors ? » ; le concept 2 reprend cette distinction.
 - **Ce qui marche** : faire présenter la plateforme à un abonné : s'il ne comprend pas à quoi
   elle sert, la phrase parle encore de technique.
 
@@ -153,19 +155,23 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   un utilisateur ? » (PO) et « comment on le fait, pour quel coût ? » (Developers).
 
 ### Un vote pour ordonner le backlog (1b)
-- **Situation** : les demandes arrivent d'Étienne, de Maud, de Charlotte et de Pia. Pour éviter
-  les conflits, Odile propose que ces quatre personnes votent l'ordre du backlog à chaque
-  sprint.
+- **Situation** : les demandes arrivent d'Étienne (responsable d'exploitation), de Maud
+  (responsable maintenance), de Charlotte (chargée de mission mobilité, pour la collectivité,
+  qui reçoit des indicateurs de la plateforme) et de Pia (PO de l'équipe appli, qui reçoit des
+  données de la plateforme). Pour éviter les conflits, Odile (directrice des opérations, sponsor
+  de la plateforme, dont elle porte le budget) propose que ces quatre personnes votent l'ordre
+  du backlog à chaque sprint.
 - **Question** : Que réponds-tu à Odile ? Dis qui tranche l'ordre et quelle place gardent les
   quatre demandeurs.
 - **Réponse attendue** : l'ordre revient au PO, une seule personne, pas un comité (Scrum Guide).
   Étienne, Maud, Charlotte et Pia sont des parties prenantes : ils font valoir leurs besoins, et
   qui veut changer l'ordre doit convaincre le PO. Le PO les écoute, représente leurs besoins
   dans le backlog et explique ses choix (le pourquoi). Avec un vote, personne ne répondrait de
-  la valeur. Charlotte et Pia sont aussi des utilisatrices (exemples de 1a) : tout utilisateur est
-  une partie prenante. Nuance : Odile est le sponsor (elle porte le budget de la plateforme et
-  porte plus haut les obstacles qui dépassent le PO) ; l'ordre, lui, reste au PO, et un obstacle
-  qui le dépasse se porte plus haut (concept 14), ce qui n'a rien d'un vote à chaque sprint.
+  la valeur. Charlotte et Pia sont aussi des utilisatrices (Charlotte pour la collectivité, Pia
+  pour l'équipe appli : des consommateurs de données, vus en 1a) : tout utilisateur est une
+  partie prenante. Nuance : Odile est le sponsor (elle porte le budget de la plateforme et porte
+  plus haut les obstacles qui dépassent le PO) ; l'ordre, lui, reste au PO, et un obstacle qui
+  le dépasse se porte plus haut (concept 14), ce qui n'a rien d'un vote à chaque sprint.
 - **Erreurs fréquentes** : accepter le vote « pour être juste ». Relancer : « si l'ordre se
   révèle mauvais, qui en répond ? ». À l'inverse, ordonner sans
   écouter ni expliquer. Douter : « le PO peut-il vraiment ordonner seul si les demandeurs ne

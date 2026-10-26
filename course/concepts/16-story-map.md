@@ -74,11 +74,12 @@ Déjà enseigné, à rappeler sans le réenseigner : l'incrément et les trois e
 seul ordonne, qui veut changer l'ordre le convainc (1b) ; résultat, mesure de résultat et ses
 points non fixés (2) ; backlog ordonné, seule source du travail (3) ; les niveaux epic, feature,
 story (4) ; le format de la story (5) ; les Developers estiment la taille (7) ; la règle non
-fixée que le PO fait fixer (8a2) ; tranche verticale, couche, walking skeleton de Cockburn (9) ;
-dépendance envers une autre équipe (10b) ; DoD, l'accès aux locations non obtenu (11) ; ordre,
-MoSCoW pour une échéance (13) ; escalade (14c) ; Sprint Planning et revue de sprint (15). Pas
-encore enseignés, nommés avec renvoi : hypothèses et exploration, le MVP de Ries comme manière
-d'apprendre (17) ; l'outil du backlog (annexe A1) ; travailler sans sprint (annexe A2).
+fixée que le PO fait fixer (8a2) ; tranche verticale, couche (9) ; dépendance envers une autre
+équipe (10b) ; DoD, l'accès aux locations non obtenu (11) ; ordre, MoSCoW pour une échéance
+(13) ; escalade (14c) ; Sprint Planning et revue de sprint (15). Non acquis au fil principal :
+le walking skeleton de Cockburn (vu seulement dans la rechange 9a1). Pas encore enseignés,
+nommés avec renvoi : hypothèses et exploration, le MVP de Ries comme manière d'apprendre (17) ;
+l'outil du backlog (annexe A1) ; travailler sans sprint (annexe A2).
 
 ## Banque d'exemples
 
@@ -205,8 +206,9 @@ et le contenu de la tranche en 16c.
     compte » : la tranche n'est plus la plus petite.
 - **Ce qui marche** : l'image de Patton : on ne livre pas une voiture sans freins ; une version
   petite, mais qui marche d'un bout à l'autre de la journée. Si l'apprenant cite le « walking
-  skeleton » de Patton pour cette première version : c'est un autre usage du mot, le cours le
-  garde pour le sens de Cockburn (9) ; ne pas l'enseigner ici.
+  skeleton » de Patton pour cette première version : c'est un autre usage du mot : le cours le
+  garde pour le sens de Cockburn, une toute petite implémentation de bout en bout qui relie les
+  composants, utile à l'équipe et pas à l'utilisateur (9) ; ne pas l'enseigner ici.
 
 ### Un MVP, même bâclé (16b2)
 - **Explication** : « MVP » a deux sens. Pour Eric Ries, c'est la version d'un nouveau produit

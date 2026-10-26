@@ -39,11 +39,11 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
   vont sur la même carte) ; ne changer qu'une variable d'un exemple à l'autre.
 
 ## Sous-concepts
-1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ;
-   la règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage
-   (un moyen d'accès précis) va dans le Given d'un critère (concept 7b). La DoR de l'équipe
-   vélos demande des règles métier fixées avant qu'une story entre dans un sprint (concept 11).
-   Se déroule en deux messages :
+1. **8a critère ou règle métier** : le critère est propre à la story et se tranche OK ou KO ; la
+   règle est vraie hors de la story, et les critères l'illustrent. Une contrainte d'usage (un
+   moyen d'accès précis) va dans un critère (concept 7b), dans son Given (8b1). La DoR de
+   l'équipe vélos demande des règles métier fixées avant qu'une story entre dans un sprint
+   (concept 11). Se déroule en deux messages :
    - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
@@ -81,12 +81,11 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   critère.
 - **Réponse attendue** : 1 et 2 sont des règles : elles restent vraies sans cette story, et
   d'autres s'en servent (1 sert aussi aux vues d'Étienne ; 2, aux données que l'appli de Pia
-  affiche). 3 est un
-  critère : un cas précis, propre à la story, qu'un testeur tranche ; il illustre 1 et 2.
-  4 est un morceau de critère : la contrainte va dans le Given (concept 7b), pour que le
-  testeur vérifie depuis un téléphone basique. Nuance : la fraîcheur visée (moins de 15
-  minutes) est aussi une règle fixée ; le critère en cite la valeur (« à jour de moins de 15
-  minutes »).
+  affiche). 3 est un critère : un cas précis, propre à la story, qu'un testeur tranche ; il
+  illustre 1 et 2. 4 est un morceau de critère : la contrainte (concept 7b) va dans son contexte
+  de départ (le Given, qui vient en 8b1), pour que le testeur vérifie depuis un téléphone
+  basique. Nuance : la fraîcheur visée (moins de 15 minutes) est aussi une règle fixée ; le
+  critère en cite la valeur (« à jour de moins de 15 minutes »).
 - **Erreurs fréquentes** :
   - classer 1 en critère parce que la story l'utilise : demander « si on supprime la story de
     Abba, un vélo disponible change-t-il de définition ? » ;
@@ -101,33 +100,33 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Explication** : un critère qui s'appuie sur une règle non fixée la fixe en douce : le cas
   qu'il choisit tranche la règle, sans que personne l'ait décidée. On le repère en se demandant,
   pour chaque critère : « quelle règle ce cas suppose-t-il, et est-elle fixée ? ». Rappel, sans
-  le réenseigner : le PO fait fixer la règle, la story attend (concepts 4 et 7a2). Cas
-  générique inventé pour l'illustration : le critère « Then la location de plus de 24 heures est
-  signalée » décide qu'une location est trop longue au-delà de 24 heures, alors que personne n'a
-  fixé la durée maximale.
-- **Situation** : Étienne demande de voir aussi les stations presque vides (demande d'exercice,
-  concept 4). Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Dana, data
-  engineer, propose ce critère : « Given une station compte 2 vélos disponibles, When Étienne
-  ouvre la vue, Then la station apparaît presque vide. » Elle ajoute : « 3 vélos, tout le monde le
-  dit. »
+  le réenseigner : le PO fait fixer la règle, la story attend (7a2). Cas générique inventé pour
+  l'illustration : le critère « Then la location de plus de 24 heures est signalée » décide
+  qu'une location est trop longue au-delà de 24 heures, alors que personne n'a fixé la durée
+  maximale.
+- **Situation** : Étienne demande de voir aussi les stations presque vides (demande d'exercice).
+  Le seuil n'est pas fixé : 3 vélos a été cité, sans décision. Dana, data engineer, propose ce
+  critère, écrit en Given/When/Then (étant donné, quand, alors ; la forme vient en 8b) : « Given
+  une station compte 2 vélos disponibles, When Étienne ouvre la vue, Then la station apparaît
+  presque vide. » Elle ajoute : « 3 vélos, tout le monde le dit. »
 - **Question** : qu'est-ce que ce critère décide, et qui l'a décidé ?
-- **Réponse attendue** : la forme est correcte (Given, When, Then), mais le critère repose sur
-  « presque vide », dont la règle n'est pas fixée : il décide qu'une station à 2 vélos est
-  presque vide. Qui l'a décidé : personne ; Dana le tire de ce que « tout le monde dit », et un
-  avis répandu n'est pas une décision. Répondre « Dana » sans dire que personne n'a décidé est
-  l'erreur fréquente ci-dessous, pas une réponse partielle. Un critère illustre une règle, il ne la remplace pas. Suite,
-  en renvoi : le PO la fait fixer, la story attend (concepts 4 et 7a2) ; la DoR de l'équipe
-  vélos demande des règles métier fixées (concept 11). Nuance : la règle devra aussi dire si
-  une station au seuil compte comme presque vide. Une fois fixée, elle s'écrit comme règle
-  métier, et les critères l'illustrent par des cas autour du seuil, une variable à la fois (8b).
+- **Réponse attendue** : le critère repose sur « presque vide », dont la règle n'est pas fixée :
+  il décide qu'une station à 2 vélos est presque vide. Qui l'a décidé : personne ; Dana le tire
+  de ce que « tout le monde dit », et un avis répandu n'est pas une décision. Répondre « Dana »
+  sans dire que personne n'a décidé est l'erreur fréquente ci-dessous, pas une réponse
+  partielle. Un critère illustre une règle, il ne la remplace pas. Suite, en renvoi : le PO la
+  fait fixer, la story attend (7a2) ; la DoR de l'équipe vélos demande des règles métier fixées
+  (concept 11). Nuance : la règle devra aussi dire si une station au seuil compte comme presque
+  vide. Une fois fixée, elle s'écrit comme règle métier, et les critères l'illustrent par des
+  cas autour du seuil, une variable à la fois (8b).
 - **Erreurs fréquentes** :
   - juger le critère bon parce que sa forme l'est : demander « d'où vient le 2 ? » ;
   - répondre « Dana » ou « l'équipe » sans voir que personne n'a décidé : un avis répandu n'est
     pas une décision ; relancer : « si Étienne voit une station marquée presque vide avec 2 vélos,
     qui a décidé que c'était presque vide ? » ;
   - proposer soi-même un seuil pour débloquer : relancer : « qui, chez l'opérateur, sait à
-    partir de combien de vélos une station est presque vide pour Étienne ? » ; puis renvoyer à 4b
-    et 7a2, sans réexpliquer.
+    partir de combien de vélos une station est presque vide pour Étienne ? » ; puis renvoyer à
+    7a2, sans réexpliquer.
 - **Ce qui marche** : « si Étienne voit une station marquée presque vide avec 2 vélos, qui a
   décidé que c'était presque vide ? ».
 

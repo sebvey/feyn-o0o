@@ -99,11 +99,14 @@ mois, puis comparaison au même mois de l'an dernier).
   si Étienne n'a pas d'autre besoin sur les pannes, 2 et 3 ne font qu'une story. Nuance : ces mots
   sont un vocabulaire courant, pas une règle de Scrum.
 - **Erreurs fréquentes** :
-  - classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente (un epic
-    classé en story). Relancer : « qu'est-ce que 1 contient ? » ; Étienne a déjà cité trois vues ;
-  - mettre 4 au backlog produit parce que le travail est nécessaire : il ne sert qu'à réaliser 3,
-    c'est une tâche du plan des Developers. Un travail technique qui porte sa propre raison
-    (dédoublonner les relevés, concept 3) entre, lui, au backlog, et le PO l'ordonne ;
+  - classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente (un
+    epic classé en story). Relancer : « qu'est-ce que 1 contient ? » ; la liste nomme déjà deux
+    vues (2 et 5), en plus de la vue des stations vides, déjà livrée ;
+  - mettre 4 au backlog produit parce que le travail est nécessaire : il ne sert qu'à réaliser
+    3, c'est une tâche du plan des Developers. Un travail technique qui porte sa propre raison
+    (par exemple dédoublonner les relevés des stations, qui contiennent des doublons, défaut
+    connu des données : ce travail sert plusieurs vues, pas une seule story) entre, lui, au
+    backlog, et le PO l'ordonne ;
   - trancher 2 et 5 sur leur libellé (« une vue, c'est une feature ») : le mot « vue » ne fait pas
     le niveau, les besoins d'Étienne le font.
 - **Ce qui marche** : partir du haut et demander ce que chaque élément contient, puis dessiner
@@ -157,12 +160,13 @@ mois, puis comparaison au même mois de l'an dernier).
   ce sont deux éléments et deux états à tenir pour un seul « je veux » d'Étienne).
 
 ### Un seul « je veux » ? (4b)
-- **Explication** : écris les « je veux » de ce qu'il reste à livrer. Un seul, qui tient dans un
-  sprint : story ; trop gros pour un sprint : un epic (au sens de Cohn, une grosse story), qui
-  se découpe (concept 9). Plusieurs, chacun utile seul : feature,
-  et chaque « je veux » devient une story candidate. Plusieurs groupes, ou des « je veux » qu'on
-  ne sait pas encore écrire : epic. Un « je veux » qui en contient d'autres se déplie avant de
-  compter.
+- **Explication** : un « je veux », c'est un besoin que l'utilisateur dit lui-même, à la
+  première personne (« je veux voir… ») ; la story entière s'écrit au concept 5. Écris les « je
+  veux » de ce qu'il reste à livrer. Un seul, qui tient dans un sprint : story ; trop gros pour
+  un sprint : un epic (au sens de Cohn, une grosse story), qui se découpe (concept 9).
+  Plusieurs, chacun utile seul : feature, et chaque « je veux » devient une story candidate.
+  Plusieurs groupes, ou des « je veux » qu'on ne sait pas encore écrire : epic. Un « je veux »
+  qui en contient d'autres se déplie avant de compter.
 - **Situation** : Anna ajoute au backlog : « Charlotte : je veux justifier la subvention devant le
   conseil. » Elle conclut : « Un seul je veux, donc une story. » Pour son bilan, Charlotte a déjà
   cité les locations par quartier sur le mois, puis la comparaison au même mois de l'an dernier ;
@@ -226,9 +230,11 @@ mois, puis comparaison au même mois de l'an dernier).
   besoins (« gérer toute la flotte », exemple inventé). Le repérer en dépliant le « je veux » : s'il en contient
   d'autres, ce n'est pas une story.
 - Mettre une tâche au backlog produit : le travail qui ne sert qu'à réaliser une story (cas
-  inventé : convertir un fichier en entrée pour un écran) est une tâche, dans le plan des Developers (backlog
-  de sprint). Un travail technique qui porte sa propre raison (dédoublonner les relevés,
-  concept 3) entre au backlog, et le PO l'ordonne.
+  inventé : convertir un fichier en entrée pour un écran) est une tâche, dans le plan des
+  Developers (backlog de sprint). Un travail technique qui porte sa propre raison (par exemple
+  dédoublonner les relevés des stations, qui contiennent des doublons, défaut connu des
+  données : ce travail sert plusieurs vues, pas une seule story) entre au backlog, et le PO
+  l'ordonne.
 - Croire que Scrum impose des niveaux, ou copier ceux de l'outil sans les choisir.
 - Le niveau de trop : quand la plupart des features ne contiennent qu'une story, un niveau
   double le travail. Le régler dans l'outil : annexe A1.

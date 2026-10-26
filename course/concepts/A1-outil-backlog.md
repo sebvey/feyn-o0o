@@ -100,11 +100,10 @@ Diego, la répartition des features et le tableau proposé sont des propositions
 - **Réponse attendue** : Diego a raison sur l'outil (un niveau hérité ne se supprime pas), pas
   sur la conclusion. Le signal du niveau de trop est là (4a3) : après avoir vérifié que ces
   features ne sont pas des stories mal classées, le PO propose que l'équipe n'affiche plus le
-  niveau Feature et cesse d'en créer. Désactiver le type est un réglage du processus : il
-  touche les autres projets qui l'emploient, il se voit avec l'administrateur. Le PO dit ce
-  qu'il veut et pourquoi (deux éléments à écrire et à tenir pour un seul « je veux »), pas où
-  cliquer ; l'équipe décide de ses niveaux. Nuance : on y revient si des besoins à plusieurs
-  « je veux » reviennent.
+  niveau Feature et cesse d'en créer. Désactiver le type est un réglage du processus : il touche
+  les autres projets qui l'emploient, il se voit avec l'administrateur. Le PO dit ce qu'il veut
+  et pourquoi (deux éléments à écrire et à tenir pour un seul besoin), pas où cliquer ; l'équipe
+  décide de ses niveaux. Nuance : on y revient si des features à plusieurs stories reviennent.
 - **Erreurs fréquentes** :
   - donner raison à Diego (« c'est l'outil qui l'impose ») : demander « l'outil interdit-il de
     ne pas l'employer, ou le propose-t-il par défaut ? » ;
@@ -156,18 +155,19 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   par défaut, et l'équipe les change. Atlassian conseille d'en garder peu (conseil d'éditeur).
   Deux règles du cours : « fait » veut dire DoD remplie (11a) ; un état « prêt » reste un
   repère, pas une barrière (11b).
-- **Situation** : dans cet exercice, Diego propose à l'équipe vélos quatre états : À faire,
-  Prêt, En cours, Fait. « Une story passe en Prêt quand toutes ses questions sont réglées, et
-  en Fait quand son code est fusionné. »
+- **Situation** : la DoD de l'équipe vélos exige l'heure de la dernière mise à jour sur chaque
+  vue et la définition écrite de chaque indicateur publié. Dans cet exercice, Diego propose à
+  l'équipe vélos quatre états : À faire, Prêt, En cours, Fait. « Une story passe en Prêt quand
+  toutes ses questions sont réglées, et en Fait quand son code est fusionné. »
 - **Question** : que proposes-tu de changer dans la proposition de Diego, et pourquoi ?
 - **Réponse attendue** : les quatre états peuvent rester, c'est le choix de l'équipe et ils sont
   peu nombreux. « Fait » se change : une story est faite quand elle remplit la DoD (l'heure de
   la dernière mise à jour affichée, la définition de l'indicateur écrite), pas quand son code
   est fusionné ; sinon le tableau dit « fait » de ce qui n'entre pas dans l'incrément, et
-  l'outil ne connaît pas la DoD (un tableau Scrum de Jira tient pour terminé ce qui est dans
-  sa colonne la plus à droite). « Prêt » se change aussi : « toutes les questions réglées » en
-  fait une barrière, la conversation continue pendant le sprint (11b). Il suit la DoR de
-  l'équipe (critères écrits, règles fixées, dépendances identifiées, accès obtenu), comme
+  l'outil ne connaît pas la DoD (un tableau Scrum de Jira tient pour terminé ce qui est dans sa
+  colonne la plus à droite). « Prêt » se change aussi : « toutes les questions réglées » en fait
+  une barrière, la conversation continue pendant le sprint (les 3C, concept 5). Il suit la DoR
+  de l'équipe (critères écrits, règles fixées, dépendances identifiées, accès obtenu), comme
   repère. Le PO propose ; l'équipe décide (en rétrospective, par exemple) ; l'administrateur
   règle.
 - **Erreurs fréquentes** :

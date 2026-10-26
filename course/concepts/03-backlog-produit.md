@@ -122,9 +122,10 @@ ne deviennent pas des faits du fil rouge.
   assez pour comprendre la demande et la placer dans l'ordre. Le travail qui précise les
   éléments a un nom, vu au concept 15.
 - **Erreurs fréquentes** :
-  - « un backlog bien écrit est détaillé partout » : réflexe de spécification complète, à
-    relier au piège du cahier des charges (3b). Relancer : « quand cet élément sera pris, que
-    saura-t-on de plus qu'aujourd'hui ? » ; sinon, réexpliquer (voir « Ce qui marche ») ;
+  - « un backlog bien écrit est détaillé partout » : réflexe de spécification complète, que 3b
+    reprend sous le nom de cahier des charges (ne pas l'enseigner ici). Relancer : « quand cet
+    élément sera pris, que saura-t-on de plus qu'aujourd'hui ? » ; sinon, réexpliquer (voir « Ce
+    qui marche ») ;
   - à l'inverse, « on ne détaille rien avant le Sprint Planning » : le haut est en général
     précisé avant ; l'équipe peut encore le préciser pendant le Sprint Planning (Scrum Guide),
     mais si tout s'y découvre, la séance sert à découvrir la demande. Relancer : « que faut-il
@@ -199,14 +200,15 @@ ne deviennent pas des faits du fil rouge.
   Developers, qui va dans le backlog de sprint quand ils prennent le travail. Au backlog
   produit, l'élément dit ce qui change pour qui : Étienne voit les vélos signalés en panne.
   « Tableau de bord » est le plus proche de la demande d'Étienne, mais il nomme une solution (un
-  écran), pas ce qui change pour lui : c'est lui qu'on réécrit ainsi. Le PO
-  ne peut ordonner « modèle de données » face aux demandes de Maud ou de Charlotte : il ne sait
-  pas ce qu'il apporte. Le dédoublonnage des relevés en double, lui, peut avoir sa place, mais
-  pas dans cette vue : les relevés comptent les vélos à quai, pas les pannes. C'est un défaut
-  connu des données, qui peut fausser les vues tirées des relevés, comme celle des stations
-  vides ; il entre au backlog avec ce qu'il améliore (des vues justes pour Étienne), et le PO
-  l'ordonne comme le reste. Nuance : le travail technique n'est pas exclu du backlog ; il y
-  entre avec sa raison.
+  écran), pas ce qui change pour lui : c'est lui qu'on réécrit ainsi. Le PO ne peut ordonner
+  « modèle de données » face aux demandes de Maud ou de Charlotte : il ne sait pas ce qu'il
+  apporte. Nuance, à apporter dans la correction (la situation ne dit ni ce que comptent les
+  relevés, ni qu'ils ont des doublons) : le dédoublonnage des relevés en double peut avoir sa
+  place au backlog, mais pas dans cette vue : les relevés comptent les vélos à quai, pas les
+  pannes. C'est un défaut connu des données, qui peut fausser les vues tirées des relevés, comme
+  celle des stations vides ; il entre au backlog avec ce qu'il améliore (des vues justes pour
+  Étienne), et le PO l'ordonne comme le reste. Le travail technique n'est donc pas exclu du
+  backlog : il y entre avec sa raison.
 - **Erreurs fréquentes** :
   - « le backlog, c'est la liste des tâches de l'équipe » : réflexe probable d'un développeur ou
     d'un profil data ; demander « qu'est-ce qu'Étienne voit de nouveau quand cet élément est
