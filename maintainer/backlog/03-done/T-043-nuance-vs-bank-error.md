@@ -29,6 +29,8 @@
     compte à zéro. »
   Erreur évitée : valider un sous-concept sur une erreur que la banque prévoit ; réexpliquer
   après une seule relance manquée.
+- **Décision** (2026-10-26) : texte resserré à l'analyse, appliqué à la place de celui ci-dessus : « Une erreur fréquente de la banque, commise sur le point que la question teste, n'est pas une nuance : traite la réponse comme fausse ou partielle. Une erreur sur un autre point se corrige sans empêcher de valider. » et « Deux relances de suite sans succès sur la même question : réexplique de même ; une relance qui réussit remet le compte à zéro. » Test sur 8b1 au lieu de 8a2, dont la banque dit désormais elle-même que « Dana » seul est l'erreur fréquente.
 - **Fini quand** : un prof neuf, sur le scénario de reprise en 8a2 avec la réponse « c'est
   Dana », relance au lieu de valider, et note le rang 1 pour la première relance d'un second
   défaut après une relance réussie.
+- **Fait le** : 2026-10-26, deux phrases dans « Attends la réponse » de `CLAUDE.md`, ADR-054 ; test sur Sonnet (reprise sur 8b1) : le canal dans le Then, erreur de la banque sur le point testé, est relancé (rang 1) au lieu d'être validé ; après la relance réussie, la relance sur le Given repart au rang 1, et son échec mène au rang 2, pas à la réexplication.
