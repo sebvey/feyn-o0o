@@ -1,6 +1,7 @@
 ---
 domaine: 5
 titre: Décider
+duree: 40
 ---
 
 # Décider

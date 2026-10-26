@@ -1,6 +1,7 @@
 ---
 domaine: 4
 titre: Les données
+duree: 25
 ---
 
 # Les données

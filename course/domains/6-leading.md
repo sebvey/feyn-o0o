@@ -1,6 +1,7 @@
 ---
 domaine: 6
 titre: Conduire
+duree: 50
 ---
 
 # Conduire

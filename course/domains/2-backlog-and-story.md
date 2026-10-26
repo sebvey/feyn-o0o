@@ -1,6 +1,7 @@
 ---
 domaine: 2
 titre: Le backlog et la story
+duree: 120
 ---
 
 # Le backlog et la story
