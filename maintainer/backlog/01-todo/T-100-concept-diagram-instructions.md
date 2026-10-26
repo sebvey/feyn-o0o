@@ -1,4 +1,4 @@
-# T-099 : Retirer du cours les consignes de schéma, puis simplifier la règle du prof
+# T-100 : Retirer du cours les consignes de schéma, puis simplifier la règle du prof
 
 - **Créé le** : 2026-10-26
 - **Constat** : test de T-098 (2026-10-26). Depuis T-098, le prof ne fait un schéma que sur

@@ -22,4 +22,4 @@
   fichier du concept. ADR écrit (la règle remplacée est l'option écartée).
 - **Fait le** : 2026-10-26, règle de `CLAUDE.md` remplacée (schéma seulement sur demande,
   même si le fichier du concept en prévoit un) ; test Sonnet réussi sur le concept 9 ;
-  ADR-075 ; consignes de schéma des fichiers de concept reportées à T-099.
+  ADR-075 ; consignes de schéma des fichiers de concept reportées à T-100.

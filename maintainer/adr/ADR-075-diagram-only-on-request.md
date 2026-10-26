@@ -22,9 +22,9 @@ la métaphore du concept.
   explicite.
 
 - Retirer des fichiers de concept les consignes qui disent de montrer un schéma, dans ce
-  ticket : une douzaine de fichiers, qui servent aussi au site ; reporté à T-099.
+  ticket : une douzaine de fichiers, qui servent aussi au site ; reporté à T-100.
 
 ## Conséquences
-Les concepts s'enseignent en texte. Tant que T-099 n'est pas fait, `CLAUDE.md` l'emporte sur
+Les concepts s'enseignent en texte. Tant que T-100 n'est pas fait, `CLAUDE.md` l'emporte sur
 les consignes de schéma des fichiers de concept. Mettre à disposition du prof des schémas maintenus par le
 cours reste une question ouverte, hors de cette décision.
