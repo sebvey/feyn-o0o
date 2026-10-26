@@ -90,8 +90,9 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   peut être désactivé (réglage du processus, qui touche tous les projets qui l'emploient). Dans
   Jira, un niveau entre Epic et Story (Feature, par exemple) a été ajouté ou renommé chez
   l'équipe ; la hiérarchie se règle pour tous les espaces gérés par l'entreprise du site, et la
-  changer casse les liens parent et enfant existants. Si l'apprenant est dans Jira, poser la
-  situation dans Jira avec ces deux faits.
+  changer casse les liens parent et enfant existants. Dans les deux outils, le PO dit ce qu'il
+  veut et pourquoi, l'équipe choisit ses niveaux, l'administrateur de l'outil fait le réglage.
+  Si l'apprenant est dans Jira, poser la situation dans Jira avec ces deux faits.
 - **Situation** : dans cet exercice, l'équipe vélos travaille dans Azure DevOps, en processus
   Agile. Après quelques sprints, quatre des cinq features des vues d'Étienne ne contiennent
   qu'une story. Diego : « Azure ne permet pas de supprimer le niveau Feature : on doit
@@ -156,7 +157,8 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   Deux règles du cours : « fait » veut dire DoD remplie (11a) ; un état « prêt » reste un
   repère, pas une barrière (11b).
 - **Situation** : la DoD de l'équipe vélos exige l'heure de la dernière mise à jour sur chaque
-  vue et la définition écrite de chaque indicateur publié. Dans cet exercice, Diego propose à
+  vue et la définition écrite de chaque indicateur publié (sa règle de calcul, détaillée au
+  concept 12). Dans cet exercice, Diego propose à
   l'équipe vélos quatre états : À faire, Prêt, En cours, Fait. « Une story passe en Prêt quand
   toutes ses questions sont réglées, et en Fait quand son code est fusionné. »
 - **Question** : que proposes-tu de changer dans la proposition de Diego, et pourquoi ?
@@ -174,7 +176,8 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   - garder « Fait » au code fusionné, « la DoD se vérifie à part » : demander « à la revue, que
     dit le tableau d'une story fusionnée sans définition de l'indicateur ? » ;
   - ajouter un état par étape (en recette, validé par Étienne…) : chaque état se tient à jour, et
-    les états ne racontent pas la vie d'une story (refinement, planning, revue : concept 15) ;
+    les états ne racontent pas la vie d'une story (comment elle se précise, entre au sprint et
+    passe en revue : concept 15) ;
   - supprimer « Prêt » parce que la DoR n'est pas dans le Scrum Guide : c'est un choix d'école,
     utile s'il reste un repère ;
   - ne corriger qu'un des deux états : demander « et l'autre ? ».

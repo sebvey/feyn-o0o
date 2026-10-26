@@ -193,9 +193,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   pas obtenu, et sans
   lui les Developers ne peuvent pas la finir dans le sprint. Au planning, le PO propose à la
   place une story prête ; les Developers choisissent. Et il fait avancer l'accès : relancer
-  Sid, et voir ce qui bloque (la DSI demande de justifier chaque colonne : quelles colonnes
-  demander, concept 12c) ; si l'accès bloque sprint après sprint, escalader (concept 14).
-  Nuance : Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
+  Sid, et voir ce qui bloque ; si l'accès bloque sprint après sprint, escalader (concept 14).
+  Nuances, à apporter dans la correction : ce qui bloque, ici, c'est que la DSI demande de
+  justifier chaque colonne (quelles colonnes demander : concept 12c). Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
   envers une autre équipe est le cas où il admet qu'une règle stricte peut se justifier. Un
   « sûrement » ne lève pas la dépendance.
 - **Erreurs fréquentes** :

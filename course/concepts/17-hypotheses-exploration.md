@@ -111,7 +111,7 @@ fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR, le
 SPIDR et renvoyé ici (9a, 9b) ; dépendances (10) ; DoR (11b) ; définition d'un indicateur,
 qualité des données, fraîcheur (12) ; ordonner, le lien non établi d'une demande avec l'objectif
 produit (13a, 13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner :
-refinement et Sprint Planning (15), la première version, les deux sens du MVP et la prévision
+refinement et ce que le PO prépare au Sprint Planning (15), la première version, les deux sens du MVP et la prévision
 « pour quand ? » (16b, 16c).
 
 ## Banque d'exemples

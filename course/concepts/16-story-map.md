@@ -147,7 +147,7 @@ et le contenu de la tranche en 16c.
   on peut supprimer le backlog dans l'outil. »
 - **Question** : que réponds-tu à Dana ?
 - **Réponse attendue** : non, dans ce cours : le backlog reste la seule liste ordonnée, et le PO
-  en répond (Scrum Guide). La carte montre le tout, les trous et les versions, mais deux stories
+  en répond (Scrum Guide). La carte montre le tout et les trous, mais deux stories
   de deux colonnes et de la même tranche n'y ont pas d'ordre entre elles : la carte ne donne pas
   d'ordre unique. Si Dana finit lundi, laquelle prend-elle ? Chaque story de la carte est un
   élément du backlog, à sa place dans l'ordre. Nuance : Patton, lui, voit la carte comme un
@@ -213,7 +213,8 @@ et le contenu de la tranche en 16c.
   petite, mais qui marche d'un bout à l'autre de la journée. Si l'apprenant cite le « walking
   skeleton » de Patton pour cette première version : c'est un autre usage du mot : le cours le
   garde pour le sens de Cockburn, une toute petite implémentation de bout en bout qui relie les
-  composants, utile à l'équipe et pas à l'utilisateur (9) ; ne pas l'enseigner ici.
+  composants, utile à l'équipe et pas à l'utilisateur (concept 9, vu au cas de rechange de 9a1) ; ne pas
+  l'enseigner ici.
 
 ### Un MVP, même bâclé (16b2)
 - **Explication** : « MVP » a deux sens. Pour Eric Ries, c'est la version d'un nouveau produit

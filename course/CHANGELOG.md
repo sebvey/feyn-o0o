@@ -45,6 +45,9 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - PATCH, concept 3 : « Maud passe par Diego » (3a2) demande la liste des vélos signalés pour la DSI, qui bloque elle-même la location, comme le dit le fil rouge
 - MINOR, templates/learner : le tableau de `parcours.md` ne liste que les concepts au statut changé (absent : à faire) ; « Prochaine étape » d'un nouvel apprenant écrite dans le modèle
 - PATCH, map.md : carte du cours (public cible, domaines, concepts, prérequis, chemins) générée depuis `plan.md` et `domains/`, sans contenu nouveau
+- MINOR, concept 0 : 0b enseigne qu'un élément hors DoD n'est ni livré ni présenté à la revue et retourne au backlog ; « Le sprint est livré » devient un cas d'exercice ou de creusage
+- MINOR, concepts 11, 14 et A1 : 11b, le blocage par la DSI (justifier chaque colonne) passe en nuance de la correction ; 14a, l'explication dit que l'équipe Scrum n'est pas partie prenante ; A1a, l'explication dit qui propose, choisit et règle ; A1c, la définition d'un indicateur et la vie d'une story glosées
+- PATCH, concepts 8, 13, 14, 15, 16 et 17 : renvois corrigés (règle non fixée en 7a2, dépendance envers la DSI en 10b et 13, walking skeleton au cas de rechange de 9a1), Sprint Planning, revue de sprint et partie prenante rangés en déjà enseignés (0a2, 1b), versions retirées de la réponse de 16a
 - PATCH, concept 3 : l'Explication de « Tout détailler d'avance ? » (3a2) garde « prêt à être choisi » dans le Scrum Guide 2020 ; seule la phrase sur le bas vague a disparu
 - PATCH, concept 6 : « Le trait qu'Anna veut ajouter » (6b) porte sa consigne de rechange dans un champ Usage, hors de l'Explication
 - PATCH, concepts 8 et 9 : la DoR, nommée avant le concept 11 (8a, 8a2, 9a2), est définie en passant ; en 8a1, la règle de la station favorite se justifie sans un fait de l'appli que l'apprenant n'a pas reçu

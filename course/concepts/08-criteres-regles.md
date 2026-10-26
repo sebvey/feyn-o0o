@@ -48,7 +48,7 @@ une variable à la fois. Un critère ne fixe pas une règle restée ouverte (8a2
    - **8a1** critère ou règle (« Trier les phrases de la story d'Abba ») ;
    - **8a2** la règle non fixée (« Le seuil des stations presque vides ») : un critère qui
      s'appuie sur une règle non fixée la fixe en douce ; le PO la fait fixer, la story attend
-     (renvoi aux concepts 4 et 7a2, sans le réenseigner).
+     (renvoi au concept 7a2, sans le réenseigner).
 2. **8b Given/When/Then, une variable à la fois** : Given, le contexte de départ ; When,
    l'événement ou l'action ; Then, le résultat observable, ce que le testeur vérifie. D'un
    exemple à l'autre, un seul fait du Given change. Se déroule en deux messages :
@@ -218,7 +218,7 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
   dans les critères de chaque story, ou ériger un cas précis en règle. Le test rapide les sépare.
 - **Fixer une règle non fixée dans un critère** (cas inventé : une durée maximale de location, non fixée) : le critère
   décide en douce. Le PO ne l'invente pas et ne la tranche pas à la place de l'utilisateur
-  concerné ; il la fait fixer avant que la story parte (concept 4 ; DoR, concept 11).
+  concerné ; il la fait fixer avant que la story parte (concept 7a2 ; DoR, concept 11).
 - **Inventer une règle dans le Then** (cas inventé : « l'abonné suspendu ne peut pas louer », si aucune règle ne le dit) : vérifier
   chaque Then contre les règles fixées.
 - **Un mot flou** (« récent », « rapidement ») : le testeur doit encore poser une question.

@@ -57,7 +57,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
    - **0a3 les artefacts et leurs engagements**, en un message.
 4. **0b sprint et incrément** : le sprint est une durée qui contient les événements ;
    l'incrément est le produit dans un nouvel état utilisable, qui naît dès qu'un élément remplit
-   la DoD, s'ajoute aux précédents, et peut être livré avant la fin du sprint.
+   la DoD, s'ajoute aux précédents, et peut être livré avant la fin du sprint ; un élément qui ne
+   remplit pas la DoD n'en fait pas partie (ni livré ni présenté à la revue, il retourne au
+   backlog produit). Le message de 0b pose « La vue des stations vides livrée un mercredi » ;
+   « « Le sprint est livré » » sert d'exercice ou de creusage.
 
 ## Banque d'exemples
 
@@ -362,7 +365,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Explication** : le sprint est une durée, qui contient les événements ; l'incrément est le
   produit dans un nouvel état utilisable. Dès qu'un élément remplit la DoD, un incrément naît ;
   il s'ajoute aux précédents. Un sprint peut en produire plusieurs, et on peut livrer un incrément avant la fin du sprint : la
-  revue de sprint n'est pas une porte de mise en production.
+  revue de sprint n'est pas une porte de mise en production. Un élément qui ne remplit pas la
+  DoD ne fait pas partie de l'incrément : il n'est ni livré ni présenté à la revue, et retourne
+  au backlog produit, où le PO l'ordonne avec le reste.
 - **Situation** : sprint de deux semaines de l'équipe vélos. Le mercredi de la deuxième semaine,
   la vue des stations vides remplit la DoD (elle affiche l'heure de sa dernière mise à jour) et
   elle est livrée : Étienne peut s'en servir. Dana objecte : « On aurait dû attendre la revue de
@@ -384,7 +389,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   un état du produit ? ») ; dessiner la frise et l'escalier du schéma, avec une marche le
   mercredi.
 
-### « Le sprint est livré » (0b)
+### « Le sprint est livré » (0b, exercice ou creusage)
 - **Explication** : un élément qui ne remplit pas la DoD ne fait pas partie de l'incrément : il
   n'est ni livré ni présenté à la revue de sprint, et retourne au backlog produit, où le PO
   l'ordonne avec le reste.

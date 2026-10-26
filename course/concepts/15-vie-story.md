@@ -249,7 +249,7 @@ tâches).
      ne remplit pas la DoR (règles métier fixées). Le PO ne la propose pas pour ce sprint ;
      les Developers choisissent parmi les stories prêtes.
   2. À Maud : il dit pourquoi, et ce qu'il fait : il fait fixer la règle (concept 8a2) et suit
-     la dépendance envers la DSI (concept 10b2) ; la story garde sa place dans l'ordre
+     la dépendance envers la DSI (concepts 10b et 13) ; la story garde sa place dans l'ordre
      (concept 13). Nuance : il ne tranche pas la règle pour la rendre prête.
 - **Erreurs fréquentes** :
   - Partie 1, « on la prend, la règle se décidera pendant le sprint » : demander « que
