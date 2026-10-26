@@ -21,7 +21,7 @@
   - T-050d : réalignement documenté et skill `align-with-course` (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (clos) ;
-  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (décidé, dépend de T-050j) ;
+  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (en cours) ;
   - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052, donc de T-056) ;
   - T-050j : outiller et documenter le dépôt du site, hors réalignement (clos) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
