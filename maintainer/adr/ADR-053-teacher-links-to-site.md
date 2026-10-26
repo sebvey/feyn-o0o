@@ -1,7 +1,7 @@
 # ADR-053 : Le prof renvoie l'apprenant aux pages du site, plus aux fichiers du cours
 
 - **Date** : 2026-10-26
-- **Statut** : complété par ADR-056
+- **Statut** : complété par ADR-056, ADR-057
 - **Ticket** : T-050g
 
 ## Contexte
