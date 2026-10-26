@@ -119,7 +119,7 @@ du fil rouge.
   pas établi : qui en suppose un pose une hypothèse (concept 17), à argumenter ; l'objectif
   produit ne départage donc pas seul ici, et le PO le dit. Coût : à demander aux Developers.
   Risque : ici, le risque pour les utilisateurs ; il pèse lourd, mais sa gravité se fait
-  qualifier par Maud, voire Odile, directrice des opérations, qui encadre la maintenance, pas
+  qualifier par Maud, voire Odile (directrice des opérations, qui encadre la maintenance), pas
   par le PO seul. Dépendances : le blocage dépend de la DSI et d'une règle à faire fixer (8a2) ;
   la disponibilité, non (son affichage relève de l'équipe appli). Deux réponses justes : l'appli
   d'abord, parce que rien ne la bloque ; ou le blocage en tête si sa gravité est jugée haute. Ce

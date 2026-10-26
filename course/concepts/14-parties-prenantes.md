@@ -279,15 +279,15 @@ ils ne deviennent pas des faits du fil rouge.
 - **Question** : qui saisis-tu, et quand ?
 - **Réponse attendue** : d'abord Pia encore : comprendre ce qui passe avant, apporter ce qui
   pèse pour Abba, et ce que la plateforme lui donne aussi (la disponibilité par station pour
-  l'appli). Ensuite, si rien ne change (repère du cours, à donner : à la fin du sprint),
-  Scarlette, Scrum Master des deux équipes, qui réunit les deux PO. Ensuite, Odile, sponsor de
-  la plateforme : elle porte la dépendance plus haut (nuance, à donner dans la correction : au
-  comité de direction, où se tranchent les désaccords entre la plateforme et l'appli). Elle
-  n'impose rien à Pia et ne décide pas de l'ordre de l'équipe appli. En attendant, la story
-  d'Abba reste au backlog, la dépendance écrite et visible ; la part de la plateforme peut
-  sortir, elle sert l'appli. Nuance : c'est bien un obstacle pour ton équipe, mais on ne le
-  force pas : l'escalade fait peser la valeur perdue pour Abba là où se décide ce que chaque
-  produit sert, elle ne retire pas à Pia son ordre.
+  l'appli). Ensuite, si rien ne change (repère du cours, à donner dans la correction : à la fin
+  du sprint), Scarlette, Scrum Master des deux équipes, qui réunit les deux PO. Ensuite, Odile,
+  sponsor de la plateforme : elle porte la dépendance plus haut (nuance, à donner dans la
+  correction : au comité de direction, où se tranchent les désaccords entre la plateforme et
+  l'appli). Elle n'impose rien à Pia et ne décide pas de l'ordre de l'équipe appli. En
+  attendant, la story d'Abba reste au backlog, la dépendance écrite et visible ; la part de la
+  plateforme peut sortir, elle sert l'appli. Nuance : c'est bien un obstacle pour ton équipe,
+  mais on ne le force pas : l'escalade fait peser la valeur perdue pour Abba là où se décide ce
+  que chaque produit sert, elle ne retire pas à Pia son ordre.
 - **Erreurs fréquentes** :
   - aller voir Odile avant d'avoir parlé à Pia et à Scarlette : on ne sait pas encore ce qui passe
     avant chez Pia ; relancer : « sais-tu ce qui passe avant chez Pia, et pourquoi ? » ;

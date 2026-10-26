@@ -142,8 +142,8 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
 - **Réponse attendue** : pas d'exception : la story n'est pas terminée, elle ne remplit pas la
   DoD. Passer ses critères ne suffit pas, critères et DoD s'ajoutent. Une DoD qu'on lève story
   par story n'est plus commune ; la changer se décide pour tous, en rétrospective (concept 0,
-  0a3). Conséquence, sans la réenseigner : la story retourne au backlog (concept 0b), où le PO
-  lui donne sa place (ordonner : concept 13) ; la vue déjà livrée reste en service, sans
+  0a3). Conséquence, sans la réenseigner : la story retourne au backlog (concept 0, 0b), où le
+  PO lui donne sa place (ordonner : concept 13) ; la vue déjà livrée reste en service, sans
   l'évolution. Le PO dit à Étienne pourquoi : sans le test, un relevé en double peut fausser le
   nombre de vélos disponibles qu'il lit.
 - **Erreurs fréquentes** :

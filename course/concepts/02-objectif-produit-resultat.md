@@ -124,7 +124,8 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si
   la réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
   relancer : « le chiffre de la phrase 1 peut-il aussi servir à juger si les stations restent
-  moins longtemps vides ? » ; le mot « mesure de résultat » vient en 2c.
+  moins longtemps vides ? » ; le terme « mesure de résultat » vient en 2c : ne pas l'employer
+  dans la relance.
 
 ### Trois objectifs produits à juger (2b)
 - **Explication** : l'objectif produit est un état futur du produit qui sert de cible à

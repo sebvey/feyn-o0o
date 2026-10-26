@@ -170,10 +170,9 @@ deviennent pas des faits du fil rouge.
 - **Explication** : N (Negotiable) : la story n'est pas un contrat de fonctions ; elle porte
   l'essentiel, pas les détails. La solution se construit avec l'équipe, jusque pendant la
   réalisation (Wake). Négociable ne veut pas dire tout ouvert : une contrainte, exigence réelle
-  de l'usage, ne se négocie pas ; plusieurs solutions peuvent la respecter, et elle s'écrit dans
-  un critère d'acceptation, sans nommer de solution (choix du cours). Cas inventé : un
-  régulateur consulte une vue sur le petit écran de sa camionnette ; « se lire sur un petit
-  écran » est une contrainte, un tableau, une liste ou une carte sont des solutions.
+  de l'usage, ne se négocie pas ; plusieurs solutions peuvent la respecter (choix du cours). Cas
+  inventé : un régulateur consulte une vue sur le petit écran de sa camionnette ; « se lire sur
+  un petit écran » est une contrainte, un tableau, une liste ou une carte sont des solutions.
 - **Situation** :
   - brouillon : « En tant qu'abonné, je veux recevoir un SMS à 8 h avec le nombre de vélos de ma
     station… » (la solution est figée dans la story) ;
@@ -187,7 +186,7 @@ deviennent pas des faits du fil rouge.
   téléphone basique, doit pouvoir savoir. Elle s'écrit dans un critère d'acceptation, sans
   nommer de canal (par exemple : Abba, qui n'a qu'un téléphone basique sans l'appli, obtient
   avant de partir le nombre de vélos disponibles à sa station). Sa forme vient au concept 8.
-  Nuance : négociable ne veut pas dire tout ouvert ; la phrase de la story ne change pas.
+  Nuance : la phrase de la story ne change pas.
 - **Erreurs fréquentes** :
   - « le SMS devient obligatoire » : il répond à la contrainte, il n'est pas la contrainte ;
     demander « un serveur vocal la respecterait-il ? » ;

@@ -335,8 +335,9 @@ tâches).
 ### Tout est en « Fait » (aparté, 15c)
 - **Explication** : les états d'un élément dans l'outil (à faire, en cours, fait) sont un choix
   d'équipe, configurable ; le Scrum Guide n'en fixe aucun. Détail : annexe A1.
-- **Situation** : en fin de sprint (sans sprint : en fin de semaine), toutes les cartes du
-  tableau de l'équipe sont dans la colonne « Fait ». Dana : « La vie de ces stories est finie. »
+- **Situation** : en fin de sprint (sans sprint : à la fin du cycle que l'équipe se donne),
+  toutes les cartes du tableau de l'équipe sont dans la colonne « Fait ». Dana : « La vie de ces
+  stories est finie. »
 - **Question** : qu'est-ce que la colonne « Fait » te dit, et que lui manque-t-il ?
 - **Réponse attendue** : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » :
   l'outil ne connaît pas la DoD. Et la vie d'une story ne s'arrête pas à l'état : la revue (sans

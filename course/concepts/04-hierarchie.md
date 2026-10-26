@@ -100,8 +100,8 @@ mois, puis comparaison au même mois de l'an dernier).
   sont un vocabulaire courant, pas une règle de Scrum.
 - **Erreurs fréquentes** :
   - classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente (un
-    epic classé en story). Relancer : « qu'est-ce que 1 contient ? » ; la liste en nomme déjà
-    deux (2 et 5), en plus de la vue des stations vides, déjà livrée ;
+    epic classé en story). Relancer : « qu'est-ce que 1 contient ? » ; la liste nomme déjà deux
+    vues (2 et 5), en plus de la vue des stations vides, déjà livrée ;
   - mettre 4 au backlog produit parce que le travail est nécessaire : il ne sert qu'à réaliser
     3, c'est une tâche du plan des Developers. Un travail technique qui porte sa propre raison
     (par exemple dédoublonner les relevés des stations, qui contiennent des doublons, défaut
@@ -160,7 +160,7 @@ mois, puis comparaison au même mois de l'an dernier).
   ce sont deux éléments et deux états à tenir pour un seul « je veux » d'Étienne).
 
 ### Un seul « je veux » ? (4b)
-- **Explication** : Un « je veux », c'est un besoin que l'utilisateur dit lui-même, à la
+- **Explication** : un « je veux », c'est un besoin que l'utilisateur dit lui-même, à la
   première personne (« je veux voir… ») ; la story entière s'écrit au concept 5. Écris les « je
   veux » de ce qu'il reste à livrer. Un seul, qui tient dans un sprint : story ; trop gros pour
   un sprint : un epic (au sens de Cohn, une grosse story), qui se découpe (concept 9).

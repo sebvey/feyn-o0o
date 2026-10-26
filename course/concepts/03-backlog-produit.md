@@ -207,8 +207,8 @@ ne deviennent pas des faits du fil rouge.
   place au backlog, mais pas dans cette vue : les relevés comptent les vélos à quai, pas les
   pannes. C'est un défaut connu des données, qui peut fausser les vues tirées des relevés, comme
   celle des stations vides ; il entre au backlog avec ce qu'il améliore (des vues justes pour
-  Étienne), et le PO l'ordonne comme le reste. Nuance : le travail technique n'est pas exclu du
-  backlog ; il y entre avec sa raison.
+  Étienne), et le PO l'ordonne comme le reste. Le travail technique n'est donc pas exclu du
+  backlog : il y entre avec sa raison.
 - **Erreurs fréquentes** :
   - « le backlog, c'est la liste des tâches de l'équipe » : réflexe probable d'un développeur ou
     d'un profil data ; demander « qu'est-ce qu'Étienne voit de nouveau quand cet élément est

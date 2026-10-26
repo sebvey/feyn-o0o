@@ -106,14 +106,13 @@ celle du concept 16c. Le dire si l'apprenant les mêle.
 
 Déjà enseigné, à rappeler sans le réenseigner : responsabilités, événements, artefacts (0) ; le
 PO seul ordonne (1b) ; livrable et résultat, la mesure de résultat aux points non fixés (2) ;
-backlog émergent (3a2) ; les « pourquoi ? » successifs, dont le lien forcé avec l'objectif
-produit est une hypothèse (5b) ; le spike, nommé dans SPIDR et renvoyé ici (9b2) ; la règle non
-fixée que le PO fait fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR
-(9a, 9b) ; dépendances (10) ; DoR (11b) ; définition d'un indicateur, qualité des données,
-fraîcheur (12) ; ordonner, le lien non établi d'une demande avec l'objectif produit (13a,
-13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner : refinement et Sprint
-Planning (15), la première version, les deux sens du MVP et la prévision « pour quand ? » (16b,
-16c).
+backlog émergent (3a2) ; les « pourquoi ? » successifs (5b) ; la règle non fixée que le PO fait
+fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR, le spike nommé dans
+SPIDR et renvoyé ici (9a, 9b) ; dépendances (10) ; DoR (11b) ; définition d'un indicateur,
+qualité des données, fraîcheur (12) ; ordonner, le lien non établi d'une demande avec l'objectif
+produit (13a, 13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner :
+refinement et Sprint Planning (15), la première version, les deux sens du MVP et la prévision
+« pour quand ? » (16b, 16c).
 
 ## Banque d'exemples
 
@@ -134,14 +133,14 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
 
 ### Prévoir les stations à risque : on sait ou on suppose ? (17a)
 - **Explication** : une hypothèse, c'est ce qu'on tient pour vrai sans l'avoir vérifié (pour
-  Scrum.org, l'objectif produit lui-même en est une, qu'on peut reformuler sans échec : choix
-  d'école). Marty Cagan (choix d'école) nomme quatre grands risques : valeur, utilisabilité,
-  faisabilité, viabilité. Le cours en retient deux : la **valeur** (l'utilisateur s'en
-  servira-t-il, cela sert-il l'objectif produit ?) et la **faisabilité** (peut-on le construire,
-  avec des données qui existent, assez bonnes et fraîches ? ce point sur les données est un
-  choix du cours). Le reste de Cagan (il parle de product manager, il veut traiter ces risques
-  avant de construire) va dans la correction, pas dans ce message. Si le message dépasse une
-  quinzaine de lignes, le couper : l'explication, puis la situation et la question.
+  Scrum.org, l'objectif produit lui-même en est une, qu'on peut reformuler sans que ce soit un
+  échec : choix d'école). Marty Cagan (choix d'école) nomme quatre grands risques : valeur,
+  utilisabilité, faisabilité, viabilité. Le cours en retient deux : la **valeur** (l'utilisateur
+  s'en servira-t-il, cela sert-il l'objectif produit ?) et la **faisabilité** (peut-on le
+  construire, avec des données qui existent, assez bonnes et fraîches ? ce point sur les données
+  est un choix du cours). Le reste de Cagan (il parle de product manager, il veut traiter ces
+  risques avant de construire) va dans la correction, pas dans ce message. Si le message dépasse
+  une quinzaine de lignes, le couper : l'explication, puis la situation et la question.
 - **Situation** : la prochaine tranche pour Régis est la prévision des stations à risque
   (concept 9b). Au refinement, quatre phrases circulent :
   1. « La plateforme garde l'historique des relevés depuis environ un an. »

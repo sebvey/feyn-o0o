@@ -31,3 +31,4 @@
   PR ; une relecture neuve des corrections ne trouve plus de défaut de ces sept types ; un
   sous-agent prof neuf sur Sonnet enseigne un concept corrigé sans poser de question hors de ce
   qu'il a enseigné.
+- **Fait le** : 2026-10-26, inventaire cumulatif de ce que l'apprenant reçoit (122 unités), relecture en six lots (50 constats, 1 bloquant, tous appliqués : explications et situations complétées, réponses allégées en nuances, renvois corrigés, branche sans sprint de A2 rendue autonome), relecture neuve des corrections (13 constats appliqués), test Sonnet du concept 8 avec juge (chaque question répondable avec ce qui est reçu) ; constats hors ticket proposés : T-078 à T-082 ; dossier de travail supprimé.

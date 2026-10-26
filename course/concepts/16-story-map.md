@@ -76,10 +76,10 @@ points non fixés (2) ; backlog ordonné, seule source du travail (3) ; les nive
 story (4) ; le format de la story (5) ; les Developers estiment la taille (7) ; la règle non
 fixée que le PO fait fixer (8a2) ; tranche verticale, couche (9) ; dépendance envers une autre
 équipe (10b) ; DoD, l'accès aux locations non obtenu (11) ; ordre, MoSCoW pour une échéance
-(13) ; escalade (14c) ; Sprint Planning et revue de sprint (15). Pas encore enseignés, nommés
-avec renvoi : le walking skeleton de Cockburn (vu seulement dans la rechange 9a1) ; hypothèses
-et exploration, le MVP de Ries comme manière d'apprendre (17) ; l'outil du backlog (annexe A1) ;
-travailler sans sprint (annexe A2).
+(13) ; escalade (14c) ; Sprint Planning et revue de sprint (15). Non acquis au fil principal :
+le walking skeleton de Cockburn (vu seulement dans la rechange 9a1). Pas encore enseignés,
+nommés avec renvoi : hypothèses et exploration, le MVP de Ries comme manière d'apprendre (17) ;
+l'outil du backlog (annexe A1) ; travailler sans sprint (annexe A2).
 
 ## Banque d'exemples
 

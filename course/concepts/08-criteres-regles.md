@@ -82,10 +82,10 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Réponse attendue** : 1 et 2 sont des règles : elles restent vraies sans cette story, et
   d'autres s'en servent (1 sert aussi aux vues d'Étienne ; 2, aux données que l'appli de Pia
   affiche). 3 est un critère : un cas précis, propre à la story, qu'un testeur tranche ; il
-  illustre 1 et 2. 4 est un morceau de critère : la contrainte va dans un critère (concept 7b),
-  dans son contexte de départ (le Given, vu en 8b1), pour que le testeur vérifie depuis un
-  téléphone basique. Nuance : la fraîcheur visée (moins de 15 minutes) est aussi une règle
-  fixée ; le critère en cite la valeur (« à jour de moins de 15 minutes »).
+  illustre 1 et 2. 4 est un morceau de critère : la contrainte (concept 7b) va dans son contexte
+  de départ (le Given, qui vient en 8b1), pour que le testeur vérifie depuis un téléphone
+  basique. Nuance : la fraîcheur visée (moins de 15 minutes) est aussi une règle fixée ; le
+  critère en cite la valeur (« à jour de moins de 15 minutes »).
 - **Erreurs fréquentes** :
   - classer 1 en critère parce que la story l'utilise : demander « si on supprime la story de
     Abba, un vélo disponible change-t-il de définition ? » ;
