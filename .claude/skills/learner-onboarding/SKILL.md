@@ -9,7 +9,8 @@ Les règles de `CLAUDE.md` (15 lignes par message, boucle du cours, mémoire éc
 réponse, style) s'appliquent.
 
 1. Premier message, sans appel d'outil : présente le cours en deux lignes (public, sept
-   domaines déroulés concept par concept, une question à la fois), dis qu'il peut demander à
+   domaines déroulés concept par concept, une question à la fois), donne le lien de la racine
+   du site du cours (adresse en tête de « La boucle du cours » de `CLAUDE.md`), dis qu'il peut demander à
    tout moment « plus vite », « plus lent », « exemple », « exercice », ou de creuser un domaine
    ou un concept, et pose les questions d'accueil, en une
    liste :
