@@ -7,11 +7,11 @@
   1. ce dont chaque lecteur a besoin : l'agent (banque, relances, test rapide, schéma-source, consignes) et le lecteur du site (explication, schéma, pièges, école, sources) ; quelles parties d'une fiche sont publiques, lesquelles ne le seront jamais ;
   2. les options : (a) la fiche du cours reste la source et les pages du site sont générées par script depuis ses parties publiques ; (b) une source structurée par concept (blocs typés, publics ou réservés à l'agent) qui génère la fiche de l'agent et la page ; (c) le site comme source et la fiche générée ; (d) statu quo et réalignement. Les évaluer sur : risque de divergence, coût de lecture pour l'agent (un fichier par concept), effort de rédaction, où vivent les schémas SVG et la mise en page (forme propre au site), comment le site raffine sans diverger, sources, écoles, glossaire et fil rouge, versionnage (T-050b), contrôles de qualité (T-050h, T-052), et la contrainte public/privé : le cours est dans un dépôt privé avec `learner/` et `maintainer/`, le site est public, la banque d'exemples ne doit jamais fuiter ;
   3. le processus de génération automatique : étapes, déclenchement, contrôle avant publication, organisation des dépôts (deux dépôts avec un artefact généré, un dépôt unique, autre) ;
-  Contrainte (T-094) : `course/plan.md` est déjà lu par script : le hook `learner-status.sh` en
-  tire la carte du cours (titres des domaines et leur plage « (concepts X à Y) », colonnes du
-  tableau des concepts et des annexes), `init-learner.sh` le tableau de `learner/parcours.md`.
-  Si le site en est généré, son format devient un contrat entre trois lecteurs : le fixer et
-  le vérifier.
+  Contrainte (T-094, T-096) : `course/plan.md` est déjà lu par script : `maintainer/scripts/build-map.sh`
+  en tire `course/map.md` (titres des domaines et leur plage « (concepts X à Y) », colonnes du
+  tableau des concepts et des annexes), que `CLAUDE.md` importe et que la CI vérifie. Si le site
+  en est généré, ce format devient un contrat entre deux lecteurs : le fixer ; `course/map.md`
+  peut aussi servir de source au site.
   4. le plan de migration depuis l'état actuel et le sort des travaux en cours : T-050d (documentation fondée sur la procédure de réalignement), T-050g, T-052, T-050h, T-050i, et le script `check-alignment` de T-050c.
   Piste du mainteneur et de l'agent à confronter aux autres : la fiche du cours reste la source, avec ses parties publiques et ses parties réservées à l'agent marquées ; la page du site se génère par script, la forme (composants, schémas, mise en page) vit dans le site.
 - **Fini quand** : l'organisation retenue est décidée par le mainteneur, avec les options écartées ; le plan de migration est écrit et ses tickets de mise en œuvre sont créés ; le sort de T-050d, T-050g, T-052, T-050h et T-050i est tranché ; un ADR est écrit si la décision passe la règle de `maintenance` (§4).

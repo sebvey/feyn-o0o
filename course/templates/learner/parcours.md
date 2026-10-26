@@ -1,16 +1,16 @@
 # Parcours de <surnom>
 
-Statut de chaque concept de `course/plan.md` : `validé`, `en cours`, `sauté`, `à revoir`, `à faire`.
+Statut des concepts de la carte du cours (`course/map.md`) : `validé`, `en cours`, `sauté`,
+`à revoir`. Un concept absent du tableau est à faire.
 
 ## Prochaine étape
 
-<Le prochain concept ou sous-concept ; la question en attente et son énoncé, s'il y en a une.>
+Concept 0, premier message : annonce du parti pris des sprints, puis 0a1 (l'équipe en bref).
 
 ## Concepts
 
 | # | Concept | Statut |
 |---|---|---|
-| <une ligne par concept de `course/plan.md`> | à faire |
 
 Annexes vues : aucune.
 
@@ -19,5 +19,3 @@ Annexes vues : aucune.
 Aucun.
 
 ## Journal
-
-- <AAAA-MM-JJ>, session <N> : <concepts et sous-concepts vus, apartés>.

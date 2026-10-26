@@ -4,7 +4,8 @@
 - **Constat** : demande du mainteneur (session de maintenance du 2026-10-22). Le parcours se
   joue aujourd'hui dans une session Claude Code ouverte sur un clone du repo : `CLAUDE.md` porte
   le rôle du prof, les skills portent les procédures, le hook `SessionStart`
-  (`.claude/hooks/learner-status.sh`) injecte l'état de l'apprenant, et `learner/` dans le repo
+  (`.claude/hooks/learner-status.sh`) injecte l'état de l'apprenant (depuis T-096 : des imports
+  `@` de `CLAUDE.md`, sans hook), et `learner/` dans le repo
   sert de mémoire. Ce montage convient pour développer le cadre, mais il exige de l'apprenant
   Claude Code et git, et il ne sert qu'un apprenant par clone. Cible : rester dans les
   applications Claude, sans application sur mesure qui appellerait Claude comme LLM.

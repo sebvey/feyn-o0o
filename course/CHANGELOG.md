@@ -43,6 +43,8 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 - MINOR, modèle de concept : une question qui teste plusieurs points s'écrit « en deux parties », réponse attendue et erreurs fréquentes réparties
 - MINOR, concepts 0, 3, 4, 7, 10, 12, 13, 14, 15, 16 et 17 : 18 questions de la banque qui testaient plusieurs points passent au format en parties ; deux se réduisent à une question (0b « La vue des stations vides livrée un mercredi », 14c « Pia refuse le canal d'Abba »), la partie retirée devenant une nuance de la correction
 - PATCH, concept 3 : « Maud passe par Diego » (3a2) demande la liste des vélos signalés pour la DSI, qui bloque elle-même la location, comme le dit le fil rouge
+- MINOR, templates/learner : le tableau de `parcours.md` ne liste que les concepts au statut changé (absent : à faire) ; « Prochaine étape » d'un nouvel apprenant écrite dans le modèle
+- PATCH, map.md : carte du cours (public cible, domaines, concepts, prérequis, chemins) générée depuis `plan.md` et `domains/`, sans contenu nouveau
 - PATCH, concept 3 : l'Explication de « Tout détailler d'avance ? » (3a2) garde « prêt à être choisi » dans le Scrum Guide 2020 ; seule la phrase sur le bas vague a disparu
 - PATCH, concept 6 : « Le trait qu'Anna veut ajouter » (6b) porte sa consigne de rechange dans un champ Usage, hors de l'Explication
 - PATCH, concepts 8 et 9 : la DoR, nommée avant le concept 11 (8a, 8a2, 9a2), est définie en passant ; en 8a1, la règle de la station favorite se justifie sans un fait de l'appli que l'apprenant n'a pas reçu

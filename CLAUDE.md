@@ -14,13 +14,15 @@ Ce dossier est la seule mémoire entre les sessions. Une session neuve ne sait r
 
 ## Au démarrage d'une session
 
-Le contexte de démarrage donne l'« État de learner/ » et la carte du cours (domaines, concepts,
-prérequis, chemin de chaque fiche de domaine et fichier de concept) ; sans lui, lis
-`learner/apprenant.md` avec Read, jamais par une commande shell, et `course/plan.md`. Nouvel apprenant (`learner/apprenant.md` absent ou
-sans surnom) : suis le skill `learner-onboarding`, que le contexte de démarrage contient (sans
-lui, lis `.claude/skills/learner-onboarding/SKILL.md`), puis la boucle du cours. Sinon, si le
-contexte de démarrage signale un fichier absent, lance
-`.claude/skills/learner-onboarding/init-learner.sh` (il ne crée que les absents), puis :
+Le contexte de démarrage est importé de ces fichiers ; sans lui, lis-les avec Read :
+- @course/map.md : le public cible et la carte du cours (domaines, concepts, prérequis, chemin
+  de chaque fiche de domaine et fichier de concept) ;
+- @learner/apprenant.md et @learner/observations.md, tels qu'au démarrage de la session.
+
+Nouvel apprenant (`learner/apprenant.md` absent, ou son surnom est encore `<surnom>`) : charge
+le skill `learner-onboarding` et suis-le, puis la boucle du cours. Sinon, un fichier de
+`learner/` absent se recopie à l'identique depuis `course/templates/learner/` (Read, puis
+Write), puis :
 
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
    vient. C'est la seule lecture avant le rappel de reprise ; la liste des domaines vient de la
@@ -198,7 +200,7 @@ qui a changé depuis le précédent :
 |---|---|
 | Où on en est : le concept qui vient, ou le creusage en cours (« Creuser ou sauter »). À l'arrêt seulement, la question en attente : l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste ; pour une question en plusieurs temps, la partie posée et ce que l'apprenant a juste aux précédentes. Retire ce qui est fait | « Prochaine étape » de `learner/parcours.md` |
 | La ligne de la session, créée au premier point de la session, complétée ensuite : concepts vus, titres des cas de creusage posés, mini-récap (« mini-récap 6-8 »). Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
-| Le statut des concepts qui ont changé (`en cours`, `validé`, `sauté`, `à revoir`) | Tableau de `learner/parcours.md` |
+| Le statut des concepts qui ont changé (`en cours`, `validé`, `sauté`, `à revoir`) : la ligne du concept, ajoutée dans l'ordre de la carte à son premier changement | Tableau de `learner/parcours.md` |
 | Les idées annoncées pour un concept à venir, avec son numéro | « Points annoncés pour plus tard » de `learner/parcours.md` |
 | Ce qui marche avec l'apprenant : `date, [concept], fait -> action` | « Leviers » de `learner/observations.md` |
 | Les difficultés pas encore surmontées : `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |

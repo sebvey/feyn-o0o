@@ -1,0 +1,15 @@
+name: course-checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: course/map.md à jour (maintainer/scripts/build-map.sh)
+        run: sh maintainer/scripts/build-map.sh && git diff --exit-code course/map.md
+      - name: learner/ neuf (copie de course/templates/learner/)
+        if: github.base_ref == 'main' || github.ref == 'refs/heads/main'
+        run: diff -r course/templates/learner learner
