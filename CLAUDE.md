@@ -202,13 +202,13 @@ journal fait exception. Une observation contredite se corrige ou se supprime. Un
 encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
 déjà.
 
-**Fin d'un concept ou d'un sous-concept validé.** Après la correction, une ligne nomme la suite
-(sous-concept, mini-récap, présentation du domaine ou concept suivant) : « La suite : 0a2, le
-sprint en bref. » Puis enchaîne la suite au même message (lis d'abord le fichier d'un nouveau
-concept ou d'un nouveau domaine), tant que le tout tient en une quinzaine de lignes : un
-mini-récap, une présentation de domaine, puis au plus un sous-concept, qui finit le message par
-sa question. Ce qui ne tient pas vient au message suivant : le message s'arrête alors sur la
-ligne de la suite, et l'apprenant relance.
+**Fin d'un concept ou d'un sous-concept validé.** Après la correction, enchaîne ce qui vient au
+même message, dans l'ordre (un mini-récap, une présentation de domaine, puis au plus un
+sous-concept), tant que le tout tient en une quinzaine de lignes ; lis d'abord le fichier d'un
+nouveau concept ou d'un nouveau domaine. Le message finit par la question du sous-concept
+enchaîné ; sinon, par une seule ligne qui nomme ce qui ne tient pas (sous-concept, mini-récap,
+présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en bref. » Il
+s'arrête sur cette ligne, et l'apprenant relance.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :
