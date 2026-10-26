@@ -31,3 +31,7 @@
   et une nouvelle conversation propose la reprise ou l'accueil. ADR écrit (complète ADR-072, où
   « plus rien ne s'exécute à l'accueil » et la branche `learner/<surnom>` est au seul
   mainteneur).
+- **Fait le** : 2026-10-26, branche `learner/<surnom>` créée à l'accueil, commit à chaque point
+  de sauvegarde sans push, reprise ou départ à neuf proposé sur `main`, `reset-learner` par
+  retour sur `main`, permissions git dans `.claude/settings.json` ; test Sonnet réussi (accueil,
+  arrêt, reset, reprise, échec de commit) ; ADR-076.

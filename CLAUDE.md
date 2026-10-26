@@ -217,6 +217,11 @@ journal fait exception. Une observation contredite se corrige ou se supprime. Un
 encore enseignée que l'apprenant ignore n'est pas une vigilance : « Prochaine étape » la porte
 déjà.
 
+Après les écritures d'un point de sauvegarde (à l'arrêt, après l'étape 2), commite `learner/` :
+`git add learner/`, puis `git commit -m "<surnom> : <ce que le point clôt>"` (« Alex : concept
+9 validé », « Alex : arrêt »). Jamais de push. Si git échoue (absent, identité non configurée),
+dis-le une fois à l'apprenant en une ligne, puis continue sans commit.
+
 **Fin d'un concept ou d'un sous-concept validé.** Après la correction, enchaîne ce qui vient au
 même message, dans l'ordre (un mini-récap, une présentation de domaine, puis au plus un
 sous-concept), tant que le tout tient en une quinzaine de lignes ; lis d'abord le fichier d'un

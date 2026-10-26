@@ -8,7 +8,11 @@ description: Accueille un nouvel apprenant quand `learner/apprenant.md` est abse
 Les règles de `CLAUDE.md` (15 lignes par message, boucle du cours, mémoire écrite aux points
 de sauvegarde, style) s'appliquent.
 
-1. Premier message, sans autre appel d'outil : présente le cours en deux lignes (public, sept
+0. Si la branche courante est `main`, lance `git branch --list 'learner/*'`. Si une branche en
+   sort, le premier message demande seulement, en une ligne, s'il reprend l'une d'elles
+   (nomme-les) ou repart à neuf. Reprise : `git switch <branche>`, dis-lui d'ouvrir une
+   nouvelle conversation, et arrête-toi. À neuf, ou sans branche : étape 1.
+1. Premier message : présente le cours en deux lignes (public, sept
    domaines déroulés concept par concept, une question à la fois), dis que tout le cours est
    aussi sur [le site web](<adresse>), pour réviser (adresse en tête de « La boucle du cours » de
    `CLAUDE.md`), dis qu'il peut demander à
@@ -29,6 +33,10 @@ de sauvegarde, style) s'appliquent.
    - `observations.md` : `<surnom>` devient son surnom ;
    - `parcours.md` : `<surnom>` devient son surnom, et le journal reçoit la ligne
      `- <date du jour, AAAA-MM-JJ>, session 1 : accueil.`
+
+   Puis, sur `main`, crée la branche `learner/<surnom>` (`git switch -c`, surnom en minuscules,
+   sans accent ni espace ; suffixe `-2`, `-3` s'il existe déjà) ; sur une autre branche,
+   restes-y. Commite selon « Tenir la mémoire à jour » de `CLAUDE.md` (« <surnom> : accueil »).
 
    En même temps, lis `course/fil-rouge-velos.md`, la fiche du domaine 1 et le fichier du
    concept 0 (le public cible et leurs chemins sont dans le contexte de démarrage). Puis présente le domaine 1 selon `CLAUDE.md` (« Avant le premier concept
