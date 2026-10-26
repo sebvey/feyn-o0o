@@ -9,4 +9,5 @@ Surnom : **Seb** (le prof l'appelle ainsi).
 
 ## Préférences
 
-Aucune.
+- 2026-10-26 : demande de rappeler l'énoncé quand une question reste en attente après un aparté (« rappelle-moi ce qu'a dit Diego ») -> redonner l'énoncé mot pour mot avec la question.
+- 2026-10-26 : demande volontiers des sources et des apartés (« t'as des sources ? ») -> répondre d'après `course/sources/`, dire ce qui n'est pas vérifié.
