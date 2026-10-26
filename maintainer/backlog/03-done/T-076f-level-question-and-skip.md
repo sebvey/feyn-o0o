@@ -26,3 +26,4 @@
   à la question de niveau, enseigne 0a1 sans proposer de sauter ; à « on saute le domaine 2 »,
   il note `sauté` aux concepts 3 à 8 et présente le domaine 3 ; avant un concept dont un
   prérequis est sauté, il le dit en une ligne.
+- **Fait le** : 2026-10-26, question de niveau dans `00-scrum.md` et `plan.md` (d'un bloc, sans relance, ne fait rien sauter, erreur fréquente en vigilance) ; `CLAUDE.md` « Creuser ou sauter » (statut `sauté`, prérequis sauté dit, retour proposé), modèle `parcours.md`, skill d'accueil ; ADR-061 ; tests Sonnet : nouvel apprenant (réponse de niveau partielle, 0a1 enseigné sans saut, 15 lignes tenues, arrêt) et apprenante qui saute le domaine 2 (concepts 3 à 8 `sauté`, domaine 3 présenté, prérequis 8 dit avant le 9, concept 8 proposé sur une question) : conformes.

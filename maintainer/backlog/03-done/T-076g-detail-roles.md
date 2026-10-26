@@ -13,3 +13,4 @@
   face aux Developers reste au concept 1b. Identifiant 0a1 gardé (MINOR). Sources alignées.
 - **Fini quand** : un sous-agent prof neuf sur Sonnet enseigne 0a1 en quatre messages de 15
   lignes au plus, chacun avec une question, sans empiéter sur 1b.
+- **Fait le** : 2026-10-26, 0a1 en quatre messages (« Qui est le chef de l'équipe vélos ? », « Diego écrit des éléments du backlog », « Anna est-elle une Developer ? », « Qui tranche dans l'équipe vélos ») ; sources ajoutées depuis le Scrum Guide ; ADR-062 ; relecture neuve (12 constats, appliqués) ; test Sonnet : les quatre messages enseignés en 9 lignes au plus, chacun avec sa question.
