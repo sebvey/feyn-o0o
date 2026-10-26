@@ -18,3 +18,4 @@
   mainteneur avant application (skill `maintenance`, §3 étape 3).
 - **Fini quand** : un test « on s'arrête » montre une phrase avant le premier appel d'outil,
   puis le message d'arrêt en deux lignes, sans annonce du contenu écrit.
+- **Fait le** : 2026-10-26, phrase d'ouverture de l'arrêt ajoutée dans `CLAUDE.md` (« Arrêt »), testée par un sous-agent Sonnet (« on s'arrête » : phrase avant le premier appel d'outil, message final en deux lignes).
