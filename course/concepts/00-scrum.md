@@ -91,7 +91,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
     (le PO, le Scrum Master).
   - « Le PO décide seul de ce qui entre dans le sprint » : vigilance pour 0a2 (Sprint Planning).
   - « L'incrément, c'est ce qu'on livre à la fin du sprint » : vigilance pour 0b.
-  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog ».
+  - « Ticket » : terme d'outil, absent du Scrum Guide ; le cours dit « élément du backlog » (toute
+    entrée du backlog, quelle que soit sa taille).
     Le dire dans la ligne de correction, sans vigilance.
 
 ### Qui est le chef de l'équipe vélos ? (0a1, l'équipe en bref)
@@ -121,9 +122,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 
 ### Diego écrit des éléments du backlog (0a1, le PO)
 - **Explication** : le PO répond de la valeur du produit. Il répond aussi du backlog produit :
-  formuler l'objectif produit et le faire connaître ; créer les éléments du backlog et les
-  rendre clairs ; les ordonner ; veiller à ce que le backlog soit transparent, visible et
-  compris. Il peut faire ce travail ou le confier à d'autres ; il en reste responsable. C'est
+  formuler l'objectif produit et le faire connaître ; créer les éléments du backlog (toute
+  entrée du backlog, quelle que soit sa taille ; détaillés au concept 3) et les rendre clairs ;
+  les ordonner ; veiller à ce que le backlog soit transparent, visible et compris. Il peut faire ce travail ou le confier à d'autres ; il en reste responsable. C'est
   une seule personne, pas un comité. Qui veut changer le backlog doit convaincre le PO, et
   l'organisation respecte ses décisions, visibles dans le contenu et l'ordre du backlog.
 - **Situation** : après une tournée avec Théo (technicien de maintenance), Diego (data
@@ -327,8 +328,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Situation** : Diego (data engineer) raconte le sprint de l'équipe appli, qu'il a observé :
   « Au Sprint Planning, le PO arrive avec l'objectif de sprint déjà écrit et la liste des
   éléments. Le Daily Scrum dure une heure, et Odile, la directrice des opérations, y vient chaque
-  matin. À la revue, Scarlette présente seule le travail. La rétrospective, on la saute quand le
-  sprint s'est bien passé. »
+  matin. À la revue, Scarlette, qui est aussi la Scrum Master de l'équipe appli, présente seule
+  le travail. La rétrospective, on la saute quand le sprint s'est bien passé. »
 - **Question** : « Corrige le récit de Diego : relève chaque erreur et dis ce qui se passe
   vraiment. »
 - **Réponse attendue** : quatre erreurs.
