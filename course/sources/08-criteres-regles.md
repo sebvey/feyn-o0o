@@ -43,7 +43,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 | Example Mapping : règles en bleu, exemples en vert, questions en rouge (Schéma) | [S7] | Wynne : cartes bleues pour les règles, vertes pour les exemples ; une question sans réponse va sur une carte rouge |
 | Test rapide : « un testeur peut-il dire OK ou KO sans me poser de question ? » -> critère (Le test rapide) | [S3] en partie | Découle du T de Wake (pouvoir écrire un test) ; la formulation est celle du cours |
 | Une contrainte d'usage (téléphone basique) s'écrit dans un critère ; l'équipe choisit la solution, le N d'INVEST (8a, banque) | [S3] | Wake, N : « It is not an explicit contract for features; rather, details will be co-created by the customer and programmer » ; « A good story captures the essence, not the details ». Mettre la contrainte dans le critère est la lecture du cours (concept 7b ; amélioration de session (`07-invest.md`, historique git)) |
-| Une règle non fixée (banque : seuil « presque vide » ; Pièges : cas inventé, durée maximale) : le PO ne l'invente pas ni ne la tranche seul, il la fait fixer par l'utilisateur concerné avant que la story parte ; renvoi au concept 4, DoR au concept 11 (Pièges, banque) | [S7] en partie | Choix du cours (concept 4). Wynne : une question sans réponse va sur une carte rouge, « simply capture the question and move on » ; quelqu'un manque peut-être à la conversation. La DoR de l'équipe vélos (« règles métier fixées ») est un fait du fil rouge |
+| Une règle non fixée (banque : seuil « presque vide » ; Pièges : cas inventé, durée maximale) : le PO ne l'invente pas ni ne la tranche seul, il la fait fixer par l'utilisateur concerné avant que la story parte ; renvoi à 7a2, DoR au concept 11 (Pièges, banque) | [S7] en partie | Choix du cours (posé en 7a2). Wynne : une question sans réponse va sur une carte rouge, « simply capture the question and move on » ; quelqu'un manque peut-être à la conversation. La DoR de l'équipe vélos (« règles métier fixées ») est un fait du fil rouge |
 
 ### 8b : Given/When/Then, une variable à la fois
 
@@ -64,7 +64,7 @@ n'ont pas de source. Les sections entre parenthèses sont celles du fichier du c
 
 | Affirmation (section du fichier du concept) | Source | Ce qui a été vérifié |
 |---|---|---|
-| La story attend tant qu'une règle n'est pas fixée ; le PO la fait fixer (renvoi au concept 4) | `course/sources/04-hierarchie.md` | Déjà vérifié au concept 4 |
+| La story attend tant qu'une règle n'est pas fixée ; le PO la fait fixer (renvoi à 7a2) | `course/sources/07-invest.md` | Choix du cours, posé en 7a2 (ligne du mot flou) |
 | Les 3C : la confirmation est le critère d'acceptation (renvoi au concept 5) | `course/sources/05-user-story.md` | Déjà vérifié au concept 5. Le concept 5 renvoie au concept 8 pour « un chiffre précis va dans les critères » : pratique du cours, appuyée ici par le T de Wake [S3] et le Then observable [S6] |
 | Ce qui vaut pour toutes les vues (banque : l'heure de la dernière mise à jour ; Pièges : cas inventé) relève de la DoD de l'équipe, pas des critères de chaque story ; la DoR de l'équipe vélos demande des règles métier fixées (renvoi au concept 11 ; banque, Pièges) | `course/fil-rouge-velos.md` ; `course/sources/11-dor-dod.md` | Faits du fil rouge (DoD et DoR de l'équipe vélos), inventés ; DoD et DoR s'enseignent et se sourcent au concept 11 |
 | Dépendances (10) et DoR (11) : nommés avec renvoi (banque « Les vélos disponibles d'Étienne » ; Pièges) | `course/plan.md` | Sources dans les fichiers de ces concepts |
