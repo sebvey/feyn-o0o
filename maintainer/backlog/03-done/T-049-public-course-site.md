@@ -10,3 +10,4 @@
 - **À faire** : mise en ligne indexable et règle de renvoi du prof vers les pages, dans T-050g.
 - **Fini quand** : le site est en ligne, chaque concept a sa page avec adresse stable, la
   recherche fonctionne, et le mainteneur a relu les pages.
+- **Fait le** : 2026-10-26, site en ligne en 2.0.0 (T-050g).
