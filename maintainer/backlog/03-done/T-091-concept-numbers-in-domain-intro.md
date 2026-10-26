@@ -15,3 +15,4 @@
 - **Fini quand** : un sous-agent neuf, sur une copie, présente le domaine 1 sans aucun numéro de
   concept, puis ouvre le concept 0 par « Concept 0 : Scrum en bref » ; test manuel du mainteneur
   sur une branche de test.
+- **Fait le** : 2026-10-26, deux règles dans `CLAUDE.md` (présentation sans numéro, numéro au titre du concept et dans les renvois) ; ADR-069 ; test : voir la PR
