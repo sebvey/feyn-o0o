@@ -1,11 +1,11 @@
 # L'apprenant
 
-Surnom : **<surnom>** (le prof l'appelle ainsi).
+Surnom : **Seb** (le prof l'appelle ainsi).
 
 ## Profil
 
-- Rôle : <rôle actuel ; PO d'un produit ou non>.
-- Avant le parcours : <ce qu'il connaît de Scrum et de la gestion de produit, avec ses mots>.
+- Rôle : data engineer ; intéressé par la partie PO pour mettre en place des workflows agentiques, de la user story jusqu'à l'implémentation.
+- Avant le parcours : « de petites bases » de Scrum et de gestion de produit.
 
 ## Préférences
 

@@ -1,4 +1,4 @@
-# Parcours de <surnom>
+# Parcours de Seb
 
 Statut des concepts de la carte du cours (`course/map.md`) : `validé`, `en cours`, `sauté`,
 `à revoir`. Un concept absent du tableau est à faire.
@@ -19,3 +19,5 @@ Annexes vues : aucune.
 Aucun.
 
 ## Journal
+
+- 2026-10-26, session 1 : accueil.

@@ -1,4 +1,4 @@
-# Observations sur <surnom>
+# Observations sur Seb
 
 Une ligne par entrée : `date, [concept], fait -> action` (« Acquis » : `[concept] fait (date)`).
 `[général]` vaut pour tout le cours.
