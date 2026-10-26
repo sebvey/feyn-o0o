@@ -16,3 +16,4 @@
 
   `course-taught-check` reste dû après tout changement de ce qu'un concept enseigne.
 - **Fini quand** : la règle est dans `maintenance` ; ADR écrit.
+- **Fait le** : 2026-10-26, `maintenance` §5 : pas de sous-agent pour un changement trivial, dit dans la PR ; ADR-074. Test Sonnet sur trois changements : extension de la règle de T-095 et mot ajouté entre parenthèses jugés triviaux, lecture conditionnelle ajoutée au démarrage jugée à tester, avec un scénario adapté.

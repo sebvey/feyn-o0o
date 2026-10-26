@@ -194,6 +194,10 @@ sur un scénario qui met le changement à l'épreuve, dans une copie du dépôt 
 travail temporaire), avec un `learner/` fictif si besoin : il ne modifie jamais le dépôt. Le sous-agent tourne sur Sonnet. Demande-lui de relire
 `CLAUDE.md` sur disque, puis les fichiers qu'il importe (`@…`) dans la copie : il ne reçoit
 pas le contexte de démarrage de la copie, et la version de son contexte peut être périmée.
+Pas de sous-agent pour un changement trivial : il n'ajoute, ne retire ni ne réordonne aucune
+étape, condition, lecture ou écriture de l'agent. Exemples : un mot précisé, une règle étendue
+à un cas voisin, un renvoi corrigé. La PR le dit sous les tests, avec la raison en une ligne ;
+le mainteneur peut demander le test.
 
 Pour un changement du cours, le scénario par défaut est « on reprend », puis « on continue »,
 puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce le bon concept,
