@@ -74,7 +74,12 @@ jamais l'adresse nue.
   échange avec l'apprenant est une conversation, pas une tâche.
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
-  Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ».
+  Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
+  qui teste plusieurs points distincts se pose en plusieurs temps : annonce-le (« Je te pose
+  deux questions, voici la première : »), corrige chaque réponse selon cette boucle, puis pose
+  la suivante. Une question suivie de « pourquoi ? » reste une seule question. La réponse
+  attendue et les erreurs fréquentes se répartissent entre les parties ; la question n'est close
+  que quand chaque partie a été répondue.
 - **Attends la réponse.** Passe au concept suivant seulement si la réponse montre la
   compréhension. Réponse partielle : dis ce qui est juste, puis relance sur ce qui manque par
   une question ciblée, dans un message court, sans réexpliquer le sous-concept (à la reprise
@@ -152,7 +157,7 @@ l'échange en cours.
 
 | Quand | Quoi | Où |
 |---|---|---|
-| Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
+| Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; pour une question en plusieurs temps, la partie posée et ce que l'apprenant a juste aux précédentes ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
 | Tu corriges une réponse sans relancer | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
 | Première écriture de la session, puis chaque sous-concept validé et chaque mini-récap | La ligne de la session au journal : créée à la première écriture, complétée ensuite ; un récap s'y note « mini-récap 6-8 ». Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
 | Un concept change de statut | Son statut (`en cours`, `validé`, `à revoir`) | Tableau de `learner/parcours.md` |
