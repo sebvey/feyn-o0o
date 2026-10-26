@@ -199,7 +199,8 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   exigence va dans la DoD si elle vaut pour toute story (11a), dans un critère si elle est
   propre à une story (8b1), dans la définition si elle concerne l'indicateur. Ce que la
   plateforme reçoit mal se corrige (un relevé en double) ; ce qu'elle ne reçoit jamais est une limite de
-  la source.
+  la source : elle s'écrit (dans la définition de l'indicateur) et se montre à ceux qui lisent le
+  chiffre.
 - **Situation** (hypothèse d'exercice) : la plateforme publie le nombre de vélos signalés par
   semaine, que Maud regarde pour fixer le nombre de techniciens en tournée. Les signalements
   viennent de l'appli (équipe appli) ; ceux reçus par téléphone n'y sont pas saisis. Diego :

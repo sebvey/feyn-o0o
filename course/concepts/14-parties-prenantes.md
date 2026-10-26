@@ -169,7 +169,7 @@ ils ne deviennent pas des faits du fil rouge.
   échéance proche change le coût du retard, concept 13b). Nuances : dire ce que tu fais pour
   l'accès qui manque aide Charlotte, mais c'est la question de 14c, non attendue ici ; si Charlotte
   apporte un fait nouveau, revoir l'ordre n'est pas céder, c'est ordonner ; ce sont les
-  Developers qui choisissent ce qui entre au sprint, avec le PO (concept 15). Une mauvaise
+  Developers qui choisissent ce qui entre au sprint, avec le PO (vu en 0a2, repris au concept 15). Une mauvaise
   réponse promet, cache l'ordre, ou s'abrite derrière « c'est moi qui décide ».
 - **Erreurs fréquentes** :
   - promettre à Charlotte et à Pia le même sprint, ou « un peu de chaque » : la poire coupée en

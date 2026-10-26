@@ -119,7 +119,8 @@ prenantes** font valoir leurs besoins en convainquant le PO, qui est une seule p
   exemple : « Théo, technicien de maintenance, prépare sa tournée de réparation à partir des
   vélos signalés en panne. » La phrase dit ce que fait Théo grâce à la plateforme, pas ce
   qu'elle affiche. Nuance : ce que ça change par rapport à aujourd'hui, et combien de temps Théo
-  y gagne, le PO ne le sait pas ; il le demande à Théo ou à Maud, il ne l'invente pas.
+  y gagne, le PO ne le sait pas ; il le demande à Théo, ou à Maud, la responsable maintenance qui encadre les
+  techniciens ; il ne l'invente pas.
 - **Erreurs fréquentes** : ajouter de la technique (« depuis la source des signalements »).
   Relancer : « et alors ? ». Inventer la valeur (« Théo gagne une heure par jour ») au lieu de
   la demander. Relancer : « d'où vient ce chiffre ? ».

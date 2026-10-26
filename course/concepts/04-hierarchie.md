@@ -98,8 +98,8 @@ mois, puis comparaison au même mois de l'an dernier).
      pas ; il va dans leur plan (le backlog de sprint, concept 3), pas au backlog produit.
      Nuance : ces mots sont un vocabulaire courant, pas une règle de Scrum. Dans la correction,
      ne pas dire encore ce qui manque pour 2 et 5 : c'est la partie 2.
-  2. 2 et 5 : le libellé ne suffit pas ; il manque ce qu'Étienne veut y voir, ses « je veux »
-     (4b). 2 contient au moins 3 : si Étienne n'a pas d'autre besoin sur les pannes, 2 et 3 ne
+  2. 2 et 5 : le libellé ne suffit pas ; il manque ce qu'Étienne veut y voir, c'est-à-dire ses
+     besoins : combien il en a pour chaque vue (on les comptera en « je veux » en 4b). 2 contient au moins 3 : si Étienne n'a pas d'autre besoin sur les pannes, 2 et 3 ne
      font qu'une story.
 - **Erreurs fréquentes** :
   - Partie 1, classer 1 en story parce que la phrase est courte : c'est l'erreur la plus fréquente

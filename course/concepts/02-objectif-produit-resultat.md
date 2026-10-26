@@ -113,7 +113,8 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   changement de comportement de l'utilisateur, qui ne dépend pas de l'équipe seule) ; 4 est
   l'effet visé par l'objectif produit, auquel ce changement doit conduire. La phrase 1 décrit
   un indicateur (ce que la plateforme calcule pour ses utilisateurs, concept 12) : c'est un
-  livrable, qui sert aussi de mesure de résultat quand on s'en sert pour juger le produit.
+  livrable, qui peut aussi servir de mesure pour juger si les stations restent moins longtemps
+  vides (vu en 2c).
   Même chiffre, deux rôles.
 - **Erreurs fréquentes** :
   - classer 1 en résultat « parce qu'il parle des stations vides » : le calculer ne vide ni ne
@@ -144,7 +145,7 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Réponse attendue** :
   - A est une liste de livrables datée : on peut tout livrer sans que rien ne change ; ces
     livrables iront au backlog s'ils servent l'objectif ;
-  - B décrit une caractéristique du livrable (une fraîcheur) ou un moyen : il ne dit pas ce
+  - B décrit une caractéristique du livrable (une fraîcheur, l'âge des données quand on les lit) ou un moyen : il ne dit pas ce
     qui change pour qui. Savoir si l'exploitation a besoin du temps réel est un fait à demander
     à Étienne ; la technique pour y arriver revient aux Developers (concept 1) ;
   - C ressemble à une vision : aspirationnelle, elle dépend de bien d'autres choses que la

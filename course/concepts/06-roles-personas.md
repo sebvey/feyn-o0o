@@ -198,7 +198,8 @@ de la phrase (concept 5) ; un « je veux » par story (concept 4). Il y renvoie.
 - **Explication** : un persona est un portrait fictif d'un rôle (prénom, objectifs,
   comportements), construit à partir d'utilisateurs réels (choix d'école d'Alan Cooper) ; il
   sert à la conversation et aux exemples ; la phrase de la story garde le rôle (choix du cours).
-- **Situation** : story au backlog : « En tant qu'abonné, je veux savoir avant de partir s'il
+- **Situation** : Abba est le persona des abonnés sans l'appli (un tiers des abonnés, qui n'ont
+  qu'un téléphone basique). Story au backlog : « En tant qu'abonné, je veux savoir avant de partir s'il
   reste un vélo à ma station, afin de ne pas me déplacer pour rien. » Diego propose de la
   réécrire : « En tant qu'Abba, je veux… ».
 - **Question** : faut-il remplacer « abonné » par « Abba » ? Tranche et justifie.

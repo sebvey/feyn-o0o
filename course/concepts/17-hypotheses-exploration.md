@@ -142,7 +142,8 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   risques avant de construire) va dans la correction, pas dans ce message. Si le message dépasse
   une quinzaine de lignes, le couper : l'explication, puis la situation et la question.
 - **Situation** : la prochaine tranche pour Régis est la prévision des stations à risque
-  (concept 9b). Au refinement, quatre phrases circulent :
+  (concept 9b). Fait déjà donné : la plateforme garde l'historique des relevés depuis son
+  lancement, il y a environ un an. Au refinement, quatre phrases circulent :
   1. « La plateforme garde l'historique des relevés depuis environ un an. »
   2. « La tendance de la dernière heure suffit pour voir quelles stations vont se vider. »
   3. « Quand il pleut, les stations se vident autrement. »

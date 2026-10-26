@@ -148,7 +148,7 @@ et le contenu de la tranche en 16c.
 - **Question** : que réponds-tu à Dana ?
 - **Réponse attendue** : non, dans ce cours : le backlog reste la seule liste ordonnée, et le PO
   en répond (Scrum Guide). La carte montre le tout et les trous, mais deux stories
-  de deux colonnes et de la même tranche n'y ont pas d'ordre entre elles : la carte ne donne pas
+  de deux colonnes et de la même ligne (aussi indispensables l'une que l'autre) n'y ont pas d'ordre entre elles : la carte ne donne pas
   d'ordre unique. Si Dana finit lundi, laquelle prend-elle ? Chaque story de la carte est un
   élément du backlog, à sa place dans l'ordre. Nuance : Patton, lui, voit la carte comme un
   meilleur backlog (choix d'école) ; garder les deux est un choix du cours.

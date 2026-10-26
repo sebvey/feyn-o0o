@@ -224,8 +224,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   pourquoi ?
 - **Réponse attendue** : rien des trois ajouts. Exiger toutes les questions réglées et une
   maquette validée, c'est vouloir la story entièrement spécifiée avant le sprint : la
-  conversation continue pendant le sprint (les 3C, concept 5), et l'équipe peut encore
-  préciser une story au Sprint Planning (Scrum Guide). Le schéma des tables est le comment des
+  conversation continue pendant le sprint (les 3C, concept 5 ; la solution se construit jusque
+  pendant la réalisation, concept 7b), et l'équipe peut encore préciser une story au Sprint
+  Planning (Scrum Guide, à apporter en nuance s'il ne le dit pas). Le schéma des tables est le comment des
   Developers (concept 1), pas une condition d'entrée. Ce qu'une DoR peut exiger : ce sans quoi
   la story ne peut pas avancer, comme une dépendance externe levée (l'accès). Nuance : choix
   d'école ; une équipe peut tenir une DoR plus stricte si elle s'en sert comme repère. La DoR
@@ -234,7 +235,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   - « plus la DoR est complète, mieux c'est » : demander « combien de stories passeraient la
     porte au prochain planning ? » ;
   - garder la maquette « pour éviter les surprises » : la forme de la vue se discute avec les
-    Developers (concept 5) ; relancer : « sans la maquette validée, qu'est-ce que l'équipe ne
+    Developers (concept 7b) ; relancer : « sans la maquette validée, qu'est-ce que l'équipe ne
     pourrait vraiment pas faire ? ».
 - **Ce qui marche** : demander ce que l'équipe ne pourrait vraiment pas faire sans chaque
   condition.
