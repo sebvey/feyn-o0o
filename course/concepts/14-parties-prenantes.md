@@ -71,7 +71,7 @@ ordre.
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
 n'ordonne pas le backlog (concept 0a1) ; partie prenante, sponsor, le PO seul ordonne, qui veut
-changer l'ordre le convainc, pas de vote (1b) ; les consommateurs de données sont des
+changer l'ordre le convainc, une seule personne, pas un comité (0a1, 1b) ; les consommateurs de données sont des
 utilisateurs (1a) ; un seul objectif produit (2b) ; une demande ne se traite pas en direct (3) ;
 la règle non fixée que le PO fait fixer (8a2) ; dépendance envers une autre équipe, s'accorder
 avec Pia (10b2) ; DoR et accès obtenu (11b) ; quelles colonnes demander (12c) ; ordonner, coût
@@ -279,7 +279,8 @@ ils ne deviennent pas des faits du fil rouge.
 - **Erreurs fréquentes** :
   - « oui, le sponsor porte plus haut les obstacles qui dépassent le PO » : un obstacle, pas
     l'ordre de son backlog ; demander « qu'est-ce qui bloque l'équipe, ici ? » ;
-  - faire voter Pia et Charlotte : pas de vote (concept 1b).
+  - faire voter Pia et Charlotte : pas de vote, le PO est une seule personne, pas un comité
+    (concepts 0a1 et 1b).
 - **Réexplication** (réponse fausse, « elle tranchera ») : Maud et Étienne se disputent la tête
   du backlog. Appeler Odile, c'est lui demander d'ordonner à ta place ; rien ne bloque l'équipe,
   donc le PO tranche et explique. Puis reposer la question sur Diego.

@@ -32,6 +32,12 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- MINOR, concept 7 : I d'INVEST couvre aussi le travail d'une autre équipe dont la story a besoin (choix du cours, chez Wake I ne vise que les autres stories), dans L'essentiel, 7a1 et « Consensus et choix d'école »
+- PATCH, concept 2 : 2b, l'argument de l'ordre du backlog devient une nuance avec renvoi au concept 3
+- PATCH, concept 5 : 5a, l'exemple de Régis va en 5a1, celui d'Abba en 5a2
+- PATCH, concept 9 : 9a2, le Sprint Planning renvoie au concept 0 (détail en 15b)
+- PATCH, concepts 13 et 14 : « pas de vote (1b) » devient « une seule personne, pas un comité (0a1, 1b) »
+
 ## 2.2.1, 2026-10-26
 
 - PATCH, concepts 0, 4, 6, 7, 8, 9, 11, 13, 14, 17 et A2 : les consignes qui faisaient montrer un schéma par le prof, hors des sections « Schéma », sont retirées ou dites en mots (une image décrite) ; le moment du schéma de 13b passe dans sa section « Schéma » ; modèle de concept : « Ce qui marche » ne cite plus le schéma
