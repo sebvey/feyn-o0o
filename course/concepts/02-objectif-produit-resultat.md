@@ -121,9 +121,10 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur est
     une qualité du livrable ; la valeur vient de ce qu'Étienne en fait. Relancer : « qui doit
     changer quoi pour que ce soit vrai ? ».
-- **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si la
-  réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
-  relancer : « la phrase 1 peut-elle aussi servir de mesure de résultat ? ».
+- **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si
+  la réponse est « personne hors de l'équipe », c'est un livrable. Une fois le classement juste,
+  relancer : « le chiffre de la phrase 1 peut-il aussi servir à juger si les stations restent
+  moins longtemps vides ? » ; le mot « mesure de résultat » vient en 2c.
 
 ### Trois objectifs produits à juger (2b)
 - **Explication** : l'objectif produit est un état futur du produit qui sert de cible à
@@ -233,11 +234,11 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
 - **Question** : peux-tu annoncer à Odile que la vue a produit le résultat ?
 - **Réponse attendue** : pas encore. La baisse peut venir d'une autre cause : la pluie peut
   réduire les locations, donc moins de stations se vident, sans rapport avec la vue. Avant de
-  conclure : comparer à des périodes comparables dans l'historique des relevés (environ un
-  an) ; vérifier le signal
-  de comportement (Étienne envoie-t-il les régulateurs plus tôt ?) ; en parler avec Étienne et
-  Régis. On réduit le doute, on ne l'élimine pas ; l'exploration rigoureuse d'une hypothèse
-  vient au concept 17.
+  conclure : comparer à des périodes comparables dans l'historique des relevés (environ un an) ;
+  vérifier le signal de comportement (Étienne envoie-t-il les régulateurs plus tôt ?) ; en
+  parler avec Étienne (responsable d'exploitation) et un régulateur, Régis par exemple, qui
+  redistribue les vélos entre stations. On réduit le doute, on ne l'élimine pas ; l'exploration
+  rigoureuse d'une hypothèse vient au concept 17.
 - **Erreurs fréquentes** :
   - annoncer la victoire sur un seul mois. Relancer : « quelle autre raison pourrait faire
     baisser ce chiffre ? » ;

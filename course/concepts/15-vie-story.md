@@ -253,9 +253,10 @@ tâches).
 - **Ce qui marche** : relire la DoR de l'équipe à voix haute, ligne par ligne, devant la story.
 
 ### La story qui ne passe pas (15b, en rechange)
-- **Explication** : l'objectif de sprint est un engagement des Developers, mais il laisse de
-  la souplesse sur le travail exact. Si le travail diffère de ce qu'ils attendaient, ils
-  renégocient la portée avec le PO, sans toucher à l'objectif (Scrum Guide).
+- **Explication** : l'objectif de sprint est un engagement des Developers, mais il laisse de la
+  souplesse sur le travail exact. Si le travail diffère de ce qu'ils attendaient, ils
+  renégocient la portée avec le PO, sans toucher à l'objectif. Si l'objectif devient obsolète,
+  seul le PO peut annuler le sprint (Scrum Guide).
 - **Situation** : situation d'exercice. L'objectif fixé : « Que la maintenance et
   l'exploitation voient les vélos en panne depuis la plateforme, pour organiser les
   réparations. » En milieu de sprint, Anna découvre que le nombre par semaine de Maud
@@ -309,7 +310,8 @@ tâches).
 - **Explication** : la revue n'est ni une démonstration à sens unique, ni une séance où le PO
   « accepte » le travail (Scrum.org, pratique établie) ; le cours en tire qu'elle n'est pas non
   plus une recette où une partie prenante valide (choix du cours). Fait se décide par la DoD,
-  avant la revue ; une story qui ne la remplit pas n'est pas présentée (concept 11).
+  avant la revue ; une story qui ne la remplit pas n'est pas présentée et retourne au backlog,
+  où le PO l'ordonne.
 - **Situation** : situation d'exercice. Le nombre par semaine de Maud passe ses critères
   d'acceptation, mais sa définition écrite manque, alors que la DoD l'exige pour tout indicateur
   publié. Diego prépare la revue : « On le montre quand même, Maud le validera en séance : la
@@ -333,12 +335,13 @@ tâches).
 ### Tout est en « Fait » (aparté, 15c)
 - **Explication** : les états d'un élément dans l'outil (à faire, en cours, fait) sont un choix
   d'équipe, configurable ; le Scrum Guide n'en fixe aucun. Détail : annexe A1.
-- **Situation** : en fin de sprint, toutes les cartes du tableau de l'équipe sont dans la
-  colonne « Fait ». Dana : « La vie de ces stories est finie. »
+- **Situation** : en fin de sprint (sans sprint : en fin de semaine), toutes les cartes du
+  tableau de l'équipe sont dans la colonne « Fait ». Dana : « La vie de ces stories est finie. »
 - **Question** : qu'est-ce que la colonne « Fait » te dit, et que lui manque-t-il ?
-- **Réponse attendue** : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » : l'outil
-  ne connaît pas la DoD. Et la vie d'une story ne s'arrête pas à l'état : la revue l'inspecte
-  avec les parties prenantes, et ce qu'on y apprend adapte le backlog.
+- **Réponse attendue** : rien de sûr tant que « Fait » ne veut pas dire « DoD remplie » :
+  l'outil ne connaît pas la DoD. Et la vie d'une story ne s'arrête pas à l'état : la revue (sans
+  sprint, le moment d'inspection de A2c) l'inspecte avec les parties prenantes, et ce qu'on y
+  apprend adapte le backlog.
 - **Erreurs fréquentes** : prendre les états de l'outil pour les étapes de Scrum : demander
   « où, dans ces colonnes, sont le refinement et la revue ? ».
 - **Ce qui marche** : demander à l'équipe ce que veut dire « Fait » chez elle.

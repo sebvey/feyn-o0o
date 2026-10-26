@@ -49,11 +49,11 @@ coche pas.
      glose ce V par « valuable (or vertical) » : le découpage vertical vient au concept 9.
    - **7a2** Le mot flou (« Heures de pointe ») : quand E, S et T restent douteux ensemble, un
      même mot n'est pas fixé ; on ne coche pas « OK », on cherche ce mot. Ni le PO ni les
-     Developers ne le fixent : le PO le fait préciser par l'utilisateur concerné avant le
-     sprint (concept 15), et la story attend (concept 4). Mots flous typiques (exemples inventés) :
-     « rapidement », « récent », « important ». Un seul mot flou peut faire douter des trois
-     lettres. Pour le repérer : un testeur qui ne connaît que la story peut-il dire « fait » ou
-     « pas fait » sans rien demander ? Le mot qui l'oblige à poser une question est le mot flou.
+     Developers ne le fixent : le PO le fait préciser par l'utilisateur concerné avant le sprint
+     (concept 15), et la story attend. Mots flous typiques (exemples inventés) : « rapidement »,
+     « récent », « important ». Un seul mot flou peut faire douter des trois lettres. Pour le
+     repérer : un testeur qui ne connaît que la story peut-il dire « fait » ou « pas fait » sans
+     rien demander ? Le mot qui l'oblige à poser une question est le mot flou.
 2. **7b N : besoin ou solution, une contrainte va dans un critère** : la story fixe le besoin ;
    les détails de la solution (la forme, l'outil) se construisent avec l'équipe, jusque pendant la
    réalisation. Négociable ne veut pas dire tout ouvert : une contrainte réelle ne se négocie
@@ -147,11 +147,11 @@ deviennent pas des faits du fil rouge.
   plage fixe, ou une plage par jour de la semaine, ne demandent pas le même calcul), S aussi
   (selon la définition, la story tient ou non dans un sprint), et T (un testeur ne sait pas si
   une station vide à 9 h 30 compte). Ni Anna ni le PO ne le fixent : le PO le fait préciser par
-  Étienne, qui utilisera la vue, avant le sprint (concept 15) ; la story attend (concept 4).
-  Nuances : « vide » (vélos à quai ou disponibles) n'est pas fixé non plus ; l'apprenant qui le
-  relève a raison, même traitement. « Heures de pointe » sert aussi à la mesure de l'objectif
-  produit : la définition précisée avec Étienne doit valoir pour cette mesure, que portent les
-  parties prenantes de l'objectif (Odile) ; le PO ne laisse pas coexister deux définitions.
+  Étienne, qui utilisera la vue, avant le sprint (concept 15) ; la story attend. Nuances :
+  « vide » (vélos à quai ou disponibles) n'est pas fixé non plus ; l'apprenant qui le relève a
+  raison, même traitement. « Heures de pointe » sert aussi à la mesure de l'objectif produit :
+  la définition précisée avec Étienne doit valoir pour cette mesure, que portent les parties
+  prenantes de l'objectif (Odile) ; le PO ne laisse pas coexister deux définitions.
 - **Erreurs fréquentes** :
   - donner raison à Anna (« E et S tiennent ») : relancer : « une station vide à 9 h 30, tu la
     comptes ? » ;
@@ -169,7 +169,11 @@ deviennent pas des faits du fil rouge.
 ### Le SMS d'Abba (7b)
 - **Explication** : N (Negotiable) : la story n'est pas un contrat de fonctions ; elle porte
   l'essentiel, pas les détails. La solution se construit avec l'équipe, jusque pendant la
-  réalisation (Wake).
+  réalisation (Wake). Négociable ne veut pas dire tout ouvert : une contrainte, exigence réelle
+  de l'usage, ne se négocie pas ; plusieurs solutions peuvent la respecter, et elle s'écrit dans
+  un critère d'acceptation, sans nommer de solution (choix du cours). Cas inventé : un
+  régulateur consulte une vue sur le petit écran de sa camionnette ; « se lire sur un petit
+  écran » est une contrainte, un tableau, une liste ou une carte sont des solutions.
 - **Situation** :
   - brouillon : « En tant qu'abonné, je veux recevoir un SMS à 8 h avec le nombre de vélos de ma
     station… » (la solution est figée dans la story) ;
@@ -218,7 +222,7 @@ deviennent pas des faits du fil rouge.
 - **Cocher E et S « OK » sans pouvoir le vérifier** : si plusieurs lettres dépendent d'un même
   mot flou, c'est ce mot qu'il faut creuser, puis faire préciser par l'utilisateur concerné.
 - **Fixer soi-même le mot flou**, ou le laisser fixer par les Developers : le PO le fait
-  préciser par l'utilisateur avant le sprint (concept 15) ; la story attend (concept 4).
+  préciser par l'utilisateur avant le sprint (concept 15) ; la story attend.
 - **Juger E et S à la place des Developers** : ce sont eux qui estiment la taille.
 - **Donner S en jours** comme si c'était la grille : chez Wake, au plus quelques
   semaines-personnes ; quelques jours-personnes, c'est le choix de certaines équipes ; le repère

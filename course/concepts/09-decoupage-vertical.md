@@ -215,8 +215,9 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
 ### Prévoir les stations à risque : quel patron ? (9b2)
 - **Explication** : des catalogues de patrons aident à trouver un découpage. Choix d'école,
   chacun à son auteur, posés côte à côte :
-  - **SPIDR** (Mike Cohn), cinq lettres : Spike (exploration bornée, concept 17), Paths,
-    Interfaces, Data (une partie des données d'abord), Rules (assouplir d'abord une règle) ;
+  - **SPIDR** (Mike Cohn), cinq lettres : Spike (exploration bornée : un travail limité dans le
+    temps qui répond à une question, sans livrer de fonction ; concept 17), Paths, Interfaces,
+    Data (une partie des données d'abord), Rules (assouplir d'abord une règle) ;
   - **Richard Lawrence** (neuf patrons, 2009), dont Variations in Data (une variante des
     données d'abord) et Simple/Complex (« quelle est la version la plus simple ? », les
     variantes en stories à part).

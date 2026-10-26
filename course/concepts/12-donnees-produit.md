@@ -87,14 +87,14 @@ les règles de qualité proposées, l'indicateur des vélos signalés par semain
 faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle.
 
 ### Compléter la définition des vélos disponibles (12a1)
-- **Explication** : un indicateur (valeur calculée par le produit pour ses utilisateurs) se
-  lit d'une seule façon quand sa définition écrite dit : ce qu'il compte et sa règle de calcul
-  (ce qu'on inclut, ce qu'on exclut), son grain (ce que représente une valeur : par station,
-  par quartier), sa période (l'instant ou la durée sur laquelle on compte), sa source (le
-  système qui produit les données, avec son propriétaire), sa fraîcheur (l'âge maximal des
-  données quand on lit le chiffre). Liste : choix du cours ; le grain vient de Kimball. La DoD
-  exige une définition écrite pour chaque indicateur publié (11a) : le PO la fait écrire et
-  fixer, les Developers font le calcul.
+- **Explication** : un indicateur (valeur calculée par le produit pour ses utilisateurs) se lit
+  d'une seule façon quand sa définition écrite dit : ce qu'il compte et sa règle de calcul (ce
+  qu'on inclut, ce qu'on exclut), son grain (ce que représente une valeur : par station, par
+  quartier), sa période (l'instant ou la durée sur laquelle on compte), sa source (le système
+  qui produit les données, avec son propriétaire), sa fraîcheur (l'âge maximal des données quand
+  on lit le chiffre). Liste : choix du cours ; le grain vient de Kimball. La DoD de l'équipe
+  vélos exige aussi une définition écrite pour chaque indicateur publié (la DoD : concept 11a) :
+  le PO la fait écrire et fixer, les Developers font le calcul.
 - **Situation** : les vues d'Étienne et la story d'Abba affichent les vélos disponibles de
   chaque station. Anna, analyste, écrit : « Vélos disponibles : nombre de vélos de chaque
   station, d'après les relevés. »

@@ -70,9 +70,10 @@ déjà trouvée. Les brouillons de stories à corriger sont inventés pour
 l'exercice : ils ne deviennent pas des faits du fil rouge.
 
 ### La demande de Maud, en story (5a1)
-- **Explication** : une story dit qui, quoi, pourquoi. Le « je veux » décrit ce que
-  l'utilisateur veut faire ou savoir, pas comment l'équipe le construit. Le Scrum Guide ne parle
-  pas de story ; ce format est un choix d'école (son origine : 5a2).
+- **Explication** : une story dit qui, quoi, pourquoi, le plus souvent sous la forme « En tant
+  que <qui>, je veux <quoi>, afin de <pourquoi> ». Le « je veux » décrit ce que l'utilisateur
+  veut faire ou savoir, pas comment l'équipe le construit. Le Scrum Guide ne parle pas de
+  story ; ce format est un choix d'école (son origine : 5a2).
 - **Situation** : Maud, responsable maintenance, encadre les techniciens. Elle demande le
   nombre de vélos en panne par semaine. Diego, data engineer, a ajouté au backlog : « Créer une
   table hebdomadaire des signalements de pannes, alimentée par un traitement chaque nuit. »

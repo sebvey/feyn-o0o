@@ -105,16 +105,15 @@ Régis ; la prévision au sens du glossaire (ce que les Developers pensent livre
 celle du concept 16c. Le dire si l'apprenant les mêle.
 
 Déjà enseigné, à rappeler sans le réenseigner : responsabilités, événements, artefacts (0) ; le
-PO seul ordonne (1b) ; livrable et résultat, l'objectif produit vu comme une hypothèse, la
-mesure de résultat aux points non fixés, l'exploration rigoureuse annoncée en 2c (2) ; backlog
-émergent (3a2) ; les « pourquoi ? » successifs, dont le lien forcé avec l'objectif produit est
-une hypothèse (5b) ; le spike, venu d'XP, aussi pour une question métier (7) ; la règle non
-fixée que le PO fait fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR (9a, 9b) ; dépendances (10) ;
-DoR (11b) ; définition d'un indicateur, qualité des données, fraîcheur (12) ; ordonner, le
-facteur « apprentissage » de Cohn, le lien non établi d'une demande avec l'objectif produit
-(13a, 13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner : refinement et
-Sprint Planning (15), la première version, les deux sens du MVP et la prévision « pour quand ? »
-(16b, 16c).
+PO seul ordonne (1b) ; livrable et résultat, la mesure de résultat aux points non fixés (2) ;
+backlog émergent (3a2) ; les « pourquoi ? » successifs, dont le lien forcé avec l'objectif
+produit est une hypothèse (5b) ; le spike, nommé dans SPIDR et renvoyé ici (9b2) ; la règle non
+fixée que le PO fait fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR
+(9a, 9b) ; dépendances (10) ; DoR (11b) ; définition d'un indicateur, qualité des données,
+fraîcheur (12) ; ordonner, le lien non établi d'une demande avec l'objectif produit (13a,
+13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner : refinement et Sprint
+Planning (15), la première version, les deux sens du MVP et la prévision « pour quand ? » (16b,
+16c).
 
 ## Banque d'exemples
 
@@ -134,15 +133,15 @@ d'exercice : ils ne deviennent pas des faits du fil rouge. Le prof ne demande ja
 l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vraie.
 
 ### Prévoir les stations à risque : on sait ou on suppose ? (17a)
-- **Explication** : une hypothèse, c'est ce qu'on tient pour vrai sans l'avoir vérifié
-  (pour Scrum.org, l'objectif produit en est une : choix d'école, concept 2). Marty Cagan
-  (choix d'école) nomme quatre grands risques : valeur, utilisabilité, faisabilité, viabilité. Le cours en retient deux : la
-  **valeur** (l'utilisateur s'en servira-t-il, cela sert-il l'objectif produit ?) et la
-  **faisabilité** (peut-on le construire, avec des données qui existent, assez bonnes et
-  fraîches ? ce point sur les données est un choix du cours). Le reste de Cagan (il parle de
-  product manager, il veut traiter ces risques avant de construire) va dans la correction, pas
-  dans ce message. Si le message dépasse une quinzaine de lignes, le couper : l'explication,
-  puis la situation et la question.
+- **Explication** : une hypothèse, c'est ce qu'on tient pour vrai sans l'avoir vérifié (pour
+  Scrum.org, l'objectif produit lui-même en est une, qu'on peut reformuler sans échec : choix
+  d'école). Marty Cagan (choix d'école) nomme quatre grands risques : valeur, utilisabilité,
+  faisabilité, viabilité. Le cours en retient deux : la **valeur** (l'utilisateur s'en
+  servira-t-il, cela sert-il l'objectif produit ?) et la **faisabilité** (peut-on le construire,
+  avec des données qui existent, assez bonnes et fraîches ? ce point sur les données est un
+  choix du cours). Le reste de Cagan (il parle de product manager, il veut traiter ces risques
+  avant de construire) va dans la correction, pas dans ce message. Si le message dépasse une
+  quinzaine de lignes, le couper : l'explication, puis la situation et la question.
 - **Situation** : la prochaine tranche pour Régis est la prévision des stations à risque
   (concept 9b). Au refinement, quatre phrases circulent :
   1. « La plateforme garde l'historique des relevés depuis environ un an. »
@@ -158,9 +157,10 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   que ça : la météo n'est pas collectée, on ne peut même pas le vérifier sur nos données
   aujourd'hui. 4 se suppose, valeur, et contient deux hypothèses : que Régis change sa tournée
   (comportement), et que cela réduit le temps vide (lien avec l'objectif produit, qui, pour
-  Scrum.org, est lui-même une hypothèse, concept 2). Suite : on ne tranche aucune des trois,
-  on cherche comment les vérifier au moindre coût (17b). Nuance : 4 dépend aussi de ce qu'est une station
-  vide et des heures de pointe, non fixés (règles à faire fixer, concept 8a2).
+  Scrum.org, est lui-même une hypothèse). Suite, non attendue (la question ne demande que le
+  tri), à apporter dans la correction : on ne tranche aucune des trois, on cherche comment les
+  vérifier au moindre coût (17b). Nuance : 4 dépend aussi de ce qu'est une station vide et des
+  heures de pointe, non fixés (règles à faire fixer, concept 8a2).
 - **Erreurs fréquentes** :
   - ranger 2 en « on sait » parce que « c'est ce que fait n'importe quel modèle » : demander
     « qui l'a vérifié, sur quelles données ? » ;
@@ -168,9 +168,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
     supposition ; le PO ne la tranche pas, il la fait vérifier ;
   - voir dans 4 une seule hypothèse : demander « et si Régis y va plus tôt, est-on sûr que la
     mesure de résultat baisse ? » ;
-  - réponse juste sans la suite (le tri seul) : demander « et alors, on fait quoi des trois
-    suppositions ? » ; réponse elliptique (« 1 sait, le reste non ») : faire préciser le risque
-    de chacune avant de corriger.
+  - réponse juste sans la suite (le tri seul) : elle est juste, apporter la suite dans la
+    correction ; réponse elliptique (« 1 sait, le reste non ») : faire préciser le risque de
+    chacune avant de corriger.
 - **Ce qui marche** : pour chaque phrase, « qui l'a vérifié, et comment ? » ; si personne,
   c'est une hypothèse. Puis, pour ranger : « si c'est faux, on ne sait pas le construire
   (faisabilité), ou on le construit pour rien (valeur) ? ».
@@ -204,8 +204,9 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   d'école) le dit ainsi : si toutes les réponses mènent à la même décision, inutile d'explorer.
   Le temps fixé borne le coût ; au terme, on décide, parfois d'explorer encore. Mise au backlog
   produit (certaines équipes la gardent plutôt dans un autre élément, choix d'école), elle
-  s'ordonne comme le reste (concept 13, le facteur « apprentissage »). Le PO pose la question ;
-  les Developers explorent.
+  s'ordonne comme le reste (concept 13) ; Mike Cohn compte aussi parmi les facteurs d'ordre
+  l'apprentissage, ce que l'équipe apprend en faisant l'élément. Le PO pose la question ; les
+  Developers explorent.
 - **Situation** : pour la prévision des stations à risque, Diego propose : « Anna n'a qu'à
   fouiller l'historique des relevés, on verra ce qu'elle trouve. »
 - **Question** : que manque-t-il à la proposition de Diego pour en faire une exploration

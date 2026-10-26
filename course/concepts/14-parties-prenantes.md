@@ -113,9 +113,10 @@ ils ne deviennent pas des faits du fil rouge.
   - financeur : la collectivité, que représente Charlotte ;
   - sponsor : Odile, qui porte le budget de la plateforme ;
   - équipe voisine : l'équipe appli et sa PO, Pia, absente de la liste ;
-  - fournisseurs de données, tous absents : la DSI et Sid (relevés des stations, table des
-    locations, et les accès), l'équipe appli (signalements, abonnés), la collectivité
-    (référentiel des quartiers).
+  - fournisseurs de données, tous absents : la DSI et Sid (table des locations et ses accès),
+    l'équipe appli (signalements), la collectivité (référentiel des quartiers). Nuance, à donner
+    dans la correction : la DSI tient aussi les relevés des stations, et l'équipe appli les
+    données des abonnés.
   Scarlette sort de la liste : elle est dans l'équipe Scrum, comme Dana, Diego, Anna et le PO ; le
   Scrum Guide distingue l'équipe et ses parties prenantes. Nuances : l'équipe appli et la
   collectivité cumulent chacune trois catégories (la collectivité : utilisatrice par Charlotte,
@@ -124,8 +125,8 @@ ils ne deviennent pas des faits du fil rouge.
   oublié se rappelle quand il bloque : l'accès aux locations en est l'exemple (14c).
 - **Erreurs fréquentes** :
   - oublier les fournisseurs de données, erreur plausible chez un profil data qui voit les
-    sources comme de la technique : demander « d'où viennent les données de la vue d'Étienne, et
-    qui peut te les couper ? » ;
+    sources comme de la technique : demander « d'où viennent les locations que veut Charlotte,
+    et qui peut te les couper ? » ;
   - garder Scarlette, ou ajouter Dana et Diego : demander « qui présente le travail, et à qui ? » ;
   - ne mettre chaque acteur que dans une case (Charlotte seulement financeur) : demander « que
     reçoit Charlotte de la plateforme, et que lui fournit sa collectivité ? » ;
@@ -218,19 +219,21 @@ ils ne deviennent pas des faits du fil rouge.
      blocage coûte : deux demandes qui attendent (concept 13b, sans chiffrer).
   2. Si ça bloque encore, l'escalade : Scarlette, la Scrum Master, qui fait lever les obstacles ;
      elle peut réunir Sid et le PO, rendre l'obstacle visible.
-  3. Si ça bloque toujours : Odile, le sponsor, qui peut porter le désaccord au comité de
-     direction, où siège Sid et où se tranchent leurs désaccords.
-  Quand (choix du cours, pas une règle Scrum) : passer à la marche suivante quand la démarche
-  a eu lieu et que rien n'a changé à la fin du sprint en cours ; prévenir Scarlette sans attendre
-  dès que l'obstacle empêche de livrer ce que l'équipe a prévu au sprint. Une relance par
-  message n'est pas une démarche nouvelle : ici, la conversation avec Sid aurait dû venir à
-  la fin du premier sprint sans réponse, et Scarlette à la fin du suivant ; trois sprints, c'est
-  déjà attendre. Nuances : on ne contourne pas
-  Sid, il sait que le sujet monte ; les colonnes autorisées relèvent de la DSI et des règles
-  de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès, jamais sur l'ordre.
-  Équipe sans Scrum Master (choix du cours) : la marche du milieu revient à qui répond du
-  fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes avant d'en
-  avoir besoin.
+  3. Si ça bloque toujours : Odile, le sponsor, qui porte l'obstacle plus haut (nuance, à donner
+     dans la correction : au comité de direction, où siègent Odile et Sid et où se tranchent
+     leurs désaccords).
+  Quand : est juste toute réponse qui passe à la marche suivante après une démarche restée sans
+  effet, dans un délai borné ; le repère du cours (choix du cours, pas une règle Scrum) se donne
+  dans la correction : passer à la marche suivante quand la démarche a eu lieu et que rien n'a
+  changé à la fin du sprint en cours ; prévenir Scarlette sans attendre dès que l'obstacle
+  empêche de livrer ce que l'équipe a prévu au sprint. Une relance par message n'est pas une
+  démarche nouvelle : ici, la conversation avec Sid aurait dû venir à la fin du premier sprint
+  sans réponse, et Scarlette à la fin du suivant ; trois sprints, c'est déjà attendre. Nuances :
+  on ne contourne pas Sid, il sait que le sujet monte ; les colonnes autorisées relèvent de la
+  DSI et des règles de protection des données, pas du PO (12c) ; l'escalade porte sur l'accès,
+  jamais sur l'ordre. Équipe sans Scrum Master (choix du cours) : la marche du milieu revient à
+  qui répond du fonctionnement de l'équipe (son manager, par exemple) ; repérer ces personnes
+  avant d'en avoir besoin.
 - **Erreurs fréquentes** :
   - aller d'emblée voir Odile par-dessus Sid : demander « sais-tu pourquoi Sid bloque ? » ;
   - continuer à relancer, ou attendre « qu'il finisse par répondre » : demander « et alors, au
@@ -276,14 +279,15 @@ ils ne deviennent pas des faits du fil rouge.
 - **Question** : qui saisis-tu, et quand ?
 - **Réponse attendue** : d'abord Pia encore : comprendre ce qui passe avant, apporter ce qui
   pèse pour Abba, et ce que la plateforme lui donne aussi (la disponibilité par station pour
-  l'appli). Ensuite, si rien ne change à la fin du sprint, Scarlette, qui réunit les deux PO.
-  Ensuite, Odile, sponsor de la plateforme : elle porte la dépendance au comité de direction,
-  où se tranchent les désaccords entre la plateforme et l'appli. Elle n'impose rien à Pia et ne
-  décide pas de l'ordre de l'équipe appli. En attendant, la story d'Abba reste au backlog, la
-  dépendance écrite et visible ; la part de la plateforme peut sortir, elle sert l'appli.
-  Nuance : c'est bien un obstacle pour ton équipe, mais on ne le force pas : l'escalade fait
-  peser la valeur perdue pour Abba là où se décide ce que chaque produit sert, elle ne retire
-  pas à Pia son ordre.
+  l'appli). Ensuite, si rien ne change (repère du cours, à donner : à la fin du sprint),
+  Scarlette, Scrum Master des deux équipes, qui réunit les deux PO. Ensuite, Odile, sponsor de
+  la plateforme : elle porte la dépendance plus haut (nuance, à donner dans la correction : au
+  comité de direction, où se tranchent les désaccords entre la plateforme et l'appli). Elle
+  n'impose rien à Pia et ne décide pas de l'ordre de l'équipe appli. En attendant, la story
+  d'Abba reste au backlog, la dépendance écrite et visible ; la part de la plateforme peut
+  sortir, elle sert l'appli. Nuance : c'est bien un obstacle pour ton équipe, mais on ne le
+  force pas : l'escalade fait peser la valeur perdue pour Abba là où se décide ce que chaque
+  produit sert, elle ne retire pas à Pia son ordre.
 - **Erreurs fréquentes** :
   - aller voir Odile avant d'avoir parlé à Pia et à Scarlette : on ne sait pas encore ce qui passe
     avant chez Pia ; relancer : « sais-tu ce qui passe avant chez Pia, et pourquoi ? » ;
