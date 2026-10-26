@@ -17,3 +17,4 @@
   cours ; le site suit à la version suivante.
 - **Fini quand** : aucune fiche de sources ne renvoie au concept 4 pour la règle non fixée, et le
   renvoi au concept 13 de la fiche 17 est vérifié.
+- **Fait le** : 2026-10-26, sources 7 et 8 : la règle non fixée renvoie à 7a2 (le concept 4 ne l'enseigne pas) ; sources 13 : Odile dite directrice des opérations ; renvoi au facteur « apprentissage » de la fiche 17 vérifié (le concept 13 l'enseigne en L'essentiel), inchangé. Pas de `course-taught-check` : seules des fiches de sources changent.

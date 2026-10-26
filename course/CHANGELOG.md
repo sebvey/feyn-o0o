@@ -32,6 +32,9 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- PATCH, sources des concepts 7 et 8 : la règle non fixée que le PO fait fixer renvoie à 7a2, plus au concept 4
+- PATCH, sources du concept 13 : Odile dite directrice des opérations, comme dans la fiche du concept
+
 ## 2.3.0, 2026-10-26
 
 - MINOR, concept 7 : I d'INVEST couvre aussi le travail d'une autre équipe dont la story a besoin (choix du cours, chez Wake I ne vise que les autres stories), dans L'essentiel, 7a1 et « Consensus et choix d'école »
