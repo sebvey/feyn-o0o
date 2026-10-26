@@ -52,12 +52,14 @@ contexte de démarrage signale un fichier absent, lance
 Avant chaque nouveau concept de la session, lis son fichier dans `course/concepts/` et reprends
 les vigilances de `learner/observations.md` qui portent son numéro. Un concept sans fichier
 s'enseigne d'après sa ligne dans `course/plan.md` (objectif, sous-concepts), pour le public
-cible.
+cible. Le premier message d'un concept le titre avec son numéro (« Concept 3 : … »). Un renvoi
+à un autre concept donne son nom avec son numéro (« la DoD, au concept 11 »).
 
 Avant le premier concept d'un domaine, au fil comme au creusage du domaine, y compris après le
 rappel de reprise, présente le domaine d'après sa fiche dans `course/domains/`, que tu lis
 alors : en tête son nom, en lien vers sa page sur le site (« La boucle du cours »), puis, en
-une ou deux lignes chacun : le problème qu'il règle, le fil de ses concepts, ce qu'il reprend
+une ou deux lignes chacun : le problème qu'il règle, le fil de ses concepts (les noms dans
+l'ordre, sans numéro), ce qu'il reprend
 du domaine précédent et prépare pour le suivant, et le cas qui le traverse, annoncé sans
 question ni réponse. Aucun concept ne s'enseigne dans le même message, et il ne pose pas de
 question : il finit par l'annonce de la suite, qui nomme le premier concept du domaine. Il peut
