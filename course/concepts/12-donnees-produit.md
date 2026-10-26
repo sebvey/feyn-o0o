@@ -197,7 +197,7 @@ faits du fil rouge. Le prof ne demande jamais à l'apprenant de fixer une règle
   établie) ; leur liste est un choix d'école : six chez DAMA UK (exactitude, complétude,
   unicité, cohérence, fraîcheur, validité) ; un relevé en double relève de l'unicité. Une
   exigence va dans la DoD si elle vaut pour toute story (11a), dans un critère si elle est
-  propre à une story (8b1), dans la définition si elle concerne l'indicateur. Ce que la
+  propre à une story (8a1), dans la définition si elle concerne l'indicateur. Ce que la
   plateforme reçoit mal se corrige (un relevé en double) ; ce qu'elle ne reçoit jamais est une limite de
   la source : elle s'écrit (dans la définition de l'indicateur) et se montre à ceux qui lisent le
   chiffre.

@@ -220,12 +220,12 @@ mois, puis comparaison au même mois de l'an dernier).
   « je veux » : voir les stations sous le seuil. Le nouveau calcul est du travail des
   Developers, pas un besoin de plus. Sans la vue existante, il resterait au moins deux « je
   veux » (voir les stations vides, voir les stations presque vides), chacun utile seul : une
-  feature. Le seuil n'est pas fixé : le PO ne l'invente pas, la story attend qu'il le soit
-  (concept 8).
+  feature. Nuance : le seuil n'est pas fixé ; c'est Étienne qui le dira, le PO ne l'invente pas (on y
+  revient aux concepts 7 et 8).
 - **Erreurs fréquentes** :
   - confondre le travail technique (« un nouveau calcul, c'est gros ») avec les « je veux » de
     Étienne. Relancer : « qu'est-ce qu'Étienne aura de plus, qu'il n'a pas déjà ? » ;
-  - proposer soi-même un seuil pour débloquer la story. Relancer : « qui fixe ce seuil ? ».
+  - proposer soi-même un seuil pour débloquer la story. Relancer : « à qui demanderais-tu ce que veut dire « presque vide » ? » (1b).
 - **Ce qui marche** : « qu'est-ce qu'Étienne aura de plus, qu'il n'a pas déjà ? ».
 
 ## Pièges

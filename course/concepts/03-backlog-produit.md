@@ -123,7 +123,7 @@ ne deviennent pas des faits du fil rouge.
   l'équipe prendra aux prochains Sprint Planning ; le bas reste une ligne qui dit le besoin
   (Charlotte veut comparer à l'an dernier). Nuance : « vague » ne veut pas dire vide ; on garde
   assez pour comprendre la demande et la placer dans l'ordre. Le travail qui précise les
-  éléments a un nom, vu au concept 15.
+  éléments a un nom, qui viendra au concept 15.
 - **Erreurs fréquentes** :
   - « un backlog bien écrit est détaillé partout » : réflexe de spécification complète, que 3b
     reprend sous le nom de cahier des charges (ne pas l'enseigner ici). Relancer : « quand cet

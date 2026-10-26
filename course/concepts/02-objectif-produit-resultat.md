@@ -114,12 +114,12 @@ inventées pour l'exercice ; elles ne deviennent pas des faits du fil rouge.
   l'effet visé par l'objectif produit, auquel ce changement doit conduire. La phrase 1 décrit
   un indicateur (ce que la plateforme calcule pour ses utilisateurs, concept 12) : c'est un
   livrable, qui peut aussi servir de mesure pour juger si les stations restent moins longtemps
-  vides (vu en 2c).
+  vides (repris en 2c).
   Même chiffre, deux rôles.
 - **Erreurs fréquentes** :
   - classer 1 en résultat « parce qu'il parle des stations vides » : le calculer ne vide ni ne
     remplit aucune station. Relancer : « qui doit changer quoi pour que ce soit vrai ? » ;
-  - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur est
+  - classer 3 en résultat « parce que des données fraîches, c'est la valeur » : la fraîcheur (l'âge des données quand on les lit) est
     une qualité du livrable ; la valeur vient de ce qu'Étienne en fait. Relancer : « qui doit
     changer quoi pour que ce soit vrai ? ».
 - **Ce qui marche** : pour chaque phrase, « qui doit changer quoi pour que ce soit vrai ? ». Si

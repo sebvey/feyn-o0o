@@ -70,8 +70,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
   fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
   message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog (la
-  liste ordonnée de ce qu'il faut pour améliorer le produit, vue en 0a3) ; les **Developers**
-  réalisent l'incrément (le produit dans un nouvel état utilisable, vu en 0b) ; le **Scrum
+  liste ordonnée de ce qu'il faut pour améliorer le produit, détaillée en 0a3) ; les **Developers**
+  réalisent l'incrément (le produit dans un nouvel état utilisable, détaillé en 0b) ; le **Scrum
   Master** répond de l'efficacité de l'équipe.
   Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
@@ -132,7 +132,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprint vise, fixé à son début, détaillé en 0a3) ; se tenir responsables les uns envers les
   autres. Comment transformer un élément du backlog en incrément, eux seuls le décident.
 - **Situation** : dans l'équipe vélos, Dana et Diego (data engineers) construisent les
-  pipelines ; Anna (analyste) calcule les indicateurs et les analyses publiés dans les vues de
+  pipelines ; Anna (analyste) calcule les indicateurs (les valeurs que la plateforme calcule pour ses
+  utilisateurs) et les analyses publiés dans les vues de
   la plateforme. Odile (directrice des opérations) prépare un schéma de l'équipe pour le comité
   de direction : « Developers : Dana et Diego. À part : Anna, analyste, puisqu'elle ne construit
   pas les pipelines. »
@@ -154,10 +155,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Explication** : le Scrum Master répond de l'efficacité de l'équipe Scrum, et de la mise en
   place de Scrum tel que le décrit le Scrum Guide. Il sert l'équipe : il l'aide à s'organiser
   elle-même, à se concentrer sur des incréments qui remplissent la DoD, fait lever les obstacles à
-  son avancement, et veille à ce que les événements (les rendez-vous fixes du sprint, vus en 0a2)
+  son avancement, et veille à ce que les événements (les rendez-vous fixes du sprint, détaillés en 0a2)
   aient lieu, soient utiles et tiennent leur durée. Il sert le PO : il l'aide à trouver des
   techniques pour l'objectif produit et le backlog, et facilite la collaboration avec les parties
-  prenantes (toute personne ou équipe concernée par le produit, vues au concept 1). Il sert
+  prenantes (toute personne ou équipe concernée par le produit, reprises au concept 1). Il sert
   l'organisation, en l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe.
 - **Situation** : Étienne (responsable d'exploitation) relance Scarlette, la Scrum Master, sur la
   vue des vélos en panne. Scarlette, qui anime les événements de l'équipe, la remonte en tête du

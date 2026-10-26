@@ -200,8 +200,9 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   qui tient compte de la pluie). a et c sont verticales : chacune traverse les couches et livre
   à Régis une prévision qu'il peut consulter ; son utilité reste une hypothèse à vérifier.
   Nuance : savoir si la tendance de la dernière heure suffit, et si la pluie
-  change vraiment les départs, n'est pas tranché ici ; on le vérifie avant de s'engager
-  (exploration bornée, concept 17).
+  change vraiment les départs, n'est pas tranché ici ; on le vérifie avant de s'engager,
+  par une exploration bornée (un travail court, limité dans le temps, qui répond à une question
+  sans livrer de fonction ; concept 17).
 - **Erreurs fréquentes** :
   - désigner a, « parce que ce n'est qu'une partie des stations » : un périmètre réduit reste
     vertical s'il sert seul ; relancer : « si on livre seulement a, que voit Régis ? » ;
