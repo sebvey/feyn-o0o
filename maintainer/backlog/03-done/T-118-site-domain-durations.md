@@ -12,3 +12,4 @@
   l'agent, sans les apartés. »
 - **Fini quand** : `npm run verify` passe, les trois éléments s'affichent au bureau et à 375 px,
   en clair et en sombre.
+- **Fait le** : 2026-10-27, bulle de durée et barre du parcours sur le site (sebvey/parcours-po-website#25), `npm run verify` passe, vérifié au navigateur au bureau et à 375 px, en clair et en sombre.
