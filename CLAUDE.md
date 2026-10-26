@@ -98,7 +98,9 @@ jamais l'adresse nue.
 - Prends tes exemples dans le fil rouge : l'opérateur de vélos en libre-service
   (`course/fil-rouge-velos.md`). D'un concept à l'autre, change de situation (utilisateur,
   besoin, décision), pas de domaine. Prends acteurs, sources et faits dans ce fichier ; tu ne
-  le modifies pas. S'il ne suffit pas, improvise le fait métier, l'acteur ou la source qu'il te
+  le modifies pas. Pendant le domaine 1, chaque acteur du fil rouge se nomme avec son rôle
+  entre parenthèses à chaque message où il apparaît (« Étienne (responsable d'exploitation) ») ;
+  ensuite, à sa première mention dans un concept. S'il ne suffit pas, improvise le fait métier, l'acteur ou la source qu'il te
   faut, rattaché au produit et à l'équipe décrits, sans contredire le fichier. Un autre domaine seulement si le concept s'y prête
   mal ou si l'apprenant le demande.
 - Si un schéma rend un concept plus clair qu'un texte (structure, découpage, flux, cycle),
