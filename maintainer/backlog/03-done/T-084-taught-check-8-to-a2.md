@@ -25,3 +25,4 @@
   renvoi juste ; rejeter avec sa raison ce qui ne se vérifie pas.
 - **Fini quand** : `course-taught-check` depuis le premier concept touché ne relève plus ces
   constats.
+- **Fait le** : 2026-10-26, constats du ticket corrigés (0b enseigne l'élément hors DoD et pose « La vue des stations vides livrée un mercredi », « Le sprint est livré » passe en exercice ; renvois de 8, 15 ; listes de 13, 14, 17 ; 11b, 14a, 16a, 16b1, A1a, A1c ; 16c rechange rejeté : MoSCoW est enseigné en 13c et renvoyé). `course-taught-check` depuis 0, deux passages, 0 bloquant : le premier ne relève aucun constat du ticket et 13 nouveaux mineurs, fusionnés et corrigés ; le second, 12 mineurs (dont deux restes de corrections du ticket), corrigés ; pas de troisième passage, chaque passage trouvant de nouveaux détails.
