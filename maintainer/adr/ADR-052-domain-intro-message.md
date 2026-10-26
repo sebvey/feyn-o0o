@@ -1,7 +1,7 @@
 # ADR-052 : Le prof présente un domaine dans un message à lui, avant son premier concept
 
 - **Date** : 2026-10-26
-- **Statut** : accepté
+- **Statut** : complété par ADR-059
 - **Ticket** : T-071c
 
 ## Contexte

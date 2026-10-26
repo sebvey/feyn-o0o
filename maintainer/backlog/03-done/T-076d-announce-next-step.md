@@ -26,3 +26,4 @@
 - **Fini quand** : un sous-agent neuf sur Sonnet finit la présentation d'un domaine et un
   sous-concept validé par une seule ligne qui nomme la suite, sans proposer l'arrêt ; et, à
   « on s'arrête », il applique toujours le paragraphe « Arrêt ».
+- **Fait le** : 2026-10-26, `CLAUDE.md` : fin de concept et présentation d'un domaine finissent par « La suite : … », ADR-059 ; test Sonnet (reprise, domaine 2, sous-concept validé, arrêt) conforme.
