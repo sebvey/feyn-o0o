@@ -1,4 +1,4 @@
-# T-082 : Faire vérifier par `course-lot` qu'un cas ne demande que ce qui est enseigné
+# T-082 : Vérifier sur tout le cours qu'un cas ne demande que ce qui est enseigné
 
 - **Créé le** : 2026-10-26
 - **Constat** : T-077 a trouvé 50 cas qui demandaient à l'apprenant ce qu'il n'avait pas encore
