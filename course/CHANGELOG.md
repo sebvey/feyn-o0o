@@ -32,6 +32,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+## 2.2.0, 2026-10-26
+
 - MINOR, concept 0 : la question de contrôle devient une question de niveau, qui ne fait plus sauter de sous-concept ; plan aligné
 - MINOR, concept 0 : 0a1 en quatre messages (l'équipe en bref, le PO, les Developers, le Scrum Master), chacun avec son exemple et sa question ; sources ajoutées
 - MINOR, concept 0 : 0a2 en cinq messages (le sprint en bref, Sprint Planning, Daily Scrum, revue de sprint, rétrospective) ; le récit de Diego devient un cas de creusage ; sources ajoutées
