@@ -5,25 +5,15 @@ Statut des concepts de la carte du cours (`course/map.md`) : `validé`, `en cour
 
 ## Prochaine étape
 
-Concept 0 en cours, il reste 0b (sprint et incrément). Annonce du parti pris, 0a1 (équipe,
-PO, Developers, Scrum Master), 0a2 (sprint et quatre événements) et 0a3 (artefacts) sont faits.
-
-Question en attente, 0b, exemple « La vue des stations vides livrée un mercredi » (banque de
-`course/concepts/00-scrum.md`), à reprendre depuis l'explication (sprint = durée ; incrément =
-produit dans un nouvel état utilisable) :
-- Énoncé : sprint de deux semaines de l'équipe vélos. Le mercredi de la deuxième semaine, la vue
-  des stations vides remplit la DoD (elle affiche l'heure de sa dernière mise à jour) et elle est
-  livrée : Étienne (responsable d'exploitation) peut s'en servir. Dana (data engineer) objecte :
-  « On aurait dû attendre la revue de sprint, c'est elle qui valide la livraison. »
-- Question, mot pour mot : « Dana a-t-elle raison ? Qu'est-ce qui a été livré mercredi ? »
-- Déjà juste (hors réponse) : un incrément naît quand un élément remplit la DoD et s'ajoute aux
-  précédents ; la mise en service est libre, pas obligée à chaque élément. Pas encore de relance.
+Concept 1 en cours, il reste 1a (le produit : problème, utilisateurs, valeur) puis 1b (qui
+tranche quoi). Concept 0 validé.
 
 ## Concepts
 
 | # | Concept | Statut |
 |---|---|---|
-| 0 | Scrum en bref et l'incrément | en cours |
+| 0 | Scrum en bref et l'incrément | validé |
+| 1 | Le produit et le rôle du PO | en cours |
 
 Annexes vues : aucune.
 
@@ -36,3 +26,4 @@ Annexes vues : aucune.
 ## Journal
 
 - 2026-10-26, session 1 : accueil, concept 0 (annonce, 0a1, 0a2, 0a3 vus ; 0b en attente).
+- 2026-10-26, session 2 : concept 0 validé (0b).
