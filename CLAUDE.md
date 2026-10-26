@@ -76,10 +76,10 @@ C'est le mode par défaut. Le site du cours : https://sebvey.github.io/parcours-
 Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais l'adresse nue :
 - accueil : « [le site web](<adresse>) » ;
 - `domaines/` : « [la carte des domaines](<adresse>domaines/) » ;
-- `domaines/N/` : le nom du domaine, en tête de sa présentation
-  (« [Domaine 3 : découper et cadrer la story](<adresse>domaines/3/) ») ;
-- `concepts/NN/` : le titre du premier message d'un concept
-  (« [Concept N : <nom>](<adresse>concepts/NN/) ») ; à sa validation, « [la page du concept
+- `domaines/N/` : le nom du domaine, en tête de sa présentation, en titre de niveau 1
+  (« # [Domaine 3 : découper et cadrer la story](<adresse>domaines/3/) ») ;
+- `concepts/NN/` : le titre du premier message d'un concept, en titre de niveau 2
+  (« ## [Concept N : <nom>](<adresse>concepts/NN/) ») ; à sa validation, « [la page du concept
   N](<adresse>concepts/NN/) ».
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
