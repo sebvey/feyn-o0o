@@ -117,8 +117,8 @@ deviennent pas des faits du fil rouge.
   qu'une story, c'est quelques jours. Huit, c'est trop gros, il faut la couper. »
 - **Question** : qu'est-ce qui est juste, et qu'est-ce qui ne l'est pas, dans la phrase de
   Diego ?
-- **Réponse attendue** : juste : l'estimation est la sienne, il est l'un des Developers ; et des
-  stories plus petites s'estiment souvent mieux (Wake). Faux : INVEST ne dit pas « quelques
+- **Réponse attendue** : juste : l'estimation est la sienne, il est l'un des Developers (nuance
+  à apporter : des stories plus petites s'estiment souvent mieux, chez Wake). Faux : INVEST ne dit pas « quelques
   jours ». Chez Wake, une story fait au plus quelques semaines-personnes ; « quelques
   jours-personnes » est le choix de certaines équipes. Le repère du cours est le sprint : la
   question à poser est « tient-elle dans le sprint ? », et ce sont les Developers (Dana, Diego,

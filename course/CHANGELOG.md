@@ -34,6 +34,8 @@ devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publi
 
 - MINOR, concept 12 : 12a1, la situation donne le propriétaire des relevés (système des bornes, via la DSI) ; la réponse attendue juge la source à moitié juste sans lui, et le corrigé le cite
 - PATCH, concept 3 : 3b, l'élément « streaming » ne renvoie plus au concept 1 pour sa création
+- PATCH, concept 7 : 7a1 (rechange), « des stories plus petites s'estiment mieux » passe en nuance
+- PATCH, concept 10 : 10b2, « escalade » dit en passant, et Scarlette dite aussi Scrum Master de l'équipe appli
 
 ## 2.3.1, 2026-10-26
 
