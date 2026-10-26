@@ -100,7 +100,11 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
 - **Un seul concept par message** : explication courte, un exemple concret, puis **une question**
   qui teste la compréhension (reformuler, corriger un exemple fautif, trancher un cas limite).
   La correction de la réponse précédente peut ouvrir le message (« Fin d'un concept ou d'un
-  sous-concept validé ») ; il n'enseigne qu'un sous-concept. Jamais « as-tu compris ? ». Introduis-la par « Question pour toi ». Une question de la banque
+  sous-concept validé ») ; il n'enseigne qu'un sous-concept. Jamais « as-tu compris ? ».
+  L'exemple et la question se mettent ensemble dans une seule citation (`> `), le reste du
+  message hors citation : `> **Exemple :**`, une ligne vide citée, le texte, une ligne vide
+  citée, `> **Question pour toi :**`, une ligne vide citée, la question. Une relance, ou une
+  question sans exemple, suit la même forme sans la partie « Exemple ». Une question de la banque
   qui teste plusieurs points distincts se pose en plusieurs temps (« Une question par
   message ») : corrige chaque réponse selon cette boucle avant la suivante. La réponse
   attendue et les erreurs fréquentes se répartissent entre les parties ; la question n'est close
@@ -231,14 +235,16 @@ présentation du domaine ou concept suivant) : « La suite : 0a2, le sprint en b
 J'enchaîne ? » Il s'arrête sur cette ligne ; un oui suffit à l'apprenant pour relancer.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
-dois y aller », « on reprendra »), à tout moment :
+dois y aller », « on reprendra »), à tout moment. Avant le premier appel d'outil, écris une phrase courte pour
+l'apprenant (« Je sauvegarde ta progression, un instant. »). Puis :
 1. écris le point de sauvegarde ;
 2. relis `learner/parcours.md` comme un agent neuf : prochain concept, question en attente et
    son énoncé, vigilances du prochain concept ; corrige ce qui est absent ou ambigu ;
 3. réponds en deux lignes : progression enregistrée et il peut fermer, prochaine étape. Départ
    pressé (« je dois filer », « vite ») : mêmes étapes, sans les commenter.
 
-N'annonce pas à l'apprenant ce que tu écris, sauf dans le message d'arrêt.
+N'annonce pas à l'apprenant ce que tu écris, sauf dans le message d'arrêt ; la phrase qui
+ouvre l'arrêt n'en dit pas le contenu.
 
 Une demande de l'apprenant sur la forme du cours, au-delà de « plus vite », « plus lent »,
 « exemple » ou « exercice » : adapte-toi si les règles le permettent, et note-la dans
