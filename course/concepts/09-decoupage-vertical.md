@@ -46,9 +46,9 @@ horizontales.
 ## Sous-concepts
 1. **9a tranche verticale**, en deux messages, chacun avec sa question :
    - **9a1** La tranche qui sert seule (« Redécouper “quelles stations vont se vider ?” ») :
-     d'abord l'origine des mots, puis le schéma. Les couches s'empilent : on les dessine à
+     d'abord l'origine des mots, puis l'image des couches. Les couches s'empilent à
      l'horizontale. Une tranche horizontale est une couche entière ; une tranche verticale
-     coupe toutes les couches de haut en bas. Parts légendées « tranche 1, 2, 3 », jamais
+     coupe toutes les couches de haut en bas. Parts nommées « tranche 1, 2, 3 », jamais
      « story ». Dire en une ligne qu'au niveau du sprint une tranche est une story, et que le
      vertical s'arrête là : ce que deviennent ses tâches, 9a2 le fait trouver (ne pas le dire
      ici). En rechange, ou si l'apprenant croit
@@ -82,12 +82,12 @@ proposés par l'équipe, les tâches de Dana et le compteur de Diego sont des pr
 d'exercice : ils ne deviennent pas des faits du fil rouge.
 
 ### Redécouper « quelles stations vont se vider ? » (9a1)
-- **Explication** : origine des mots, avant le schéma. Les couches d'un produit data
-  s'empilent : on les dessine à l'horizontale (ingestion en bas, restitution en haut). Une
+- **Explication** : d'abord l'origine des mots. Les couches d'un produit data s'empilent à
+  l'horizontale (ingestion en bas, restitution en haut). Une
   tranche horizontale est une couche entière ; elle ne sert pas seule. Une tranche verticale
   coupe toutes les couches de haut en bas, comme une part de gâteau (métaphore qu'on trouve chez
-  Wake) : un peu de chaque couche, et l'utilisateur s'en sert. Schéma : parts « tranche 1, 2,
-  3 ». Au niveau du sprint, une tranche est une story, et le vertical s'arrête là (la suite en
+  Wake) : un peu de chaque couche, et l'utilisateur s'en sert. Les parts se nomment « tranche
+  1, 2, 3 ». Au niveau du sprint, une tranche est une story, et le vertical s'arrête là (la suite en
   9a2, sans dire ici ce que deviennent les tâches).
 - **Situation** : Régis, régulateur, veut savoir quelles stations vont se vider, pour y
   apporter des vélos avant. L'équipe propose : 1. préparer l'historique des relevés (déjà
@@ -121,7 +121,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   - réponse juste sans la suite (« l'état actuel ») : demander « pourquoi celle-là d'abord ? »
     puis « et après ? ». Réponse elliptique : la faire préciser avant de corriger.
 - **Ce qui marche** : le test rapide à voix haute, tranche par tranche (« si on s'arrête là,
-  Régis s'en sert-il demain matin ? »), et le schéma du gâteau légendé « tranche 1, 2, 3 ».
+  Régis s'en sert-il demain matin ? »), et l'image du gâteau, parts nommées « tranche 1, 2, 3 ».
 
 ### Le compteur de relevés ingérés (9a1, rechange)
 - **Explication** : à poser après 9a1, sans rappeler la règle ; la question la fait trouver.
@@ -166,8 +166,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
     (concept 4) ;
   - réponse juste sans le pourquoi (« non, c'est normal ») : demander « pourquoi ? ».
 - **Ce qui marche** : dans la correction, pas avant la question (il donnerait la réponse) :
-  sur le schéma, zoomer sur la tranche 1 et la couper en lamelles horizontales en pointillé,
-  légendées « tâches ».
+  l'image de la tranche 1 coupée en lamelles horizontales : ses tâches.
 
 ### Les tâches de la story d'Abba (9a2, rechange)
 - **Explication** : pour réexpliquer après une réponse fausse à « Les tâches de Dana » : le test

@@ -187,8 +187,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprint est lui-même un événement, celui qui contient les quatre autres : Sprint Planning au
   début, Daily Scrum chaque jour, revue de sprint puis rétrospective à la fin. Chaque événement
   est une occasion d'inspecter le travail et de l'adapter. Pendant le sprint, on ne fait rien
-  qui compromette l'objectif de sprint, et la qualité ne baisse pas. Montrer la frise du
-  schéma (sans l'escalier des incréments, qui vient en 0b).
+  qui compromette l'objectif de sprint, et la qualité ne baisse pas.
 - **Situation** : Diego (data engineer) propose à l'équipe vélos, qui travaille en sprints de
   deux semaines : « Après chaque sprint, on souffle une semaine sans sprint, et on fait la
   rétrospective au retour, à froid. »
@@ -203,8 +202,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - Ne relever que la pause : relancer : « et la rétrospective, à quel moment du sprint
     a-t-elle lieu ? ».
   - Mettre le sprint au même rang que le Sprint Planning ou la revue : le sprint est l'événement
-    qui contient les quatre autres. Réexpliquer avec la frise.
-- **Ce qui marche** : la frise, des blocs collés les uns aux autres.
+    qui contient les quatre autres. Réexpliquer avec l'image d'une frise : des blocs collés les
+    uns aux autres, chacun contenant les quatre événements.
+- **Ce qui marche** : l'image d'une frise, des blocs collés les uns aux autres.
 
 ### Scarlette choisit le travail du sprint (0a2, Sprint Planning)
 - **Explication** : le Sprint Planning ouvre le sprint ; toute l'équipe Scrum y prépare le
@@ -387,8 +387,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - « Livrer avant la fin casse le sprint » : rien n'oblige à attendre ; pendant le sprint, la
     règle est de ne pas compromettre l'objectif de sprint. Réexpliquer.
 - **Ce qui marche** : distinguer le sprint et la livraison grâce à l'incrément (« une durée, ou
-  un état du produit ? ») ; dessiner la frise et l'escalier du schéma, avec une marche le
-  mercredi.
+  un état du produit ? ») ; l'image d'un escalier dont chaque marche est un incrément, avec une
+  marche le mercredi.
 
 ### « Le sprint est livré » (0b, exercice ou creusage)
 - **Explication** : un élément qui ne remplit pas la DoD ne fait pas partie de l'incrément : il

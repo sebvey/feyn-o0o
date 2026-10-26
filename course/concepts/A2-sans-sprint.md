@@ -115,8 +115,8 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « non » sans la suite : demander « et alors, on fait quoi, pour la place et pour l'accès ? » ;
   - le PO qui choisit seul l'élément tiré : l'ordre est à lui, tirer revient aux Developers ;
   - réponse elliptique (« la suivante ») : faire préciser pourquoi avant de corriger.
-- **Ce qui marche** : dessiner une porte d'entrée (la DoR) devant une file où chaque place
-  compte, et une porte de sortie (la DoD).
+- **Ce qui marche** : l'image d'une porte d'entrée (la DoR) devant une file où chaque place
+  compte, et d'une porte de sortie (la DoD).
 
 ### Chacun tire ce qu'il veut (A2b)
 - **Explication** : sans sprint, pas d'objectif de sprint qui donne un pourquoi commun à deux
@@ -204,7 +204,7 @@ propositions d'exercice, pas des faits du fil rouge : l'équipe vélos reste en 
   - « on ne peut rien dire » : la mesure dit déjà quelque chose, avec sa probabilité ;
   - réponse juste sans la suite (ce que le PO dit à Étienne) : relancer par « et que réponds-tu
     à Étienne ? ».
-- **Ce qui marche** : dessiner le temps de cycle comme une flèche qui part du début du flux,
+- **Ce qui marche** : décrire le temps de cycle comme une flèche qui part du début du flux,
   et poser la story d'Étienne avant ce début.
 
 ## Pièges

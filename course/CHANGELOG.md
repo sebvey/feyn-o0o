@@ -32,6 +32,8 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- PATCH, concepts 0, 4, 6, 7, 8, 9, 11, 13, 14, 17 et A2 : les consignes qui faisaient montrer un schéma par le prof, hors des sections « Schéma », sont retirées ou dites en mots (une image décrite) ; le moment du schéma de 13b passe dans sa section « Schéma » ; modèle de concept : « Ce qui marche » ne cite plus le schéma
+
 ## 2.2.0, 2026-10-26
 
 - MINOR, concept 0 : la question de contrôle devient une question de niveau, qui ne fait plus sauter de sous-concept ; plan aligné

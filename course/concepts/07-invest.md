@@ -161,7 +161,7 @@ deviennent pas des faits du fil rouge.
   - laisser les Developers choisir la plage « pour avancer » : ils estiment, ils ne fixent pas le
     besoin ; relancer : « qui peut dire ce que sont les heures de pointe pour cette vue ? ».
 - **Ce qui marche** : demander à l'apprenant de jouer le testeur : « une station vide à 9 h 30,
-  tu la comptes ? ». Puis relier les trois cases E, S, T au même mot (schéma). Relance si
+  tu la comptes ? ». Puis relier les trois lettres E, S, T au même mot. Relance si
   l'apprenant trouve le mot sans dire qui le fixe : « qui peut dire ce que sont les heures de
   pointe pour cette vue ? » ; s'il ne relie pas le mot aux lettres : « lesquelles de E, S, T
   peux-tu vérifier sans lui ? ».
