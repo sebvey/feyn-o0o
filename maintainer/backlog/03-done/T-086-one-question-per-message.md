@@ -44,3 +44,4 @@
   annonçant leur nombre, et présente le domaine 1 après la troisième ; un test de reprise avec un
   `learner/apprenant.md` qui n'a que le surnom pose les deux questions manquantes, une à une,
   avant le rappel de reprise.
+- **Fait le** : 2026-10-26, règle « Une question par message » dans `CLAUDE.md`, accueil une question à la fois, questions d'accueil manquantes signalées par le hook et posées à la reprise, question de niveau du concept 0 en deux temps ; ADR-065 ; tests (accueil, reprise sans réponses, entrée dans le concept 0) conformes ; `course-taught-check` sur le concept 0 : deux constats mineurs antérieurs, ticket T-087.
