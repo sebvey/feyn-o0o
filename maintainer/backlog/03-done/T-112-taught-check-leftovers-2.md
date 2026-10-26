@@ -15,3 +15,4 @@
   epic (concept 4), et il se découpe ici » ; 14, « sponsor, qui porte le budget (2b, repris en
   10b2) ». `course/CHANGELOG.md`.
 - **Fini quand** : les trois formulations sont corrigées.
+- **Fait le** : 2026-10-26, concept 8 (8a1) : la règle 1 s'appuie sur la disponibilité par station de Pia ; concept 9 (9b1) : un besoin trop gros pour un sprint est un epic ; concept 14 : sponsor attribué à 2b. Un tour de `course-taught-check` depuis le concept 8, à la demande du mainteneur : aucun constat aux concepts 8, 9 et 14 ; un constat mineur nouveau (17a, « Fait déjà donné »), corrigé, sans second tour.

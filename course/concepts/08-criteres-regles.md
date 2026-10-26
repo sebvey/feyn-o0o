@@ -81,7 +81,8 @@ rouge. Le prof ne demande jamais à l'apprenant de fixer une règle (un seuil, u
 - **Question** : range chaque phrase : règle métier, critère d'acceptation, ou morceau d'un
   critère.
 - **Réponse attendue** : 1 et 2 sont des règles : elles restent vraies sans cette story, et
-  d'autres s'en servent (1 sert aussi aux vues d'Étienne ; 2 vaut pour tout abonné, quelle
+  d'autres s'en servent (1 sert aussi à la disponibilité par station que Pia veut pour
+  l'appli, concept 3 ; 2 vaut pour tout abonné, quelle
   que soit la story). 3 est un critère : un cas précis, propre à la story, qu'un testeur tranche ; il
   illustre 1 et 2. 4 est un morceau de critère : la contrainte (concept 7b) va dans son contexte
   de départ (le Given, qui vient en 8b1), pour que le testeur vérifie depuis un téléphone

@@ -60,7 +60,8 @@ horizontales.
      story d'Abba ».
 2. **9b patrons de découpage**, en deux messages, une question par message :
    - **9b1** Couche ou tranche (« Prévoir les stations à risque : laquelle est une couche ? ») :
-     une story trop grosse se découpe (concept 4) ; chaque morceau passe le même test qu'en 9a.
+     un besoin trop gros pour un sprint est un epic (concept 4), et il se découpe ici ; chaque
+     morceau passe le même test qu'en 9a.
    - **9b2** Les patrons et leur catalogue (« Prévoir les stations à risque : quel patron ? ») :
      SPIDR (Cohn) et les patrons de Lawrence, choix d'école ; le S de SPIDR (spike) en une
      ligne, renvoi au concept 17. Le morceau a sert d'exemple résolu ; la question porte sur c
@@ -185,7 +186,8 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   l'équipe fait pour le produire (les trois tâches).
 
 ### Prévoir les stations à risque : laquelle est une couche ? (9b1)
-- **Explication** : une story trop grosse pour un sprint se découpe (concept 4). Chaque
+- **Explication** : un besoin trop gros pour un sprint est un epic (concept 4), et il se
+  découpe ici. Chaque
   morceau passe le même test qu'en 9a : sert-il seul à l'utilisateur ?
 - **Situation** : tranche suivante pour Régis, « prévoir les stations à risque ». Les Developers
   (Dana, Diego, Anna) l'estiment trop grosse pour un sprint et proposent trois morceaux :
