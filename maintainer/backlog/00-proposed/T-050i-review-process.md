@@ -1,7 +1,6 @@
 # T-050i : Définir le processus de relecture du cours
 
 - **Créé le** : 2026-10-24
-- **Parent** : T-050
 - **Dépend de** : T-050h
 - **Constat** : la relecture de contrôle du cours (T-050h) doit être orchestrée : trop de fiches et de contrôles pour une seule conversation, et on veut la rejouer à chaque MINOR du cours sur les seules fiches modifiées. L'orchestration sert aussi à tenir le contexte léger. Les relectures déjà faites (T-050a : cinq audits par groupes de fiches ; T-051 : quatre groupes puis quatre relecteurs neufs) ont fonctionné par groupes de fiches avec des agents neufs.
 - **À faire** : définir le processus, sans le lancer :

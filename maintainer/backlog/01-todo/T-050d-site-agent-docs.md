@@ -1,7 +1,6 @@
 # T-050d : Documenter le dépôt du site pour un agent
 
 - **Créé le** : 2026-10-24
-- **Parent** : T-050
 - **Dépend de** : T-056
 - **Constat** : `../parcours-po-website` n'a ni `CLAUDE.md` ni documentation ; un agent neuf ne saurait ni réaligner le contenu, ni enrichir une page, ni retoucher la forme, ni maintenir le dépôt.
 - **À faire** : dans `../parcours-po-website`, en français (noms de fichiers et de dossiers en anglais), chaque règle à un seul endroit :

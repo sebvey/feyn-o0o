@@ -1,7 +1,6 @@
 # T-050h : Écrire les contrôles de qualité du cours
 
 - **Créé le** : 2026-10-24
-- **Parent** : T-050
 - **Dépend de** : T-052
 - **Constat** : le mainteneur veut une grosse relecture de contrôle du cours une fois celui-ci stabilisé (après T-050b, tag `course-v1.0.0`), puis des relectures ciblées à chaque MINOR, et que la maintenance du cours s'appuie sur une référence de qualité unique. Les règles existent déjà, éparses : `course/templates/concept.md`, `course/plan.md`, `course/fil-rouge-velos.md`, `course/glossary.md`, les ADR de `maintainer/adr/` (dont ADR-037), `CLAUDE.md`. Décisions du 2026-10-24 : fichier `maintainer/quality/course-quality-controls.md`, scripts pour les contrôles mécaniques dans le même dossier, règle de chargement dans le skill `maintenance` et non dans `CLAUDE.md` (chargé à chaque session de cours), référence de la qualité du contenu et non de la qualité de l'enseignement (celle-ci vient des diagnostics de session).
 - **À faire** :

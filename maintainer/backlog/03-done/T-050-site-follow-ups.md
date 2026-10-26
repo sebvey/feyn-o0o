@@ -1,0 +1,26 @@
+# T-050 : Suites de la première version du site
+
+- **Créé le** : 2026-10-24
+- **Constat** : la première version du site est construite en local (`../parcours-po-website`, 34 commits, rien de publié, relue par des agents seulement). Session de discussion du 2026-10-24, point par point avec le mainteneur. Écart relevé : le site raconte des exemples différents de ceux des fiches du cours (9b, fiches 02 et 04, une quarantaine de passages généralisés), pour ne pas dévoiler les réponses d'exercice.
+- **Décisions du mainteneur** :
+  - le site n'a pas besoin de protéger les réponses d'exercice (la banque reste côté agent, et les fiches du cours sont déjà lisibles) ; le site devient une projection du cours : même fond, banque exclue ;
+  - le site garde sa liberté sur la forme (schémas, composants, mise en page, parcours de lecture, pages d'orientation) ; tout nouveau contenu d'enseignement passe d'abord par le cours ;
+  - règle pédagogique à poser dans le cours : le texte qui explique n'utilise pas le cas de l'exercice qui suit ;
+  - source de vérité : le cours (prose) ; le site garde la trace de la fiche dont chaque page dérive, et un script liste les pages à réaligner ;
+  - versionnage : MAJOR du site égal à MAJOR du cours ; MAJOR du cours = changement qui casse les identifiants (numéros de concept, sous-concepts, adresses) ou les objectifs ; MINOR libre de chaque côté ; le site est en `MAJOR.MINOR.PATCH` et affiche la version du cours sur laquelle il est aligné ;
+  - publication en deux temps : `v0.1.0` en aperçu (`noindex`, sans lien), puis la mise en ligne au MAJOR du cours ;
+  - dépôt `sebvey/parcours-po-website`, licence MIT pour le code, CC BY 4.0 pour le contenu.
+- **Sous-tickets** (tous clos) :
+  - T-050a : règle de non-recoupement et reprise des fiches du cours ;
+  - T-051 : resynchroniser les fiches de sources avec les fiches de concept ;
+  - T-050b : versionner le cours ;
+  - T-053 : trancher les désaccords entre fiches et les sources perdues, puis réaligner le site ;
+  - T-054 : remonter dans le cours le contenu d'enseignement propre au site ;
+  - T-050c : versionnage et alignement côté site ;
+  - T-050e : documenter la fabrication du site ;
+  - T-050f : publier l'aperçu `v0.1.0` ;
+  - T-050j : outiller et documenter le dépôt du site, hors réalignement ;
+  - T-050g : mise en ligne `v2.0.0` et renvoi du prof vers les pages.
+- **Détachés** (2026-10-26, à la clôture) : T-056 (organisation du cours et du site, une source et deux sorties), T-050d (réalignement documenté et skill `align-with-course`), T-050h (contrôles de qualité du cours) et T-050i (processus de relecture du cours) deviennent des tickets autonomes, chacun avec sa dépendance ; ils gardent leur numéro.
+- **Fini quand** : les sous-tickets sont clos.
+- **Fait le** : 2026-10-26, dix sous-tickets clos, site en ligne en 2.0.0 (https://sebvey.github.io/parcours-po-website/) ; T-056, T-050d, T-050h et T-050i détachés.
