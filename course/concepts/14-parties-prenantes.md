@@ -70,8 +70,9 @@ ordre.
    canal d'Abba ».
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
-n'ordonne pas le backlog (concept 0a1) ; partie prenante, sponsor, le PO seul ordonne, qui veut
-changer l'ordre le convainc, une seule personne, pas un comité (0a1, 1b) ; les consommateurs de données sont des
+n'ordonne pas le backlog (concept 0a1) ; partie prenante, le PO seul ordonne, qui veut changer
+l'ordre le convainc, une seule personne, pas un comité (0a1, 1b) ; sponsor, qui porte le budget
+(2b, repris en 10b2) ; les consommateurs de données sont des
 utilisateurs (1a) ; un seul objectif produit (2b) ; une demande ne se traite pas en direct (3) ;
 la règle non fixée que le PO fait fixer (8a2) ; dépendance envers une autre équipe, s'accorder
 avec Pia (10b2) ; DoR et accès obtenu (11b) ; quelles colonnes demander (12c) ; ordonner, coût

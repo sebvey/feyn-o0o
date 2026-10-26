@@ -32,6 +32,10 @@ Les changements du cours en attente de publication s'inscrivent ici, une ligne p
 `- CATÉGORIE, concept ou fichier : ce qui change`. Le mainteneur décide de publier : la section
 devient `## X.Y.Z, date`, le tag est posé, et une nouvelle section « Non publié » vide s'ouvre.
 
+- PATCH, concept 8 : 8a1, la règle 1 s'appuie sur la disponibilité par station que Pia veut pour l'appli, plus sur les vues d'Étienne
+- PATCH, concept 9 : 9b1, « un besoin trop gros pour un sprint est un epic (concept 4) » remplace « une story trop grosse »
+- PATCH, concept 14 : « Déjà enseigné » attribue le sponsor à 2b (repris en 10b2)
+
 ## 2.4.0, 2026-10-26
 
 - MINOR, concept 12 : 12a1, la situation donne le propriétaire des relevés (système des bornes, via la DSI) ; la réponse attendue juge la source à moitié juste sans lui, et le corrigé le cite
