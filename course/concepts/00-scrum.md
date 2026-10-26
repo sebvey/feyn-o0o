@@ -436,7 +436,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   - Laisser passer « le sprint est livré » comme une façon de parler : la formule entretient la
     confusion entre la durée et l'incrément. Relancer : « Diego dit « le sprint est livré » :
     qu'est-ce qui se livre ? ».
-- **Ce qui marche** : le test rapide, appliqué à la vue.
+- **Ce qui marche** : poser le test rapide en le formulant, appliqué à la vue : « Si on la livrait
+  maintenant, un utilisateur pourrait-il s'en servir, et la DoD serait-elle remplie ? »
 
 ## Pièges
 - « On livre un sprint » : erreur fréquente en formation. On livre des incréments ; le sprint
