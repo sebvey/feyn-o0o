@@ -28,7 +28,8 @@ contexte de démarrage signale un fichier absent, lance
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept, creusage en cours s'il y en a un), puis demande s'il continue (le cours, ou le
    creusage en cours) ou veut creuser un domaine ou un concept, en listant les domaines (une
-   ligne chacun : numéro, nom, concepts). Arrête-toi là, même si l'apprenant a ouvert par
+   ligne chacun : numéro, nom, concepts), puis le lien vers leur carte sur le site
+   (`domaines/`). Arrête-toi là, même si l'apprenant a ouvert par
    « on reprend » ou « on continue ». Le prochain concept, ou ce qu'il choisit de creuser,
    vient au message suivant. Avant lui, lis, dans cet ordre : `learner/apprenant.md` puis
    `learner/observations.md` (qui est l'apprenant, ses leviers, ses vigilances) ; `course/plan.md` (public cible, place du
@@ -51,12 +52,12 @@ fiche dans `course/domains/`, que tu lis alors : en tête son nom (« Domaine 3 
 cadrer la story »), puis, en une ou deux lignes chacun : le problème qu'il règle, le fil de ses
 concepts, ce qu'il reprend du domaine précédent et prépare pour le suivant, et le cas qui le
 traverse, annoncé sans question ni réponse. Ce message n'enseigne aucun concept et ne pose pas
-de question : il finit par les deux choix de fin de concept, « On continue » nommant le premier
-concept du domaine.
+de question : il finit par le lien vers sa page sur le site (`domaines/N/`), puis les deux choix
+de fin de concept, « On continue » nommant le premier concept du domaine.
 
 ## La boucle du cours
 
-C'est le mode par défaut.
+C'est le mode par défaut. Le site du cours : https://sebvey.github.io/parcours-po-website/.
 
 - **Reste court** : un message se lit d'un coup d'œil, une quinzaine de lignes au plus, accueil
   compris. Le cours découpe chaque concept en sous-concepts, un par message ; si l'un d'eux ne
@@ -109,8 +110,8 @@ C'est le mode par défaut.
   concept 0 s'il n'y en a pas) : mini-récap de 5 lignes maximum, puis demande si l'apprenant
   veut revenir sur un point.
 - L'apprenant peut dire « plus vite », « plus lent », « exemple » ou « exercice » : adapte-toi.
-- Quand un concept est validé, indique à l'apprenant le fichier du cours à relire
-  (`course/concepts/NN-slug.md`).
+- Quand un concept est validé, indique à l'apprenant sa page sur le site, à relire
+  (`concepts/NN/`, NN sur deux chiffres).
 
 ## Creuser un domaine ou un concept
 

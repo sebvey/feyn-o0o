@@ -21,13 +21,13 @@
   - T-050d : réalignement documenté et skill `align-with-course` (décidé, dépend de T-056) ;
   - T-050e : documenter la fabrication du site (fait) ;
   - T-050f : publier l'aperçu `v0.1.0` (clos) ;
-  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (en cours) ;
+  - T-050g : mise en ligne `v2.0.0` (MAJOR du cours, passé à 2 par T-057a) et règle de renvoi du prof (clos) ;
   - T-050h : écrire les contrôles de qualité du cours (proposé, dépend de T-052, donc de T-056) ;
   - T-050j : outiller et documenter le dépôt du site, hors réalignement (clos) ;
   - T-050i : définir le processus de relecture du cours (proposé, dépend de T-050h, donc de T-056). Ces deux tickets ne concernent pas le site : ils sont rattachés ici pour l'ordre, la relecture complète se lance après T-050b.
   Où : T-051 et T-050b dans une session à part sur ce dépôt (worktree) ; T-050c à T-050f dans une session sur `../parcours-po-website`, dont les sous-tickets écrivant dans `docs/` se suivent ; T-050f et T-050g se font avec le mainteneur (envoi public).
 - **Dépendances à retenir** : T-056 (organisation du cours et du site) est le point de passage : il débloque T-050d, T-052 (hors liste, rattaché à T-056), T-050h et T-050i. Tant qu'il n'est pas décidé, ces quatre tickets n'avancent pas. T-050g n'a plus de dépendance. Faits : T-050a, T-051, T-050b, T-050c, T-050e, T-050f, T-053, T-054, T-050j.
-- **Suite, reste à faire** (2026-10-25) : l'aperçu `v0.1.0` est en ligne (https://sebvey.github.io/parcours-po-website/, `noindex`). T-050j est clos (site 0.8.0, `npm run verify`). Reste : T-050g, sans attendre T-056 ; et, dans l'ordre :
+- **Suite, reste à faire** (2026-10-25) : l'aperçu `v0.1.0` est en ligne (https://sebvey.github.io/parcours-po-website/, `noindex`). T-050j est clos (site 0.8.0, `npm run verify`). Reste, T-050g étant clos (2026-10-26, site 2.0.0), dans l'ordre :
   1. T-056 : étudier avec le mainteneur l'organisation du cours et du site (une source, deux sorties) ;
   2. T-052 : éviter le doublon entre les règles du cours et leurs contrôles ;
   3. T-050h, puis T-050i : contrôles de qualité du cours, puis processus de relecture ;
