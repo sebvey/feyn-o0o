@@ -74,8 +74,10 @@ ne deviennent pas des faits du fil rouge.
   dit ce que l'équipe fera ensuite. Le Scrum Guide dit « ordonné » plutôt que « priorisé » :
   une priorité laisse des ex aequo, un ordre non. L'ordre se justifie par l'objectif produit.
 - **Situation** : les demandes arrivent en vrac : Étienne veut une vue des vélos en panne, Maud
-  veut qu'un vélo signalé en panne ne soit plus louable, Charlotte veut comparer les locations par
-  quartier au même mois de l'an dernier, Pia veut la disponibilité par station pour l'appli.
+  (responsable maintenance) veut qu'un vélo signalé en panne ne soit plus louable, Charlotte
+  (chargée de mission mobilité à la collectivité) veut comparer les locations par quartier au
+  même mois de l'an dernier, Pia (PO de l'équipe appli) veut la disponibilité par station pour
+  l'appli.
   Diego propose de leur donner à chacune une priorité, haute, moyenne ou basse. Trois sont
   « haute ».
 - **Question** : Que proposes-tu à Diego à la place de ces priorités ?
@@ -83,7 +85,7 @@ ne deviennent pas des faits du fil rouge.
   d'abord : la question revient à chaque Sprint Planning. Un ordre donne à chaque demande une
   place unique, et le PO dit pourquoi ce rang : en quoi la demande rapproche (ou non) de
   l'objectif produit, des stations du centre-ville moins longtemps vides aux heures de pointe.
-  Nuance : l'ordre lui-même (sécurité, échéance du conseil) se travaille au
+  Nuance : l'ordre lui-même (un risque pour la sécurité, une échéance) se travaille au
   concept 13 ; ici, on retient qu'une liste ordonnée tranche là où des priorités laissent des
   égalités.
 - **Erreurs fréquentes** :
@@ -121,7 +123,7 @@ ne deviennent pas des faits du fil rouge.
   l'équipe prendra aux prochains Sprint Planning ; le bas reste une ligne qui dit le besoin
   (Charlotte veut comparer à l'an dernier). Nuance : « vague » ne veut pas dire vide ; on garde
   assez pour comprendre la demande et la placer dans l'ordre. Le travail qui précise les
-  éléments a un nom, vu au concept 15.
+  éléments a un nom, qui viendra au concept 15.
 - **Erreurs fréquentes** :
   - « un backlog bien écrit est détaillé partout » : réflexe de spécification complète, que 3b
     reprend sous le nom de cahier des charges (ne pas l'enseigner ici). Relancer : « quand cet
@@ -233,7 +235,7 @@ ne deviennent pas des faits du fil rouge.
 - **Situation** : situation d'exercice : au bas du backlog dort depuis des mois l'élément
   « passer les relevés des stations en streaming », créé quand Dana l'a proposé (concept 1),
   avant que personne ait vérifié le besoin. La plateforme se rafraîchit
-  toutes les 5 minutes, sous la cible de fraîcheur de 15 minutes, et personne n'a redemandé de
+  toutes les 5 minutes, sous la cible de fraîcheur (l'âge des données quand on les lit) de 15 minutes, et personne n'a redemandé de
   données plus fraîches. Diego : « Il est au backlog, il faudra bien le faire un jour. »
 - **Question**, en deux parties : « Diego a-t-il raison ? », puis « Que fais-tu de cet
   élément ? »

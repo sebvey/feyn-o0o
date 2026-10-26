@@ -57,7 +57,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
    - **0a3 les artefacts et leurs engagements**, en un message.
 4. **0b sprint et incrément** : le sprint est une durée qui contient les événements ;
    l'incrément est le produit dans un nouvel état utilisable, qui naît dès qu'un élément remplit
-   la DoD, s'ajoute aux précédents, et peut être livré avant la fin du sprint.
+   la DoD, s'ajoute aux précédents, et peut être livré avant la fin du sprint ; un élément qui ne
+   remplit pas la DoD n'en fait pas partie (ni livré ni présenté à la revue, il retourne au
+   backlog produit). Le message de 0b pose « La vue des stations vides livrée un mercredi » ;
+   « « Le sprint est livré » » sert d'exercice ou de creusage.
 
 ## Banque d'exemples
 
@@ -67,8 +70,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   futur visé du produit, détaillé en 0a3). Elle s'organise elle-même : elle décide en interne qui
   fait quoi, quand et comment. Elle porte trois responsabilités, chacune vue en détail dans un
   message à elle : le **Product Owner** (PO) répond de la valeur du produit et du backlog (la
-  liste ordonnée de ce qu'il faut pour améliorer le produit, vue en 0a3) ; les **Developers**
-  réalisent l'incrément (le produit dans un nouvel état utilisable, vu en 0b) ; le **Scrum
+  liste ordonnée de ce qu'il faut pour améliorer le produit, détaillée en 0a3) ; les **Developers**
+  réalisent l'incrément (le produit dans un nouvel état utilisable, détaillé en 0b) ; le **Scrum
   Master** répond de l'efficacité de l'équipe.
   Une responsabilité dit de quoi chacun répond, pas qui commande.
 - **Situation** : dans l'équipe vélos, Dana et Diego sont data engineers, Anna analyste,
@@ -129,7 +132,8 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   sprint vise, fixé à son début, détaillé en 0a3) ; se tenir responsables les uns envers les
   autres. Comment transformer un élément du backlog en incrément, eux seuls le décident.
 - **Situation** : dans l'équipe vélos, Dana et Diego (data engineers) construisent les
-  pipelines ; Anna (analyste) calcule les indicateurs et les analyses publiés dans les vues de
+  pipelines ; Anna (analyste) calcule les indicateurs (les valeurs que la plateforme calcule pour ses
+  utilisateurs) et les analyses publiés dans les vues de
   la plateforme. Odile (directrice des opérations) prépare un schéma de l'équipe pour le comité
   de direction : « Developers : Dana et Diego. À part : Anna, analyste, puisqu'elle ne construit
   pas les pipelines. »
@@ -151,10 +155,10 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Explication** : le Scrum Master répond de l'efficacité de l'équipe Scrum, et de la mise en
   place de Scrum tel que le décrit le Scrum Guide. Il sert l'équipe : il l'aide à s'organiser
   elle-même, à se concentrer sur des incréments qui remplissent la DoD, fait lever les obstacles à
-  son avancement, et veille à ce que les événements (les rendez-vous fixes du sprint, vus en 0a2)
+  son avancement, et veille à ce que les événements (les rendez-vous fixes du sprint, détaillés en 0a2)
   aient lieu, soient utiles et tiennent leur durée. Il sert le PO : il l'aide à trouver des
   techniques pour l'objectif produit et le backlog, et facilite la collaboration avec les parties
-  prenantes (toute personne ou équipe concernée par le produit, vues au concept 1). Il sert
+  prenantes (toute personne ou équipe concernée par le produit, reprises au concept 1). Il sert
   l'organisation, en l'aidant à adopter Scrum. Il n'est pas le chef de l'équipe.
 - **Situation** : Étienne (responsable d'exploitation) relance Scarlette, la Scrum Master, sur la
   vue des vélos en panne. Scarlette, qui anime les événements de l'équipe, la remonte en tête du
@@ -362,7 +366,9 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
 - **Explication** : le sprint est une durée, qui contient les événements ; l'incrément est le
   produit dans un nouvel état utilisable. Dès qu'un élément remplit la DoD, un incrément naît ;
   il s'ajoute aux précédents. Un sprint peut en produire plusieurs, et on peut livrer un incrément avant la fin du sprint : la
-  revue de sprint n'est pas une porte de mise en production.
+  revue de sprint n'est pas une porte de mise en production. Un élément qui ne remplit pas la
+  DoD ne fait pas partie de l'incrément : il n'est ni livré ni présenté à la revue, et retourne
+  au backlog produit, où le PO l'ordonne avec le reste.
 - **Situation** : sprint de deux semaines de l'équipe vélos. Le mercredi de la deuxième semaine,
   la vue des stations vides remplit la DoD (elle affiche l'heure de sa dernière mise à jour) et
   elle est livrée : Étienne peut s'en servir. Dana objecte : « On aurait dû attendre la revue de
@@ -384,7 +390,7 @@ durée ; l'incrément est le produit dans un nouvel état utilisable, qui rempli
   un état du produit ? ») ; dessiner la frise et l'escalier du schéma, avec une marche le
   mercredi.
 
-### « Le sprint est livré » (0b)
+### « Le sprint est livré » (0b, exercice ou creusage)
 - **Explication** : un élément qui ne remplit pas la DoD ne fait pas partie de l'incrément : il
   n'est ni livré ni présenté à la revue de sprint, et retourne au backlog produit, où le PO
   l'ordonne avec le reste.

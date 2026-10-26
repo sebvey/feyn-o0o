@@ -58,8 +58,9 @@ ordonne ; envers une autre équipe, il s'accorde avec le PO de cette équipe sur
 Déjà enseigné, à rappeler sans le réenseigner : V et I d'INVEST, les Developers estiment la
 taille (concept 7) ; une story tient dans un sprint (concept 4) ; le PO ordonne seul le backlog
 (concepts 1 et 3) ; la revue de sprint (concept 0) ; la règle non fixée que le PO fait fixer
-(concept 8a2) ; la tranche verticale (concept 9). Pas encore enseignés, nommés avec renvoi :
-données du produit (12), ordonner (13), parties prenantes et escalade (14), préciser une story
+(concept 8a2) ; la tranche verticale (concept 9) ; les parties prenantes (concept 1 ; la
+cartographie complète au concept 14). Pas encore enseignés, nommés avec renvoi :
+données du produit (12), ordonner (13), escalade (14), préciser une story
 avant le sprint et revue de sprint en détail (15).
 
 ## Banque d'exemples

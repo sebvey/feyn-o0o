@@ -102,7 +102,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   tour (9b). Nuances : la tranche 1 ne répond qu'en partie au besoin (Régis arrive après que
   la station s'est vidée) ; elle sert seule quand même. Ce qu'est une station vide (vélos à
   quai ou disponibles) n'est pas fixé : c'est une règle à faire fixer, la story attend sur ce
-  point (concept 8a2). La forme (carte, liste) reste aux Developers : la story dit ce que Régis obtient (concept 5). Si l'apprenant
+  point (concept 8a2). La forme (carte, liste) reste aux Developers : la story dit ce que Régis obtient (concepts 5 et 7b). Si l'apprenant
   rappelle que la vue des stations vides d'Étienne existe déjà : c'est juste ; la première
   tranche pour Régis est alors l'accès à cet état, et la tranche suivante est la prévision.
 - **Erreurs fréquentes** :
@@ -112,7 +112,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
     vider, avec juste les données brutes ») : confondre tranche fine et prévision au rabais ;
     dire ce qui est juste (une tranche fine, sans modèle), puis demander « avec seulement les
     relevés bruts, que verrait Régis demain matin ? » ;
-  - écrire « afficher la carte » dans la tranche : la forme est une solution (concept 5) ;
+  - écrire « afficher la carte » dans la tranche : la forme est une solution (concept 7b) ;
   - fixer soi-même « vide = 0 vélo à quai », ou ajouter les stations presque vides avec un seuil
     de 3 vélos : règles non fixées, renvoi au concept 8a2 sans le réexpliquer ;
   - objecter que les relevés sont déjà collectés : c'est juste, et c'est pourquoi la couche 1
@@ -200,8 +200,9 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
   qui tient compte de la pluie). a et c sont verticales : chacune traverse les couches et livre
   à Régis une prévision qu'il peut consulter ; son utilité reste une hypothèse à vérifier.
   Nuance : savoir si la tendance de la dernière heure suffit, et si la pluie
-  change vraiment les départs, n'est pas tranché ici ; on le vérifie avant de s'engager
-  (exploration bornée, concept 17).
+  change vraiment les départs, n'est pas tranché ici ; on le vérifie avant de s'engager,
+  par une exploration bornée (un travail court, limité dans le temps, qui répond à une question
+  sans livrer de fonction ; concept 17).
 - **Erreurs fréquentes** :
   - désigner a, « parce que ce n'est qu'une partie des stations » : un périmètre réduit reste
     vertical s'il sert seul ; relancer : « si on livre seulement a, que voit Régis ? » ;
@@ -260,7 +261,7 @@ d'exercice : ils ne deviennent pas des faits du fil rouge.
 - **Légender une part « story »** : une tranche est une façon de découper ; elle n'est une
   story qu'au niveau du sprint.
 - **Nommer la forme dans la tranche** (un écran, un export) : la story dit ce que
-  l'utilisateur obtient ; la forme reste aux Developers (concept 5). Une story qui ne nomme pas
+  l'utilisateur obtient ; la forme reste aux Developers (concepts 5 et 7b). Une story qui ne nomme pas
   l'écran livre quand même quelque chose de visible.
 - **Fixer une règle en découpant** (« presque vide », « heures de pointe ») : règle
   non fixée, le PO la fait fixer (concept 8a2).

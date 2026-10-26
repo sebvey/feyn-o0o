@@ -67,15 +67,16 @@ moment compte, on raisonne en **coût du retard** (ce qu'on perd à livrer plus 
    MoSCoW ? ».
 
 Déjà enseigné, à rappeler sans le réenseigner : le Scrum Master aide à lever les obstacles, il
-n'ordonne pas le backlog (concept 0a1) ; le PO seul ordonne, qui veut changer l'ordre le
-convainc, pas de vote (1b) ; l'objectif produit, un seul à la fois, et sa mesure de résultat aux
+n'ordonne pas le backlog (concept 0a1) ; partie prenante, le PO seul ordonne, qui veut changer l'ordre le
+convainc, pas de vote (1b) ; Sprint Planning et revue de sprint, leur but et qui y décide quoi
+(0a2) ; l'objectif produit, un seul à la fois, et sa mesure de résultat aux
 points non fixés (2) ; liste ordonnée et non priorités, une demande ne se traite pas en direct
 (3) ; les Developers estiment la taille (7) ; la règle non fixée que le PO fait fixer (8a2) ;
 reporter un morceau de faible valeur (9b2) ; la demande de Maud entre au backlog à la revue
 (10a2) ; dépendance entre deux stories, s'accorder avec l'autre équipe (10b) ; la DoR et l'accès
 obtenu (11b) ; définition d'un indicateur et accès aux données (12). Pas encore enseignés,
-nommés avec renvoi : parties prenantes, dire non et escalade (14), préciser une story avant le
-sprint, Sprint Planning et revue de sprint (15), première version et prévision « pour quand ? »
+nommés avec renvoi : identifier les parties prenantes, dire non et escalade (14), préciser une
+story avant le sprint, ce que le PO prépare au Sprint Planning et mène à la revue (15), première version et prévision « pour quand ? »
 (16), hypothèses et exploration (17), outil du backlog (annexe A1).
 
 ## Banque d'exemples

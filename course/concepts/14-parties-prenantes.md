@@ -75,8 +75,9 @@ changer l'ordre le convainc, pas de vote (1b) ; les consommateurs de données so
 utilisateurs (1a) ; un seul objectif produit (2b) ; une demande ne se traite pas en direct (3) ;
 la règle non fixée que le PO fait fixer (8a2) ; dépendance envers une autre équipe, s'accorder
 avec Pia (10b2) ; DoR et accès obtenu (11b) ; quelles colonnes demander (12c) ; ordonner, coût
-du retard (13). Pas encore enseignés, nommés avec renvoi : Sprint Planning et revue de sprint
-(15), prévision « pour quand ? » (16c), annexe A1.
+du retard (13) ; Sprint Planning et revue de sprint, leur but et qui y décide quoi (0a2). Pas
+encore enseignés, nommés avec renvoi : ce que le PO prépare au Sprint Planning et mène à la
+revue (15), prévision « pour quand ? » (16c), annexe A1.
 
 ## Banque d'exemples
 
@@ -102,7 +103,9 @@ ils ne deviennent pas des faits du fil rouge.
   touchée par lui (définition large, Freeman, en management). Le cours range celles d'un produit
   data en cinq catégories : utilisateurs, financeur, sponsor, équipes voisines, et
   **fournisseurs de données**, ceux dont le produit tire ses données. Un même acteur peut en
-  cumuler plusieurs. Choix d'école : la grille pouvoir et intérêt, souvent attribuée à Mendelow
+  cumuler plusieurs. L'équipe Scrum elle-même (PO, Scrum Master, Developers) n'en fait pas
+  partie : le Scrum Guide distingue l'équipe et les parties prenantes à qui elle présente son
+  travail à la revue de sprint (concept 0a2). Choix d'école : la grille pouvoir et intérêt, souvent attribuée à Mendelow
   (attribution discordante), classe ensuite chacun selon son pouvoir et son intérêt.
 - **Situation** : un nouvel arrivant demande qui sont les parties prenantes de la plateforme.
   Anna, analyste, répond : « Étienne, Régis, Théo, Maud, Abba, Charlotte, Odile et Scarlette. »
@@ -166,7 +169,7 @@ ils ne deviennent pas des faits du fil rouge.
   échéance proche change le coût du retard, concept 13b). Nuances : dire ce que tu fais pour
   l'accès qui manque aide Charlotte, mais c'est la question de 14c, non attendue ici ; si Charlotte
   apporte un fait nouveau, revoir l'ordre n'est pas céder, c'est ordonner ; ce sont les
-  Developers qui choisissent ce qui entre au sprint, avec le PO (concept 15). Une mauvaise
+  Developers qui choisissent ce qui entre au sprint, avec le PO (vu en 0a2, repris au concept 15). Une mauvaise
   réponse promet, cache l'ordre, ou s'abrite derrière « c'est moi qui décide ».
 - **Erreurs fréquentes** :
   - promettre à Charlotte et à Pia le même sprint, ou « un peu de chaque » : la poire coupée en

@@ -193,9 +193,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   pas obtenu, et sans
   lui les Developers ne peuvent pas la finir dans le sprint. Au planning, le PO propose à la
   place une story prête ; les Developers choisissent. Et il fait avancer l'accès : relancer
-  Sid, et voir ce qui bloque (la DSI demande de justifier chaque colonne : quelles colonnes
-  demander, concept 12c) ; si l'accès bloque sprint après sprint, escalader (concept 14).
-  Nuance : Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
+  Sid, et voir ce qui bloque ; si l'accès bloque sprint après sprint, escalader (concept 14).
+  Nuances, à apporter dans la correction : ce qui bloque, ici, c'est que la DSI demande de
+  justifier chaque colonne (quelles colonnes demander : concept 12c). Mike Cohn veut une DoR faite de repères plus que de règles, mais une dépendance
   envers une autre équipe est le cas où il admet qu'une règle stricte peut se justifier. Un
   « sûrement » ne lève pas la dépendance.
 - **Erreurs fréquentes** :
@@ -224,8 +224,9 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   pourquoi ?
 - **Réponse attendue** : rien des trois ajouts. Exiger toutes les questions réglées et une
   maquette validée, c'est vouloir la story entièrement spécifiée avant le sprint : la
-  conversation continue pendant le sprint (les 3C, concept 5), et l'équipe peut encore
-  préciser une story au Sprint Planning (Scrum Guide). Le schéma des tables est le comment des
+  conversation continue pendant le sprint (les 3C, concept 5 ; la solution se construit jusque
+  pendant la réalisation, concept 7b), et l'équipe peut encore préciser une story au Sprint
+  Planning (Scrum Guide, à apporter en nuance s'il ne le dit pas). Le schéma des tables est le comment des
   Developers (concept 1), pas une condition d'entrée. Ce qu'une DoR peut exiger : ce sans quoi
   la story ne peut pas avancer, comme une dépendance externe levée (l'accès). Nuance : choix
   d'école ; une équipe peut tenir une DoR plus stricte si elle s'en sert comme repère. La DoR
@@ -234,7 +235,7 @@ exemple ne les fixe. Le prof ne demande jamais à l'apprenant de fixer une règl
   - « plus la DoR est complète, mieux c'est » : demander « combien de stories passeraient la
     porte au prochain planning ? » ;
   - garder la maquette « pour éviter les surprises » : la forme de la vue se discute avec les
-    Developers (concept 5) ; relancer : « sans la maquette validée, qu'est-ce que l'équipe ne
+    Developers (concept 7b) ; relancer : « sans la maquette validée, qu'est-ce que l'équipe ne
     pourrait vraiment pas faire ? ».
 - **Ce qui marche** : demander ce que l'équipe ne pourrait vraiment pas faire sans chaque
   condition.

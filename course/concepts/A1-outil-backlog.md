@@ -51,8 +51,8 @@ d'une version à l'autre.
 ## Sous-concepts
 Annexe hors de l'ordre des concepts : chaque sous-concept se donne seul, quand l'apprenant en a
 besoin, dans la boucle du cours (explication, exemple, question). Pas de rechange obligatoire.
-1. **A1a les niveaux dans l'outil** (après 4a3, ou quand l'apprenant demande comment régler ses
-   niveaux) : les niveaux par défaut de Jira et d'Azure DevOps ; l'équipe en choisit peu ; le
+1. **A1a les niveaux dans l'outil** (après 4a3, de soi-même ou quand l'apprenant demande comment
+   régler ses niveaux ; avant 4a3, répondre en aparté et renvoyer au concept 4) : les niveaux par défaut de Jira et d'Azure DevOps ; l'équipe en choisit peu ; le
    niveau de trop se règle dans l'outil, sans le retirer forcément (« Coincés avec le niveau
    Feature ? »).
 2. **A1b les liens de dépendance** (après 10b2) : le lien note une dépendance entre deux
@@ -61,7 +61,8 @@ besoin, dans la boucle du cours (explication, exemple, question). Pas de rechang
    PO : la disponibilité par station vient de la plateforme, le canal relève de cette équipe) ;
    il ne remplace pas la conversation
    avec l'autre PO (« Dana a tracé le canal d'Abba »).
-3. **A1c les états** (après 11, ou quand l'équipe règle son tableau) : choix d'équipe,
+3. **A1c les états** (après 11, de soi-même ou quand l'équipe règle son tableau ;
+   avant 11, répondre en aparté et renvoyer au concept 11) : choix d'équipe,
    modifiables ; « fait » veut dire DoD remplie ; un état « prêt » reste un repère, pas une
    barrière (« Le tableau proposé par Diego »).
 
@@ -90,8 +91,9 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   peut être désactivé (réglage du processus, qui touche tous les projets qui l'emploient). Dans
   Jira, un niveau entre Epic et Story (Feature, par exemple) a été ajouté ou renommé chez
   l'équipe ; la hiérarchie se règle pour tous les espaces gérés par l'entreprise du site, et la
-  changer casse les liens parent et enfant existants. Si l'apprenant est dans Jira, poser la
-  situation dans Jira avec ces deux faits.
+  changer casse les liens parent et enfant existants. Dans les deux outils, le PO dit ce qu'il
+  veut et pourquoi, l'équipe choisit ses niveaux, l'administrateur de l'outil fait le réglage.
+  Si l'apprenant est dans Jira, poser la situation dans Jira avec ces deux faits.
 - **Situation** : dans cet exercice, l'équipe vélos travaille dans Azure DevOps, en processus
   Agile. Après quelques sprints, quatre des cinq features des vues d'Étienne ne contiennent
   qu'une story. Diego : « Azure ne permet pas de supprimer le niveau Feature : on doit
@@ -156,7 +158,8 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   Deux règles du cours : « fait » veut dire DoD remplie (11a) ; un état « prêt » reste un
   repère, pas une barrière (11b).
 - **Situation** : la DoD de l'équipe vélos exige l'heure de la dernière mise à jour sur chaque
-  vue et la définition écrite de chaque indicateur publié. Dans cet exercice, Diego propose à
+  vue et la définition écrite de chaque indicateur publié (sa règle de calcul, détaillée au
+  concept 12). Dans cet exercice, Diego propose à
   l'équipe vélos quatre états : À faire, Prêt, En cours, Fait. « Une story passe en Prêt quand
   toutes ses questions sont réglées, et en Fait quand son code est fusionné. »
 - **Question** : que proposes-tu de changer dans la proposition de Diego, et pourquoi ?
@@ -174,7 +177,8 @@ Diego, la répartition des features et le tableau proposé sont des propositions
   - garder « Fait » au code fusionné, « la DoD se vérifie à part » : demander « à la revue, que
     dit le tableau d'une story fusionnée sans définition de l'indicateur ? » ;
   - ajouter un état par étape (en recette, validé par Étienne…) : chaque état se tient à jour, et
-    les états ne racontent pas la vie d'une story (refinement, planning, revue : concept 15) ;
+    les états ne racontent pas la vie d'une story (comment elle se précise, entre au sprint et
+    passe en revue : concept 15) ;
   - supprimer « Prêt » parce que la DoR n'est pas dans le Scrum Guide : c'est un choix d'école,
     utile s'il reste un repère ;
   - ne corriger qu'un des deux états : demander « et l'autre ? ».

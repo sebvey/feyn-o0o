@@ -110,9 +110,8 @@ backlog émergent (3a2) ; les « pourquoi ? » successifs (5b) ; la règle non f
 fixer (8a2) ; la prévision des stations à risque découpée, le S de SPIDR, le spike nommé dans
 SPIDR et renvoyé ici (9a, 9b) ; dépendances (10) ; DoR (11b) ; définition d'un indicateur,
 qualité des données, fraîcheur (12) ; ordonner, le lien non établi d'une demande avec l'objectif
-produit (13a, 13a2) ; dire non, escalade (14). Nommés avec renvoi, sans les enseigner :
-refinement et Sprint Planning (15), la première version, les deux sens du MVP et la prévision
-« pour quand ? » (16b, 16c).
+produit (13a, 13a2) ; dire non, escalade (14) ; refinement et ce que le PO prépare au Sprint Planning (15) ; la
+première version, les deux sens du MVP et la prévision « pour quand ? » (16b, 16c).
 
 ## Banque d'exemples
 
@@ -142,7 +141,8 @@ l'apprenant de fixer un seuil ou un niveau, ni de dire si une hypothèse est vra
   risques avant de construire) va dans la correction, pas dans ce message. Si le message dépasse
   une quinzaine de lignes, le couper : l'explication, puis la situation et la question.
 - **Situation** : la prochaine tranche pour Régis est la prévision des stations à risque
-  (concept 9b). Au refinement, quatre phrases circulent :
+  (concept 9b). Fait déjà donné : la plateforme garde l'historique des relevés depuis son
+  lancement, il y a environ un an. Au refinement, quatre phrases circulent :
   1. « La plateforme garde l'historique des relevés depuis environ un an. »
   2. « La tendance de la dernière heure suffit pour voir quelles stations vont se vider. »
   3. « Quand il pleut, les stations se vident autrement. »
