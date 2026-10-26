@@ -25,3 +25,4 @@
   fichier, sans écrire aux questions intermédiaires ; un agent neuf qui reprend après une
   coupure en milieu du concept suivant annonce ce concept ; un arrêt annoncé en milieu de
   concept note la question en attente.
+- **Fait le** : 2026-10-26, points de sauvegarde (fin d'accueil ; concept validé, sauté ou creusé ; arrêt) dans `CLAUDE.md`, accueil en un appel à `init-learner.sh`, hook allégé, ADR-067. Test par trois sous-agents Sonnet sur copies : accueil sans écriture avant la 3e réponse puis un appel ; concept 1 validé en une écriture par fichier, rien au concept 2 entamé ; reprise après coupure au début du concept 2 ; arrêt annoncé avec la relance en attente et son rang.

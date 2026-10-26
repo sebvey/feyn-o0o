@@ -24,8 +24,7 @@ contexte de démarrage signale un fichier absent, lance
 1. Lis `learner/parcours.md` : où on en est (« Prochaine étape », statuts), donc le concept qui
    vient. C'est la seule lecture avant le premier message ; la liste des domaines vient du
    contexte de démarrage (sans lui, lis aussi « Domaines du cours » dans `course/plan.md`).
-2. Ne repose pas les questions d'accueil ; celles que le contexte de démarrage signale sans
-   réponse se posent une à une avant le rappel de reprise.
+2. Ne repose pas les questions d'accueil.
 3. Premier message : rappelle en deux lignes où on en est (dernier concept validé, prochain
    concept, creusage en cours s'il y en a un), puis demande s'il continue (le cours, ou le
    creusage en cours) ou veut creuser un domaine ou un concept, en listant les domaines (une
@@ -140,13 +139,13 @@ Donne chaque lien du site en lien Markdown, avec ce texte selon la page, jamais 
 - un concept validé se creuse par des exercices, un par message, sans le réexpliquer : une
   situation et une question, corrigées selon la boucle. Prends des cas de sa banque d'exemples
   que le journal ne nomme pas comme déjà posés, sinon des cas improvisés dans le fil rouge ;
-  note au journal le titre de chaque cas posé. Un cas réussi se clôt comme un sous-concept
+  le point de sauvegarde en note le titre au journal. Un cas réussi se clôt comme un sous-concept
   validé ; après deux cas réussis, le concept est creusé, et la suite proposée est le
   concept suivant du domaine creusé, ou le retour au fil si seul ce concept l'était.
 
-Dès que l'apprenant choisit de creuser, « Prochaine étape » note le creusage en cours (domaine
-ou concept, où on en est) sans effacer la suite du fil ; le rappel de reprise le nomme. Le
-domaine ou le concept creusé, retire la note et propose de revenir au fil, sans l'imposer.
+Un creusage en cours se note dans « Prochaine étape » au point de sauvegarde (domaine ou
+concept, où on en est), sans effacer la suite du fil ; le rappel de reprise le nomme. Le domaine
+ou le concept creusé, la note se retire ; propose de revenir au fil, sans l'imposer.
 
 L'apprenant peut aussi demander à sauter un domaine ou un concept pas encore validé : note
 `sauté` à chaque concept sauté, puis passe au domaine ou au concept qui suit dans l'ordre de
@@ -166,20 +165,24 @@ dis-le, et propose de l'enseigner avant de reprendre le fil, sans l'imposer.
 
 ## Tenir la mémoire à jour (sans le raconter)
 
-Écris dans la même réponse que le fait qui déclenche l'écriture : une coupure ne doit perdre que
-l'échange en cours.
+Pendant la session, garde l'état dans la conversation. N'écris dans `learner/` qu'aux points de
+sauvegarde, chaque fichier modifié en une seule écriture. Une coupure perd ce qui suit le
+dernier point ; la reprise repart du début du concept en cours.
 
-| Quand | Quoi | Où |
-|---|---|---|
-| Tu poses une question ou un exercice | Où on en est, l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste, en une ligne ; pour une question en plusieurs temps, la partie posée et ce que l'apprenant a juste aux précédentes ; retire ce qui est fait (consigne déjà suivie, question close) | « Prochaine étape » de `learner/parcours.md` |
-| Tu corriges une réponse sans relancer | Plus de question en attente, suite prévue | « Prochaine étape » de `learner/parcours.md` |
-| Première écriture de la session, puis chaque sous-concept validé et chaque mini-récap | La ligne de la session au journal : créée à la première écriture, complétée ensuite ; un récap s'y note « mini-récap 6-8 ». Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
-| Un concept change de statut | Son statut (`en cours`, `validé`, `sauté`, `à revoir`) | Tableau de `learner/parcours.md` |
-| Tu annonces une idée pour un concept à venir | L'idée, avec le numéro du concept | « Points annoncés pour plus tard » de `learner/parcours.md` |
-| Tu repères ce qui marche avec l'apprenant | `date, [concept], fait -> action` | « Leviers » de `learner/observations.md` |
-| Tu repères une difficulté pas encore surmontée | `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |
-| Un concept est compris, une vigilance surmontée | `[concept] fait (date)` ; la vigilance surmontée en sort | « Acquis » de `learner/observations.md` |
-| Une préférence apparaît ou change | La préférence, avec le fait | « Préférences » de `learner/apprenant.md` |
+Points de sauvegarde : la fin de l'accueil (skill `learner-onboarding`) ; un concept validé,
+sauté ou creusé, dans la réponse qui le clôt ; l'arrêt (ci-dessous). À chaque point, écris ce
+qui a changé depuis le précédent :
+
+| Quoi | Où |
+|---|---|
+| Où on en est : le concept qui vient, ou le creusage en cours (« Creuser ou sauter »). À l'arrêt seulement, la question en attente : l'énoncé (fichier du concept et titre dans sa banque, ou énoncé complet s'il est improvisé), la question mot pour mot ; pour une relance, son rang (1 ou 2) et ce que l'apprenant a déjà juste ; pour une question en plusieurs temps, la partie posée et ce que l'apprenant a juste aux précédentes. Retire ce qui est fait | « Prochaine étape » de `learner/parcours.md` |
+| La ligne de la session, créée au premier point de la session, complétée ensuite : concepts vus, titres des cas de creusage posés, mini-récap (« mini-récap 6-8 »). Une conversation neuve est une session neuve, même après une coupure | Journal de `learner/parcours.md` |
+| Le statut des concepts qui ont changé (`en cours`, `validé`, `sauté`, `à revoir`) | Tableau de `learner/parcours.md` |
+| Les idées annoncées pour un concept à venir, avec son numéro | « Points annoncés pour plus tard » de `learner/parcours.md` |
+| Ce qui marche avec l'apprenant : `date, [concept], fait -> action` | « Leviers » de `learner/observations.md` |
+| Les difficultés pas encore surmontées : `date, [concept], fait -> action` | « Vigilances actives » de `learner/observations.md` |
+| Les concepts compris, les vigilances surmontées : `[concept] fait (date)` ; la vigilance surmontée en sort | « Acquis » de `learner/observations.md` |
+| Les préférences apparues ou changées, avec le fait | « Préférences » de `learner/apprenant.md` |
 
 Dans `learner/`, n'écris une ligne que si, sans elle, l'agent suivant ferait autre chose
 (reposer une question, ignorer une difficulté connue, réexpliquer un acquis) ; la ligne de
@@ -194,7 +197,7 @@ au message suivant, quand l'apprenant relance.
 
 **Arrêt.** Dès que l'apprenant dit qu'on s'arrête (« on s'arrête », « fin de session », « je
 dois y aller », « on reprendra »), à tout moment :
-1. crée ou complète la ligne de la session au journal ;
+1. écris le point de sauvegarde ;
 2. relis `learner/parcours.md` comme un agent neuf : prochain concept, question en attente et
    son énoncé, vigilances du prochain concept ; corrige ce qui est absent ou ambigu ;
 3. réponds en deux lignes : progression enregistrée et il peut fermer, prochaine étape. Départ

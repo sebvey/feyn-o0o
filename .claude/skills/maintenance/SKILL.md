@@ -190,8 +190,8 @@ son brief.
 Pour un changement du cours, le scénario par défaut est « on reprend », puis « on continue »,
 puis un message de fin de session. Vérifie qu'il lit les bons chemins, annonce le bon concept,
 tient les 15 lignes, enseigne à partir du fichier du concept, prend ses exemples dans le fil
-rouge vélos, ne repose pas les questions d'accueil, et écrit la mémoire dans la même réponse
-que chaque fait, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observations dans la bonne
+rouge vélos, ne repose pas les questions d'accueil, et écrit la mémoire aux points de
+sauvegarde, selon « Tenir la mémoire à jour » de `CLAUDE.md` (observations dans la bonne
 section, journal et contrôle de
 reprise à l'arrêt).
 

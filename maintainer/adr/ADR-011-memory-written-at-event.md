@@ -1,7 +1,7 @@
 # ADR-011 : La mémoire s'écrit dans la même réponse que le fait ; plus de skill de sauvegarde
 
 - **Date** : 2026-10-22
-- **Statut** : complété par ADR-012, ADR-059
+- **Statut** : complété par ADR-012, ADR-059, ADR-067
 - **Ticket** : T-006
 
 ## Contexte
